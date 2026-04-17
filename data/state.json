@@ -1,0 +1,14 @@
+{
+  "openPositions": [],
+  "closedTrades": [],
+  "cooldowns": {},
+  "scanCount": 0,
+  "startedAt": null,
+  "lastScan": null,
+  "marketRegime": "UNKNOWN",
+  "fearGreed": 50,
+  "btcTrend": "NEUTRAL",
+  "totalStats": { "trades": 0, "wins": 0, "losses": 0, "totalPnl": 0, "invested": 0 },
+  "byStrategy": {},
+  "byRegime": {}
+}
