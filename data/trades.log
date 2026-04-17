@@ -313,3 +313,72 @@
 [2026-04-17 20:06:57 UTC] ⚠ CoinGecko недоступен
 [2026-04-17 20:06:57 UTC] 
 📊 ИТОГ: WR=78.3% PnL=$0.58 Trades=23
+[2026-04-17 20:59:48 UTC] ════════════════════════════════════════════════════
+[2026-04-17 20:59:48 UTC] 🤖 Bot v4.1 | action=scan | report=false
+[2026-04-17 20:59:48 UTC] ════════════════════════════════════════════════════
+[2026-04-17 20:59:48 UTC] 📡 Scan #13
+[2026-04-17 20:59:49 UTC] 🌡 F&G=21 Regime=NEUTRAL Open=27
+[2026-04-17 20:59:49 UTC]   📂 HOLD BTC/s7 PnL=+0.09%
+[2026-04-17 20:59:49 UTC]   📂 HOLD ETH/s7 PnL=-0.00%
+[2026-04-17 20:59:49 UTC]   📂 HOLD XRP/s7 PnL=-0.55%
+[2026-04-17 20:59:50 UTC]   📂 HOLD BNB/s7 PnL=-0.05%
+[2026-04-17 20:59:50 UTC]   📂 HOLD SOL/s7 PnL=-0.24%
+[2026-04-17 20:59:50 UTC]   📂 HOLD TRX/s7 PnL=+0.14%
+[2026-04-17 20:59:51 UTC]   📂 HOLD TRX/s8 PnL=+0.14%
+[2026-04-17 20:59:51 UTC]   📂 HOLD DOGE/s7 PnL=+0.21%
+[2026-04-17 20:59:51 UTC]   📂 HOLD WBT/s7 PnL=-0.01%
+[2026-04-17 20:59:51 UTC]   📂 HOLD HYPE/s7 PnL=+0.90%
+[2026-04-17 20:59:52 UTC]   📂 HOLD ADA/s7 PnL=-0.19%
+[2026-04-17 20:59:52 UTC]   📂 HOLD LEO/s7 PnL=+0.01%
+[2026-04-17 20:59:52 UTC]   📂 HOLD LINK/s7 PnL=-0.19%
+[2026-04-17 20:59:52 UTC]   📂 HOLD M/s7 PnL=+0.40%
+[2026-04-17 20:59:53 UTC]   📂 HOLD XMR/s7 PnL=-0.38%
+[2026-04-17 20:59:53 UTC]   ❌ CLOSE XMR/s9: Upper BB $354.8755 PnL=-0.38% held=1ч 12м
+[2026-04-17 20:59:54 UTC]   📂 HOLD XLM/s7 PnL=+0.22%
+[2026-04-17 20:59:54 UTC]   📂 HOLD CC/s7 PnL=+0.49%
+[2026-04-17 20:59:54 UTC]   📂 HOLD LTC/s7 PnL=-0.09%
+[2026-04-17 20:59:55 UTC]   📂 HOLD AVAX/s7 PnL=-0.04%
+[2026-04-17 20:59:55 UTC]   📂 HOLD SUI/s7 PnL=-0.04%
+[2026-04-17 20:59:55 UTC]   📂 HOLD SHIB/s7 PnL=-0.31%
+[2026-04-17 20:59:55 UTC]   📂 HOLD TON/s7 PnL=+0.64%
+[2026-04-17 20:59:55 UTC]   📂 HOLD XAUT/s7 PnL=-0.50%
+[2026-04-17 20:59:56 UTC]   📂 HOLD WLFI/s1 PnL=-0.11%
+[2026-04-17 20:59:56 UTC]   📂 HOLD PAXG/s7 PnL=-0.53%
+[2026-04-17 20:59:56 UTC]   📂 HOLD NEAR/s7 PnL=-0.28%
+[2026-04-17 20:59:56 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-04-17 20:59:56 UTC] ✓ CoinGecko: 78 токенов. Проверяю входы...
+[2026-04-17 20:59:56 UTC]   📈 ENTRY BTC/s9 [BULL] via OKX: BB Squeeze BW=19.5% @ $77345.6
+[2026-04-17 20:59:58 UTC]   📈 ENTRY XRP/s9 [BULL_TREND] via OKX: BB Squeeze BW=15.6% @ $1.4816
+[2026-04-17 20:59:59 UTC]   📈 ENTRY BNB/s9 [RANGE] via OKX: BB Squeeze BW=11.0% @ $640.9
+[2026-04-17 21:00:00 UTC]   📈 ENTRY SOL/s9 [RANGE] via OKX: BB Squeeze BW=14.2% @ $89.01
+[2026-04-17 21:00:01 UTC]   📈 ENTRY TRX/s9 [BULL] via OKX: BB Squeeze BW=5.4% @ $0.32736
+[2026-04-17 21:00:02 UTC]   📈 ENTRY DOGE/s9 [BULL_TREND] via OKX: BB Squeeze BW=12.5% @ $0.1002
+[2026-04-17 21:00:03 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-04-17 21:00:04 UTC]   📈 ENTRY ADA/s9 [RANGE] via OKX: BB Squeeze BW=11.6% @ $0.2606
+[2026-04-17 21:00:05 UTC]   📈 ENTRY LEO/s9 [BULL] via OKX: BB Squeeze BW=4.0% @ $10.15
+[2026-04-17 21:00:06 UTC]   📈 ENTRY BCH/s9 [RANGE] via OKX: BB Squeeze BW=11.5% @ $454.2
+[2026-04-17 21:00:07 UTC]   📈 ENTRY LINK/s9 [BULL] via OKX: BB Squeeze BW=14.8% @ $9.65
+[2026-04-17 21:00:08 UTC]   ⏭ M: нет данных (memecore)
+[2026-04-17 21:00:09 UTC]   ⏭ XMR: нет данных (monero)
+[2026-04-17 21:00:09 UTC]   📈 ENTRY CC/s3 [RANGE] via OKX: Просадка -8.8% от 7d hi ($0.1659) @ $0.15134
+[2026-04-17 21:00:09 UTC]   📈 ENTRY CC/s9 [RANGE] via OKX: BB Squeeze BW=11.9% @ $0.15134
+[2026-04-17 21:00:10 UTC]   📈 ENTRY XLM/s9 [BULL_TREND] via OKX: BB Squeeze BW=17.9% @ $0.17475
+[2026-04-17 21:00:12 UTC]   ⏭ RAVE: нет данных (ravedao)
+[2026-04-17 21:00:12 UTC]   📈 ENTRY LTC/s9 [RANGE] via OKX: BB Squeeze BW=8.7% @ $56.63
+[2026-04-17 21:00:13 UTC]   📈 ENTRY AVAX/s9 [RANGE] via OKX: BB Squeeze BW=14.4% @ $9.785
+[2026-04-17 21:00:15 UTC]   📈 ENTRY HBAR/s9 [RANGE] via OKX: BB Squeeze BW=9.7% @ $0.0908
+[2026-04-17 21:00:15 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-04-17 21:00:16 UTC]   📈 ENTRY SHIB/s9 [BULL] via OKX: BB Squeeze BW=10.9% @ $0.000006341
+[2026-04-17 21:00:17 UTC]   📈 ENTRY CRO/s9 [RANGE] via OKX: BB Squeeze BW=6.1% @ $0.07198
+[2026-04-17 21:00:18 UTC]   📈 ENTRY XAUT/s9 [RANGE] via OKX: BB Squeeze BW=6.9% @ $4809
+[2026-04-17 21:00:20 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-04-17 21:00:20 UTC]   ⏭ TAO: нет данных (bittensor)
+[2026-04-17 21:00:21 UTC]   📈 ENTRY PAXG/s9 [RANGE] via OKX: BB Squeeze BW=6.7% @ $4816.1
+[2026-04-17 21:00:22 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-04-17 21:00:22 UTC]   📈 ENTRY DOT/s9 [BEAR] via OKX: BB Squeeze BW=15.8% @ $1.331
+[2026-04-17 21:00:24 UTC]   📈 ENTRY SKY/s7 [BULL] via OKX: EMA9>EMA21 тренд ↑ (+0.99%) @ $0.07849
+[2026-04-17 21:00:24 UTC]   📈 ENTRY SKY/s9 [BULL] via OKX: BB Squeeze BW=8.9% @ $0.07849
+[2026-04-17 21:00:25 UTC]   📈 ENTRY OKB/s7 [RANGE] via OKX: EMA9 Golden Cross ↑ (+0.06%) @ $86.5
+[2026-04-17 21:00:26 UTC] ✅ Данные: 31 токенов OK, 8 недоступно | Открыто: 24 | Всего: 50
+[2026-04-17 21:00:26 UTC] 
+📊 ИТОГ: WR=75.0% PnL=$0.21 Trades=24
