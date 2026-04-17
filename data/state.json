@@ -2,13 +2,20 @@
   "openPositions": [],
   "closedTrades": [],
   "cooldowns": {},
-  "scanCount": 0,
-  "startedAt": null,
-  "lastScan": null,
-  "marketRegime": "UNKNOWN",
-  "fearGreed": 50,
+  "scanCount": 1,
+  "startedAt": "2026-04-17T15:26:24.381Z",
+  "lastScan": "2026-04-17T15:26:30.555Z",
+  "marketRegime": "NEUTRAL",
+  "fearGreed": 21,
   "btcTrend": "NEUTRAL",
-  "totalStats": { "trades": 0, "wins": 0, "losses": 0, "totalPnl": 0, "invested": 0 },
+  "totalStats": {
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "totalPnl": 0,
+    "invested": 0
+  },
   "byStrategy": {},
-  "byRegime": {}
+  "byRegime": {},
+  "lastReport": "2026-04-17T15:26:30.555Z"
 }
