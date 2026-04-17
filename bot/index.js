@@ -103,6 +103,16 @@ async function fetchK(sym,limit=40){try{const r=await fetch(`https://api.binance
 async function main(){
   fs.mkdirSync(path.dirname(LOG_FILE),{recursive:true});
   log('═'.repeat(50));log(`🤖 Bot v3 | action=${CFG.action} | report=${CFG.isReport}`);log('═'.repeat(50));
+  // Стартовое сообщение в TG
+  await tg(
+    `🤖 <b>Trading Bot запущен</b>\n\n` +
+    `📡 Действие: <b>${CFG.action}</b>\n` +
+    `🕐 Время: ${new Date().toLocaleString('ru-RU', {timeZone:'UTC',hour12:false})} UTC\n` +
+    `📊 Токенов в списке: ${CFG.tokens.length}\n` +
+    `💰 Размер позиции: $${CFG.positionSize}\n` +
+    `⚡ Cooldown: ${CFG.cooldownMin} мин\n\n` +
+    `<i>Сканирование запущено...</i>`
+  );
   const state=loadState();if(!state.startedAt)state.startedAt=new Date().toISOString();
 
   if(CFG.action==='reset_state'){const f=emptyState();fs.writeFileSync(STATE_FILE,JSON.stringify(f,null,2));log('✅ Reset');fs.mkdirSync(path.dirname(DASH_FILE),{recursive:true});fs.writeFileSync(DASH_FILE,buildDash(f));return;}
