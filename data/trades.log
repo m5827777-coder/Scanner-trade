@@ -65,3 +65,15 @@
 [2026-04-17 18:11:55 UTC] ✅ Opened:0 Total open:0
 [2026-04-17 18:11:55 UTC] 
 📊 WR=0% PnL=$0.00 Trades=0
+[2026-04-17 18:53:25 UTC] ══════════════════════════════════════════════════
+[2026-04-17 18:53:25 UTC] 🤖 Bot v3 | action=scan | report=true
+[2026-04-17 18:53:25 UTC] ══════════════════════════════════════════════════
+[2026-04-17 18:53:25 UTC] 📡 Scan #8
+[2026-04-17 18:53:26 UTC] 🌡 F&G=21 Regime=NEUTRAL Open=0
+[2026-04-17 18:53:26 UTC] 🔎 Scanning 100 tokens...
+[2026-04-17 18:53:32 UTC] ✅ Opened:0 Total open:0
+[2026-04-17 18:53:33 UTC] [EMAIL ERR] Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8b02ae92fc8sm16586176d6.40 - gsmtp
+[2026-04-17 18:53:33 UTC] 📧 6h report sent
+[2026-04-17 18:53:33 UTC] 
+📊 WR=0% PnL=$0.00 Trades=0
