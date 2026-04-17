@@ -189,3 +189,68 @@
 [2026-04-17 19:37:02 UTC] ✅ Проверено: 93 токенов | Открыто: 0 | Всего открытых: 0
 [2026-04-17 19:37:02 UTC] 
 📊 ИТОГ: WR=0% PnL=$0.00 Trades=0
+[2026-04-17 19:47:04 UTC] ════════════════════════════════════════════════════
+[2026-04-17 19:47:04 UTC] 🤖 Bot v4.1 | action=scan | report=false
+[2026-04-17 19:47:04 UTC] ════════════════════════════════════════════════════
+[2026-04-17 19:47:04 UTC] 📡 Scan #11
+[2026-04-17 19:47:05 UTC] 🌡 F&G=21 Regime=NEUTRAL Open=0
+[2026-04-17 19:47:05 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-04-17 19:47:05 UTC] ✓ CoinGecko: 78 токенов. Проверяю входы...
+[2026-04-17 19:47:05 UTC]   📈 ENTRY BTC/s7 [BULL] via OKX: EMA9>EMA21 тренд ↑ (+2.96%) @ $77274.7
+[2026-04-17 19:47:06 UTC]   📈 ENTRY BTC/s9 [BULL] via OKX: BB Squeeze BW=19.4% @ $77274.7
+[2026-04-17 19:47:07 UTC]   📈 ENTRY ETH/s7 [BULL] via OKX: EMA9>EMA21 тренд ↑ (+3.90%) @ $2427.02
+[2026-04-17 19:47:08 UTC]   📈 ENTRY XRP/s7 [BULL_TREND] via OKX: EMA9>EMA21 тренд ↑ (+2.00%) @ $1.4897
+[2026-04-17 19:47:08 UTC]   📈 ENTRY XRP/s9 [BULL_TREND] via OKX: BB Squeeze BW=15.9% @ $1.4897
+[2026-04-17 19:47:09 UTC]   📈 ENTRY BNB/s7 [RANGE] via OKX: EMA9>EMA21 тренд ↑ (+0.83%) @ $641.2
+[2026-04-17 19:47:10 UTC]   📈 ENTRY BNB/s9 [RANGE] via OKX: BB Squeeze BW=11.1% @ $641.2
+[2026-04-17 19:47:10 UTC]   📈 ENTRY SOL/s7 [RANGE] via OKX: EMA9>EMA21 тренд ↑ (+1.26%) @ $89.22
+[2026-04-17 19:47:11 UTC]   📈 ENTRY SOL/s9 [RANGE] via OKX: BB Squeeze BW=14.3% @ $89.22
+[2026-04-17 19:47:12 UTC]   📈 ENTRY TRX/s7 [BULL] via OKX: EMA9>EMA21 тренд ↑ (+1.44%) @ $0.32691
+[2026-04-17 19:47:12 UTC]   📈 ENTRY TRX/s8 [BULL] via OKX: Bullish divergence: цена↓ MACD↑ @ $0.32691
+[2026-04-17 19:47:13 UTC]   📈 ENTRY TRX/s9 [BULL] via OKX: BB Squeeze BW=5.4% @ $0.32691
+[2026-04-17 19:47:14 UTC]   📈 ENTRY FIGR_HELOC/s9 [RANGE] via CoinGecko: BB Squeeze BW=3.2% @ $1.0338503
+[2026-04-17 19:47:15 UTC]   📈 ENTRY DOGE/s7 [BULL] via OKX: EMA9>EMA21 тренд ↑ (+1.69%) @ $0.09998
+[2026-04-17 19:47:15 UTC]   📈 ENTRY DOGE/s9 [BULL] via OKX: BB Squeeze BW=12.3% @ $0.09998
+[2026-04-17 19:47:16 UTC]   📈 ENTRY WBT/s7 [RANGE] via CoinGecko: EMA9>EMA21 тренд ↑ (+1.21%) @ $56.24739692840235
+[2026-04-17 19:47:17 UTC]   📈 ENTRY WBT/s9 [RANGE] via CoinGecko: BB Squeeze BW=10.8% @ $56.24739692840235
+[2026-04-17 19:47:18 UTC]   📈 ENTRY HYPE/s7 [BULL] via OKX: EMA9>EMA21 тренд ↑ (+5.04%) @ $44.295
+[2026-04-17 19:47:19 UTC]   📈 ENTRY ADA/s7 [RANGE] via OKX: EMA9 Golden Cross ↑ (+0.30%) @ $0.261
+[2026-04-17 19:47:19 UTC]   📈 ENTRY ADA/s9 [RANGE] via OKX: BB Squeeze BW=11.6% @ $0.261
+[2026-04-17 19:47:20 UTC]   📈 ENTRY LEO/s7 [BULL] via OKX: EMA9>EMA21 тренд ↑ (+1.28%) @ $10.149
+[2026-04-17 19:47:20 UTC]   📈 ENTRY LEO/s9 [BULL] via OKX: BB Squeeze BW=4.0% @ $10.149
+[2026-04-17 19:47:21 UTC]   📈 ENTRY BCH/s9 [RANGE] via OKX: BB Squeeze BW=11.5% @ $455
+[2026-04-17 19:47:22 UTC]   📈 ENTRY LINK/s7 [BULL] via OKX: EMA9>EMA21 тренд ↑ (+2.12%) @ $9.667
+[2026-04-17 19:47:23 UTC]   📈 ENTRY LINK/s9 [BULL] via OKX: BB Squeeze BW=14.9% @ $9.667
+[2026-04-17 19:47:24 UTC]   📈 ENTRY M/s7 [BULL_TREND] via CoinGecko: EMA9>EMA21 тренд ↑ (+12.97%) @ $3.783320157133379
+[2026-04-17 19:47:25 UTC]   📈 ENTRY XMR/s7 [RANGE] via CoinGecko: EMA9>EMA21 тренд ↑ (+0.91%) @ $348.7334278519018
+[2026-04-17 19:47:25 UTC]   📈 ENTRY XMR/s9 [RANGE] via CoinGecko: BB Squeeze BW=11.8% @ $348.7334278519018
+[2026-04-17 19:47:26 UTC]   📈 ENTRY XLM/s7 [BULL_TREND] via OKX: EMA9 Golden Cross ↑ (+0.90%) @ $0.17437
+[2026-04-17 19:47:27 UTC]   📈 ENTRY XLM/s9 [BULL_TREND] via OKX: BB Squeeze BW=17.8% @ $0.17437
+[2026-04-17 19:47:28 UTC]   📈 ENTRY CC/s3 [RANGE] via OKX: Просадка -9.2% от 7d hi ($0.1659) @ $0.1506
+[2026-04-17 19:47:28 UTC]   📈 ENTRY CC/s7 [RANGE] via OKX: EMA9>EMA21 тренд ↑ (+1.05%) @ $0.1506
+[2026-04-17 19:47:28 UTC]   📈 ENTRY CC/s9 [RANGE] via OKX: BB Squeeze BW=11.8% @ $0.1506
+[2026-04-17 19:47:30 UTC]   ⏭ RAVE: нет данных (ravedao)
+[2026-04-17 19:47:30 UTC]   📈 ENTRY LTC/s7 [RANGE] via OKX: EMA9>EMA21 тренд ↑ (+0.98%) @ $56.7
+[2026-04-17 19:47:31 UTC]   📈 ENTRY LTC/s9 [RANGE] via OKX: BB Squeeze BW=8.7% @ $56.7
+[2026-04-17 19:47:32 UTC]   📈 ENTRY AVAX/s7 [RANGE] via OKX: EMA9>EMA21 тренд ↑ (+1.52%) @ $9.788
+[2026-04-17 19:47:32 UTC]   📈 ENTRY AVAX/s9 [RANGE] via OKX: BB Squeeze BW=14.4% @ $9.788
+[2026-04-17 19:47:33 UTC]   📈 ENTRY SUI/s7 [BULL_TREND] via OKX: EMA9>EMA21 тренд ↑ (+2.60%) @ $1.0127
+[2026-04-17 19:47:34 UTC]   📈 ENTRY HBAR/s9 [RANGE] via OKX: BB Squeeze BW=9.8% @ $0.09103
+[2026-04-17 19:47:35 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-04-17 19:47:35 UTC]   📈 ENTRY SHIB/s7 [BULL] via OKX: EMA9>EMA21 тренд ↑ (+1.48%) @ $0.000006361
+[2026-04-17 19:47:36 UTC]   📈 ENTRY SHIB/s9 [BULL] via OKX: BB Squeeze BW=11.0% @ $0.000006361
+[2026-04-17 19:47:37 UTC]   📈 ENTRY TON/s7 [BULL] via OKX: EMA9>EMA21 тренд ↑ (+3.16%) @ $1.399
+[2026-04-17 19:47:38 UTC]   📈 ENTRY CRO/s9 [RANGE] via OKX: BB Squeeze BW=6.1% @ $0.07202
+[2026-04-17 19:47:39 UTC]   📈 ENTRY XAUT/s7 [BULL] via OKX: EMA9>EMA21 тренд ↑ (+0.86%) @ $4833.6
+[2026-04-17 19:47:39 UTC]   📈 ENTRY XAUT/s9 [BULL] via OKX: BB Squeeze BW=7.0% @ $4833.6
+[2026-04-17 19:47:40 UTC]   📈 ENTRY WLFI/s1 [BEAR] via OKX: RSI=35.7 ≤ 38 @ $0.08208
+[2026-04-17 19:47:41 UTC]   ⏭ TAO: нет данных (bittensor)
+[2026-04-17 19:47:42 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-04-17 19:47:42 UTC]   📈 ENTRY PAXG/s7 [BULL] via OKX: EMA9>EMA21 тренд ↑ (+0.81%) @ $4842.1
+[2026-04-17 19:47:42 UTC]   📈 ENTRY PAXG/s9 [BULL] via OKX: BB Squeeze BW=6.9% @ $4842.1
+[2026-04-17 19:47:43 UTC]   📈 ENTRY DOT/s9 [BEAR] via OKX: BB Squeeze BW=15.9% @ $1.335
+[2026-04-17 19:47:44 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-04-17 19:47:45 UTC]   📈 ENTRY NEAR/s7 [BULL] via OKX: EMA9>EMA21 тренд ↑ (+3.32%) @ $1.426
+[2026-04-17 19:47:46 UTC] ✅ Данные: 32 токенов OK, 5 недоступно | Открыто: 50 | Всего: 50
+[2026-04-17 19:47:46 UTC] 
+📊 ИТОГ: WR=0% PnL=$0.00 Trades=0
