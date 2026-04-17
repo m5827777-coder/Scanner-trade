@@ -2,8 +2,8 @@ name: 🤖 Trading Bot
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
-    - cron: '0 */6 * * *'
+    - cron: '*/5 * * * *'      # каждые 5 минут
+    - cron: '0 */6 * * *'      # каждые 6 часов — email отчёт
   workflow_dispatch:
     inputs:
       action:
@@ -16,6 +16,7 @@ on:
 jobs:
   bot:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     permissions:
       contents: write
 
@@ -47,4 +48,4 @@ jobs:
           git config user.name  "TradingBot"
           git config user.email "bot@noreply.github.com"
           git add data/ dashboard/
-          git diff --staged --quiet || git commit -m "scan update" && git push
+          git diff --staged --quiet || git commit -m "scan #$(python3 -c 'import json;d=json.load(open(\"data/state.json\"));print(d.get(\"scanCount\",0))')" && git push
