@@ -8,9 +8,9 @@ const { STRATEGIES, REGIME_PERFORMANCE, detectRegime } = require('./strategies')
 // CONFIG
 const CFG = {
   positionSize: 100, cooldownMin: 60, maxOpenPos: 50, minHoldMin: 0,
-  tgToken:   process.env.TG_TOKEN   || '8656633074:AAF_wY9b4iENW6HJ0HvZE2Ir-YHmmdCl16Y',
-  tgChat:    process.env.TG_CHAT_ID || '73400175',
-  emailTo:   process.env.EMAIL_TO   || 'm5827777@gmail.com',
+tgToken: process.env.TG_TOKEN   || '',
+tgChat:  process.env.TG_CHAT_ID || '',
+  emailTo:   process.env.EMAIL_TO || '',
   gmailUser: process.env.GMAIL_USER     || '',
   gmailPass: process.env.GMAIL_APP_PASS || '',
   action:    process.env.ACTION         || 'scan',
