@@ -384,7 +384,7 @@ async function main(){
 
       for(const sid of STRAT_IDS){
         if(state.openPositions.length>=CFG.maxOpenPos)break;
-        if(hasOpen(state,sym,sid))continue;
+        if(hasOpen(state,sym)||!canEnter(state,sym,sid))continue; 
         if(!canEnter(state,sym,sid))continue;
 
         const s=STRATEGIES[sid];
