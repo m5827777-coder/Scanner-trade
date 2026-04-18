@@ -758,3 +758,76 @@
 [2026-04-18 01:05:45 UTC] 📧 6h report sent
 [2026-04-18 01:05:45 UTC] 
 📊 ИТОГ: WR=56.0% PnL=$-3.44 Trades=75
+[2026-04-18 01:55:44 UTC] ════════════════════════════════════════════════════
+[2026-04-18 01:55:44 UTC] 🤖 Bot v4.1 | action=scan | report=true
+[2026-04-18 01:55:44 UTC] ════════════════════════════════════════════════════
+[2026-04-18 01:55:44 UTC] 📡 Scan #19
+[2026-04-18 01:55:44 UTC] 🌡 F&G=26 Regime=NEUTRAL Open=50
+[2026-04-18 01:55:44 UTC]   📂 HOLD BTC/s7 PnL=-0.14%
+[2026-04-18 01:55:45 UTC]   📂 HOLD ETH/s7 PnL=-0.34%
+[2026-04-18 01:55:45 UTC]   📂 HOLD XRP/s7 PnL=-0.97%
+[2026-04-18 01:55:45 UTC]   📂 HOLD BNB/s7 PnL=+0.51%
+[2026-04-18 01:55:45 UTC]   📂 HOLD SOL/s7 PnL=-0.49%
+[2026-04-18 01:55:45 UTC]   📂 HOLD TRX/s7 PnL=+0.00%
+[2026-04-18 01:55:46 UTC]   📂 HOLD TRX/s8 PnL=+0.00%
+[2026-04-18 01:55:46 UTC]   📂 HOLD DOGE/s7 PnL=-0.99%
+[2026-04-18 01:55:46 UTC]   📂 HOLD WBT/s7 PnL=-0.13%
+[2026-04-18 01:55:46 UTC]   📂 HOLD HYPE/s7 PnL=+1.53%
+[2026-04-18 01:55:47 UTC]   📂 HOLD ADA/s7 PnL=-1.49%
+[2026-04-18 01:55:47 UTC]   📂 HOLD LEO/s7 PnL=+0.12%
+[2026-04-18 01:55:47 UTC]   📂 HOLD LINK/s7 PnL=-0.96%
+[2026-04-18 01:55:47 UTC]   📂 HOLD M/s7 PnL=+15.25%
+[2026-04-18 01:55:47 UTC]   📂 HOLD XMR/s7 PnL=-0.58%
+[2026-04-18 01:55:48 UTC]   📂 HOLD XLM/s7 PnL=-0.54%
+[2026-04-18 01:55:48 UTC]   📂 HOLD CC/s7 PnL=-0.55%
+[2026-04-18 01:55:48 UTC]   📂 HOLD LTC/s7 PnL=-0.60%
+[2026-04-18 01:55:48 UTC]   📂 HOLD AVAX/s7 PnL=-0.99%
+[2026-04-18 01:55:48 UTC]   📂 HOLD SUI/s7 PnL=-1.96%
+[2026-04-18 01:55:49 UTC]   📂 HOLD SHIB/s7 PnL=-1.71%
+[2026-04-18 01:55:49 UTC]   📂 HOLD TON/s7 PnL=+0.43%
+[2026-04-18 01:55:49 UTC]   📂 HOLD XAUT/s7 PnL=-0.32%
+[2026-04-18 01:55:49 UTC]   📂 HOLD WLFI/s1 PnL=-1.83%
+[2026-04-18 01:55:49 UTC]   📂 HOLD PAXG/s7 PnL=-0.32%
+[2026-04-18 01:55:49 UTC]   📂 HOLD NEAR/s7 PnL=-2.10%
+[2026-04-18 01:55:50 UTC]   📂 HOLD CC/s9 PnL=-1.04%
+[2026-04-18 01:55:50 UTC]   📂 HOLD SKY/s7 PnL=-0.90%
+[2026-04-18 01:55:50 UTC]   📂 HOLD OKB/s7 PnL=-0.13%
+[2026-04-18 01:55:50 UTC]   📂 HOLD AAVE/s7 PnL=-0.90%
+[2026-04-18 01:55:50 UTC]   📂 HOLD PEPE/s7 PnL=-1.60%
+[2026-04-18 01:55:50 UTC]   📂 HOLD ICP/s7 PnL=-0.65%
+[2026-04-18 01:55:51 UTC]   📂 HOLD ETC/s7 PnL=-1.09%
+[2026-04-18 01:55:51 UTC]   📂 HOLD ONDO/s7 PnL=-1.50%
+[2026-04-18 01:55:51 UTC]   📂 HOLD PUMP/s7 PnL=-1.48%
+[2026-04-18 01:55:51 UTC]   📂 HOLD ENA/s7 PnL=-5.71%
+[2026-04-18 01:55:51 UTC]   📂 HOLD MORPHO/s7 PnL=-0.09%
+[2026-04-18 01:55:52 UTC]   📂 HOLD ALGO/s7 PnL=-1.89%
+[2026-04-18 01:55:52 UTC]   📂 HOLD RENDER/s7 PnL=-2.11%
+[2026-04-18 01:55:52 UTC]   📂 HOLD POL/s9 PnL=-0.94%
+[2026-04-18 01:55:52 UTC]   📂 HOLD WLD/s3 PnL=-1.16%
+[2026-04-18 01:55:52 UTC]   📂 HOLD ATOM/s7 PnL=-0.70%
+[2026-04-18 01:55:53 UTC]   📂 HOLD BCH/s9 PnL=-0.07%
+[2026-04-18 01:55:53 UTC]   ❌ CLOSE BTC/s9: Upper BB $77884.5985 PnL=-0.02% held=50м
+[2026-04-18 01:55:54 UTC]   ❌ CLOSE XRP/s9: Upper BB $1.4586 PnL=-0.22% held=50м
+[2026-04-18 01:55:55 UTC]   ✅ CLOSE BNB/s9: Upper BB $642.5370 PnL=+0.06% held=50м
+[2026-04-18 01:55:55 UTC]   ❌ CLOSE SOL/s9: Upper BB $89.1710 PnL=-0.19% held=50м
+[2026-04-18 01:55:56 UTC]   ❌ CLOSE TRX/s9: Upper BB $0.3279 PnL=-0.09% held=50м
+[2026-04-18 01:55:57 UTC]   ❌ CLOSE DOGE/s9: Upper BB $0.0988 PnL=-0.44% held=50м
+[2026-04-18 01:55:58 UTC]   ❌ CLOSE ADA/s9: Upper BB $0.2616 PnL=-0.66% held=50м
+[2026-04-18 01:55:58 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-04-18 01:55:58 UTC] ✓ CoinGecko: 78 токенов. Проверяю входы...
+[2026-04-18 01:56:02 UTC]   📈 ENTRY WBT/s9 [RANGE] via CoinGecko: BB Squeeze BW=11.5% @ $56.17178513957034
+[2026-04-18 01:56:04 UTC]   📈 ENTRY LEO/s9 [BULL] via OKX: BB Squeeze BW=4.1% @ $10.161
+[2026-04-18 01:56:06 UTC]   ⏭ M: нет данных (memecore)
+[2026-04-18 01:56:06 UTC]   📈 ENTRY LINK/s9 [BULL] via OKX: BB Squeeze BW=14.5% @ $9.577
+[2026-04-18 01:56:07 UTC]   ⏭ RAVE: нет данных (ravedao)
+[2026-04-18 01:56:07 UTC]   ⏭ XMR: нет данных (monero)
+[2026-04-18 01:56:08 UTC]   📈 ENTRY XLM/s9 [BULL_TREND] via OKX: BB Squeeze BW=17.6% @ $0.1734
+[2026-04-18 01:56:09 UTC]   📈 ENTRY CC/s3 [RANGE] via OKX: Просадка -9.7% от 7d hi ($0.1659) @ $0.14978
+[2026-04-18 01:56:10 UTC]   📈 ENTRY LTC/s9 [RANGE] via OKX: BB Squeeze BW=8.5% @ $56.36
+[2026-04-18 01:56:11 UTC]   📈 ENTRY AVAX/s9 [RANGE] via OKX: BB Squeeze BW=14.1% @ $9.694
+[2026-04-18 01:56:12 UTC] ✅ Данные: 19 токенов OK, 3 недоступно | Открыто: 7 | Всего: 50
+[2026-04-18 01:56:13 UTC] [EMAIL ERR] Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-12c749dc86bsm5919879c88.8 - gsmtp
+[2026-04-18 01:56:13 UTC] 📧 6h report sent
+[2026-04-18 01:56:13 UTC] 
+📊 ИТОГ: WR=52.4% PnL=$-5.01 Trades=82
