@@ -42,7 +42,7 @@ function saveState(st){fs.mkdirSync(path.dirname(STATE_FILE),{recursive:true});s
 
 const canEnter=(st,sym,sid)=>Date.now()-(st.cooldowns[`${sym}_${sid}`]||0)>CFG.cooldownMin*60000;
 const markEnter=(st,sym,sid)=>{st.cooldowns[`${sym}_${sid}`]=Date.now();};
-const hasOpen=(st,sym,sid)=>st.openPositions.some(p=>p.symbol===sym&&p.stratId===sid);
+const hasOpen=(st,sym)=>st.openPositions.some(p=>p.symbol===sym);
 
 function updStats(st,t){
   const win=t.pnl>=0,ts=st.totalStats;
