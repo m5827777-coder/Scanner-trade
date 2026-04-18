@@ -42,7 +42,7 @@ function saveState(st){fs.mkdirSync(path.dirname(STATE_FILE),{recursive:true});s
 
 const canEnter=(st,sym,sid)=>Date.now()-(st.cooldowns[`${sym}_${sid}`]||0)>CFG.cooldownMin*60000;
 const markEnter=(st,sym,sid)=>{st.cooldowns[`${sym}_${sid}`]=Date.now();};
-const hasOpen=(st,sym)=>st.openPositions.some(p=>p.symbol===sym);
+const hasOpen=(st,sym,sid)=>st.openPositions.some(p=>p.symbol===sym&&p.stratId===sid);
 
 function updStats(st,t){
   const win=t.pnl>=0,ts=st.totalStats;
@@ -266,24 +266,9 @@ function calcEMA(closes, period){
   return closes.map(v=>{e=v*k+e*(1-k);return e;});
 }
 
-// ── Extended entry check (EMA uses trend not just crossover) ──
+// checkEntry — передаём напрямую в стратегию (все обработаны в strategies.js)
 function checkEntryEx(stratId, bars, params){
-  if(!bars||bars.length<22) return null;
-  const closes=bars.map(b=>b.close);
-  const n=bars.length-1;
-
-  if(stratId==='s7'){
-    const emF=params.emaFast||9, emS=params.emaSlow||21;
-    if(bars.length<emS+3) return{signal:false,extra:'мало данных'};
-    const ef=calcEMA(closes,emF), es=calcEMA(closes,emS);
-    const crossUp=ef[n]>es[n]&&ef[n-1]<=es[n-1];
-    const trend=ef[n]>es[n];
-    const spread=((ef[n]-es[n])/es[n]*100).toFixed(2);
-    if(crossUp) return{signal:true,detail:`EMA${emF} Golden Cross ↑ (+${spread}%)`,strength:85};
-    if(trend&&parseFloat(spread)>0.3) return{signal:true,detail:`EMA${emF}>EMA${emS} тренд ↑ (+${spread}%)`,strength:55};
-    return{signal:false,extra:trend?`EMA▲${spread}%`:'EMA▼'};
-  }
-  return STRATEGIES[stratId]?.checkEntry(bars,params)||null;
+  return STRATEGIES[stratId]?.checkEntry(bars, params) || null;
 }
 
 // ── MAIN ──────────────────────────────────────────────────
@@ -329,6 +314,7 @@ async function main(){
   }
 
   const fg=await fetchFG();state.fearGreed=fg;
+  CFG.params.fearGreed=fg;  // обновляем для sB стратегии
   // BTC данные для определения режима рынка
   const{bars:btcBars}=await fetchKlines('BTC','bitcoin',210);
   const{regime}=btcBars?detectRegime(btcBars,fg):{regime:'NEUTRAL'};
@@ -384,7 +370,7 @@ async function main(){
 
       for(const sid of STRAT_IDS){
         if(state.openPositions.length>=CFG.maxOpenPos)break;
-        if(hasOpen(state,sym)||!canEnter(state,sym,sid))continue; 
+        if(hasOpen(state,sym,sid))continue;
         if(!canEnter(state,sym,sid))continue;
 
         const s=STRATEGIES[sid];
@@ -392,7 +378,7 @@ async function main(){
         const block=s.worstRegimes.filter(r=>r!=='NEUTRAL'&&r!=='RANGE');
         if(block.includes(tr))continue;
 
-        const entry=checkEntryEx(sid,bars,CFG.params);
+        const entry=checkEntryEx(sid,bars,{...CFG.params,fearGreed:fg});
         if(!entry?.signal)continue;
 
         const price=bars[bars.length-1].close;
