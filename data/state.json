@@ -705,22 +705,6 @@
       "src": "OKX"
     },
     {
-      "id": "CRO_s9_1776505876743",
-      "symbol": "CRO",
-      "name": "Cronos",
-      "coinId": "crypto-com-chain",
-      "rank": 35,
-      "stratId": "s9",
-      "entryPrice": 0.07099,
-      "entryTime": 1776505876743,
-      "entryDate": "2026-04-18T09:51:16.743Z",
-      "entrySignal": "BB Squeeze BW=5.6%",
-      "strength": 70,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "DOT_s9_1776505880273",
       "symbol": "DOT",
       "name": "Polkadot",
@@ -799,9 +783,47 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX"
+    },
+    {
+      "id": "FIL_s7_1776506832897",
+      "symbol": "FIL",
+      "name": "Filecoin",
+      "coinId": "filecoin",
+      "rank": 84,
+      "stratId": "s7",
+      "entryPrice": 0.9669,
+      "entryTime": 1776506832897,
+      "entryDate": "2026-04-18T10:07:12.897Z",
+      "entrySignal": "EMA9>EMA21 тренд ↑ (+3.26%)",
+      "strength": 55,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX"
     }
   ],
   "closedTrades": [
+    {
+      "id": "CRO_s9_1776505876743",
+      "symbol": "CRO",
+      "name": "Cronos",
+      "coinId": "crypto-com-chain",
+      "rank": 35,
+      "stratId": "s9",
+      "entryPrice": 0.07099,
+      "entryTime": 1776505876743,
+      "entryDate": "2026-04-18T09:51:16.743Z",
+      "entrySignal": "BB Squeeze BW=5.6%",
+      "strength": 70,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 0.07061,
+      "exitTime": 1776506802375,
+      "exitReason": "Upper BB $0.0719",
+      "pnl": -0.5352866600929589,
+      "pnlUsd": -0.5352866600929589,
+      "total": 99.46471333990704
+    },
     {
       "id": "DOGE_s9_1776504427377",
       "symbol": "DOGE",
@@ -3959,26 +3981,27 @@
     "ATOM_s9": 1776462658276,
     "PI_s5": 1776505882151,
     "ARB_s7": 1776505896113,
-    "APT_s7": 1776505897308
+    "APT_s7": 1776505897308,
+    "FIL_s7": 1776506832898
   },
-  "scanCount": 27,
+  "scanCount": 28,
   "startedAt": "2026-04-17T15:26:24.381Z",
-  "lastScan": "2026-04-18T09:51:38.037Z",
+  "lastScan": "2026-04-18T10:07:14.053Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 26,
   "btcTrend": "NEUTRAL",
   "totalStats": {
-    "trades": 140,
+    "trades": 141,
     "wins": 69,
-    "losses": 71,
-    "totalPnl": -13.101708397137177,
-    "invested": 14000
+    "losses": 72,
+    "totalPnl": -13.636995057230136,
+    "invested": 14100
   },
   "byStrategy": {
     "s9": {
-      "trades": 133,
+      "trades": 134,
       "wins": 67,
-      "pnl": -8.152801179074395
+      "pnl": -8.688087839167354
     },
     "s3": {
       "trades": 6,
@@ -3994,9 +4017,9 @@
   "byRegime": {
     "NEUTRAL": {
       "s9": {
-        "trades": 133,
+        "trades": 134,
         "wins": 67,
-        "pnl": -8.152801179074395
+        "pnl": -8.688087839167354
       },
       "s3": {
         "trades": 6,
