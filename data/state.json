@@ -3984,9 +3984,9 @@
     "APT_s7": 1776505897308,
     "FIL_s7": 1776506832898
   },
-  "scanCount": 35,
+  "scanCount": 36,
   "startedAt": "2026-04-17T15:26:24.381Z",
-  "lastScan": "2026-04-18T11:59:52.410Z",
+  "lastScan": "2026-04-18T12:52:39.844Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 26,
   "btcTrend": "NEUTRAL",
@@ -4033,5 +4033,5 @@
       }
     }
   },
-  "lastReport": "2026-04-18T07:01:47.378Z"
+  "lastReport": "2026-04-18T12:52:39.844Z"
 }
