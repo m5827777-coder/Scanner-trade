@@ -1320,3 +1320,85 @@
 [2026-04-18 09:27:08 UTC] ✅ Данные: 8 токенов OK, 0 недоступно | Открыто: 6 | Всего: 50
 [2026-04-18 09:27:08 UTC] 
 📊 ИТОГ: WR=47.8% PnL=$-13.68 Trades=134
+[2026-04-18 09:50:46 UTC] ════════════════════════════════════════════════════
+[2026-04-18 09:50:46 UTC] 🤖 Bot v4.1 | action=scan | report=false
+[2026-04-18 09:50:46 UTC] ════════════════════════════════════════════════════
+[2026-04-18 09:50:46 UTC] 📡 Scan #27
+[2026-04-18 09:50:47 UTC] 🌡 F&G=26 Regime=NEUTRAL Open=50
+[2026-04-18 09:50:47 UTC]   📂 HOLD BTC/s7 PnL=-0.79%
+[2026-04-18 09:50:48 UTC]   📂 HOLD ETH/s7 PnL=-2.07%
+[2026-04-18 09:50:48 UTC]   📂 HOLD XRP/s7 PnL=-2.46%
+[2026-04-18 09:50:48 UTC]   📂 HOLD BNB/s7 PnL=-0.83%
+[2026-04-18 09:50:48 UTC]   📂 HOLD SOL/s7 PnL=-1.79%
+[2026-04-18 09:50:48 UTC]   📂 HOLD TRX/s7 PnL=+0.14%
+[2026-04-18 09:50:49 UTC]   📂 HOLD TRX/s8 PnL=+0.14%
+[2026-04-18 09:50:49 UTC]   📂 HOLD DOGE/s7 PnL=-2.77%
+[2026-04-18 09:50:49 UTC]   📂 HOLD WBT/s7 PnL=-1.08%
+[2026-04-18 09:50:49 UTC]   📂 HOLD HYPE/s7 PnL=+1.17%
+[2026-04-18 09:50:50 UTC]   📂 HOLD ADA/s7 PnL=-2.41%
+[2026-04-18 09:50:50 UTC]   📂 HOLD LEO/s7 PnL=+0.09%
+[2026-04-18 09:50:50 UTC]   📂 HOLD LINK/s7 PnL=-1.83%
+[2026-04-18 09:50:50 UTC]   📂 HOLD M/s7 PnL=+17.79%
+[2026-04-18 09:50:51 UTC]   📂 HOLD XMR/s7 PnL=+0.22%
+[2026-04-18 09:50:51 UTC]   📂 HOLD XLM/s7 PnL=-1.86%
+[2026-04-18 09:50:51 UTC]   📂 HOLD CC/s7 PnL=-2.10%
+[2026-04-18 09:50:51 UTC]   📂 HOLD LTC/s7 PnL=-0.65%
+[2026-04-18 09:50:52 UTC]   📂 HOLD AVAX/s7 PnL=-2.43%
+[2026-04-18 09:50:52 UTC]   📂 HOLD SUI/s7 PnL=-2.56%
+[2026-04-18 09:50:52 UTC]   📂 HOLD SHIB/s7 PnL=-2.26%
+[2026-04-18 09:50:52 UTC]   📂 HOLD TON/s7 PnL=+0.29%
+[2026-04-18 09:50:52 UTC]   📂 HOLD XAUT/s7 PnL=-0.66%
+[2026-04-18 09:50:53 UTC]   📂 HOLD WLFI/s1 PnL=-2.01%
+[2026-04-18 09:50:53 UTC]   📂 HOLD PAXG/s7 PnL=-0.74%
+[2026-04-18 09:50:53 UTC]   📂 HOLD NEAR/s7 PnL=-0.77%
+[2026-04-18 09:50:53 UTC]   📂 HOLD CC/s9 PnL=-2.58%
+[2026-04-18 09:50:54 UTC]   📂 HOLD SKY/s7 PnL=-0.76%
+[2026-04-18 09:50:54 UTC]   📂 HOLD OKB/s7 PnL=-1.23%
+[2026-04-18 09:50:54 UTC]   📂 HOLD AAVE/s7 PnL=-2.20%
+[2026-04-18 09:50:54 UTC]   📂 HOLD PEPE/s7 PnL=-2.79%
+[2026-04-18 09:50:55 UTC]   📂 HOLD ICP/s7 PnL=-1.82%
+[2026-04-18 09:50:55 UTC]   📂 HOLD ETC/s7 PnL=-2.07%
+[2026-04-18 09:50:55 UTC]   📂 HOLD ONDO/s7 PnL=-2.49%
+[2026-04-18 09:50:55 UTC]   📂 HOLD PUMP/s7 PnL=-2.86%
+[2026-04-18 09:50:55 UTC]   📂 HOLD ENA/s7 PnL=-6.45%
+[2026-04-18 09:50:56 UTC]   📂 HOLD MORPHO/s7 PnL=-1.20%
+[2026-04-18 09:50:56 UTC]   📂 HOLD ALGO/s7 PnL=-2.08%
+[2026-04-18 09:50:56 UTC]   📂 HOLD POL/s9 PnL=-0.47%
+[2026-04-18 09:50:56 UTC]   📂 HOLD WLD/s3 PnL=-0.39%
+[2026-04-18 09:50:57 UTC]   📂 HOLD ATOM/s7 PnL=-1.52%
+[2026-04-18 09:50:57 UTC]   📂 HOLD BCH/s9 PnL=-0.86%
+[2026-04-18 09:50:57 UTC]   📂 HOLD CC/s3 PnL=-0.05%
+[2026-04-18 09:50:57 UTC]   📂 HOLD HBAR/s9 PnL=-0.60%
+[2026-04-18 09:50:58 UTC]   ✅ CLOSE BTC/s9: Upper BB $77774.7573 PnL=+0.12% held=23м
+[2026-04-18 09:50:59 UTC]   ✅ CLOSE XRP/s9: Upper BB $1.4524 PnL=+0.08% held=23м
+[2026-04-18 09:50:59 UTC]   ✅ CLOSE BNB/s9: Upper BB $640.5084 PnL=+0.06% held=23м
+[2026-04-18 09:51:00 UTC]   ✅ CLOSE SOL/s9: Upper BB $88.9063 PnL=+0.09% held=23м
+[2026-04-18 09:51:01 UTC]   ❌ CLOSE TRX/s9: Upper BB $0.3280 PnL=-0.10% held=23м
+[2026-04-18 09:51:02 UTC]   ✅ CLOSE DOGE/s9: Upper BB $0.0983 PnL=+0.32% held=23м
+[2026-04-18 09:51:02 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-04-18 09:51:02 UTC] ✓ CoinGecko: 78 токенов. Проверяю входы...
+[2026-04-18 09:51:09 UTC]   ⏭ M: нет данных (memecore)
+[2026-04-18 09:51:10 UTC]   ⏭ XMR: нет данных (monero)
+[2026-04-18 09:51:11 UTC]   ⏭ RAVE: нет данных (ravedao)
+[2026-04-18 09:51:15 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-04-18 09:51:16 UTC]   📈 ENTRY CRO/s9 [BEAR] via OKX: BB Squeeze BW=5.6% @ $0.07099
+[2026-04-18 09:51:18 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-04-18 09:51:19 UTC]   ⏭ TAO: нет данных (bittensor)
+[2026-04-18 09:51:20 UTC]   📈 ENTRY DOT/s9 [BEAR] via OKX: BB Squeeze BW=15.4% @ $1.31
+[2026-04-18 09:51:21 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-04-18 09:51:22 UTC]   📈 ENTRY PI/s5 [BULL_TREND] via OKX: Объём +48% vs 7d avg (зелёная свеча) @ $0.1838
+[2026-04-18 09:51:25 UTC]   📈 ENTRY ASTER/s9 [RANGE] via OKX: BB Squeeze BW=5.6% @ $0.6709
+[2026-04-18 09:51:26 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-04-18 09:51:27 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-04-18 09:51:28 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-04-18 09:51:29 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-04-18 09:51:30 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-04-18 09:51:30 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-04-18 09:51:32 UTC]   ⏭ U: нет данных (united-stables)
+[2026-04-18 09:51:34 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-04-18 09:51:35 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-04-18 09:51:36 UTC]   📈 ENTRY ARB/s7 [BULL_TREND] via OKX: EMA9>EMA21 тренд ↑ (+8.12%) @ $0.13032
+[2026-04-18 09:51:37 UTC]   📈 ENTRY APT/s7 [BULL_TREND] via OKX: EMA9>EMA21 тренд ↑ (+1.60%) @ $0.9691
+[2026-04-18 09:51:38 UTC] ✅ Данные: 49 токенов OK, 16 недоступно | Открыто: 6 | Всего: 50
+[2026-04-18 09:51:38 UTC] 
+📊 ИТОГ: WR=49.3% PnL=$-13.10 Trades=140
