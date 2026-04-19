@@ -673,22 +673,6 @@
       "src": "OKX"
     },
     {
-      "id": "CC_s3_1776501102892",
-      "symbol": "CC",
-      "name": "Canton",
-      "coinId": "canton-network",
-      "rank": 23,
-      "stratId": "s3",
-      "entryPrice": 0.1475,
-      "entryTime": 1776501102892,
-      "entryDate": "2026-04-18T08:31:42.892Z",
-      "entrySignal": "Просадка -11.1% от 7d hi ($0.1659)",
-      "strength": 56,
-      "regime": "RANGE",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "HBAR_s9_1776501106884",
       "symbol": "HBAR",
       "name": "Hedera",
@@ -799,9 +783,47 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX"
+    },
+    {
+      "id": "CC_s3_1776615775183",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 20,
+      "stratId": "s3",
+      "entryPrice": 0.14956,
+      "entryTime": 1776615775183,
+      "entryDate": "2026-04-19T16:22:55.183Z",
+      "entrySignal": "Просадка -9.9% от 7d max ($0.1659)",
+      "strength": 66,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "OKX"
     }
   ],
   "closedTrades": [
+    {
+      "id": "CC_s3_1776501102892",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 23,
+      "stratId": "s3",
+      "entryPrice": 0.1475,
+      "entryTime": 1776501102892,
+      "entryDate": "2026-04-18T08:31:42.892Z",
+      "entrySignal": "Просадка -11.1% от 7d hi ($0.1659)",
+      "strength": 56,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 0.14956,
+      "exitTime": 1776615763936,
+      "exitReason": "Возврат к SMA7 ($0.1494)",
+      "pnl": 1.3966101694915296,
+      "pnlUsd": 1.3966101694915296,
+      "total": 101.39661016949152
+    },
     {
       "id": "CRO_s9_1776505876743",
       "symbol": "CRO",
@@ -3936,7 +3958,7 @@
     "XMR_s9": 1776455245741,
     "XLM_s7": 1776455246682,
     "XLM_s9": 1776501101951,
-    "CC_s3": 1776501102892,
+    "CC_s3": 1776615775184,
     "CC_s7": 1776455248485,
     "CC_s9": 1776459609825,
     "LTC_s7": 1776455250758,
@@ -3984,18 +4006,18 @@
     "APT_s7": 1776505897308,
     "FIL_s7": 1776506832898
   },
-  "scanCount": 72,
+  "scanCount": 73,
   "startedAt": "2026-04-17T15:26:24.381Z",
-  "lastScan": "2026-04-19T15:49:27.937Z",
+  "lastScan": "2026-04-19T16:22:56.213Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "btcTrend": "NEUTRAL",
   "totalStats": {
-    "trades": 141,
-    "wins": 69,
+    "trades": 142,
+    "wins": 70,
     "losses": 72,
-    "totalPnl": -13.636995057230136,
-    "invested": 14100
+    "totalPnl": -12.240384887738607,
+    "invested": 14200
   },
   "byStrategy": {
     "s9": {
@@ -4004,9 +4026,9 @@
       "pnl": -8.688087839167354
     },
     "s3": {
-      "trades": 6,
-      "wins": 2,
-      "pnl": -1.833806901272923
+      "trades": 7,
+      "wins": 3,
+      "pnl": -0.4371967317813934
     },
     "s7": {
       "trades": 1,
@@ -4022,9 +4044,9 @@
         "pnl": -8.688087839167354
       },
       "s3": {
-        "trades": 6,
-        "wins": 2,
-        "pnl": -1.833806901272923
+        "trades": 7,
+        "wins": 3,
+        "pnl": -0.4371967317813934
       },
       "s7": {
         "trades": 1,
