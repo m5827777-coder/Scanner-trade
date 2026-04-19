@@ -785,6 +785,24 @@
       "src": "OKX"
     },
     {
+      "id": "ZEC_s3_1776618094067",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 23,
+      "stratId": "s3",
+      "entryPrice": 320.5,
+      "entryTime": 1776618094067,
+      "entryDate": "2026-04-19T17:01:34.067Z",
+      "entrySignal": "Просадка -17.2% от 7d max ($386.9600)",
+      "strength": 100,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX"
+    }
+  ],
+  "closedTrades": [
+    {
       "id": "CC_s3_1776615775183",
       "symbol": "CC",
       "name": "Canton",
@@ -796,12 +814,16 @@
       "entryDate": "2026-04-19T16:22:55.183Z",
       "entrySignal": "Просадка -9.9% от 7d max ($0.1659)",
       "strength": 66,
-      "regime": "RANGE",
+      "regime": "NEUTRAL",
       "size": 100,
-      "src": "OKX"
-    }
-  ],
-  "closedTrades": [
+      "src": "OKX",
+      "exitPrice": 0.14929,
+      "exitTime": 1776618083686,
+      "exitReason": "Возврат к SMA7 ($0.1494)",
+      "pnl": -0.1805295533565074,
+      "pnlUsd": -0.1805295533565074,
+      "total": 99.81947044664349
+    },
     {
       "id": "CC_s3_1776501102892",
       "symbol": "CC",
@@ -4004,20 +4026,21 @@
     "PI_s5": 1776505882151,
     "ARB_s7": 1776505896113,
     "APT_s7": 1776505897308,
-    "FIL_s7": 1776506832898
+    "FIL_s7": 1776506832898,
+    "ZEC_s3": 1776618094067
   },
-  "scanCount": 73,
+  "scanCount": 74,
   "startedAt": "2026-04-17T15:26:24.381Z",
-  "lastScan": "2026-04-19T16:22:56.213Z",
+  "lastScan": "2026-04-19T17:01:34.993Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "btcTrend": "NEUTRAL",
   "totalStats": {
-    "trades": 142,
+    "trades": 143,
     "wins": 70,
-    "losses": 72,
-    "totalPnl": -12.240384887738607,
-    "invested": 14200
+    "losses": 73,
+    "totalPnl": -12.420914441095114,
+    "invested": 14300
   },
   "byStrategy": {
     "s9": {
@@ -4026,9 +4049,9 @@
       "pnl": -8.688087839167354
     },
     "s3": {
-      "trades": 7,
+      "trades": 8,
       "wins": 3,
-      "pnl": -0.4371967317813934
+      "pnl": -0.6177262851379008
     },
     "s7": {
       "trades": 1,
@@ -4044,9 +4067,9 @@
         "pnl": -8.688087839167354
       },
       "s3": {
-        "trades": 7,
+        "trades": 8,
         "wins": 3,
-        "pnl": -0.4371967317813934
+        "pnl": -0.6177262851379008
       },
       "s7": {
         "trades": 1,
