@@ -625,22 +625,6 @@
       "src": "OKX"
     },
     {
-      "id": "WLD_s3_1776462656873",
-      "symbol": "WLD",
-      "name": "Worldcoin",
-      "coinId": "worldcoin-wld",
-      "rank": 76,
-      "stratId": "s3",
-      "entryPrice": 0.2838,
-      "entryTime": 1776462656873,
-      "entryDate": "2026-04-17T21:50:56.873Z",
-      "entrySignal": "Просадка -13.7% от 7d hi ($0.3290)",
-      "strength": 69,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "ATOM_s7_1776462657827",
       "symbol": "ATOM",
       "name": "Cosmos Hub",
@@ -799,9 +783,47 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX"
+    },
+    {
+      "id": "ETH_s3_1776636270972",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "coinId": "ethereum",
+      "rank": 2,
+      "stratId": "s3",
+      "entryPrice": 2259.57,
+      "entryTime": 1776636270972,
+      "entryDate": "2026-04-19T22:04:30.972Z",
+      "entrySignal": "Просадка -8.4% от 7d max ($2466.0000)",
+      "strength": 56,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX"
     }
   ],
   "closedTrades": [
+    {
+      "id": "WLD_s3_1776462656873",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 76,
+      "stratId": "s3",
+      "entryPrice": 0.2838,
+      "entryTime": 1776462656873,
+      "entryDate": "2026-04-17T21:50:56.873Z",
+      "entrySignal": "Просадка -13.7% от 7d hi ($0.3290)",
+      "strength": 69,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 0.2579,
+      "exitTime": 1776636267363,
+      "exitReason": "🛑 SL -9%",
+      "pnl": -9.126145172656793,
+      "pnlUsd": -9.126145172656793,
+      "total": 90.87385482734321
+    },
     {
       "id": "CC_s3_1776615775183",
       "symbol": "CC",
@@ -4027,20 +4049,21 @@
     "ARB_s7": 1776505896113,
     "APT_s7": 1776505897308,
     "FIL_s7": 1776506832898,
-    "ZEC_s3": 1776618094067
+    "ZEC_s3": 1776618094067,
+    "ETH_s3": 1776636270972
   },
-  "scanCount": 82,
+  "scanCount": 83,
   "startedAt": "2026-04-17T15:26:24.381Z",
-  "lastScan": "2026-04-19T21:39:37.257Z",
+  "lastScan": "2026-04-19T22:04:31.739Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "btcTrend": "NEUTRAL",
   "totalStats": {
-    "trades": 143,
+    "trades": 144,
     "wins": 70,
-    "losses": 73,
-    "totalPnl": -12.420914441095114,
-    "invested": 14300
+    "losses": 74,
+    "totalPnl": -21.547059613751905,
+    "invested": 14400
   },
   "byStrategy": {
     "s9": {
@@ -4049,9 +4072,9 @@
       "pnl": -8.688087839167354
     },
     "s3": {
-      "trades": 8,
+      "trades": 9,
       "wins": 3,
-      "pnl": -0.6177262851379008
+      "pnl": -9.743871457794693
     },
     "s7": {
       "trades": 1,
@@ -4067,9 +4090,9 @@
         "pnl": -8.688087839167354
       },
       "s3": {
-        "trades": 8,
+        "trades": 9,
         "wins": 3,
-        "pnl": -0.6177262851379008
+        "pnl": -9.743871457794693
       },
       "s7": {
         "trades": 1,
