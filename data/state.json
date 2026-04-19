@@ -4029,9 +4029,9 @@
     "FIL_s7": 1776506832898,
     "ZEC_s3": 1776618094067
   },
-  "scanCount": 76,
+  "scanCount": 77,
   "startedAt": "2026-04-17T15:26:24.381Z",
-  "lastScan": "2026-04-19T18:25:36.573Z",
+  "lastScan": "2026-04-19T18:41:02.909Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "btcTrend": "NEUTRAL",
@@ -4078,5 +4078,5 @@
       }
     }
   },
-  "lastReport": "2026-04-19T12:51:59.583Z"
+  "lastReport": "2026-04-19T18:41:02.909Z"
 }
