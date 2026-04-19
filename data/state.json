@@ -3984,11 +3984,11 @@
     "APT_s7": 1776505897308,
     "FIL_s7": 1776506832898
   },
-  "scanCount": 54,
+  "scanCount": 55,
   "startedAt": "2026-04-17T15:26:24.381Z",
-  "lastScan": "2026-04-18T23:36:51.570Z",
+  "lastScan": "2026-04-19T00:04:10.538Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 26,
+  "fearGreed": 27,
   "btcTrend": "NEUTRAL",
   "totalStats": {
     "trades": 141,
