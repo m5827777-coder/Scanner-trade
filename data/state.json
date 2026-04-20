@@ -1015,9 +1015,9 @@
     "BCH_sB": 1776710556696,
     "AVAX_sB": 1776711503105
   },
-  "scanCount": 15,
+  "scanCount": 16,
   "startedAt": "2026-04-20T10:19:04.117Z",
-  "lastScan": "2026-04-20T22:55:35.914Z",
+  "lastScan": "2026-04-20T23:36:29.578Z",
   "lastReport": "2026-04-20T18:58:24.126Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
