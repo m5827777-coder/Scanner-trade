@@ -785,6 +785,24 @@
       "src": "OKX"
     },
     {
+      "id": "TON_s3_1776691218511",
+      "symbol": "TON",
+      "name": "Toncoin",
+      "coinId": "the-open-network",
+      "rank": 33,
+      "stratId": "s3",
+      "entryPrice": 1.318,
+      "entryTime": 1776691218511,
+      "entryDate": "2026-04-20T13:20:18.511Z",
+      "entrySignal": "Просадка -10.8% от 7d max ($1.4780)",
+      "strength": 72,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX"
+    }
+  ],
+  "closedTrades": [
+    {
       "id": "PI_s3_1776687041488",
       "symbol": "PI",
       "name": "Pi Network",
@@ -796,12 +814,16 @@
       "entryDate": "2026-04-20T12:10:41.488Z",
       "entrySignal": "Просадка -8.8% от 7d max ($0.1890)",
       "strength": 59,
-      "regime": "BEAR",
+      "regime": "NEUTRAL",
       "size": 100,
-      "src": "OKX"
-    }
-  ],
-  "closedTrades": [
+      "src": "OKX",
+      "exitPrice": 0.1733,
+      "exitTime": 1776691205155,
+      "exitReason": "Возврат к SMA7 ($0.1716)",
+      "pnl": 0.5803830528148584,
+      "pnlUsd": 0.5803830528148584,
+      "total": 100.58038305281485
+    },
     {
       "id": "ENA_s3_1776680555187",
       "symbol": "ENA",
@@ -921,34 +943,35 @@
     "FLR_sD": 1776680564759,
     "TRUMP_s3": 1776680565719,
     "ADA_s3": 1776687021674,
-    "WLFI_s3": 1776687035807
+    "WLFI_s3": 1776687035807,
+    "TON_s3": 1776691218512
   },
-  "scanCount": 3,
+  "scanCount": 4,
   "startedAt": "2026-04-20T10:19:04.117Z",
-  "lastScan": "2026-04-20T12:10:42.382Z",
-  "lastReport": "2026-04-20T10:22:46.523Z",
+  "lastScan": "2026-04-20T13:20:19.557Z",
+  "lastReport": "2026-04-20T13:20:19.557Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 3,
-    "wins": 2,
+    "trades": 4,
+    "wins": 3,
     "losses": 1,
-    "totalPnl": 0.6566098161788342,
-    "invested": 300
+    "totalPnl": 1.2369928689936924,
+    "invested": 400
   },
   "byStrategy": {
     "s3": {
-      "trades": 3,
-      "wins": 2,
-      "pnl": 0.6566098161788342
+      "trades": 4,
+      "wins": 3,
+      "pnl": 1.2369928689936924
     }
   },
   "byRegime": {
     "NEUTRAL": {
       "s3": {
-        "trades": 3,
-        "wins": 2,
-        "pnl": 0.6566098161788342
+        "trades": 4,
+        "wins": 3,
+        "pnl": 1.2369928689936924
       }
     }
   }
