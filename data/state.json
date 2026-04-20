@@ -721,22 +721,6 @@
       "src": "OKX"
     },
     {
-      "id": "TRUMP_s3_1776680565719",
-      "symbol": "TRUMP",
-      "name": "Official Trump",
-      "coinId": "official-trump",
-      "rank": 86,
-      "stratId": "s3",
-      "entryPrice": 2.847,
-      "entryTime": 1776680565719,
-      "entryDate": "2026-04-20T10:22:45.719Z",
-      "entrySignal": "Просадка -8.7% от 7d max ($3.1170)",
-      "strength": 58,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "WLFI_s3_1776687035807",
       "symbol": "WLFI",
       "name": "World Liberty Financial",
@@ -799,9 +783,47 @@
       "regime": "BEAR",
       "size": 100,
       "src": "OKX"
+    },
+    {
+      "id": "AVAX_sB_1776711503105",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "coinId": "avalanche-2",
+      "rank": 28,
+      "stratId": "sB",
+      "entryPrice": 9.33,
+      "entryTime": 1776711503105,
+      "entryDate": "2026-04-20T18:58:23.105Z",
+      "entrySignal": "F&G=29 (Fear) + отскок подтверждён. RSI=50",
+      "strength": 65,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "OKX"
     }
   ],
   "closedTrades": [
+    {
+      "id": "TRUMP_s3_1776680565719",
+      "symbol": "TRUMP",
+      "name": "Official Trump",
+      "coinId": "official-trump",
+      "rank": 86,
+      "stratId": "s3",
+      "entryPrice": 2.847,
+      "entryTime": 1776680565719,
+      "entryDate": "2026-04-20T10:22:45.719Z",
+      "entrySignal": "Просадка -8.7% от 7d max ($3.1170)",
+      "strength": 58,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 2.895,
+      "exitTime": 1776711489958,
+      "exitReason": "Возврат к SMA7 ($2.9080)",
+      "pnl": 1.6859852476290849,
+      "pnlUsd": 1.6859852476290849,
+      "total": 101.68598524762909
+    },
     {
       "id": "ADA_s3_1776687021674",
       "symbol": "ADA",
@@ -990,34 +1012,35 @@
     "WLFI_s3": 1776687035807,
     "TON_s3": 1776691218512,
     "ADA_sB": 1776710555541,
-    "BCH_sB": 1776710556696
+    "BCH_sB": 1776710556696,
+    "AVAX_sB": 1776711503105
   },
-  "scanCount": 9,
+  "scanCount": 10,
   "startedAt": "2026-04-20T10:19:04.117Z",
-  "lastScan": "2026-04-20T18:42:37.527Z",
-  "lastReport": "2026-04-20T13:20:19.557Z",
+  "lastScan": "2026-04-20T18:58:24.126Z",
+  "lastReport": "2026-04-20T18:58:24.126Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 6,
-    "wins": 5,
+    "trades": 7,
+    "wins": 6,
     "losses": 1,
-    "totalPnl": 3.779093911495689,
-    "invested": 600
+    "totalPnl": 5.465079159124774,
+    "invested": 700
   },
   "byStrategy": {
     "s3": {
-      "trades": 6,
-      "wins": 5,
-      "pnl": 3.779093911495689
+      "trades": 7,
+      "wins": 6,
+      "pnl": 5.465079159124774
     }
   },
   "byRegime": {
     "NEUTRAL": {
       "s3": {
-        "trades": 6,
-        "wins": 5,
-        "pnl": 3.779093911495689
+        "trades": 7,
+        "wins": 6,
+        "pnl": 5.465079159124774
       }
     }
   }
