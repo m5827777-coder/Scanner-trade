@@ -209,22 +209,6 @@
       "src": "CoinGecko"
     },
     {
-      "id": "M_s3_1776680523925",
-      "symbol": "M",
-      "name": "MemeCore",
-      "coinId": "memecore",
-      "rank": 19,
-      "stratId": "s3",
-      "entryPrice": 3.4164898779596267,
-      "entryTime": 1776680523925,
-      "entryDate": "2026-04-20T10:22:03.925Z",
-      "entrySignal": "Просадка -11.6% от 7d max ($3.8654)",
-      "strength": 77,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "CoinGecko"
-    },
-    {
       "id": "XLM_sD_1776680525445",
       "symbol": "XLM",
       "name": "Stellar",
@@ -433,22 +417,6 @@
       "src": "OKX"
     },
     {
-      "id": "PI_s3_1776680540863",
-      "symbol": "PI",
-      "name": "Pi Network",
-      "coinId": "pi-network",
-      "rank": 47,
-      "stratId": "s3",
-      "entryPrice": 0.1723,
-      "entryTime": 1776680540863,
-      "entryDate": "2026-04-20T10:22:20.863Z",
-      "entrySignal": "Просадка -8.8% от 7d max ($0.1890)",
-      "strength": 59,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "PI_sD_1776680541300",
       "symbol": "PI",
       "name": "Pi Network",
@@ -641,22 +609,6 @@
       "src": "OKX"
     },
     {
-      "id": "ENA_s3_1776680555187",
-      "symbol": "ENA",
-      "name": "Ethena",
-      "coinId": "ethena",
-      "rank": 70,
-      "stratId": "s3",
-      "entryPrice": 0.11529,
-      "entryTime": 1776680555187,
-      "entryDate": "2026-04-20T10:22:35.187Z",
-      "entrySignal": "Просадка -15.7% от 7d max ($0.1367)",
-      "strength": 100,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "POL_sD_1776680556162",
       "symbol": "POL",
       "name": "POL (ex-MATIC)",
@@ -801,7 +753,74 @@
       "src": "OKX"
     }
   ],
-  "closedTrades": [],
+  "closedTrades": [
+    {
+      "id": "ENA_s3_1776680555187",
+      "symbol": "ENA",
+      "name": "Ethena",
+      "coinId": "ethena",
+      "rank": 70,
+      "stratId": "s3",
+      "entryPrice": 0.11529,
+      "entryTime": 1776680555187,
+      "entryDate": "2026-04-20T10:22:35.187Z",
+      "entrySignal": "Просадка -15.7% от 7d max ($0.1367)",
+      "strength": 100,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 0.11438,
+      "exitTime": 1776682872708,
+      "exitReason": "Возврат к SMA7 ($0.1108)",
+      "pnl": -0.7893139040680094,
+      "pnlUsd": -0.7893139040680094,
+      "total": 99.21068609593199
+    },
+    {
+      "id": "PI_s3_1776680540863",
+      "symbol": "PI",
+      "name": "Pi Network",
+      "coinId": "pi-network",
+      "rank": 47,
+      "stratId": "s3",
+      "entryPrice": 0.1723,
+      "entryTime": 1776680540863,
+      "entryDate": "2026-04-20T10:22:20.863Z",
+      "entrySignal": "Просадка -8.8% от 7d max ($0.1890)",
+      "strength": 59,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 0.1723,
+      "exitTime": 1776682868965,
+      "exitReason": "Возврат к SMA7 ($0.1715)",
+      "pnl": 0,
+      "pnlUsd": 0,
+      "total": 100
+    },
+    {
+      "id": "M_s3_1776680523925",
+      "symbol": "M",
+      "name": "MemeCore",
+      "coinId": "memecore",
+      "rank": 19,
+      "stratId": "s3",
+      "entryPrice": 3.4164898779596267,
+      "entryTime": 1776680523925,
+      "entryDate": "2026-04-20T10:22:03.925Z",
+      "entrySignal": "Просадка -11.6% от 7d max ($3.8654)",
+      "strength": 77,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "exitPrice": 3.4658897155048773,
+      "exitTime": 1776682864657,
+      "exitReason": "Возврат к SMA7 ($3.3888)",
+      "pnl": 1.4459237202468436,
+      "pnlUsd": 1.4459237202468436,
+      "total": 101.44592372024684
+    }
+  ],
   "cooldowns": {
     "BTC_sD": 1776680509764,
     "ETH_sD": 1776680510815,
@@ -854,19 +873,33 @@
     "FLR_sD": 1776680564759,
     "TRUMP_s3": 1776680565719
   },
-  "scanCount": 1,
+  "scanCount": 2,
   "startedAt": "2026-04-20T10:19:04.117Z",
-  "lastScan": "2026-04-20T10:22:46.523Z",
+  "lastScan": "2026-04-20T11:01:15.523Z",
   "lastReport": "2026-04-20T10:22:46.523Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 0,
-    "wins": 0,
-    "losses": 0,
-    "totalPnl": 0,
-    "invested": 0
+    "trades": 3,
+    "wins": 2,
+    "losses": 1,
+    "totalPnl": 0.6566098161788342,
+    "invested": 300
   },
-  "byStrategy": {},
-  "byRegime": {}
+  "byStrategy": {
+    "s3": {
+      "trades": 3,
+      "wins": 2,
+      "pnl": 0.6566098161788342
+    }
+  },
+  "byRegime": {
+    "NEUTRAL": {
+      "s3": {
+        "trades": 3,
+        "wins": 2,
+        "pnl": 0.6566098161788342
+      }
+    }
+  }
 }
