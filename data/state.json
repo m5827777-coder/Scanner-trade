@@ -4052,11 +4052,11 @@
     "ZEC_s3": 1776618094067,
     "ETH_s3": 1776636270972
   },
-  "scanCount": 86,
+  "scanCount": 87,
   "startedAt": "2026-04-17T15:26:24.381Z",
-  "lastScan": "2026-04-19T23:57:32.455Z",
+  "lastScan": "2026-04-20T02:09:44.268Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 27,
+  "fearGreed": 29,
   "btcTrend": "NEUTRAL",
   "totalStats": {
     "trades": 144,
@@ -4101,5 +4101,5 @@
       }
     }
   },
-  "lastReport": "2026-04-19T18:41:02.909Z"
+  "lastReport": "2026-04-20T02:09:44.268Z"
 }
