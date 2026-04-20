@@ -2348,3 +2348,79 @@
 [2026-04-20 10:19:04 UTC] 🤖 Bot v4.1 | action=reset_state | report=false
 [2026-04-20 10:19:04 UTC] ════════════════════════════════════════════════════
 [2026-04-20 10:19:04 UTC] ✅ Reset
+[2026-04-20 10:21:48 UTC] ════════════════════════════════════════════════════
+[2026-04-20 10:21:48 UTC] 🤖 Bot v4.1 | action=scan | report=false
+[2026-04-20 10:21:48 UTC] ════════════════════════════════════════════════════
+[2026-04-20 10:21:48 UTC] 📡 Scan #1
+[2026-04-20 10:21:49 UTC] [TG] Bad Request: can't parse entities: Unsupported start tag "20%" at byte offset 168
+[2026-04-20 10:21:49 UTC] 🌡 F&G=29 Regime=NEUTRAL Open=0
+[2026-04-20 10:21:49 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-04-20 10:21:49 UTC] ✓ CoinGecko: 78 токенов. Проверяю входы...
+[2026-04-20 10:21:49 UTC]   📈 ENTRY BTC/sD [BULL] via OKX: Damodaran P/R фильтр: RSI=59, 30d=9%, Vol OK (консолидация) @ $75317.9
+[2026-04-20 10:21:50 UTC]   📈 ENTRY ETH/sD [BULL] via OKX: Damodaran P/R фильтр: RSI=57, 30d=11%, Vol OK (консолидация) @ $2317.04
+[2026-04-20 10:21:51 UTC]   📈 ENTRY XRP/sD [NEUTRAL] via OKX: Damodaran P/R фильтр: RSI=57, 30d=2%, Vol OK (консолидация) @ $1.4235
+[2026-04-20 10:21:52 UTC]   📈 ENTRY BNB/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=53, 30d=-0%, Vol OK (консолидация) @ $627.7
+[2026-04-20 10:21:53 UTC]   📈 ENTRY SOL/sD [BEAR] via OKX: Damodaran P/R фильтр: RSI=51, 30d=-3%, Vol OK (консолидация) @ $85.27
+[2026-04-20 10:21:55 UTC]   📈 ENTRY DOGE/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=52, 30d=4%, Vol OK (консолидация) @ $0.09496
+[2026-04-20 10:21:56 UTC]   📈 ENTRY WBT/sD [RANGE] via CoinGecko: Damodaran P/R фильтр: RSI=54, 30d=2%, Vol OK (консолидация) @ $54.66680132530319
+[2026-04-20 10:21:57 UTC]   📈 ENTRY HYPE/s3 [NEUTRAL] via OKX: Просадка -10.4% от 7d max ($45.7860) @ $41.002
+[2026-04-20 10:21:58 UTC]   📈 ENTRY HYPE/sD [NEUTRAL] via OKX: Damodaran P/R фильтр: RSI=51, 30d=8%, Vol OK (консолидация) @ $41.002
+[2026-04-20 10:21:59 UTC]   📈 ENTRY ADA/sD [BEAR] via OKX: Damodaran P/R фильтр: RSI=49, 30d=-3%, Vol OK (консолидация) @ $0.2482
+[2026-04-20 10:22:00 UTC]   📈 ENTRY BCH/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=49, 30d=-6%, Vol OK (консолидация) @ $442.7
+[2026-04-20 10:22:01 UTC]   📈 ENTRY LINK/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=54, 30d=6%, Vol OK (консолидация) @ $9.286
+[2026-04-20 10:22:02 UTC]   📈 ENTRY XMR/sD [RANGE] via CoinGecko: Damodaran P/R фильтр: RSI=56, 30d=-2%, Vol OK (консолидация) @ $353.73443865986616
+[2026-04-20 10:22:03 UTC]   📈 ENTRY M/s3 [BULL_TREND] via CoinGecko: Просадка -11.6% от 7d max ($3.8654) @ $3.4164898779596267
+[2026-04-20 10:22:05 UTC]   📈 ENTRY XLM/sD [BULL_TREND] via OKX: Damodaran P/R фильтр: RSI=58, 30d=7%, Vol OK (консолидация) @ $0.16999
+[2026-04-20 10:22:06 UTC]   📈 ENTRY LTC/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=53, 30d=2%, Vol OK (консолидация) @ $55.21
+[2026-04-20 10:22:07 UTC]   📈 ENTRY AVAX/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=50, 30d=2%, Vol OK (консолидация) @ $9.266
+[2026-04-20 10:22:09 UTC]   📈 ENTRY SUI/s3 [NEUTRAL] via OKX: Просадка -9.5% от 7d max ($1.0433) @ $0.9444
+[2026-04-20 10:22:09 UTC]   📈 ENTRY SUI/sD [NEUTRAL] via OKX: Damodaran P/R фильтр: RSI=51, 30d=2%, Vol OK (консолидация) @ $0.9444
+[2026-04-20 10:22:10 UTC]   📈 ENTRY RAIN/s3 [BEAR] via CoinGecko: Просадка -8.4% от 7d max ($0.0082) @ $0.007516060176481805
+[2026-04-20 10:22:11 UTC]   📈 ENTRY RAIN/sD [BEAR] via CoinGecko: Damodaran P/R фильтр: RSI=43, 30d=-15%, Vol OK (консолидация) @ $0.007516060176481805
+[2026-04-20 10:22:12 UTC]   📈 ENTRY SHIB/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=52, 30d=4%, Vol OK (консолидация) @ $0.000006036
+[2026-04-20 10:22:13 UTC]   📈 ENTRY TON/sB [BEAR_TREND] via OKX: F&G=29 (Fear) + отскок подтверждён. RSI=48 @ $1.305
+[2026-04-20 10:22:13 UTC]   📈 ENTRY TON/sD [BEAR_TREND] via OKX: Damodaran P/R фильтр: RSI=48, 30d=4%, Vol OK (консолидация) @ $1.305
+[2026-04-20 10:22:14 UTC]   📈 ENTRY CRO/sD [BEAR] via OKX: Damodaran P/R фильтр: RSI=45, 30d=-6%, Vol OK (консолидация) @ $0.06963
+[2026-04-20 10:22:16 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-04-20 10:22:17 UTC]   ⏭ TAO: нет данных (bittensor)
+[2026-04-20 10:22:18 UTC]   📈 ENTRY UNI/s3 [BEAR] via OKX: Просадка -8.5% от 7d max ($3.5810) @ $3.277
+[2026-04-20 10:22:18 UTC]   📈 ENTRY UNI/sD [BEAR] via OKX: Damodaran P/R фильтр: RSI=47, 30d=-6%, Vol OK (консолидация) @ $3.277
+[2026-04-20 10:22:19 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-04-20 10:22:20 UTC]   📈 ENTRY PI/s3 [BEAR] via OKX: Просадка -8.8% от 7d max ($0.1890) @ $0.1723
+[2026-04-20 10:22:21 UTC]   📈 ENTRY PI/sD [BEAR] via OKX: Damodaran P/R фильтр: RSI=39, 30d=-9%, Vol OK (консолидация) @ $0.1723
+[2026-04-20 10:22:22 UTC]   📈 ENTRY OKB/sD [BEAR] via OKX: Damodaran P/R фильтр: RSI=43, 30d=-2%, Vol OK (консолидация) @ $83.39
+[2026-04-20 10:22:24 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-04-20 10:22:24 UTC]   📈 ENTRY PEPE/s3 [BULL] via OKX: Просадка -8.2% от 7d max ($0.0000) @ $0.000003784
+[2026-04-20 10:22:25 UTC]   📈 ENTRY PEPE/sD [BULL] via OKX: Damodaran P/R фильтр: RSI=57, 30d=14%, Vol OK (консолидация) @ $0.000003784
+[2026-04-20 10:22:26 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-04-20 10:22:26 UTC]   📈 ENTRY AAVE/s3 [BEAR] via OKX: Просадка -23.6% от 7d max ($118.8400) @ $90.79
+[2026-04-20 10:22:27 UTC]   📈 ENTRY ICP/s3 [NEUTRAL] via OKX: Просадка -9.1% от 7d max ($2.6910) @ $2.447
+[2026-04-20 10:22:27 UTC]   📈 ENTRY ICP/sD [NEUTRAL] via OKX: Damodaran P/R фильтр: RSI=48, 30d=2%, Vol OK (консолидация) @ $2.447
+[2026-04-20 10:22:28 UTC]   📈 ENTRY ETC/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=52, 30d=4%, Vol OK (консолидация) @ $8.449
+[2026-04-20 10:22:29 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-04-20 10:22:30 UTC]   📈 ENTRY ONDO/s3 [RANGE] via OKX: Просадка -9.0% от 7d max ($0.2799) @ $0.2547
+[2026-04-20 10:22:30 UTC]   📈 ENTRY ONDO/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=48, 30d=2%, Vol OK (консолидация) @ $0.2547
+[2026-04-20 10:22:31 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-04-20 10:22:32 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-04-20 10:22:33 UTC]   📈 ENTRY PUMP/s3 [NEUTRAL] via OKX: Просадка -12.3% от 7d max ($0.0021) @ $0.00182
+[2026-04-20 10:22:33 UTC]   📈 ENTRY PUMP/sD [NEUTRAL] via OKX: Damodaran P/R фильтр: RSI=47, 30d=1%, Vol OK (консолидация) @ $0.00182
+[2026-04-20 10:22:34 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-04-20 10:22:34 UTC]   ⏭ U: нет данных (united-stables)
+[2026-04-20 10:22:35 UTC]   📈 ENTRY ENA/s3 [BULL_TREND] via OKX: Просадка -15.7% от 7d max ($0.1367) @ $0.11529
+[2026-04-20 10:22:36 UTC]   📈 ENTRY POL/sD [BULL_TREND] via OKX: Damodaran P/R фильтр: RSI=52, 30d=-2%, Vol OK (консолидация) @ $0.09085
+[2026-04-20 10:22:37 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-04-20 10:22:37 UTC]   📈 ENTRY RENDER/s3 [NEUTRAL] via OKX: Просадка -9.3% от 7d max ($1.9640) @ $1.782
+[2026-04-20 10:22:37 UTC]   📈 ENTRY RENDER/sD [NEUTRAL] via OKX: Damodaran P/R фильтр: RSI=47, 30d=8%, Vol OK (консолидация) @ $1.782
+[2026-04-20 10:22:39 UTC]   📈 ENTRY ALGO/s3 [NEUTRAL] via OKX: Просадка -12.7% от 7d max ($0.1178) @ $0.10281
+[2026-04-20 10:22:39 UTC]   📈 ENTRY ATOM/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=53, 30d=-1%, Vol OK (консолидация) @ $1.786
+[2026-04-20 10:22:40 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-04-20 10:22:42 UTC]   📈 ENTRY FIL/s3 [NEUTRAL] via OKX: Просадка -9.2% от 7d max ($1.0216) @ $0.9277
+[2026-04-20 10:22:43 UTC]   📈 ENTRY FIL/sD [NEUTRAL] via OKX: Damodaran P/R фильтр: RSI=54, 30d=6%, Vol OK (консолидация) @ $0.9277
+[2026-04-20 10:22:44 UTC]   ⏭ DEXE: нет данных (dexe)
+[2026-04-20 10:22:44 UTC]   📈 ENTRY FLR/sD [NEUTRAL] via OKX: Damodaran P/R фильтр: RSI=50, 30d=-1%, Vol OK (консолидация) @ $0.00804
+[2026-04-20 10:22:45 UTC]   📈 ENTRY TRUMP/s3 [BEAR] via OKX: Просадка -8.7% от 7d max ($3.1170) @ $2.847
+[2026-04-20 10:22:46 UTC] ✅ Данные: 55 токенов OK, 13 недоступно | Открыто: 50 | Всего: 50
+[2026-04-20 10:22:48 UTC] [EMAIL] ✅ → m5827777@gmail.com
+[2026-04-20 10:22:48 UTC] 📧 6h report sent
+[2026-04-20 10:22:48 UTC] 
+📊 ИТОГ: WR=0% PnL=$0.00 Trades=0
