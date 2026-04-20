@@ -1,0 +1,14 @@
+{
+  "_comment": "Параметры стратегий. Редактируйте через дашборд или вручную. Бот читает при каждом скане.",
+  "s1": { "tp": 18, "sl": -8,  "rsiThr": 38, "rsiExit": 62 },
+  "s3": { "tp": 16, "sl": -9,  "dropThr": 8, "rsiMinEntry": 22 },
+  "sA": { "tp": 12, "sl": -5,  "rsiMaxEntry": 45, "rsiExitAt": 55 },
+  "sB": { "tp": 15, "sl": -6,  "fgThreshold": 35, "fgExtreme": 25 },
+  "sC": { "tp": 10, "sl": -5,  "smaPeriod": 50, "smaDistPct": 3 },
+  "sD": { "tp": 20, "sl": -8,  "rsiMin": 22, "rsiMax": 65, "drop30Max": -55 },
+  "global": {
+    "positionSize": 100,
+    "cooldownMin": 120,
+    "maxOpenPos": 15
+  }
+}

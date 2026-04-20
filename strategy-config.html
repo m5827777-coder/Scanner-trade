@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>⚙️ Стратегии — Настройки & Статистика</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500&display=swap');
+:root{
+  --bg:#05080f;--bg2:#0a0f1a;--bg3:#0f1825;
+  --b:#1a2535;--b2:#243040;
+  --t:#c8d8f0;--t2:#7a9ab8;--t3:#415a78;
+  --a:#00e5a0;--r:#ff4560;--y:#ffd060;--bl:#4da8ff;--pp:#c084fc;--or:#ff9940;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--t);font-family:'Inter',sans-serif;font-size:14px;line-height:1.6;min-height:100vh}
+
+/* HEADER */
+.hdr{display:flex;justify-content:space-between;align-items:center;padding:20px 32px;border-bottom:1px solid var(--b);flex-wrap:wrap;gap:12px}
+.hdr-left h1{font-family:'Bebas Neue';font-size:28px;letter-spacing:3px;color:#fff}
+.hdr-left h1 span{color:var(--a)}
+.hdr-left p{font-size:11px;color:var(--t3);margin-top:2px;font-family:'Space Mono',monospace}
+.hdr-right{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.regime-badge{padding:4px 12px;font-size:11px;font-weight:600;letter-spacing:1px;font-family:'Space Mono',monospace}
+#save-btn{background:var(--a);color:#000;border:none;padding:8px 20px;font-size:12px;font-weight:600;cursor:pointer;letter-spacing:1px;font-family:'Space Mono',monospace;transition:opacity .2s}
+#save-btn:hover{opacity:.85}
+#save-btn:disabled{opacity:.4;cursor:not-allowed}
+.save-status{font-size:11px;font-family:'Space Mono',monospace;color:var(--t3)}
+
+/* TABS */
+.tabs{display:flex;border-bottom:1px solid var(--b);padding:0 32px;overflow-x:auto}
+.tab{padding:12px 20px;font-size:12px;font-weight:500;color:var(--t3);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;transition:all .15s;font-family:'Space Mono',monospace}
+.tab:hover{color:var(--t)}
+.tab.active{color:var(--a);border-bottom-color:var(--a)}
+
+/* MAIN */
+.main{padding:24px 32px;max-width:1400px;margin:0 auto}
+
+/* GLOBAL STATS STRIP */
+.gstrip{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:8px;margin-bottom:24px}
+.gkpi{background:var(--bg2);border:1px solid var(--b);padding:12px 14px}
+.gkpi .k{font-size:9px;color:var(--t3);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;font-family:'Space Mono',monospace}
+.gkpi .v{font-family:'Bebas Neue';font-size:24px}
+
+/* STRATEGY CARD */
+.strat-grid{display:flex;flex-direction:column;gap:16px}
+.sc{background:var(--bg2);border:1px solid var(--b);overflow:hidden}
+.sc-head{display:flex;align-items:center;gap:14px;padding:16px 20px;border-bottom:1px solid var(--b);cursor:pointer;user-select:none}
+.sc-head:hover{background:rgba(255,255,255,.02)}
+.sc-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
+.sc-name{font-size:16px;font-weight:600;color:#fff;flex:1}
+.sc-id{font-family:'Space Mono',monospace;font-size:11px;color:var(--t3);padding:2px 8px;background:var(--bg3);border-radius:2px}
+.sc-wr{font-family:'Space Mono',monospace;font-size:13px;font-weight:600}
+.sc-pnl{font-family:'Bebas Neue';font-size:20px}
+.sc-toggle{color:var(--t3);font-size:12px;transition:transform .2s}
+.sc.open .sc-toggle{transform:rotate(180deg)}
+
+.sc-body{display:none;grid-template-columns:1fr 1fr;gap:0}
+.sc.open .sc-body{display:grid}
+@media(max-width:900px){.sc-body{grid-template-columns:1fr}}
+
+/* LEFT: LOGIC + STATS */
+.sc-left{padding:20px;border-right:1px solid var(--b)}
+.section-label{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--t3);font-family:'Space Mono',monospace;margin-bottom:10px}
+
+.logic-list{display:flex;flex-direction:column;gap:6px;margin-bottom:20px}
+.logic-item{display:flex;gap:10px;align-items:flex-start;font-size:13px;color:var(--t2);line-height:1.5;padding:6px 10px;background:var(--bg3);border-left:2px solid var(--b2)}
+.logic-item::before{content:'→';color:var(--a);font-weight:700;flex-shrink:0;margin-top:1px}
+.logic-item.exit::before{content:'←';color:var(--r)}
+
+.stat-row{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid var(--b);font-size:13px}
+.stat-row:last-child{border-bottom:none}
+.stat-key{color:var(--t3)}
+.stat-val{font-family:'Space Mono',monospace;font-weight:600}
+
+.regime-table{width:100%;border-collapse:collapse;font-size:11px;margin-top:8px}
+.regime-table th{padding:5px 8px;text-align:left;font-family:'Space Mono',monospace;font-size:9px;color:var(--t3);letter-spacing:1px;border-bottom:1px solid var(--b)}
+.regime-table td{padding:5px 8px;border-bottom:1px solid var(--bg3)}
+.grade{font-weight:700;font-family:'Space Mono',monospace}
+
+/* RIGHT: PARAMS EDITOR */
+.sc-right{padding:20px}
+.param-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px}
+.param-item{display:flex;flex-direction:column;gap:4px}
+.param-label{font-size:11px;color:var(--t3);font-family:'Space Mono',monospace}
+.param-note{font-size:10px;color:var(--t3);opacity:.6;margin-top:2px}
+.param-input{background:var(--bg3);border:1px solid var(--b2);color:var(--t);padding:7px 10px;font-family:'Space Mono',monospace;font-size:13px;width:100%;outline:none;transition:border-color .15s}
+.param-input:focus{border-color:var(--a)}
+.param-input.changed{border-color:var(--y)}
+
+.tp-sl-visual{background:var(--bg3);border:1px solid var(--b);padding:14px;margin-bottom:16px}
+.tp-sl-bar{display:flex;align-items:center;gap:2px;height:24px;margin:8px 0}
+.bar-sl{background:rgba(255,69,96,.3);height:100%;display:flex;align-items:center;justify-content:center;font-size:9px;font-family:'Space Mono';font-weight:700;color:var(--r)}
+.bar-entry{background:rgba(255,208,96,.15);width:4px;height:100%;border-left:2px solid var(--y)}
+.bar-tp{background:rgba(0,229,160,.3);height:100%;display:flex;align-items:center;justify-content:center;font-size:9px;font-family:'Space Mono';font-weight:700;color:var(--a)}
+.rr-label{font-size:11px;color:var(--t3);margin-top:4px}
+
+/* RECENT TRADES TABLE */
+.trades-mini{width:100%;border-collapse:collapse;font-size:11px;margin-top:8px}
+.trades-mini th{padding:4px 8px;text-align:left;color:var(--t3);font-family:'Space Mono';font-size:9px;letter-spacing:1px;border-bottom:1px solid var(--b)}
+.trades-mini td{padding:4px 8px;border-bottom:1px solid var(--bg3);font-family:'Space Mono'}
+
+/* GLOBAL PARAMS */
+.global-box{background:var(--bg2);border:1px solid var(--b);padding:20px;margin-bottom:24px}
+.global-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}
+
+/* SAVE PANEL */
+.save-panel{position:fixed;bottom:0;left:0;right:0;background:var(--bg3);border-top:1px solid var(--b2);padding:14px 32px;display:flex;justify-content:space-between;align-items:center;z-index:100;transform:translateY(100%);transition:transform .3s}
+.save-panel.visible{transform:translateY(0)}
+.save-panel-msg{font-size:13px;color:var(--y)}
+.save-panel-btns{display:flex;gap:10px}
+.btn-save{background:var(--a);color:#000;border:none;padding:8px 24px;font-weight:600;cursor:pointer;font-family:'Space Mono';font-size:12px}
+.btn-cancel{background:transparent;color:var(--t3);border:1px solid var(--b2);padding:8px 16px;cursor:pointer;font-family:'Space Mono';font-size:12px}
+
+/* LOADING */
+.loader{text-align:center;padding:60px;color:var(--t3);font-family:'Space Mono'}
+.dot-anim::after{content:'';animation:dots 1.5s infinite}
+@keyframes dots{0%{content:''}33%{content:'.'}66%{content:'..'}100%{content:'...'}}
+
+/* PANEL */
+.panel{display:none}.panel.active{display:block}
+
+/* GITHUB SETUP */
+.setup-box{background:var(--bg2);border:1px solid var(--b2);border-left:3px solid var(--y);padding:16px 20px;margin-bottom:20px;font-size:13px;color:var(--t2);line-height:1.7}
+.setup-box strong{color:#fff}
+.setup-input{width:100%;background:var(--bg3);border:1px solid var(--b2);color:var(--t);padding:8px 12px;font-family:'Space Mono';font-size:12px;outline:none;margin-top:6px}
+.setup-input:focus{border-color:var(--a)}
+.btn-connect{background:var(--a);color:#000;border:none;padding:8px 20px;font-weight:600;cursor:pointer;font-family:'Space Mono';font-size:12px;margin-top:8px}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <div class="hdr-left">
+    <h1>⚙️ СТРАТЕГИИ <span>БОТА</span></h1>
+    <p id="hdr-meta">Загрузка данных<span class="dot-anim"></span></p>
+  </div>
+  <div class="hdr-right">
+    <span id="regime-badge" class="regime-badge" style="background:rgba(255,208,96,.1);color:var(--y)">📊 —</span>
+    <span id="fg-badge" class="regime-badge" style="background:rgba(255,208,96,.1);color:var(--y)">😱 F&G: —</span>
+    <span class="save-status" id="save-status"></span>
+    <button id="save-btn" onclick="saveParams()" disabled>💾 Сохранить</button>
+  </div>
+</div>
+
+<div class="tabs">
+  <div class="tab active" onclick="showPanel('strategies')">📊 Стратегии</div>
+  <div class="tab" onclick="showPanel('global')">⚙️ Глобальные настройки</div>
+  <div class="tab" onclick="showPanel('github')">🔗 GitHub настройка</div>
+</div>
+
+<div class="main">
+
+  <!-- GLOBAL STATS -->
+  <div class="gstrip" id="gstrip">
+    <div class="gkpi"><div class="k">Сделок</div><div class="v" id="gs-trades" style="color:var(--a)">—</div></div>
+    <div class="gkpi"><div class="k">Win Rate</div><div class="v" id="gs-wr">—</div></div>
+    <div class="gkpi"><div class="k">PnL $</div><div class="v" id="gs-pnl">—</div></div>
+    <div class="gkpi"><div class="k">Открытых</div><div class="v" id="gs-open" style="color:var(--y)">—</div></div>
+    <div class="gkpi"><div class="k">Сканов</div><div class="v" id="gs-scans">—</div></div>
+    <div class="gkpi"><div class="k">ROI %</div><div class="v" id="gs-roi">—</div></div>
+  </div>
+
+  <!-- PANEL: STRATEGIES -->
+  <div class="panel active" id="panel-strategies">
+    <div class="strat-grid" id="strat-grid">
+      <div class="loader">Загрузка стратегий<span class="dot-anim"></span></div>
+    </div>
+  </div>
+
+  <!-- PANEL: GLOBAL SETTINGS -->
+  <div class="panel" id="panel-global">
+    <div class="global-box">
+      <div class="section-label" style="margin-bottom:16px">Глобальные параметры бота</div>
+      <div class="global-grid">
+        <div class="param-item">
+          <div class="param-label">positionSize — Размер позиции $</div>
+          <input class="param-input" id="g-positionSize" type="number" value="100" min="10" oninput="markChanged(this)">
+          <div class="param-note">Сумма в долларах на каждую сделку</div>
+        </div>
+        <div class="param-item">
+          <div class="param-label">cooldownMin — Cooldown (минуты)</div>
+          <input class="param-input" id="g-cooldownMin" type="number" value="120" min="30" oninput="markChanged(this)">
+          <div class="param-note">Минимальный интервал перед повторным входом по токену+стратегии</div>
+        </div>
+        <div class="param-item">
+          <div class="param-label">maxOpenPos — Макс. открытых позиций</div>
+          <input class="param-input" id="g-maxOpenPos" type="number" value="15" min="1" max="50" oninput="markChanged(this)">
+          <div class="param-note">При достижении лимита бот не открывает новые позиции</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PANEL: GITHUB SETUP -->
+  <div class="panel" id="panel-github">
+    <div class="setup-box">
+      <strong>Как работает сохранение параметров</strong><br>
+      Параметры хранятся в файле <code>data/params.json</code> в вашем репозитории.
+      Бот читает их при каждом запуске. Чтобы сохранять изменения прямо из этого дашборда,
+      введите GitHub Token с правами <code>repo</code>.
+    </div>
+    <div class="setup-box" style="border-color:var(--bl)">
+      <strong>Где взять GitHub Token:</strong><br>
+      github.com → Settings → Developer settings → Personal access tokens → Tokens (classic) →
+      Generate new token → выберите scope: <code>repo</code> → Generate → скопируйте
+      <br><br>
+      <strong>Репозиторий (owner/repo):</strong>
+      <input class="setup-input" id="cfg-repo" placeholder="m5827777-coder/Scanner-trade" value="">
+      <br><br>
+      <strong>GitHub Personal Access Token:</strong>
+      <input class="setup-input" id="cfg-token" type="password" placeholder="ghp_xxxxxxxxxxxxxxxxxxxxx">
+      <br>
+      <button class="btn-connect" onclick="testGitHub()">🔗 Подключить</button>
+      <span id="gh-test-result" style="font-size:12px;margin-left:12px;font-family:'Space Mono'"></span>
+      <div class="param-note" style="margin-top:8px">Токен хранится только в localStorage вашего браузера — не передаётся никуда кроме GitHub API</div>
+    </div>
+  </div>
+
+</div><!-- /main -->
+
+<!-- SAVE PANEL -->
+<div class="save-panel" id="save-panel">
+  <div class="save-panel-msg">⚠️ Есть несохранённые изменения</div>
+  <div class="save-panel-btns">
+    <button class="btn-cancel" onclick="cancelChanges()">Отменить</button>
+    <button class="btn-save" onclick="saveParams()">💾 Сохранить в GitHub</button>
+  </div>
+</div>
+
+<script>
+// ════════════════════════════════════════════════════════
+// CONFIG & DATA
+// ════════════════════════════════════════════════════════
+const REPO      = localStorage.getItem('gh_repo')  || 'm5827777-coder/Scanner-trade';
+const GH_TOKEN  = localStorage.getItem('gh_token') || '';
+
+const STRATEGY_META = {
+  s1: {
+    name:'RSI Bounce', color:'#22EE88',
+    desc:'Покупаем когда RSI ≤ порога (oversold). Рынок перепродан — ждём отскок.',
+    entry:[
+      'RSI ≤ rsiThr — токен в зоне oversold',
+      'Нет 3 подряд падающих баров (защита от ножа)',
+    ],
+    exit:[
+      'SL = sl% ниже цены входа → немедленный выход',
+      'RSI ≥ rsiExit — перекупленность, фиксируем',
+      'TP = tp% выше цены входа → берём прибыль',
+    ],
+    params:{
+      tp:{label:'TP %',note:'Take Profit, напр. 18'},
+      sl:{label:'SL %',note:'Stop Loss отрицательный, напр. -8'},
+      rsiThr:{label:'RSI вход ≤',note:'Порог oversold, напр. 38'},
+      rsiExit:{label:'RSI выход ≥',note:'Порог перекупленности, напр. 62'},
+    },
+    defaults:{tp:18,sl:-8,rsiThr:38,rsiExit:62},
+    bestRegimes:['BULL_TREND','BULL','RANGE','NEUTRAL'],
+    worstRegimes:['BEAR_TREND'],
+  },
+  s3: {
+    name:'Buyback Dip', color:'#00FFAA',
+    desc:'Покупаем просадку 8%+ от 7-дневного максимума. Протоколы с buyback защищают цену.',
+    entry:[
+      'Цена упала ≥ dropThr% от 7-дневного максимума',
+      'RSI не ниже rsiMinEntry (защита от свободного падения)',
+    ],
+    exit:[
+      'SL = sl% ниже цены входа → немедленный выход',
+      'Возврат к 7-дневной SMA → цель достигнута',
+      'TP = tp% выше цены входа → берём прибыль',
+    ],
+    params:{
+      tp:{label:'TP %',note:'Take Profit, напр. 16'},
+      sl:{label:'SL %',note:'Stop Loss отрицательный, напр. -9'},
+      dropThr:{label:'Просадка % ≥',note:'Мин. падение от 7d max, напр. 8'},
+      rsiMinEntry:{label:'RSI мин. вход',note:'Не входить ниже этого RSI, напр. 22'},
+    },
+    defaults:{tp:16,sl:-9,dropThr:8,rsiMinEntry:22},
+    bestRegimes:['BULL_TREND','BULL','RANGE','NEUTRAL','BEAR'],
+    worstRegimes:['BEAR_TREND'],
+  },
+  sA: {
+    name:'RSI Divergence', color:'#C084FC',
+    desc:'Бычья дивергенция: цена делает новый минимум, RSI — нет. Классический сигнал разворота.',
+    entry:[
+      'Цена[сегодня] < Цена[4 дня назад] — новый минимум по цене',
+      'RSI[сегодня] > RSI[4 дня назад] + 2 — RSI выше (дивергенция!)',
+      'RSI в зоне 20–rsiMaxEntry — не в панике и не перекуплен',
+    ],
+    exit:[
+      'SL = sl% ниже цены входа → немедленный выход',
+      'RSI ≥ rsiExitAt → дивергенция отработана, фиксируем',
+      'TP = tp% выше цены входа → берём прибыль',
+    ],
+    params:{
+      tp:{label:'TP %',note:'Take Profit, напр. 12'},
+      sl:{label:'SL %',note:'Stop Loss отрицательный, напр. -5'},
+      rsiMaxEntry:{label:'RSI макс. вход',note:'Не входить выше, напр. 45'},
+      rsiExitAt:{label:'RSI выход ≥',note:'Дивергенция отработана, напр. 55'},
+    },
+    defaults:{tp:12,sl:-5,rsiMaxEntry:45,rsiExitAt:55},
+    bestRegimes:['BEAR','RANGE','NEUTRAL','BEAR_TREND'],
+    worstRegimes:['BULL_TREND'],
+  },
+  sB: {
+    name:'F&G Reversal', color:'#FF9940',
+    desc:'Вход при Extreme Fear (F&G < порога) + подтверждение отскока. Исторически лучший момент покупки.',
+    entry:[
+      'Fear & Greed ≤ fgThreshold (рынок в страхе)',
+      'Цена сегодня > вчера (отскок уже начался)',
+      'RSI в зоне 25–50 (не паника и не перегрев)',
+      'Нет свободного падения: 3-дневное падение < 20%',
+    ],
+    exit:[
+      'SL = sl% ниже цены входа → немедленный выход',
+      'F&G восстановился выше 45 (страх прошёл)',
+      'TP = tp% выше цены входа → берём прибыль',
+    ],
+    params:{
+      tp:{label:'TP %',note:'Take Profit, напр. 15'},
+      sl:{label:'SL %',note:'Stop Loss отрицательный, напр. -6'},
+      fgThreshold:{label:'F&G порог вход ≤',note:'Fear — рынок в страхе, напр. 35'},
+      fgExtreme:{label:'F&G Extreme Fear ≤',note:'Сильный сигнал, напр. 25'},
+    },
+    defaults:{tp:15,sl:-6,fgThreshold:35,fgExtreme:25},
+    bestRegimes:['BEAR','NEUTRAL','BEAR_TREND','RANGE'],
+    worstRegimes:['BULL_TREND'],
+  },
+  sC: {
+    name:'SMA50 Bounce', color:'#4DB8FF',
+    desc:'Отскок от SMA50. Классический технический уровень поддержки в тренде.',
+    entry:[
+      'Вчера цена ≤ SMA50 × 1.005 (касание снизу)',
+      'Сегодня цена > SMA50 (пробой вверх — вход!)',
+      'Цена не дальше smaDistPct% от SMA50',
+      'RSI в нейтральной зоне 30–58',
+    ],
+    exit:[
+      'SL = sl% ниже цены входа → немедленный выход',
+      'Пробой SMA50 вниз → уровень не держит',
+      'TP = tp% выше цены входа → берём прибыль',
+    ],
+    params:{
+      tp:{label:'TP %',note:'Take Profit, напр. 10'},
+      sl:{label:'SL %',note:'Stop Loss отрицательный, напр. -5'},
+      smaPeriod:{label:'SMA период (дни)',note:'Скользящая средняя, напр. 50'},
+      smaDistPct:{label:'Макс. дистанция от SMA %',note:'Не входить если далеко, напр. 3'},
+    },
+    defaults:{tp:10,sl:-5,smaPeriod:50,smaDistPct:3},
+    bestRegimes:['BULL_TREND','BULL','RANGE','NEUTRAL'],
+    worstRegimes:['BEAR_TREND'],
+  },
+  sD: {
+    name:'Damodaran P/R', color:'#F59E0B',
+    desc:'Фундаментал по Дамодарану (гл.3). P/R<25 + реальная выручка + рост + качество.',
+    entry:[
+      'RSI в зоне rsiMin–rsiMax (не экстремум)',
+      '30-дневное падение не хуже drop30Max (защита от дистресс-активов)',
+      'Объём реальный (токен используется = выручка есть)',
+      'Краткосрочный рост: цена растёт 2 дня подряд',
+    ],
+    exit:[
+      'SL = sl% ниже цены входа → немедленный выход',
+      'RSI ≥ 70 — перекупленность',
+      'TP = tp% / или трейлинг при прибыли >10% за 3+ дней',
+    ],
+    params:{
+      tp:{label:'TP %',note:'Take Profit, напр. 20'},
+      sl:{label:'SL %',note:'Stop Loss отрицательный, напр. -8'},
+      rsiMin:{label:'RSI мин.',note:'Не входить ниже, напр. 22'},
+      rsiMax:{label:'RSI макс.',note:'Не входить выше, напр. 65'},
+      drop30Max:{label:'30d min падение %',note:'Не входить если хуже, напр. -55'},
+    },
+    defaults:{tp:20,sl:-8,rsiMin:22,rsiMax:65,drop30Max:-55},
+    bestRegimes:['BULL','BULL_TREND','RANGE','NEUTRAL','BEAR'],
+    worstRegimes:[],
+  },
+};
+
+const REGIME_WR = {
+  s1: {BULL_TREND:'A+ 65%',BULL:'A 62%',RANGE:'A 68%',NEUTRAL:'B+ 58%',BEAR:'B 52%',BEAR_TREND:'C 42%'},
+  s3: {BULL_TREND:'A+ 73%',BULL:'A+ 71%',RANGE:'A 64%',NEUTRAL:'A- 62%',BEAR:'B+ 56%',BEAR_TREND:'B- 51%'},
+  sA: {BULL_TREND:'B- 52%',BULL:'B 55%',RANGE:'A- 63%',NEUTRAL:'B+ 59%',BEAR:'A 61%',BEAR_TREND:'B+ 58%'},
+  sB: {BULL_TREND:'C 42%',BULL:'C+ 45%',RANGE:'B+ 58%',NEUTRAL:'A- 61%',BEAR:'A 65%',BEAR_TREND:'A- 62%'},
+  sC: {BULL_TREND:'A 66%',BULL:'A- 63%',RANGE:'A- 61%',NEUTRAL:'B+ 58%',BEAR:'B 52%',BEAR_TREND:'C+ 44%'},
+  sD: {BULL_TREND:'A+ 71%',BULL:'A+ 68%',RANGE:'A 65%',NEUTRAL:'A 64%',BEAR:'A 62%',BEAR_TREND:'B+ 58%'},
+};
+
+const GRADE_COLOR = {
+  'A+':'#00FFAA','A':'#22EE88','A-':'#44DD66',
+  'B+':'#88EE22','B':'#AACC00','B-':'#CCAA00',
+  'C+':'#EE9922','C':'#FF9940','C-':'#FF6622',
+  'D':'#FF4466','F':'#CC1133',
+};
+
+// ════════════════════════════════════════════════════════
+// STATE
+// ════════════════════════════════════════════════════════
+let STATE     = null;
+let PARAMS    = null;
+let changed   = false;
+let origParams= null;
+
+// ════════════════════════════════════════════════════════
+// INIT
+// ════════════════════════════════════════════════════════
+async function init(){
+  // Load saved GitHub config
+  const repo  = localStorage.getItem('gh_repo');
+  const token = localStorage.getItem('gh_token');
+  if(repo)  document.getElementById('cfg-repo').value  = repo;
+  if(token) document.getElementById('cfg-token').value = token;
+
+  await Promise.all([loadState(), loadParams()]);
+  renderAll();
+
+  // Auto-refresh every 3 min
+  setInterval(async()=>{ await loadState(); renderStats(); }, 3*60*1000);
+}
+
+async function loadState(){
+  try{
+    const repo = localStorage.getItem('gh_repo') || REPO;
+    const r = await fetch(`https://raw.githubusercontent.com/${repo}/main/data/state.json?t=${Date.now()}`);
+    if(!r.ok) throw new Error(r.status);
+    STATE = await r.json();
+  }catch(e){
+    console.warn('state.json load failed:', e.message);
+    STATE = {openPositions:[],closedTrades:[],scanCount:0,fearGreed:21,marketRegime:'NEUTRAL',totalStats:{trades:0,wins:0,losses:0,totalPnl:0,invested:0},byStrategy:{},lastScan:null};
+  }
+}
+
+async function loadParams(){
+  try{
+    const repo = localStorage.getItem('gh_repo') || REPO;
+    const r = await fetch(`https://raw.githubusercontent.com/${repo}/main/data/params.json?t=${Date.now()}`);
+    if(!r.ok) throw new Error(r.status);
+    PARAMS = await r.json();
+  }catch(e){
+    console.warn('params.json not found, using defaults');
+    PARAMS = buildDefaultParams();
+  }
+  origParams = JSON.parse(JSON.stringify(PARAMS));
+}
+
+function buildDefaultParams(){
+  const p = {global:{positionSize:100,cooldownMin:120,maxOpenPos:15}};
+  Object.entries(STRATEGY_META).forEach(([id,m])=>{p[id]={...m.defaults};});
+  return p;
+}
+
+// ════════════════════════════════════════════════════════
+// RENDER
+// ════════════════════════════════════════════════════════
+function renderAll(){
+  renderStats();
+  renderStratCards();
+  renderGlobalInputs();
+}
+
+function renderStats(){
+  if(!STATE) return;
+  const ts = STATE.totalStats;
+  const wr = ts.trades ? (ts.wins/ts.trades*100).toFixed(1)+'%' : '—';
+  const roi = ts.invested > 0 ? ((ts.totalPnl/ts.invested)*100).toFixed(2)+'%' : '—';
+  const pnlC = ts.totalPnl>=0 ? 'var(--a)' : 'var(--r)';
+
+  el('gs-trades').textContent = ts.trades;
+  el('gs-wr').textContent = wr;
+  el('gs-wr').style.color = ts.trades && ts.wins/ts.trades>=0.5 ? 'var(--a)' : 'var(--r)';
+  el('gs-pnl').textContent = (ts.totalPnl>=0?'+':'') + '$' + ts.totalPnl.toFixed(2);
+  el('gs-pnl').style.color = pnlC;
+  el('gs-open').textContent = (STATE.openPositions?.length||0);
+  el('gs-scans').textContent = STATE.scanCount||0;
+  el('gs-roi').textContent = roi;
+  el('gs-roi').style.color = parseFloat(roi)>=0 ? 'var(--a)' : 'var(--r)';
+
+  const rc = STATE.marketRegime?.includes('BULL') ? '#00e5a0' : STATE.marketRegime?.includes('BEAR') ? '#ff4560' : '#ffd060';
+  el('regime-badge').textContent = '📊 '+(STATE.marketRegime||'—');
+  el('regime-badge').style.color = rc;
+  el('fg-badge').textContent = '😱 F&G: '+(STATE.fearGreed||'—');
+  el('fg-badge').style.color = (STATE.fearGreed||50) < 35 ? '#ff4560' : (STATE.fearGreed||50) > 55 ? '#00e5a0' : '#ffd060';
+
+  const lastScan = STATE.lastScan ? new Date(STATE.lastScan).toLocaleString('ru-RU',{timeZone:'UTC',hour12:false}) : '—';
+  el('hdr-meta').innerHTML = `Последний скан: ${lastScan} UTC · Запущен: ${STATE.startedAt?new Date(STATE.startedAt).toLocaleDateString('ru-RU'):'—'}`;
+}
+
+function renderStratCards(){
+  const grid = el('strat-grid');
+  grid.innerHTML = Object.entries(STRATEGY_META).map(([id,m])=>{
+    const bs  = STATE?.byStrategy?.[id] || {trades:0,wins:0,losses:0,pnl:0};
+    const bwr = bs.trades ? (bs.wins/bs.trades*100).toFixed(0)+'%' : '—';
+    const pnlC = bs.pnl>=0 ? 'var(--a)' : 'var(--r)';
+    const openCount = STATE?.openPositions?.filter(p=>p.stratId===id).length || 0;
+    const p = PARAMS?.[id] || m.defaults;
+    const rr = Math.abs(p.tp / p.sl).toFixed(1);
+    const slW = Math.abs(p.sl) / (Math.abs(p.sl)+p.tp) * 100;
+    const tpW = 100 - slW;
+
+    // Recent trades for this strategy
+    const recent = STATE?.closedTrades?.filter(t=>t.stratId===id).slice(0,5)||[];
+    const recentRows = recent.map(t=>{
+      const col = t.pnl>=0?'var(--a)':'var(--r)';
+      return `<tr>
+        <td style="color:var(--t3)">${t.symbol}</td>
+        <td style="color:${col}">${t.pnl>=0?'+':''}${(t.pnl||0).toFixed(2)}%</td>
+        <td style="color:${col}">${t.pnlUsd>=0?'+':''}$${(t.pnlUsd||0).toFixed(2)}</td>
+        <td style="color:var(--t3)">${t.exitReason?.slice(0,20)||'—'}</td>
+      </tr>`;
+    }).join('') || '<tr><td colspan="4" style="color:var(--t3);padding:6px 8px">Нет сделок</td></tr>';
+
+    // Regime table
+    const regimes = ['BULL_TREND','BULL','NEUTRAL','RANGE','BEAR','BEAR_TREND'];
+    const regimeRows = regimes.map(r=>{
+      const val = REGIME_WR[id]?.[r] || '—';
+      const grade = val.split(' ')[0];
+      const gc = GRADE_COLOR[grade] || 'var(--t3)';
+      const rColor = r.includes('BULL')?'var(--a)':r.includes('BEAR')?'var(--r)':'var(--y)';
+      return `<tr>
+        <td style="color:${rColor};font-weight:600">${r}</td>
+        <td class="grade" style="color:${gc}">${val}</td>
+      </tr>`;
+    }).join('');
+
+    // Param inputs
+    const paramInputs = Object.entries(m.params).map(([key,meta])=>{
+      const val = p[key] ?? m.defaults[key];
+      return `<div class="param-item">
+        <div class="param-label">${meta.label}</div>
+        <input class="param-input" id="p-${id}-${key}" type="number"
+          value="${val}" step="${key==='sl'||key.includes('Pct')||key.includes('Max')||key.includes('drop')?0.5:1}"
+          oninput="onParamChange('${id}','${key}',this)">
+        <div class="param-note">${meta.note}</div>
+      </div>`;
+    }).join('');
+
+    return `<div class="sc" id="sc-${id}">
+      <div class="sc-head" onclick="toggleCard('${id}')">
+        <div class="sc-dot" style="background:${m.color}"></div>
+        <div class="sc-name">${m.name}</div>
+        <div class="sc-id">${id}</div>
+        <div style="margin-left:8px;font-size:11px;color:var(--t3)">📂 ${openCount} открыто</div>
+        <div style="margin-left:12px">
+          <span class="sc-wr" style="color:${bs.trades&&bs.wins/bs.trades>=0.5?'var(--a)':'var(--r)'}">${bwr}</span>
+        </div>
+        <div style="margin-left:12px">
+          <span class="sc-pnl" style="color:${pnlC}">${bs.pnl>=0?'+':''}$${(bs.pnl||0).toFixed(2)}</span>
+        </div>
+        <div class="sc-toggle" style="margin-left:8px">▼</div>
+      </div>
+      <div class="sc-body">
+        <div class="sc-left">
+          <div class="section-label">Логика входа</div>
+          <div class="logic-list">
+            ${m.entry.map(e=>`<div class="logic-item">${e}</div>`).join('')}
+          </div>
+          <div class="section-label">Логика выхода</div>
+          <div class="logic-list">
+            ${m.exit.map(e=>`<div class="logic-item exit">${e}</div>`).join('')}
+          </div>
+
+          <div class="section-label" style="margin-top:16px">Эффективность по режимам</div>
+          <table class="regime-table">
+            <thead><tr><th>Режим рынка</th><th>Исторический WR</th></tr></thead>
+            <tbody>${regimeRows}</tbody>
+          </table>
+
+          <div class="section-label" style="margin-top:16px">Последние сделки</div>
+          <table class="trades-mini">
+            <thead><tr><th>Токен</th><th>PnL %</th><th>PnL $</th><th>Причина выхода</th></tr></thead>
+            <tbody>${recentRows}</tbody>
+          </table>
+
+          <div class="stat-row" style="margin-top:12px">
+            <span class="stat-key">Всего сделок</span>
+            <span class="stat-val">${bs.trades}</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-key">Прибыльных / Убыточных</span>
+            <span class="stat-val" style="color:var(--a)">${bs.wins}</span>
+            <span style="color:var(--t3);margin:0 4px">/</span>
+            <span class="stat-val" style="color:var(--r)">${bs.losses||bs.trades-bs.wins}</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-key">Итого PnL</span>
+            <span class="stat-val" style="color:${pnlC}">${bs.pnl>=0?'+':''}$${(bs.pnl||0).toFixed(2)}</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-key">Avg PnL / сделка</span>
+            <span class="stat-val">${bs.trades?(bs.pnl/bs.trades).toFixed(2):'—'}$</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-key">Сейчас открыто</span>
+            <span class="stat-val" style="color:var(--y)">${openCount}</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-key">Лучшие режимы</span>
+            <span class="stat-val" style="font-size:10px;color:var(--a)">${m.bestRegimes.join(', ')}</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-key">Плохие режимы</span>
+            <span class="stat-val" style="font-size:10px;color:var(--r)">${m.worstRegimes.join(', ')||'—'}</span>
+          </div>
+        </div>
+
+        <div class="sc-right">
+          <div class="section-label">Параметры стратегии</div>
+          <div class="tp-sl-visual">
+            <div style="font-size:11px;color:var(--t3);margin-bottom:6px">Risk / Reward визуализация</div>
+            <div class="tp-sl-bar">
+              <div class="bar-sl" style="width:${slW}%">SL ${p.sl}%</div>
+              <div class="bar-entry"></div>
+              <div class="bar-tp" style="width:${tpW}%">TP +${p.tp}%</div>
+            </div>
+            <div class="rr-label" id="rr-${id}">Risk/Reward = 1 : ${rr}</div>
+          </div>
+          <div class="param-grid" id="params-${id}">${paramInputs}</div>
+          <div style="font-size:11px;color:var(--t3);margin-top:8px;line-height:1.5">${m.desc}</div>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderGlobalInputs(){
+  if(!PARAMS?.global) return;
+  const g = PARAMS.global;
+  const fields = ['positionSize','cooldownMin','maxOpenPos'];
+  fields.forEach(f=>{ const el2=document.getElementById('g-'+f); if(el2) el2.value=g[f]??''; });
+}
+
+// ════════════════════════════════════════════════════════
+// INTERACTIONS
+// ════════════════════════════════════════════════════════
+function toggleCard(id){
+  const sc = document.getElementById('sc-'+id);
+  sc.classList.toggle('open');
+}
+
+function showPanel(name){
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById('panel-'+name).classList.add('active');
+  event.target.classList.add('active');
+}
+
+function onParamChange(sid, key, input){
+  if(!PARAMS[sid]) PARAMS[sid]={};
+  const val = parseFloat(input.value);
+  PARAMS[sid][key] = isNaN(val) ? input.value : val;
+  input.classList.add('changed');
+
+  // Update TP/SL visual
+  const p = PARAMS[sid];
+  const m = STRATEGY_META[sid];
+  const tp = p.tp ?? m.defaults.tp;
+  const sl = p.sl ?? m.defaults.sl;
+  const rr = Math.abs(tp/sl).toFixed(1);
+  const rrEl = document.getElementById('rr-'+sid);
+  if(rrEl) rrEl.textContent = `Risk/Reward = 1 : ${rr}`;
+
+  markChangedState();
+}
+
+function markChanged(input){ input.classList.add('changed'); markChangedState(); }
+
+function markChangedState(){
+  changed = true;
+  document.getElementById('save-panel').classList.add('visible');
+  document.getElementById('save-btn').disabled = false;
+}
+
+function cancelChanges(){
+  PARAMS = JSON.parse(JSON.stringify(origParams));
+  changed = false;
+  document.getElementById('save-panel').classList.remove('visible');
+  document.getElementById('save-btn').disabled = true;
+  renderStratCards();
+  renderGlobalInputs();
+}
+
+// Collect global params from inputs
+function collectGlobalParams(){
+  const g={};
+  ['positionSize','cooldownMin','maxOpenPos'].forEach(f=>{
+    const el2=document.getElementById('g-'+f);
+    if(el2) g[f]=parseFloat(el2.value)||0;
+  });
+  if(!PARAMS.global) PARAMS.global={};
+  Object.assign(PARAMS.global,g);
+}
+
+// ════════════════════════════════════════════════════════
+// GITHUB SAVE
+// ════════════════════════════════════════════════════════
+async function saveParams(){
+  collectGlobalParams();
+
+  const repo  = localStorage.getItem('gh_repo') || document.getElementById('cfg-repo')?.value || REPO;
+  const token = localStorage.getItem('gh_token') || document.getElementById('cfg-token')?.value;
+
+  if(!token){
+    el('save-status').textContent = '⚠️ Нужен GitHub Token (вкладка GitHub настройка)';
+    el('save-status').style.color = 'var(--y)';
+    showPanel('github');
+    return;
+  }
+
+  const saveBtn = el('save-btn');
+  saveBtn.disabled=true; saveBtn.textContent='Сохраняю...';
+
+  try{
+    // Get current SHA
+    const getR = await fetch(`https://api.github.com/repos/${repo}/contents/data/params.json`,{
+      headers:{'Authorization':'token '+token,'Accept':'application/vnd.github.v3+json'}
+    });
+    const sha = getR.ok ? (await getR.json()).sha : null;
+
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(PARAMS,null,2))));
+    const putR = await fetch(`https://api.github.com/repos/${repo}/contents/data/params.json`,{
+      method:'PUT',
+      headers:{'Authorization':'token '+token,'Content-Type':'application/json','Accept':'application/vnd.github.v3+json'},
+      body: JSON.stringify({message:'⚙️ Update strategy params via dashboard',content,...(sha?{sha}:{})})
+    });
+
+    if(!putR.ok){
+      const err=await putR.json();
+      throw new Error(err.message||putR.status);
+    }
+
+    origParams = JSON.parse(JSON.stringify(PARAMS));
+    changed = false;
+    document.getElementById('save-panel').classList.remove('visible');
+    saveBtn.textContent='💾 Сохранить';
+    saveBtn.disabled=false;
+    el('save-status').textContent='✅ Сохранено в GitHub';
+    el('save-status').style.color='var(--a)';
+    document.querySelectorAll('.param-input').forEach(i=>i.classList.remove('changed'));
+    setTimeout(()=>{ el('save-status').textContent=''; },4000);
+  }catch(e){
+    saveBtn.textContent='💾 Сохранить';
+    saveBtn.disabled=false;
+    el('save-status').textContent='❌ '+e.message;
+    el('save-status').style.color='var(--r)';
+  }
+}
+
+async function testGitHub(){
+  const repo  = document.getElementById('cfg-repo').value.trim();
+  const token = document.getElementById('cfg-token').value.trim();
+  const res   = document.getElementById('gh-test-result');
+  res.textContent = 'Проверка...'; res.style.color='var(--y)';
+  try{
+    const r = await fetch(`https://api.github.com/repos/${repo}`,{
+      headers:{'Authorization':'token '+token,'Accept':'application/vnd.github.v3+json'}
+    });
+    const d = await r.json();
+    if(r.ok){
+      localStorage.setItem('gh_repo', repo);
+      localStorage.setItem('gh_token', token);
+      res.textContent='✅ Подключено: '+d.full_name;
+      res.style.color='var(--a)';
+      await Promise.all([loadState(),loadParams()]);
+      renderAll();
+    } else {
+      res.textContent='❌ '+d.message;
+      res.style.color='var(--r)';
+    }
+  }catch(e){
+    res.textContent='❌ '+e.message;
+    res.style.color='var(--r)';
+  }
+}
+
+// ════════════════════════════════════════════════════════
+// UTILS
+// ════════════════════════════════════════════════════════
+const el = id => document.getElementById(id);
+
+// ════════════════════════════════════════════════════════
+// START
+// ════════════════════════════════════════════════════════
+init();
+</script>
+</body>
+</html>
