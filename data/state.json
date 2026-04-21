@@ -769,22 +769,6 @@
       "src": "OKX"
     },
     {
-      "id": "CC_s3_1776768922842",
-      "symbol": "CC",
-      "name": "Canton",
-      "coinId": "canton-network",
-      "rank": 21,
-      "stratId": "s3",
-      "entryPrice": 0.14886,
-      "entryTime": 1776768922842,
-      "entryDate": "2026-04-21T10:55:22.842Z",
-      "entrySignal": "Просадка -10.3% от 7d max ($0.1659)",
-      "strength": 69,
-      "regime": "RANGE",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "CC_sD_1776768923480",
       "symbol": "CC",
       "name": "Canton",
@@ -799,9 +783,47 @@
       "regime": "RANGE",
       "size": 100,
       "src": "OKX"
+    },
+    {
+      "id": "CC_s3_1776772533171",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 21,
+      "stratId": "s3",
+      "entryPrice": 0.14951,
+      "entryTime": 1776772533171,
+      "entryDate": "2026-04-21T11:55:33.171Z",
+      "entrySignal": "Просадка -9.9% от 7d max ($0.1659)",
+      "strength": 66,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "OKX"
     }
   ],
   "closedTrades": [
+    {
+      "id": "CC_s3_1776768922842",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 21,
+      "stratId": "s3",
+      "entryPrice": 0.14886,
+      "entryTime": 1776768922842,
+      "entryDate": "2026-04-21T10:55:22.842Z",
+      "entrySignal": "Просадка -10.3% от 7d max ($0.1659)",
+      "strength": 69,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 0.14951,
+      "exitTime": 1776772523060,
+      "exitReason": "Возврат к SMA7 ($0.1499)",
+      "pnl": 0.43665188767970686,
+      "pnlUsd": 0.4366518876797068,
+      "total": 100.4366518876797
+    },
     {
       "id": "WLFI_s3_1776687035807",
       "symbol": "WLFI",
@@ -1081,35 +1103,35 @@
     "BCH_sB": 1776710556696,
     "AVAX_sB": 1776711503105,
     "HBAR_sD": 1776733727296,
-    "CC_s3": 1776768922842,
+    "CC_s3": 1776772533171,
     "CC_sD": 1776768923480
   },
-  "scanCount": 24,
+  "scanCount": 25,
   "startedAt": "2026-04-20T10:19:04.117Z",
-  "lastScan": "2026-04-21T10:55:24.206Z",
+  "lastScan": "2026-04-21T11:55:34.225Z",
   "lastReport": "2026-04-21T07:28:05.270Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 33,
   "totalStats": {
-    "trades": 10,
-    "wins": 9,
+    "trades": 11,
+    "wins": 10,
     "losses": 1,
-    "totalPnl": 15.188614725224323,
-    "invested": 1000
+    "totalPnl": 15.62526661290403,
+    "invested": 1100
   },
   "byStrategy": {
     "s3": {
-      "trades": 10,
-      "wins": 9,
-      "pnl": 15.188614725224323
+      "trades": 11,
+      "wins": 10,
+      "pnl": 15.62526661290403
     }
   },
   "byRegime": {
     "NEUTRAL": {
       "s3": {
-        "trades": 10,
-        "wins": 9,
-        "pnl": 15.188614725224323
+        "trades": 11,
+        "wins": 10,
+        "pnl": 15.62526661290403
       }
     }
   }
