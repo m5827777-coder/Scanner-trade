@@ -785,6 +785,24 @@
       "src": "OKX"
     },
     {
+      "id": "CRO_sB_1776777284186",
+      "symbol": "CRO",
+      "name": "Cronos",
+      "coinId": "crypto-com-chain",
+      "rank": 34,
+      "stratId": "sB",
+      "entryPrice": 0.07012,
+      "entryTime": 1776777284186,
+      "entryDate": "2026-04-21T13:14:44.186Z",
+      "entrySignal": "F&G=33 (Fear) + отскок подтверждён. RSI=46",
+      "strength": 65,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX"
+    }
+  ],
+  "closedTrades": [
+    {
       "id": "CC_s3_1776776621697",
       "symbol": "CC",
       "name": "Canton",
@@ -796,12 +814,16 @@
       "entryDate": "2026-04-21T13:03:41.697Z",
       "entrySignal": "Просадка -10.1% от 7d max ($0.1659)",
       "strength": 67,
-      "regime": "RANGE",
+      "regime": "NEUTRAL",
       "size": 100,
-      "src": "OKX"
-    }
-  ],
-  "closedTrades": [
+      "src": "OKX",
+      "exitPrice": 0.1493,
+      "exitTime": 1776777269707,
+      "exitReason": "Возврат к SMA7 ($0.1499)",
+      "pnl": 0.09385894341646638,
+      "pnlUsd": 0.09385894341646636,
+      "total": 100.09385894341646
+    },
     {
       "id": "CC_s3_1776772533171",
       "symbol": "CC",
@@ -1126,34 +1148,35 @@
     "AVAX_sB": 1776711503105,
     "HBAR_sD": 1776733727296,
     "CC_s3": 1776776621697,
-    "CC_sD": 1776768923480
+    "CC_sD": 1776768923480,
+    "CRO_sB": 1776777284186
   },
-  "scanCount": 26,
+  "scanCount": 27,
   "startedAt": "2026-04-20T10:19:04.117Z",
-  "lastScan": "2026-04-21T13:03:42.841Z",
-  "lastReport": "2026-04-21T07:28:05.270Z",
+  "lastScan": "2026-04-21T13:14:45.259Z",
+  "lastReport": "2026-04-21T13:14:45.259Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 33,
   "totalStats": {
-    "trades": 12,
-    "wins": 10,
+    "trades": 13,
+    "wins": 11,
     "losses": 2,
-    "totalPnl": 15.391168559262121,
-    "invested": 1200
+    "totalPnl": 15.485027502678587,
+    "invested": 1300
   },
   "byStrategy": {
     "s3": {
-      "trades": 12,
-      "wins": 10,
-      "pnl": 15.391168559262121
+      "trades": 13,
+      "wins": 11,
+      "pnl": 15.485027502678587
     }
   },
   "byRegime": {
     "NEUTRAL": {
       "s3": {
-        "trades": 12,
-        "wins": 10,
-        "pnl": 15.391168559262121
+        "trades": 13,
+        "wins": 11,
+        "pnl": 15.485027502678587
       }
     }
   }
