@@ -1038,10 +1038,10 @@
     "AVAX_sB": 1776711503105,
     "HBAR_sD": 1776733727296
   },
-  "scanCount": 17,
+  "scanCount": 18,
   "startedAt": "2026-04-20T10:19:04.117Z",
-  "lastScan": "2026-04-21T01:08:48.210Z",
-  "lastReport": "2026-04-21T01:08:48.210Z",
+  "lastScan": "2026-04-21T02:05:51.121Z",
+  "lastReport": "2026-04-21T02:05:51.121Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 33,
   "totalStats": {
