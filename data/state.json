@@ -737,22 +737,6 @@
       "src": "OKX"
     },
     {
-      "id": "TON_s3_1776691218511",
-      "symbol": "TON",
-      "name": "Toncoin",
-      "coinId": "the-open-network",
-      "rank": 33,
-      "stratId": "s3",
-      "entryPrice": 1.318,
-      "entryTime": 1776691218511,
-      "entryDate": "2026-04-20T13:20:18.511Z",
-      "entrySignal": "Просадка -10.8% от 7d max ($1.4780)",
-      "strength": 72,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "ADA_sB_1776710555541",
       "symbol": "ADA",
       "name": "Cardano",
@@ -799,9 +783,47 @@
       "regime": "RANGE",
       "size": 100,
       "src": "OKX"
+    },
+    {
+      "id": "HBAR_sD_1776733727296",
+      "symbol": "HBAR",
+      "name": "Hedera",
+      "coinId": "hedera-hashgraph",
+      "rank": 28,
+      "stratId": "sD",
+      "entryPrice": 0.09,
+      "entryTime": 1776733727296,
+      "entryDate": "2026-04-21T01:08:47.296Z",
+      "entrySignal": "Damodaran P/R фильтр: RSI=50, 30d=-3%, Vol OK (краткосрочный рост)",
+      "strength": 75,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "OKX"
     }
   ],
   "closedTrades": [
+    {
+      "id": "TON_s3_1776691218511",
+      "symbol": "TON",
+      "name": "Toncoin",
+      "coinId": "the-open-network",
+      "rank": 33,
+      "stratId": "s3",
+      "entryPrice": 1.318,
+      "entryTime": 1776691218511,
+      "entryDate": "2026-04-20T13:20:18.511Z",
+      "entrySignal": "Просадка -10.8% от 7d max ($1.4780)",
+      "strength": 72,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 1.381,
+      "exitTime": 1776733714544,
+      "exitReason": "Возврат к SMA7 ($1.3699)",
+      "pnl": 4.779969650986338,
+      "pnlUsd": 4.779969650986338,
+      "total": 104.77996965098635
+    },
     {
       "id": "TRUMP_s3_1776680565719",
       "symbol": "TRUMP",
@@ -1013,34 +1035,35 @@
     "TON_s3": 1776691218512,
     "ADA_sB": 1776710555541,
     "BCH_sB": 1776710556696,
-    "AVAX_sB": 1776711503105
+    "AVAX_sB": 1776711503105,
+    "HBAR_sD": 1776733727296
   },
-  "scanCount": 16,
+  "scanCount": 17,
   "startedAt": "2026-04-20T10:19:04.117Z",
-  "lastScan": "2026-04-20T23:36:29.578Z",
-  "lastReport": "2026-04-20T18:58:24.126Z",
+  "lastScan": "2026-04-21T01:08:48.210Z",
+  "lastReport": "2026-04-21T01:08:48.210Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 29,
+  "fearGreed": 33,
   "totalStats": {
-    "trades": 7,
-    "wins": 6,
+    "trades": 8,
+    "wins": 7,
     "losses": 1,
-    "totalPnl": 5.465079159124774,
-    "invested": 700
+    "totalPnl": 10.245048810111111,
+    "invested": 800
   },
   "byStrategy": {
     "s3": {
-      "trades": 7,
-      "wins": 6,
-      "pnl": 5.465079159124774
+      "trades": 8,
+      "wins": 7,
+      "pnl": 10.245048810111111
     }
   },
   "byRegime": {
     "NEUTRAL": {
       "s3": {
-        "trades": 7,
-        "wins": 6,
-        "pnl": 5.465079159124774
+        "trades": 8,
+        "wins": 7,
+        "pnl": 10.245048810111111
       }
     }
   }
