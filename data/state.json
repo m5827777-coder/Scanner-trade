@@ -289,22 +289,6 @@
       "src": "OKX"
     },
     {
-      "id": "RAIN_s3_1776680530894",
-      "symbol": "RAIN",
-      "name": "Rain",
-      "coinId": "rain",
-      "rank": 31,
-      "stratId": "s3",
-      "entryPrice": 0.007516060176481805,
-      "entryTime": 1776680530894,
-      "entryDate": "2026-04-20T10:22:10.894Z",
-      "entrySignal": "Просадка -8.4% от 7d max ($0.0082)",
-      "strength": 56,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "CoinGecko"
-    },
-    {
       "id": "RAIN_sD_1776680531315",
       "symbol": "RAIN",
       "name": "Rain",
@@ -799,9 +783,47 @@
       "regime": "BEAR",
       "size": 100,
       "src": "OKX"
+    },
+    {
+      "id": "XAUT_sB_1776787229033",
+      "symbol": "XAUT",
+      "name": "Tether Gold",
+      "coinId": "tether-gold",
+      "rank": 36,
+      "stratId": "sB",
+      "entryPrice": 4732.9,
+      "entryTime": 1776787229033,
+      "entryDate": "2026-04-21T16:00:29.033Z",
+      "entrySignal": "F&G=33 (Fear) + отскок подтверждён. RSI=47",
+      "strength": 65,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "OKX"
     }
   ],
   "closedTrades": [
+    {
+      "id": "RAIN_s3_1776680530894",
+      "symbol": "RAIN",
+      "name": "Rain",
+      "coinId": "rain",
+      "rank": 31,
+      "stratId": "s3",
+      "entryPrice": 0.007516060176481805,
+      "entryTime": 1776680530894,
+      "entryDate": "2026-04-20T10:22:10.894Z",
+      "entrySignal": "Просадка -8.4% от 7d max ($0.0082)",
+      "strength": 56,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "exitPrice": 0.007782736622132569,
+      "exitTime": 1776787205442,
+      "exitReason": "Возврат к SMA7 ($0.0077)",
+      "pnl": 3.5480882189476133,
+      "pnlUsd": 3.5480882189476133,
+      "total": 103.54808821894761
+    },
     {
       "id": "CC_s3_1776776621697",
       "symbol": "CC",
@@ -1149,34 +1171,35 @@
     "HBAR_sD": 1776733727296,
     "CC_s3": 1776776621697,
     "CC_sD": 1776768923480,
-    "CRO_sB": 1776777284186
+    "CRO_sB": 1776777284186,
+    "XAUT_sB": 1776787229033
   },
-  "scanCount": 28,
+  "scanCount": 29,
   "startedAt": "2026-04-20T10:19:04.117Z",
-  "lastScan": "2026-04-21T14:52:12.108Z",
+  "lastScan": "2026-04-21T16:00:30.047Z",
   "lastReport": "2026-04-21T13:14:45.259Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 33,
   "totalStats": {
-    "trades": 13,
-    "wins": 11,
+    "trades": 14,
+    "wins": 12,
     "losses": 2,
-    "totalPnl": 15.485027502678587,
-    "invested": 1300
+    "totalPnl": 19.0331157216262,
+    "invested": 1400
   },
   "byStrategy": {
     "s3": {
-      "trades": 13,
-      "wins": 11,
-      "pnl": 15.485027502678587
+      "trades": 14,
+      "wins": 12,
+      "pnl": 19.0331157216262
     }
   },
   "byRegime": {
     "NEUTRAL": {
       "s3": {
-        "trades": 13,
-        "wins": 11,
-        "pnl": 15.485027502678587
+        "trades": 14,
+        "wins": 12,
+        "pnl": 19.0331157216262
       }
     }
   }
