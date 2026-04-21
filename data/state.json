@@ -1174,10 +1174,10 @@
     "CRO_sB": 1776777284186,
     "XAUT_sB": 1776787229033
   },
-  "scanCount": 31,
+  "scanCount": 32,
   "startedAt": "2026-04-20T10:19:04.117Z",
-  "lastScan": "2026-04-21T18:12:10.750Z",
-  "lastReport": "2026-04-21T13:14:45.259Z",
+  "lastScan": "2026-04-21T19:05:11.357Z",
+  "lastReport": "2026-04-21T19:05:11.357Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 33,
   "totalStats": {
