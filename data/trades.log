@@ -5306,3 +5306,82 @@
 [2026-04-22 09:50:24 UTC] ✅ Данные: 58 токенов OK, 20 недоступно | Открыто: 1 | Всего: 49
 [2026-04-22 09:50:24 UTC] 
 📊 ИТОГ: WR=0% PnL=$0.00 Trades=0
+[2026-04-22 10:53:13 UTC] ════════════════════════════════════════════════════
+[2026-04-22 10:53:13 UTC] 🤖 Bot v4.1 | action=scan | report=false
+[2026-04-22 10:53:13 UTC] ════════════════════════════════════════════════════
+[2026-04-22 10:53:13 UTC] 📡 Scan #3
+[2026-04-22 10:53:13 UTC] 🌡 F&G=32 Regime=NEUTRAL Open=49
+[2026-04-22 10:53:14 UTC]   📂 HOLD ETH/sD PnL=+0.20%
+[2026-04-22 10:53:14 UTC]   📂 HOLD XRP/sD PnL=-0.01%
+[2026-04-22 10:53:14 UTC]   📂 HOLD SOL/sD PnL=+0.58%
+[2026-04-22 10:53:14 UTC]   📂 HOLD DOGE/sD PnL=+0.50%
+[2026-04-22 10:53:14 UTC]   📂 HOLD HYPE/sB PnL=+1.01%
+[2026-04-22 10:53:14 UTC]   📂 HOLD HYPE/sD PnL=+1.03%
+[2026-04-22 10:53:15 UTC]   📂 HOLD ADA/sD PnL=+0.59%
+[2026-04-22 10:53:15 UTC]   📂 HOLD LINK/sD PnL=+0.28%
+[2026-04-22 10:53:15 UTC]   📂 HOLD AVAX/sD PnL=+0.47%
+[2026-04-22 10:53:15 UTC]   📂 HOLD HBAR/sD PnL=+0.33%
+[2026-04-22 10:53:15 UTC]   📂 HOLD SUI/sD PnL=+0.59%
+[2026-04-22 10:53:16 UTC]   📂 HOLD SHIB/sD PnL=+0.43%
+[2026-04-22 10:53:16 UTC]   📂 HOLD TON/sD PnL=+0.15%
+[2026-04-22 10:53:16 UTC]   📂 HOLD CRO/sB PnL=+0.14%
+[2026-04-22 10:53:16 UTC]   📂 HOLD XAUT/sB PnL=+0.04%
+[2026-04-22 10:53:16 UTC]   📂 HOLD XAUT/sD PnL=+0.04%
+[2026-04-22 10:53:16 UTC]   📂 HOLD WLFI/s1 PnL=+0.08%
+[2026-04-22 10:53:17 UTC]   📂 HOLD WLFI/sB PnL=+0.08%
+[2026-04-22 10:53:17 UTC]   📂 HOLD PAXG/sB PnL=+0.05%
+[2026-04-22 10:53:17 UTC]   📂 HOLD PAXG/sD PnL=+0.05%
+[2026-04-22 10:53:17 UTC]   📂 HOLD UNI/sD PnL=-0.15%
+[2026-04-22 10:53:17 UTC]   📂 HOLD OKB/sB PnL=+0.12%
+[2026-04-22 10:53:18 UTC]   📂 HOLD OKB/sD PnL=+0.12%
+[2026-04-22 10:53:18 UTC]   📂 HOLD PI/s3 PnL=+0.00%
+[2026-04-22 10:53:18 UTC]   📂 HOLD PI/sB PnL=+0.00%
+[2026-04-22 10:53:18 UTC]   📂 HOLD PI/sD PnL=+0.00%
+[2026-04-22 10:53:18 UTC]   📂 HOLD PEPE/sD PnL=+1.28%
+[2026-04-22 10:53:18 UTC]   📂 HOLD AAVE/sB PnL=+0.05%
+[2026-04-22 10:53:19 UTC]   📂 HOLD ICP/sD PnL=+0.39%
+[2026-04-22 10:53:19 UTC]   📂 HOLD ONDO/sD PnL=-0.41%
+[2026-04-22 10:53:19 UTC]   📂 HOLD PUMP/sD PnL=+0.63%
+[2026-04-22 10:53:19 UTC]   📂 HOLD POL/sD PnL=-0.43%
+[2026-04-22 10:53:19 UTC]   📂 HOLD ENA/s3 PnL=-1.13%
+[2026-04-22 10:53:20 UTC]   📂 HOLD RENDER/sB PnL=+0.70%
+[2026-04-22 10:53:20 UTC]   📂 HOLD RENDER/sD PnL=+0.70%
+[2026-04-22 10:53:20 UTC]   📂 HOLD ALGO/s3 PnL=-0.23%
+[2026-04-22 10:53:20 UTC]   📂 HOLD ALGO/sD PnL=-0.23%
+[2026-04-22 10:53:21 UTC]   📂 HOLD WLD/sB PnL=-0.30%
+[2026-04-22 10:53:21 UTC]   📂 HOLD WLD/sD PnL=-0.30%
+[2026-04-22 10:53:21 UTC]   📂 HOLD APT/sD PnL=+2.81%
+[2026-04-22 10:53:21 UTC]   📂 HOLD FIL/sD PnL=+0.04%
+[2026-04-22 10:53:21 UTC]   📂 HOLD TRUMP/sB PnL=-0.03%
+[2026-04-22 10:53:21 UTC]   📂 HOLD TRUMP/sD PnL=-0.03%
+[2026-04-22 10:53:22 UTC]   📂 HOLD FLR/sD PnL=+0.04%
+[2026-04-22 10:53:22 UTC]   📂 HOLD JUP/sD PnL=+0.90%
+[2026-04-22 10:53:22 UTC]   📂 HOLD NIGHT/sB PnL=-0.20%
+[2026-04-22 10:53:22 UTC]   📂 HOLD NIGHT/sD PnL=-0.20%
+[2026-04-22 10:53:22 UTC]   📂 HOLD BONK/sD PnL=+1.49%
+[2026-04-22 10:53:23 UTC]   📂 HOLD BCH/sD PnL=+0.08%
+[2026-04-22 10:53:23 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-04-22 10:53:23 UTC] ✓ CoinGecko: 78 токенов. Проверяю входы...
+[2026-04-22 10:53:34 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-04-22 10:53:37 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-04-22 10:53:37 UTC]   ⏭ TAO: нет данных (bittensor)
+[2026-04-22 10:53:39 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-04-22 10:53:42 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-04-22 10:53:43 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-04-22 10:53:44 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-04-22 10:53:45 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-04-22 10:53:46 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-04-22 10:53:47 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-04-22 10:53:47 UTC]   ⏭ U: нет данных (united-stables)
+[2026-04-22 10:53:49 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-04-22 10:53:50 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-04-22 10:53:53 UTC]   ⏭ JST: нет данных (just)
+[2026-04-22 10:53:54 UTC]   ⏭ HASH: нет данных (hash-2)
+[2026-04-22 10:53:55 UTC]   ⏭ VET: нет данных (vechain)
+[2026-04-22 10:53:55 UTC]   ⏭ BDX: нет данных (beldex)
+[2026-04-22 10:53:55 UTC]   ⏭ XDC: нет данных (xdce-crowd-sale)
+[2026-04-22 10:53:56 UTC]   ⏭ GHO: нет данных (gho)
+[2026-04-22 10:53:57 UTC]   ⏭ DEXE: нет данных (dexe)
+[2026-04-22 10:53:58 UTC] ✅ Данные: 58 токенов OK, 20 недоступно | Открыто: 0 | Всего: 49
+[2026-04-22 10:53:58 UTC] 
+📊 ИТОГ: WR=0% PnL=$0.00 Trades=0
