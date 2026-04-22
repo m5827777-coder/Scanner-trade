@@ -4949,3 +4949,71 @@
 [2026-04-22 04:27:39 UTC] ✅ Данные: 9 токенов OK, 1 недоступно | Открыто: 1 | Всего: 50
 [2026-04-22 04:27:39 UTC] 
 📊 ИТОГ: WR=86.7% PnL=$21.00 Trades=15
+[2026-04-22 06:18:11 UTC] ════════════════════════════════════════════════════
+[2026-04-22 06:18:11 UTC] 🤖 Bot v4.1 | action=scan | report=false
+[2026-04-22 06:18:11 UTC] ════════════════════════════════════════════════════
+[2026-04-22 06:18:11 UTC] 📡 Scan #43
+[2026-04-22 06:18:12 UTC] 🌡 F&G=32 Regime=NEUTRAL Open=50
+[2026-04-22 06:18:12 UTC]   📂 HOLD BTC/sD PnL=+3.54%
+[2026-04-22 06:18:12 UTC]   📂 HOLD ETH/sD PnL=+3.25%
+[2026-04-22 06:18:12 UTC]   📂 HOLD XRP/sD PnL=+2.11%
+[2026-04-22 06:18:12 UTC]   📂 HOLD BNB/sD PnL=+2.41%
+[2026-04-22 06:18:13 UTC]   📂 HOLD SOL/sD PnL=+3.27%
+[2026-04-22 06:18:13 UTC]   📂 HOLD DOGE/sD PnL=+2.30%
+[2026-04-22 06:18:13 UTC]   📂 HOLD WBT/sD PnL=+2.81%
+[2026-04-22 06:18:14 UTC]   📂 HOLD HYPE/s3 PnL=-1.27%
+[2026-04-22 06:18:14 UTC]   📂 HOLD HYPE/sD PnL=-1.27%
+[2026-04-22 06:18:14 UTC]   📂 HOLD ADA/sD PnL=+2.94%
+[2026-04-22 06:18:14 UTC]   📂 HOLD BCH/sD PnL=+5.04%
+[2026-04-22 06:18:15 UTC]   📂 HOLD LINK/sD PnL=+2.48%
+[2026-04-22 06:18:15 UTC]   📂 HOLD XMR/sD PnL=+9.16%
+[2026-04-22 06:18:15 UTC]   📂 HOLD XLM/sD PnL=+6.73%
+[2026-04-22 06:18:15 UTC]   📂 HOLD LTC/sD PnL=+1.76%
+[2026-04-22 06:18:16 UTC]   📂 HOLD AVAX/sD PnL=+3.54%
+[2026-04-22 06:18:16 UTC]   ✅ CLOSE SUI/s3: Возврат к SMA7 ($0.9707) PnL=+2.41% held=1д 19ч
+[2026-04-22 06:18:17 UTC]   📂 HOLD SUI/sD PnL=+2.41%
+[2026-04-22 06:18:17 UTC]   📂 HOLD RAIN/sD PnL=+4.92%
+[2026-04-22 06:18:17 UTC]   📂 HOLD SHIB/sD PnL=+2.58%
+[2026-04-22 06:18:18 UTC]   📂 HOLD TON/sB PnL=+5.29%
+[2026-04-22 06:18:18 UTC]   📂 HOLD TON/sD PnL=+5.29%
+[2026-04-22 06:18:18 UTC]   📂 HOLD CRO/sD PnL=+1.75%
+[2026-04-22 06:18:18 UTC]   ✅ CLOSE UNI/s3: Возврат к SMA7 ($3.3530) PnL=+2.93% held=1д 19ч
+[2026-04-22 06:18:19 UTC]   📂 HOLD UNI/sD PnL=+2.93%
+[2026-04-22 06:18:19 UTC]   📂 HOLD PI/sD PnL=-1.22%
+[2026-04-22 06:18:20 UTC]   📂 HOLD OKB/sD PnL=+1.53%
+[2026-04-22 06:18:20 UTC]   📂 HOLD PEPE/sD PnL=+2.64%
+[2026-04-22 06:18:20 UTC]   📂 HOLD AAVE/s3 PnL=+3.05%
+[2026-04-22 06:18:20 UTC]   ✅ CLOSE ICP/s3: Возврат к SMA7 ($2.5250) PnL=+2.98% held=1д 19ч
+[2026-04-22 06:18:21 UTC]   📂 HOLD ICP/sD PnL=+2.98%
+[2026-04-22 06:18:21 UTC]   📂 HOLD ETC/sD PnL=+1.88%
+[2026-04-22 06:18:22 UTC]   📂 HOLD ONDO/sD PnL=+4.95%
+[2026-04-22 06:18:22 UTC]   ✅ CLOSE PUMP/s3: Возврат к SMA7 ($0.0019) PnL=+4.45% held=1д 19ч
+[2026-04-22 06:18:23 UTC]   📂 HOLD PUMP/sD PnL=+4.45%
+[2026-04-22 06:18:23 UTC]   📂 HOLD POL/sD PnL=+4.41%
+[2026-04-22 06:18:23 UTC]   📂 HOLD RENDER/sD PnL=+3.09%
+[2026-04-22 06:18:23 UTC]   📂 HOLD ALGO/s3 PnL=+2.81%
+[2026-04-22 06:18:24 UTC]   📂 HOLD ATOM/sD PnL=+6.89%
+[2026-04-22 06:18:24 UTC]   📂 HOLD FIL/s3 PnL=+2.52%
+[2026-04-22 06:18:24 UTC]   📂 HOLD FIL/sD PnL=+2.52%
+[2026-04-22 06:18:24 UTC]   📂 HOLD FLR/sD PnL=+0.82%
+[2026-04-22 06:18:25 UTC]   📂 HOLD ADA/sB PnL=+2.24%
+[2026-04-22 06:18:25 UTC]   📂 HOLD BCH/sB PnL=+4.70%
+[2026-04-22 06:18:25 UTC]   📂 HOLD AVAX/sB PnL=+2.83%
+[2026-04-22 06:18:25 UTC]   📂 HOLD HBAR/sD PnL=+0.93%
+[2026-04-22 06:18:26 UTC]   📂 HOLD CC/sD PnL=+1.40%
+[2026-04-22 06:18:26 UTC]   📂 HOLD CRO/sB PnL=+1.04%
+[2026-04-22 06:18:26 UTC]   📂 HOLD XAUT/sB PnL=+0.33%
+[2026-04-22 06:18:26 UTC]   📂 HOLD HYPE/sB PnL=+0.67%
+[2026-04-22 06:18:26 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-04-22 06:18:26 UTC] ✓ CoinGecko: 78 токенов. Проверяю входы...
+[2026-04-22 06:18:31 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-04-22 06:18:34 UTC]   ⏭ XMR: нет данных (monero)
+[2026-04-22 06:18:36 UTC]   ⏭ M: нет данных (memecore)
+[2026-04-22 06:18:36 UTC]   📈 ENTRY ZEC/s3 [BULL] via OKX: Просадка -11.2% от 7d max ($364.2400) @ $323.45
+[2026-04-22 06:18:37 UTC]   📈 ENTRY ZEC/sD [BULL] via OKX: Damodaran P/R фильтр: RSI=57, 30d=43%, Vol OK (краткосрочный рост) @ $323.45
+[2026-04-22 06:18:40 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-04-22 06:18:43 UTC]   📈 ENTRY WLFI/s1 [BEAR] via OKX: RSI=35.6 ≤ 38 (oversold) @ $0.07983
+[2026-04-22 06:18:43 UTC]   📈 ENTRY WLFI/sB [BEAR] via OKX: F&G=32 (Fear) + отскок подтверждён. RSI=36 @ $0.07983
+[2026-04-22 06:18:44 UTC] ✅ Данные: 25 токенов OK, 4 недоступно | Открыто: 4 | Всего: 50
+[2026-04-22 06:18:44 UTC] 
+📊 ИТОГ: WR=89.5% PnL=$33.77 Trades=19
