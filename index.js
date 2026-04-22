@@ -288,7 +288,7 @@ function checkEntryEx(stratId, bars, params){
 async function main(){
   fs.mkdirSync(path.dirname(LOG_FILE),{recursive:true});
   log('═'.repeat(52));
-  log(`🤖 Bot v5 | action=${CFG.action} | report=${CFG.isReport}`);
+  log(`🤖 Bot v5.1 | action=${CFG.action} | report=${CFG.isReport}`);
   log('═'.repeat(52));
 
   const state=loadState();
@@ -323,7 +323,7 @@ async function main(){
 
   // Стартовое TG (первый запуск)
   if(state.scanCount===1){
-    await tg(`🤖 <b>Trading Bot v5 запущен!</b>\n\n📊 Данные: Bybit + OKX + CoinGecko\n💰 $${CFG.positionSize}/сделка · 7 стратегий\nRSI≤${CFG.params.rsiThr} · EMA тренд · BB<${CFG.params.bbWidth}%\n\n<i>${utc()}</i>`);
+    await tg(`🤖 <b>Trading Bot v5.1 запущен!</b>\n\n📊 Данные: Bybit + OKX + CoinGecko\n💰 $${CFG.positionSize}/сделка · 7 стратегий\nRSI≤${CFG.params.rsiThr} · EMA тренд · BB<${CFG.params.bbWidth}%\n\n<i>${utc()}</i>`);
   }
 
   const fg=await fetchFG();state.fearGreed=fg;
