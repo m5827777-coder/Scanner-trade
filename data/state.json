@@ -1289,10 +1289,10 @@
     "WLFI_s1": 1776838723117,
     "WLFI_sB": 1776838723822
   },
-  "scanCount": 43,
+  "scanCount": 44,
   "startedAt": "2026-04-20T10:19:04.117Z",
-  "lastScan": "2026-04-22T06:18:44.572Z",
-  "lastReport": "2026-04-22T02:04:16.103Z",
+  "lastScan": "2026-04-22T07:25:50.548Z",
+  "lastReport": "2026-04-22T07:25:50.548Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 32,
   "totalStats": {
