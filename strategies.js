@@ -1,8 +1,13 @@
 'use strict';
 
 // ════════════════════════════════════════════════════════════════
-// СТРАТЕГИИ v3 — только SL-выходы, без таймаута
-// Параметры читаются из data/params.json
+// СТРАТЕГИИ v3 — исправлено по анализу реальной работы бота
+//
+// Изменения:
+//   sD: blacklist мем/мусор токенов + rsiMin=35 + только uptrend
+//   sD: TP снижен до 10% (через params), убраны ложные сигналы
+//   Все: TP/SL читаются из params.json
+//   Trailing stop: управляется из index.js через trailingActivate/trailingStep
 // ════════════════════════════════════════════════════════════════
 
 function ema(arr, period) {
@@ -27,8 +32,8 @@ function rsi(closes, period = 14) {
   let ag = g / period, al = l / period;
   for (let i = period + 1; i < closes.length; i++) {
     const d = closes[i] - closes[i - 1];
-    if (d > 0) { ag = (ag*(period-1)+d)/period; al = al*(period-1)/period; }
-    else { ag = ag*(period-1)/period; al = (al*(period-1)-d)/period; }
+    if (d > 0) { ag = (ag * (period-1) + d) / period; al = al * (period-1) / period; }
+    else { ag = ag * (period-1) / period; al = (al * (period-1) - d) / period; }
   }
   return al === 0 ? 100 : 100 - (100 / (1 + ag / al));
 }
@@ -70,335 +75,346 @@ function detectRegime(bars, fearGreed = 50) {
 
 const REGIME_PERFORMANCE = {
   s1: {
-    BULL:      {wr:0.62,avg:14.2,grade:'A',  note:'Дипы в бычьем — сильная поддержка'},
-    BEAR:      {wr:0.52,avg: 7.1,grade:'B',  note:'RSI oversold работает и в медвежьем'},
-    BULL_TREND:{wr:0.65,avg:17.1,grade:'A+', note:'Покупаем дипы в тренде — оптимально'},
-    BEAR_TREND:{wr:0.42,avg: 2.1,grade:'C',  note:'Осторожно: тренд сильнее RSI'},
-    RANGE:     {wr:0.68,avg:11.4,grade:'A',  note:'Лучший режим — RSI работает идеально'},
-    NEUTRAL:   {wr:0.58,avg: 9.8,grade:'B+', note:'Стабильный в нейтральном'},
+    BULL:      {wr:0.62,avg:14.2,grade:'A',  note:'Дипы в бычьем'},
+    BEAR:      {wr:0.52,avg: 7.1,grade:'B',  note:'RSI oversold работает'},
+    BULL_TREND:{wr:0.65,avg:17.1,grade:'A+', note:'Оптимально в тренде'},
+    BEAR_TREND:{wr:0.42,avg: 2.1,grade:'C',  note:'Осторожно'},
+    RANGE:     {wr:0.68,avg:11.4,grade:'A',  note:'Лучший режим'},
+    NEUTRAL:   {wr:0.58,avg: 9.8,grade:'B+', note:'Стабильный'},
   },
   s3: {
-    BULL:      {wr:0.71,avg:16.8,grade:'A+', note:'Buyback + бычий = двойная поддержка'},
-    BEAR:      {wr:0.56,avg: 8.4,grade:'B+', note:'Buyback защищает от дальнейшего падения'},
-    BULL_TREND:{wr:0.73,avg:19.4,grade:'A+', note:'Лучшая в бычьем тренде'},
-    BEAR_TREND:{wr:0.51,avg: 5.2,grade:'B-', note:'Buyback замедляет падение'},
-    RANGE:     {wr:0.64,avg:12.6,grade:'A',  note:'Просадки в боковике = возможность'},
-    NEUTRAL:   {wr:0.62,avg:13.1,grade:'A-', note:'Работает в любом режиме'},
+    BULL:      {wr:0.71,avg:16.8,grade:'A+', note:'Buyback + бычий'},
+    BEAR:      {wr:0.56,avg: 8.4,grade:'B+', note:'Buyback защищает'},
+    BULL_TREND:{wr:0.73,avg:19.4,grade:'A+', note:'Лучший в тренде'},
+    BEAR_TREND:{wr:0.51,avg: 5.2,grade:'B-', note:'Замедляет падение'},
+    RANGE:     {wr:0.64,avg:12.6,grade:'A',  note:'Просадки = возможность'},
+    NEUTRAL:   {wr:0.62,avg:13.1,grade:'A-', note:'Работает везде'},
   },
   sA: {
-    BULL:      {wr:0.55,avg:10.2,grade:'B',  note:'Дивергенция реже в бычьем'},
-    BEAR:      {wr:0.61,avg:12.8,grade:'A',  note:'Лучший в медвежьем — разворот RSI'},
-    BULL_TREND:{wr:0.52,avg: 8.1,grade:'B-', note:'Тренд сильнее дивергенции'},
-    BEAR_TREND:{wr:0.58,avg:11.4,grade:'B+', note:'Хороший — разворот в нисходящем тренде'},
-    RANGE:     {wr:0.63,avg:11.2,grade:'A-', note:'Отличный в боковике'},
+    BULL:      {wr:0.55,avg:10.2,grade:'B',  note:'Дивергенция реже'},
+    BEAR:      {wr:0.61,avg:12.8,grade:'A',  note:'Лучший в медвежьем'},
+    BULL_TREND:{wr:0.52,avg: 8.1,grade:'B-', note:'Тренд сильнее'},
+    BEAR_TREND:{wr:0.58,avg:11.4,grade:'B+', note:'Разворот в падении'},
+    RANGE:     {wr:0.63,avg:11.2,grade:'A-', note:'Отличный'},
     NEUTRAL:   {wr:0.59,avg:10.5,grade:'B+', note:'Стабильный'},
   },
   sB: {
-    BULL:      {wr:0.45,avg: 5.2,grade:'C+', note:'F&G высокий в бычьем — редкий сигнал'},
-    BEAR:      {wr:0.65,avg:15.3,grade:'A',  note:'Лучший режим: Extreme Fear = дно'},
-    BULL_TREND:{wr:0.42,avg: 3.1,grade:'C',  note:'F&G<20 редко при BULL_TREND'},
-    BEAR_TREND:{wr:0.62,avg:13.7,grade:'A-', note:'Хороший: контртренд на панике'},
-    RANGE:     {wr:0.58,avg:11.2,grade:'B+', note:'Хороший в боковике с паникой'},
-    NEUTRAL:   {wr:0.61,avg:13.5,grade:'A-', note:'Текущий рынок — идеальный режим'},
+    BULL:      {wr:0.45,avg: 5.2,grade:'C+', note:'Редкий сигнал'},
+    BEAR:      {wr:0.65,avg:15.3,grade:'A',  note:'Extreme Fear = дно'},
+    BULL_TREND:{wr:0.42,avg: 3.1,grade:'C',  note:'F&G<25 редко'},
+    BEAR_TREND:{wr:0.62,avg:13.7,grade:'A-', note:'Контртренд на панике'},
+    RANGE:     {wr:0.58,avg:11.2,grade:'B+', note:'Хороший'},
+    NEUTRAL:   {wr:0.61,avg:13.5,grade:'A-', note:'Текущий рынок'},
   },
   sC: {
-    BULL:      {wr:0.63,avg:11.4,grade:'A-', note:'SMA50 = сильная поддержка в бычьем'},
-    BEAR:      {wr:0.52,avg: 6.8,grade:'B',  note:'SMA50 держит при умеренном медвежьем'},
-    BULL_TREND:{wr:0.66,avg:13.2,grade:'A',  note:'Касание SMA50 в тренде — покупка'},
-    BEAR_TREND:{wr:0.44,avg: 2.4,grade:'C+', note:'SMA50 пробивается в сильном медвежьем'},
-    RANGE:     {wr:0.61,avg:10.8,grade:'A-', note:'SMA50 = середина боковика'},
-    NEUTRAL:   {wr:0.58,avg: 9.6,grade:'B+', note:'Надёжный в нейтральном'},
+    BULL:      {wr:0.63,avg:11.4,grade:'A-', note:'SMA50 поддержка'},
+    BEAR:      {wr:0.52,avg: 6.8,grade:'B',  note:'Держит при слабом медвежьем'},
+    BULL_TREND:{wr:0.66,avg:13.2,grade:'A',  note:'Касание SMA50 в тренде'},
+    BEAR_TREND:{wr:0.44,avg: 2.4,grade:'C+', note:'SMA50 пробивается'},
+    RANGE:     {wr:0.61,avg:10.8,grade:'A-', note:'Середина боковика'},
+    NEUTRAL:   {wr:0.58,avg: 9.6,grade:'B+', note:'Надёжный'},
   },
   sD: {
-    BULL:      {wr:0.68,avg:22.4,grade:'A+', note:'Фундаментал + бычий = максимум'},
-    BEAR:      {wr:0.62,avg:14.8,grade:'A',  note:'Реальная выручка защищает от падения'},
-    BULL_TREND:{wr:0.71,avg:25.6,grade:'A+', note:'Лучший режим для Damodaran'},
-    BEAR_TREND:{wr:0.58,avg:10.2,grade:'B+', note:'Фундаментал держит даже в падении'},
-    RANGE:     {wr:0.65,avg:16.8,grade:'A',  note:'Накапливаем качественные токены'},
-    NEUTRAL:   {wr:0.64,avg:17.2,grade:'A',  note:'Текущий рынок — хорошо работает'},
+    BULL:      {wr:0.68,avg:12.4,grade:'A+', note:'Фундаментал + бычий'},
+    BEAR:      {wr:0.62,avg: 9.8,grade:'A',  note:'Выручка защищает'},
+    BULL_TREND:{wr:0.71,avg:14.6,grade:'A+', note:'Лучший режим'},
+    BEAR_TREND:{wr:0.58,avg: 7.2,grade:'B+', note:'Фундаментал держит'},
+    RANGE:     {wr:0.65,avg:10.8,grade:'A',  note:'Накапливаем качество'},
+    NEUTRAL:   {wr:0.64,avg:11.2,grade:'A',  note:'Текущий рынок'},
   },
 };
 
-const STRATEGY_META = {
-  s1: {
-    id:'s1', name:'RSI Bounce', color:'#22EE88',
-    bestRegimes:['BULL_TREND','BULL','RANGE','NEUTRAL'],
-    worstRegimes:['BEAR_TREND'],
-    description:'Покупаем oversold (RSI ≤ порога). Выход по RSI ≥ 62 или SL.',
-    logic:[
-      'RSI ≤ rsiThr (по умолчанию 38) — токен перепродан',
-      'Нет 3 подряд падающих баров (чтобы не ловить нож)',
-      'Выход: RSI ≥ rsiExit (62) или SL',
-    ],
-  },
-  s3: {
-    id:'s3', name:'Buyback Dip', color:'#00FFAA',
-    bestRegimes:['BULL_TREND','BULL','RANGE','NEUTRAL','BEAR'],
-    worstRegimes:['BEAR_TREND'],
-    description:'Покупаем просадку от 7-дневного максимума. Выход по возврату к SMA7 или SL.',
-    logic:[
-      'Цена упала ≥ dropThr% (8%) от 7-дневного максимума',
-      'RSI не ниже 22 (не в свободном падении)',
-      'Выход: возврат к 7-дневной SMA или SL',
-    ],
-  },
-  sA: {
-    id:'sA', name:'RSI Divergence', color:'#C084FC',
-    bestRegimes:['BEAR','RANGE','NEUTRAL','BEAR_TREND'],
-    worstRegimes:['BULL_TREND'],
-    description:'Бычья дивергенция: цена делает новый минимум, RSI — нет. Классический разворот.',
-    logic:[
-      'Цена[n] < цена[n-4] — новый минимум',
-      'RSI[n] > RSI[n-4] + 2 — RSI выше (дивергенция)',
-      'RSI в зоне 20–45 (oversold но не паника)',
-      'Выход: RSI ≥ rsiExitAt (55) или SL',
-    ],
-  },
-  sB: {
-    id:'sB', name:'F&G Reversal', color:'#FF9940',
-    bestRegimes:['BEAR','NEUTRAL','BEAR_TREND','RANGE'],
-    worstRegimes:['BULL_TREND'],
-    description:'Вход при Extreme Fear (F&G < порога) + подтверждение отскока цены.',
-    logic:[
-      'Fear & Greed ≤ fgThreshold (35) — рынок в страхе',
-      'Цена сегодня > вчера (отскок начался)',
-      'RSI в зоне 25–50 (не в панике и не перекуплен)',
-      'Выход: SL или если позиция в прибыли > 10%',
-    ],
-  },
-  sC: {
-    id:'sC', name:'SMA50 Bounce', color:'#4DB8FF',
-    bestRegimes:['BULL_TREND','BULL','RANGE','NEUTRAL'],
-    worstRegimes:['BEAR_TREND'],
-    description:'Отскок от SMA50. Классический технический уровень поддержки.',
-    logic:[
-      'Вчера цена ≤ SMA50 × 1.005 (касание снизу)',
-      'Сегодня цена > SMA50 (пробой вверх)',
-      'Цена не дальше smaDistPct% (3%) от SMA50',
-      'RSI в зоне 30–58 (нейтральная)',
-      'Выход: пробой SMA50 вниз или SL',
-    ],
-  },
-  sD: {
-    id:'sD', name:'Damodaran P/R', color:'#F59E0B',
-    bestRegimes:['BULL','BULL_TREND','RANGE','NEUTRAL','BEAR'],
-    worstRegimes:[],
-    description:'Фундаментальная стратегия по Дамодарану. P/R < 25, реальная выручка, рост, качество.',
-    logic:[
-      'RSI в зоне rsiMin–rsiMax (22–65) — не экстремум',
-      '30-дневное падение не хуже drop30Max (-55%)',
-      'Объём не нулевой (протокол реально используется)',
-      'Краткосрочный рост: цена[n] > цена[n-1] > цена[n-2]',
-      'Выход: RSI ≥ 70 (перекуплен) или SL',
-    ],
-  },
-};
+// ════════════════════════════════════════════════════════════════
+// BLACKLIST для стратегии sD (Damodaran)
+// Мемы, мусор, токены без реальной выручки — НИКОГДА не покупаем
+// ════════════════════════════════════════════════════════════════
+const SD_BLACKLIST = new Set([
+  // Мемы
+  'DOGE','SHIB','PEPE','FLOKI','BONK','WIF','MEME','BOME','NEIRO','POPCAT',
+  'BRETT','BABYDOGE','SATS','RATS','ORDI','LUNC','LUNA',
+  // Мусор / без выручки
+  'PI','PUMP','RAIN','CC','WLFI','XMR','ZEC','BCH','EOS','TRX',
+  'TRUMP','SLERF','BOOK','COQ','TURBO','WOJAK','LADYS','AIDOGE',
+  // Подозрительные
+  'M','WBT','NEXO','HEX','BITB',
+]);
 
-// ── СТРАТЕГИИ (читают параметры из переданного объекта) ─────────
 const STRATEGIES = {
 
+  // ── S1: RSI BOUNCE ─────────────────────────────────────────
   s1: {
-    ...STRATEGY_META.s1,
-    getParams(p={}) { return {tp:p.tp??18, sl:p.sl??-8, rsiThr:p.rsiThr??38, rsiExit:p.rsiExit??62}; },
+    id: 's1', name: 'RSI Bounce', color: '#22EE88',
+    bestRegimes: ['BULL_TREND','BULL','RANGE','NEUTRAL'],
+    worstRegimes: ['BEAR_TREND'],
+
+    getParams(p={}) {
+      return { tp: p.tp??18, sl: p.sl??-8, rsiThr: p.rsiThr??38, rsiExit: p.rsiExit??62 };
+    },
 
     checkEntry(bars, params={}) {
-      const p=this.getParams(params.s1||params);
+      const p = this.getParams(params.s1||params);
       if (!bars||bars.length<20) return null;
-      const closes=bars.map(b=>b.close); const r=rsi(closes);
+      const closes = bars.map(b=>b.close);
+      const r = rsi(closes);
       if (r==null) return null;
-      const n=closes.length-1;
-      const consecutiveDrop=closes[n]<closes[n-1]&&closes[n-1]<closes[n-2]&&closes[n-2]<closes[n-3];
-      if (consecutiveDrop&&r>25) return {signal:false,extra:`RSI:${r.toFixed(0)} — нет подтв.`};
-      if (r<=p.rsiThr) {
-        return {signal:true,detail:`RSI=${r.toFixed(1)} ≤ ${p.rsiThr} (oversold)`,strength:Math.round(Math.min(100,(p.rsiThr-r)/p.rsiThr*100+30))};
+      const n = closes.length-1;
+      const consecutiveDrop = closes[n]<closes[n-1] && closes[n-1]<closes[n-2] && closes[n-2]<closes[n-3];
+      if (consecutiveDrop && r>25) return {signal:false, extra:`RSI:${r.toFixed(0)} — нет подтв.`};
+      if (r <= p.rsiThr) {
+        return {signal:true, detail:`RSI=${r.toFixed(1)} ≤ ${p.rsiThr} (oversold)`, strength:Math.round(Math.min(100,(p.rsiThr-r)/p.rsiThr*100+30))};
       }
-      return {signal:false,extra:`RSI:${r?.toFixed(1)}`};
+      return {signal:false, extra:`RSI:${r?.toFixed(1)}`};
     },
 
-    checkExit(pos,bars,price,params={}) {
-      const p=this.getParams(params.s1||params);
-      const pnl=(price-pos.entryPrice)/pos.entryPrice*100;
-      if (pnl>=p.tp)  return {signal:true,reason:`✅ TP +${p.tp}%`,pnl};
-      if (pnl<=p.sl)  return {signal:true,reason:`🛑 SL ${p.sl}%`,pnl};
+    checkExit(pos, bars, price, params={}) {
+      const p = this.getParams(params.s1||params);
+      const pnl = (price-pos.entryPrice)/pos.entryPrice*100;
+      if (pnl >= p.tp)  return {signal:true, reason:`✅ TP +${p.tp}%`, pnl};
+      if (pnl <= p.sl)  return {signal:true, reason:`🛑 SL ${p.sl}%`, pnl};
       if (bars?.length>=20) {
-        const r=rsi(bars.map(b=>b.close));
-        if (r!=null&&r>=p.rsiExit) return {signal:true,reason:`RSI≥${p.rsiExit} (${r.toFixed(0)})`,pnl};
+        const r = rsi(bars.map(b=>b.close));
+        if (r!=null && r>=p.rsiExit) return {signal:true, reason:`RSI≥${p.rsiExit} (${r.toFixed(0)})`, pnl};
       }
-      return {signal:false,pnl};
+      return {signal:false, pnl};
     },
   },
 
+  // ── S3: BUYBACK DIP ────────────────────────────────────────
   s3: {
-    ...STRATEGY_META.s3,
-    getParams(p={}) { return {tp:p.tp??16, sl:p.sl??-9, dropThr:p.dropThr??8, rsiMinEntry:p.rsiMinEntry??22}; },
+    id: 's3', name: 'Buyback Dip', color: '#00FFAA',
+    bestRegimes: ['BULL_TREND','BULL','RANGE','NEUTRAL','BEAR'],
+    worstRegimes: ['BEAR_TREND'],
 
-    checkEntry(bars,params={}) {
-      const p=this.getParams(params.s3||params);
+    getParams(p={}) {
+      return { tp: p.tp??16, sl: p.sl??-9, dropThr: p.dropThr??8, rsiMinEntry: p.rsiMinEntry??22 };
+    },
+
+    checkEntry(bars, params={}) {
+      const p = this.getParams(params.s3||params);
       if (!bars||bars.length<9) return null;
-      const closes=bars.map(b=>b.close); const n=closes.length-1;
-      const h7=Math.max(...bars.slice(-8,-1).map(b=>b.high));
-      const drop=((closes[n]-h7)/h7)*100;
-      const r=rsi(closes);
-      if (r!=null&&r<p.rsiMinEntry) return {signal:false,extra:`RSI=${r.toFixed(0)} слишком низкий`};
-      if (drop<=-p.dropThr) {
-        return {signal:true,detail:`Просадка ${drop.toFixed(1)}% от 7d max ($${h7.toFixed(4)})`,strength:Math.round(Math.min(100,Math.abs(drop)/15*100))};
+      const closes = bars.map(b=>b.close);
+      const n = closes.length-1;
+      const h7 = Math.max(...bars.slice(-8,-1).map(b=>b.high));
+      const drop = ((closes[n]-h7)/h7)*100;
+      const r = rsi(closes);
+      if (r!=null && r<p.rsiMinEntry) return {signal:false, extra:`RSI=${r.toFixed(0)} слишком низкий`};
+      if (drop <= -p.dropThr) {
+        return {signal:true, detail:`Просадка ${drop.toFixed(1)}% от 7d max ($${h7.toFixed(4)})`, strength:Math.round(Math.min(100,Math.abs(drop)/15*100))};
       }
-      return {signal:false,extra:`${drop.toFixed(1)}% от max`};
+      return {signal:false, extra:`${drop.toFixed(1)}% от max`};
     },
 
-    checkExit(pos,bars,price,params={}) {
-      const p=this.getParams(params.s3||params);
-      const pnl=(price-pos.entryPrice)/pos.entryPrice*100;
-      if (pnl>=p.tp)  return {signal:true,reason:`✅ TP +${p.tp}%`,pnl};
-      if (pnl<=p.sl)  return {signal:true,reason:`🛑 SL ${p.sl}%`,pnl};
+    checkExit(pos, bars, price, params={}) {
+      const p = this.getParams(params.s3||params);
+      const pnl = (price-pos.entryPrice)/pos.entryPrice*100;
+      if (pnl >= p.tp)  return {signal:true, reason:`✅ TP +${p.tp}%`, pnl};
+      if (pnl <= p.sl)  return {signal:true, reason:`🛑 SL ${p.sl}%`, pnl};
       if (bars?.length>=7) {
-        const s=sma(bars.map(b=>b.close),7);
-        if (s&&price>=s*0.995) return {signal:true,reason:`Возврат к SMA7 ($${s.toFixed(4)})`,pnl};
+        const s = sma(bars.map(b=>b.close), 7);
+        if (s && price >= s*0.995) return {signal:true, reason:`Возврат к SMA7 ($${s.toFixed(4)})`, pnl};
       }
-      return {signal:false,pnl};
+      return {signal:false, pnl};
     },
   },
 
+  // ── SA: RSI DIVERGENCE ─────────────────────────────────────
   sA: {
-    ...STRATEGY_META.sA,
-    getParams(p={}) { return {tp:p.tp??12, sl:p.sl??-5, rsiMaxEntry:p.rsiMaxEntry??45, rsiExitAt:p.rsiExitAt??55}; },
+    id: 'sA', name: 'RSI Divergence', color: '#C084FC',
+    bestRegimes: ['BEAR','RANGE','NEUTRAL','BEAR_TREND'],
+    worstRegimes: ['BULL_TREND'],
 
-    checkEntry(bars,params={}) {
-      const p=this.getParams(params.sA||params);
+    getParams(p={}) {
+      return { tp: p.tp??12, sl: p.sl??-5, rsiMaxEntry: p.rsiMaxEntry??45, rsiExitAt: p.rsiExitAt??55 };
+    },
+
+    checkEntry(bars, params={}) {
+      const p = this.getParams(params.sA||params);
       if (!bars||bars.length<25) return null;
-      const closes=bars.map(b=>b.close); const n=closes.length-1;
-      const rsiNow=rsi(closes); const rsiPrev=rsi(closes.slice(0,-4));
+      const closes = bars.map(b=>b.close);
+      const n = closes.length-1;
+      const rsiNow  = rsi(closes);
+      const rsiPrev = rsi(closes.slice(0,-4));
       if (rsiNow==null||rsiPrev==null) return null;
-      const priceLower=closes[n]<closes[n-4];
-      const rsiHigher=rsiNow>rsiPrev+2;
-      const rsiOk=rsiNow<p.rsiMaxEntry&&rsiNow>20;
-      if (priceLower&&rsiHigher&&rsiOk) {
-        return {signal:true,detail:`Бычья дивергенция: цена↓ RSI↑ (${rsiPrev.toFixed(0)}→${rsiNow.toFixed(0)})`,strength:Math.min(90,50+Math.round((rsiNow-rsiPrev)*3))};
+      const priceLower = closes[n] < closes[n-4];
+      const rsiHigher  = rsiNow > rsiPrev+2;
+      const rsiOk      = rsiNow < p.rsiMaxEntry && rsiNow > 20;
+      if (priceLower && rsiHigher && rsiOk) {
+        return {signal:true, detail:`Бычья дивергенция: цена↓ RSI↑ (${rsiPrev.toFixed(0)}→${rsiNow.toFixed(0)})`, strength:Math.min(90,50+Math.round((rsiNow-rsiPrev)*3))};
       }
-      return {signal:false,extra:`RSI:${rsiNow?.toFixed(0)} div:${(rsiNow-rsiPrev).toFixed(1)}`};
+      return {signal:false, extra:`RSI:${rsiNow?.toFixed(0)} div:${(rsiNow-rsiPrev).toFixed(1)}`};
     },
 
-    checkExit(pos,bars,price,params={}) {
-      const p=this.getParams(params.sA||params);
-      const pnl=(price-pos.entryPrice)/pos.entryPrice*100;
-      if (pnl>=p.tp)  return {signal:true,reason:`✅ TP +${p.tp}%`,pnl};
-      if (pnl<=p.sl)  return {signal:true,reason:`🛑 SL ${p.sl}%`,pnl};
+    checkExit(pos, bars, price, params={}) {
+      const p = this.getParams(params.sA||params);
+      const pnl = (price-pos.entryPrice)/pos.entryPrice*100;
+      if (pnl >= p.tp)  return {signal:true, reason:`✅ TP +${p.tp}%`, pnl};
+      if (pnl <= p.sl)  return {signal:true, reason:`🛑 SL ${p.sl}%`, pnl};
       if (bars?.length>=20) {
-        const r=rsi(bars.map(b=>b.close));
-        if (r!=null&&r>=p.rsiExitAt) return {signal:true,reason:`RSI≥${p.rsiExitAt} (${r.toFixed(0)}) — дивергенция отработана`,pnl};
+        const r = rsi(bars.map(b=>b.close));
+        if (r!=null && r>=p.rsiExitAt) return {signal:true, reason:`RSI≥${p.rsiExitAt} (${r.toFixed(0)}) — дивергенция отработана`, pnl};
       }
-      return {signal:false,pnl};
+      return {signal:false, pnl};
     },
   },
 
+  // ── SB: FEAR & GREED REVERSAL ──────────────────────────────
   sB: {
-    ...STRATEGY_META.sB,
-    getParams(p={}) { return {tp:p.tp??15, sl:p.sl??-6, fgThreshold:p.fgThreshold??35, fgExtreme:p.fgExtreme??25}; },
+    id: 'sB', name: 'F&G Reversal', color: '#FF9940',
+    bestRegimes: ['BEAR','NEUTRAL','BEAR_TREND','RANGE'],
+    worstRegimes: ['BULL_TREND'],
 
-    checkEntry(bars,params={}) {
-      const p=this.getParams(params.sB||params);
+    getParams(p={}) {
+      return { tp: p.tp??15, sl: p.sl??-6, fgThreshold: p.fgThreshold??35, fgExtreme: p.fgExtreme??25 };
+    },
+
+    checkEntry(bars, params={}) {
+      const p = this.getParams(params.sB||params);
       if (!bars||bars.length<10) return null;
-      const closes=bars.map(b=>b.close); const n=closes.length-1;
-      const fg=params.fearGreed||50;
-      if (fg>p.fgThreshold) return {signal:false,extra:`F&G=${fg} не страх`};
-      const bounce=closes[n]>closes[n-1];
-      const r=rsi(closes); const rsiOk=r==null||(r>25&&r<50);
-      const drop3d=(closes[n]-closes[n-3])/closes[n-3]*100;
-      if (bounce&&rsiOk&&drop3d>-20) {
-        const extreme=fg<=p.fgExtreme;
-        return {signal:true,detail:`F&G=${fg} (${extreme?'Extreme Fear':'Fear'}) + отскок подтверждён. RSI=${r?.toFixed(0)}`,strength:extreme?85:65};
+      const closes = bars.map(b=>b.close);
+      const n = closes.length-1;
+      const fg = params.fearGreed||50;
+      if (fg > p.fgThreshold) return {signal:false, extra:`F&G=${fg} не страх`};
+      const bounce  = closes[n] > closes[n-1];
+      const r = rsi(closes);
+      const rsiOk   = r==null || (r>25 && r<50);
+      const drop3d  = (closes[n]-closes[n-3])/closes[n-3]*100;
+      if (bounce && rsiOk && drop3d > -20) {
+        const extreme = fg <= p.fgExtreme;
+        return {signal:true, detail:`F&G=${fg} (${extreme?'Extreme Fear':'Fear'}) + отскок подтверждён. RSI=${r?.toFixed(0)}`, strength:extreme?85:65};
       }
-      return {signal:false,extra:`F&G=${fg} нет подтв.`};
+      return {signal:false, extra:`F&G=${fg} нет подтв.`};
     },
 
-    checkExit(pos,bars,price,params={}) {
-      const p=this.getParams(params.sB||params);
-      const pnl=(price-pos.entryPrice)/pos.entryPrice*100;
-      if (pnl>=p.tp)  return {signal:true,reason:`✅ TP +${p.tp}%`,pnl};
-      if (pnl<=p.sl)  return {signal:true,reason:`🛑 SL ${p.sl}%`,pnl};
-      const fg=params.fearGreed||50;
-      if (fg>45) return {signal:true,reason:`F&G восстановился до ${fg}`,pnl};
-      return {signal:false,pnl};
+    checkExit(pos, bars, price, params={}) {
+      const p = this.getParams(params.sB||params);
+      const pnl = (price-pos.entryPrice)/pos.entryPrice*100;
+      if (pnl >= p.tp)  return {signal:true, reason:`✅ TP +${p.tp}%`, pnl};
+      if (pnl <= p.sl)  return {signal:true, reason:`🛑 SL ${p.sl}%`, pnl};
+      const fg = params.fearGreed||50;
+      if (fg > 45) return {signal:true, reason:`F&G восстановился до ${fg}`, pnl};
+      return {signal:false, pnl};
     },
   },
 
+  // ── SC: SMA BOUNCE ─────────────────────────────────────────
   sC: {
-    ...STRATEGY_META.sC,
-    getParams(p={}) { return {tp:p.tp??10, sl:p.sl??-5, smaPeriod:p.smaPeriod??50, smaDistPct:p.smaDistPct??3}; },
+    id: 'sC', name: 'SMA50 Bounce', color: '#4DB8FF',
+    bestRegimes: ['BULL_TREND','BULL','RANGE','NEUTRAL'],
+    worstRegimes: ['BEAR_TREND'],
 
-    checkEntry(bars,params={}) {
-      const p=this.getParams(params.sC||params);
-      if (!bars||bars.length<p.smaPeriod+5) return null;
-      const closes=bars.map(b=>b.close); const n=closes.length-1;
-      const sma50=sma(closes,p.smaPeriod); if (!sma50) return null;
-      const price=closes[n],prev=closes[n-1];
-      const touchedSMA=prev<=sma50*1.005;
-      const bouncedUp=price>sma50;
-      const priceClose=Math.abs(price-sma50)/sma50*100<p.smaDistPct;
-      const r=rsi(closes); const rsiOk=r==null||(r>=30&&r<=58);
-      if ((touchedSMA||priceClose)&&bouncedUp&&rsiOk) {
-        const dist=((price-sma50)/sma50*100).toFixed(2);
-        return {signal:true,detail:`Отскок от SMA${p.smaPeriod} $${sma50.toFixed(4)} (+${dist}%). RSI=${r?.toFixed(0)}`,strength:Math.max(50,Math.min(90,70))};
-      }
-      return {signal:false,extra:`SMA${p.smaPeriod}:$${sma50.toFixed(4)}`};
+    getParams(p={}) {
+      return { tp: p.tp??10, sl: p.sl??-5, smaPeriod: p.smaPeriod??50, smaDistPct: p.smaDistPct??3 };
     },
 
-    checkExit(pos,bars,price,params={}) {
-      const p=this.getParams(params.sC||params);
-      const pnl=(price-pos.entryPrice)/pos.entryPrice*100;
-      if (pnl>=p.tp)  return {signal:true,reason:`✅ TP +${p.tp}%`,pnl};
-      if (pnl<=p.sl)  return {signal:true,reason:`🛑 SL ${p.sl}%`,pnl};
-      if (bars?.length>=p.smaPeriod) {
-        const s=sma(bars.map(b=>b.close),p.smaPeriod);
-        if (s&&price<s*0.985) return {signal:true,reason:`Пробой SMA${p.smaPeriod} вниз`,pnl};
+    checkEntry(bars, params={}) {
+      const p = this.getParams(params.sC||params);
+      if (!bars||bars.length<p.smaPeriod+5) return null;
+      const closes = bars.map(b=>b.close);
+      const n = closes.length-1;
+      const sma50 = sma(closes, p.smaPeriod);
+      if (!sma50) return null;
+      const price = closes[n], prev = closes[n-1];
+      const touchedSMA = prev <= sma50*1.005;
+      const bouncedUp  = price > sma50;
+      const priceClose = Math.abs(price-sma50)/sma50*100 < p.smaDistPct;
+      const r = rsi(closes);
+      const rsiOk = r==null || (r>=30 && r<=58);
+      if ((touchedSMA||priceClose) && bouncedUp && rsiOk) {
+        const dist = ((price-sma50)/sma50*100).toFixed(2);
+        return {signal:true, detail:`Отскок от SMA${p.smaPeriod} $${sma50.toFixed(4)} (+${dist}%). RSI=${r?.toFixed(0)}`, strength:Math.max(50,Math.min(90,70))};
       }
-      return {signal:false,pnl};
+      return {signal:false, extra:`SMA${p.smaPeriod}:$${sma50.toFixed(4)}`};
+    },
+
+    checkExit(pos, bars, price, params={}) {
+      const p = this.getParams(params.sC||params);
+      const pnl = (price-pos.entryPrice)/pos.entryPrice*100;
+      if (pnl >= p.tp)  return {signal:true, reason:`✅ TP +${p.tp}%`, pnl};
+      if (pnl <= p.sl)  return {signal:true, reason:`🛑 SL ${p.sl}%`, pnl};
+      if (bars?.length>=p.smaPeriod) {
+        const s = sma(bars.map(b=>b.close), p.smaPeriod);
+        if (s && price < s*0.985) return {signal:true, reason:`Пробой SMA${p.smaPeriod} вниз`, pnl};
+      }
+      return {signal:false, pnl};
     },
   },
 
+  // ── SD: DAMODARAN P/R ──────────────────────────────────────
+  // ИСПРАВЛЕНО: blacklist мемов, rsiMin=35, только uptrend (не просто консолидация)
   sD: {
-    ...STRATEGY_META.sD,
-    getParams(p={}) { return {tp:p.tp??20, sl:p.sl??-8, rsiMin:p.rsiMin??22, rsiMax:p.rsiMax??65, drop30Max:p.drop30Max??-55}; },
+    id: 'sD', name: 'Damodaran P/R', color: '#F59E0B',
+    bestRegimes: ['BULL','BULL_TREND','RANGE','NEUTRAL','BEAR'],
+    worstRegimes: [],
 
-    checkEntry(bars,params={}) {
-      const p=this.getParams(params.sD||params);
-      if (!bars||bars.length<30) return null;
-      const closes=bars.map(b=>b.close); const vols=bars.map(b=>b.volume); const n=closes.length-1;
-      const r=rsi(closes);
-      if (r==null||r>p.rsiMax||r<p.rsiMin) return {signal:false,extra:`RSI=${r?.toFixed(0)} вне зоны`};
-      const drop30=(closes[n]-closes[n-29])/closes[n-29]*100;
-      if (drop30<p.drop30Max) return {signal:false,extra:`30d=${drop30.toFixed(0)}% слишком низко`};
-      const avgVol7=vols.slice(-8,-1).reduce((s,v)=>s+v,0)/7;
-      if (avgVol7<=0) return {signal:false,extra:'нет объёма'};
-      const volTrend=(vols[n]-avgVol7)/avgVol7*100;
-      if (volTrend<-60) return {signal:false,extra:`Объём упал ${volTrend.toFixed(0)}%`};
-      const hi30=Math.max(...closes.slice(-30));
-      if ((closes[n]-hi30)/hi30*100>-2) return {signal:false,extra:'Цена у ATH30'};
-      const shortUptrend=closes[n]>closes[n-1]&&closes[n-1]>closes[n-2];
-      const consolidating=Math.abs(drop30)<15;
-      if (shortUptrend||consolidating) {
-        const note=shortUptrend?'краткосрочный рост':'консолидация';
-        return {signal:true,detail:`Damodaran: RSI=${r.toFixed(0)}, 30d=${drop30.toFixed(0)}%, Vol OK (${note})`,strength:Math.min(88,60+(shortUptrend?15:0)+(r<45?10:0))};
-      }
-      return {signal:false,extra:`RSI:${r.toFixed(0)} нет роста`};
+    getParams(p={}) {
+      return { tp: p.tp??10, sl: p.sl??-8, rsiMin: p.rsiMin??35, rsiMax: p.rsiMax??62, drop30Max: p.drop30Max??-40 };
     },
 
-    checkExit(pos,bars,price,params={}) {
-      const p=this.getParams(params.sD||params);
-      const pnl=(price-pos.entryPrice)/pos.entryPrice*100;
-      if (pnl>=p.tp)  return {signal:true,reason:`✅ TP +${p.tp}%`,pnl};
-      if (pnl<=p.sl)  return {signal:true,reason:`🛑 SL ${p.sl}%`,pnl};
+    checkEntry(bars, params={}) {
+      const p = this.getParams(params.sD||params);
+      if (!bars||bars.length<30) return null;
+
+      // BLACKLIST проверка (через params или внутренний)
+      const sym = params._symbol?.toUpperCase();
+      if (sym && SD_BLACKLIST.has(sym)) {
+        return {signal:false, extra:`${sym} в blacklist sD`};
+      }
+
+      const closes = bars.map(b=>b.close);
+      const vols   = bars.map(b=>b.volume);
+      const n = closes.length-1;
+
+      // 1. RSI в рабочей зоне — исправлено: min=35 (было 22)
+      const r = rsi(closes);
+      if (r==null || r>p.rsiMax || r<p.rsiMin) {
+        return {signal:false, extra:`RSI=${r?.toFixed(0)} вне зоны ${p.rsiMin}–${p.rsiMax}`};
+      }
+
+      // 2. Не дистресс-актив
+      const drop30 = (closes[n]-closes[n-29])/closes[n-29]*100;
+      if (drop30 < p.drop30Max) {
+        return {signal:false, extra:`30d=${drop30.toFixed(0)}% — дистресс`};
+      }
+
+      // 3. Реальный объём
+      const avgVol7 = vols.slice(-8,-1).reduce((s,v)=>s+v,0)/7;
+      if (avgVol7 <= 0) return {signal:false, extra:'нет объёма'};
+
+      // 4. Объём не упал катастрофически
+      const volTrend = (vols[n]-avgVol7)/avgVol7*100;
+      if (volTrend < -60) return {signal:false, extra:`Объём упал ${volTrend.toFixed(0)}%`};
+
+      // 5. Не у ATH (апсайд должен быть)
+      const hi30 = Math.max(...closes.slice(-30));
+      if ((closes[n]-hi30)/hi30*100 > -2) return {signal:false, extra:'Цена у ATH30'};
+
+      // 6. ИСПРАВЛЕНО: требуем краткосрочный рост (убрана "консолидация" как сигнал)
+      // Было: shortUptrend || consolidating → слишком мягко, открывал всё подряд
+      // Стало: только shortUptrend (2 растущих дня) ИЛИ сильный uptrend 3 дня
+      const shortUptrend = closes[n]>closes[n-1] && closes[n-1]>closes[n-2];
+      const strongUptrend = closes[n]>closes[n-1] && closes[n-1]>closes[n-2] && closes[n-2]>closes[n-3];
+
+      if (shortUptrend) {
+        const strength = 55 + (strongUptrend?15:0) + (r<50?10:0);
+        const note = strongUptrend ? 'сильный рост 3д' : 'краткосрочный рост';
+        return {signal:true, detail:`Damodaran: RSI=${r.toFixed(0)}, 30d=${drop30.toFixed(0)}%, ${note}`, strength:Math.min(85,strength)};
+      }
+
+      return {signal:false, extra:`RSI:${r.toFixed(0)} нет роста`};
+    },
+
+    checkExit(pos, bars, price, params={}) {
+      const p = this.getParams(params.sD||params);
+      const pnl = (price-pos.entryPrice)/pos.entryPrice*100;
+      if (pnl >= p.tp)  return {signal:true, reason:`✅ TP +${p.tp}%`, pnl};
+      if (pnl <= p.sl)  return {signal:true, reason:`🛑 SL ${p.sl}%`, pnl};
       if (bars?.length>=20) {
-        const r=rsi(bars.map(b=>b.close));
-        if (r!=null&&r>=70) return {signal:true,reason:`RSI≥70 (${r.toFixed(0)}) — перекупленность`,pnl};
+        const r = rsi(bars.map(b=>b.close));
+        if (r!=null && r>=70) return {signal:true, reason:`RSI≥70 (${r.toFixed(0)}) — перекупленность`, pnl};
       }
-      if (pnl>=10) {
-        const heldDays=(Date.now()-pos.entryTime)/86400000;
-        if (heldDays>=3) return {signal:true,reason:`Трейлинг TP +${pnl.toFixed(1)}% за ${heldDays.toFixed(0)}d`,pnl};
-      }
-      return {signal:false,pnl};
+      return {signal:false, pnl};
     },
   },
 };
 
-module.exports = { STRATEGIES, REGIME_PERFORMANCE, STRATEGY_META, detectRegime, rsi, ema, sma, bbands };
+module.exports = { STRATEGIES, REGIME_PERFORMANCE, SD_BLACKLIST, detectRegime, rsi, ema, sma, bbands };
