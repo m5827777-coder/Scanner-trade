@@ -783,6 +783,22 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX"
+    },
+    {
+      "id": "XMR_sD_1776858510760",
+      "symbol": "XMR",
+      "name": "Monero",
+      "coinId": "monero",
+      "rank": 17,
+      "stratId": "sD",
+      "entryPrice": 375.02680600523735,
+      "entryTime": 1776858510760,
+      "entryDate": "2026-04-22T11:48:30.760Z",
+      "entrySignal": "Damodaran P/R фильтр: RSI=62, 30d=10%, Vol OK (консолидация)",
+      "strength": 60,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "CoinGecko"
     }
   ],
   "closedTrades": [],
@@ -835,11 +851,12 @@
     "NIGHT_sB": 1776847957526,
     "NIGHT_sD": 1776847957938,
     "BONK_sD": 1776847960118,
-    "BCH_sD": 1776851394054
+    "BCH_sD": 1776851394054,
+    "XMR_sD": 1776858510761
   },
-  "scanCount": 3,
+  "scanCount": 4,
   "startedAt": "2026-04-22T08:46:36.220Z",
-  "lastScan": "2026-04-22T10:53:58.160Z",
+  "lastScan": "2026-04-22T11:48:31.694Z",
   "lastReport": "2026-04-22T08:52:42.022Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 32,
