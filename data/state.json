@@ -767,6 +767,22 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX"
+    },
+    {
+      "id": "BCH_sD_1776851394054",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
+      "coinId": "bitcoin-cash",
+      "rank": 16,
+      "stratId": "sD",
+      "entryPrice": 470.8,
+      "entryTime": 1776851394054,
+      "entryDate": "2026-04-22T09:49:54.054Z",
+      "entrySignal": "Damodaran P/R фильтр: RSI=60, 30d=-1%, Vol OK (краткосрочный рост)",
+      "strength": 75,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX"
     }
   ],
   "closedTrades": [],
@@ -818,11 +834,12 @@
     "JUP_sD": 1776847955757,
     "NIGHT_sB": 1776847957526,
     "NIGHT_sD": 1776847957938,
-    "BONK_sD": 1776847960118
+    "BONK_sD": 1776847960118,
+    "BCH_sD": 1776851394054
   },
-  "scanCount": 1,
+  "scanCount": 2,
   "startedAt": "2026-04-22T08:46:36.220Z",
-  "lastScan": "2026-04-22T08:52:42.022Z",
+  "lastScan": "2026-04-22T09:50:24.516Z",
   "lastReport": "2026-04-22T08:52:42.022Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 32,
