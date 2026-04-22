@@ -854,10 +854,10 @@
     "BCH_sD": 1776851394054,
     "XMR_sD": 1776858510761
   },
-  "scanCount": 5,
+  "scanCount": 6,
   "startedAt": "2026-04-22T08:46:36.220Z",
-  "lastScan": "2026-04-22T12:48:29.017Z",
-  "lastReport": "2026-04-22T08:52:42.022Z",
+  "lastScan": "2026-04-22T13:16:28.329Z",
+  "lastReport": "2026-04-22T13:16:28.329Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 32,
   "totalStats": {
