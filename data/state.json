@@ -785,6 +785,24 @@
       "src": "CoinGecko"
     },
     {
+      "id": "SUI_s3_1776980084726",
+      "symbol": "SUI",
+      "name": "Sui",
+      "coinId": "sui",
+      "rank": 29,
+      "stratId": "s3",
+      "entryPrice": 0.9439,
+      "entryTime": 1776980084726,
+      "entryDate": "2026-04-23T21:34:44.726Z",
+      "entrySignal": "Просадка -9.5% от 7d max ($1.0433)",
+      "strength": 64,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX"
+    }
+  ],
+  "closedTrades": [
+    {
       "id": "ADA_s3_1776966798715",
       "symbol": "ADA",
       "name": "Cardano",
@@ -796,12 +814,16 @@
       "entryDate": "2026-04-23T17:53:18.715Z",
       "entrySignal": "Просадка -8.1% от 7d max ($0.2680)",
       "strength": 54,
-      "regime": "BEAR",
+      "regime": "NEUTRAL",
       "size": 100,
-      "src": "OKX"
-    }
-  ],
-  "closedTrades": [
+      "src": "OKX",
+      "exitPrice": 0.2491,
+      "exitTime": 1776980072077,
+      "exitReason": "Возврат к SMA7 ($0.2501)",
+      "pnl": 1.177904142973187,
+      "pnlUsd": 1.177904142973187,
+      "total": 101.17790414297319
+    },
     {
       "id": "TRUMP_sB_1776865363835",
       "symbol": "TRUMP",
@@ -899,20 +921,21 @@
     "TRUMP_sB": 1776865363835,
     "TRUMP_sD": 1776865364293,
     "WBT_sD": 1776966795866,
-    "ADA_s3": 1776966798715
+    "ADA_s3": 1776966798715,
+    "SUI_s3": 1776980084726
   },
-  "scanCount": 30,
+  "scanCount": 31,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-23T20:51:22.981Z",
+  "lastScan": "2026-04-23T21:34:45.777Z",
   "lastReport": "2026-04-23T19:01:48.483Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 46,
   "totalStats": {
-    "trades": 2,
-    "wins": 0,
+    "trades": 3,
+    "wins": 1,
     "losses": 2,
-    "totalPnl": -14.862988402983415,
-    "invested": 200
+    "totalPnl": -13.685084260010228,
+    "invested": 300
   },
   "byStrategy": {
     "sD": {
@@ -924,6 +947,11 @@
       "trades": 1,
       "wins": 0,
       "pnl": -6.52533951639616
+    },
+    "s3": {
+      "trades": 1,
+      "wins": 1,
+      "pnl": 1.177904142973187
     }
   },
   "byRegime": {
@@ -937,6 +965,11 @@
         "trades": 1,
         "wins": 0,
         "pnl": -6.52533951639616
+      },
+      "s3": {
+        "trades": 1,
+        "wins": 1,
+        "pnl": 1.177904142973187
       }
     }
   }
