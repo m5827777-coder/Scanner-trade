@@ -577,22 +577,6 @@
       "src": "OKX"
     },
     {
-      "id": "PUMP_sD_1776865350244",
-      "symbol": "PUMP",
-      "name": "Pump.fun",
-      "coinId": "pump-fun",
-      "rank": 64,
-      "stratId": "sD",
-      "entryPrice": 0.001931,
-      "entryTime": 1776865350244,
-      "entryDate": "2026-04-22T13:42:30.244Z",
-      "entrySignal": "Damodaran P/R фильтр: RSI=55, 30d=8%, Vol OK (краткосрочный рост)",
-      "strength": 75,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "POL_sD_1776865353019",
       "symbol": "POL",
       "name": "POL (ex-MATIC)",
@@ -769,22 +753,6 @@
       "src": "OKX"
     },
     {
-      "id": "TRUMP_sB_1776865363835",
-      "symbol": "TRUMP",
-      "name": "Official Trump",
-      "coinId": "official-trump",
-      "rank": 84,
-      "stratId": "sB",
-      "entryPrice": 3.019,
-      "entryTime": 1776865363835,
-      "entryDate": "2026-04-22T13:42:43.835Z",
-      "entrySignal": "F&G=32 (Fear) + отскок подтверждён. RSI=47",
-      "strength": 65,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "TRUMP_sD_1776865364293",
       "symbol": "TRUMP",
       "name": "Official Trump",
@@ -799,9 +767,86 @@
       "regime": "BEAR",
       "size": 100,
       "src": "OKX"
+    },
+    {
+      "id": "WBT_sD_1776966795866",
+      "symbol": "WBT",
+      "name": "WhiteBIT Coin",
+      "coinId": "whitebit",
+      "rank": 11,
+      "stratId": "sD",
+      "entryPrice": 54.59344348484837,
+      "entryTime": 1776966795866,
+      "entryDate": "2026-04-23T17:53:15.866Z",
+      "entrySignal": "Damodaran P/R фильтр: RSI=52, 30d=-0%, Vol OK (консолидация)",
+      "strength": 60,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "CoinGecko"
+    },
+    {
+      "id": "ADA_s3_1776966798715",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 16,
+      "stratId": "s3",
+      "entryPrice": 0.2462,
+      "entryTime": 1776966798715,
+      "entryDate": "2026-04-23T17:53:18.715Z",
+      "entrySignal": "Просадка -8.1% от 7d max ($0.2680)",
+      "strength": 54,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX"
     }
   ],
-  "closedTrades": [],
+  "closedTrades": [
+    {
+      "id": "TRUMP_sB_1776865363835",
+      "symbol": "TRUMP",
+      "name": "Official Trump",
+      "coinId": "official-trump",
+      "rank": 84,
+      "stratId": "sB",
+      "entryPrice": 3.019,
+      "entryTime": 1776865363835,
+      "entryDate": "2026-04-22T13:42:43.835Z",
+      "entrySignal": "F&G=32 (Fear) + отскок подтверждён. RSI=47",
+      "strength": 65,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 2.822,
+      "exitTime": 1776966790218,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.52533951639616,
+      "pnlUsd": -6.52533951639616,
+      "total": 93.47466048360384
+    },
+    {
+      "id": "PUMP_sD_1776865350244",
+      "symbol": "PUMP",
+      "name": "Pump.fun",
+      "coinId": "pump-fun",
+      "rank": 64,
+      "stratId": "sD",
+      "entryPrice": 0.001931,
+      "entryTime": 1776865350244,
+      "entryDate": "2026-04-22T13:42:30.244Z",
+      "entrySignal": "Damodaran P/R фильтр: RSI=55, 30d=8%, Vol OK (краткосрочный рост)",
+      "strength": 75,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 0.00177,
+      "exitTime": 1776966786305,
+      "exitReason": "🛑 SL -8%",
+      "pnl": -8.337648886587255,
+      "pnlUsd": -8.337648886587255,
+      "total": 91.66235111341274
+    }
+  ],
   "cooldowns": {
     "SOL_sD": 1776865308731,
     "DOGE_sD": 1776865310931,
@@ -852,21 +897,47 @@
     "APT_sD": 1776865361269,
     "FIL_sD": 1776865362814,
     "TRUMP_sB": 1776865363835,
-    "TRUMP_sD": 1776865364293
+    "TRUMP_sD": 1776865364293,
+    "WBT_sD": 1776966795866,
+    "ADA_s3": 1776966798715
   },
-  "scanCount": 25,
+  "scanCount": 26,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-23T16:28:34.691Z",
+  "lastScan": "2026-04-23T17:53:19.434Z",
   "lastReport": "2026-04-23T13:16:29.614Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 46,
   "totalStats": {
-    "trades": 0,
+    "trades": 2,
     "wins": 0,
-    "losses": 0,
-    "totalPnl": 0,
-    "invested": 0
+    "losses": 2,
+    "totalPnl": -14.862988402983415,
+    "invested": 200
   },
-  "byStrategy": {},
-  "byRegime": {}
+  "byStrategy": {
+    "sD": {
+      "trades": 1,
+      "wins": 0,
+      "pnl": -8.337648886587255
+    },
+    "sB": {
+      "trades": 1,
+      "wins": 0,
+      "pnl": -6.52533951639616
+    }
+  },
+  "byRegime": {
+    "NEUTRAL": {
+      "sD": {
+        "trades": 1,
+        "wins": 0,
+        "pnl": -8.337648886587255
+      },
+      "sB": {
+        "trades": 1,
+        "wins": 0,
+        "pnl": -6.52533951639616
+      }
+    }
+  }
 }
