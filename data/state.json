@@ -767,6 +767,38 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX"
+    },
+    {
+      "id": "TRX_sD_1777071967888",
+      "symbol": "TRX",
+      "name": "TRON",
+      "coinId": "tron",
+      "rank": 8,
+      "stratId": "sD",
+      "entryPrice": 0.32363,
+      "entryTime": 1777071967888,
+      "entryDate": "2026-04-24T23:06:07.888Z",
+      "entrySignal": "Damodaran P/R фильтр: RSI=53, 30d=5%, Vol OK (консолидация)",
+      "strength": 60,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "OKX"
+    },
+    {
+      "id": "HYPE_s3_1777071970389",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 13,
+      "stratId": "s3",
+      "entryPrice": 41.22,
+      "entryTime": 1777071970389,
+      "entryDate": "2026-04-24T23:06:10.389Z",
+      "entrySignal": "Просадка -9.5% от 7d max ($45.5550)",
+      "strength": 63,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX"
     }
   ],
   "closedTrades": [
@@ -950,7 +982,7 @@
   "cooldowns": {
     "SOL_sD": 1776865308731,
     "DOGE_sD": 1776865310931,
-    "HYPE_s3": 1776865312579,
+    "HYPE_s3": 1777071970389,
     "HYPE_sD": 1776865313041,
     "ADA_sD": 1776865314605,
     "BCH_sD": 1776865315657,
@@ -1003,11 +1035,12 @@
     "SUI_s3": 1776980084726,
     "FIGR_HELOC_s1": 1776983064904,
     "BTC_sD": 1777002006114,
-    "ETH_sD": 1777017370971
+    "ETH_sD": 1777017370971,
+    "TRX_sD": 1777071967888
   },
-  "scanCount": 55,
+  "scanCount": 56,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-24T22:27:10.280Z",
+  "lastScan": "2026-04-24T23:06:11.123Z",
   "lastReport": "2026-04-24T18:41:56.280Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 39,
