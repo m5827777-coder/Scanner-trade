@@ -33,22 +33,6 @@
       "src": "OKX"
     },
     {
-      "id": "HYPE_s3_1776865312579",
-      "symbol": "HYPE",
-      "name": "Hyperliquid",
-      "coinId": "hyperliquid",
-      "rank": 13,
-      "stratId": "s3",
-      "entryPrice": 41.435,
-      "entryTime": 1776865312579,
-      "entryDate": "2026-04-22T13:41:52.579Z",
-      "entrySignal": "Просадка -9.5% от 7d max ($45.7860)",
-      "strength": 63,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "HYPE_sD_1776865313041",
       "symbol": "HYPE",
       "name": "Hyperliquid",
@@ -787,6 +771,28 @@
   ],
   "closedTrades": [
     {
+      "id": "HYPE_s3_1776865312579",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 13,
+      "stratId": "s3",
+      "entryPrice": 41.435,
+      "entryTime": 1776865312579,
+      "entryDate": "2026-04-22T13:41:52.579Z",
+      "entrySignal": "Просадка -9.5% от 7d max ($45.7860)",
+      "strength": 63,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 41.242,
+      "exitTime": 1777056105285,
+      "exitReason": "Возврат к SMA7 ($41.3953)",
+      "pnl": -0.4657897912393023,
+      "pnlUsd": -0.4657897912393023,
+      "total": 99.5342102087607
+    },
+    {
       "id": "WLFI_sB_1776865331617",
       "symbol": "WLFI",
       "name": "World Liberty Financial",
@@ -999,18 +1005,18 @@
     "BTC_sD": 1777002006114,
     "ETH_sD": 1777017370971
   },
-  "scanCount": 49,
+  "scanCount": 50,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-24T18:09:36.529Z",
-  "lastReport": "2026-04-24T13:12:35.614Z",
+  "lastScan": "2026-04-24T18:41:56.280Z",
+  "lastReport": "2026-04-24T18:41:56.280Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 39,
   "totalStats": {
-    "trades": 7,
+    "trades": 8,
     "wins": 3,
-    "losses": 4,
-    "totalPnl": -18.909304220961534,
-    "invested": 700
+    "losses": 5,
+    "totalPnl": -19.375094012200837,
+    "invested": 800
   },
   "byStrategy": {
     "sD": {
@@ -1024,9 +1030,9 @@
       "pnl": -12.835593679411062
     },
     "s3": {
-      "trades": 4,
+      "trades": 5,
       "wins": 3,
-      "pnl": 2.2639383450367827
+      "pnl": 1.7981485537974804
     }
   },
   "byRegime": {
@@ -1042,9 +1048,9 @@
         "pnl": -12.835593679411062
       },
       "s3": {
-        "trades": 4,
+        "trades": 5,
         "wins": 3,
-        "pnl": 2.2639383450367827
+        "pnl": 1.7981485537974804
       }
     }
   }
