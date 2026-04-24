@@ -1005,9 +1005,9 @@
     "BTC_sD": 1777002006114,
     "ETH_sD": 1777017370971
   },
-  "scanCount": 50,
+  "scanCount": 51,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-24T18:41:56.280Z",
+  "lastScan": "2026-04-24T19:11:48.102Z",
   "lastReport": "2026-04-24T18:41:56.280Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 39,
