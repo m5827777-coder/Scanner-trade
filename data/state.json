@@ -947,12 +947,12 @@
     "SUI_s3": 1776980084726,
     "FIGR_HELOC_s1": 1776983064904
   },
-  "scanCount": 33,
+  "scanCount": 34,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-23T23:10:47.562Z",
+  "lastScan": "2026-04-24T00:01:30.304Z",
   "lastReport": "2026-04-23T19:01:48.483Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 46,
+  "fearGreed": 39,
   "totalStats": {
     "trades": 4,
     "wins": 1,
