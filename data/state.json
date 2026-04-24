@@ -321,22 +321,6 @@
       "src": "OKX"
     },
     {
-      "id": "WLFI_sB_1776865331617",
-      "symbol": "WLFI",
-      "name": "World Liberty Financial",
-      "coinId": "world-liberty-financial",
-      "rank": 37,
-      "stratId": "sB",
-      "entryPrice": 0.07987,
-      "entryTime": 1776865331617,
-      "entryDate": "2026-04-22T13:42:11.617Z",
-      "entrySignal": "F&G=32 (Fear) + отскок подтверждён. RSI=36",
-      "strength": 65,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "WLFI_sD_1776865332078",
       "symbol": "WLFI",
       "name": "World Liberty Financial",
@@ -803,6 +787,28 @@
   ],
   "closedTrades": [
     {
+      "id": "WLFI_sB_1776865331617",
+      "symbol": "WLFI",
+      "name": "World Liberty Financial",
+      "coinId": "world-liberty-financial",
+      "rank": 37,
+      "stratId": "sB",
+      "entryPrice": 0.07987,
+      "entryTime": 1776865331617,
+      "entryDate": "2026-04-22T13:42:11.617Z",
+      "entrySignal": "F&G=32 (Fear) + отскок подтверждён. RSI=36",
+      "strength": 65,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 0.07483,
+      "exitTime": 1777045286190,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.3102541630149025,
+      "pnlUsd": -6.3102541630149025,
+      "total": 93.6897458369851
+    },
+    {
       "id": "PI_s3_1776865341063",
       "symbol": "PI",
       "name": "Pi Network",
@@ -993,18 +999,18 @@
     "BTC_sD": 1777002006114,
     "ETH_sD": 1777017370971
   },
-  "scanCount": 45,
+  "scanCount": 46,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-24T14:21:41.378Z",
+  "lastScan": "2026-04-24T15:41:33.798Z",
   "lastReport": "2026-04-24T13:12:35.614Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 39,
   "totalStats": {
-    "trades": 6,
+    "trades": 7,
     "wins": 3,
-    "losses": 3,
-    "totalPnl": -12.599050057946632,
-    "invested": 600
+    "losses": 4,
+    "totalPnl": -18.909304220961534,
+    "invested": 700
   },
   "byStrategy": {
     "sD": {
@@ -1013,9 +1019,9 @@
       "pnl": -8.337648886587255
     },
     "sB": {
-      "trades": 1,
+      "trades": 2,
       "wins": 0,
-      "pnl": -6.52533951639616
+      "pnl": -12.835593679411062
     },
     "s3": {
       "trades": 4,
@@ -1031,9 +1037,9 @@
         "pnl": -8.337648886587255
       },
       "sB": {
-        "trades": 1,
+        "trades": 2,
         "wins": 0,
-        "pnl": -6.52533951639616
+        "pnl": -12.835593679411062
       },
       "s3": {
         "trades": 4,
