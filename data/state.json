@@ -449,22 +449,6 @@
       "src": "OKX"
     },
     {
-      "id": "PI_s3_1776865341063",
-      "symbol": "PI",
-      "name": "Pi Network",
-      "coinId": "pi-network",
-      "rank": 49,
-      "stratId": "s3",
-      "entryPrice": 0.1692,
-      "entryTime": 1776865341063,
-      "entryDate": "2026-04-22T13:42:21.063Z",
-      "entrySignal": "Просадка -10.5% от 7d max ($0.1890)",
-      "strength": 70,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "PI_sB_1776865341521",
       "symbol": "PI",
       "name": "Pi Network",
@@ -803,6 +787,28 @@
   ],
   "closedTrades": [
     {
+      "id": "PI_s3_1776865341063",
+      "symbol": "PI",
+      "name": "Pi Network",
+      "coinId": "pi-network",
+      "rank": 49,
+      "stratId": "s3",
+      "entryPrice": 0.1692,
+      "entryTime": 1776865341063,
+      "entryDate": "2026-04-22T13:42:21.063Z",
+      "entrySignal": "Просадка -10.5% от 7d max ($0.1890)",
+      "strength": 70,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 0.1706,
+      "exitTime": 1777010200098,
+      "exitReason": "Возврат к SMA7 ($0.1707)",
+      "pnl": 0.8274231678487071,
+      "pnlUsd": 0.8274231678487071,
+      "total": 100.8274231678487
+    },
+    {
       "id": "SUI_s3_1776980084726",
       "symbol": "SUI",
       "name": "Sui",
@@ -970,18 +976,18 @@
     "FIGR_HELOC_s1": 1776983064904,
     "BTC_sD": 1777002006114
   },
-  "scanCount": 36,
+  "scanCount": 37,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-24T03:40:07.239Z",
+  "lastScan": "2026-04-24T05:56:45.214Z",
   "lastReport": "2026-04-24T02:08:35.081Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 39,
   "totalStats": {
-    "trades": 5,
-    "wins": 2,
+    "trades": 6,
+    "wins": 3,
     "losses": 3,
-    "totalPnl": -13.42647322579534,
-    "invested": 500
+    "totalPnl": -12.599050057946632,
+    "invested": 600
   },
   "byStrategy": {
     "sD": {
@@ -995,9 +1001,9 @@
       "pnl": -6.52533951639616
     },
     "s3": {
-      "trades": 3,
-      "wins": 2,
-      "pnl": 1.4365151771880758
+      "trades": 4,
+      "wins": 3,
+      "pnl": 2.2639383450367827
     }
   },
   "byRegime": {
@@ -1013,9 +1019,9 @@
         "pnl": -6.52533951639616
       },
       "s3": {
-        "trades": 3,
-        "wins": 2,
-        "pnl": 1.4365151771880758
+        "trades": 4,
+        "wins": 3,
+        "pnl": 2.2639383450367827
       }
     }
   }
