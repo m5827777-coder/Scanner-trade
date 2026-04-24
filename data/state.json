@@ -783,6 +783,22 @@
       "regime": "BEAR",
       "size": 100,
       "src": "CoinGecko"
+    },
+    {
+      "id": "BTC_sD_1777002006114",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "coinId": "bitcoin",
+      "rank": 1,
+      "stratId": "sD",
+      "entryPrice": 77672.7,
+      "entryTime": 1777002006114,
+      "entryDate": "2026-04-24T03:40:06.114Z",
+      "entrySignal": "Damodaran P/R фильтр: RSI=60, 30d=12%, Vol OK (консолидация)",
+      "strength": 60,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX"
     }
   ],
   "closedTrades": [
@@ -951,11 +967,12 @@
     "WBT_sD": 1776966795866,
     "ADA_s3": 1776966798715,
     "SUI_s3": 1776980084726,
-    "FIGR_HELOC_s1": 1776983064904
+    "FIGR_HELOC_s1": 1776983064904,
+    "BTC_sD": 1777002006114
   },
-  "scanCount": 35,
+  "scanCount": 36,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-24T02:08:35.081Z",
+  "lastScan": "2026-04-24T03:40:07.239Z",
   "lastReport": "2026-04-24T02:08:35.081Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 39,
