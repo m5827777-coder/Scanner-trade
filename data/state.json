@@ -976,10 +976,10 @@
     "FIGR_HELOC_s1": 1776983064904,
     "BTC_sD": 1777002006114
   },
-  "scanCount": 37,
+  "scanCount": 38,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-24T05:56:45.214Z",
-  "lastReport": "2026-04-24T02:08:35.081Z",
+  "lastScan": "2026-04-24T07:54:43.495Z",
+  "lastReport": "2026-04-24T07:54:43.495Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 39,
   "totalStats": {
