@@ -783,7 +783,9 @@
       "regime": "RANGE",
       "size": 100,
       "src": "OKX"
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "HYPE_s3_1777108150505",
       "symbol": "HYPE",
@@ -796,12 +798,16 @@
       "entryDate": "2026-04-25T09:09:10.505Z",
       "entrySignal": "Просадка -9.3% от 7d max ($45.5550)",
       "strength": 62,
-      "regime": "BULL",
+      "regime": "NEUTRAL",
       "size": 100,
-      "src": "OKX"
-    }
-  ],
-  "closedTrades": [
+      "src": "OKX",
+      "exitPrice": 41.596,
+      "exitTime": 1777111331108,
+      "exitReason": "Возврат к SMA7 ($41.4459)",
+      "pnl": 0.7215845803670752,
+      "pnlUsd": 0.7215845803670752,
+      "total": 100.72158458036708
+    },
     {
       "id": "SUI_s3_1777100893224",
       "symbol": "SUI",
@@ -1104,18 +1110,18 @@
     "ETH_sD": 1777017370971,
     "TRX_sD": 1777071967888
   },
-  "scanCount": 65,
+  "scanCount": 66,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-25T09:09:11.664Z",
+  "lastScan": "2026-04-25T10:02:11.855Z",
   "lastReport": "2026-04-25T07:08:14.239Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
   "totalStats": {
-    "trades": 11,
-    "wins": 5,
+    "trades": 12,
+    "wins": 6,
     "losses": 6,
-    "totalPnl": -19.241138847752552,
-    "invested": 1100
+    "totalPnl": -18.519554267385477,
+    "invested": 1200
   },
   "byStrategy": {
     "sD": {
@@ -1129,9 +1135,9 @@
       "pnl": -12.835593679411062
     },
     "s3": {
-      "trades": 8,
-      "wins": 5,
-      "pnl": 1.932103718245767
+      "trades": 9,
+      "wins": 6,
+      "pnl": 2.6536882986128423
     }
   },
   "byRegime": {
@@ -1147,9 +1153,9 @@
         "pnl": -12.835593679411062
       },
       "s3": {
-        "trades": 8,
-        "wins": 5,
-        "pnl": 1.932103718245767
+        "trades": 9,
+        "wins": 6,
+        "pnl": 2.6536882986128423
       }
     }
   }
