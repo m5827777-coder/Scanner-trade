@@ -609,22 +609,6 @@
       "src": "OKX"
     },
     {
-      "id": "ALGO_sD_1776865358419",
-      "symbol": "ALGO",
-      "name": "Algorand",
-      "coinId": "algorand",
-      "rank": 75,
-      "stratId": "sD",
-      "entryPrice": 0.1049,
-      "entryTime": 1776865358419,
-      "entryDate": "2026-04-22T13:42:38.419Z",
-      "entrySignal": "Damodaran P/R фильтр: RSI=49, 30d=21%, Vol OK (краткосрочный рост)",
-      "strength": 75,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "WLD_sB_1776865359827",
       "symbol": "WLD",
       "name": "Worldcoin",
@@ -786,6 +770,28 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ALGO_sD_1776865358419",
+      "symbol": "ALGO",
+      "name": "Algorand",
+      "coinId": "algorand",
+      "rank": 75,
+      "stratId": "sD",
+      "entryPrice": 0.1049,
+      "entryTime": 1776865358419,
+      "entryDate": "2026-04-22T13:42:38.419Z",
+      "entrySignal": "Damodaran P/R фильтр: RSI=49, 30d=21%, Vol OK (краткосрочный рост)",
+      "strength": 75,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 0.11631,
+      "exitTime": 1777127144225,
+      "exitReason": "Трейлинг TP +10.9% за 3d",
+      "pnl": 10.87702573879886,
+      "pnlUsd": 10.877025738798858,
+      "total": 110.87702573879886
+    },
     {
       "id": "HYPE_s3_1777121627043",
       "symbol": "HYPE",
@@ -1155,24 +1161,24 @@
     "TRX_sD": 1777071967888,
     "FIGR_HELOC_sB": 1777121624750
   },
-  "scanCount": 71,
+  "scanCount": 72,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-25T13:35:46.033Z",
+  "lastScan": "2026-04-25T14:25:47.392Z",
   "lastReport": "2026-04-25T12:53:47.827Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
   "totalStats": {
-    "trades": 14,
-    "wins": 7,
+    "trades": 15,
+    "wins": 8,
     "losses": 7,
-    "totalPnl": -31.063297739147316,
-    "invested": 1400
+    "totalPnl": -20.18627200034846,
+    "invested": 1500
   },
   "byStrategy": {
     "sD": {
-      "trades": 2,
-      "wins": 0,
-      "pnl": -21.25583371600097
+      "trades": 3,
+      "wins": 1,
+      "pnl": -10.378807977202113
     },
     "sB": {
       "trades": 2,
@@ -1188,9 +1194,9 @@
   "byRegime": {
     "NEUTRAL": {
       "sD": {
-        "trades": 2,
-        "wins": 0,
-        "pnl": -21.25583371600097
+        "trades": 3,
+        "wins": 1,
+        "pnl": -10.378807977202113
       },
       "sB": {
         "trades": 2,
