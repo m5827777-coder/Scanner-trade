@@ -1038,12 +1038,12 @@
     "ETH_sD": 1777017370971,
     "TRX_sD": 1777071967888
   },
-  "scanCount": 57,
+  "scanCount": 58,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-24T23:53:25.380Z",
-  "lastReport": "2026-04-24T18:41:56.280Z",
+  "lastScan": "2026-04-25T01:08:26.290Z",
+  "lastReport": "2026-04-25T01:08:26.290Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 39,
+  "fearGreed": 31,
   "totalStats": {
     "trades": 8,
     "wins": 3,
