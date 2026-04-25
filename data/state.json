@@ -785,6 +785,24 @@
       "src": "OKX"
     },
     {
+      "id": "HYPE_s3_1777100729623",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 13,
+      "stratId": "s3",
+      "entryPrice": 41.197,
+      "entryTime": 1777100729623,
+      "entryDate": "2026-04-25T07:05:29.623Z",
+      "entrySignal": "Просадка -9.6% от 7d max ($45.5550)",
+      "strength": 64,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX"
+    }
+  ],
+  "closedTrades": [
+    {
       "id": "HYPE_s3_1777071970389",
       "symbol": "HYPE",
       "name": "Hyperliquid",
@@ -796,12 +814,16 @@
       "entryDate": "2026-04-24T23:06:10.389Z",
       "entrySignal": "Просадка -9.5% от 7d max ($45.5550)",
       "strength": 63,
-      "regime": "BULL",
+      "regime": "NEUTRAL",
       "size": 100,
-      "src": "OKX"
-    }
-  ],
-  "closedTrades": [
+      "src": "OKX",
+      "exitPrice": 41.197,
+      "exitTime": 1777100723608,
+      "exitReason": "Возврат к SMA7 ($41.3889)",
+      "pnl": -0.05579815623482808,
+      "pnlUsd": -0.05579815623482808,
+      "total": 99.94420184376517
+    },
     {
       "id": "HYPE_s3_1776865312579",
       "symbol": "HYPE",
@@ -982,7 +1004,7 @@
   "cooldowns": {
     "SOL_sD": 1776865308731,
     "DOGE_sD": 1776865310931,
-    "HYPE_s3": 1777071970389,
+    "HYPE_s3": 1777100729623,
     "HYPE_sD": 1776865313041,
     "ADA_sD": 1776865314605,
     "BCH_sD": 1776865315657,
@@ -1038,18 +1060,18 @@
     "ETH_sD": 1777017370971,
     "TRX_sD": 1777071967888
   },
-  "scanCount": 61,
+  "scanCount": 62,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-25T05:55:58.336Z",
+  "lastScan": "2026-04-25T07:05:30.642Z",
   "lastReport": "2026-04-25T01:58:51.372Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
   "totalStats": {
-    "trades": 8,
+    "trades": 9,
     "wins": 3,
-    "losses": 5,
-    "totalPnl": -19.375094012200837,
-    "invested": 800
+    "losses": 6,
+    "totalPnl": -19.430892168435665,
+    "invested": 900
   },
   "byStrategy": {
     "sD": {
@@ -1063,9 +1085,9 @@
       "pnl": -12.835593679411062
     },
     "s3": {
-      "trades": 5,
+      "trades": 6,
       "wins": 3,
-      "pnl": 1.7981485537974804
+      "pnl": 1.7423503975626524
     }
   },
   "byRegime": {
@@ -1081,9 +1103,9 @@
         "pnl": -12.835593679411062
       },
       "s3": {
-        "trades": 5,
+        "trades": 6,
         "wins": 3,
-        "pnl": 1.7981485537974804
+        "pnl": 1.7423503975626524
       }
     }
   }
