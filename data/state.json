@@ -769,22 +769,6 @@
       "src": "OKX"
     },
     {
-      "id": "AAVE_s3_1777154258498",
-      "symbol": "AAVE",
-      "name": "Aave",
-      "coinId": "aave",
-      "rank": 54,
-      "stratId": "s3",
-      "entryPrice": 94.2,
-      "entryTime": 1777154258498,
-      "entryDate": "2026-04-25T21:57:38.498Z",
-      "entrySignal": "Просадка -16.8% от 7d max ($113.1700)",
-      "strength": 100,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "ICP_sB_1777154260314",
       "symbol": "ICP",
       "name": "Internet Computer",
@@ -799,9 +783,47 @@
       "regime": "RANGE",
       "size": 100,
       "src": "OKX"
+    },
+    {
+      "id": "ADA_sB_1777156436904",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 15,
+      "stratId": "sB",
+      "entryPrice": 0.2504,
+      "entryTime": 1777156436904,
+      "entryDate": "2026-04-25T22:33:56.904Z",
+      "entrySignal": "F&G=31 (Fear) + отскок подтверждён. RSI=48",
+      "strength": 65,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "OKX"
     }
   ],
   "closedTrades": [
+    {
+      "id": "AAVE_s3_1777154258498",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "coinId": "aave",
+      "rank": 54,
+      "stratId": "s3",
+      "entryPrice": 94.2,
+      "entryTime": 1777154258498,
+      "entryDate": "2026-04-25T21:57:38.498Z",
+      "entrySignal": "Просадка -16.8% от 7d max ($113.1700)",
+      "strength": 100,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 94.34,
+      "exitTime": 1777156430616,
+      "exitReason": "Возврат к SMA7 ($93.0043)",
+      "pnl": 0.1486199575371556,
+      "pnlUsd": 0.1486199575371556,
+      "total": 100.14861995753715
+    },
     {
       "id": "RAIN_sD_1776865325106",
       "symbol": "RAIN",
@@ -1239,20 +1261,21 @@
     "UNI_sB": 1777154252899,
     "ASTER_sD": 1777154257385,
     "AAVE_s3": 1777154258498,
-    "ICP_sB": 1777154260314
+    "ICP_sB": 1777154260314,
+    "ADA_sB": 1777156436904
   },
-  "scanCount": 84,
+  "scanCount": 85,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-25T21:57:41.073Z",
+  "lastScan": "2026-04-25T22:33:57.999Z",
   "lastReport": "2026-04-25T18:42:33.844Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
   "totalStats": {
-    "trades": 17,
-    "wins": 8,
+    "trades": 18,
+    "wins": 9,
     "losses": 9,
-    "totalPnl": -35.30046469009673,
-    "invested": 1700
+    "totalPnl": -35.151844732559574,
+    "invested": 1800
   },
   "byStrategy": {
     "sD": {
@@ -1266,9 +1289,9 @@
       "pnl": -19.13371788294713
     },
     "s3": {
-      "trades": 10,
-      "wins": 7,
-      "pnl": 3.028129656264718
+      "trades": 11,
+      "wins": 8,
+      "pnl": 3.1767496138018734
     }
   },
   "byRegime": {
@@ -1284,9 +1307,9 @@
         "pnl": -19.13371788294713
       },
       "s3": {
-        "trades": 10,
-        "wins": 7,
-        "pnl": 3.028129656264718
+        "trades": 11,
+        "wins": 8,
+        "pnl": 3.1767496138018734
       }
     }
   }
