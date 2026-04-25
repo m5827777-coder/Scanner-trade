@@ -689,22 +689,6 @@
       "src": "OKX"
     },
     {
-      "id": "TRUMP_sD_1776865364293",
-      "symbol": "TRUMP",
-      "name": "Official Trump",
-      "coinId": "official-trump",
-      "rank": 84,
-      "stratId": "sD",
-      "entryPrice": 3.019,
-      "entryTime": 1776865364293,
-      "entryDate": "2026-04-22T13:42:44.293Z",
-      "entrySignal": "Damodaran P/R фильтр: RSI=47, 30d=-8%, Vol OK (краткосрочный рост)",
-      "strength": 75,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "WBT_sD_1776966795866",
       "symbol": "WBT",
       "name": "WhiteBIT Coin",
@@ -783,9 +767,63 @@
       "regime": "RANGE",
       "size": 100,
       "src": "OKX"
+    },
+    {
+      "id": "FIGR_HELOC_sB_1777121624750",
+      "symbol": "FIGR_HELOC",
+      "name": "Figure Heloc",
+      "coinId": "figure-heloc",
+      "rank": 9,
+      "stratId": "sB",
+      "entryPrice": 1.0263295,
+      "entryTime": 1777121624750,
+      "entryDate": "2026-04-25T12:53:44.750Z",
+      "entrySignal": "F&G=31 (Fear) + отскок подтверждён. RSI=48",
+      "strength": 65,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "CoinGecko"
+    },
+    {
+      "id": "HYPE_s3_1777121627043",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 13,
+      "stratId": "s3",
+      "entryPrice": 41.395,
+      "entryTime": 1777121627043,
+      "entryDate": "2026-04-25T12:53:47.043Z",
+      "entrySignal": "Просадка -9.1% от 7d max ($45.5550)",
+      "strength": 61,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX"
     }
   ],
   "closedTrades": [
+    {
+      "id": "TRUMP_sD_1776865364293",
+      "symbol": "TRUMP",
+      "name": "Official Trump",
+      "coinId": "official-trump",
+      "rank": 84,
+      "stratId": "sD",
+      "entryPrice": 3.019,
+      "entryTime": 1776865364293,
+      "entryDate": "2026-04-22T13:42:44.293Z",
+      "entrySignal": "Damodaran P/R фильтр: RSI=47, 30d=-8%, Vol OK (краткосрочный рост)",
+      "strength": 75,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 2.629,
+      "exitTime": 1777121619112,
+      "exitReason": "🛑 SL -8%",
+      "pnl": -12.918184829413718,
+      "pnlUsd": -12.918184829413716,
+      "total": 87.08181517058628
+    },
     {
       "id": "HYPE_s3_1777108150505",
       "symbol": "HYPE",
@@ -1054,7 +1092,7 @@
   "cooldowns": {
     "SOL_sD": 1776865308731,
     "DOGE_sD": 1776865310931,
-    "HYPE_s3": 1777108150505,
+    "HYPE_s3": 1777121627043,
     "HYPE_sD": 1776865313041,
     "ADA_sD": 1776865314605,
     "BCH_sD": 1776865315657,
@@ -1108,26 +1146,27 @@
     "FIGR_HELOC_s1": 1776983064904,
     "BTC_sD": 1777002006114,
     "ETH_sD": 1777017370971,
-    "TRX_sD": 1777071967888
+    "TRX_sD": 1777071967888,
+    "FIGR_HELOC_sB": 1777121624750
   },
-  "scanCount": 69,
+  "scanCount": 70,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-25T12:04:23.344Z",
-  "lastReport": "2026-04-25T07:08:14.239Z",
+  "lastScan": "2026-04-25T12:53:47.827Z",
+  "lastReport": "2026-04-25T12:53:47.827Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
   "totalStats": {
-    "trades": 12,
+    "trades": 13,
     "wins": 6,
-    "losses": 6,
-    "totalPnl": -18.519554267385477,
-    "invested": 1200
+    "losses": 7,
+    "totalPnl": -31.43773909679919,
+    "invested": 1300
   },
   "byStrategy": {
     "sD": {
-      "trades": 1,
+      "trades": 2,
       "wins": 0,
-      "pnl": -8.337648886587255
+      "pnl": -21.25583371600097
     },
     "sB": {
       "trades": 2,
@@ -1143,9 +1182,9 @@
   "byRegime": {
     "NEUTRAL": {
       "sD": {
-        "trades": 1,
+        "trades": 2,
         "wins": 0,
-        "pnl": -8.337648886587255
+        "pnl": -21.25583371600097
       },
       "sB": {
         "trades": 2,
