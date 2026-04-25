@@ -785,6 +785,24 @@
       "src": "OKX"
     },
     {
+      "id": "SUI_s3_1777100893224",
+      "symbol": "SUI",
+      "name": "Sui",
+      "coinId": "sui",
+      "rank": 29,
+      "stratId": "s3",
+      "entryPrice": 0.9486,
+      "entryTime": 1777100893224,
+      "entryDate": "2026-04-25T07:08:13.224Z",
+      "entrySignal": "Просадка -8.3% от 7d max ($1.0349)",
+      "strength": 56,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "OKX"
+    }
+  ],
+  "closedTrades": [
+    {
       "id": "HYPE_s3_1777100729623",
       "symbol": "HYPE",
       "name": "Hyperliquid",
@@ -796,12 +814,16 @@
       "entryDate": "2026-04-25T07:05:29.623Z",
       "entrySignal": "Просадка -9.6% от 7d max ($45.5550)",
       "strength": 64,
-      "regime": "BULL",
+      "regime": "NEUTRAL",
       "size": 100,
-      "src": "OKX"
-    }
-  ],
-  "closedTrades": [
+      "src": "OKX",
+      "exitPrice": 41.197,
+      "exitTime": 1777100880979,
+      "exitReason": "Возврат к SMA7 ($41.3889)",
+      "pnl": 0,
+      "pnlUsd": 0,
+      "total": 100
+    },
     {
       "id": "HYPE_s3_1777071970389",
       "symbol": "HYPE",
@@ -1054,24 +1076,24 @@
     "TRUMP_sD": 1776865364293,
     "WBT_sD": 1776966795866,
     "ADA_s3": 1776966798715,
-    "SUI_s3": 1776980084726,
+    "SUI_s3": 1777100893224,
     "FIGR_HELOC_s1": 1776983064904,
     "BTC_sD": 1777002006114,
     "ETH_sD": 1777017370971,
     "TRX_sD": 1777071967888
   },
-  "scanCount": 62,
+  "scanCount": 63,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-25T07:05:30.642Z",
-  "lastReport": "2026-04-25T01:58:51.372Z",
+  "lastScan": "2026-04-25T07:08:14.239Z",
+  "lastReport": "2026-04-25T07:08:14.239Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
   "totalStats": {
-    "trades": 9,
-    "wins": 3,
+    "trades": 10,
+    "wins": 4,
     "losses": 6,
     "totalPnl": -19.430892168435665,
-    "invested": 900
+    "invested": 1000
   },
   "byStrategy": {
     "sD": {
@@ -1085,8 +1107,8 @@
       "pnl": -12.835593679411062
     },
     "s3": {
-      "trades": 6,
-      "wins": 3,
+      "trades": 7,
+      "wins": 4,
       "pnl": 1.7423503975626524
     }
   },
@@ -1103,8 +1125,8 @@
         "pnl": -12.835593679411062
       },
       "s3": {
-        "trades": 6,
-        "wins": 3,
+        "trades": 7,
+        "wins": 4,
         "pnl": 1.7423503975626524
       }
     }
