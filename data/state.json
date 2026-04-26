@@ -1264,12 +1264,12 @@
     "ICP_sB": 1777154260314,
     "ADA_sB": 1777156436904
   },
-  "scanCount": 87,
+  "scanCount": 88,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-25T23:52:25.444Z",
-  "lastReport": "2026-04-25T18:42:33.844Z",
+  "lastScan": "2026-04-26T01:16:30.503Z",
+  "lastReport": "2026-04-26T01:16:30.503Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 31,
+  "fearGreed": 33,
   "totalStats": {
     "trades": 18,
     "wins": 9,
