@@ -11242,3 +11242,68 @@
 [2026-04-26 09:03:55 UTC] ✅ Данные: 0 токенов OK, 0 недоступно | Открыто: 0 | Всего: 50
 [2026-04-26 09:03:55 UTC] 
 📊 ИТОГ: WR=50.0% PnL=$-35.15 Trades=18
+[2026-04-26 10:02:31 UTC] ════════════════════════════════════════════════════
+[2026-04-26 10:02:31 UTC] 🤖 Bot v4.1 | action=scan | report=false
+[2026-04-26 10:02:31 UTC] ════════════════════════════════════════════════════
+[2026-04-26 10:02:31 UTC] 📡 Scan #95
+[2026-04-26 10:02:31 UTC] 🌡 F&G=33 Regime=NEUTRAL Open=50
+[2026-04-26 10:02:32 UTC]   📂 HOLD SOL/sD PnL=-2.59%
+[2026-04-26 10:02:32 UTC]   📂 HOLD DOGE/sD PnL=+0.65%
+[2026-04-26 10:02:32 UTC]   📂 HOLD HYPE/sD PnL=-0.56%
+[2026-04-26 10:02:32 UTC]   📂 HOLD ADA/sD PnL=-1.33%
+[2026-04-26 10:02:32 UTC]   📂 HOLD BCH/sD PnL=-2.29%
+[2026-04-26 10:02:33 UTC]   📂 HOLD XMR/sD PnL=+3.59%
+[2026-04-26 10:02:33 UTC]   📂 HOLD LINK/sD PnL=-1.18%
+[2026-04-26 10:02:33 UTC]   📂 HOLD AVAX/sD PnL=-1.16%
+[2026-04-26 10:02:33 UTC]   📂 HOLD HBAR/sD PnL=+1.00%
+[2026-04-26 10:02:33 UTC]   📂 HOLD SUI/sD PnL=-2.86%
+[2026-04-26 10:02:34 UTC]   📂 HOLD SHIB/sD PnL=-0.59%
+[2026-04-26 10:02:34 UTC]   📂 HOLD TON/sD PnL=-4.50%
+[2026-04-26 10:02:34 UTC]   📂 HOLD CRO/sB PnL=-1.04%
+[2026-04-26 10:02:34 UTC]   📂 HOLD CRO/sD PnL=-1.04%
+[2026-04-26 10:02:34 UTC]   📂 HOLD XAUT/sB PnL=-0.92%
+[2026-04-26 10:02:35 UTC]   📂 HOLD XAUT/sD PnL=-0.92%
+[2026-04-26 10:02:35 UTC]   📂 HOLD WLFI/s1 PnL=-6.00%
+[2026-04-26 10:02:35 UTC]   📂 HOLD WLFI/sD PnL=-6.00%
+[2026-04-26 10:02:35 UTC]   📂 HOLD PAXG/sB PnL=-0.90%
+[2026-04-26 10:02:35 UTC]   📂 HOLD PAXG/sD PnL=-0.90%
+[2026-04-26 10:02:35 UTC]   📂 HOLD DOT/sD PnL=-2.76%
+[2026-04-26 10:02:36 UTC]   📂 HOLD UNI/sD PnL=-3.81%
+[2026-04-26 10:02:36 UTC]   📂 HOLD OKB/sB PnL=-0.08%
+[2026-04-26 10:02:36 UTC]   📂 HOLD OKB/sD PnL=-0.08%
+[2026-04-26 10:02:36 UTC]   📂 HOLD PI/sB PnL=+5.97%
+[2026-04-26 10:02:36 UTC]   📂 HOLD PI/sD PnL=+6.03%
+[2026-04-26 10:02:36 UTC]   📂 HOLD PEPE/sD PnL=-0.94%
+[2026-04-26 10:02:37 UTC]   📂 HOLD AAVE/sB PnL=+0.01%
+[2026-04-26 10:02:37 UTC]   📂 HOLD AAVE/sD PnL=+0.01%
+[2026-04-26 10:02:37 UTC]   📂 HOLD ICP/sD PnL=-4.20%
+[2026-04-26 10:02:37 UTC]   📂 HOLD ONDO/sD PnL=-1.49%
+[2026-04-26 10:02:37 UTC]   📂 HOLD POL/sD PnL=-2.51%
+[2026-04-26 10:02:38 UTC]   ❌ CLOSE ENA/s3: Возврат к SMA7 ($0.1105) PnL=-0.32% held=3д 20ч
+[2026-04-26 10:02:39 UTC]   📂 HOLD RENDER/sB PnL=-0.98%
+[2026-04-26 10:02:39 UTC]   📂 HOLD RENDER/sD PnL=-0.98%
+[2026-04-26 10:02:39 UTC]   📂 HOLD ALGO/sB PnL=+13.45%
+[2026-04-26 10:02:39 UTC]   📂 HOLD WLD/sB PnL=-3.02%
+[2026-04-26 10:02:40 UTC]   📂 HOLD WLD/sD PnL=-3.02%
+[2026-04-26 10:02:40 UTC]   📂 HOLD APT/sD PnL=+1.17%
+[2026-04-26 10:02:40 UTC]   📂 HOLD FIL/sD PnL=-0.12%
+[2026-04-26 10:02:40 UTC]   📂 HOLD WBT/sD PnL=+1.14%
+[2026-04-26 10:02:41 UTC]   📂 HOLD FIGR_HELOC/s1 PnL=+4.09%
+[2026-04-26 10:02:41 UTC]   📂 HOLD BTC/sD PnL=+0.37%
+[2026-04-26 10:02:41 UTC]   📂 HOLD ETH/sD PnL=+1.00%
+[2026-04-26 10:02:41 UTC]   📂 HOLD TRX/sD PnL=+0.18%
+[2026-04-26 10:02:41 UTC]   📂 HOLD FIGR_HELOC/sB PnL=-0.62%
+[2026-04-26 10:02:42 UTC]   📂 HOLD UNI/sB PnL=+1.08%
+[2026-04-26 10:02:42 UTC]   📂 HOLD ASTER/sD PnL=+1.49%
+[2026-04-26 10:02:42 UTC]   📂 HOLD ICP/sB PnL=+0.41%
+[2026-04-26 10:02:42 UTC]   📂 HOLD ADA/sB PnL=+0.68%
+[2026-04-26 10:02:42 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-04-26 10:02:42 UTC] ✓ CoinGecko: 78 токенов. Проверяю входы...
+[2026-04-26 10:02:45 UTC]   ⏭ FIGR_HELOC: нет данных (figure-heloc)
+[2026-04-26 10:02:46 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-04-26 10:02:48 UTC]   ⏭ XMR: нет данных (monero)
+[2026-04-26 10:02:50 UTC]   ⏭ M: нет данных (memecore)
+[2026-04-26 10:02:52 UTC]   📈 ENTRY SUI/sB [RANGE] via OKX: F&G=33 (Fear) + отскок подтверждён. RSI=49 @ $0.9441
+[2026-04-26 10:02:53 UTC] ✅ Данные: 19 токенов OK, 4 недоступно | Открыто: 1 | Всего: 50
+[2026-04-26 10:02:53 UTC] 
+📊 ИТОГ: WR=47.4% PnL=$-35.47 Trades=19

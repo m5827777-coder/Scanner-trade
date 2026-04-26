@@ -513,22 +513,6 @@
       "src": "OKX"
     },
     {
-      "id": "ENA_s3_1776865354030",
-      "symbol": "ENA",
-      "name": "Ethena",
-      "coinId": "ethena",
-      "rank": 71,
-      "stratId": "s3",
-      "entryPrice": 0.11054,
-      "entryTime": 1776865354030,
-      "entryDate": "2026-04-22T13:42:34.030Z",
-      "entrySignal": "Просадка -19.1% от 7d max ($0.1367)",
-      "strength": 100,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "RENDER_sB_1776865355049",
       "symbol": "RENDER",
       "name": "Render",
@@ -799,9 +783,47 @@
       "regime": "RANGE",
       "size": 100,
       "src": "OKX"
+    },
+    {
+      "id": "SUI_sB_1777197772616",
+      "symbol": "SUI",
+      "name": "Sui",
+      "coinId": "sui",
+      "rank": 29,
+      "stratId": "sB",
+      "entryPrice": 0.9441,
+      "entryTime": 1777197772616,
+      "entryDate": "2026-04-26T10:02:52.616Z",
+      "entrySignal": "F&G=33 (Fear) + отскок подтверждён. RSI=49",
+      "strength": 65,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "OKX"
     }
   ],
   "closedTrades": [
+    {
+      "id": "ENA_s3_1776865354030",
+      "symbol": "ENA",
+      "name": "Ethena",
+      "coinId": "ethena",
+      "rank": 71,
+      "stratId": "s3",
+      "entryPrice": 0.11054,
+      "entryTime": 1776865354030,
+      "entryDate": "2026-04-22T13:42:34.030Z",
+      "entrySignal": "Просадка -19.1% от 7d max ($0.1367)",
+      "strength": 100,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 0.11019,
+      "exitTime": 1777197758034,
+      "exitReason": "Возврат к SMA7 ($0.1105)",
+      "pnl": -0.3166274651709816,
+      "pnlUsd": -0.3166274651709816,
+      "total": 99.68337253482902
+    },
     {
       "id": "AAVE_s3_1777154258498",
       "symbol": "AAVE",
@@ -1262,20 +1284,21 @@
     "ASTER_sD": 1777154257385,
     "AAVE_s3": 1777154258498,
     "ICP_sB": 1777154260314,
-    "ADA_sB": 1777156436904
+    "ADA_sB": 1777156436904,
+    "SUI_sB": 1777197772616
   },
-  "scanCount": 94,
+  "scanCount": 95,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-26T09:03:55.291Z",
+  "lastScan": "2026-04-26T10:02:53.712Z",
   "lastReport": "2026-04-26T07:22:13.169Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 33,
   "totalStats": {
-    "trades": 18,
+    "trades": 19,
     "wins": 9,
-    "losses": 9,
-    "totalPnl": -35.151844732559574,
-    "invested": 1800
+    "losses": 10,
+    "totalPnl": -35.468472197730556,
+    "invested": 1900
   },
   "byStrategy": {
     "sD": {
@@ -1289,9 +1312,9 @@
       "pnl": -19.13371788294713
     },
     "s3": {
-      "trades": 11,
+      "trades": 12,
       "wins": 8,
-      "pnl": 3.1767496138018734
+      "pnl": 2.8601221486308916
     }
   },
   "byRegime": {
@@ -1307,9 +1330,9 @@
         "pnl": -19.13371788294713
       },
       "s3": {
-        "trades": 11,
+        "trades": 12,
         "wins": 8,
-        "pnl": 3.1767496138018734
+        "pnl": 2.8601221486308916
       }
     }
   }
