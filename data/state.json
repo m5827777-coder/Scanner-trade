@@ -1287,12 +1287,12 @@
     "ADA_sB": 1777156436904,
     "SUI_sB": 1777197772616
   },
-  "scanCount": 115,
+  "scanCount": 116,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-26T23:29:05.292Z",
+  "lastScan": "2026-04-27T00:05:29.387Z",
   "lastReport": "2026-04-26T18:43:28.074Z",
   "marketRegime": "RANGE",
-  "fearGreed": 33,
+  "fearGreed": 47,
   "totalStats": {
     "trades": 19,
     "wins": 9,
