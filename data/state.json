@@ -257,38 +257,6 @@
       "src": "OKX"
     },
     {
-      "id": "WLFI_s1_1776865331150",
-      "symbol": "WLFI",
-      "name": "World Liberty Financial",
-      "coinId": "world-liberty-financial",
-      "rank": 37,
-      "stratId": "s1",
-      "entryPrice": 0.07987,
-      "entryTime": 1776865331150,
-      "entryDate": "2026-04-22T13:42:11.150Z",
-      "entrySignal": "RSI=35.7 ≤ 38 (oversold)",
-      "strength": 36,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
-      "id": "WLFI_sD_1776865332078",
-      "symbol": "WLFI",
-      "name": "World Liberty Financial",
-      "coinId": "world-liberty-financial",
-      "rank": 37,
-      "stratId": "sD",
-      "entryPrice": 0.07987,
-      "entryTime": 1776865332078,
-      "entryDate": "2026-04-22T13:42:12.078Z",
-      "entrySignal": "Damodaran P/R фильтр: RSI=36, 30d=-24%, Vol OK (краткосрочный рост)",
-      "strength": 85,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "PAXG_sB_1776865334164",
       "symbol": "PAXG",
       "name": "PAX Gold",
@@ -799,9 +767,85 @@
       "regime": "RANGE",
       "size": 100,
       "src": "OKX"
+    },
+    {
+      "id": "XRP_sD_1777277614870",
+      "symbol": "XRP",
+      "name": "XRP",
+      "coinId": "ripple",
+      "rank": 4,
+      "stratId": "sD",
+      "entryPrice": 1.4146,
+      "entryTime": 1777277614870,
+      "entryDate": "2026-04-27T08:13:34.870Z",
+      "entrySignal": "Damodaran P/R фильтр: RSI=51, 30d=7%, Vol OK (консолидация)",
+      "strength": 60,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "OKX"
+    },
+    {
+      "id": "BNB_sD_1777277616130",
+      "symbol": "BNB",
+      "name": "BNB",
+      "coinId": "binancecoin",
+      "rank": 5,
+      "stratId": "sD",
+      "entryPrice": 626.3,
+      "entryTime": 1777277616130,
+      "entryDate": "2026-04-27T08:13:36.130Z",
+      "entrySignal": "Damodaran P/R фильтр: RSI=50, 30d=3%, Vol OK (консолидация)",
+      "strength": 60,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "OKX"
     }
   ],
   "closedTrades": [
+    {
+      "id": "WLFI_sD_1776865332078",
+      "symbol": "WLFI",
+      "name": "World Liberty Financial",
+      "coinId": "world-liberty-financial",
+      "rank": 37,
+      "stratId": "sD",
+      "entryPrice": 0.07987,
+      "entryTime": 1776865332078,
+      "entryDate": "2026-04-22T13:42:12.078Z",
+      "entrySignal": "Damodaran P/R фильтр: RSI=36, 30d=-24%, Vol OK (краткосрочный рост)",
+      "strength": 85,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 0.07317,
+      "exitTime": 1777277604938,
+      "exitReason": "🛑 SL -8%",
+      "pnl": -8.388631526230121,
+      "pnlUsd": -8.388631526230121,
+      "total": 91.61136847376989
+    },
+    {
+      "id": "WLFI_s1_1776865331150",
+      "symbol": "WLFI",
+      "name": "World Liberty Financial",
+      "coinId": "world-liberty-financial",
+      "rank": 37,
+      "stratId": "s1",
+      "entryPrice": 0.07987,
+      "entryTime": 1776865331150,
+      "entryDate": "2026-04-22T13:42:11.150Z",
+      "entrySignal": "RSI=35.7 ≤ 38 (oversold)",
+      "strength": 36,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 0.07317,
+      "exitTime": 1777277603785,
+      "exitReason": "🛑 SL -8%",
+      "pnl": -8.388631526230121,
+      "pnlUsd": -8.388631526230121,
+      "total": 91.61136847376989
+    },
     {
       "id": "ENA_s3_1776865354030",
       "symbol": "ENA",
@@ -1285,26 +1329,28 @@
     "AAVE_s3": 1777154258498,
     "ICP_sB": 1777154260314,
     "ADA_sB": 1777156436904,
-    "SUI_sB": 1777197772616
+    "SUI_sB": 1777197772616,
+    "XRP_sD": 1777277614870,
+    "BNB_sD": 1777277616130
   },
-  "scanCount": 119,
+  "scanCount": 120,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-27T06:23:16.328Z",
-  "lastReport": "2026-04-27T02:14:35.035Z",
+  "lastScan": "2026-04-27T08:13:36.913Z",
+  "lastReport": "2026-04-27T08:13:36.913Z",
   "marketRegime": "RANGE",
   "fearGreed": 47,
   "totalStats": {
-    "trades": 19,
+    "trades": 21,
     "wins": 9,
-    "losses": 10,
-    "totalPnl": -35.468472197730556,
-    "invested": 1900
+    "losses": 12,
+    "totalPnl": -52.2457352501908,
+    "invested": 2100
   },
   "byStrategy": {
     "sD": {
-      "trades": 4,
+      "trades": 5,
       "wins": 1,
-      "pnl": -19.194876463414314
+      "pnl": -27.583507989644435
     },
     "sB": {
       "trades": 3,
@@ -1315,6 +1361,11 @@
       "trades": 12,
       "wins": 8,
       "pnl": 2.8601221486308916
+    },
+    "s1": {
+      "trades": 1,
+      "wins": 0,
+      "pnl": -8.388631526230121
     }
   },
   "byRegime": {
@@ -1333,6 +1384,18 @@
         "trades": 12,
         "wins": 8,
         "pnl": 2.8601221486308916
+      }
+    },
+    "RANGE": {
+      "s1": {
+        "trades": 1,
+        "wins": 0,
+        "pnl": -8.388631526230121
+      },
+      "sD": {
+        "trades": 1,
+        "wins": 0,
+        "pnl": -8.388631526230121
       }
     }
   }
