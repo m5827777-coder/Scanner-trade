@@ -353,22 +353,6 @@
       "src": "OKX"
     },
     {
-      "id": "PI_sB_1776865341521",
-      "symbol": "PI",
-      "name": "Pi Network",
-      "coinId": "pi-network",
-      "rank": 49,
-      "stratId": "sB",
-      "entryPrice": 0.1692,
-      "entryTime": 1776865341521,
-      "entryDate": "2026-04-22T13:42:21.521Z",
-      "entrySignal": "F&G=32 (Fear) + отскок подтверждён. RSI=43",
-      "strength": 65,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX"
-    },
-    {
       "id": "PEPE_sD_1776865343949",
       "symbol": "PEPE",
       "name": "Pepe",
@@ -799,9 +783,47 @@
       "regime": "RANGE",
       "size": 100,
       "src": "OKX"
+    },
+    {
+      "id": "BNB_sB_1777372554901",
+      "symbol": "BNB",
+      "name": "BNB",
+      "coinId": "binancecoin",
+      "rank": 5,
+      "stratId": "sB",
+      "entryPrice": 623.1,
+      "entryTime": 1777372554901,
+      "entryDate": "2026-04-28T10:35:54.901Z",
+      "entrySignal": "F&G=33 (Fear) + отскок подтверждён. RSI=48",
+      "strength": 65,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "OKX"
     }
   ],
   "closedTrades": [
+    {
+      "id": "PI_sB_1776865341521",
+      "symbol": "PI",
+      "name": "Pi Network",
+      "coinId": "pi-network",
+      "rank": 49,
+      "stratId": "sB",
+      "entryPrice": 0.1692,
+      "entryTime": 1776865341521,
+      "entryDate": "2026-04-22T13:42:21.521Z",
+      "entrySignal": "F&G=32 (Fear) + отскок подтверждён. RSI=43",
+      "strength": 65,
+      "regime": "RANGE",
+      "size": 100,
+      "src": "OKX",
+      "exitPrice": 0.1959,
+      "exitTime": 1777372546409,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.780141843971633,
+      "pnlUsd": 15.780141843971633,
+      "total": 115.78014184397163
+    },
     {
       "id": "PI_sD_1776865341979",
       "symbol": "PI",
@@ -1377,20 +1399,21 @@
     "XRP_sD": 1777277614870,
     "BNB_sD": 1777277616130,
     "CC_sD": 1777279433405,
-    "XRP_sB": 1777343397121
+    "XRP_sB": 1777343397121,
+    "BNB_sB": 1777372554901
   },
-  "scanCount": 139,
+  "scanCount": 140,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-28T08:43:30.165Z",
+  "lastScan": "2026-04-28T10:35:55.887Z",
   "lastReport": "2026-04-28T08:15:45.422Z",
   "marketRegime": "RANGE",
   "fearGreed": 33,
   "totalStats": {
-    "trades": 23,
-    "wins": 10,
+    "trades": 24,
+    "wins": 11,
     "losses": 13,
-    "totalPnl": -46.767544332922554,
-    "invested": 2300
+    "totalPnl": -30.98740248895092,
+    "invested": 2400
   },
   "byStrategy": {
     "sD": {
@@ -1399,9 +1422,9 @@
       "pnl": -15.999583639762633
     },
     "sB": {
-      "trades": 4,
-      "wins": 0,
-      "pnl": -25.239451315560693
+      "trades": 5,
+      "wins": 1,
+      "pnl": -9.45930947158906
     },
     "s3": {
       "trades": 12,
@@ -1444,9 +1467,9 @@
         "pnl": 3.1952928236516804
       },
       "sB": {
-        "trades": 1,
-        "wins": 0,
-        "pnl": -6.105733432613561
+        "trades": 2,
+        "wins": 1,
+        "pnl": 9.674408411358073
       }
     }
   }
