@@ -1402,10 +1402,10 @@
     "XRP_sB": 1777343397121,
     "BNB_sB": 1777372554901
   },
-  "scanCount": 143,
+  "scanCount": 144,
   "startedAt": "2026-04-22T13:39:52.660Z",
-  "lastScan": "2026-04-28T18:04:57.332Z",
-  "lastReport": "2026-04-28T16:28:31.736Z",
+  "lastScan": "2026-04-28T19:26:46.864Z",
+  "lastReport": "2026-04-28T19:26:46.864Z",
   "marketRegime": "RANGE",
   "fearGreed": 33,
   "totalStats": {
