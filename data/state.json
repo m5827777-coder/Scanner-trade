@@ -854,11 +854,11 @@
     "WLD_sB": 1777453743724,
     "ARB_sD": 1777453745225
   },
-  "scanCount": 1,
+  "scanCount": 2,
   "startedAt": "2026-04-29T09:00:00.000Z",
-  "lastScan": "2026-04-29T09:09:05.960Z",
+  "lastScan": "2026-04-29T09:14:55.305Z",
   "lastReport": "2026-04-29T09:09:05.960Z",
-  "marketRegime": "RANGE",
+  "marketRegime": "BULL",
   "fearGreed": 26,
   "totalStats": {
     "trades": 0,
