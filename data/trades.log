@@ -14886,3 +14886,79 @@
 [2026-04-29 08:54:59 UTC] 🤖 Bot v4.1 | action=reset_state | report=false
 [2026-04-29 08:54:59 UTC] ════════════════════════════════════════════════════
 [2026-04-29 08:54:59 UTC] ✅ Reset
+[2026-04-29 08:57:14 UTC] ════════════════════════════════════════════════════
+[2026-04-29 08:57:14 UTC] 🤖 Bot v4.1 | action=scan | report=false
+[2026-04-29 08:57:14 UTC] ════════════════════════════════════════════════════
+[2026-04-29 08:57:14 UTC] 📡 Scan #1
+[2026-04-29 08:57:14 UTC] [TG] Bad Request: can't parse entities: Unsupported start tag "20%" at byte offset 168
+[2026-04-29 08:57:15 UTC] 🌡 F&G=26 Regime=RANGE Open=0
+[2026-04-29 08:57:15 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-04-29 08:57:15 UTC] ✓ CoinGecko: 78 токенов. Проверяю входы...
+[2026-04-29 08:57:16 UTC]   📈 ENTRY ETH/sD [BULL] via OKX: Damodaran P/R фильтр: RSI=54, 30d=13%, Vol OK (краткосрочный рост) @ $2324.47
+[2026-04-29 08:57:17 UTC]   📈 ENTRY XRP/sB [RANGE] via OKX: F&G=26 (Fear) + отскок подтверждён. RSI=47 @ $1.3914
+[2026-04-29 08:57:17 UTC]   📈 ENTRY XRP/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=47, 30d=6%, Vol OK (консолидация) @ $1.3914
+[2026-04-29 08:57:18 UTC]   📈 ENTRY BNB/sB [RANGE] via OKX: F&G=26 (Fear) + отскок подтверждён. RSI=49 @ $625.8
+[2026-04-29 08:57:19 UTC]   📈 ENTRY BNB/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=49, 30d=3%, Vol OK (краткосрочный рост) @ $625.8
+[2026-04-29 08:57:20 UTC]   📈 ENTRY SOL/sB [RANGE] via OKX: F&G=26 (Fear) + отскок подтверждён. RSI=47 @ $84.47
+[2026-04-29 08:57:20 UTC]   📈 ENTRY SOL/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=47, 30d=4%, Vol OK (консолидация) @ $84.47
+[2026-04-29 08:57:21 UTC]   📈 ENTRY TRX/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=52, 30d=4%, Vol OK (консолидация) @ $0.32342
+[2026-04-29 08:57:23 UTC]   📈 ENTRY WBT/sD [BULL] via CoinGecko: Damodaran P/R фильтр: RSI=50, 30d=4%, Vol OK (консолидация) @ $54.627588506726745
+[2026-04-29 08:57:24 UTC]   📈 ENTRY HYPE/sB [NEUTRAL] via OKX: F&G=26 (Fear) + отскок подтверждён. RSI=47 @ $40.393
+[2026-04-29 08:57:25 UTC]   📈 ENTRY HYPE/sD [NEUTRAL] via OKX: Damodaran P/R фильтр: RSI=47, 30d=12%, Vol OK (консолидация) @ $40.393
+[2026-04-29 08:57:26 UTC]   📈 ENTRY ADA/sB [RANGE] via OKX: F&G=26 (Fear) + отскок подтверждён. RSI=48 @ $0.2494
+[2026-04-29 08:57:27 UTC]   📈 ENTRY ADA/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=48, 30d=5%, Vol OK (краткосрочный рост) @ $0.2494
+[2026-04-29 08:57:28 UTC]   📈 ENTRY BCH/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=51, 30d=-4%, Vol OK (консолидация) @ $453.1
+[2026-04-29 08:57:29 UTC]   📈 ENTRY XMR/sD [BULL] via CoinGecko: Damodaran P/R фильтр: RSI=59, 30d=15%, Vol OK (консолидация) @ $382.0444551363152
+[2026-04-29 08:57:30 UTC]   📈 ENTRY LINK/sD [BULL] via OKX: Damodaran P/R фильтр: RSI=51, 30d=8%, Vol OK (краткосрочный рост) @ $9.278
+[2026-04-29 08:57:31 UTC]   📈 ENTRY ZEC/s3 [BULL] via OKX: Просадка -8.5% от 7d max ($367.3400) @ $336.21
+[2026-04-29 08:57:32 UTC]   📈 ENTRY XLM/sD [BEAR_TREND] via OKX: Damodaran P/R фильтр: RSI=45, 30d=-1%, Vol OK (консолидация) @ $0.16185
+[2026-04-29 08:57:34 UTC]   📈 ENTRY AVAX/sB [RANGE] via OKX: F&G=26 (Fear) + отскок подтверждён. RSI=48 @ $9.265
+[2026-04-29 08:57:35 UTC]   📈 ENTRY AVAX/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=48, 30d=6%, Vol OK (краткосрочный рост) @ $9.265
+[2026-04-29 08:57:36 UTC]   📈 ENTRY HBAR/sB [RANGE] via OKX: F&G=26 (Fear) + отскок подтверждён. RSI=49 @ $0.08988
+[2026-04-29 08:57:36 UTC]   📈 ENTRY HBAR/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=49, 30d=7%, Vol OK (краткосрочный рост) @ $0.08988
+[2026-04-29 08:57:37 UTC]   📈 ENTRY SHIB/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=55, 30d=7%, Vol OK (краткосрочный рост) @ $0.000006241
+[2026-04-29 08:57:38 UTC]   📈 ENTRY SUI/sB [RANGE] via OKX: F&G=26 (Fear) + отскок подтверждён. RSI=46 @ $0.927
+[2026-04-29 08:57:38 UTC]   📈 ENTRY SUI/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=46, 30d=8%, Vol OK (консолидация) @ $0.927
+[2026-04-29 08:57:39 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-04-29 08:57:40 UTC]   📈 ENTRY TON/sD [BULL] via OKX: Damodaran P/R фильтр: RSI=50, 30d=9%, Vol OK (краткосрочный рост) @ $1.326
+[2026-04-29 08:57:41 UTC]   📈 ENTRY XAUT/sD [BEAR] via OKX: Damodaran P/R фильтр: RSI=39, 30d=-0%, Vol OK (консолидация) @ $4573.6
+[2026-04-29 08:57:42 UTC]   ⏭ TAO: нет данных (bittensor)
+[2026-04-29 08:57:43 UTC]   📈 ENTRY WLFI/s1 [BEAR] via OKX: RSI=32.1 ≤ 38 (oversold) @ $0.07323
+[2026-04-29 08:57:43 UTC]   📈 ENTRY WLFI/s3 [BEAR] via OKX: Просадка -8.8% от 7d max ($0.0803) @ $0.07323
+[2026-04-29 08:57:44 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-04-29 08:57:45 UTC]   📈 ENTRY PAXG/sD [BEAR] via OKX: Damodaran P/R фильтр: RSI=38, 30d=-1%, Vol OK (консолидация) @ $4569
+[2026-04-29 08:57:46 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-04-29 08:57:46 UTC]   📈 ENTRY DOT/sB [BEAR] via OKX: F&G=26 (Fear) + отскок подтверждён. RSI=42 @ $1.237
+[2026-04-29 08:57:47 UTC]   📈 ENTRY DOT/sD [BEAR] via OKX: Damodaran P/R фильтр: RSI=42, 30d=-1%, Vol OK (краткосрочный рост) @ $1.237
+[2026-04-29 08:57:47 UTC]   📈 ENTRY UNI/sB [BEAR] via OKX: F&G=26 (Fear) + отскок подтверждён. RSI=48 @ $3.27
+[2026-04-29 08:57:48 UTC]   📈 ENTRY UNI/sD [BEAR] via OKX: Damodaran P/R фильтр: RSI=48, 30d=-7%, Vol OK (краткосрочный рост) @ $3.27
+[2026-04-29 08:57:50 UTC]   📈 ENTRY NEAR/sB [RANGE] via OKX: F&G=26 (Fear) + отскок подтверждён. RSI=49 @ $1.357
+[2026-04-29 08:57:51 UTC]   📈 ENTRY OKB/sB [BEAR] via OKX: F&G=26 (Fear) + отскок подтверждён. RSI=44 @ $83.17
+[2026-04-29 08:57:52 UTC]   📈 ENTRY OKB/sD [BEAR] via OKX: Damodaran P/R фильтр: RSI=44, 30d=0%, Vol OK (консолидация) @ $83.17
+[2026-04-29 08:57:53 UTC]   📈 ENTRY ASTER/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=50, 30d=2%, Vol OK (консолидация) @ $0.6699
+[2026-04-29 08:57:54 UTC]   📈 ENTRY PEPE/sD [BULL] via OKX: Damodaran P/R фильтр: RSI=59, 30d=18%, Vol OK (краткосрочный рост) @ $0.000003944
+[2026-04-29 08:57:55 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-04-29 08:57:55 UTC]   📈 ENTRY AAVE/sB [NEUTRAL] via OKX: F&G=26 (Fear) + отскок подтверждён. RSI=47 @ $96.82
+[2026-04-29 08:57:56 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-04-29 08:57:56 UTC]   📈 ENTRY ICP/sB [RANGE] via OKX: F&G=26 (Fear) + отскок подтверждён. RSI=47 @ $2.43
+[2026-04-29 08:57:57 UTC]   📈 ENTRY ETC/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=50, 30d=5%, Vol OK (краткосрочный рост) @ $8.477
+[2026-04-29 08:57:58 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-04-29 08:57:59 UTC]   📈 ENTRY ONDO/sD [RANGE] via OKX: Damodaran P/R фильтр: RSI=52, 30d=1%, Vol OK (консолидация) @ $0.2646
+[2026-04-29 08:58:00 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-04-29 08:58:01 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-04-29 08:58:01 UTC]   ⏭ U: нет данных (united-stables)
+[2026-04-29 08:58:01 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-04-29 08:58:03 UTC]   📈 ENTRY POL/sD [NEUTRAL] via OKX: Damodaran P/R фильтр: RSI=52, 30d=5%, Vol OK (краткосрочный рост) @ $0.09267
+[2026-04-29 08:58:04 UTC]   📈 ENTRY ENA/sD [BULL] via OKX: Damodaran P/R фильтр: RSI=53, 30d=21%, Vol OK (краткосрочный рост) @ $0.10783
+[2026-04-29 08:58:05 UTC]   📈 ENTRY RENDER/sB [NEUTRAL] via OKX: F&G=26 (Fear) + отскок подтверждён. RSI=46 @ $1.768
+[2026-04-29 08:58:05 UTC]   📈 ENTRY RENDER/sD [NEUTRAL] via OKX: Damodaran P/R фильтр: RSI=46, 30d=5%, Vol OK (консолидация) @ $1.768
+[2026-04-29 08:58:06 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-04-29 08:58:07 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-04-29 08:58:07 UTC]   📈 ENTRY WLD/sB [BEAR] via OKX: F&G=26 (Fear) + отскок подтверждён. RSI=39 @ $0.2519
+[2026-04-29 08:58:09 UTC]   📈 ENTRY ARB/sD [BULL] via OKX: Damodaran P/R фильтр: RSI=62, 30d=40%, Vol OK (краткосрочный рост) @ $0.1283
+[2026-04-29 08:58:10 UTC]   📈 ENTRY FIL/sD [BULL] via OKX: Damodaran P/R фильтр: RSI=51, 30d=15%, Vol OK (краткосрочный рост) @ $0.9417
+[2026-04-29 08:58:10 UTC] ✅ Данные: 51 токенов OK, 13 недоступно | Открыто: 50 | Всего: 50
+[2026-04-29 08:58:12 UTC] [EMAIL] ✅ → m5827777@gmail.com
+[2026-04-29 08:58:12 UTC] 📧 6h report sent
+[2026-04-29 08:58:12 UTC] 
+📊 ИТОГ: WR=0% PnL=$0.00 Trades=0
