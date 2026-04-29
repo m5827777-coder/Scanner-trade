@@ -5,6 +5,9 @@ const path       = require('path');
 const nodemailer = require('nodemailer');
 const { STRATEGIES, REGIME_PERFORMANCE, SD_BLACKLIST, detectRegime } = require('./strategies');
 
+// ═══════════════════════════════════════════════════
+// DCA конфиг — только s3, 5 входов на токен, 1 неделя
+// ═══════════════════════════════════════════════════
 // Читаем глобальные параметры из params.json
 function loadGlobalParams() {
   try {
@@ -35,7 +38,7 @@ const CFG = {
   },
 };
 
-const STRAT_IDS  = Object.keys(STRATEGIES);
+const STRAT_IDS = ['s3'];  // DCA: только Buyback Dip
 const ROOT       = path.join(__dirname, '..');
 const STATE_FILE = path.join(ROOT, 'data', 'state.json');
 const DASH_FILE  = path.join(ROOT, 'dashboard', 'index.html');
@@ -55,7 +58,17 @@ function saveState(st){fs.mkdirSync(path.dirname(STATE_FILE),{recursive:true});s
 
 const canEnter=(st,sym,sid)=>Date.now()-(st.cooldowns[`${sym}_${sid}`]||0)>CFG.cooldownMin*60000;
 const markEnter=(st,sym,sid)=>{st.cooldowns[`${sym}_${sid}`]=Date.now();};
-const hasOpen=(st,sym)=>st.openPositions.some(p=>p.symbol===sym);  // FIX: 1 позиция на токен
+// DCA: считаем количество открытых позиций по токену (макс 5)
+const DCA_MAX_ENTRIES = 5;           // макс входов на 1 токен
+const DCA_COOLDOWN_DAYS = 7;         // дней между входами на 1 токен
+const countOpen=(st,sym)=>st.openPositions.filter(p=>p.symbol===sym).length;
+const canDCA=(st,sym)=>{
+  // Не более 5 позиций на токен
+  if(countOpen(st,sym)>=DCA_MAX_ENTRIES)return false;
+  // Последний вход был не раньше чем 7 дней назад
+  const last=st.cooldowns[`${sym}_dca`]||0;
+  return Date.now()-last >= DCA_COOLDOWN_DAYS*24*60*60*1000;
+};
 
 function updStats(st,t){
   const win=t.pnl>=0,ts=st.totalStats;
@@ -288,7 +301,7 @@ function checkEntryEx(stratId, bars, params){
 async function main(){
   fs.mkdirSync(path.dirname(LOG_FILE),{recursive:true});
   log('═'.repeat(52));
-  log(`🤖 Bot v5.1 | action=${CFG.action} | report=${CFG.isReport}`);
+  log(`🤖 Bot v5.2-DCA | action=${CFG.action} | report=${CFG.isReport}`);
   log('═'.repeat(52));
 
   const state=loadState();
@@ -323,7 +336,7 @@ async function main(){
 
   // Стартовое TG (первый запуск)
   if(state.scanCount===1){
-    await tg(`🤖 <b>Trading Bot v5.1 запущен!</b>\n\n📊 Данные: Bybit + OKX + CoinGecko\n💰 $${CFG.positionSize}/сделка · 7 стратегий\nRSI≤${CFG.params.rsiThr} · EMA тренд · BB<${CFG.params.bbWidth}%\n\n<i>${utc()}</i>`);
+    await tg(`🤖 <b>Trading Bot v5.2-DCA запущен · s3 only!</b>\n\n📊 Данные: Bybit + OKX + CoinGecko\n💰 $${CFG.positionSize}/сделка · 7 стратегий\nRSI≤${CFG.params.rsiThr} · EMA тренд · BB<${CFG.params.bbWidth}%\n\n<i>${utc()}</i>`);
   }
 
   const fg=await fetchFG();state.fearGreed=fg;
@@ -352,33 +365,33 @@ async function main(){
     const s=STRATEGIES[pos.stratId];if(!s)continue;
     const pnlNow=(price-pos.entryPrice)/pos.entryPrice*100;
 
-    // TRAILING STOP: если позиция достигла порога — защищаем прибыль
-    const trActivate = CFG.trailingActivate || 5;
-    const trStep     = CFG.trailingStep     || 2;
-    if (pnlNow >= trActivate) {
-      const peak     = pos.peakPnl || pnlNow;
-      const newPeak  = Math.max(peak, pnlNow);
-      pos.peakPnl    = newPeak;  // сохраняем пик
-      const trailSL  = newPeak - trStep;
-      if (pnlNow <= trailSL && trailSL > 0) {
-        // Цена откатила на trStep% от пика
-        const pU = CFG.positionSize*pnlNow/100;
-        const c  = {...pos,exitPrice:price,exitTime:Date.now(),exitReason:`📉 Trailing stop: пик +${newPeak.toFixed(1)}% → откат до +${pnlNow.toFixed(1)}%`,pnl:pnlNow,pnlUsd:pU,total:CFG.positionSize+pU,regime:state.marketRegime};
-        state.closedTrades.unshift(c);updStats(state,c);toClose.push(pos.id);
-        log(`  📉 TRAIL STOP ${pos.symbol}/${pos.stratId}: peak=+${newPeak.toFixed(1)}% → now=+${pnlNow.toFixed(1)}% held=${durFmt(Date.now()-pos.entryTime)}`);
-        await tg(msgExit(pos,price,`📉 Trailing stop (пик +${newPeak.toFixed(1)}%)`,pnlNow,pU,Date.now()-pos.entryTime));
-        await new Promise(r=>setTimeout(r,400));
-        continue;
-      }
-    }
-
+    // ЧАСТИЧНЫЙ ВЫХОД s3 DCA:
+    // ½ позиции при возврате к SMA7 → ½ позиции при TP +18%
+    // Нет стоп-лосса (DCA стратегия — усредняемся при падении)
     const ex=s.checkExit(pos,bars,price,(CFG._stratParams||CFG.params));
     if(ex.signal){
-      const pU=CFG.positionSize*ex.pnl/100;const held=Date.now()-pos.entryTime;
-      const c={...pos,exitPrice:price,exitTime:Date.now(),exitReason:ex.reason,pnl:ex.pnl,pnlUsd:pU,total:CFG.positionSize+pU,regime:state.marketRegime};
-      state.closedTrades.unshift(c);updStats(state,c);toClose.push(pos.id);
-      log(`  ${ex.pnl>=0?'✅':'❌'} CLOSE ${pos.symbol}/${pos.stratId}: ${ex.reason} PnL=${pct(ex.pnl)} held=${durFmt(held)}`);
-      await tg(msgExit(pos,price,ex.reason,ex.pnl,pU,held));
+      const held=Date.now()-pos.entryTime;
+      if(ex.half && !pos.halfClosed){
+        // ПОЛОВИНА позиции — SMA7 достигнута
+        const halfSize=CFG.positionSize/2;
+        const pU=halfSize*ex.pnl/100;
+        const c={...pos,exitPrice:price,exitTime:Date.now(),exitReason:ex.reason,
+          pnl:ex.pnl,pnlUsd:pU,total:halfSize+pU,size:halfSize,regime:state.marketRegime};
+        state.closedTrades.unshift(c);updStats(state,c);
+        pos.halfClosed=true;  // помечаем — первая половина закрыта
+        log(`  📊 HALF-CLOSE ${pos.symbol}: ${ex.reason} PnL=${pct(ex.pnl)} · Ждём +18% для второй ½`);
+        await tg(`📊 <b>Половина позиции закрыта</b>\n${pos.symbol}: ${ex.reason}\nPnL ½: ${pct(ex.pnl)} (+$${pU.toFixed(2)})\n⏳ Ждём TP +18% для второй ½`);
+      } else {
+        // Полное закрытие (TP +18% или вторая половина)
+        const activeSize = pos.halfClosed ? CFG.positionSize/2 : CFG.positionSize;
+        const pU=activeSize*ex.pnl/100;
+        const c={...pos,exitPrice:price,exitTime:Date.now(),exitReason:ex.reason,
+          pnl:ex.pnl,pnlUsd:pU,total:activeSize+pU,size:activeSize,regime:state.marketRegime};
+        state.closedTrades.unshift(c);updStats(state,c);toClose.push(pos.id);
+        const label=pos.halfClosed?'✅ FULL-CLOSE (2я ½)':'✅ CLOSE';
+        log(`  ${label} ${pos.symbol}/${pos.stratId}: ${ex.reason} PnL=${pct(ex.pnl)} held=${durFmt(held)}`);
+        await tg(msgExit(pos,price,ex.reason,ex.pnl,pU,held));
+      }
       await new Promise(r=>setTimeout(r,400));
     }else{
       log(`  📂 HOLD ${pos.symbol}/${pos.stratId} PnL=${pct(ex.pnl)}`);
@@ -415,7 +428,7 @@ async function main(){
 
       for(const sid of STRAT_IDS){
         if(state.openPositions.length>=CFG.maxOpenPos||opened>=maxNewThisScan)break;
-        if(hasOpen(state,sym))continue;  // FIX: блок по символу
+        if(!canDCA(state,sym))continue;     // DCA: макс 5 входов, 1 неделя между входами
         if(!canEnter(state,sym,sid))continue;
 
         const s=STRATEGIES[sid];
@@ -434,8 +447,10 @@ async function main(){
           entrySignal:entry.detail,strength:entry.strength||50,
           regime:tr,size:CFG.positionSize,src,peakPnl:0,
         };
+        pos.dcaEntry = countOpen(state,sym)+1;  // номер входа (1..5)
         state.openPositions.push(pos);
         markEnter(state,sym,sid);
+        state.cooldowns[`${sym}_dca`]=Date.now();  // DCA cooldown 7 дней
         opened++;
 
         log(`  📈 ENTRY ${sym}/${sid} [${tr}] via ${src}: ${entry.detail} @ $${price}`);

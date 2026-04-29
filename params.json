@@ -1,51 +1,22 @@
 {
-  "_comment": "Параметры стратегий v4 — строгие входы. Глобальные параметры без изменений.",
+  "_comment": "DCA стратегия — только s3 Buyback Dip. 5 входов по $100 на токен с интервалом 1 неделя.",
 
-  "s1": {
-    "tp": 20, "sl": -7,
-    "rsiThr": 30,
-    "rsiExit": 65,
-    "minVolSpike": 1.3
-  },
   "s3": {
-    "tp": 18, "sl": -8,
-    "dropThr": 12,
-    "rsiMinEntry": 25,
-    "rsiMaxEntry": 50,
-    "volConfirm": true
-  },
-  "sA": {
-    "tp": 15, "sl": -5,
-    "rsiMaxEntry": 40,
-    "rsiExitAt": 58,
-    "minDivStrength": 5
-  },
-  "sB": {
-    "tp": 20, "sl": -7,
-    "fgThreshold": 25,
-    "fgExtreme": 15,
-    "rsiMaxEntry": 40
-  },
-  "sC": {
-    "tp": 12, "sl": -5,
-    "smaPeriod": 50,
-    "smaDistPct": 1.5,
-    "rsiMaxEntry": 52
-  },
-  "sD": {
-    "tp": 15, "sl": -8,
-    "rsiMin": 30, "rsiMax": 48,
-    "drop7Min": 5,
-    "drop30Max": -35,
-    "volSpikeMin": 1.2
+    "tp":      18,
+    "dropThr": 15,
+    "rsiMin":  15,
+    "rsiMax":  30,
+    "volMult": 1.0
   },
 
   "global": {
-    "positionSize": 100,
-    "cooldownMin": 120,
-    "maxOpenPos": 50,
-    "maxPerScan": 8,
-    "trailingActivate": 5,
-    "trailingStep": 2
-  }
+    "positionSize":  100,
+    "cooldownMin":   10080,
+    "maxOpenPos":    50,
+    "maxPerScan":    3,
+    "trailingActivate": 99,
+    "trailingStep":     1
+  },
+
+  "_disabled": ["s1", "sA", "sB", "sC", "sD"]
 }
