@@ -2,10 +2,10 @@
   "openPositions": [],
   "closedTrades": [],
   "cooldowns": {},
-  "scanCount": 32,
+  "scanCount": 33,
   "startedAt": "2026-04-29T09:00:00.000Z",
-  "lastScan": "2026-05-01T00:03:25.854Z",
-  "lastReport": "2026-04-30T19:13:07.339Z",
+  "lastScan": "2026-05-01T02:36:56.357Z",
+  "lastReport": "2026-05-01T02:36:56.357Z",
   "marketRegime": "BULL",
   "fearGreed": 26,
   "totalStats": {
