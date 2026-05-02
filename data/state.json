@@ -1,10 +1,32 @@
 {
-  "openPositions": [],
+  "openPositions": [
+    {
+      "id": "WLFI_s3_1777715297914",
+      "symbol": "WLFI",
+      "name": "World Liberty Financial",
+      "coinId": "world-liberty-financial",
+      "rank": 46,
+      "stratId": "s3",
+      "entryPrice": 0.05645,
+      "entryTime": 1777715297914,
+      "entryDate": "2026-05-02T09:48:17.914Z",
+      "entrySignal": "Дип -26.2% · RSI=18 · Объём x1.9",
+      "strength": 95,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "dcaEntry": 1
+    }
+  ],
   "closedTrades": [],
-  "cooldowns": {},
-  "scanCount": 60,
+  "cooldowns": {
+    "WLFI_s3": 1777715297915,
+    "WLFI_dca": 1777715297915
+  },
+  "scanCount": 61,
   "startedAt": "2026-04-29T09:00:00.000Z",
-  "lastScan": "2026-05-02T08:50:06.394Z",
+  "lastScan": "2026-05-02T09:48:37.173Z",
   "lastReport": "2026-05-02T07:25:42.634Z",
   "marketRegime": "BULL",
   "fearGreed": 39,
