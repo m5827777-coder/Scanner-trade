@@ -24,10 +24,10 @@
     "WLFI_s3": 1777715297915,
     "WLFI_dca": 1777715297915
   },
-  "scanCount": 72,
+  "scanCount": 73,
   "startedAt": "2026-04-29T09:00:00.000Z",
-  "lastScan": "2026-05-02T18:48:36.316Z",
-  "lastReport": "2026-05-02T12:59:43.184Z",
+  "lastScan": "2026-05-02T18:52:40.908Z",
+  "lastReport": "2026-05-02T18:52:40.908Z",
   "marketRegime": "BULL",
   "fearGreed": 39,
   "totalStats": {
