@@ -1,5 +1,6 @@
 {
-  "openPositions": [
+  "openPositions": [],
+  "closedTrades": [
     {
       "id": "WLFI_s3_1777715297914",
       "symbol": "WLFI",
@@ -12,15 +13,19 @@
       "entryDate": "2026-05-02T09:48:17.914Z",
       "entrySignal": "Дип -26.2% · RSI=18 · Объём x1.9",
       "strength": 95,
-      "regime": "BEAR_TREND",
-      "size": 100,
+      "regime": "BULL",
+      "size": 50,
       "src": "OKX",
       "peakPnl": 0,
       "dcaEntry": 1,
-      "halfClosed": true
-    }
-  ],
-  "closedTrades": [
+      "halfClosed": true,
+      "exitPrice": 0.06682,
+      "exitTime": 1777918524882,
+      "exitReason": "✅ TP +18% полная фиксация",
+      "pnl": 18.370239149689997,
+      "pnlUsd": 9.185119574844999,
+      "total": 59.185119574845
+    },
     {
       "id": "WLFI_s3_1777715297914",
       "symbol": "WLFI",
@@ -50,32 +55,32 @@
     "WLFI_s3": 1777715297915,
     "WLFI_dca": 1777715297915
   },
-  "scanCount": 115,
+  "scanCount": 116,
   "startedAt": "2026-04-29T09:00:00.000Z",
-  "lastScan": "2026-05-04T16:59:22.777Z",
+  "lastScan": "2026-05-04T18:16:05.490Z",
   "lastReport": "2026-05-04T13:47:41.214Z",
   "marketRegime": "BULL",
   "fearGreed": 40,
   "totalStats": {
-    "trades": 1,
-    "wins": 1,
+    "trades": 2,
+    "wins": 2,
     "losses": 0,
-    "totalPnl": 4.534986713906111,
-    "invested": 100
+    "totalPnl": 13.72010628875111,
+    "invested": 200
   },
   "byStrategy": {
     "s3": {
-      "trades": 1,
-      "wins": 1,
-      "pnl": 4.534986713906111
+      "trades": 2,
+      "wins": 2,
+      "pnl": 13.72010628875111
     }
   },
   "byRegime": {
     "BULL": {
       "s3": {
-        "trades": 1,
-        "wins": 1,
-        "pnl": 4.534986713906111
+        "trades": 2,
+        "wins": 2,
+        "pnl": 13.72010628875111
       }
     }
   }
