@@ -16,27 +16,67 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0,
-      "dcaEntry": 1
+      "dcaEntry": 1,
+      "halfClosed": true
     }
   ],
-  "closedTrades": [],
+  "closedTrades": [
+    {
+      "id": "WLFI_s3_1777715297914",
+      "symbol": "WLFI",
+      "name": "World Liberty Financial",
+      "coinId": "world-liberty-financial",
+      "rank": 46,
+      "stratId": "s3",
+      "entryPrice": 0.05645,
+      "entryTime": 1777715297914,
+      "entryDate": "2026-05-02T09:48:17.914Z",
+      "entrySignal": "Дип -26.2% · RSI=18 · Объём x1.9",
+      "strength": 95,
+      "regime": "BULL",
+      "size": 50,
+      "src": "OKX",
+      "peakPnl": 0,
+      "dcaEntry": 1,
+      "exitPrice": 0.06157,
+      "exitTime": 1777902419360,
+      "exitReason": "📊 SMA7 $0.0613 — фиксируем ½",
+      "pnl": 9.069973427812222,
+      "pnlUsd": 4.534986713906111,
+      "total": 54.53498671390611
+    }
+  ],
   "cooldowns": {
     "WLFI_s3": 1777715297915,
     "WLFI_dca": 1777715297915
   },
-  "scanCount": 112,
+  "scanCount": 113,
   "startedAt": "2026-04-29T09:00:00.000Z",
-  "lastScan": "2026-05-04T12:57:00.141Z",
-  "lastReport": "2026-05-04T08:24:03.609Z",
+  "lastScan": "2026-05-04T13:47:41.214Z",
+  "lastReport": "2026-05-04T13:47:41.214Z",
   "marketRegime": "BULL",
   "fearGreed": 40,
   "totalStats": {
-    "trades": 0,
-    "wins": 0,
+    "trades": 1,
+    "wins": 1,
     "losses": 0,
-    "totalPnl": 0,
-    "invested": 0
+    "totalPnl": 4.534986713906111,
+    "invested": 100
   },
-  "byStrategy": {},
-  "byRegime": {}
+  "byStrategy": {
+    "s3": {
+      "trades": 1,
+      "wins": 1,
+      "pnl": 4.534986713906111
+    }
+  },
+  "byRegime": {
+    "BULL": {
+      "s3": {
+        "trades": 1,
+        "wins": 1,
+        "pnl": 4.534986713906111
+      }
+    }
+  }
 }
