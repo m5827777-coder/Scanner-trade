@@ -254,6 +254,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "AVAX_sR_1778710455158",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "coinId": "avalanche-2",
+      "rank": 28,
+      "stratId": "sR",
+      "entryPrice": 9.728,
+      "entryTime": 1778710455158,
+      "entryDate": "2026-05-13T22:14:15.158Z",
+      "entrySignal": "Ротация #28 AVAX: BTC Dom=58.2% · Коррекция -7.3% · RSI=55",
+      "strength": 62,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [],
@@ -272,11 +289,12 @@
     "ALGO_sR": 1778705961170,
     "RENDER_sR": 1778705963968,
     "APT_sR": 1778705965848,
-    "ARB_sR": 1778705967332
+    "ARB_sR": 1778705967332,
+    "AVAX_sR": 1778710455158
   },
-  "scanCount": 2,
+  "scanCount": 3,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-13T20:59:35.750Z",
+  "lastScan": "2026-05-13T22:14:40.315Z",
   "lastReport": "2026-05-13T20:51:09.459Z",
   "marketRegime": "BULL",
   "fearGreed": 42,
