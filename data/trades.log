@@ -24065,3 +24065,31 @@
 [2026-05-13 20:50:15 UTC] 🤖 Bot v6 | action=reset_state | report=false
 [2026-05-13 20:50:15 UTC] ════════════════════════════════════════════════════
 [2026-05-13 20:50:15 UTC] ✅ Reset
+[2026-05-13 20:50:40 UTC] ════════════════════════════════════════════════════
+[2026-05-13 20:50:40 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-05-13 20:50:40 UTC] ════════════════════════════════════════════════════
+[2026-05-13 20:50:40 UTC] 📡 Scan #1
+[2026-05-13 20:50:40 UTC] [TG] Bad Request: can't parse entities: Unsupported start tag "20%" at byte offset 166
+[2026-05-13 20:50:41 UTC] 📊 BTC Dom=58.2%
+[2026-05-13 20:50:41 UTC] 🌡 F&G=42 Regime=BULL Open=0
+[2026-05-13 20:50:41 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-05-13 20:50:41 UTC] ✓ CoinGecko: 80 токенов. Проверяю входы...
+[2026-05-13 20:50:44 UTC]   📈 ENTRY SOL/sR [BULL] via OKX: Ротация #7 SOL: BTC Dom=58.2% · Коррекция -7.4% · RSI=58 @ $91.11
+[2026-05-13 20:50:47 UTC]   📈 ENTRY ADA/sR [BULL] via OKX: Ротация #13 ADA: BTC Dom=58.2% · Коррекция -8.3% · RSI=54 @ $0.2647
+[2026-05-13 20:50:48 UTC]   📈 ENTRY HYPE/sR [BEAR] via OKX: Ротация #14 HYPE: BTC Dom=58.2% · Коррекция -11.9% · RSI=44 @ $39.08
+[2026-05-13 20:50:50 UTC]   📈 ENTRY BCH/sR [NEUTRAL] via OKX: Ротация #17 BCH: BTC Dom=58.2% · Коррекция -7.7% · RSI=45 @ $434.6
+[2026-05-13 20:50:53 UTC]   📈 ENTRY XLM/sR [NEUTRAL] via OKX: Ротация #22 XLM: BTC Dom=58.2% · Коррекция -8.1% · RSI=46 @ $0.15973
+[2026-05-13 20:50:55 UTC]   ⏭ M: нет данных (memecore)
+[2026-05-13 20:50:57 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-05-13 20:50:58 UTC]   ⏭ TAO: нет данных (bittensor)
+[2026-05-13 20:50:59 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-05-13 20:51:00 UTC]   📈 ENTRY UNI/sR [BULL] via OKX: Ротация #40 UNI: BTC Dom=58.2% · Коррекция -12.9% · RSI=57 @ $3.631
+[2026-05-13 20:51:01 UTC]   📈 ENTRY DOT/sR [BULL] via OKX: Ротация #41 DOT: BTC Dom=58.2% · Коррекция -7.4% · RSI=57 @ $1.332
+[2026-05-13 20:51:02 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-05-13 20:51:05 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-05-13 20:51:08 UTC]   📈 ENTRY AAVE/sR [NEUTRAL] via OKX: Ротация #58 AAVE: BTC Dom=58.2% · Коррекция -7.1% · RSI=53 @ $96.12
+[2026-05-13 20:51:09 UTC] ✅ Данные: 39 токенов OK, 6 недоступно | Открыто: 8 | Всего: 8
+[2026-05-13 20:51:10 UTC] [EMAIL] ✅ → m5827777@gmail.com
+[2026-05-13 20:51:10 UTC] 📧 6h report sent
+[2026-05-13 20:51:10 UTC] 
+📊 ИТОГ: WR=0% PnL=$0.00 Trades=0
