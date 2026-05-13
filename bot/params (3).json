@@ -1,0 +1,47 @@
+{
+  "_comment": "v6 — три стратегии под бычий рынок 2026. BTC $80-100K, альт-ротация начинается.",
+
+  "sE": {
+    "_name": "EMA Cross — ловим начало тренда",
+    "tp": 15,
+    "sl": -6,
+    "emaFast": 9,
+    "emaSlow": 21,
+    "rsiMin": 45,
+    "rsiMax": 85,
+    "volMin": 1.0,
+    "rsiExitAt": 88
+  },
+  "sM": {
+    "_name": "Momentum Breakout — покупаем пробой 20d max",
+    "tp": 25,
+    "sl": -7,
+    "lookback": 20,
+    "rsiMin": 45,
+    "rsiMax": 87,
+    "volMin": 1.5,
+    "rsiExitAt": 90,
+    "trailingPct": 6
+  },
+  "sR": {
+    "_name": "Altcoin Rotation — топ-30 альты при коррекции 7-20%",
+    "tp": 12,
+    "sl": -5,
+    "btcDomMax": 61,
+    "btcDomExit": 63,
+    "dropMin": 7,
+    "dropMax": 20,
+    "rsiMin": 20,
+    "rsiMax": 60,
+    "maxRank": 30
+  },
+
+  "global": {
+    "positionSize": 100,
+    "cooldownMin": 120,
+    "maxOpenPos": 20,
+    "maxPerScan": 3,
+    "trailingActivate": 99,
+    "trailingStep": 1
+  }
+}
