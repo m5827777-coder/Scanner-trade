@@ -271,6 +271,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XRP_sE_1778801425373",
+      "symbol": "XRP",
+      "name": "XRP",
+      "coinId": "ripple",
+      "rank": 4,
+      "stratId": "sE",
+      "entryPrice": 1.4963,
+      "entryTime": 1778801425373,
+      "entryDate": "2026-05-14T23:30:25.373Z",
+      "entrySignal": "EMA начало расхождения · EMA9=1.4460 > EMA21=1.4256 · RSI=62 · Vol x1.0",
+      "strength": 73,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -363,11 +380,12 @@
     "AVAX_sR": 1778710455158,
     "HBAR_sR": 1778752941540,
     "CC_sE": 1778759953489,
-    "FLR_sE": 1778797959970
+    "FLR_sE": 1778797959970,
+    "XRP_sE": 1778801425373
   },
-  "scanCount": 19,
+  "scanCount": 20,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-14T22:32:47.776Z",
+  "lastScan": "2026-05-14T23:31:04.846Z",
   "lastReport": "2026-05-14T19:41:13.853Z",
   "marketRegime": "BULL",
   "fearGreed": 34,
