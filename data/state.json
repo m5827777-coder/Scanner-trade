@@ -271,6 +271,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "HBAR_sR_1778752941540",
+      "symbol": "HBAR",
+      "name": "Hedera",
+      "coinId": "hedera-hashgraph",
+      "rank": 30,
+      "stratId": "sR",
+      "entryPrice": 0.09264,
+      "entryTime": 1778752941540,
+      "entryDate": "2026-05-14T10:02:21.540Z",
+      "entrySignal": "Ротация #30 HBAR: BTC Dom=58.2% · Коррекция -7.0% · RSI=54",
+      "strength": 63,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [],
@@ -290,11 +307,12 @@
     "RENDER_sR": 1778705963968,
     "APT_sR": 1778705965848,
     "ARB_sR": 1778705967332,
-    "AVAX_sR": 1778710455158
+    "AVAX_sR": 1778710455158,
+    "HBAR_sR": 1778752941540
   },
-  "scanCount": 9,
+  "scanCount": 10,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-14T08:32:32.855Z",
+  "lastScan": "2026-05-14T10:02:49.243Z",
   "lastReport": "2026-05-14T08:32:32.855Z",
   "marketRegime": "BULL",
   "fearGreed": 34,
