@@ -35,23 +35,6 @@
       "peakPnl": 0
     },
     {
-      "id": "HYPE_sR_1778705448332",
-      "symbol": "HYPE",
-      "name": "Hyperliquid",
-      "coinId": "hyperliquid",
-      "rank": 14,
-      "stratId": "sR",
-      "entryPrice": 39.08,
-      "entryTime": 1778705448332,
-      "entryDate": "2026-05-13T20:50:48.332Z",
-      "entrySignal": "Ротация #14 HYPE: BTC Dom=58.2% · Коррекция -11.9% · RSI=44",
-      "strength": 78,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 8.981576253838295
-    },
-    {
       "id": "BCH_sR_1778705450366",
       "symbol": "BCH",
       "name": "Bitcoin Cash",
@@ -117,7 +100,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.630630630630627
     },
     {
       "id": "AAVE_sR_1778705468537",
@@ -168,7 +151,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.084890367716071
+      "peakPnl": 5.392031396638518
     },
     {
       "id": "ALGO_sR_1778705961170",
@@ -292,6 +275,29 @@
   ],
   "closedTrades": [
     {
+      "id": "HYPE_sR_1778705448332",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 14,
+      "stratId": "sR",
+      "entryPrice": 39.08,
+      "entryTime": 1778705448332,
+      "entryDate": "2026-05-13T20:50:48.332Z",
+      "entrySignal": "Ротация #14 HYPE: BTC Dom=58.2% · Коррекция -11.9% · RSI=44",
+      "strength": 78,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 13.134595701125903,
+      "exitPrice": 44.213,
+      "exitTime": 1778782387694,
+      "exitReason": "✅ TP +12%",
+      "pnl": 13.134595701125903,
+      "pnlUsd": 13.134595701125905,
+      "total": 113.1345957011259
+    },
+    {
       "id": "CC_sR_1778705941235",
       "symbol": "CC",
       "name": "Canton",
@@ -335,32 +341,32 @@
     "HBAR_sR": 1778752941540,
     "CC_sE": 1778759953489
   },
-  "scanCount": 14,
+  "scanCount": 15,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-14T16:24:27.425Z",
+  "lastScan": "2026-05-14T18:13:49.238Z",
   "lastReport": "2026-05-14T13:58:30.275Z",
   "marketRegime": "BULL",
   "fearGreed": 34,
   "totalStats": {
-    "trades": 1,
-    "wins": 1,
+    "trades": 2,
+    "wins": 2,
     "losses": 0,
-    "totalPnl": 6.930437031290393,
-    "invested": 100
+    "totalPnl": 20.0650327324163,
+    "invested": 200
   },
   "byStrategy": {
     "sR": {
-      "trades": 1,
-      "wins": 1,
-      "pnl": 6.930437031290393
+      "trades": 2,
+      "wins": 2,
+      "pnl": 20.0650327324163
     }
   },
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 1,
-        "wins": 1,
-        "pnl": 6.930437031290393
+        "trades": 2,
+        "wins": 2,
+        "pnl": 20.0650327324163
       }
     }
   },
