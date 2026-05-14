@@ -137,23 +137,6 @@
       "peakPnl": 0
     },
     {
-      "id": "CC_sR_1778705941235",
-      "symbol": "CC",
-      "name": "Canton",
-      "coinId": "canton-network",
-      "rank": 20,
-      "stratId": "sR",
-      "entryPrice": 0.15468,
-      "entryTime": 1778705941235,
-      "entryDate": "2026-05-13T20:59:01.235Z",
-      "entrySignal": "Ротация #20 CC: BTC Dom=58.2% · Коррекция -7.2% · RSI=58",
-      "strength": 65,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ETC_sR_1778705957352",
       "symbol": "ETC",
       "name": "Ethereum Classic",
@@ -288,9 +271,50 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "CC_sE_1778759953489",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 20,
+      "stratId": "sE",
+      "entryPrice": 0.16546,
+      "entryTime": 1778759953489,
+      "entryDate": "2026-05-14T11:59:13.489Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=0.1549 > EMA21=0.1520 · RSI=68 · Vol x1.8",
+      "strength": 82,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
-  "closedTrades": [],
+  "closedTrades": [
+    {
+      "id": "CC_sR_1778705941235",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 20,
+      "stratId": "sR",
+      "entryPrice": 0.15468,
+      "entryTime": 1778705941235,
+      "entryDate": "2026-05-13T20:59:01.235Z",
+      "entrySignal": "Ротация #20 CC: BTC Dom=58.2% · Коррекция -7.2% · RSI=58",
+      "strength": 65,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 6.930437031290393,
+      "exitPrice": 0.1654,
+      "exitTime": 1778759941418,
+      "exitReason": "Возврат к 7d max $0.1667",
+      "pnl": 6.930437031290393,
+      "pnlUsd": 6.930437031290393,
+      "total": 106.9304370312904
+    }
+  ],
   "cooldowns": {
     "SOL_sR": 1778705444054,
     "ADA_sR": 1778705447385,
@@ -308,22 +332,37 @@
     "APT_sR": 1778705965848,
     "ARB_sR": 1778705967332,
     "AVAX_sR": 1778710455158,
-    "HBAR_sR": 1778752941540
+    "HBAR_sR": 1778752941540,
+    "CC_sE": 1778759953489
   },
-  "scanCount": 10,
+  "scanCount": 11,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-14T10:02:49.243Z",
+  "lastScan": "2026-05-14T11:59:44.686Z",
   "lastReport": "2026-05-14T08:32:32.855Z",
   "marketRegime": "BULL",
   "fearGreed": 34,
   "totalStats": {
-    "trades": 0,
-    "wins": 0,
+    "trades": 1,
+    "wins": 1,
     "losses": 0,
-    "totalPnl": 0,
-    "invested": 0
+    "totalPnl": 6.930437031290393,
+    "invested": 100
   },
-  "byStrategy": {},
-  "byRegime": {},
-  "btcDominance": 58.2
+  "byStrategy": {
+    "sR": {
+      "trades": 1,
+      "wins": 1,
+      "pnl": 6.930437031290393
+    }
+  },
+  "byRegime": {
+    "BULL": {
+      "sR": {
+        "trades": 1,
+        "wins": 1,
+        "pnl": 6.930437031290393
+      }
+    }
+  },
+  "btcDominance": 58.1
 }
