@@ -86,23 +86,6 @@
       "peakPnl": 0
     },
     {
-      "id": "DOT_sR_1778705461322",
-      "symbol": "DOT",
-      "name": "Polkadot",
-      "coinId": "polkadot",
-      "rank": 41,
-      "stratId": "sR",
-      "entryPrice": 1.332,
-      "entryTime": 1778705461322,
-      "entryDate": "2026-05-13T20:51:01.322Z",
-      "entrySignal": "Ротация #41 DOT: BTC Dom=58.2% · Коррекция -7.4% · RSI=57",
-      "strength": 61,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 5.630630630630627
-    },
-    {
       "id": "AAVE_sR_1778705468537",
       "symbol": "AAVE",
       "name": "Aave",
@@ -275,6 +258,29 @@
   ],
   "closedTrades": [
     {
+      "id": "DOT_sR_1778705461322",
+      "symbol": "DOT",
+      "name": "Polkadot",
+      "coinId": "polkadot",
+      "rank": 41,
+      "stratId": "sR",
+      "entryPrice": 1.332,
+      "entryTime": 1778705461322,
+      "entryDate": "2026-05-13T20:51:01.322Z",
+      "entrySignal": "Ротация #41 DOT: BTC Dom=58.2% · Коррекция -7.4% · RSI=57",
+      "strength": 61,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 6.156156156156144,
+      "exitPrice": 1.414,
+      "exitTime": 1778787635548,
+      "exitReason": "Возврат к 7d max $1.4380",
+      "pnl": 6.156156156156144,
+      "pnlUsd": 6.156156156156144,
+      "total": 106.15615615615614
+    },
+    {
       "id": "HYPE_sR_1778705448332",
       "symbol": "HYPE",
       "name": "Hyperliquid",
@@ -341,34 +347,34 @@
     "HBAR_sR": 1778752941540,
     "CC_sE": 1778759953489
   },
-  "scanCount": 15,
+  "scanCount": 16,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-14T18:13:49.238Z",
-  "lastReport": "2026-05-14T13:58:30.275Z",
+  "lastScan": "2026-05-14T19:41:13.853Z",
+  "lastReport": "2026-05-14T19:41:13.853Z",
   "marketRegime": "BULL",
   "fearGreed": 34,
   "totalStats": {
-    "trades": 2,
-    "wins": 2,
+    "trades": 3,
+    "wins": 3,
     "losses": 0,
-    "totalPnl": 20.0650327324163,
-    "invested": 200
+    "totalPnl": 26.221188888572442,
+    "invested": 300
   },
   "byStrategy": {
     "sR": {
-      "trades": 2,
-      "wins": 2,
-      "pnl": 20.0650327324163
+      "trades": 3,
+      "wins": 3,
+      "pnl": 26.221188888572442
     }
   },
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 2,
-        "wins": 2,
-        "pnl": 20.0650327324163
+        "trades": 3,
+        "wins": 3,
+        "pnl": 26.221188888572442
       }
     }
   },
-  "btcDominance": 58.4
+  "btcDominance": 58.3
 }
