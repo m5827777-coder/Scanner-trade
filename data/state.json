@@ -335,10 +335,10 @@
     "HBAR_sR": 1778752941540,
     "CC_sE": 1778759953489
   },
-  "scanCount": 11,
+  "scanCount": 12,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-14T11:59:44.686Z",
-  "lastReport": "2026-05-14T08:32:32.855Z",
+  "lastScan": "2026-05-14T13:58:30.275Z",
+  "lastReport": "2026-05-14T13:58:30.275Z",
   "marketRegime": "BULL",
   "fearGreed": 34,
   "totalStats": {
@@ -364,5 +364,5 @@
       }
     }
   },
-  "btcDominance": 58.1
+  "btcDominance": 58.2
 }
