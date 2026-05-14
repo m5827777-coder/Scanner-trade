@@ -292,10 +292,10 @@
     "ARB_sR": 1778705967332,
     "AVAX_sR": 1778710455158
   },
-  "scanCount": 5,
+  "scanCount": 6,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-14T01:28:32.482Z",
-  "lastReport": "2026-05-13T20:51:09.459Z",
+  "lastScan": "2026-05-14T02:41:07.689Z",
+  "lastReport": "2026-05-14T02:41:07.689Z",
   "marketRegime": "BULL",
   "fearGreed": 34,
   "totalStats": {
@@ -307,5 +307,5 @@
   },
   "byStrategy": {},
   "byRegime": {},
-  "btcDominance": 58.1
+  "btcDominance": 58.2
 }
