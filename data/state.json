@@ -292,12 +292,12 @@
     "ARB_sR": 1778705967332,
     "AVAX_sR": 1778710455158
   },
-  "scanCount": 4,
+  "scanCount": 5,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-13T23:32:27.899Z",
+  "lastScan": "2026-05-14T01:28:32.482Z",
   "lastReport": "2026-05-13T20:51:09.459Z",
   "marketRegime": "BULL",
-  "fearGreed": 42,
+  "fearGreed": 34,
   "totalStats": {
     "trades": 0,
     "wins": 0,
