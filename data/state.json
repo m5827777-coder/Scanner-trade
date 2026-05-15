@@ -120,23 +120,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ENA_sR_1778705960212",
-      "symbol": "ENA",
-      "name": "Ethena",
-      "coinId": "ethena",
-      "rank": 66,
-      "stratId": "sR",
-      "entryPrice": 0.11721,
-      "entryTime": 1778705960212,
-      "entryDate": "2026-05-13T20:59:20.212Z",
-      "entrySignal": "Ротация #66 ENA: BTC Dom=58.2% · Коррекция -16.4% · RSI=57",
-      "strength": 72,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 5.392031396638518
-    },
-    {
       "id": "ALGO_sR_1778705961170",
       "symbol": "ALGO",
       "name": "Algorand",
@@ -271,9 +254,100 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "LINK_sR_1778862188741",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "coinId": "chainlink",
+      "rank": 18,
+      "stratId": "sR",
+      "entryPrice": 10.058,
+      "entryTime": 1778862188741,
+      "entryDate": "2026-05-15T16:23:08.741Z",
+      "entrySignal": "Ротация #18 LINK: BTC Dom=58.3% · Коррекция -7.5% · RSI=56",
+      "strength": 66,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "DOT_sR_1778862198562",
+      "symbol": "DOT",
+      "name": "Polkadot",
+      "coinId": "polkadot",
+      "rank": 41,
+      "stratId": "sR",
+      "entryPrice": 1.312,
+      "entryTime": 1778862198562,
+      "entryDate": "2026-05-15T16:23:18.562Z",
+      "entrySignal": "Ротация #41 DOT: BTC Dom=58.3% · Коррекция -8.8% · RSI=53",
+      "strength": 65,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "NEAR_sR_1778862201360",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 45,
+      "stratId": "sR",
+      "entryPrice": 1.533,
+      "entryTime": 1778862201360,
+      "entryDate": "2026-05-15T16:23:21.360Z",
+      "entrySignal": "Ротация #45 NEAR: BTC Dom=58.3% · Коррекция -9.3% · RSI=60",
+      "strength": 62,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "ATOM_sR_1778862211471",
+      "symbol": "ATOM",
+      "name": "Cosmos Hub",
+      "coinId": "cosmos",
+      "rank": 71,
+      "stratId": "sR",
+      "entryPrice": 1.95,
+      "entryTime": 1778862211471,
+      "entryDate": "2026-05-15T16:23:31.471Z",
+      "entrySignal": "Ротация #71 ATOM: BTC Dom=58.3% · Коррекция -12.7% · RSI=54",
+      "strength": 70,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "ENA_sR_1778705960212",
+      "symbol": "ENA",
+      "name": "Ethena",
+      "coinId": "ethena",
+      "rank": 66,
+      "stratId": "sR",
+      "entryPrice": 0.11721,
+      "entryTime": 1778705960212,
+      "entryDate": "2026-05-13T20:59:20.212Z",
+      "entrySignal": "Ротация #66 ENA: BTC Dom=58.2% · Коррекция -16.4% · RSI=57",
+      "strength": 72,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 5.392031396638518,
+      "exitPrice": 0.11094,
+      "exitTime": 1778862177388,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.349372920399282,
+      "pnlUsd": -5.349372920399281,
+      "total": 94.65062707960072
+    },
     {
       "id": "ARB_sR_1778705967332",
       "symbol": "ARB",
@@ -397,7 +471,7 @@
     "BCH_sR": 1778705450366,
     "XLM_sR": 1778705453695,
     "UNI_sR": 1778705460108,
-    "DOT_sR": 1778705461322,
+    "DOT_sR": 1778862198562,
     "AAVE_sR": 1778705468537,
     "CC_sR": 1778705941235,
     "ETC_sR": 1778705957352,
@@ -411,34 +485,37 @@
     "CC_sE": 1778759953489,
     "FLR_sE": 1778797959970,
     "XRP_sE": 1778801425373,
-    "HYPE_sE": 1778808106087
+    "HYPE_sE": 1778808106087,
+    "LINK_sR": 1778862188742,
+    "NEAR_sR": 1778862201360,
+    "ATOM_sR": 1778862211471
   },
-  "scanCount": 29,
+  "scanCount": 30,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-15T14:40:37.333Z",
+  "lastScan": "2026-05-15T16:23:43.958Z",
   "lastReport": "2026-05-15T13:55:28.048Z",
   "marketRegime": "BULL",
   "fearGreed": 43,
   "totalStats": {
-    "trades": 5,
+    "trades": 6,
     "wins": 3,
-    "losses": 2,
-    "totalPnl": 13.592072309742033,
-    "invested": 500
+    "losses": 3,
+    "totalPnl": 8.242699389342752,
+    "invested": 600
   },
   "byStrategy": {
     "sR": {
-      "trades": 5,
+      "trades": 6,
       "wins": 3,
-      "pnl": 13.592072309742033
+      "pnl": 8.242699389342752
     }
   },
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 5,
+        "trades": 6,
         "wins": 3,
-        "pnl": 13.592072309742033
+        "pnl": 8.242699389342752
       }
     }
   },
