@@ -413,9 +413,9 @@
     "XRP_sE": 1778801425373,
     "HYPE_sE": 1778808106087
   },
-  "scanCount": 28,
+  "scanCount": 29,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-15T13:55:28.048Z",
+  "lastScan": "2026-05-15T14:40:37.333Z",
   "lastReport": "2026-05-15T13:55:28.048Z",
   "marketRegime": "BULL",
   "fearGreed": 43,
@@ -442,5 +442,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.3
 }
