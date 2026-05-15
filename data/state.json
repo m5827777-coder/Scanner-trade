@@ -120,23 +120,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ALGO_sR_1778705961170",
-      "symbol": "ALGO",
-      "name": "Algorand",
-      "coinId": "algorand",
-      "rank": 67,
-      "stratId": "sR",
-      "entryPrice": 0.1186,
-      "entryTime": 1778705961170,
-      "entryDate": "2026-05-13T20:59:21.170Z",
-      "entrySignal": "Ротация #67 ALGO: BTC Dom=58.2% · Коррекция -13.5% · RSI=51",
-      "strength": 73,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "RENDER_sR_1778705963968",
       "symbol": "RENDER",
       "name": "Render",
@@ -326,6 +309,29 @@
   ],
   "closedTrades": [
     {
+      "id": "ALGO_sR_1778705961170",
+      "symbol": "ALGO",
+      "name": "Algorand",
+      "coinId": "algorand",
+      "rank": 67,
+      "stratId": "sR",
+      "entryPrice": 0.1186,
+      "entryTime": 1778705961170,
+      "entryDate": "2026-05-13T20:59:21.170Z",
+      "entrySignal": "Ротация #67 ALGO: BTC Dom=58.2% · Коррекция -13.5% · RSI=51",
+      "strength": 73,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.11253,
+      "exitTime": 1778877486946,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.118043844856655,
+      "pnlUsd": -5.118043844856655,
+      "total": 94.88195615514334
+    },
+    {
       "id": "ENA_sR_1778705960212",
       "symbol": "ENA",
       "name": "Ethena",
@@ -490,34 +496,34 @@
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1778862211471
   },
-  "scanCount": 32,
+  "scanCount": 33,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-15T19:24:59.919Z",
+  "lastScan": "2026-05-15T20:38:51.557Z",
   "lastReport": "2026-05-15T19:24:59.919Z",
   "marketRegime": "BULL",
   "fearGreed": 43,
   "totalStats": {
-    "trades": 6,
+    "trades": 7,
     "wins": 3,
-    "losses": 3,
-    "totalPnl": 8.242699389342752,
-    "invested": 600
+    "losses": 4,
+    "totalPnl": 3.124655544486097,
+    "invested": 700
   },
   "byStrategy": {
     "sR": {
-      "trades": 6,
+      "trades": 7,
       "wins": 3,
-      "pnl": 8.242699389342752
+      "pnl": 3.124655544486097
     }
   },
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 6,
+        "trades": 7,
         "wins": 3,
-        "pnl": 8.242699389342752
+        "pnl": 3.124655544486097
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.3
 }
