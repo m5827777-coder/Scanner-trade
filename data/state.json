@@ -496,9 +496,9 @@
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1778862211471
   },
-  "scanCount": 34,
+  "scanCount": 35,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-15T21:39:30.043Z",
+  "lastScan": "2026-05-15T22:35:51.161Z",
   "lastReport": "2026-05-15T19:24:59.919Z",
   "marketRegime": "BULL",
   "fearGreed": 43,
@@ -525,5 +525,5 @@
       }
     }
   },
-  "btcDominance": 58.3
+  "btcDominance": 58.2
 }
