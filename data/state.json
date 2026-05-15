@@ -171,40 +171,6 @@
       "peakPnl": 0
     },
     {
-      "id": "APT_sR_1778705965848",
-      "symbol": "APT",
-      "name": "Aptos",
-      "coinId": "aptos",
-      "rank": 79,
-      "stratId": "sR",
-      "entryPrice": 1.0502,
-      "entryTime": 1778705965848,
-      "entryDate": "2026-05-13T20:59:25.848Z",
-      "entrySignal": "Ротация #79 APT: BTC Dom=58.2% · Коррекция -15.3% · RSI=58",
-      "strength": 71,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "ARB_sR_1778705967332",
-      "symbol": "ARB",
-      "name": "Arbitrum",
-      "coinId": "arbitrum",
-      "rank": 81,
-      "stratId": "sR",
-      "entryPrice": 0.13285,
-      "entryTime": 1778705967332,
-      "entryDate": "2026-05-13T20:59:27.332Z",
-      "entrySignal": "Ротация #81 ARB: BTC Dom=58.2% · Коррекция -11.2% · RSI=59",
-      "strength": 65,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "AVAX_sR_1778710455158",
       "symbol": "AVAX",
       "name": "Avalanche",
@@ -309,6 +275,52 @@
   ],
   "closedTrades": [
     {
+      "id": "ARB_sR_1778705967332",
+      "symbol": "ARB",
+      "name": "Arbitrum",
+      "coinId": "arbitrum",
+      "rank": 81,
+      "stratId": "sR",
+      "entryPrice": 0.13285,
+      "entryTime": 1778705967332,
+      "entryDate": "2026-05-13T20:59:27.332Z",
+      "entrySignal": "Ротация #81 ARB: BTC Dom=58.2% · Коррекция -11.2% · RSI=59",
+      "strength": 65,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.12432,
+      "exitTime": 1778853283964,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -6.420775310500562,
+      "pnlUsd": -6.420775310500562,
+      "total": 93.57922468949944
+    },
+    {
+      "id": "APT_sR_1778705965848",
+      "symbol": "APT",
+      "name": "Aptos",
+      "coinId": "aptos",
+      "rank": 79,
+      "stratId": "sR",
+      "entryPrice": 1.0502,
+      "entryTime": 1778705965848,
+      "entryDate": "2026-05-13T20:59:25.848Z",
+      "entrySignal": "Ротация #79 APT: BTC Dom=58.2% · Коррекция -15.3% · RSI=58",
+      "strength": 71,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.985,
+      "exitTime": 1778853282769,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -6.208341268329845,
+      "pnlUsd": -6.208341268329845,
+      "total": 93.79165873167015
+    },
+    {
       "id": "DOT_sR_1778705461322",
       "symbol": "DOT",
       "name": "Polkadot",
@@ -401,34 +413,34 @@
     "XRP_sE": 1778801425373,
     "HYPE_sE": 1778808106087
   },
-  "scanCount": 27,
+  "scanCount": 28,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-15T12:19:58.558Z",
-  "lastReport": "2026-05-15T08:44:19.405Z",
+  "lastScan": "2026-05-15T13:55:28.048Z",
+  "lastReport": "2026-05-15T13:55:28.048Z",
   "marketRegime": "BULL",
   "fearGreed": 43,
   "totalStats": {
-    "trades": 3,
+    "trades": 5,
     "wins": 3,
-    "losses": 0,
-    "totalPnl": 26.221188888572442,
-    "invested": 300
+    "losses": 2,
+    "totalPnl": 13.592072309742033,
+    "invested": 500
   },
   "byStrategy": {
     "sR": {
-      "trades": 3,
+      "trades": 5,
       "wins": 3,
-      "pnl": 26.221188888572442
+      "pnl": 13.592072309742033
     }
   },
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 3,
+        "trades": 5,
         "wins": 3,
-        "pnl": 26.221188888572442
+        "pnl": 13.592072309742033
       }
     }
   },
-  "btcDominance": 58.4
+  "btcDominance": 58.2
 }
