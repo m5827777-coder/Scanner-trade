@@ -339,6 +339,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "DOGE_sR_1778918233834",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "coinId": "dogecoin",
+      "rank": 10,
+      "stratId": "sR",
+      "entryPrice": 0.10995,
+      "entryTime": 1778918233834,
+      "entryDate": "2026-05-16T07:57:13.834Z",
+      "entrySignal": "Ротация #10 DOGE: BTC Dom=58.3% · Коррекция -7.3% · RSI=59",
+      "strength": 68,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -578,13 +595,14 @@
     "FIGR_HELOC_sE": 1778894270401,
     "XMR_sR": 1778894276001,
     "ETH_sR": 1778914991008,
-    "LTC_sR": 1778915000494
+    "LTC_sR": 1778915000494,
+    "DOGE_sR": 1778918233834
   },
-  "scanCount": 40,
+  "scanCount": 41,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-16T07:03:48.945Z",
-  "lastReport": "2026-05-16T02:31:20.424Z",
-  "marketRegime": "BULL",
+  "lastScan": "2026-05-16T07:57:49.495Z",
+  "lastReport": "2026-05-16T07:57:49.495Z",
+  "marketRegime": "NEUTRAL",
   "fearGreed": 31,
   "totalStats": {
     "trades": 9,
