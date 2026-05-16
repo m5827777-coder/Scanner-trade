@@ -254,6 +254,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XRP_sR_1778930179826",
+      "symbol": "XRP",
+      "name": "XRP",
+      "coinId": "ripple",
+      "rank": 5,
+      "stratId": "sR",
+      "entryPrice": 1.408,
+      "entryTime": 1778930179826,
+      "entryDate": "2026-05-16T11:16:19.826Z",
+      "entrySignal": "Ротация #5 XRP: BTC Dom=58.3% · Коррекция -9.2% · RSI=51",
+      "strength": 75,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -632,11 +649,12 @@
     "XMR_sR": 1778894276001,
     "ETH_sR": 1778914991008,
     "LTC_sR": 1778915000494,
-    "DOGE_sR": 1778918233834
+    "DOGE_sR": 1778918233834,
+    "XRP_sR": 1778930179826
   },
-  "scanCount": 43,
+  "scanCount": 44,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-16T10:09:16.983Z",
+  "lastScan": "2026-05-16T11:16:56.787Z",
   "lastReport": "2026-05-16T07:57:49.495Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
@@ -685,5 +703,5 @@
       }
     }
   },
-  "btcDominance": 58.4
+  "btcDominance": 58.3
 }
