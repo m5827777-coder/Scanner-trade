@@ -532,10 +532,10 @@
     "FIGR_HELOC_sE": 1778894270401,
     "XMR_sR": 1778894276001
   },
-  "scanCount": 37,
+  "scanCount": 38,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-16T01:18:25.359Z",
-  "lastReport": "2026-05-15T19:24:59.919Z",
+  "lastScan": "2026-05-16T02:31:20.424Z",
+  "lastReport": "2026-05-16T02:31:20.424Z",
   "marketRegime": "BULL",
   "fearGreed": 31,
   "totalStats": {
@@ -561,5 +561,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.3
 }
