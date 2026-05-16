@@ -305,6 +305,40 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "FIGR_HELOC_sE_1778894270401",
+      "symbol": "FIGR_HELOC",
+      "name": "Figure Heloc",
+      "coinId": "figure-heloc",
+      "rank": 9,
+      "stratId": "sE",
+      "entryPrice": 1.0310738,
+      "entryTime": 1778894270401,
+      "entryDate": "2026-05-16T01:17:50.401Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=1.0283 > EMA21=1.0282 · RSI=51 · Vol x2.2",
+      "strength": 82,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
+    },
+    {
+      "id": "XMR_sR_1778894276001",
+      "symbol": "XMR",
+      "name": "Monero",
+      "coinId": "monero",
+      "rank": 19,
+      "stratId": "sR",
+      "entryPrice": 381.61804130004987,
+      "entryTime": 1778894276001,
+      "entryDate": "2026-05-16T01:17:56.001Z",
+      "entrySignal": "Ротация #19 XMR: BTC Dom=58.2% · Коррекция -9.1% · RSI=48",
+      "strength": 73,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -494,14 +528,16 @@
     "HYPE_sE": 1778808106087,
     "LINK_sR": 1778862188742,
     "NEAR_sR": 1778862201360,
-    "ATOM_sR": 1778862211471
+    "ATOM_sR": 1778862211471,
+    "FIGR_HELOC_sE": 1778894270401,
+    "XMR_sR": 1778894276001
   },
-  "scanCount": 36,
+  "scanCount": 37,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-15T23:32:35.193Z",
+  "lastScan": "2026-05-16T01:18:25.359Z",
   "lastReport": "2026-05-15T19:24:59.919Z",
   "marketRegime": "BULL",
-  "fearGreed": 43,
+  "fearGreed": 31,
   "totalStats": {
     "trades": 7,
     "wins": 3,
