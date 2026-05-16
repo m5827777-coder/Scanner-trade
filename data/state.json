@@ -737,10 +737,10 @@
     "DOGE_sR": 1778918233834,
     "XRP_sR": 1778930179826
   },
-  "scanCount": 52,
+  "scanCount": 53,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-16T18:36:23.335Z",
-  "lastReport": "2026-05-16T13:12:08.565Z",
+  "lastScan": "2026-05-16T18:58:22.167Z",
+  "lastReport": "2026-05-16T18:58:22.166Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
   "totalStats": {
