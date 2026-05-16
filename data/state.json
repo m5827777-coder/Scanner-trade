@@ -86,23 +86,6 @@
       "peakPnl": 0
     },
     {
-      "id": "AAVE_sR_1778705468537",
-      "symbol": "AAVE",
-      "name": "Aave",
-      "coinId": "aave",
-      "rank": 58,
-      "stratId": "sR",
-      "entryPrice": 96.12,
-      "entryTime": 1778705468537,
-      "entryDate": "2026-05-13T20:51:08.537Z",
-      "entrySignal": "Ротация #58 AAVE: BTC Dom=58.2% · Коррекция -7.1% · RSI=53",
-      "strength": 64,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ETC_sR_1778705957352",
       "symbol": "ETC",
       "name": "Ethereum Classic",
@@ -322,9 +305,66 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "ETH_sR_1778914991008",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "coinId": "ethereum",
+      "rank": 2,
+      "stratId": "sR",
+      "entryPrice": 2213.27,
+      "entryTime": 1778914991008,
+      "entryDate": "2026-05-16T07:03:11.008Z",
+      "entrySignal": "Ротация #2 ETH: BTC Dom=58.3% · Коррекция -7.1% · RSI=45",
+      "strength": 76,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "LTC_sR_1778915000494",
+      "symbol": "LTC",
+      "name": "Litecoin",
+      "coinId": "litecoin",
+      "rank": 25,
+      "stratId": "sR",
+      "entryPrice": 56.32,
+      "entryTime": 1778915000494,
+      "entryDate": "2026-05-16T07:03:20.494Z",
+      "entrySignal": "Ротация #25 LTC: BTC Dom=58.3% · Коррекция -7.0% · RSI=50",
+      "strength": 65,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "AAVE_sR_1778705468537",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "coinId": "aave",
+      "rank": 58,
+      "stratId": "sR",
+      "entryPrice": 96.12,
+      "entryTime": 1778705468537,
+      "entryDate": "2026-05-13T20:51:08.537Z",
+      "entrySignal": "Ротация #58 AAVE: BTC Dom=58.2% · Коррекция -7.1% · RSI=53",
+      "strength": 64,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 89.89,
+      "exitTime": 1778914986507,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -6.481481481481485,
+      "pnlUsd": -6.4814814814814845,
+      "total": 93.51851851851852
+    },
     {
       "id": "HYPE_sE_1778808106087",
       "symbol": "HYPE",
@@ -536,26 +576,28 @@
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1778862211471,
     "FIGR_HELOC_sE": 1778894270401,
-    "XMR_sR": 1778894276001
+    "XMR_sR": 1778894276001,
+    "ETH_sR": 1778914991008,
+    "LTC_sR": 1778915000494
   },
-  "scanCount": 39,
+  "scanCount": 40,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-16T04:41:54.436Z",
+  "lastScan": "2026-05-16T07:03:48.945Z",
   "lastReport": "2026-05-16T02:31:20.424Z",
   "marketRegime": "BULL",
   "fearGreed": 31,
   "totalStats": {
-    "trades": 8,
+    "trades": 9,
     "wins": 3,
-    "losses": 5,
-    "totalPnl": -3.0209017388534365,
-    "invested": 800
+    "losses": 6,
+    "totalPnl": -9.50238322033492,
+    "invested": 900
   },
   "byStrategy": {
     "sR": {
-      "trades": 7,
+      "trades": 8,
       "wins": 3,
-      "pnl": 3.124655544486097
+      "pnl": -3.3568259369953877
     },
     "sE": {
       "trades": 1,
@@ -566,9 +608,9 @@
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 7,
+        "trades": 8,
         "wins": 3,
-        "pnl": 3.124655544486097
+        "pnl": -3.3568259369953877
       },
       "sE": {
         "trades": 1,
