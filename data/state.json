@@ -222,23 +222,6 @@
       "peakPnl": 0
     },
     {
-      "id": "HYPE_sE_1778808106087",
-      "symbol": "HYPE",
-      "name": "Hyperliquid",
-      "coinId": "hyperliquid",
-      "rank": 13,
-      "stratId": "sE",
-      "entryPrice": 45.659,
-      "entryTime": 1778808106087,
-      "entryDate": "2026-05-15T01:21:46.087Z",
-      "entrySignal": "Golden Cross вчера · EMA9=42.4264 > EMA21=41.9742 · RSI=62 · Vol x1.1",
-      "strength": 78,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "LINK_sR_1778862188741",
       "symbol": "LINK",
       "name": "Chainlink",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "HYPE_sE_1778808106087",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 13,
+      "stratId": "sE",
+      "entryPrice": 45.659,
+      "entryTime": 1778808106087,
+      "entryDate": "2026-05-15T01:21:46.087Z",
+      "entrySignal": "Golden Cross вчера · EMA9=42.4264 > EMA21=41.9742 · RSI=62 · Vol x1.1",
+      "strength": 78,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 42.853,
+      "exitTime": 1778906477152,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.145557283339533,
+      "pnlUsd": -6.145557283339533,
+      "total": 93.85444271666047
+    },
     {
       "id": "ALGO_sR_1778705961170",
       "symbol": "ALGO",
@@ -532,24 +538,29 @@
     "FIGR_HELOC_sE": 1778894270401,
     "XMR_sR": 1778894276001
   },
-  "scanCount": 38,
+  "scanCount": 39,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-16T02:31:20.424Z",
+  "lastScan": "2026-05-16T04:41:54.436Z",
   "lastReport": "2026-05-16T02:31:20.424Z",
   "marketRegime": "BULL",
   "fearGreed": 31,
   "totalStats": {
-    "trades": 7,
+    "trades": 8,
     "wins": 3,
-    "losses": 4,
-    "totalPnl": 3.124655544486097,
-    "invested": 700
+    "losses": 5,
+    "totalPnl": -3.0209017388534365,
+    "invested": 800
   },
   "byStrategy": {
     "sR": {
       "trades": 7,
       "wins": 3,
       "pnl": 3.124655544486097
+    },
+    "sE": {
+      "trades": 1,
+      "wins": 0,
+      "pnl": -6.145557283339533
     }
   },
   "byRegime": {
@@ -558,6 +569,11 @@
         "trades": 7,
         "wins": 3,
         "pnl": 3.124655544486097
+      },
+      "sE": {
+        "trades": 1,
+        "wins": 0,
+        "pnl": -6.145557283339533
       }
     }
   },
