@@ -154,23 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ATOM_sR_1778862211471",
-      "symbol": "ATOM",
-      "name": "Cosmos Hub",
-      "coinId": "cosmos",
-      "rank": 71,
-      "stratId": "sR",
-      "entryPrice": 1.95,
-      "entryTime": 1778862211471,
-      "entryDate": "2026-05-15T16:23:31.471Z",
-      "entrySignal": "Ротация #71 ATOM: BTC Dom=58.3% · Коррекция -12.7% · RSI=54",
-      "strength": 70,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 8.820512820512818
-    },
-    {
       "id": "FIGR_HELOC_sE_1778894270401",
       "symbol": "FIGR_HELOC",
       "name": "Figure Heloc",
@@ -338,7 +321,7 @@
       "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.7128152341739655
+      "peakPnl": 5.889272847584751
     },
     {
       "id": "CC_sR_1778949428196",
@@ -393,6 +376,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ATOM_sR_1778862211471",
+      "symbol": "ATOM",
+      "name": "Cosmos Hub",
+      "coinId": "cosmos",
+      "rank": 71,
+      "stratId": "sR",
+      "entryPrice": 1.95,
+      "entryTime": 1778862211471,
+      "entryDate": "2026-05-15T16:23:31.471Z",
+      "entrySignal": "Ротация #71 ATOM: BTC Dom=58.3% · Коррекция -12.7% · RSI=54",
+      "strength": 70,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 8.820512820512818,
+      "exitPrice": 2.065,
+      "exitTime": 1779023306947,
+      "exitReason": "📉 Trailing stop: пик +8.8% → откат до +5.9%",
+      "pnl": 5.897435897435897,
+      "pnlUsd": 5.897435897435897,
+      "total": 105.8974358974359
+    },
     {
       "id": "XRP_sE_1778801425373",
       "symbol": "XRP",
@@ -771,24 +777,24 @@
     "DOGE_sR": 1778918233834,
     "XRP_sR": 1778930179826
   },
-  "scanCount": 67,
+  "scanCount": 68,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-17T12:37:48.044Z",
-  "lastReport": "2026-05-17T08:15:02.486Z",
+  "lastScan": "2026-05-17T13:09:08.887Z",
+  "lastReport": "2026-05-17T13:09:08.887Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "totalStats": {
-    "trades": 15,
-    "wins": 3,
+    "trades": 16,
+    "wins": 4,
     "losses": 12,
-    "totalPnl": -47.584719956946756,
-    "invested": 1500
+    "totalPnl": -41.68728405951086,
+    "invested": 1600
   },
   "byStrategy": {
     "sR": {
-      "trades": 12,
-      "wins": 3,
-      "pnl": -25.3055544410952
+      "trades": 13,
+      "wins": 4,
+      "pnl": -19.408118543659302
     },
     "sE": {
       "trades": 3,
@@ -811,9 +817,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 4,
-        "wins": 0,
-        "pnl": -21.94872850409981
+        "trades": 5,
+        "wins": 1,
+        "pnl": -16.051292606663914
       },
       "sE": {
         "trades": 2,
@@ -822,5 +828,5 @@
       }
     }
   },
-  "btcDominance": 58.3
+  "btcDominance": 58.2
 }
