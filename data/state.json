@@ -373,6 +373,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ZEC_sR_1779034352031",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 16,
+      "stratId": "sR",
+      "entryPrice": 515.08,
+      "entryTime": 1779034352031,
+      "entryDate": "2026-05-17T16:12:32.031Z",
+      "entrySignal": "Ротация #16 ZEC: BTC Dom=58.2% · Коррекция -14.2% · RSI=59",
+      "strength": 72,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -775,11 +792,12 @@
     "ETH_sR": 1778914991008,
     "LTC_sR": 1778915000494,
     "DOGE_sR": 1778918233834,
-    "XRP_sR": 1778930179826
+    "XRP_sR": 1778930179826,
+    "ZEC_sR": 1779034352031
   },
-  "scanCount": 70,
+  "scanCount": 71,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-17T15:14:49.320Z",
+  "lastScan": "2026-05-17T16:13:04.731Z",
   "lastReport": "2026-05-17T13:09:08.887Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
