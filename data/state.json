@@ -168,7 +168,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 7.128205128205129
+      "peakPnl": 8.820512820512818
     },
     {
       "id": "FIGR_HELOC_sE_1778894270401",
@@ -338,7 +338,7 @@
       "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.154032791706496
+      "peakPnl": 5.7128152341739655
     },
     {
       "id": "CC_sR_1778949428196",
@@ -353,6 +353,40 @@
       "entrySignal": "Ротация #20 CC: BTC Dom=58.3% · Коррекция -12.4% · RSI=49",
       "strength": 76,
       "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "SOL_sR_1779013117880",
+      "symbol": "SOL",
+      "name": "Solana",
+      "coinId": "solana",
+      "rank": 7,
+      "stratId": "sR",
+      "entryPrice": 87.14,
+      "entryTime": 1779013117880,
+      "entryDate": "2026-05-17T10:18:37.880Z",
+      "entrySignal": "Ротация #7 SOL: BTC Dom=58.2% · Коррекция -11.4% · RSI=48",
+      "strength": 80,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "AAVE_sR_1779013139480",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "coinId": "aave",
+      "rank": 60,
+      "stratId": "sR",
+      "entryPrice": 91.43,
+      "entryTime": 1779013139480,
+      "entryDate": "2026-05-17T10:18:59.480Z",
+      "entrySignal": "Ротация #60 AAVE: BTC Dom=58.2% · Коррекция -11.6% · RSI=45",
+      "strength": 73,
+      "regime": "BEAR",
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
@@ -706,14 +740,14 @@
     }
   ],
   "cooldowns": {
-    "SOL_sR": 1778705444054,
+    "SOL_sR": 1779013117881,
     "ADA_sR": 1778705447385,
     "HYPE_sR": 1778949423923,
     "BCH_sR": 1778946214749,
     "XLM_sR": 1778933285434,
     "UNI_sR": 1778705460108,
     "DOT_sR": 1778862198562,
-    "AAVE_sR": 1778705468537,
+    "AAVE_sR": 1779013139480,
     "CC_sR": 1778949428196,
     "ETC_sR": 1778705957352,
     "ENA_sR": 1778705960212,
@@ -737,9 +771,9 @@
     "DOGE_sR": 1778918233834,
     "XRP_sR": 1778930179826
   },
-  "scanCount": 64,
+  "scanCount": 65,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-17T08:56:29.559Z",
+  "lastScan": "2026-05-17T10:19:15.251Z",
   "lastReport": "2026-05-17T08:15:02.486Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
