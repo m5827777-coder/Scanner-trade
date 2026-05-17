@@ -321,7 +321,7 @@
       "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.889272847584751
+      "peakPnl": 7.619537779084876
     },
     {
       "id": "CC_sR_1778949428196",
@@ -777,9 +777,9 @@
     "DOGE_sR": 1778918233834,
     "XRP_sR": 1778930179826
   },
-  "scanCount": 69,
+  "scanCount": 70,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-17T14:08:21.254Z",
+  "lastScan": "2026-05-17T15:14:49.320Z",
   "lastReport": "2026-05-17T13:09:08.887Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
