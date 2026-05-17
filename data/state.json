@@ -307,23 +307,6 @@
       "peakPnl": 0
     },
     {
-      "id": "HYPE_sR_1778949423923",
-      "symbol": "HYPE",
-      "name": "Hyperliquid",
-      "coinId": "hyperliquid",
-      "rank": 13,
-      "stratId": "sR",
-      "entryPrice": 40.803,
-      "entryTime": 1778949423923,
-      "entryDate": "2026-05-16T16:37:03.923Z",
-      "entrySignal": "Ротация #13 HYPE: BTC Dom=58.3% · Коррекция -13.2% · RSI=49",
-      "strength": 77,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 11.263877656054712
-    },
-    {
       "id": "CC_sR_1778949428196",
       "symbol": "CC",
       "name": "Canton",
@@ -410,6 +393,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "HYPE_sR_1778949423923",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 13,
+      "stratId": "sR",
+      "entryPrice": 40.803,
+      "entryTime": 1778949423923,
+      "entryDate": "2026-05-16T16:37:03.923Z",
+      "entrySignal": "Ротация #13 HYPE: BTC Dom=58.3% · Коррекция -13.2% · RSI=49",
+      "strength": 77,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 12.959831384947195,
+      "exitPrice": 46.091,
+      "exitTime": 1779046465924,
+      "exitReason": "✅ TP +12%",
+      "pnl": 12.959831384947195,
+      "pnlUsd": 12.959831384947195,
+      "total": 112.9598313849472
+    },
     {
       "id": "ATOM_sR_1778862211471",
       "symbol": "ATOM",
@@ -812,24 +818,24 @@
     "XRP_sR": 1778930179826,
     "ZEC_sR": 1779034352031
   },
-  "scanCount": 74,
+  "scanCount": 75,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-17T19:01:46.101Z",
+  "lastScan": "2026-05-17T19:35:07.347Z",
   "lastReport": "2026-05-17T19:01:46.101Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "totalStats": {
-    "trades": 16,
-    "wins": 4,
+    "trades": 17,
+    "wins": 5,
     "losses": 12,
-    "totalPnl": -41.68728405951086,
-    "invested": 1600
+    "totalPnl": -28.727452674563665,
+    "invested": 1700
   },
   "byStrategy": {
     "sR": {
-      "trades": 13,
-      "wins": 4,
-      "pnl": -19.408118543659302
+      "trades": 14,
+      "wins": 5,
+      "pnl": -6.448287158712107
     },
     "sE": {
       "trades": 3,
@@ -852,9 +858,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 5,
-        "wins": 1,
-        "pnl": -16.051292606663914
+        "trades": 6,
+        "wins": 2,
+        "pnl": -3.0914612217167186
       },
       "sE": {
         "trades": 2,
