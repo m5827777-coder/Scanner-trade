@@ -321,7 +321,7 @@
       "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 7.619537779084876
+      "peakPnl": 7.778839791191823
     },
     {
       "id": "CC_sR_1778949428196",
@@ -812,9 +812,9 @@
     "XRP_sR": 1778930179826,
     "ZEC_sR": 1779034352031
   },
-  "scanCount": 72,
+  "scanCount": 73,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-17T17:14:08.738Z",
+  "lastScan": "2026-05-17T18:10:46.105Z",
   "lastReport": "2026-05-17T13:09:08.887Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
@@ -863,5 +863,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.3
 }
