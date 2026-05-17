@@ -737,9 +737,9 @@
     "DOGE_sR": 1778918233834,
     "XRP_sR": 1778930179826
   },
-  "scanCount": 61,
+  "scanCount": 62,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-17T04:13:11.384Z",
+  "lastScan": "2026-05-17T06:51:17.442Z",
   "lastReport": "2026-05-17T02:38:55.412Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
@@ -788,5 +788,5 @@
       }
     }
   },
-  "btcDominance": 58.3
+  "btcDominance": 58.2
 }
