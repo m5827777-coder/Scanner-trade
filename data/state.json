@@ -168,7 +168,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.538461538461532
+      "peakPnl": 6.615384615384627
     },
     {
       "id": "FIGR_HELOC_sE_1778894270401",
@@ -338,7 +338,7 @@
       "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.154032791706496
     },
     {
       "id": "CC_sR_1778949428196",
@@ -737,10 +737,10 @@
     "DOGE_sR": 1778918233834,
     "XRP_sR": 1778930179826
   },
-  "scanCount": 62,
+  "scanCount": 63,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-17T06:51:17.442Z",
-  "lastReport": "2026-05-17T02:38:55.412Z",
+  "lastScan": "2026-05-17T08:15:02.486Z",
+  "lastReport": "2026-05-17T08:15:02.486Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "totalStats": {
