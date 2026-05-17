@@ -372,7 +372,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 7.294012580569996
     },
     {
       "id": "ATOM_sR_1779038036426",
@@ -818,9 +818,9 @@
     "XRP_sR": 1778930179826,
     "ZEC_sR": 1779034352031
   },
-  "scanCount": 76,
+  "scanCount": 77,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-17T20:27:48.416Z",
+  "lastScan": "2026-05-17T21:25:55.603Z",
   "lastReport": "2026-05-17T19:01:46.101Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
@@ -869,5 +869,5 @@
       }
     }
   },
-  "btcDominance": 58.3
+  "btcDominance": 58.2
 }
