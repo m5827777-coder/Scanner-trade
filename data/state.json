@@ -237,6 +237,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "WBT_sR_1779119539183",
+      "symbol": "WBT",
+      "name": "WhiteBIT Coin",
+      "coinId": "whitebit",
+      "rank": 11,
+      "stratId": "sR",
+      "entryPrice": 56.31101876892469,
+      "entryTime": 1779119539183,
+      "entryDate": "2026-05-18T15:52:19.183Z",
+      "entrySignal": "Ротация #11 WBT: BTC Dom=58.2% · Коррекция -7.3% · RSI=45",
+      "strength": 73,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -941,11 +958,12 @@
     "XRP_sR": 1778930179826,
     "ZEC_sR": 1779034352031,
     "BNB_sR": 1779093283699,
-    "TRX_sE": 1779117523577
+    "TRX_sE": 1779117523577,
+    "WBT_sR": 1779119539183
   },
-  "scanCount": 86,
+  "scanCount": 87,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-18T15:19:21.693Z",
+  "lastScan": "2026-05-18T15:52:51.699Z",
   "lastReport": "2026-05-18T15:19:21.693Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
