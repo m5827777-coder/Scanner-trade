@@ -1,23 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "UNI_sR_1778705460108",
-      "symbol": "UNI",
-      "name": "Uniswap",
-      "coinId": "uniswap",
-      "rank": 40,
-      "stratId": "sR",
-      "entryPrice": 3.631,
-      "entryTime": 1778705460108,
-      "entryDate": "2026-05-13T20:51:00.108Z",
-      "entrySignal": "Ротация #40 UNI: BTC Dom=58.2% · Коррекция -12.9% · RSI=57",
-      "strength": 68,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ETC_sR_1778705957352",
       "symbol": "ETC",
       "name": "Ethereum Classic",
@@ -325,6 +308,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "UNI_sR_1778705460108",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "coinId": "uniswap",
+      "rank": 40,
+      "stratId": "sR",
+      "entryPrice": 3.631,
+      "entryTime": 1778705460108,
+      "entryDate": "2026-05-13T20:51:00.108Z",
+      "entrySignal": "Ротация #40 UNI: BTC Dom=58.2% · Коррекция -12.9% · RSI=57",
+      "strength": 68,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 3.428,
+      "exitTime": 1779079147876,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.590746350867526,
+      "pnlUsd": -5.590746350867526,
+      "total": 94.40925364913247
+    },
     {
       "id": "BCH_sR_1778946214749",
       "symbol": "BCH",
@@ -865,24 +871,24 @@
     "XRP_sR": 1778930179826,
     "ZEC_sR": 1779034352031
   },
-  "scanCount": 81,
+  "scanCount": 82,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-18T02:49:15.986Z",
+  "lastScan": "2026-05-18T04:39:52.462Z",
   "lastReport": "2026-05-18T02:49:15.986Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 22,
+    "trades": 23,
     "wins": 5,
-    "losses": 17,
-    "totalPnl": -57.51632991076963,
-    "invested": 2200
+    "losses": 18,
+    "totalPnl": -63.107076261637154,
+    "invested": 2300
   },
   "byStrategy": {
     "sR": {
-      "trades": 19,
+      "trades": 20,
       "wins": 5,
-      "pnl": -35.23716439491807
+      "pnl": -40.827910745785594
     },
     "sE": {
       "trades": 3,
@@ -905,9 +911,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 11,
+        "trades": 12,
         "wins": 2,
-        "pnl": -31.880338457922683
+        "pnl": -37.47108480879021
       },
       "sE": {
         "trades": 2,
