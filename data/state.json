@@ -1,23 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "ADA_sR_1778705447385",
-      "symbol": "ADA",
-      "name": "Cardano",
-      "coinId": "cardano",
-      "rank": 13,
-      "stratId": "sR",
-      "entryPrice": 0.2647,
-      "entryTime": 1778705447385,
-      "entryDate": "2026-05-13T20:50:47.385Z",
-      "entrySignal": "Ротация #13 ADA: BTC Dom=58.2% · Коррекция -8.3% · RSI=54",
-      "strength": 68,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "UNI_sR_1778705460108",
       "symbol": "UNI",
       "name": "Uniswap",
@@ -52,23 +35,6 @@
       "peakPnl": 0
     },
     {
-      "id": "RENDER_sR_1778705963968",
-      "symbol": "RENDER",
-      "name": "Render",
-      "coinId": "render-token",
-      "rank": 74,
-      "stratId": "sR",
-      "entryPrice": 1.872,
-      "entryTime": 1778705963968,
-      "entryDate": "2026-05-13T20:59:23.968Z",
-      "entrySignal": "Ротация #74 RENDER: BTC Dom=58.2% · Коррекция -10.2% · RSI=51",
-      "strength": 69,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "HBAR_sR_1778752941540",
       "symbol": "HBAR",
       "name": "Hedera",
@@ -98,40 +64,6 @@
       "entrySignal": "Golden Cross 6д назад · EMA9=0.0086 > EMA21=0.0082 · RSI=80 · Vol x1.1",
       "strength": 73,
       "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "LINK_sR_1778862188741",
-      "symbol": "LINK",
-      "name": "Chainlink",
-      "coinId": "chainlink",
-      "rank": 18,
-      "stratId": "sR",
-      "entryPrice": 10.058,
-      "entryTime": 1778862188741,
-      "entryDate": "2026-05-15T16:23:08.741Z",
-      "entrySignal": "Ротация #18 LINK: BTC Dom=58.3% · Коррекция -7.5% · RSI=56",
-      "strength": 66,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "DOT_sR_1778862198562",
-      "symbol": "DOT",
-      "name": "Polkadot",
-      "coinId": "polkadot",
-      "rank": 41,
-      "stratId": "sR",
-      "entryPrice": 1.312,
-      "entryTime": 1778862198562,
-      "entryDate": "2026-05-15T16:23:18.562Z",
-      "entrySignal": "Ротация #41 DOT: BTC Dom=58.3% · Коррекция -8.8% · RSI=53",
-      "strength": 65,
-      "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
@@ -393,6 +325,98 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "DOT_sR_1778862198562",
+      "symbol": "DOT",
+      "name": "Polkadot",
+      "coinId": "polkadot",
+      "rank": 41,
+      "stratId": "sR",
+      "entryPrice": 1.312,
+      "entryTime": 1778862198562,
+      "entryDate": "2026-05-15T16:23:18.562Z",
+      "entrySignal": "Ротация #41 DOT: BTC Dom=58.3% · Коррекция -8.8% · RSI=53",
+      "strength": 65,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.242,
+      "exitTime": 1779062937253,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.3353658536585415,
+      "pnlUsd": -5.3353658536585415,
+      "total": 94.66463414634146
+    },
+    {
+      "id": "LINK_sR_1778862188741",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "coinId": "chainlink",
+      "rank": 18,
+      "stratId": "sR",
+      "entryPrice": 10.058,
+      "entryTime": 1778862188741,
+      "entryDate": "2026-05-15T16:23:08.741Z",
+      "entrySignal": "Ротация #18 LINK: BTC Dom=58.3% · Коррекция -7.5% · RSI=56",
+      "strength": 66,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 9.487,
+      "exitTime": 1779062936467,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.677072976734935,
+      "pnlUsd": -5.677072976734935,
+      "total": 94.32292702326507
+    },
+    {
+      "id": "RENDER_sR_1778705963968",
+      "symbol": "RENDER",
+      "name": "Render",
+      "coinId": "render-token",
+      "rank": 74,
+      "stratId": "sR",
+      "entryPrice": 1.872,
+      "entryTime": 1778705963968,
+      "entryDate": "2026-05-13T20:59:23.968Z",
+      "entrySignal": "Ротация #74 RENDER: BTC Dom=58.2% · Коррекция -10.2% · RSI=51",
+      "strength": 69,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.774,
+      "exitTime": 1779062935249,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.2350427350427395,
+      "pnlUsd": -5.235042735042739,
+      "total": 94.76495726495726
+    },
+    {
+      "id": "ADA_sR_1778705447385",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 13,
+      "stratId": "sR",
+      "entryPrice": 0.2647,
+      "entryTime": 1778705447385,
+      "entryDate": "2026-05-13T20:50:47.385Z",
+      "entrySignal": "Ротация #13 ADA: BTC Dom=58.2% · Коррекция -8.3% · RSI=54",
+      "strength": 68,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.2508,
+      "exitTime": 1779062933804,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.251227805062323,
+      "pnlUsd": -5.251227805062323,
+      "total": 94.74877219493767
+    },
     {
       "id": "HYPE_sR_1778949423923",
       "symbol": "HYPE",
@@ -818,24 +842,24 @@
     "XRP_sR": 1778930179826,
     "ZEC_sR": 1779034352031
   },
-  "scanCount": 79,
+  "scanCount": 80,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-17T23:10:56.884Z",
+  "lastScan": "2026-05-18T00:09:40.341Z",
   "lastReport": "2026-05-17T19:01:46.101Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 27,
+  "fearGreed": 28,
   "totalStats": {
-    "trades": 17,
+    "trades": 21,
     "wins": 5,
-    "losses": 12,
-    "totalPnl": -28.727452674563665,
-    "invested": 1700
+    "losses": 16,
+    "totalPnl": -50.2261620450622,
+    "invested": 2100
   },
   "byStrategy": {
     "sR": {
-      "trades": 14,
+      "trades": 18,
       "wins": 5,
-      "pnl": -6.448287158712107
+      "pnl": -27.946996529210644
     },
     "sE": {
       "trades": 3,
@@ -858,9 +882,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 6,
+        "trades": 10,
         "wins": 2,
-        "pnl": -3.0914612217167186
+        "pnl": -24.590170592215255
       },
       "sE": {
         "trades": 2,
@@ -869,5 +893,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.3
 }
