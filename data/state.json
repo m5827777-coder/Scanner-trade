@@ -168,7 +168,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 7.294012580569996
+      "peakPnl": 8.043410732313417
     },
     {
       "id": "ATOM_sR_1779038036426",
@@ -1114,10 +1114,10 @@
     "TRX_sE": 1779117523577,
     "WBT_sR": 1779119539183
   },
-  "scanCount": 89,
+  "scanCount": 90,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-18T19:18:29.277Z",
-  "lastReport": "2026-05-18T15:19:21.693Z",
+  "lastScan": "2026-05-18T19:40:22.255Z",
+  "lastReport": "2026-05-18T19:40:22.255Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
