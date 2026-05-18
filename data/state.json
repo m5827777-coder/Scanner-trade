@@ -390,6 +390,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "RENDER_sR_1779131899188",
+      "symbol": "RENDER",
+      "name": "Render",
+      "coinId": "render-token",
+      "rank": 76,
+      "stratId": "sR",
+      "entryPrice": 1.769,
+      "entryTime": 1779131899188,
+      "entryDate": "2026-05-18T19:18:19.188Z",
+      "entrySignal": "Ротация #76 RENDER: BTC Dom=58.2% · Коррекция -11.0% · RSI=41",
+      "strength": 75,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -1074,7 +1091,7 @@
     "ETC_sR": 1779126582063,
     "ENA_sR": 1778705960212,
     "ALGO_sR": 1778705961170,
-    "RENDER_sR": 1778705963968,
+    "RENDER_sR": 1779131899188,
     "APT_sR": 1778705965848,
     "ARB_sR": 1778705967332,
     "AVAX_sR": 1778943064629,
@@ -1097,9 +1114,9 @@
     "TRX_sE": 1779117523577,
     "WBT_sR": 1779119539183
   },
-  "scanCount": 88,
+  "scanCount": 89,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-18T17:49:43.149Z",
+  "lastScan": "2026-05-18T19:18:29.277Z",
   "lastReport": "2026-05-18T15:19:21.693Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
