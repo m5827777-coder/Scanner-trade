@@ -137,23 +137,6 @@
       "peakPnl": 0
     },
     {
-      "id": "DOGE_sR_1778918233834",
-      "symbol": "DOGE",
-      "name": "Dogecoin",
-      "coinId": "dogecoin",
-      "rank": 10,
-      "stratId": "sR",
-      "entryPrice": 0.10995,
-      "entryTime": 1778918233834,
-      "entryDate": "2026-05-16T07:57:13.834Z",
-      "entrySignal": "Ротация #10 DOGE: BTC Dom=58.3% · Коррекция -7.3% · RSI=59",
-      "strength": 68,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "XRP_sR_1778930179826",
       "symbol": "XRP",
       "name": "XRP",
@@ -305,9 +288,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "BNB_sR_1779093283699",
+      "symbol": "BNB",
+      "name": "BNB",
+      "coinId": "binancecoin",
+      "rank": 4,
+      "stratId": "sR",
+      "entryPrice": 639.8,
+      "entryTime": 1779093283699,
+      "entryDate": "2026-05-18T08:34:43.699Z",
+      "entrySignal": "Ротация #4 BNB: BTC Dom=58.3% · Коррекция -7.3% · RSI=49",
+      "strength": 74,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "DOGE_sR_1778918233834",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "coinId": "dogecoin",
+      "rank": 10,
+      "stratId": "sR",
+      "entryPrice": 0.10995,
+      "entryTime": 1778918233834,
+      "entryDate": "2026-05-16T07:57:13.834Z",
+      "entrySignal": "Ротация #10 DOGE: BTC Dom=58.3% · Коррекция -7.3% · RSI=59",
+      "strength": 68,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.10431,
+      "exitTime": 1779093279545,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.129604365620742,
+      "pnlUsd": -5.129604365620741,
+      "total": 94.87039563437926
+    },
     {
       "id": "UNI_sR_1778705460108",
       "symbol": "UNI",
@@ -869,26 +892,27 @@
     "LTC_sR": 1778915000494,
     "DOGE_sR": 1778918233834,
     "XRP_sR": 1778930179826,
-    "ZEC_sR": 1779034352031
+    "ZEC_sR": 1779034352031,
+    "BNB_sR": 1779093283699
   },
-  "scanCount": 82,
+  "scanCount": 83,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-18T04:39:52.462Z",
+  "lastScan": "2026-05-18T08:35:22.159Z",
   "lastReport": "2026-05-18T02:49:15.986Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 23,
+    "trades": 24,
     "wins": 5,
-    "losses": 18,
-    "totalPnl": -63.107076261637154,
-    "invested": 2300
+    "losses": 19,
+    "totalPnl": -68.2366806272579,
+    "invested": 2400
   },
   "byStrategy": {
     "sR": {
-      "trades": 20,
+      "trades": 21,
       "wins": 5,
-      "pnl": -40.827910745785594
+      "pnl": -45.95751511140634
     },
     "sE": {
       "trades": 3,
@@ -911,9 +935,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 12,
+        "trades": 13,
         "wins": 2,
-        "pnl": -37.47108480879021
+        "pnl": -42.60068917441095
       },
       "sE": {
         "trades": 2,
@@ -922,5 +946,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.3
 }
