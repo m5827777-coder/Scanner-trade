@@ -1,23 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "ETC_sR_1778705957352",
-      "symbol": "ETC",
-      "name": "Ethereum Classic",
-      "coinId": "ethereum-classic",
-      "rank": 60,
-      "stratId": "sR",
-      "entryPrice": 9.243,
-      "entryTime": 1778705957352,
-      "entryDate": "2026-05-13T20:59:17.352Z",
-      "entrySignal": "Ротация #60 ETC: BTC Dom=58.2% · Коррекция -8.3% · RSI=56",
-      "strength": 63,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "HBAR_sR_1778752941540",
       "symbol": "HBAR",
       "name": "Hedera",
@@ -308,6 +291,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ETC_sR_1778705957352",
+      "symbol": "ETC",
+      "name": "Ethereum Classic",
+      "coinId": "ethereum-classic",
+      "rank": 60,
+      "stratId": "sR",
+      "entryPrice": 9.243,
+      "entryTime": 1778705957352,
+      "entryDate": "2026-05-13T20:59:17.352Z",
+      "entrySignal": "Ротация #60 ETC: BTC Dom=58.2% · Коррекция -8.3% · RSI=56",
+      "strength": 63,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 8.745,
+      "exitTime": 1779097925841,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.387861084063628,
+      "pnlUsd": -5.387861084063628,
+      "total": 94.61213891593637
+    },
     {
       "id": "DOGE_sR_1778918233834",
       "symbol": "DOGE",
@@ -895,24 +901,24 @@
     "ZEC_sR": 1779034352031,
     "BNB_sR": 1779093283699
   },
-  "scanCount": 83,
+  "scanCount": 84,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-18T08:35:22.159Z",
-  "lastReport": "2026-05-18T02:49:15.986Z",
+  "lastScan": "2026-05-18T09:52:49.868Z",
+  "lastReport": "2026-05-18T09:52:49.868Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 24,
+    "trades": 25,
     "wins": 5,
-    "losses": 19,
-    "totalPnl": -68.2366806272579,
-    "invested": 2400
+    "losses": 20,
+    "totalPnl": -73.62454171132153,
+    "invested": 2500
   },
   "byStrategy": {
     "sR": {
-      "trades": 21,
+      "trades": 22,
       "wins": 5,
-      "pnl": -45.95751511140634
+      "pnl": -51.34537619546997
     },
     "sE": {
       "trades": 3,
@@ -935,9 +941,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 13,
+        "trades": 14,
         "wins": 2,
-        "pnl": -42.60068917441095
+        "pnl": -47.98855025847458
       },
       "sE": {
         "trades": 2,
