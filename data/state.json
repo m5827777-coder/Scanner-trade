@@ -222,23 +222,6 @@
       "peakPnl": 0
     },
     {
-      "id": "BCH_sR_1778946214749",
-      "symbol": "BCH",
-      "name": "Bitcoin Cash",
-      "coinId": "bitcoin-cash",
-      "rank": 17,
-      "stratId": "sR",
-      "entryPrice": 417,
-      "entryTime": 1778946214749,
-      "entryDate": "2026-05-16T15:43:34.749Z",
-      "entrySignal": "Ротация #17 BCH: BTC Dom=58.3% · Коррекция -10.4% · RSI=36",
-      "strength": 81,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "CC_sR_1778949428196",
       "symbol": "CC",
       "name": "Canton",
@@ -322,9 +305,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "HYPE_sE_1779072524993",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 13,
+      "stratId": "sE",
+      "entryPrice": 45.977,
+      "entryTime": 1779072524993,
+      "entryDate": "2026-05-18T02:48:44.993Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=42.9819 > EMA21=42.3346 · RSI=60 · Vol x1.0",
+      "strength": 73,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "BCH_sR_1778946214749",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
+      "coinId": "bitcoin-cash",
+      "rank": 17,
+      "stratId": "sR",
+      "entryPrice": 417,
+      "entryTime": 1778946214749,
+      "entryDate": "2026-05-16T15:43:34.749Z",
+      "entrySignal": "Ротация #17 BCH: BTC Dom=58.3% · Коррекция -10.4% · RSI=36",
+      "strength": 81,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 386.6,
+      "exitTime": 1779072518514,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -7.290167865707428,
+      "pnlUsd": -7.290167865707428,
+      "total": 92.70983213429257
+    },
     {
       "id": "DOT_sR_1778862198562",
       "symbol": "DOT",
@@ -830,7 +853,7 @@
     "CC_sE": 1778759953489,
     "FLR_sE": 1778797959970,
     "XRP_sE": 1778801425373,
-    "HYPE_sE": 1778808106087,
+    "HYPE_sE": 1779072524993,
     "LINK_sR": 1778862188742,
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1779038036426,
@@ -842,24 +865,24 @@
     "XRP_sR": 1778930179826,
     "ZEC_sR": 1779034352031
   },
-  "scanCount": 80,
+  "scanCount": 81,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-18T00:09:40.341Z",
-  "lastReport": "2026-05-17T19:01:46.101Z",
+  "lastScan": "2026-05-18T02:49:15.986Z",
+  "lastReport": "2026-05-18T02:49:15.986Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 21,
+    "trades": 22,
     "wins": 5,
-    "losses": 16,
-    "totalPnl": -50.2261620450622,
-    "invested": 2100
+    "losses": 17,
+    "totalPnl": -57.51632991076963,
+    "invested": 2200
   },
   "byStrategy": {
     "sR": {
-      "trades": 18,
+      "trades": 19,
       "wins": 5,
-      "pnl": -27.946996529210644
+      "pnl": -35.23716439491807
     },
     "sE": {
       "trades": 3,
@@ -882,9 +905,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 10,
+        "trades": 11,
         "wins": 2,
-        "pnl": -24.590170592215255
+        "pnl": -31.880338457922683
       },
       "sE": {
         "trades": 2,
@@ -893,5 +916,5 @@
       }
     }
   },
-  "btcDominance": 58.3
+  "btcDominance": 58.2
 }
