@@ -18,23 +18,6 @@
       "peakPnl": 0
     },
     {
-      "id": "FLR_sE_1778797959970",
-      "symbol": "FLR",
-      "name": "Flare",
-      "coinId": "flare-networks",
-      "rank": 83,
-      "stratId": "sE",
-      "entryPrice": 0.009336,
-      "entryTime": 1778797959970,
-      "entryDate": "2026-05-14T22:32:39.970Z",
-      "entrySignal": "Golden Cross 6д назад · EMA9=0.0086 > EMA21=0.0082 · RSI=80 · Vol x1.1",
-      "strength": 73,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "NEAR_sR_1778862201360",
       "symbol": "NEAR",
       "name": "NEAR Protocol",
@@ -52,23 +35,6 @@
       "peakPnl": 0
     },
     {
-      "id": "FIGR_HELOC_sE_1778894270401",
-      "symbol": "FIGR_HELOC",
-      "name": "Figure Heloc",
-      "coinId": "figure-heloc",
-      "rank": 9,
-      "stratId": "sE",
-      "entryPrice": 1.0310738,
-      "entryTime": 1778894270401,
-      "entryDate": "2026-05-16T01:17:50.401Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=1.0283 > EMA21=1.0282 · RSI=51 · Vol x2.2",
-      "strength": 82,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "XMR_sR_1778894276001",
       "symbol": "XMR",
       "name": "Monero",
@@ -83,40 +49,6 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
-      "id": "ETH_sR_1778914991008",
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "coinId": "ethereum",
-      "rank": 2,
-      "stratId": "sR",
-      "entryPrice": 2213.27,
-      "entryTime": 1778914991008,
-      "entryDate": "2026-05-16T07:03:11.008Z",
-      "entrySignal": "Ротация #2 ETH: BTC Dom=58.3% · Коррекция -7.1% · RSI=45",
-      "strength": 76,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "LTC_sR_1778915000494",
-      "symbol": "LTC",
-      "name": "Litecoin",
-      "coinId": "litecoin",
-      "rank": 25,
-      "stratId": "sR",
-      "entryPrice": 56.32,
-      "entryTime": 1778915000494,
-      "entryDate": "2026-05-16T07:03:20.494Z",
-      "entrySignal": "Ротация #25 LTC: BTC Dom=58.3% · Коррекция -7.0% · RSI=50",
-      "strength": 65,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
       "peakPnl": 0
     },
     {
@@ -288,9 +220,118 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "TRX_sE_1779117523577",
+      "symbol": "TRX",
+      "name": "TRON",
+      "coinId": "tron",
+      "rank": 8,
+      "stratId": "sE",
+      "entryPrice": 0.35465,
+      "entryTime": 1779117523577,
+      "entryDate": "2026-05-18T15:18:43.577Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.3520 > EMA21=0.3454 · RSI=69 · Vol x1.1",
+      "strength": 63,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "LTC_sR_1778915000494",
+      "symbol": "LTC",
+      "name": "Litecoin",
+      "coinId": "litecoin",
+      "rank": 25,
+      "stratId": "sR",
+      "entryPrice": 56.32,
+      "entryTime": 1778915000494,
+      "entryDate": "2026-05-16T07:03:20.494Z",
+      "entrySignal": "Ротация #25 LTC: BTC Dom=58.3% · Коррекция -7.0% · RSI=50",
+      "strength": 65,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 53.4,
+      "exitTime": 1779117517564,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.1846590909090935,
+      "pnlUsd": -5.1846590909090935,
+      "total": 94.8153409090909
+    },
+    {
+      "id": "ETH_sR_1778914991008",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "coinId": "ethereum",
+      "rank": 2,
+      "stratId": "sR",
+      "entryPrice": 2213.27,
+      "entryTime": 1778914991008,
+      "entryDate": "2026-05-16T07:03:11.008Z",
+      "entrySignal": "Ротация #2 ETH: BTC Dom=58.3% · Коррекция -7.1% · RSI=45",
+      "strength": 76,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2099.46,
+      "exitTime": 1779117516810,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.14216521255879,
+      "pnlUsd": -5.14216521255879,
+      "total": 94.8578347874412
+    },
+    {
+      "id": "FIGR_HELOC_sE_1778894270401",
+      "symbol": "FIGR_HELOC",
+      "name": "Figure Heloc",
+      "coinId": "figure-heloc",
+      "rank": 9,
+      "stratId": "sE",
+      "entryPrice": 1.0310738,
+      "entryTime": 1778894270401,
+      "entryDate": "2026-05-16T01:17:50.401Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=1.0283 > EMA21=1.0282 · RSI=51 · Vol x2.2",
+      "strength": 82,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 1.0141674,
+      "exitTime": 1779117515745,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -1.639688643043774,
+      "pnlUsd": -1.639688643043774,
+      "total": 98.36031135695623
+    },
+    {
+      "id": "FLR_sE_1778797959970",
+      "symbol": "FLR",
+      "name": "Flare",
+      "coinId": "flare-networks",
+      "rank": 83,
+      "stratId": "sE",
+      "entryPrice": 0.009336,
+      "entryTime": 1778797959970,
+      "entryDate": "2026-05-14T22:32:39.970Z",
+      "entrySignal": "Golden Cross 6д назад · EMA9=0.0086 > EMA21=0.0082 · RSI=80 · Vol x1.1",
+      "strength": 73,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.008588,
+      "exitTime": 1779117514412,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -8.011996572407886,
+      "pnlUsd": -8.011996572407886,
+      "total": 91.98800342759212
+    },
     {
       "id": "ETC_sR_1778705957352",
       "symbol": "ETC",
@@ -899,31 +940,32 @@
     "DOGE_sR": 1778918233834,
     "XRP_sR": 1778930179826,
     "ZEC_sR": 1779034352031,
-    "BNB_sR": 1779093283699
+    "BNB_sR": 1779093283699,
+    "TRX_sE": 1779117523577
   },
-  "scanCount": 85,
+  "scanCount": 86,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-18T12:03:12.263Z",
-  "lastReport": "2026-05-18T09:52:49.868Z",
+  "lastScan": "2026-05-18T15:19:21.693Z",
+  "lastReport": "2026-05-18T15:19:21.693Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 25,
+    "trades": 29,
     "wins": 5,
-    "losses": 20,
-    "totalPnl": -73.62454171132153,
-    "invested": 2500
+    "losses": 24,
+    "totalPnl": -93.60305123024106,
+    "invested": 2900
   },
   "byStrategy": {
     "sR": {
-      "trades": 22,
+      "trades": 24,
       "wins": 5,
-      "pnl": -51.34537619546997
+      "pnl": -61.672200498937855
     },
     "sE": {
-      "trades": 3,
+      "trades": 5,
       "wins": 0,
-      "pnl": -22.279165515851556
+      "pnl": -31.930850731303213
     }
   },
   "byRegime": {
@@ -941,16 +983,16 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 14,
+        "trades": 16,
         "wins": 2,
-        "pnl": -47.98855025847458
+        "pnl": -58.31537456194246
       },
       "sE": {
-        "trades": 2,
+        "trades": 4,
         "wins": 0,
-        "pnl": -16.133608232512024
+        "pnl": -25.785293447963685
       }
     }
   },
-  "btcDominance": 58.3
+  "btcDominance": 58.2
 }
