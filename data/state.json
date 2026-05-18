@@ -32,7 +32,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.2837573385518715
+      "peakPnl": 6.066536203522503
     },
     {
       "id": "XMR_sR_1778894276001",
@@ -1132,9 +1132,9 @@
     "WBT_sR": 1779119539183,
     "ONDO_sR": 1779141257801
   },
-  "scanCount": 93,
+  "scanCount": 94,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-18T22:46:18.158Z",
+  "lastScan": "2026-05-18T23:48:32.331Z",
   "lastReport": "2026-05-18T19:40:22.255Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
