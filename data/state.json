@@ -32,7 +32,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.022831050228323
     },
     {
       "id": "XMR_sR_1778894276001",
@@ -168,7 +168,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 8.043410732313417
+      "peakPnl": 8.99277782092101
     },
     {
       "id": "ATOM_sR_1779038036426",
@@ -404,6 +404,23 @@
       "entrySignal": "Ротация #76 RENDER: BTC Dom=58.2% · Коррекция -11.0% · RSI=41",
       "strength": 75,
       "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "ONDO_sR_1779141257801",
+      "symbol": "ONDO",
+      "name": "Ondo",
+      "coinId": "ondo-finance",
+      "rank": 47,
+      "stratId": "sR",
+      "entryPrice": 0.379,
+      "entryTime": 1779141257801,
+      "entryDate": "2026-05-18T21:54:17.801Z",
+      "entrySignal": "Ротация #47 ONDO: BTC Dom=58.1% · Коррекция -15.3% · RSI=59",
+      "strength": 70,
+      "regime": "BULL",
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
@@ -1112,11 +1129,12 @@
     "ZEC_sR": 1779034352031,
     "BNB_sR": 1779093283699,
     "TRX_sE": 1779117523577,
-    "WBT_sR": 1779119539183
+    "WBT_sR": 1779119539183,
+    "ONDO_sR": 1779141257801
   },
-  "scanCount": 91,
+  "scanCount": 92,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-18T20:49:05.983Z",
+  "lastScan": "2026-05-18T21:54:37.392Z",
   "lastReport": "2026-05-18T19:40:22.255Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
@@ -1165,5 +1183,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.1
 }
