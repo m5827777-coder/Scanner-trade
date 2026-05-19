@@ -168,7 +168,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 9.35000388289197
+      "peakPnl": 11.13613419274676
     },
     {
       "id": "ATOM_sR_1779038036426",
@@ -1132,12 +1132,12 @@
     "WBT_sR": 1779119539183,
     "ONDO_sR": 1779141257801
   },
-  "scanCount": 94,
+  "scanCount": 95,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-18T23:48:32.331Z",
-  "lastReport": "2026-05-18T19:40:22.255Z",
+  "lastScan": "2026-05-19T01:51:04.980Z",
+  "lastReport": "2026-05-19T01:51:04.980Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 28,
+  "fearGreed": 25,
   "totalStats": {
     "trades": 29,
     "wins": 5,
@@ -1183,5 +1183,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.1
 }
