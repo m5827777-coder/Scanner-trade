@@ -154,23 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ZEC_sR_1779034352031",
-      "symbol": "ZEC",
-      "name": "Zcash",
-      "coinId": "zcash",
-      "rank": 16,
-      "stratId": "sR",
-      "entryPrice": 515.08,
-      "entryTime": 1779034352031,
-      "entryDate": "2026-05-17T16:12:32.031Z",
-      "entrySignal": "Ротация #16 ZEC: BTC Dom=58.2% · Коррекция -14.2% · RSI=59",
-      "strength": 72,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 11.13613419274676
-    },
-    {
       "id": "ATOM_sR_1779038036426",
       "symbol": "ATOM",
       "name": "Cosmos Hub",
@@ -427,6 +410,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ZEC_sR_1779034352031",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 16,
+      "stratId": "sR",
+      "entryPrice": 515.08,
+      "entryTime": 1779034352031,
+      "entryDate": "2026-05-17T16:12:32.031Z",
+      "entrySignal": "Ротация #16 ZEC: BTC Dom=58.2% · Коррекция -14.2% · RSI=59",
+      "strength": 72,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 11.13613419274676,
+      "exitPrice": 560.86,
+      "exitTime": 1779183234073,
+      "exitReason": "📉 Trailing stop: пик +11.1% → откат до +8.9%",
+      "pnl": 8.887939737516497,
+      "pnlUsd": 8.887939737516497,
+      "total": 108.88793973751649
+    },
     {
       "id": "LTC_sR_1778915000494",
       "symbol": "LTC",
@@ -1132,24 +1138,24 @@
     "WBT_sR": 1779119539183,
     "ONDO_sR": 1779141257801
   },
-  "scanCount": 98,
+  "scanCount": 99,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-19T08:52:42.158Z",
-  "lastReport": "2026-05-19T08:52:42.158Z",
+  "lastScan": "2026-05-19T09:34:35.347Z",
+  "lastReport": "2026-05-19T09:34:35.347Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 29,
-    "wins": 5,
+    "trades": 30,
+    "wins": 6,
     "losses": 24,
-    "totalPnl": -93.60305123024106,
-    "invested": 2900
+    "totalPnl": -84.71511149272456,
+    "invested": 3000
   },
   "byStrategy": {
     "sR": {
-      "trades": 24,
-      "wins": 5,
-      "pnl": -61.672200498937855
+      "trades": 25,
+      "wins": 6,
+      "pnl": -52.78426076142136
     },
     "sE": {
       "trades": 5,
@@ -1172,9 +1178,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 16,
-        "wins": 2,
-        "pnl": -58.31537456194246
+        "trades": 17,
+        "wins": 3,
+        "pnl": -49.427434824425966
       },
       "sE": {
         "trades": 4,
