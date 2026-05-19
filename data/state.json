@@ -52,23 +52,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XLM_sR_1778933285434",
-      "symbol": "XLM",
-      "name": "Stellar",
-      "coinId": "stellar",
-      "rank": 22,
-      "stratId": "sR",
-      "entryPrice": 0.15182,
-      "entryTime": 1778933285434,
-      "entryDate": "2026-05-16T12:08:05.434Z",
-      "entrySignal": "Ротация #22 XLM: BTC Dom=58.3% · Коррекция -12.7% · RSI=40",
-      "strength": 78,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "AVAX_sR_1778943064629",
       "symbol": "AVAX",
       "name": "Avalanche",
@@ -407,9 +390,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "BTC_sR_1779202157518",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "coinId": "bitcoin",
+      "rank": 1,
+      "stratId": "sR",
+      "entryPrice": 76246.6,
+      "entryTime": 1779202157518,
+      "entryDate": "2026-05-19T14:49:17.518Z",
+      "entrySignal": "Ротация #1 BTC: BTC Dom=58.1% · Коррекция -7.2% · RSI=44",
+      "strength": 77,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "XLM_sR_1778933285434",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 22,
+      "stratId": "sR",
+      "entryPrice": 0.15182,
+      "entryTime": 1778933285434,
+      "entryDate": "2026-05-16T12:08:05.434Z",
+      "entrySignal": "Ротация #22 XLM: BTC Dom=58.3% · Коррекция -12.7% · RSI=40",
+      "strength": 78,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.14421,
+      "exitTime": 1779202151533,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.0125148201817975,
+      "pnlUsd": -5.0125148201817975,
+      "total": 94.98748517981821
+    },
     {
       "id": "NEAR_sR_1778862201360",
       "symbol": "NEAR",
@@ -1159,26 +1182,27 @@
     "BNB_sR": 1779093283699,
     "TRX_sE": 1779117523577,
     "WBT_sR": 1779119539183,
-    "ONDO_sR": 1779141257801
+    "ONDO_sR": 1779141257801,
+    "BTC_sR": 1779202157518
   },
-  "scanCount": 101,
+  "scanCount": 102,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-19T14:21:05.294Z",
-  "lastReport": "2026-05-19T09:34:35.347Z",
+  "lastScan": "2026-05-19T14:49:57.452Z",
+  "lastReport": "2026-05-19T14:49:57.452Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 31,
+    "trades": 32,
     "wins": 7,
-    "losses": 24,
-    "totalPnl": -79.69228044249624,
-    "invested": 3100
+    "losses": 25,
+    "totalPnl": -84.70479526267803,
+    "invested": 3200
   },
   "byStrategy": {
     "sR": {
-      "trades": 26,
+      "trades": 27,
       "wins": 7,
-      "pnl": -47.76142971119303
+      "pnl": -52.77394453137483
     },
     "sE": {
       "trades": 5,
@@ -1201,9 +1225,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 18,
+        "trades": 19,
         "wins": 4,
-        "pnl": -44.40460377419764
+        "pnl": -49.41711859437944
       },
       "sE": {
         "trades": 4,
@@ -1212,5 +1236,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.1
 }
