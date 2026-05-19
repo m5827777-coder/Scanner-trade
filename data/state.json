@@ -18,23 +18,6 @@
       "peakPnl": 0
     },
     {
-      "id": "NEAR_sR_1778862201360",
-      "symbol": "NEAR",
-      "name": "NEAR Protocol",
-      "coinId": "near",
-      "rank": 45,
-      "stratId": "sR",
-      "entryPrice": 1.533,
-      "entryTime": 1778862201360,
-      "entryDate": "2026-05-15T16:23:21.360Z",
-      "entrySignal": "Ротация #45 NEAR: BTC Dom=58.3% · Коррекция -9.3% · RSI=60",
-      "strength": 62,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 7.371167645140248
-    },
-    {
       "id": "XMR_sR_1778894276001",
       "symbol": "XMR",
       "name": "Monero",
@@ -407,9 +390,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 5.145118733509239
+    },
+    {
+      "id": "ALGO_sR_1779200452029",
+      "symbol": "ALGO",
+      "name": "Algorand",
+      "coinId": "algorand",
+      "rank": 71,
+      "stratId": "sR",
+      "entryPrice": 0.11266,
+      "entryTime": 1779200452029,
+      "entryDate": "2026-05-19T14:20:52.029Z",
+      "entrySignal": "Ротация #71 ALGO: BTC Dom=58.2% · Коррекция -11.6% · RSI=47",
+      "strength": 73,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "NEAR_sR_1778862201360",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 45,
+      "stratId": "sR",
+      "entryPrice": 1.533,
+      "entryTime": 1778862201360,
+      "entryDate": "2026-05-15T16:23:21.360Z",
+      "entrySignal": "Ротация #45 NEAR: BTC Dom=58.3% · Коррекция -9.3% · RSI=60",
+      "strength": 62,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 7.371167645140248,
+      "exitPrice": 1.61,
+      "exitTime": 1779200417418,
+      "exitReason": "📉 Trailing stop: пик +7.4% → откат до +5.0%",
+      "pnl": 5.022831050228323,
+      "pnlUsd": 5.022831050228323,
+      "total": 105.02283105022832
+    },
     {
       "id": "ZEC_sR_1779034352031",
       "symbol": "ZEC",
@@ -1113,7 +1136,7 @@
     "CC_sR": 1778949428196,
     "ETC_sR": 1779126582063,
     "ENA_sR": 1778705960212,
-    "ALGO_sR": 1778705961170,
+    "ALGO_sR": 1779200452029,
     "RENDER_sR": 1779131899188,
     "APT_sR": 1778705965848,
     "ARB_sR": 1778705967332,
@@ -1138,24 +1161,24 @@
     "WBT_sR": 1779119539183,
     "ONDO_sR": 1779141257801
   },
-  "scanCount": 100,
+  "scanCount": 101,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-19T11:50:33.540Z",
+  "lastScan": "2026-05-19T14:21:05.294Z",
   "lastReport": "2026-05-19T09:34:35.347Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 30,
-    "wins": 6,
+    "trades": 31,
+    "wins": 7,
     "losses": 24,
-    "totalPnl": -84.71511149272456,
-    "invested": 3000
+    "totalPnl": -79.69228044249624,
+    "invested": 3100
   },
   "byStrategy": {
     "sR": {
-      "trades": 25,
-      "wins": 6,
-      "pnl": -52.78426076142136
+      "trades": 26,
+      "wins": 7,
+      "pnl": -47.76142971119303
     },
     "sE": {
       "trades": 5,
@@ -1178,9 +1201,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 17,
-        "wins": 3,
-        "pnl": -49.427434824425966
+        "trades": 18,
+        "wins": 4,
+        "pnl": -44.40460377419764
       },
       "sE": {
         "trades": 4,
