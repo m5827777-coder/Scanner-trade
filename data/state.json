@@ -423,7 +423,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.145118733509239
     }
   ],
   "closedTrades": [
@@ -1132,9 +1132,9 @@
     "WBT_sR": 1779119539183,
     "ONDO_sR": 1779141257801
   },
-  "scanCount": 96,
+  "scanCount": 97,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-19T02:46:19.599Z",
+  "lastScan": "2026-05-19T05:53:47.551Z",
   "lastReport": "2026-05-19T02:46:19.599Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
