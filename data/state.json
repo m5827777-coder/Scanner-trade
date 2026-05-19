@@ -1220,10 +1220,10 @@
     "BTC_sR": 1779202157518,
     "TON_sR": 1779211293509
   },
-  "scanCount": 104,
+  "scanCount": 105,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-19T19:22:04.496Z",
-  "lastReport": "2026-05-19T14:49:57.452Z",
+  "lastScan": "2026-05-19T19:47:38.331Z",
+  "lastReport": "2026-05-19T19:47:38.330Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
@@ -1271,5 +1271,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.3
 }
