@@ -151,7 +151,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 6.103051525762892
     },
     {
       "id": "BNB_sR_1779093283699",
@@ -403,6 +403,40 @@
       "entryDate": "2026-05-19T14:49:17.518Z",
       "entrySignal": "Ротация #1 BTC: BTC Dom=58.1% · Коррекция -7.2% · RSI=44",
       "strength": 77,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "TON_sR_1779211293509",
+      "symbol": "TON",
+      "name": "Toncoin",
+      "coinId": "the-open-network",
+      "rank": 21,
+      "stratId": "sR",
+      "entryPrice": 2.029,
+      "entryTime": 1779211293509,
+      "entryDate": "2026-05-19T17:21:33.509Z",
+      "entrySignal": "Ротация #21 TON: BTC Dom=58.2% · Коррекция -13.8% · RSI=57",
+      "strength": 69,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "XLM_sR_1779211294888",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 22,
+      "stratId": "sR",
+      "entryPrice": 0.14584,
+      "entryTime": 1779211294888,
+      "entryDate": "2026-05-19T17:21:34.888Z",
+      "entrySignal": "Ротация #22 XLM: BTC Dom=58.2% · Коррекция -13.5% · RSI=37",
+      "strength": 80,
       "regime": "BEAR",
       "size": 100,
       "src": "OKX",
@@ -1152,7 +1186,7 @@
     "ADA_sR": 1779126563661,
     "HYPE_sR": 1778949423923,
     "BCH_sR": 1778946214749,
-    "XLM_sR": 1778933285434,
+    "XLM_sR": 1779211294888,
     "UNI_sR": 1779126573909,
     "DOT_sR": 1779126575456,
     "AAVE_sR": 1779013139480,
@@ -1183,11 +1217,12 @@
     "TRX_sE": 1779117523577,
     "WBT_sR": 1779119539183,
     "ONDO_sR": 1779141257801,
-    "BTC_sR": 1779202157518
+    "BTC_sR": 1779202157518,
+    "TON_sR": 1779211293509
   },
-  "scanCount": 102,
+  "scanCount": 103,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-19T14:49:57.452Z",
+  "lastScan": "2026-05-19T17:22:05.101Z",
   "lastReport": "2026-05-19T14:49:57.452Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
@@ -1236,5 +1271,5 @@
       }
     }
   },
-  "btcDominance": 58.1
+  "btcDominance": 58.2
 }
