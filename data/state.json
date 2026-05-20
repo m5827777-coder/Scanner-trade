@@ -407,6 +407,57 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "AAVE_sR_1779255526612",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "coinId": "aave",
+      "rank": 60,
+      "stratId": "sR",
+      "entryPrice": 87.98,
+      "entryTime": 1779255526612,
+      "entryDate": "2026-05-20T05:38:46.612Z",
+      "entrySignal": "Ротация #60 AAVE: BTC Dom=58.3% · Коррекция -13.1% · RSI=42",
+      "strength": 77,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "ENA_sR_1779255532132",
+      "symbol": "ENA",
+      "name": "Ethena",
+      "coinId": "ethena",
+      "rank": 75,
+      "stratId": "sR",
+      "entryPrice": 0.10584,
+      "entryTime": 1779255532132,
+      "entryDate": "2026-05-20T05:38:52.132Z",
+      "entrySignal": "Ротация #75 ENA: BTC Dom=58.3% · Коррекция -15.8% · RSI=46",
+      "strength": 78,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "FIL_sR_1779255535985",
+      "symbol": "FIL",
+      "name": "Filecoin",
+      "coinId": "filecoin",
+      "rank": 83,
+      "stratId": "sR",
+      "entryPrice": 0.9581,
+      "entryTime": 1779255535985,
+      "entryDate": "2026-05-20T05:38:55.985Z",
+      "entrySignal": "Ротация #83 FIL: BTC Dom=58.3% · Коррекция -14.0% · RSI=46",
+      "strength": 76,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -1201,10 +1252,10 @@
     "XLM_sR": 1779211294888,
     "UNI_sR": 1779126573909,
     "DOT_sR": 1779126575456,
-    "AAVE_sR": 1779013139480,
+    "AAVE_sR": 1779255526612,
     "CC_sR": 1778949428196,
     "ETC_sR": 1779126582063,
-    "ENA_sR": 1778705960212,
+    "ENA_sR": 1779255532132,
     "ALGO_sR": 1779200452029,
     "RENDER_sR": 1779131899188,
     "APT_sR": 1778705965848,
@@ -1230,11 +1281,12 @@
     "WBT_sR": 1779119539183,
     "ONDO_sR": 1779141257801,
     "BTC_sR": 1779202157518,
-    "TON_sR": 1779211293509
+    "TON_sR": 1779211293509,
+    "FIL_sR": 1779255535985
   },
-  "scanCount": 110,
+  "scanCount": 111,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-20T02:47:01.054Z",
+  "lastScan": "2026-05-20T05:39:03.950Z",
   "lastReport": "2026-05-20T02:47:01.054Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
@@ -1283,5 +1335,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.3
 }
