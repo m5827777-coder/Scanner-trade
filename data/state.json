@@ -117,7 +117,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 11.299127824781957
+      "peakPnl": 13.065228266307077
     },
     {
       "id": "BNB_sR_1779093283699",
@@ -307,23 +307,6 @@
       "peakPnl": 0
     },
     {
-      "id": "RENDER_sR_1779131899188",
-      "symbol": "RENDER",
-      "name": "Render",
-      "coinId": "render-token",
-      "rank": 76,
-      "stratId": "sR",
-      "entryPrice": 1.769,
-      "entryTime": 1779131899188,
-      "entryDate": "2026-05-18T19:18:19.188Z",
-      "entrySignal": "Ротация #76 RENDER: BTC Dom=58.2% · Коррекция -11.0% · RSI=41",
-      "strength": 75,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 7.574901074053145
-    },
-    {
       "id": "ONDO_sR_1779141257801",
       "symbol": "ONDO",
       "name": "Ondo",
@@ -474,7 +457,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.093046033300696
     },
     {
       "id": "DASH_sE_1779276850679",
@@ -495,6 +478,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "RENDER_sR_1779131899188",
+      "symbol": "RENDER",
+      "name": "Render",
+      "coinId": "render-token",
+      "rank": 76,
+      "stratId": "sR",
+      "entryPrice": 1.769,
+      "entryTime": 1779131899188,
+      "entryDate": "2026-05-18T19:18:19.188Z",
+      "entrySignal": "Ротация #76 RENDER: BTC Dom=58.2% · Коррекция -11.0% · RSI=41",
+      "strength": 75,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 9.157716223855294,
+      "exitPrice": 1.931,
+      "exitTime": 1779297926502,
+      "exitReason": "Возврат к 7d max $1.9490",
+      "pnl": 9.157716223855294,
+      "pnlUsd": 9.157716223855294,
+      "total": 109.15771622385529
+    },
     {
       "id": "AAVE_sR_1779013139480",
       "symbol": "AAVE",
@@ -1320,24 +1326,24 @@
     "JUP_sR": 1779266568664,
     "DASH_sE": 1779276850679
   },
-  "scanCount": 116,
+  "scanCount": 117,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-20T14:50:58.571Z",
+  "lastScan": "2026-05-20T17:26:10.868Z",
   "lastReport": "2026-05-20T14:50:58.571Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "totalStats": {
-    "trades": 34,
-    "wins": 8,
+    "trades": 35,
+    "wins": 9,
     "losses": 26,
-    "totalPnl": -85.13331365970994,
-    "invested": 3400
+    "totalPnl": -75.97559743585465,
+    "invested": 3500
   },
   "byStrategy": {
     "sR": {
-      "trades": 29,
-      "wins": 8,
-      "pnl": -53.202462928406746
+      "trades": 30,
+      "wins": 9,
+      "pnl": -44.04474670455145
     },
     "sE": {
       "trades": 5,
@@ -1360,9 +1366,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 21,
-        "wins": 5,
-        "pnl": -49.845636991411354
+        "trades": 22,
+        "wins": 6,
+        "pnl": -40.68792076755606
       },
       "sE": {
         "trades": 4,
