@@ -18,23 +18,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XMR_sR_1778894276001",
-      "symbol": "XMR",
-      "name": "Monero",
-      "coinId": "monero",
-      "rank": 19,
-      "stratId": "sR",
-      "entryPrice": 381.61804130004987,
-      "entryTime": 1778894276001,
-      "entryDate": "2026-05-16T01:17:56.001Z",
-      "entrySignal": "Ротация #19 XMR: BTC Dom=58.2% · Коррекция -9.1% · RSI=48",
-      "strength": 73,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "XRP_sR_1778930179826",
       "symbol": "XRP",
       "name": "XRP",
@@ -444,6 +427,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "XMR_sR_1778894276001",
+      "symbol": "XMR",
+      "name": "Monero",
+      "coinId": "monero",
+      "rank": 19,
+      "stratId": "sR",
+      "entryPrice": 381.61804130004987,
+      "entryTime": 1778894276001,
+      "entryDate": "2026-05-16T01:17:56.001Z",
+      "entrySignal": "Ротация #19 XMR: BTC Dom=58.2% · Коррекция -9.1% · RSI=48",
+      "strength": 73,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 399.2243343129166,
+      "exitTime": 1779240401407,
+      "exitReason": "Возврат к 7d max $403.0405",
+      "pnl": 4.613590320019398,
+      "pnlUsd": 4.613590320019398,
+      "total": 104.6135903200194
+    },
     {
       "id": "XLM_sR_1778933285434",
       "symbol": "XLM",
@@ -1220,24 +1226,24 @@
     "BTC_sR": 1779202157518,
     "TON_sR": 1779211293509
   },
-  "scanCount": 108,
+  "scanCount": 109,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-19T23:18:41.812Z",
+  "lastScan": "2026-05-20T01:27:25.365Z",
   "lastReport": "2026-05-19T19:47:38.330Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 25,
+  "fearGreed": 27,
   "totalStats": {
-    "trades": 32,
-    "wins": 7,
+    "trades": 33,
+    "wins": 8,
     "losses": 25,
-    "totalPnl": -84.70479526267803,
-    "invested": 3200
+    "totalPnl": -80.09120494265863,
+    "invested": 3300
   },
   "byStrategy": {
     "sR": {
-      "trades": 27,
-      "wins": 7,
-      "pnl": -52.77394453137483
+      "trades": 28,
+      "wins": 8,
+      "pnl": -48.16035421135543
     },
     "sE": {
       "trades": 5,
@@ -1260,9 +1266,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 19,
-        "wins": 4,
-        "pnl": -49.41711859437944
+        "trades": 20,
+        "wins": 5,
+        "pnl": -44.80352827436004
       },
       "sE": {
         "trades": 4,
