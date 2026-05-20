@@ -86,23 +86,6 @@
       "peakPnl": 0
     },
     {
-      "id": "AAVE_sR_1779013139480",
-      "symbol": "AAVE",
-      "name": "Aave",
-      "coinId": "aave",
-      "rank": 60,
-      "stratId": "sR",
-      "entryPrice": 91.43,
-      "entryTime": 1779013139480,
-      "entryDate": "2026-05-17T10:18:59.480Z",
-      "entrySignal": "Ротация #60 AAVE: BTC Dom=58.2% · Коррекция -11.6% · RSI=45",
-      "strength": 73,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ATOM_sR_1779038036426",
       "symbol": "ATOM",
       "name": "Cosmos Hub",
@@ -427,6 +410,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "AAVE_sR_1779013139480",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "coinId": "aave",
+      "rank": 60,
+      "stratId": "sR",
+      "entryPrice": 91.43,
+      "entryTime": 1779013139480,
+      "entryDate": "2026-05-17T10:18:59.480Z",
+      "entrySignal": "Ротация #60 AAVE: BTC Dom=58.2% · Коррекция -11.6% · RSI=45",
+      "strength": 73,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 86.82,
+      "exitTime": 1779245179868,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.042108717051311,
+      "pnlUsd": -5.042108717051311,
+      "total": 94.9578912829487
+    },
     {
       "id": "XMR_sR_1778894276001",
       "symbol": "XMR",
@@ -1226,24 +1232,24 @@
     "BTC_sR": 1779202157518,
     "TON_sR": 1779211293509
   },
-  "scanCount": 109,
+  "scanCount": 110,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-20T01:27:25.365Z",
-  "lastReport": "2026-05-19T19:47:38.330Z",
+  "lastScan": "2026-05-20T02:47:01.054Z",
+  "lastReport": "2026-05-20T02:47:01.054Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "totalStats": {
-    "trades": 33,
+    "trades": 34,
     "wins": 8,
-    "losses": 25,
-    "totalPnl": -80.09120494265863,
-    "invested": 3300
+    "losses": 26,
+    "totalPnl": -85.13331365970994,
+    "invested": 3400
   },
   "byStrategy": {
     "sR": {
-      "trades": 28,
+      "trades": 29,
       "wins": 8,
-      "pnl": -48.16035421135543
+      "pnl": -53.202462928406746
     },
     "sE": {
       "trades": 5,
@@ -1266,9 +1272,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 20,
+        "trades": 21,
         "wins": 5,
-        "pnl": -44.80352827436004
+        "pnl": -49.845636991411354
       },
       "sE": {
         "trades": 4,
@@ -1277,5 +1283,5 @@
       }
     }
   },
-  "btcDominance": 58.3
+  "btcDominance": 58.2
 }
