@@ -117,7 +117,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 13.065228266307077
+      "peakPnl": 14.570328642582172
     },
     {
       "id": "BNB_sR_1779093283699",
@@ -321,7 +321,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.145118733509239
+      "peakPnl": 5.3298153034300775
     },
     {
       "id": "ALGO_sR_1779200452029",
@@ -1326,9 +1326,9 @@
     "JUP_sR": 1779266568664,
     "DASH_sE": 1779276850679
   },
-  "scanCount": 117,
+  "scanCount": 118,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-20T17:26:10.868Z",
+  "lastScan": "2026-05-20T19:38:03.652Z",
   "lastReport": "2026-05-20T14:50:58.571Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
