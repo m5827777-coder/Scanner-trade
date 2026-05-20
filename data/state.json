@@ -103,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "HYPE_sE_1779072524993",
-      "symbol": "HYPE",
-      "name": "Hyperliquid",
-      "coinId": "hyperliquid",
-      "rank": 13,
-      "stratId": "sE",
-      "entryPrice": 45.977,
-      "entryTime": 1779072524993,
-      "entryDate": "2026-05-18T02:48:44.993Z",
-      "entrySignal": "Golden Cross 3д назад · EMA9=42.9819 > EMA21=42.3346 · RSI=60 · Vol x1.0",
-      "strength": 73,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 14.570328642582172
-    },
-    {
       "id": "BNB_sR_1779093283699",
       "symbol": "BNB",
       "name": "BNB",
@@ -270,7 +253,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 6.065045414591277
+      "peakPnl": 6.123644887196018
     },
     {
       "id": "DOT_sR_1779126575456",
@@ -321,7 +304,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.857519788918205
+      "peakPnl": 6.226912928759897
     },
     {
       "id": "ALGO_sR_1779200452029",
@@ -478,6 +461,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "HYPE_sE_1779072524993",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 13,
+      "stratId": "sE",
+      "entryPrice": 45.977,
+      "entryTime": 1779072524993,
+      "entryDate": "2026-05-18T02:48:44.993Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=42.9819 > EMA21=42.3346 · RSI=60 · Vol x1.0",
+      "strength": 73,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 17.758879439719873,
+      "exitPrice": 54.142,
+      "exitTime": 1779317197741,
+      "exitReason": "✅ TP +15%",
+      "pnl": 17.758879439719873,
+      "pnlUsd": 17.758879439719873,
+      "total": 117.75887943971988
+    },
     {
       "id": "RENDER_sR_1779131899188",
       "symbol": "RENDER",
@@ -1326,18 +1332,18 @@
     "JUP_sR": 1779266568664,
     "DASH_sE": 1779276850679
   },
-  "scanCount": 120,
+  "scanCount": 121,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-20T21:21:39.953Z",
+  "lastScan": "2026-05-20T22:47:18.109Z",
   "lastReport": "2026-05-20T20:08:19.166Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "totalStats": {
-    "trades": 35,
-    "wins": 9,
+    "trades": 36,
+    "wins": 10,
     "losses": 26,
-    "totalPnl": -75.97559743585465,
-    "invested": 3500
+    "totalPnl": -58.216717996134776,
+    "invested": 3600
   },
   "byStrategy": {
     "sR": {
@@ -1346,9 +1352,9 @@
       "pnl": -44.04474670455145
     },
     "sE": {
-      "trades": 5,
-      "wins": 0,
-      "pnl": -31.930850731303213
+      "trades": 6,
+      "wins": 1,
+      "pnl": -14.17197129158334
     }
   },
   "byRegime": {
@@ -1371,11 +1377,11 @@
         "pnl": -40.68792076755606
       },
       "sE": {
-        "trades": 4,
-        "wins": 0,
-        "pnl": -25.785293447963685
+        "trades": 5,
+        "wins": 1,
+        "pnl": -8.026414008243812
       }
     }
   },
-  "btcDominance": 58.3
+  "btcDominance": 58.2
 }
