@@ -117,7 +117,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 6.103051525762892
+      "peakPnl": 7.8452269613067545
     },
     {
       "id": "BNB_sR_1779093283699",
@@ -472,6 +472,23 @@
       "entrySignal": "Ротация #88 JUP: BTC Dom=58.3% · Коррекция -16.4% · RSI=52",
       "strength": 75,
       "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "DASH_sE_1779276850679",
+      "symbol": "DASH",
+      "name": "Dash",
+      "coinId": "dash",
+      "rank": 92,
+      "stratId": "sE",
+      "entryPrice": 47.8,
+      "entryTime": 1779276850679,
+      "entryDate": "2026-05-20T11:34:10.679Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=44.1015 > EMA21=43.6502 · RSI=57 · Vol x1.8",
+      "strength": 90,
+      "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
@@ -1300,11 +1317,12 @@
     "BTC_sR": 1779202157518,
     "TON_sR": 1779211293509,
     "FIL_sR": 1779255535985,
-    "JUP_sR": 1779266568664
+    "JUP_sR": 1779266568664,
+    "DASH_sE": 1779276850679
   },
-  "scanCount": 113,
+  "scanCount": 114,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-20T08:59:39.990Z",
+  "lastScan": "2026-05-20T11:34:14.239Z",
   "lastReport": "2026-05-20T08:59:39.990Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
