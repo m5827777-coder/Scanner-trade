@@ -543,6 +543,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "ZEC_sM_1779370849454",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 13,
+      "stratId": "sM",
+      "entryPrice": 660.37,
+      "entryTime": 1779370849454,
+      "entryDate": "2026-05-21T13:40:49.454Z",
+      "entrySignal": "Пробой 20d max $642.9800 на +2.7% · Объём x1.6 · RSI=74",
+      "strength": 81,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -1443,11 +1460,12 @@
     "ASTER_sE": 1779331130364,
     "NEAR_sM": 1779355837508,
     "RENDER_sE": 1779355847806,
-    "XMR_sE": 1779359045756
+    "XMR_sE": 1779359045756,
+    "ZEC_sM": 1779370849454
   },
-  "scanCount": 127,
+  "scanCount": 128,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-21T10:24:38.110Z",
+  "lastScan": "2026-05-21T13:41:34.423Z",
   "lastReport": "2026-05-21T09:30:59.329Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
@@ -1496,5 +1514,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.1
 }
