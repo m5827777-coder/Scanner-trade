@@ -66,7 +66,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 8.234431257501
+      "peakPnl": 9.734631284171225
     },
     {
       "id": "SOL_sR_1779013117880",
@@ -270,7 +270,7 @@
       "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.753646677471633
     },
     {
       "id": "ETC_sR_1779126582063",
@@ -406,7 +406,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.312597849911278
     },
     {
       "id": "JUP_sR_1779266568664",
@@ -508,7 +508,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 6.595264937993235
+      "peakPnl": 8.455467869222092
     },
     {
       "id": "RENDER_sE_1779355847806",
@@ -1515,9 +1515,9 @@
     "ZEC_sM": 1779370849454,
     "ICP_sR": 1779380935891
   },
-  "scanCount": 132,
+  "scanCount": 133,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-21T19:48:01.535Z",
+  "lastScan": "2026-05-21T20:14:39.258Z",
   "lastReport": "2026-05-21T19:48:01.535Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
