@@ -253,7 +253,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 7.471432757105196
+      "peakPnl": 7.5007324934075665
     },
     {
       "id": "DOT_sR_1779126575456",
@@ -1368,10 +1368,10 @@
     "SUI_sR": 1779331120197,
     "ASTER_sE": 1779331130364
   },
-  "scanCount": 123,
+  "scanCount": 124,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-21T02:39:10.850Z",
-  "lastReport": "2026-05-21T02:39:10.850Z",
+  "lastScan": "2026-05-21T02:49:44.035Z",
+  "lastReport": "2026-05-21T02:49:44.035Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
   "totalStats": {
