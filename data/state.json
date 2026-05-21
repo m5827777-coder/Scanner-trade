@@ -66,7 +66,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 6.280837444992655
     },
     {
       "id": "SOL_sR_1779013117880",
@@ -491,7 +491,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 7.476470484363691
     },
     {
       "id": "NEAR_sM_1779355837508",
@@ -1463,10 +1463,10 @@
     "XMR_sE": 1779359045756,
     "ZEC_sM": 1779370849454
   },
-  "scanCount": 128,
+  "scanCount": 129,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-21T13:41:34.423Z",
-  "lastReport": "2026-05-21T09:30:59.329Z",
+  "lastScan": "2026-05-21T14:55:11.633Z",
+  "lastReport": "2026-05-21T14:55:11.633Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
   "totalStats": {
