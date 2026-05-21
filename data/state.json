@@ -66,7 +66,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 6.280837444992655
+      "peakPnl": 7.32097613015068
     },
     {
       "id": "SOL_sR_1779013117880",
@@ -591,6 +591,23 @@
       "entrySignal": "Ротация #82 APT: BTC Dom=58.1% · Коррекция -11.3% · RSI=47",
       "strength": 72,
       "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "ARB_sR_1779387611335",
+      "symbol": "ARB",
+      "name": "Arbitrum",
+      "coinId": "arbitrum",
+      "rank": 86,
+      "stratId": "sR",
+      "entryPrice": 0.11499,
+      "entryTime": 1779387611335,
+      "entryDate": "2026-05-21T18:20:11.335Z",
+      "entrySignal": "Ротация #86 ARB: BTC Dom=58.1% · Коррекция -15.3% · RSI=42",
+      "strength": 80,
+      "regime": "BEAR",
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
@@ -1464,7 +1481,7 @@
     "ALGO_sR": 1779200452029,
     "RENDER_sR": 1779131899188,
     "APT_sR": 1779380943732,
-    "ARB_sR": 1778705967332,
+    "ARB_sR": 1779387611335,
     "AVAX_sR": 1778943064629,
     "HBAR_sR": 1778752941540,
     "CC_sE": 1778759953489,
@@ -1498,9 +1515,9 @@
     "ZEC_sM": 1779370849454,
     "ICP_sR": 1779380935891
   },
-  "scanCount": 130,
+  "scanCount": 131,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-21T16:29:11.557Z",
+  "lastScan": "2026-05-21T18:20:17.334Z",
   "lastReport": "2026-05-21T14:55:11.633Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
