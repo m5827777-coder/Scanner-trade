@@ -253,7 +253,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 6.123644887196018
+      "peakPnl": 7.471432757105196
     },
     {
       "id": "DOT_sR_1779126575456",
@@ -304,7 +304,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 6.385224274406333
+      "peakPnl": 6.701846965699203
     },
     {
       "id": "ALGO_sR_1779200452029",
@@ -321,7 +321,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.361263980117171
     },
     {
       "id": "BTC_sR_1779202157518",
@@ -458,6 +458,40 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 5.355648535564859
+    },
+    {
+      "id": "SUI_sR_1779331120197",
+      "symbol": "SUI",
+      "name": "Sui",
+      "coinId": "sui",
+      "rank": 24,
+      "stratId": "sR",
+      "entryPrice": 1.1307,
+      "entryTime": 1779331120197,
+      "entryDate": "2026-05-21T02:38:40.197Z",
+      "entrySignal": "Ротация #24 SUI: BTC Dom=58.2% · Коррекция -8.1% · RSI=59",
+      "strength": 61,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "ASTER_sE_1779331130364",
+      "symbol": "ASTER",
+      "name": "Aster",
+      "coinId": "aster-2",
+      "rank": 49,
+      "stratId": "sE",
+      "entryPrice": 0.6966,
+      "entryTime": 1779331130364,
+      "entryDate": "2026-05-21T02:38:50.364Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.6724 > EMA21=0.6713 · RSI=58 · Vol x1.5",
+      "strength": 86,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -1330,14 +1364,16 @@
     "TON_sR": 1779211293509,
     "FIL_sR": 1779255535985,
     "JUP_sR": 1779266568664,
-    "DASH_sE": 1779276850679
+    "DASH_sE": 1779276850679,
+    "SUI_sR": 1779331120197,
+    "ASTER_sE": 1779331130364
   },
-  "scanCount": 122,
+  "scanCount": 123,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-20T23:56:16.487Z",
-  "lastReport": "2026-05-20T20:08:19.166Z",
+  "lastScan": "2026-05-21T02:39:10.850Z",
+  "lastReport": "2026-05-21T02:39:10.850Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 27,
+  "fearGreed": 29,
   "totalStats": {
     "trades": 36,
     "wins": 10,
