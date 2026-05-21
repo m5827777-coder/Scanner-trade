@@ -594,6 +594,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "CC_sR_1779407433263",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 20,
+      "stratId": "sR",
+      "entryPrice": 0.15788,
+      "entryTime": 1779407433263,
+      "entryDate": "2026-05-21T23:50:33.263Z",
+      "entrySignal": "Ротация #20 CC: BTC Dom=58.1% · Коррекция -7.6% · RSI=55",
+      "strength": 67,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -1481,7 +1498,7 @@
     "UNI_sR": 1779126573909,
     "DOT_sR": 1779126575456,
     "AAVE_sR": 1779255526612,
-    "CC_sR": 1778949428196,
+    "CC_sR": 1779407433263,
     "ETC_sR": 1779126582063,
     "ENA_sR": 1779255532132,
     "ALGO_sR": 1779200452029,
@@ -1521,9 +1538,9 @@
     "ZEC_sM": 1779370849454,
     "ICP_sR": 1779380935891
   },
-  "scanCount": 135,
+  "scanCount": 136,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-21T22:55:16.735Z",
+  "lastScan": "2026-05-21T23:51:04.958Z",
   "lastReport": "2026-05-21T19:48:01.535Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
