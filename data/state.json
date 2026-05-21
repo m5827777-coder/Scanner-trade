@@ -52,23 +52,6 @@
       "peakPnl": 0
     },
     {
-      "id": "CC_sR_1778949428196",
-      "symbol": "CC",
-      "name": "Canton",
-      "coinId": "canton-network",
-      "rank": 20,
-      "stratId": "sR",
-      "entryPrice": 0.14998,
-      "entryTime": 1778949428196,
-      "entryDate": "2026-05-16T16:37:08.196Z",
-      "entrySignal": "Ротация #20 CC: BTC Dom=58.3% · Коррекция -12.4% · RSI=49",
-      "strength": 76,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 9.734631284171225
-    },
-    {
       "id": "SOL_sR_1779013117880",
       "symbol": "SOL",
       "name": "Solana",
@@ -508,7 +491,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 9.18827508455468
+      "peakPnl": 9.526493799323564
     },
     {
       "id": "RENDER_sE_1779355847806",
@@ -614,6 +597,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "CC_sR_1778949428196",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 20,
+      "stratId": "sR",
+      "entryPrice": 0.14998,
+      "entryTime": 1778949428196,
+      "entryDate": "2026-05-16T16:37:08.196Z",
+      "entrySignal": "Ротация #20 CC: BTC Dom=58.3% · Коррекция -12.4% · RSI=49",
+      "strength": 76,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 9.734631284171225,
+      "exitPrice": 0.15901,
+      "exitTime": 1779404068043,
+      "exitReason": "📉 Trailing stop: пик +9.7% → откат до +6.0%",
+      "pnl": 6.020802773703167,
+      "pnlUsd": 6.020802773703167,
+      "total": 106.02080277370317
+    },
     {
       "id": "ONDO_sR_1779141257801",
       "symbol": "ONDO",
@@ -1515,24 +1521,24 @@
     "ZEC_sM": 1779370849454,
     "ICP_sR": 1779380935891
   },
-  "scanCount": 134,
+  "scanCount": 135,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-21T21:49:28.951Z",
+  "lastScan": "2026-05-21T22:55:16.735Z",
   "lastReport": "2026-05-21T19:48:01.535Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 37,
-    "wins": 11,
+    "trades": 38,
+    "wins": 12,
     "losses": 26,
-    "totalPnl": -49.69429055550153,
-    "invested": 3700
+    "totalPnl": -43.673487781798364,
+    "invested": 3800
   },
   "byStrategy": {
     "sR": {
-      "trades": 31,
-      "wins": 10,
-      "pnl": -35.522319263918206
+      "trades": 32,
+      "wins": 11,
+      "pnl": -29.50151649021504
     },
     "sE": {
       "trades": 6,
@@ -1555,9 +1561,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 23,
-        "wins": 7,
-        "pnl": -32.165493326922814
+        "trades": 24,
+        "wins": 8,
+        "pnl": -26.144690553219647
       },
       "sE": {
         "trades": 5,
