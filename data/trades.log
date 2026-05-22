@@ -32261,3 +32261,73 @@
 [2026-05-22 11:32:06 UTC] ✅ Данные: 55 токенов OK, 24 недоступно | Открыто: 1 | Всего: 35
 [2026-05-22 11:32:07 UTC] 
 📊 ИТОГ: WR=38.1% PnL=$0.97 Trades=42
+[2026-05-22 13:55:41 UTC] ════════════════════════════════════════════════════
+[2026-05-22 13:55:41 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-05-22 13:55:41 UTC] ════════════════════════════════════════════════════
+[2026-05-22 13:55:41 UTC] 📡 Scan #143
+[2026-05-22 13:55:42 UTC] 📊 BTC Dom=58%
+[2026-05-22 13:55:42 UTC] 🌡 F&G=28 Regime=NEUTRAL Open=35
+[2026-05-22 13:55:42 UTC]   📂 HOLD HBAR/sR PnL=-2.49%
+[2026-05-22 13:55:42 UTC]   📂 HOLD XRP/sR PnL=-3.32%
+[2026-05-22 13:55:43 UTC]   📂 HOLD AVAX/sR PnL=+2.30%
+[2026-05-22 13:55:43 UTC]   📂 HOLD SOL/sR PnL=+0.20%
+[2026-05-22 13:55:43 UTC]   📂 HOLD BNB/sR PnL=+3.70%
+[2026-05-22 13:55:43 UTC]   📂 HOLD TRX/sE PnL=+2.29%
+[2026-05-22 13:55:43 UTC]   📂 HOLD WBT/sR PnL=+1.08%
+[2026-05-22 13:55:44 UTC]   📂 HOLD ETH/sR PnL=+0.90%
+[2026-05-22 13:55:44 UTC]   📂 HOLD DOGE/sR PnL=+2.07%
+[2026-05-22 13:55:44 UTC]   📂 HOLD ADA/sR PnL=+1.00%
+[2026-05-22 13:55:44 UTC]   📂 HOLD LINK/sR PnL=+5.32%
+[2026-05-22 13:55:44 UTC]   📂 HOLD LTC/sR PnL=+0.82%
+[2026-05-22 13:55:44 UTC]   📂 HOLD DOT/sR PnL=+7.78%
+[2026-05-22 13:55:45 UTC]   📂 HOLD ETC/sR PnL=+5.78%
+[2026-05-22 13:55:45 UTC]   📂 HOLD ALGO/sR PnL=+4.88%
+[2026-05-22 13:55:45 UTC]   📂 HOLD BTC/sR PnL=+1.29%
+[2026-05-22 13:55:45 UTC]   📂 HOLD TON/sR PnL=-1.82%
+[2026-05-22 13:55:45 UTC]   📂 HOLD XLM/sR PnL=+1.88%
+[2026-05-22 13:55:46 UTC]   📂 HOLD AAVE/sR PnL=+0.86%
+[2026-05-22 13:55:46 UTC]   📂 HOLD ENA/sR PnL=+2.69%
+[2026-05-22 13:55:46 UTC]   📂 HOLD FIL/sR PnL=+7.87%
+[2026-05-22 13:55:46 UTC]   📂 HOLD DASH/sE PnL=-5.29%
+[2026-05-22 13:55:46 UTC]   📂 HOLD SUI/sR PnL=-1.01%
+[2026-05-22 13:55:46 UTC]   📂 HOLD ASTER/sE PnL=+1.54%
+[2026-05-22 13:55:47 UTC]   📂 HOLD HYPE/sE PnL=+9.22%
+[2026-05-22 13:55:47 UTC]   📂 HOLD RENDER/sE PnL=+4.14%
+[2026-05-22 13:55:47 UTC]   📂 HOLD XMR/sE PnL=-3.26%
+[2026-05-22 13:55:47 UTC]   📂 HOLD ZEC/sM PnL=-3.39%
+[2026-05-22 13:55:47 UTC]   📂 HOLD ICP/sR PnL=+8.20%
+[2026-05-22 13:55:48 UTC]   📂 HOLD APT/sR PnL=+3.85%
+[2026-05-22 13:55:48 UTC]   📂 HOLD ARB/sR PnL=-0.91%
+[2026-05-22 13:55:48 UTC]   📂 HOLD CC/sR PnL=-1.90%
+[2026-05-22 13:55:48 UTC]   📂 HOLD NEAR/sM PnL=+1.24%
+[2026-05-22 13:55:48 UTC]   📂 HOLD WLD/sE PnL=+1.64%
+[2026-05-22 13:55:48 UTC]   📂 HOLD JUP/sE PnL=+0.51%
+[2026-05-22 13:55:48 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-05-22 13:55:48 UTC] ✓ CoinGecko: 79 токенов. Проверяю входы...
+[2026-05-22 13:55:54 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-05-22 13:55:56 UTC]   ⏭ XMR: нет данных (monero)
+[2026-05-22 13:56:00 UTC]   ⏭ M: нет данных (memecore)
+[2026-05-22 13:56:00 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-05-22 13:56:02 UTC]   ⏭ TAO: нет данных (bittensor)
+[2026-05-22 13:56:02 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-05-22 13:56:04 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-05-22 13:56:05 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-05-22 13:56:09 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-05-22 13:56:10 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-05-22 13:56:11 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-05-22 13:56:13 UTC]   ⏭ U: нет данных (united-stables)
+[2026-05-22 13:56:14 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-05-22 13:56:15 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-05-22 13:56:15 UTC]   ⏭ VVV: нет данных (venice-token)
+[2026-05-22 13:56:15 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-05-22 13:56:17 UTC]   ⏭ JST: нет данных (just)
+[2026-05-22 13:56:17 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-05-22 13:56:19 UTC]   ⏭ XDC: нет данных (xdce-crowd-sale)
+[2026-05-22 13:56:20 UTC]   ⏭ DEXE: нет данных (dexe)
+[2026-05-22 13:56:20 UTC]   ⏭ BDX: нет данных (beldex)
+[2026-05-22 13:56:21 UTC]   ⏭ GHO: нет данных (gho)
+[2026-05-22 13:56:21 UTC]   ⏭ VET: нет данных (vechain)
+[2026-05-22 13:56:22 UTC]   ⏭ HASH: нет данных (hash-2)
+[2026-05-22 13:56:23 UTC] ✅ Данные: 55 токенов OK, 24 недоступно | Открыто: 0 | Всего: 35
+[2026-05-22 13:56:23 UTC] 
+📊 ИТОГ: WR=38.1% PnL=$0.97 Trades=42

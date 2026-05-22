@@ -185,7 +185,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.321062096688883
     },
     {
       "id": "LTC_sR_1779126568920",
@@ -355,7 +355,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 6.659012629161891
+      "peakPnl": 7.869742198100421
     },
     {
       "id": "DASH_sE_1779276850679",
@@ -423,7 +423,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 7.476470484363691
+      "peakPnl": 9.224629619819527
     },
     {
       "id": "RENDER_sE_1779355847806",
@@ -491,7 +491,7 @@
       "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 6.685236768802234
+      "peakPnl": 8.197373656983684
     },
     {
       "id": "APT_sR_1779380943732",
@@ -1615,9 +1615,9 @@
     "WLD_sE": 1779439397914,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 142,
+  "scanCount": 143,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-22T11:32:06.976Z",
+  "lastScan": "2026-05-22T13:56:23.537Z",
   "lastReport": "2026-05-22T08:54:53.087Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
@@ -1676,5 +1676,5 @@
       }
     }
   },
-  "btcDominance": 58.1
+  "btcDominance": 58
 }
