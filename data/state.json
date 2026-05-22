@@ -188,23 +188,6 @@
       "peakPnl": 0
     },
     {
-      "id": "DOT_sR_1779126575456",
-      "symbol": "DOT",
-      "name": "Polkadot",
-      "coinId": "polkadot",
-      "rank": 42,
-      "stratId": "sR",
-      "entryPrice": 1.234,
-      "entryTime": 1779126575456,
-      "entryDate": "2026-05-18T17:49:35.456Z",
-      "entrySignal": "Ротация #42 DOT: BTC Dom=58.2% · Коррекция -14.2% · RSI=42",
-      "strength": 78,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 8.103727714748791
-    },
-    {
       "id": "ETC_sR_1779126582063",
       "symbol": "ETC",
       "name": "Ethereum Classic",
@@ -546,6 +529,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "DOT_sR_1779126575456",
+      "symbol": "DOT",
+      "name": "Polkadot",
+      "coinId": "polkadot",
+      "rank": 42,
+      "stratId": "sR",
+      "entryPrice": 1.234,
+      "entryTime": 1779126575456,
+      "entryDate": "2026-05-18T17:49:35.456Z",
+      "entrySignal": "Ротация #42 DOT: BTC Dom=58.2% · Коррекция -14.2% · RSI=42",
+      "strength": 78,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 8.103727714748791,
+      "exitPrice": 1.308,
+      "exitTime": 1779473399199,
+      "exitReason": "📉 Trailing stop: пик +8.1% → откат до +6.0%",
+      "pnl": 5.996758508914106,
+      "pnlUsd": 5.996758508914106,
+      "total": 105.99675850891411
+    },
     {
       "id": "DASH_sE_1779276850679",
       "symbol": "DASH",
@@ -1679,24 +1685,24 @@
     "WLD_sE": 1779439397914,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 145,
+  "scanCount": 146,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-22T16:19:12.691Z",
+  "lastScan": "2026-05-22T18:10:44.193Z",
   "lastReport": "2026-05-22T14:28:38.156Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 47,
-    "wins": 20,
+    "trades": 48,
+    "wins": 21,
     "losses": 27,
-    "totalPnl": 15.581406400653666,
-    "invested": 4700
+    "totalPnl": 21.57816490956777,
+    "invested": 4800
   },
   "byStrategy": {
     "sR": {
-      "trades": 38,
-      "wins": 17,
-      "pnl": 1.6339626288690425
+      "trades": 39,
+      "wins": 18,
+      "pnl": 7.630721137783149
     },
     "sE": {
       "trades": 8,
@@ -1724,9 +1730,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 30,
-        "wins": 14,
-        "pnl": 4.990788565864435
+        "trades": 31,
+        "wins": 15,
+        "pnl": 10.98754707477854
       },
       "sE": {
         "trades": 7,
@@ -1740,5 +1746,5 @@
       }
     }
   },
-  "btcDominance": 58.1
+  "btcDominance": 58
 }
