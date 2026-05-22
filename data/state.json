@@ -236,7 +236,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.1891644759400934
+      "peakPnl": 5.257743742141948
     },
     {
       "id": "ALGO_sR_1779200452029",
@@ -372,7 +372,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 8.178256611165533
+      "peakPnl": 8.423114593535761
     },
     {
       "id": "DASH_sE_1779276850679",
@@ -1591,10 +1591,10 @@
     "ICP_sR": 1779380935891,
     "WLD_sE": 1779439397914
   },
-  "scanCount": 140,
+  "scanCount": 141,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-22T08:43:30.184Z",
-  "lastReport": "2026-05-22T02:50:21.963Z",
+  "lastScan": "2026-05-22T08:54:53.087Z",
+  "lastReport": "2026-05-22T08:54:53.087Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
