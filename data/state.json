@@ -236,7 +236,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.257743742141948
+      "peakPnl": 6.412161389873128
     },
     {
       "id": "ALGO_sR_1779200452029",
@@ -356,23 +356,6 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 6.659012629161891
-    },
-    {
-      "id": "JUP_sR_1779266568664",
-      "symbol": "JUP",
-      "name": "Jupiter",
-      "coinId": "jupiter-exchange-solana",
-      "rank": 88,
-      "stratId": "sR",
-      "entryPrice": 0.2042,
-      "entryTime": 1779266568664,
-      "entryDate": "2026-05-20T08:42:48.664Z",
-      "entrySignal": "Ротация #88 JUP: BTC Dom=58.3% · Коррекция -16.4% · RSI=52",
-      "strength": 75,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 8.423114593535761
     },
     {
       "id": "DASH_sE_1779276850679",
@@ -594,9 +577,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "JUP_sE_1779449520402",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "coinId": "jupiter-exchange-solana",
+      "rank": 86,
+      "stratId": "sE",
+      "entryPrice": 0.2168,
+      "entryTime": 1779449520402,
+      "entryDate": "2026-05-22T11:32:00.402Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.2100 > EMA21=0.2062 · RSI=57 · Vol x1.4",
+      "strength": 78,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "JUP_sR_1779266568664",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "coinId": "jupiter-exchange-solana",
+      "rank": 88,
+      "stratId": "sR",
+      "entryPrice": 0.2042,
+      "entryTime": 1779266568664,
+      "entryDate": "2026-05-20T08:42:48.664Z",
+      "entrySignal": "Ротация #88 JUP: BTC Dom=58.3% · Коррекция -16.4% · RSI=52",
+      "strength": 75,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 8.423114593535761,
+      "exitPrice": 0.2168,
+      "exitTime": 1779449482096,
+      "exitReason": "📉 Trailing stop: пик +8.4% → откат до +6.2%",
+      "pnl": 6.170421155729677,
+      "pnlUsd": 6.170421155729677,
+      "total": 106.17042115572968
+    },
     {
       "id": "NEAR_sM_1779355837508",
       "symbol": "NEAR",
@@ -1589,26 +1612,27 @@
     "XMR_sE": 1779359045756,
     "ZEC_sM": 1779370849454,
     "ICP_sR": 1779380935891,
-    "WLD_sE": 1779439397914
+    "WLD_sE": 1779439397914,
+    "JUP_sE": 1779449520402
   },
-  "scanCount": 141,
+  "scanCount": 142,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-22T08:54:53.087Z",
+  "lastScan": "2026-05-22T11:32:06.976Z",
   "lastReport": "2026-05-22T08:54:53.087Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 41,
-    "wins": 15,
+    "trades": 42,
+    "wins": 16,
     "losses": 26,
-    "totalPnl": -5.20429922708459,
-    "invested": 4100
+    "totalPnl": 0.9661219286450873,
+    "invested": 4200
   },
   "byStrategy": {
     "sR": {
-      "trades": 34,
-      "wins": 13,
-      "pnl": -18.428043831780847
+      "trades": 35,
+      "wins": 14,
+      "pnl": -12.25762267605117
     },
     "sE": {
       "trades": 6,
@@ -1636,9 +1660,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 26,
-        "wins": 10,
-        "pnl": -15.071217894785455
+        "trades": 27,
+        "wins": 11,
+        "pnl": -8.900796739055778
       },
       "sE": {
         "trades": 5,
