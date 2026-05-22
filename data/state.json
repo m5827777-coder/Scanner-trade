@@ -426,23 +426,6 @@
       "peakPnl": 0
     },
     {
-      "id": "JUP_sE_1779449520402",
-      "symbol": "JUP",
-      "name": "Jupiter",
-      "coinId": "jupiter-exchange-solana",
-      "rank": 86,
-      "stratId": "sE",
-      "entryPrice": 0.2168,
-      "entryTime": 1779449520402,
-      "entryDate": "2026-05-22T11:32:00.402Z",
-      "entrySignal": "EMA начало расхождения · EMA9=0.2100 > EMA21=0.2062 · RSI=57 · Vol x1.4",
-      "strength": 78,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FIGR_HELOC_sE_1779466717921",
       "symbol": "FIGR_HELOC",
       "name": "Figure Heloc",
@@ -461,6 +444,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "JUP_sE_1779449520402",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "coinId": "jupiter-exchange-solana",
+      "rank": 86,
+      "stratId": "sE",
+      "entryPrice": 0.2168,
+      "entryTime": 1779449520402,
+      "entryDate": "2026-05-22T11:32:00.402Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.2100 > EMA21=0.2062 · RSI=57 · Vol x1.4",
+      "strength": 78,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.2023,
+      "exitTime": 1779480364465,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.6881918819188115,
+      "pnlUsd": -6.6881918819188115,
+      "total": 93.31180811808119
+    },
     {
       "id": "HYPE_sE_1779460082132",
       "symbol": "HYPE",
@@ -1709,18 +1715,18 @@
     "WLD_sE": 1779439397914,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 147,
+  "scanCount": 148,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-22T19:28:36.773Z",
+  "lastScan": "2026-05-22T20:06:40.926Z",
   "lastReport": "2026-05-22T19:28:36.773Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 52,
+    "trades": 53,
     "wins": 21,
-    "losses": 31,
-    "totalPnl": -6.306403416569676,
-    "invested": 5200
+    "losses": 32,
+    "totalPnl": -12.994595298488488,
+    "invested": 5300
   },
   "byStrategy": {
     "sR": {
@@ -1729,9 +1735,9 @@
       "pnl": -3.795876734241684
     },
     "sE": {
-      "trades": 9,
+      "trades": 10,
       "wins": 2,
-      "pnl": -21.71083697265941
+      "pnl": -28.399028854578223
     },
     "sM": {
       "trades": 2,
@@ -1781,9 +1787,9 @@
         "pnl": -8.195405605948181
       },
       "sE": {
-        "trades": 1,
+        "trades": 2,
         "wins": 0,
-        "pnl": -8.262564848164434
+        "pnl": -14.950756730083246
       }
     }
   },
