@@ -409,23 +409,6 @@
       "peakPnl": 5.096181452770597
     },
     {
-      "id": "HYPE_sE_1779345392173",
-      "symbol": "HYPE",
-      "name": "Hyperliquid",
-      "coinId": "hyperliquid",
-      "rank": 11,
-      "stratId": "sE",
-      "entryPrice": 56.631,
-      "entryTime": 1779345392173,
-      "entryDate": "2026-05-21T06:36:32.173Z",
-      "entrySignal": "Golden Cross 6д назад · EMA9=47.5621 > EMA21=44.7366 · RSI=75 · Vol x1.1",
-      "strength": 73,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 9.224629619819527
-    },
-    {
       "id": "RENDER_sE_1779355847806",
       "symbol": "RENDER",
       "name": "Render",
@@ -475,23 +458,6 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
-    {
-      "id": "ICP_sR_1779380935891",
-      "symbol": "ICP",
-      "name": "Internet Computer",
-      "coinId": "internet-computer",
-      "rank": 58,
-      "stratId": "sR",
-      "entryPrice": 2.513,
-      "entryTime": 1779380935891,
-      "entryDate": "2026-05-21T16:28:55.891Z",
-      "entrySignal": "Ротация #58 ICP: BTC Dom=58.1% · Коррекция -15.2% · RSI=43",
-      "strength": 79,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 8.197373656983684
     },
     {
       "id": "APT_sR_1779380943732",
@@ -594,9 +560,72 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "HYPE_sE_1779460082132",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 11,
+      "stratId": "sE",
+      "entryPrice": 60.526,
+      "entryTime": 1779460082132,
+      "entryDate": "2026-05-22T14:28:02.132Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=50.8814 > EMA21=46.5829 · RSI=77 · Vol x1.8",
+      "strength": 82,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "ICP_sR_1779380935891",
+      "symbol": "ICP",
+      "name": "Internet Computer",
+      "coinId": "internet-computer",
+      "rank": 58,
+      "stratId": "sR",
+      "entryPrice": 2.513,
+      "entryTime": 1779380935891,
+      "entryDate": "2026-05-21T16:28:55.891Z",
+      "entrySignal": "Ротация #58 ICP: BTC Dom=58.1% · Коррекция -15.2% · RSI=43",
+      "strength": 79,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 8.197373656983684,
+      "exitPrice": 2.661,
+      "exitTime": 1779460075297,
+      "exitReason": "📉 Trailing stop: пик +8.2% → откат до +5.9%",
+      "pnl": 5.88937524870673,
+      "pnlUsd": 5.88937524870673,
+      "total": 105.88937524870673
+    },
+    {
+      "id": "HYPE_sE_1779345392173",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 11,
+      "stratId": "sE",
+      "entryPrice": 56.631,
+      "entryTime": 1779345392173,
+      "entryDate": "2026-05-21T06:36:32.173Z",
+      "entrySignal": "Golden Cross 6д назад · EMA9=47.5621 > EMA21=44.7366 · RSI=75 · Vol x1.1",
+      "strength": 73,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 9.224629619819527,
+      "exitPrice": 60.524,
+      "exitTime": 1779460073333,
+      "exitReason": "📉 Trailing stop: пик +9.2% → откат до +6.9%",
+      "pnl": 6.874326782151121,
+      "pnlUsd": 6.874326782151121,
+      "total": 106.87432678215112
+    },
     {
       "id": "JUP_sR_1779266568664",
       "symbol": "JUP",
@@ -1585,7 +1614,7 @@
     "CC_sE": 1778759953489,
     "FLR_sE": 1778797959970,
     "XRP_sE": 1778801425373,
-    "HYPE_sE": 1779345392173,
+    "HYPE_sE": 1779460082132,
     "LINK_sR": 1779126565966,
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1779038036426,
@@ -1615,29 +1644,29 @@
     "WLD_sE": 1779439397914,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 143,
+  "scanCount": 144,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-22T13:56:23.537Z",
-  "lastReport": "2026-05-22T08:54:53.087Z",
+  "lastScan": "2026-05-22T14:28:38.156Z",
+  "lastReport": "2026-05-22T14:28:38.156Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 42,
-    "wins": 16,
+    "trades": 44,
+    "wins": 18,
     "losses": 26,
-    "totalPnl": 0.9661219286450873,
-    "invested": 4200
+    "totalPnl": 13.729823959502937,
+    "invested": 4400
   },
   "byStrategy": {
     "sR": {
-      "trades": 35,
-      "wins": 14,
-      "pnl": -12.25762267605117
+      "trades": 36,
+      "wins": 15,
+      "pnl": -6.36824742734444
     },
     "sE": {
-      "trades": 6,
-      "wins": 1,
-      "pnl": -14.17197129158334
+      "trades": 7,
+      "wins": 2,
+      "pnl": -7.297644509432219
     },
     "sM": {
       "trades": 1,
@@ -1660,14 +1689,14 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 27,
-        "wins": 11,
-        "pnl": -8.900796739055778
+        "trades": 28,
+        "wins": 12,
+        "pnl": -3.011421490349048
       },
       "sE": {
-        "trades": 5,
-        "wins": 1,
-        "pnl": -8.026414008243812
+        "trades": 6,
+        "wins": 2,
+        "pnl": -1.152087226092691
       },
       "sM": {
         "trades": 1,
