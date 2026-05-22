@@ -392,23 +392,6 @@
       "peakPnl": 0
     },
     {
-      "id": "NEAR_sM_1779439384092",
-      "symbol": "NEAR",
-      "name": "NEAR Protocol",
-      "coinId": "near",
-      "rank": 36,
-      "stratId": "sM",
-      "entryPrice": 2.256,
-      "entryTime": 1779439384092,
-      "entryDate": "2026-05-22T08:43:04.092Z",
-      "entrySignal": "Пробой 20d max $1.7120 на +31.8% · Объём x2.8 · RSI=85",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "WLD_sE_1779439397914",
       "symbol": "WLD",
       "name": "Worldcoin",
@@ -444,6 +427,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "NEAR_sM_1779439384092",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 36,
+      "stratId": "sM",
+      "entryPrice": 2.256,
+      "entryTime": 1779439384092,
+      "entryDate": "2026-05-22T08:43:04.092Z",
+      "entrySignal": "Пробой 20d max $1.7120 на +31.8% · Объём x2.8 · RSI=85",
+      "strength": 95,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2.095,
+      "exitTime": 1779489047761,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.1365248226950175,
+      "pnlUsd": -7.1365248226950175,
+      "total": 92.86347517730498
+    },
     {
       "id": "JUP_sE_1779449520402",
       "symbol": "JUP",
@@ -1715,18 +1721,18 @@
     "WLD_sE": 1779439397914,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 149,
+  "scanCount": 150,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-22T21:21:34.993Z",
+  "lastScan": "2026-05-22T22:31:28.119Z",
   "lastReport": "2026-05-22T19:28:36.773Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 53,
+    "trades": 54,
     "wins": 21,
-    "losses": 32,
-    "totalPnl": -12.994595298488488,
-    "invested": 5300
+    "losses": 33,
+    "totalPnl": -20.131120121183507,
+    "invested": 5400
   },
   "byStrategy": {
     "sR": {
@@ -1740,9 +1746,9 @@
       "pnl": -28.399028854578223
     },
     "sM": {
-      "trades": 2,
+      "trades": 3,
       "wins": 1,
-      "pnl": 19.2003102903314
+      "pnl": 12.063785467636384
     }
   },
   "byRegime": {
@@ -1782,9 +1788,9 @@
         "pnl": -11.426597872024832
       },
       "sM": {
-        "trades": 1,
+        "trades": 2,
         "wins": 0,
-        "pnl": -8.195405605948181
+        "pnl": -15.331930428643199
       },
       "sE": {
         "trades": 2,
@@ -1793,5 +1799,5 @@
       }
     }
   },
-  "btcDominance": 58.1
+  "btcDominance": 58
 }
