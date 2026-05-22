@@ -236,7 +236,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.1891644759400934
     },
     {
       "id": "ALGO_sR_1779200452029",
@@ -372,7 +372,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 7.247796278158672
+      "peakPnl": 8.178256611165533
     },
     {
       "id": "DASH_sE_1779276850679",
@@ -443,23 +443,6 @@
       "peakPnl": 7.476470484363691
     },
     {
-      "id": "NEAR_sM_1779355837508",
-      "symbol": "NEAR",
-      "name": "NEAR Protocol",
-      "coinId": "near",
-      "rank": 41,
-      "stratId": "sM",
-      "entryPrice": 1.774,
-      "entryTime": 1779355837508,
-      "entryDate": "2026-05-21T09:30:37.508Z",
-      "entrySignal": "Пробой 20d max $1.6910 на +4.9% · Объём x1.5 · RSI=73",
-      "strength": 84,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 24.57722660653889
-    },
-    {
       "id": "RENDER_sE_1779355847806",
       "symbol": "RENDER",
       "name": "Render",
@@ -525,7 +508,7 @@
       "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 6.645443692797463
+      "peakPnl": 6.685236768802234
     },
     {
       "id": "APT_sR_1779380943732",
@@ -577,9 +560,66 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "NEAR_sM_1779439384092",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 36,
+      "stratId": "sM",
+      "entryPrice": 2.256,
+      "entryTime": 1779439384092,
+      "entryDate": "2026-05-22T08:43:04.092Z",
+      "entrySignal": "Пробой 20d max $1.7120 на +31.8% · Объём x2.8 · RSI=85",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "WLD_sE_1779439397914",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 71,
+      "stratId": "sE",
+      "entryPrice": 0.2871,
+      "entryTime": 1779439397914,
+      "entryDate": "2026-05-22T08:43:17.914Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.2574 > EMA21=0.2571 · RSI=61 · Vol x1.9",
+      "strength": 90,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "NEAR_sM_1779355837508",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 41,
+      "stratId": "sM",
+      "entryPrice": 1.774,
+      "entryTime": 1779355837508,
+      "entryDate": "2026-05-21T09:30:37.508Z",
+      "entrySignal": "Пробой 20d max $1.6910 на +4.9% · Объём x1.5 · RSI=73",
+      "strength": 84,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 27.395715896279583,
+      "exitPrice": 2.26,
+      "exitTime": 1779439367530,
+      "exitReason": "✅ TP +25%",
+      "pnl": 27.395715896279583,
+      "pnlUsd": 27.395715896279583,
+      "total": 127.39571589627958
+    },
     {
       "id": "ATOM_sR_1779038036426",
       "symbol": "ATOM",
@@ -1544,24 +1584,25 @@
     "DASH_sE": 1779276850679,
     "SUI_sR": 1779331120197,
     "ASTER_sE": 1779331130364,
-    "NEAR_sM": 1779355837508,
+    "NEAR_sM": 1779439384093,
     "RENDER_sE": 1779355847806,
     "XMR_sE": 1779359045756,
     "ZEC_sM": 1779370849454,
-    "ICP_sR": 1779380935891
+    "ICP_sR": 1779380935891,
+    "WLD_sE": 1779439397914
   },
-  "scanCount": 139,
+  "scanCount": 140,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-22T05:53:15.482Z",
+  "lastScan": "2026-05-22T08:43:30.184Z",
   "lastReport": "2026-05-22T02:50:21.963Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 40,
-    "wins": 14,
+    "trades": 41,
+    "wins": 15,
     "losses": 26,
-    "totalPnl": -32.60001512336417,
-    "invested": 4000
+    "totalPnl": -5.20429922708459,
+    "invested": 4100
   },
   "byStrategy": {
     "sR": {
@@ -1573,6 +1614,11 @@
       "trades": 6,
       "wins": 1,
       "pnl": -14.17197129158334
+    },
+    "sM": {
+      "trades": 1,
+      "wins": 1,
+      "pnl": 27.395715896279583
     }
   },
   "byRegime": {
@@ -1598,6 +1644,11 @@
         "trades": 5,
         "wins": 1,
         "pnl": -8.026414008243812
+      },
+      "sM": {
+        "trades": 1,
+        "wins": 1,
+        "pnl": 27.395715896279583
       }
     }
   },
