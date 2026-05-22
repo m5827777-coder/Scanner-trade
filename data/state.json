@@ -239,23 +239,6 @@
       "peakPnl": 0
     },
     {
-      "id": "TON_sR_1779211293509",
-      "symbol": "TON",
-      "name": "Toncoin",
-      "coinId": "the-open-network",
-      "rank": 21,
-      "stratId": "sR",
-      "entryPrice": 2.029,
-      "entryTime": 1779211293509,
-      "entryDate": "2026-05-19T17:21:33.509Z",
-      "entrySignal": "Ротация #21 TON: BTC Dom=58.2% · Коррекция -13.8% · RSI=57",
-      "strength": 69,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "XLM_sR_1779211294888",
       "symbol": "XLM",
       "name": "Stellar",
@@ -302,23 +285,6 @@
       "entrySignal": "Ротация #75 ENA: BTC Dom=58.3% · Коррекция -15.8% · RSI=46",
       "strength": 78,
       "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "SUI_sR_1779331120197",
-      "symbol": "SUI",
-      "name": "Sui",
-      "coinId": "sui",
-      "rank": 24,
-      "stratId": "sR",
-      "entryPrice": 1.1307,
-      "entryTime": 1779331120197,
-      "entryDate": "2026-05-21T02:38:40.197Z",
-      "entrySignal": "Ротация #24 SUI: BTC Dom=58.2% · Коррекция -8.1% · RSI=59",
-      "strength": 61,
-      "regime": "BULL",
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
@@ -372,23 +338,6 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
-      "id": "ZEC_sM_1779370849454",
-      "symbol": "ZEC",
-      "name": "Zcash",
-      "coinId": "zcash",
-      "rank": 13,
-      "stratId": "sM",
-      "entryPrice": 660.37,
-      "entryTime": 1779370849454,
-      "entryDate": "2026-05-21T13:40:49.454Z",
-      "entrySignal": "Пробой 20d max $642.9800 на +2.7% · Объём x1.6 · RSI=74",
-      "strength": 81,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
       "peakPnl": 0
     },
     {
@@ -494,23 +443,6 @@
       "peakPnl": 0
     },
     {
-      "id": "HYPE_sE_1779460082132",
-      "symbol": "HYPE",
-      "name": "Hyperliquid",
-      "coinId": "hyperliquid",
-      "rank": 11,
-      "stratId": "sE",
-      "entryPrice": 60.526,
-      "entryTime": 1779460082132,
-      "entryDate": "2026-05-22T14:28:02.132Z",
-      "entrySignal": "Golden Cross 5д назад · EMA9=50.8814 > EMA21=46.5829 · RSI=77 · Vol x1.8",
-      "strength": 82,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FIGR_HELOC_sE_1779466717921",
       "symbol": "FIGR_HELOC",
       "name": "Figure Heloc",
@@ -529,6 +461,98 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "HYPE_sE_1779460082132",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 11,
+      "stratId": "sE",
+      "entryPrice": 60.526,
+      "entryTime": 1779460082132,
+      "entryDate": "2026-05-22T14:28:02.132Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=50.8814 > EMA21=46.5829 · RSI=77 · Vol x1.8",
+      "strength": 82,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 55.525,
+      "exitTime": 1779478075356,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -8.262564848164434,
+      "pnlUsd": -8.262564848164434,
+      "total": 91.73743515183557
+    },
+    {
+      "id": "ZEC_sM_1779370849454",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 13,
+      "stratId": "sM",
+      "entryPrice": 660.37,
+      "entryTime": 1779370849454,
+      "entryDate": "2026-05-21T13:40:49.454Z",
+      "entrySignal": "Пробой 20d max $642.9800 на +2.7% · Объём x1.6 · RSI=74",
+      "strength": 81,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 606.25,
+      "exitTime": 1779478073094,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -8.195405605948181,
+      "pnlUsd": -8.195405605948181,
+      "total": 91.80459439405182
+    },
+    {
+      "id": "SUI_sR_1779331120197",
+      "symbol": "SUI",
+      "name": "Sui",
+      "coinId": "sui",
+      "rank": 24,
+      "stratId": "sR",
+      "entryPrice": 1.1307,
+      "entryTime": 1779331120197,
+      "entryDate": "2026-05-21T02:38:40.197Z",
+      "entrySignal": "Ротация #24 SUI: BTC Dom=58.2% · Коррекция -8.1% · RSI=59",
+      "strength": 61,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.0667,
+      "exitTime": 1779478071502,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.660210489077568,
+      "pnlUsd": -5.660210489077568,
+      "total": 94.33978951092243
+    },
+    {
+      "id": "TON_sR_1779211293509",
+      "symbol": "TON",
+      "name": "Toncoin",
+      "coinId": "the-open-network",
+      "rank": 21,
+      "stratId": "sR",
+      "entryPrice": 2.029,
+      "entryTime": 1779211293509,
+      "entryDate": "2026-05-19T17:21:33.509Z",
+      "entrySignal": "Ротация #21 TON: BTC Dom=58.2% · Коррекция -13.8% · RSI=57",
+      "strength": 69,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.912,
+      "exitTime": 1779478069795,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.766387382947265,
+      "pnlUsd": -5.766387382947265,
+      "total": 94.23361261705273
+    },
     {
       "id": "DOT_sR_1779126575456",
       "symbol": "DOT",
@@ -1685,34 +1709,34 @@
     "WLD_sE": 1779439397914,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 146,
+  "scanCount": 147,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-22T18:10:44.193Z",
-  "lastReport": "2026-05-22T14:28:38.156Z",
-  "marketRegime": "NEUTRAL",
+  "lastScan": "2026-05-22T19:28:36.773Z",
+  "lastReport": "2026-05-22T19:28:36.773Z",
+  "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 48,
+    "trades": 52,
     "wins": 21,
-    "losses": 27,
-    "totalPnl": 21.57816490956777,
-    "invested": 4800
+    "losses": 31,
+    "totalPnl": -6.306403416569676,
+    "invested": 5200
   },
   "byStrategy": {
     "sR": {
-      "trades": 39,
+      "trades": 41,
       "wins": 18,
-      "pnl": 7.630721137783149
+      "pnl": -3.795876734241684
     },
     "sE": {
-      "trades": 8,
+      "trades": 9,
       "wins": 2,
-      "pnl": -13.448272124494977
+      "pnl": -21.71083697265941
     },
     "sM": {
-      "trades": 1,
+      "trades": 2,
       "wins": 1,
-      "pnl": 27.395715896279583
+      "pnl": 19.2003102903314
     }
   },
   "byRegime": {
@@ -1744,7 +1768,24 @@
         "wins": 1,
         "pnl": 27.395715896279583
       }
+    },
+    "BEAR": {
+      "sR": {
+        "trades": 2,
+        "wins": 0,
+        "pnl": -11.426597872024832
+      },
+      "sM": {
+        "trades": 1,
+        "wins": 0,
+        "pnl": -8.195405605948181
+      },
+      "sE": {
+        "trades": 1,
+        "wins": 0,
+        "pnl": -8.262564848164434
+      }
     }
   },
-  "btcDominance": 58
+  "btcDominance": 58.1
 }
