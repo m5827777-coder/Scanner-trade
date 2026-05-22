@@ -35,23 +35,6 @@
       "peakPnl": 0
     },
     {
-      "id": "AVAX_sR_1778943064629",
-      "symbol": "AVAX",
-      "name": "Avalanche",
-      "coinId": "avalanche-2",
-      "rank": 29,
-      "stratId": "sR",
-      "entryPrice": 9.304,
-      "entryTime": 1778943064629,
-      "entryDate": "2026-05-16T14:51:04.629Z",
-      "entrySignal": "Ротация #29 AVAX: BTC Dom=58.4% · Коррекция -11.3% · RSI=48",
-      "strength": 71,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SOL_sR_1779013117880",
       "symbol": "SOL",
       "name": "Solana",
@@ -341,40 +324,6 @@
       "peakPnl": 0
     },
     {
-      "id": "FIL_sR_1779255535985",
-      "symbol": "FIL",
-      "name": "Filecoin",
-      "coinId": "filecoin",
-      "rank": 83,
-      "stratId": "sR",
-      "entryPrice": 0.9581,
-      "entryTime": 1779255535985,
-      "entryDate": "2026-05-20T05:38:55.985Z",
-      "entrySignal": "Ротация #83 FIL: BTC Dom=58.3% · Коррекция -14.0% · RSI=46",
-      "strength": 76,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 7.869742198100421
-    },
-    {
-      "id": "DASH_sE_1779276850679",
-      "symbol": "DASH",
-      "name": "Dash",
-      "coinId": "dash",
-      "rank": 92,
-      "stratId": "sE",
-      "entryPrice": 47.8,
-      "entryTime": 1779276850679,
-      "entryDate": "2026-05-20T11:34:10.679Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=44.1015 > EMA21=43.6502 · RSI=57 · Vol x1.8",
-      "strength": 90,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 5.355648535564859
-    },
-    {
       "id": "SUI_sR_1779331120197",
       "symbol": "SUI",
       "name": "Sui",
@@ -577,9 +526,95 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "FIGR_HELOC_sE_1779466717921",
+      "symbol": "FIGR_HELOC",
+      "name": "Figure Heloc",
+      "coinId": "figure-heloc",
+      "rank": 9,
+      "stratId": "sE",
+      "entryPrice": 1.0312142,
+      "entryTime": 1779466717921,
+      "entryDate": "2026-05-22T16:18:37.921Z",
+      "entrySignal": "Golden Cross 6д назад · EMA9=1.0308 > EMA21=1.0305 · RSI=50 · Vol x1.3",
+      "strength": 64,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "DASH_sE_1779276850679",
+      "symbol": "DASH",
+      "name": "Dash",
+      "coinId": "dash",
+      "rank": 92,
+      "stratId": "sE",
+      "entryPrice": 47.8,
+      "entryTime": 1779276850679,
+      "entryDate": "2026-05-20T11:34:10.679Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=44.1015 > EMA21=43.6502 · RSI=57 · Vol x1.8",
+      "strength": 90,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 5.355648535564859,
+      "exitPrice": 44.86,
+      "exitTime": 1779466711282,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.150627615062757,
+      "pnlUsd": -6.150627615062757,
+      "total": 93.84937238493724
+    },
+    {
+      "id": "FIL_sR_1779255535985",
+      "symbol": "FIL",
+      "name": "Filecoin",
+      "coinId": "filecoin",
+      "rank": 83,
+      "stratId": "sR",
+      "entryPrice": 0.9581,
+      "entryTime": 1779255535985,
+      "entryDate": "2026-05-20T05:38:55.985Z",
+      "entrySignal": "Ротация #83 FIL: BTC Dom=58.3% · Коррекция -14.0% · RSI=46",
+      "strength": 76,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 7.869742198100421,
+      "exitPrice": 1.022,
+      "exitTime": 1779466710468,
+      "exitReason": "Возврат к 7d max $1.0385",
+      "pnl": 6.66944995303205,
+      "pnlUsd": 6.66944995303205,
+      "total": 106.66944995303206
+    },
+    {
+      "id": "AVAX_sR_1778943064629",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "coinId": "avalanche-2",
+      "rank": 29,
+      "stratId": "sR",
+      "entryPrice": 9.304,
+      "entryTime": 1778943064629,
+      "entryDate": "2026-05-16T14:51:04.629Z",
+      "entrySignal": "Ротация #29 AVAX: BTC Dom=58.4% · Коррекция -11.3% · RSI=48",
+      "strength": 71,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 9.428,
+      "exitTime": 1779466705607,
+      "exitReason": "Возврат к 7d max $9.6140",
+      "pnl": 1.3327601031814331,
+      "pnlUsd": 1.3327601031814331,
+      "total": 101.33276010318143
+    },
     {
       "id": "ICP_sR_1779380935891",
       "symbol": "ICP",
@@ -1618,7 +1653,7 @@
     "LINK_sR": 1779126565966,
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1779038036426,
-    "FIGR_HELOC_sE": 1778894270401,
+    "FIGR_HELOC_sE": 1779466717921,
     "XMR_sR": 1778894276001,
     "ETH_sR": 1779126557406,
     "LTC_sR": 1779126568920,
@@ -1644,29 +1679,29 @@
     "WLD_sE": 1779439397914,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 144,
+  "scanCount": 145,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-22T14:28:38.156Z",
+  "lastScan": "2026-05-22T16:19:12.691Z",
   "lastReport": "2026-05-22T14:28:38.156Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 44,
-    "wins": 18,
-    "losses": 26,
-    "totalPnl": 13.729823959502937,
-    "invested": 4400
+    "trades": 47,
+    "wins": 20,
+    "losses": 27,
+    "totalPnl": 15.581406400653666,
+    "invested": 4700
   },
   "byStrategy": {
     "sR": {
-      "trades": 36,
-      "wins": 15,
-      "pnl": -6.36824742734444
+      "trades": 38,
+      "wins": 17,
+      "pnl": 1.6339626288690425
     },
     "sE": {
-      "trades": 7,
+      "trades": 8,
       "wins": 2,
-      "pnl": -7.297644509432219
+      "pnl": -13.448272124494977
     },
     "sM": {
       "trades": 1,
@@ -1689,14 +1724,14 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 28,
-        "wins": 12,
-        "pnl": -3.011421490349048
+        "trades": 30,
+        "wins": 14,
+        "pnl": 4.990788565864435
       },
       "sE": {
-        "trades": 6,
+        "trades": 7,
         "wins": 2,
-        "pnl": -1.152087226092691
+        "pnl": -7.302714841155448
       },
       "sM": {
         "trades": 1,
@@ -1705,5 +1740,5 @@
       }
     }
   },
-  "btcDominance": 58
+  "btcDominance": 58.1
 }
