@@ -69,23 +69,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ATOM_sR_1779038036426",
-      "symbol": "ATOM",
-      "name": "Cosmos Hub",
-      "coinId": "cosmos",
-      "rank": 67,
-      "stratId": "sR",
-      "entryPrice": 2.052,
-      "entryTime": 1779038036426,
-      "entryDate": "2026-05-17T17:13:56.426Z",
-      "entrySignal": "Ротация #67 ATOM: BTC Dom=58.2% · Коррекция -8.1% · RSI=60",
-      "strength": 61,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "BNB_sR_1779093283699",
       "symbol": "BNB",
       "name": "BNB",
@@ -236,7 +219,7 @@
       "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.753646677471633
+      "peakPnl": 8.103727714748791
     },
     {
       "id": "ETC_sR_1779126582063",
@@ -372,7 +355,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.740528128587824
+      "peakPnl": 6.659012629161891
     },
     {
       "id": "JUP_sR_1779266568664",
@@ -389,7 +372,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.288932419196868
+      "peakPnl": 7.247796278158672
     },
     {
       "id": "DASH_sE_1779276850679",
@@ -474,7 +457,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 17.24915445321308
+      "peakPnl": 24.57722660653889
     },
     {
       "id": "RENDER_sE_1779355847806",
@@ -542,7 +525,7 @@
       "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 6.128133704735373
+      "peakPnl": 6.645443692797463
     },
     {
       "id": "APT_sR_1779380943732",
@@ -597,6 +580,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ATOM_sR_1779038036426",
+      "symbol": "ATOM",
+      "name": "Cosmos Hub",
+      "coinId": "cosmos",
+      "rank": 67,
+      "stratId": "sR",
+      "entryPrice": 2.052,
+      "entryTime": 1779038036426,
+      "entryDate": "2026-05-17T17:13:56.426Z",
+      "entrySignal": "Ротация #67 ATOM: BTC Dom=58.2% · Коррекция -8.1% · RSI=60",
+      "strength": 61,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 5.653021442495132,
+      "exitPrice": 2.168,
+      "exitTime": 1779429151211,
+      "exitReason": "Возврат к 7d max $2.1350",
+      "pnl": 5.653021442495132,
+      "pnlUsd": 5.653021442495132,
+      "total": 105.65302144249513
+    },
     {
       "id": "UNI_sR_1779126573909",
       "symbol": "UNI",
@@ -1544,24 +1550,24 @@
     "ZEC_sM": 1779370849454,
     "ICP_sR": 1779380935891
   },
-  "scanCount": 138,
+  "scanCount": 139,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-22T02:50:21.963Z",
+  "lastScan": "2026-05-22T05:53:15.482Z",
   "lastReport": "2026-05-22T02:50:21.963Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 39,
-    "wins": 13,
+    "trades": 40,
+    "wins": 14,
     "losses": 26,
-    "totalPnl": -38.253036565859304,
-    "invested": 3900
+    "totalPnl": -32.60001512336417,
+    "invested": 4000
   },
   "byStrategy": {
     "sR": {
-      "trades": 33,
-      "wins": 12,
-      "pnl": -24.08106527427598
+      "trades": 34,
+      "wins": 13,
+      "pnl": -18.428043831780847
     },
     "sE": {
       "trades": 6,
@@ -1584,9 +1590,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 25,
-        "wins": 9,
-        "pnl": -20.724239337280586
+        "trades": 26,
+        "wins": 10,
+        "pnl": -15.071217894785455
       },
       "sE": {
         "trades": 5,
