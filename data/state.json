@@ -222,23 +222,6 @@
       "peakPnl": 0
     },
     {
-      "id": "UNI_sR_1779126573909",
-      "symbol": "UNI",
-      "name": "Uniswap",
-      "coinId": "uniswap",
-      "rank": 40,
-      "stratId": "sR",
-      "entryPrice": 3.413,
-      "entryTime": 1779126573909,
-      "entryDate": "2026-05-18T17:49:33.909Z",
-      "entrySignal": "Ротация #40 UNI: BTC Dom=58.2% · Коррекция -13.2% · RSI=48",
-      "strength": 74,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 7.5007324934075665
-    },
-    {
       "id": "DOT_sR_1779126575456",
       "symbol": "DOT",
       "name": "Polkadot",
@@ -491,7 +474,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 9.526493799323564
+      "peakPnl": 14.4870349492672
     },
     {
       "id": "RENDER_sE_1779355847806",
@@ -614,6 +597,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "UNI_sR_1779126573909",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "coinId": "uniswap",
+      "rank": 40,
+      "stratId": "sR",
+      "entryPrice": 3.413,
+      "entryTime": 1779126573909,
+      "entryDate": "2026-05-18T17:49:33.909Z",
+      "entrySignal": "Ротация #40 UNI: BTC Dom=58.2% · Коррекция -13.2% · RSI=48",
+      "strength": 74,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 7.5007324934075665,
+      "exitPrice": 3.598,
+      "exitTime": 1779414715998,
+      "exitReason": "📉 Trailing stop: пик +7.5% → откат до +5.4%",
+      "pnl": 5.4204512159390585,
+      "pnlUsd": 5.4204512159390585,
+      "total": 105.42045121593905
+    },
     {
       "id": "CC_sR_1778949428196",
       "symbol": "CC",
@@ -1538,24 +1544,24 @@
     "ZEC_sM": 1779370849454,
     "ICP_sR": 1779380935891
   },
-  "scanCount": 136,
+  "scanCount": 137,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-21T23:51:04.958Z",
-  "lastReport": "2026-05-21T19:48:01.535Z",
+  "lastScan": "2026-05-22T01:52:36.461Z",
+  "lastReport": "2026-05-22T01:52:36.461Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 29,
+  "fearGreed": 28,
   "totalStats": {
-    "trades": 38,
-    "wins": 12,
+    "trades": 39,
+    "wins": 13,
     "losses": 26,
-    "totalPnl": -43.673487781798364,
-    "invested": 3800
+    "totalPnl": -38.253036565859304,
+    "invested": 3900
   },
   "byStrategy": {
     "sR": {
-      "trades": 32,
-      "wins": 11,
-      "pnl": -29.50151649021504
+      "trades": 33,
+      "wins": 12,
+      "pnl": -24.08106527427598
     },
     "sE": {
       "trades": 6,
@@ -1578,9 +1584,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 24,
-        "wins": 8,
-        "pnl": -26.144690553219647
+        "trades": 25,
+        "wins": 9,
+        "pnl": -20.724239337280586
       },
       "sE": {
         "trades": 5,
