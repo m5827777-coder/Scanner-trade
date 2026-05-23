@@ -270,7 +270,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 13.223757937990282
+      "peakPnl": 13.2984684348151
     },
     {
       "id": "XMR_sR_1779521409176",
@@ -2042,10 +2042,10 @@
     "WLD_sE": 1779503703040,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 166,
+  "scanCount": 167,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-23T18:39:22.255Z",
-  "lastReport": "2026-05-23T13:14:19.652Z",
+  "lastScan": "2026-05-23T19:03:25.995Z",
+  "lastReport": "2026-05-23T19:03:25.995Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
