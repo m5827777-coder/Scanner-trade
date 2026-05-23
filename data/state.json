@@ -1,23 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "HBAR_sR_1778752941540",
-      "symbol": "HBAR",
-      "name": "Hedera",
-      "coinId": "hedera-hashgraph",
-      "rank": 30,
-      "stratId": "sR",
-      "entryPrice": 0.09264,
-      "entryTime": 1778752941540,
-      "entryDate": "2026-05-14T10:02:21.540Z",
-      "entrySignal": "Ротация #30 HBAR: BTC Dom=58.2% · Коррекция -7.0% · RSI=54",
-      "strength": 63,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SOL_sR_1779013117880",
       "symbol": "SOL",
       "name": "Solana",
@@ -273,23 +256,6 @@
       "peakPnl": 5.096181452770597
     },
     {
-      "id": "RENDER_sE_1779355847806",
-      "symbol": "RENDER",
-      "name": "Render",
-      "coinId": "render-token",
-      "rank": 70,
-      "stratId": "sE",
-      "entryPrice": 1.955,
-      "entryTime": 1779355847806,
-      "entryDate": "2026-05-21T09:30:47.806Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=1.8779 > EMA21=1.8698 · RSI=56 · Vol x1.0",
-      "strength": 81,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "APT_sR_1779380943732",
       "symbol": "APT",
       "name": "Aptos",
@@ -321,23 +287,6 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "FIGR_HELOC_sE_1779466717921",
-      "symbol": "FIGR_HELOC",
-      "name": "Figure Heloc",
-      "coinId": "figure-heloc",
-      "rank": 9,
-      "stratId": "sE",
-      "entryPrice": 1.0312142,
-      "entryTime": 1779466717921,
-      "entryDate": "2026-05-22T16:18:37.921Z",
-      "entrySignal": "Golden Cross 6д назад · EMA9=1.0308 > EMA21=1.0305 · RSI=50 · Vol x1.3",
-      "strength": 64,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "CoinGecko",
       "peakPnl": 0
     },
     {
@@ -373,9 +322,95 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XMR_sR_1779521409176",
+      "symbol": "XMR",
+      "name": "Monero",
+      "coinId": "monero",
+      "rank": 17,
+      "stratId": "sR",
+      "entryPrice": 376.15882640902805,
+      "entryTime": 1779521409176,
+      "entryDate": "2026-05-23T07:30:09.176Z",
+      "entrySignal": "Ротация #17 XMR: BTC Dom=58% · Коррекция -7.9% · RSI=44",
+      "strength": 74,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "FIGR_HELOC_sE_1779466717921",
+      "symbol": "FIGR_HELOC",
+      "name": "Figure Heloc",
+      "coinId": "figure-heloc",
+      "rank": 9,
+      "stratId": "sE",
+      "entryPrice": 1.0312142,
+      "entryTime": 1779466717921,
+      "entryDate": "2026-05-22T16:18:37.921Z",
+      "entrySignal": "Golden Cross 6д назад · EMA9=1.0308 > EMA21=1.0305 · RSI=50 · Vol x1.3",
+      "strength": 64,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 1.0215117,
+      "exitTime": 1779521400770,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -0.9408811476800792,
+      "pnlUsd": -0.9408811476800792,
+      "total": 99.05911885231993
+    },
+    {
+      "id": "RENDER_sE_1779355847806",
+      "symbol": "RENDER",
+      "name": "Render",
+      "coinId": "render-token",
+      "rank": 70,
+      "stratId": "sE",
+      "entryPrice": 1.955,
+      "entryTime": 1779355847806,
+      "entryDate": "2026-05-21T09:30:47.806Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=1.8779 > EMA21=1.8698 · RSI=56 · Vol x1.0",
+      "strength": 81,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.827,
+      "exitTime": 1779521399400,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.54731457800512,
+      "pnlUsd": -6.547314578005119,
+      "total": 93.45268542199489
+    },
+    {
+      "id": "HBAR_sR_1778752941540",
+      "symbol": "HBAR",
+      "name": "Hedera",
+      "coinId": "hedera-hashgraph",
+      "rank": 30,
+      "stratId": "sR",
+      "entryPrice": 0.09264,
+      "entryTime": 1778752941540,
+      "entryDate": "2026-05-14T10:02:21.540Z",
+      "entrySignal": "Ротация #30 HBAR: BTC Dom=58.2% · Коррекция -7.0% · RSI=54",
+      "strength": 63,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.08734,
+      "exitTime": 1779521394583,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.721070811744386,
+      "pnlUsd": -5.721070811744386,
+      "total": 94.27892918825562
+    },
     {
       "id": "ARB_sR_1779387611335",
       "symbol": "ARB",
@@ -1760,7 +1795,7 @@
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1779038036426,
     "FIGR_HELOC_sE": 1779466717921,
-    "XMR_sR": 1778894276001,
+    "XMR_sR": 1779521409176,
     "ETH_sR": 1779126557406,
     "LTC_sR": 1779126568920,
     "DOGE_sR": 1779126561336,
@@ -1785,29 +1820,29 @@
     "WLD_sE": 1779503703040,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 154,
+  "scanCount": 155,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-23T04:58:12.392Z",
+  "lastScan": "2026-05-23T07:30:41.995Z",
   "lastReport": "2026-05-23T02:35:13.471Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 59,
+    "trades": 62,
     "wins": 21,
-    "losses": 38,
-    "totalPnl": -47.27177125404215,
-    "invested": 5900
+    "losses": 41,
+    "totalPnl": -60.481037791471735,
+    "invested": 6200
   },
   "byStrategy": {
     "sR": {
-      "trades": 44,
+      "trades": 45,
       "wins": 18,
-      "pnl": -19.46297482247227
+      "pnl": -25.184045634216655
     },
     "sE": {
-      "trades": 12,
+      "trades": 14,
       "wins": 2,
-      "pnl": -39.87258189920628
+      "pnl": -47.36077762489148
     },
     "sM": {
       "trades": 3,
@@ -1847,9 +1882,9 @@
     },
     "BEAR": {
       "sR": {
-        "trades": 5,
+        "trades": 6,
         "wins": 0,
-        "pnl": -27.09369596025542
+        "pnl": -32.81476677199981
       },
       "sM": {
         "trades": 2,
@@ -1857,9 +1892,9 @@
         "pnl": -15.331930428643199
       },
       "sE": {
-        "trades": 4,
+        "trades": 6,
         "wins": 0,
-        "pnl": -26.4243097747113
+        "pnl": -33.9125055003965
       }
     }
   },
