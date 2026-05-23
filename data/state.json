@@ -307,23 +307,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ARB_sR_1779387611335",
-      "symbol": "ARB",
-      "name": "Arbitrum",
-      "coinId": "arbitrum",
-      "rank": 86,
-      "stratId": "sR",
-      "entryPrice": 0.11499,
-      "entryTime": 1779387611335,
-      "entryDate": "2026-05-21T18:20:11.335Z",
-      "entrySignal": "Ротация #86 ARB: BTC Dom=58.1% · Коррекция -15.3% · RSI=42",
-      "strength": 80,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "CC_sR_1779407433263",
       "symbol": "CC",
       "name": "Canton",
@@ -393,6 +376,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ARB_sR_1779387611335",
+      "symbol": "ARB",
+      "name": "Arbitrum",
+      "coinId": "arbitrum",
+      "rank": 86,
+      "stratId": "sR",
+      "entryPrice": 0.11499,
+      "entryTime": 1779387611335,
+      "entryDate": "2026-05-21T18:20:11.335Z",
+      "entrySignal": "Ротация #86 ARB: BTC Dom=58.1% · Коррекция -15.3% · RSI=42",
+      "strength": 80,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.10902,
+      "exitTime": 1779512251144,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.191755804852587,
+      "pnlUsd": -5.191755804852587,
+      "total": 94.80824419514741
+    },
     {
       "id": "WLD_sE_1779439397914",
       "symbol": "WLD",
@@ -1779,24 +1785,24 @@
     "WLD_sE": 1779503703040,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 153,
+  "scanCount": 154,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-23T02:35:13.471Z",
+  "lastScan": "2026-05-23T04:58:12.392Z",
   "lastReport": "2026-05-23T02:35:13.471Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 58,
+    "trades": 59,
     "wins": 21,
-    "losses": 37,
-    "totalPnl": -42.08001544918956,
-    "invested": 5800
+    "losses": 38,
+    "totalPnl": -47.27177125404215,
+    "invested": 5900
   },
   "byStrategy": {
     "sR": {
-      "trades": 43,
+      "trades": 44,
       "wins": 18,
-      "pnl": -14.271219017619684
+      "pnl": -19.46297482247227
     },
     "sE": {
       "trades": 12,
@@ -1841,9 +1847,9 @@
     },
     "BEAR": {
       "sR": {
-        "trades": 4,
+        "trades": 5,
         "wins": 0,
-        "pnl": -21.901940155402833
+        "pnl": -27.09369596025542
       },
       "sM": {
         "trades": 2,
