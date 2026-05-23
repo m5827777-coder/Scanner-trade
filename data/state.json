@@ -205,23 +205,6 @@
       "peakPnl": 0
     },
     {
-      "id": "AAVE_sR_1779255526612",
-      "symbol": "AAVE",
-      "name": "Aave",
-      "coinId": "aave",
-      "rank": 60,
-      "stratId": "sR",
-      "entryPrice": 87.98,
-      "entryTime": 1779255526612,
-      "entryDate": "2026-05-20T05:38:46.612Z",
-      "entrySignal": "Ротация #60 AAVE: BTC Dom=58.3% · Коррекция -13.1% · RSI=42",
-      "strength": 77,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ASTER_sE_1779331130364",
       "symbol": "ASTER",
       "name": "Aster",
@@ -322,9 +305,66 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "HYPE_sE_1779533232173",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 11,
+      "stratId": "sE",
+      "entryPrice": 55.773,
+      "entryTime": 1779533232173,
+      "entryDate": "2026-05-23T10:47:12.173Z",
+      "entrySignal": "Golden Cross 6д назад · EMA9=51.4485 > EMA21=47.2301 · RSI=66 · Vol x1.0",
+      "strength": 72,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "NEAR_sM_1779533242314",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 37,
+      "stratId": "sM",
+      "entryPrice": 2.084,
+      "entryTime": 1779533242314,
+      "entryDate": "2026-05-23T10:47:22.314Z",
+      "entrySignal": "Пробой 20d max $1.8310 на +13.8% · Объём x1.5 · RSI=74",
+      "strength": 85,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "AAVE_sR_1779255526612",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "coinId": "aave",
+      "rank": 60,
+      "stratId": "sR",
+      "entryPrice": 87.98,
+      "entryTime": 1779255526612,
+      "entryDate": "2026-05-20T05:38:46.612Z",
+      "entrySignal": "Ротация #60 AAVE: BTC Dom=58.3% · Коррекция -13.1% · RSI=42",
+      "strength": 77,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 83.51,
+      "exitTime": 1779533225296,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.0807001591270735,
+      "pnlUsd": -5.0807001591270735,
+      "total": 94.91929984087292
+    },
     {
       "id": "SOL_sR_1779013117880",
       "symbol": "SOL",
@@ -1796,7 +1836,7 @@
     "CC_sE": 1778759953489,
     "FLR_sE": 1778797959970,
     "XRP_sE": 1778801425373,
-    "HYPE_sE": 1779460082132,
+    "HYPE_sE": 1779533232173,
     "LINK_sR": 1779126565966,
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1779038036426,
@@ -1818,7 +1858,7 @@
     "DASH_sE": 1779276850679,
     "SUI_sR": 1779331120197,
     "ASTER_sE": 1779331130364,
-    "NEAR_sM": 1779439384093,
+    "NEAR_sM": 1779533242314,
     "RENDER_sE": 1779355847806,
     "XMR_sE": 1779359045756,
     "ZEC_sM": 1779370849454,
@@ -1826,24 +1866,24 @@
     "WLD_sE": 1779503703040,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 157,
+  "scanCount": 158,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-23T09:22:31.853Z",
+  "lastScan": "2026-05-23T10:47:47.673Z",
   "lastReport": "2026-05-23T08:11:47.432Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 63,
+    "trades": 64,
     "wins": 21,
-    "losses": 42,
-    "totalPnl": -66.04679404577514,
-    "invested": 6300
+    "losses": 43,
+    "totalPnl": -71.12749420490222,
+    "invested": 6400
   },
   "byStrategy": {
     "sR": {
-      "trades": 46,
+      "trades": 47,
       "wins": 18,
-      "pnl": -30.749801888520068
+      "pnl": -35.830502047647144
     },
     "sE": {
       "trades": 14,
@@ -1888,9 +1928,9 @@
     },
     "BEAR": {
       "sR": {
-        "trades": 7,
+        "trades": 8,
         "wins": 0,
-        "pnl": -38.38052302630322
+        "pnl": -43.4612231854303
       },
       "sM": {
         "trades": 2,
