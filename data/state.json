@@ -474,7 +474,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.873493975903623
+      "peakPnl": 6.927710843373498
     },
     {
       "id": "ARB_sR_1779571845856",
@@ -2065,9 +2065,9 @@
     "WLD_sE": 1779503703040,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 171,
+  "scanCount": 172,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-23T22:26:55.034Z",
+  "lastScan": "2026-05-23T23:28:28.102Z",
   "lastReport": "2026-05-23T19:03:25.995Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
