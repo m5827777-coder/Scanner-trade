@@ -338,6 +338,23 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
+      "peakPnl": 5.710172744721678
+    },
+    {
+      "id": "DASH_sE_1779550477183",
+      "symbol": "DASH",
+      "name": "Dash",
+      "coinId": "dash",
+      "rank": 94,
+      "stratId": "sE",
+      "entryPrice": 45.23,
+      "entryTime": 1779550477183,
+      "entryDate": "2026-05-23T15:34:37.183Z",
+      "entrySignal": "EMA начало расхождения · EMA9=44.9787 > EMA21=44.1330 · RSI=52 · Vol x1.6",
+      "strength": 71,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
       "peakPnl": 0
     }
   ],
@@ -1855,7 +1872,7 @@
     "TON_sR": 1779211293509,
     "FIL_sR": 1779255535985,
     "JUP_sR": 1779266568664,
-    "DASH_sE": 1779276850679,
+    "DASH_sE": 1779550477183,
     "SUI_sR": 1779331120197,
     "ASTER_sE": 1779331130364,
     "NEAR_sM": 1779533242314,
@@ -1866,9 +1883,9 @@
     "WLD_sE": 1779503703040,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 162,
+  "scanCount": 163,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-23T14:17:51.255Z",
+  "lastScan": "2026-05-23T15:34:40.237Z",
   "lastReport": "2026-05-23T13:14:19.652Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
@@ -1944,5 +1961,5 @@
       }
     }
   },
-  "btcDominance": 58
+  "btcDominance": 58.1
 }
