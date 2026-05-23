@@ -287,7 +287,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 6.313036981695938
+      "peakPnl": 10.011206574523717
     },
     {
       "id": "XMR_sR_1779521409176",
@@ -338,7 +338,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 10.94049904030709
+      "peakPnl": 14.34740882917466
     },
     {
       "id": "DASH_sE_1779550477183",
@@ -488,6 +488,23 @@
       "entryDate": "2026-05-23T16:34:05.402Z",
       "entrySignal": "Ротация #83 FIL: BTC Dom=58% · Коррекция -8.0% · RSI=46",
       "strength": 69,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "JUP_sR_1779557801197",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "coinId": "jupiter-exchange-solana",
+      "rank": 87,
+      "stratId": "sR",
+      "entryPrice": 0.1992,
+      "entryTime": 1779557801197,
+      "entryDate": "2026-05-23T17:36:41.197Z",
+      "entrySignal": "Ротация #87 JUP: BTC Dom=58% · Коррекция -11.0% · RSI=49",
+      "strength": 71,
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
@@ -2007,7 +2024,7 @@
     "BTC_sR": 1779202157518,
     "TON_sR": 1779554019490,
     "FIL_sR": 1779554045402,
-    "JUP_sR": 1779266568664,
+    "JUP_sR": 1779557801197,
     "DASH_sE": 1779550477183,
     "SUI_sR": 1779554020771,
     "ASTER_sE": 1779331130364,
@@ -2019,9 +2036,9 @@
     "WLD_sE": 1779503703040,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 164,
+  "scanCount": 165,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-23T16:34:06.158Z",
+  "lastScan": "2026-05-23T17:36:47.049Z",
   "lastReport": "2026-05-23T13:14:19.652Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
