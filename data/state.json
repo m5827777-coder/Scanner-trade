@@ -1,23 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "SOL_sR_1779013117880",
-      "symbol": "SOL",
-      "name": "Solana",
-      "coinId": "solana",
-      "rank": 7,
-      "stratId": "sR",
-      "entryPrice": 87.14,
-      "entryTime": 1779013117880,
-      "entryDate": "2026-05-17T10:18:37.880Z",
-      "entrySignal": "Ротация #7 SOL: BTC Dom=58.2% · Коррекция -11.4% · RSI=48",
-      "strength": 80,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "BNB_sR_1779093283699",
       "symbol": "BNB",
       "name": "BNB",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "SOL_sR_1779013117880",
+      "symbol": "SOL",
+      "name": "Solana",
+      "coinId": "solana",
+      "rank": 7,
+      "stratId": "sR",
+      "entryPrice": 87.14,
+      "entryTime": 1779013117880,
+      "entryDate": "2026-05-17T10:18:37.880Z",
+      "entrySignal": "Ротация #7 SOL: BTC Dom=58.2% · Коррекция -11.4% · RSI=48",
+      "strength": 80,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 82.29,
+      "exitTime": 1779523862616,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.565756254303413,
+      "pnlUsd": -5.565756254303413,
+      "total": 94.43424374569659
+    },
     {
       "id": "FIGR_HELOC_sE_1779466717921",
       "symbol": "FIGR_HELOC",
@@ -1820,24 +1826,24 @@
     "WLD_sE": 1779503703040,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 155,
+  "scanCount": 156,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-23T07:30:41.995Z",
-  "lastReport": "2026-05-23T02:35:13.471Z",
+  "lastScan": "2026-05-23T08:11:47.433Z",
+  "lastReport": "2026-05-23T08:11:47.432Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 62,
+    "trades": 63,
     "wins": 21,
-    "losses": 41,
-    "totalPnl": -60.481037791471735,
-    "invested": 6200
+    "losses": 42,
+    "totalPnl": -66.04679404577514,
+    "invested": 6300
   },
   "byStrategy": {
     "sR": {
-      "trades": 45,
+      "trades": 46,
       "wins": 18,
-      "pnl": -25.184045634216655
+      "pnl": -30.749801888520068
     },
     "sE": {
       "trades": 14,
@@ -1882,9 +1888,9 @@
     },
     "BEAR": {
       "sR": {
-        "trades": 6,
+        "trades": 7,
         "wins": 0,
-        "pnl": -32.81476677199981
+        "pnl": -38.38052302630322
       },
       "sM": {
         "trades": 2,
@@ -1898,5 +1904,5 @@
       }
     }
   },
-  "btcDominance": 58
+  "btcDominance": 58.1
 }
