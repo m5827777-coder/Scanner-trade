@@ -18,23 +18,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XRP_sR_1778930179826",
-      "symbol": "XRP",
-      "name": "XRP",
-      "coinId": "ripple",
-      "rank": 5,
-      "stratId": "sR",
-      "entryPrice": 1.408,
-      "entryTime": 1778930179826,
-      "entryDate": "2026-05-16T11:16:19.826Z",
-      "entrySignal": "Ротация #5 XRP: BTC Dom=58.3% · Коррекция -9.2% · RSI=51",
-      "strength": 75,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SOL_sR_1779013117880",
       "symbol": "SOL",
       "name": "Solana",
@@ -273,23 +256,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ENA_sR_1779255532132",
-      "symbol": "ENA",
-      "name": "Ethena",
-      "coinId": "ethena",
-      "rank": 75,
-      "stratId": "sR",
-      "entryPrice": 0.10584,
-      "entryTime": 1779255532132,
-      "entryDate": "2026-05-20T05:38:52.132Z",
-      "entrySignal": "Ротация #75 ENA: BTC Dom=58.3% · Коррекция -15.8% · RSI=46",
-      "strength": 78,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ASTER_sE_1779331130364",
       "symbol": "ASTER",
       "name": "Aster",
@@ -321,23 +287,6 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "XMR_sE_1779359045756",
-      "symbol": "XMR",
-      "name": "Monero",
-      "coinId": "monero",
-      "rank": 18,
-      "stratId": "sE",
-      "entryPrice": 399.735147812634,
-      "entryTime": 1779359045756,
-      "entryDate": "2026-05-21T10:24:05.756Z",
-      "entrySignal": "EMA начало расхождения · EMA9=396.7329 > EMA21=393.4203 · RSI=56 · Vol x1.3",
-      "strength": 67,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "CoinGecko",
       "peakPnl": 0
     },
     {
@@ -392,23 +341,6 @@
       "peakPnl": 0
     },
     {
-      "id": "WLD_sE_1779439397914",
-      "symbol": "WLD",
-      "name": "Worldcoin",
-      "coinId": "worldcoin-wld",
-      "rank": 71,
-      "stratId": "sE",
-      "entryPrice": 0.2871,
-      "entryTime": 1779439397914,
-      "entryDate": "2026-05-22T08:43:17.914Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.2574 > EMA21=0.2571 · RSI=61 · Vol x1.9",
-      "strength": 90,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FIGR_HELOC_sE_1779466717921",
       "symbol": "FIGR_HELOC",
       "name": "Figure Heloc",
@@ -424,9 +356,118 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "XRP_sR_1779499545235",
+      "symbol": "XRP",
+      "name": "XRP",
+      "coinId": "ripple",
+      "rank": 5,
+      "stratId": "sR",
+      "entryPrice": 1.3372,
+      "entryTime": 1779499545235,
+      "entryDate": "2026-05-23T01:25:45.235Z",
+      "entrySignal": "Ротация #5 XRP: BTC Dom=58% · Коррекция -7.8% · RSI=40",
+      "strength": 81,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "WLD_sE_1779439397914",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 71,
+      "stratId": "sE",
+      "entryPrice": 0.2871,
+      "entryTime": 1779439397914,
+      "entryDate": "2026-05-22T08:43:17.914Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.2574 > EMA21=0.2571 · RSI=61 · Vol x1.9",
+      "strength": 90,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.269,
+      "exitTime": 1779499542438,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.304423545802858,
+      "pnlUsd": -6.304423545802859,
+      "total": 93.69557645419714
+    },
+    {
+      "id": "XMR_sE_1779359045756",
+      "symbol": "XMR",
+      "name": "Monero",
+      "coinId": "monero",
+      "rank": 18,
+      "stratId": "sE",
+      "entryPrice": 399.735147812634,
+      "entryTime": 1779359045756,
+      "entryDate": "2026-05-21T10:24:05.756Z",
+      "entrySignal": "EMA начало расхождения · EMA9=396.7329 > EMA21=393.4203 · RSI=56 · Vol x1.3",
+      "strength": 67,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 379.07232036987864,
+      "exitTime": 1779499540975,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -5.169129498825198,
+      "pnlUsd": -5.169129498825198,
+      "total": 94.8308705011748
+    },
+    {
+      "id": "ENA_sR_1779255532132",
+      "symbol": "ENA",
+      "name": "Ethena",
+      "coinId": "ethena",
+      "rank": 75,
+      "stratId": "sR",
+      "entryPrice": 0.10584,
+      "entryTime": 1779255532132,
+      "entryDate": "2026-05-20T05:38:52.132Z",
+      "entrySignal": "Ротация #75 ENA: BTC Dom=58.3% · Коррекция -15.8% · RSI=46",
+      "strength": 78,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.10009,
+      "exitTime": 1779499539672,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.4327286470143665,
+      "pnlUsd": -5.4327286470143665,
+      "total": 94.56727135298563
+    },
+    {
+      "id": "XRP_sR_1778930179826",
+      "symbol": "XRP",
+      "name": "XRP",
+      "coinId": "ripple",
+      "rank": 5,
+      "stratId": "sR",
+      "entryPrice": 1.408,
+      "entryTime": 1778930179826,
+      "entryDate": "2026-05-16T11:16:19.826Z",
+      "entrySignal": "Ротация #5 XRP: BTC Dom=58.3% · Коррекция -9.2% · RSI=51",
+      "strength": 75,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.337,
+      "exitTime": 1779499535115,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.042613636363633,
+      "pnlUsd": -5.042613636363633,
+      "total": 94.95738636363637
+    },
     {
       "id": "NEAR_sM_1779439384092",
       "symbol": "NEAR",
@@ -1700,7 +1741,7 @@
     "ETH_sR": 1779126557406,
     "LTC_sR": 1779126568920,
     "DOGE_sR": 1779126561336,
-    "XRP_sR": 1778930179826,
+    "XRP_sR": 1779499545235,
     "ZEC_sR": 1779034352031,
     "BNB_sR": 1779093283699,
     "TRX_sE": 1779117523577,
@@ -1721,29 +1762,29 @@
     "WLD_sE": 1779439397914,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 151,
+  "scanCount": 152,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-22T23:41:09.806Z",
+  "lastScan": "2026-05-23T01:26:23.348Z",
   "lastReport": "2026-05-22T19:28:36.773Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 54,
+    "trades": 58,
     "wins": 21,
-    "losses": 33,
-    "totalPnl": -20.131120121183507,
-    "invested": 5400
+    "losses": 37,
+    "totalPnl": -42.08001544918956,
+    "invested": 5800
   },
   "byStrategy": {
     "sR": {
-      "trades": 41,
+      "trades": 43,
       "wins": 18,
-      "pnl": -3.795876734241684
+      "pnl": -14.271219017619684
     },
     "sE": {
-      "trades": 10,
+      "trades": 12,
       "wins": 2,
-      "pnl": -28.399028854578223
+      "pnl": -39.87258189920628
     },
     "sM": {
       "trades": 3,
@@ -1783,9 +1824,9 @@
     },
     "BEAR": {
       "sR": {
-        "trades": 2,
+        "trades": 4,
         "wins": 0,
-        "pnl": -11.426597872024832
+        "pnl": -21.901940155402833
       },
       "sM": {
         "trades": 2,
@@ -1793,11 +1834,11 @@
         "pnl": -15.331930428643199
       },
       "sE": {
-        "trades": 2,
+        "trades": 4,
         "wins": 0,
-        "pnl": -14.950756730083246
+        "pnl": -26.4243097747113
       }
     }
   },
-  "btcDominance": 58.1
+  "btcDominance": 58
 }
