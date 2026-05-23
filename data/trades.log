@@ -33547,3 +33547,60 @@
 [2026-05-23 15:34:40 UTC] ✅ Данные: 56 токенов OK, 23 недоступно | Открыто: 1 | Всего: 21
 [2026-05-23 15:34:40 UTC] 
 📊 ИТОГ: WR=32.8% PnL=$-71.13 Trades=64
+[2026-05-23 16:33:23 UTC] ════════════════════════════════════════════════════
+[2026-05-23 16:33:23 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-05-23 16:33:23 UTC] ════════════════════════════════════════════════════
+[2026-05-23 16:33:23 UTC] 📡 Scan #164
+[2026-05-23 16:33:24 UTC] 📊 BTC Dom=58%
+[2026-05-23 16:33:24 UTC] 🌡 F&G=28 Regime=BEAR Open=21
+[2026-05-23 16:33:24 UTC]   📂 HOLD BNB/sR PnL=+1.11%
+[2026-05-23 16:33:25 UTC]   📂 HOLD TRX/sE PnL=+1.42%
+[2026-05-23 16:33:25 UTC]   📂 HOLD WBT/sR PnL=-1.30%
+[2026-05-23 16:33:25 UTC]   📂 HOLD ETH/sR PnL=-2.37%
+[2026-05-23 16:33:25 UTC]   📂 HOLD DOGE/sR PnL=-2.94%
+[2026-05-23 16:33:26 UTC]   📂 HOLD ADA/sR PnL=-2.92%
+[2026-05-23 16:33:26 UTC]   📂 HOLD LINK/sR PnL=-1.50%
+[2026-05-23 16:33:26 UTC]   📂 HOLD LTC/sR PnL=-1.71%
+[2026-05-23 16:33:26 UTC]   📂 HOLD ETC/sR PnL=+1.27%
+[2026-05-23 16:33:27 UTC]   📂 HOLD ALGO/sR PnL=+0.24%
+[2026-05-23 16:33:27 UTC]   📂 HOLD BTC/sR PnL=-0.98%
+[2026-05-23 16:33:27 UTC]   📂 HOLD XLM/sR PnL=-0.47%
+[2026-05-23 16:33:27 UTC]   📂 HOLD ASTER/sE PnL=-2.83%
+[2026-05-23 16:33:28 UTC]   📂 HOLD APT/sR PnL=-1.27%
+[2026-05-23 16:33:28 UTC]   📂 HOLD CC/sR PnL=+0.17%
+[2026-05-23 16:33:28 UTC]   📂 HOLD XRP/sR PnL=-0.03%
+[2026-05-23 16:33:28 UTC]   📂 HOLD WLD/sE PnL=+6.31%
+[2026-05-23 16:33:29 UTC]   📂 HOLD XMR/sR PnL=+0.65%
+[2026-05-23 16:33:29 UTC]   📂 HOLD HYPE/sE PnL=+2.77%
+[2026-05-23 16:33:29 UTC]   📂 HOLD NEAR/sM PnL=+10.94%
+[2026-05-23 16:33:29 UTC]   📂 HOLD DASH/sE PnL=-0.35%
+[2026-05-23 16:33:29 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-05-23 16:33:29 UTC] ✓ CoinGecko: 79 токенов. Проверяю входы...
+[2026-05-23 16:33:36 UTC]   ⏭ XMR: нет данных (monero)
+[2026-05-23 16:33:38 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-05-23 16:33:39 UTC]   📈 ENTRY TON/sR [NEUTRAL] via OKX: Ротация #23 TON: BTC Dom=58% · Коррекция -15.0% · RSI=45 @ $1.779
+[2026-05-23 16:33:40 UTC]   📈 ENTRY SUI/sR [NEUTRAL] via OKX: Ротация #26 SUI: BTC Dom=58% · Коррекция -10.7% · RSI=48 @ $1.0399
+[2026-05-23 16:33:43 UTC]   ⏭ M: нет данных (memecore)
+[2026-05-23 16:33:43 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-05-23 16:33:46 UTC]   ⏭ TAO: нет данных (bittensor)
+[2026-05-23 16:33:46 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-05-23 16:33:47 UTC]   📈 ENTRY UNI/sR [NEUTRAL] via OKX: Ротация #41 UNI: BTC Dom=58% · Коррекция -8.0% · RSI=47 @ $3.399
+[2026-05-23 16:33:48 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-05-23 16:33:49 UTC]   📈 ENTRY DOT/sR [NEUTRAL] via OKX: Ротация #45 DOT: BTC Dom=58% · Коррекция -7.7% · RSI=47 @ $1.242
+[2026-05-23 16:33:51 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-05-23 16:33:54 UTC]   📈 ENTRY ICP/sR [BEAR] via OKX: Ротация #57 ICP: BTC Dom=58% · Коррекция -7.9% · RSI=45 @ $2.535
+[2026-05-23 16:33:55 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-05-23 16:33:57 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-05-23 16:33:57 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-05-23 16:33:58 UTC]   ⏭ U: нет данных (united-stables)
+[2026-05-23 16:33:59 UTC]   📈 ENTRY RENDER/sR [NEUTRAL] via OKX: Ротация #71 RENDER: BTC Dom=58% · Коррекция -11.0% · RSI=49 @ $1.87
+[2026-05-23 16:34:01 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-05-23 16:34:02 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-05-23 16:34:02 UTC]   📈 ENTRY ENA/sR [BEAR] via OKX: Ротация #77 ENA: BTC Dom=58% · Коррекция -10.7% · RSI=41 @ $0.09855
+[2026-05-23 16:34:03 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-05-23 16:34:04 UTC]   ⏭ VVV: нет данных (venice-token)
+[2026-05-23 16:34:04 UTC]   ⏭ JST: нет данных (just)
+[2026-05-23 16:34:05 UTC]   📈 ENTRY FIL/sR [NEUTRAL] via OKX: Ротация #83 FIL: BTC Dom=58% · Коррекция -8.0% · RSI=46 @ $0.9559
+[2026-05-23 16:34:06 UTC] ✅ Данные: 47 токенов OK, 17 недоступно | Открыто: 8 | Всего: 29
+[2026-05-23 16:34:06 UTC] 
+📊 ИТОГ: WR=32.8% PnL=$-71.13 Trades=64
