@@ -1866,9 +1866,9 @@
     "WLD_sE": 1779503703040,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 161,
+  "scanCount": 162,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-23T13:14:19.652Z",
+  "lastScan": "2026-05-23T14:17:51.255Z",
   "lastReport": "2026-05-23T13:14:19.652Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
@@ -1944,5 +1944,5 @@
       }
     }
   },
-  "btcDominance": 58.1
+  "btcDominance": 58
 }
