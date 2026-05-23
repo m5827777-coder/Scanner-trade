@@ -304,7 +304,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.2624029548347675
+      "peakPnl": 6.219855485629236
     },
     {
       "id": "NEAR_sM_1779533242314",
@@ -2042,9 +2042,9 @@
     "WLD_sE": 1779503703040,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 168,
+  "scanCount": 169,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-23T19:47:43.299Z",
+  "lastScan": "2026-05-23T20:34:02.173Z",
   "lastReport": "2026-05-23T19:03:25.995Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
@@ -2120,5 +2120,5 @@
       }
     }
   },
-  "btcDominance": 58
+  "btcDominance": 58.1
 }
