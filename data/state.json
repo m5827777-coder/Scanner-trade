@@ -270,7 +270,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 13.2984684348151
+      "peakPnl": 13.634665670526722
     },
     {
       "id": "XMR_sR_1779521409176",
@@ -321,7 +321,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 15.499040307101724
+      "peakPnl": 16.218809980806146
     },
     {
       "id": "DASH_sE_1779550477183",
@@ -406,7 +406,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.636070853462162
     },
     {
       "id": "ICP_sR_1779554034302",
@@ -457,7 +457,7 @@
       "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.154743784880773
     },
     {
       "id": "FIL_sR_1779554045402",
@@ -489,6 +489,23 @@
       "entrySignal": "Ротация #87 JUP: BTC Dom=58% · Коррекция -11.0% · RSI=49",
       "strength": 71,
       "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 5.371485943775109
+    },
+    {
+      "id": "ARB_sR_1779571845856",
+      "symbol": "ARB",
+      "name": "Arbitrum",
+      "coinId": "arbitrum",
+      "rank": 87,
+      "stratId": "sR",
+      "entryPrice": 0.11042,
+      "entryTime": 1779571845857,
+      "entryDate": "2026-05-23T21:30:45.857Z",
+      "entrySignal": "Ротация #87 ARB: BTC Dom=58.1% · Коррекция -9.8% · RSI=38",
+      "strength": 76,
+      "regime": "BEAR",
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
@@ -2006,7 +2023,7 @@
     "ALGO_sR": 1779200452029,
     "RENDER_sR": 1779554039544,
     "APT_sR": 1779380943732,
-    "ARB_sR": 1779387611335,
+    "ARB_sR": 1779571845857,
     "AVAX_sR": 1778943064629,
     "HBAR_sR": 1778752941540,
     "CC_sE": 1778759953489,
@@ -2042,11 +2059,11 @@
     "WLD_sE": 1779503703040,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 169,
+  "scanCount": 170,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-23T20:34:02.173Z",
+  "lastScan": "2026-05-23T21:30:52.052Z",
   "lastReport": "2026-05-23T19:03:25.995Z",
-  "marketRegime": "BEAR",
+  "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
     "trades": 65,
