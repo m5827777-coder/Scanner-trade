@@ -1,23 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "BNB_sR_1779093283699",
-      "symbol": "BNB",
-      "name": "BNB",
-      "coinId": "binancecoin",
-      "rank": 4,
-      "stratId": "sR",
-      "entryPrice": 639.8,
-      "entryTime": 1779093283699,
-      "entryDate": "2026-05-18T08:34:43.699Z",
-      "entrySignal": "Ротация #4 BNB: BTC Dom=58.3% · Коррекция -7.3% · RSI=49",
-      "strength": 74,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "TRX_sE_1779117523577",
       "symbol": "TRX",
       "name": "TRON",
@@ -287,7 +270,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 10.011206574523717
+      "peakPnl": 13.223757937990282
     },
     {
       "id": "XMR_sR_1779521409176",
@@ -321,7 +304,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.2624029548347675
     },
     {
       "id": "NEAR_sM_1779533242314",
@@ -338,7 +321,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 14.34740882917466
+      "peakPnl": 15.499040307101724
     },
     {
       "id": "DASH_sE_1779550477183",
@@ -512,6 +495,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "BNB_sR_1779093283699",
+      "symbol": "BNB",
+      "name": "BNB",
+      "coinId": "binancecoin",
+      "rank": 4,
+      "stratId": "sR",
+      "entryPrice": 639.8,
+      "entryTime": 1779093283699,
+      "entryDate": "2026-05-18T08:34:43.699Z",
+      "entrySignal": "Ротация #4 BNB: BTC Dom=58.3% · Коррекция -7.3% · RSI=49",
+      "strength": 74,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 652.1,
+      "exitTime": 1779561513789,
+      "exitReason": "Возврат к 7d max $664.3000",
+      "pnl": 1.9224757736792855,
+      "pnlUsd": 1.9224757736792855,
+      "total": 101.92247577367928
+    },
     {
       "id": "AAVE_sR_1779255526612",
       "symbol": "AAVE",
@@ -2036,24 +2042,24 @@
     "WLD_sE": 1779503703040,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 165,
+  "scanCount": 166,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-23T17:36:47.049Z",
+  "lastScan": "2026-05-23T18:39:22.255Z",
   "lastReport": "2026-05-23T13:14:19.652Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 64,
-    "wins": 21,
+    "trades": 65,
+    "wins": 22,
     "losses": 43,
-    "totalPnl": -71.12749420490222,
-    "invested": 6400
+    "totalPnl": -69.20501843122294,
+    "invested": 6500
   },
   "byStrategy": {
     "sR": {
-      "trades": 47,
-      "wins": 18,
-      "pnl": -35.830502047647144
+      "trades": 48,
+      "wins": 19,
+      "pnl": -33.908026273967856
     },
     "sE": {
       "trades": 14,
@@ -2098,9 +2104,9 @@
     },
     "BEAR": {
       "sR": {
-        "trades": 8,
-        "wins": 0,
-        "pnl": -43.4612231854303
+        "trades": 9,
+        "wins": 1,
+        "pnl": -41.53874741175101
       },
       "sM": {
         "trades": 2,
