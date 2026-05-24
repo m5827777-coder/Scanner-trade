@@ -34751,3 +34751,66 @@
 [2026-05-24 14:02:02 UTC] ✅ Данные: 56 токенов OK, 23 недоступно | Открыто: 0 | Всего: 28
 [2026-05-24 14:02:02 UTC] 
 📊 ИТОГ: WR=38.6% PnL=$-44.74 Trades=70
+[2026-05-24 15:12:49 UTC] ════════════════════════════════════════════════════
+[2026-05-24 15:12:49 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-05-24 15:12:49 UTC] ════════════════════════════════════════════════════
+[2026-05-24 15:12:49 UTC] 📡 Scan #183
+[2026-05-24 15:12:49 UTC] 📊 BTC Dom=58.1%
+[2026-05-24 15:12:49 UTC] 🌡 F&G=25 Regime=NEUTRAL Open=28
+[2026-05-24 15:12:49 UTC]   📂 HOLD TRX/sE PnL=+3.28%
+[2026-05-24 15:12:49 UTC]   📂 HOLD ETH/sR PnL=-0.51%
+[2026-05-24 15:12:50 UTC]   📂 HOLD DOGE/sR PnL=-1.91%
+[2026-05-24 15:12:50 UTC]   📂 HOLD ADA/sR PnL=-2.68%
+[2026-05-24 15:12:50 UTC]   📂 HOLD LINK/sR PnL=-0.13%
+[2026-05-24 15:12:50 UTC]   📂 HOLD LTC/sR PnL=-1.75%
+[2026-05-24 15:12:50 UTC]   📂 HOLD ETC/sR PnL=+2.25%
+[2026-05-24 15:12:51 UTC]   📂 HOLD ALGO/sR PnL=-0.36%
+[2026-05-24 15:12:51 UTC]   📂 HOLD XLM/sR PnL=+0.70%
+[2026-05-24 15:12:51 UTC]   📂 HOLD ASTER/sE PnL=+2.11%
+[2026-05-24 15:12:51 UTC]   📂 HOLD APT/sR PnL=-0.73%
+[2026-05-24 15:12:51 UTC]   📂 HOLD XRP/sR PnL=+1.01%
+[2026-05-24 15:12:52 UTC]   📉 TRAIL STOP WLD/sE: peak=+14.3% → now=+12.3% held=1д 12ч
+[2026-05-24 15:12:53 UTC]   📂 HOLD XMR/sR PnL=+3.39%
+[2026-05-24 15:12:53 UTC]   📂 HOLD HYPE/sE PnL=+12.84%
+[2026-05-24 15:12:53 UTC]   📂 HOLD DASH/sE PnL=-0.33%
+[2026-05-24 15:12:53 UTC]   📂 HOLD TON/sR PnL=-2.47%
+[2026-05-24 15:12:54 UTC]   📂 HOLD SUI/sR PnL=+0.51%
+[2026-05-24 15:12:54 UTC]   📂 HOLD UNI/sR PnL=-0.24%
+[2026-05-24 15:12:54 UTC]   📂 HOLD DOT/sR PnL=+1.61%
+[2026-05-24 15:12:54 UTC]   📂 HOLD ICP/sR PnL=+1.18%
+[2026-05-24 15:12:54 UTC]   📂 HOLD ENA/sR PnL=+0.38%
+[2026-05-24 15:12:54 UTC]   📂 HOLD FIL/sR PnL=+0.09%
+[2026-05-24 15:12:55 UTC]   📂 HOLD JUP/sR PnL=+1.96%
+[2026-05-24 15:12:55 UTC]   📂 HOLD ARB/sR PnL=-3.96%
+[2026-05-24 15:12:55 UTC]   📂 HOLD NEAR/sM PnL=+5.42%
+[2026-05-24 15:12:55 UTC]   📂 HOLD RENDER/sR PnL=+0.98%
+[2026-05-24 15:12:55 UTC]   📂 HOLD MORPHO/sE PnL=+1.06%
+[2026-05-24 15:12:55 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-05-24 15:12:55 UTC] ✓ CoinGecko: 79 токенов. Проверяю входы...
+[2026-05-24 15:13:03 UTC]   📈 ENTRY CC/sE [BULL] via OKX: EMA начало расхождения · EMA9=0.1571 > EMA21=0.1547 · RSI=61 · Vol x1.0 @ $0.16608
+[2026-05-24 15:13:07 UTC]   ⏭ M: нет данных (memecore)
+[2026-05-24 15:13:08 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-05-24 15:13:10 UTC]   ⏭ TAO: нет данных (bittensor)
+[2026-05-24 15:13:10 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-05-24 15:13:11 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-05-24 15:13:14 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-05-24 15:13:17 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-05-24 15:13:18 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-05-24 15:13:19 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-05-24 15:13:19 UTC]   ⏭ U: нет данных (united-stables)
+[2026-05-24 15:13:20 UTC]   📈 ENTRY WLD/sE [BULL_TREND] via OKX: Golden Cross 2д назад · EMA9=0.2712 > EMA21=0.2638 · RSI=62 · Vol x2.1 @ $0.3007
+[2026-05-24 15:13:23 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-05-24 15:13:23 UTC]   ⏭ VVV: нет данных (venice-token)
+[2026-05-24 15:13:23 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-05-24 15:13:24 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-05-24 15:13:24 UTC]   ⏭ JST: нет данных (just)
+[2026-05-24 15:13:26 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-05-24 15:13:26 UTC]   ⏭ DEXE: нет данных (dexe)
+[2026-05-24 15:13:28 UTC]   ⏭ XDC: нет данных (xdce-crowd-sale)
+[2026-05-24 15:13:28 UTC]   ⏭ BDX: нет данных (beldex)
+[2026-05-24 15:13:29 UTC]   ⏭ GHO: нет данных (gho)
+[2026-05-24 15:13:29 UTC]   ⏭ HASH: нет данных (hash-2)
+[2026-05-24 15:13:30 UTC]   ⏭ VET: нет данных (vechain)
+[2026-05-24 15:13:32 UTC] ✅ Данные: 57 токенов OK, 22 недоступно | Открыто: 2 | Всего: 29
+[2026-05-24 15:13:32 UTC] 
+📊 ИТОГ: WR=39.4% PnL=$-32.45 Trades=71

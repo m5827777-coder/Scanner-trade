@@ -205,23 +205,6 @@
       "peakPnl": 0
     },
     {
-      "id": "WLD_sE_1779503703040",
-      "symbol": "WLD",
-      "name": "Worldcoin",
-      "coinId": "worldcoin-wld",
-      "rank": 76,
-      "stratId": "sE",
-      "entryPrice": 0.2677,
-      "entryTime": 1779503703040,
-      "entryDate": "2026-05-23T02:35:03.040Z",
-      "entrySignal": "Golden Cross вчера · EMA9=0.2609 > EMA21=0.2591 · RSI=51 · Vol x1.0",
-      "strength": 79,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 14.344415390362341
-    },
-    {
       "id": "XMR_sR_1779521409176",
       "symbol": "XMR",
       "name": "Monero",
@@ -440,7 +423,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.420401195049092
     },
     {
       "id": "RENDER_sR_1779600972129",
@@ -475,9 +458,66 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "CC_sE_1779635583749",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 20,
+      "stratId": "sE",
+      "entryPrice": 0.16608,
+      "entryTime": 1779635583749,
+      "entryDate": "2026-05-24T15:13:03.749Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.1571 > EMA21=0.1547 · RSI=61 · Vol x1.0",
+      "strength": 72,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "WLD_sE_1779635600295",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 69,
+      "stratId": "sE",
+      "entryPrice": 0.3007,
+      "entryTime": 1779635600295,
+      "entryDate": "2026-05-24T15:13:20.295Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=0.2712 > EMA21=0.2638 · RSI=62 · Vol x2.1",
+      "strength": 88,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "WLD_sE_1779503703040",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 76,
+      "stratId": "sE",
+      "entryPrice": 0.2677,
+      "entryTime": 1779503703040,
+      "entryDate": "2026-05-23T02:35:03.040Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.2609 > EMA21=0.2591 · RSI=51 · Vol x1.0",
+      "strength": 79,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 14.344415390362341,
+      "exitPrice": 0.3006,
+      "exitTime": 1779635572005,
+      "exitReason": "📉 Trailing stop: пик +14.3% → откат до +12.3%",
+      "pnl": 12.289876727680234,
+      "pnlUsd": 12.289876727680234,
+      "total": 112.28987672768024
+    },
     {
       "id": "BTC_sR_1779202157518",
       "symbol": "BTC",
@@ -2107,7 +2147,7 @@
     "ARB_sR": 1779571845857,
     "AVAX_sR": 1778943064629,
     "HBAR_sR": 1778752941540,
-    "CC_sE": 1778759953489,
+    "CC_sE": 1779635583749,
     "FLR_sE": 1778797959970,
     "XRP_sE": 1778801425373,
     "HYPE_sE": 1779533232173,
@@ -2137,22 +2177,22 @@
     "XMR_sE": 1779359045756,
     "ZEC_sM": 1779370849454,
     "ICP_sR": 1779554034302,
-    "WLD_sE": 1779503703040,
+    "WLD_sE": 1779635600295,
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779621862509
   },
-  "scanCount": 182,
+  "scanCount": 183,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-24T14:02:02.842Z",
+  "lastScan": "2026-05-24T15:13:32.001Z",
   "lastReport": "2026-05-24T13:14:44.828Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 70,
-    "wins": 27,
+    "trades": 71,
+    "wins": 28,
     "losses": 43,
-    "totalPnl": -44.736678145100754,
-    "invested": 7000
+    "totalPnl": -32.44680141742052,
+    "invested": 7100
   },
   "byStrategy": {
     "sR": {
@@ -2161,9 +2201,9 @@
       "pnl": -22.827401918747775
     },
     "sE": {
-      "trades": 14,
-      "wins": 2,
-      "pnl": -47.36077762489148
+      "trades": 15,
+      "wins": 3,
+      "pnl": -35.070900897211246
     },
     "sM": {
       "trades": 4,
@@ -2191,9 +2231,9 @@
         "pnl": 22.06817142999862
       },
       "sE": {
-        "trades": 7,
-        "wins": 2,
-        "pnl": -7.302714841155448
+        "trades": 8,
+        "wins": 3,
+        "pnl": 4.9871618865247855
       },
       "sM": {
         "trades": 2,
