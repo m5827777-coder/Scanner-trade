@@ -219,7 +219,7 @@
       "regime": "BEAR",
       "size": 100,
       "src": "CoinGecko",
-      "peakPnl": 5.403544536057258
+      "peakPnl": 5.801532084920757
     },
     {
       "id": "HYPE_sE_1779533232173",
@@ -2198,9 +2198,9 @@
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779621862509
   },
-  "scanCount": 187,
+  "scanCount": 188,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-24T19:10:29.392Z",
+  "lastScan": "2026-05-24T19:40:39.119Z",
   "lastReport": "2026-05-24T19:10:29.392Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
