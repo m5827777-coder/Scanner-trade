@@ -222,23 +222,6 @@
       "peakPnl": 5.801532084920757
     },
     {
-      "id": "HYPE_sE_1779533232173",
-      "symbol": "HYPE",
-      "name": "Hyperliquid",
-      "coinId": "hyperliquid",
-      "rank": 11,
-      "stratId": "sE",
-      "entryPrice": 55.773,
-      "entryTime": 1779533232173,
-      "entryDate": "2026-05-23T10:47:12.173Z",
-      "entrySignal": "Golden Cross 6д назад · EMA9=51.4485 > EMA21=47.2301 · RSI=66 · Vol x1.0",
-      "strength": 72,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 14.657630036038938
-    },
-    {
       "id": "DASH_sE_1779550477183",
       "symbol": "DASH",
       "name": "Dash",
@@ -392,23 +375,6 @@
       "peakPnl": 6.927710843373498
     },
     {
-      "id": "ARB_sR_1779571845856",
-      "symbol": "ARB",
-      "name": "Arbitrum",
-      "coinId": "arbitrum",
-      "rank": 87,
-      "stratId": "sR",
-      "entryPrice": 0.11042,
-      "entryTime": 1779571845857,
-      "entryDate": "2026-05-23T21:30:45.857Z",
-      "entrySignal": "Ротация #87 ARB: BTC Dom=58.1% · Коррекция -9.8% · RSI=38",
-      "strength": 76,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "NEAR_sM_1779600959266",
       "symbol": "NEAR",
       "name": "NEAR Protocol",
@@ -509,9 +475,72 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ATOM_sR_1779658385501",
+      "symbol": "ATOM",
+      "name": "Cosmos Hub",
+      "coinId": "cosmos",
+      "rank": 67,
+      "stratId": "sR",
+      "entryPrice": 2.019,
+      "entryTime": 1779658385501,
+      "entryDate": "2026-05-24T21:33:05.501Z",
+      "entrySignal": "Ротация #67 ATOM: BTC Dom=58.2% · Коррекция -7.8% · RSI=54",
+      "strength": 64,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "ARB_sR_1779571845856",
+      "symbol": "ARB",
+      "name": "Arbitrum",
+      "coinId": "arbitrum",
+      "rank": 87,
+      "stratId": "sR",
+      "entryPrice": 0.11042,
+      "entryTime": 1779571845857,
+      "entryDate": "2026-05-23T21:30:45.857Z",
+      "entrySignal": "Ротация #87 ARB: BTC Dom=58.1% · Коррекция -9.8% · RSI=38",
+      "strength": 76,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.10486,
+      "exitTime": 1779658357386,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.035319688462243,
+      "pnlUsd": -5.035319688462243,
+      "total": 94.96468031153776
+    },
+    {
+      "id": "HYPE_sE_1779533232173",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 11,
+      "stratId": "sE",
+      "entryPrice": 55.773,
+      "entryTime": 1779533232173,
+      "entryDate": "2026-05-23T10:47:12.173Z",
+      "entrySignal": "Golden Cross 6д назад · EMA9=51.4485 > EMA21=47.2301 · RSI=66 · Vol x1.0",
+      "strength": 72,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 14.657630036038938,
+      "exitPrice": 62.034,
+      "exitTime": 1779658354208,
+      "exitReason": "📉 Trailing stop: пик +14.7% → откат до +11.2%",
+      "pnl": 11.225861976225046,
+      "pnlUsd": 11.225861976225046,
+      "total": 111.22586197622505
+    },
     {
       "id": "WLD_sE_1779503703040",
       "symbol": "WLD",
@@ -2170,7 +2199,7 @@
     "HYPE_sE": 1779533232173,
     "LINK_sR": 1779126565966,
     "NEAR_sR": 1778862201360,
-    "ATOM_sR": 1779038036426,
+    "ATOM_sR": 1779658385501,
     "FIGR_HELOC_sE": 1779466717921,
     "XMR_sR": 1779521409176,
     "ETH_sR": 1779126557406,
@@ -2198,29 +2227,29 @@
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779621862509
   },
-  "scanCount": 189,
+  "scanCount": 190,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-24T20:34:51.536Z",
+  "lastScan": "2026-05-24T21:33:19.946Z",
   "lastReport": "2026-05-24T19:10:29.392Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 71,
-    "wins": 28,
-    "losses": 43,
-    "totalPnl": -32.44680141742052,
-    "invested": 7100
+    "trades": 73,
+    "wins": 29,
+    "losses": 44,
+    "totalPnl": -26.256259129657714,
+    "invested": 7300
   },
   "byStrategy": {
     "sR": {
-      "trades": 52,
+      "trades": 53,
       "wins": 23,
-      "pnl": -22.827401918747775
+      "pnl": -27.86272160721002
     },
     "sE": {
-      "trades": 15,
-      "wins": 3,
-      "pnl": -35.070900897211246
+      "trades": 16,
+      "wins": 4,
+      "pnl": -23.845038920986198
     },
     "sM": {
       "trades": 4,
@@ -2243,14 +2272,14 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 35,
+        "trades": 36,
         "wins": 19,
-        "pnl": 22.06817142999862
+        "pnl": 17.032851741536376
       },
       "sE": {
-        "trades": 8,
-        "wins": 3,
-        "pnl": 4.9871618865247855
+        "trades": 9,
+        "wins": 4,
+        "pnl": 16.213023862749832
       },
       "sM": {
         "trades": 2,
