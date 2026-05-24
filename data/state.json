@@ -270,7 +270,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 9.144209563767404
+      "peakPnl": 10.695139225073056
     },
     {
       "id": "DASH_sE_1779550477183",
@@ -2117,9 +2117,9 @@
     "WLD_sE": 1779503703040,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 175,
+  "scanCount": 176,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-24T05:36:24.101Z",
+  "lastScan": "2026-05-24T08:05:03.766Z",
   "lastReport": "2026-05-24T02:46:27.583Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
