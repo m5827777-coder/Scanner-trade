@@ -2198,9 +2198,9 @@
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779621862509
   },
-  "scanCount": 188,
+  "scanCount": 189,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-24T19:40:39.119Z",
+  "lastScan": "2026-05-24T20:34:51.536Z",
   "lastReport": "2026-05-24T19:10:29.392Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
@@ -2276,5 +2276,5 @@
       }
     }
   },
-  "btcDominance": 58.1
+  "btcDominance": 58.2
 }
