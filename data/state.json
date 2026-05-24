@@ -392,23 +392,6 @@
       "peakPnl": 0
     },
     {
-      "id": "RENDER_sR_1779554039544",
-      "symbol": "RENDER",
-      "name": "Render",
-      "coinId": "render-token",
-      "rank": 71,
-      "stratId": "sR",
-      "entryPrice": 1.87,
-      "entryTime": 1779554039544,
-      "entryDate": "2026-05-23T16:33:59.544Z",
-      "entrySignal": "Ротация #71 RENDER: BTC Dom=58% · Коррекция -11.0% · RSI=49",
-      "strength": 71,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 8.181818181818183
-    },
-    {
       "id": "ENA_sR_1779554042696",
       "symbol": "ENA",
       "name": "Ethena",
@@ -478,6 +461,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "RENDER_sR_1779554039544",
+      "symbol": "RENDER",
+      "name": "Render",
+      "coinId": "render-token",
+      "rank": 71,
+      "stratId": "sR",
+      "entryPrice": 1.87,
+      "entryTime": 1779554039544,
+      "entryDate": "2026-05-23T16:33:59.544Z",
+      "entrySignal": "Ротация #71 RENDER: BTC Dom=58% · Коррекция -11.0% · RSI=49",
+      "strength": 71,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 8.181818181818183,
+      "exitPrice": 1.972,
+      "exitTime": 1779590745502,
+      "exitReason": "📉 Trailing stop: пик +8.2% → откат до +5.5%",
+      "pnl": 5.454545454545447,
+      "pnlUsd": 5.454545454545447,
+      "total": 105.45454545454545
+    },
     {
       "id": "WBT_sR_1779119539183",
       "symbol": "WBT",
@@ -2071,24 +2077,24 @@
     "WLD_sE": 1779503703040,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 173,
+  "scanCount": 174,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-24T01:29:23.698Z",
-  "lastReport": "2026-05-24T01:29:23.698Z",
+  "lastScan": "2026-05-24T02:46:27.583Z",
+  "lastReport": "2026-05-24T02:46:27.583Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 67,
-    "wins": 24,
+    "trades": 68,
+    "wins": 25,
     "losses": 43,
-    "totalPnl": -55.05088940349192,
-    "invested": 6700
+    "totalPnl": -49.596343948946476,
+    "invested": 6800
   },
   "byStrategy": {
     "sR": {
-      "trades": 49,
-      "wins": 20,
-      "pnl": -33.14161317713894
+      "trades": 50,
+      "wins": 21,
+      "pnl": -27.687067722593497
     },
     "sE": {
       "trades": 14,
@@ -2116,9 +2122,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 32,
-        "wins": 16,
-        "pnl": 11.753960171607451
+        "trades": 33,
+        "wins": 17,
+        "pnl": 17.2085056261529
       },
       "sE": {
         "trades": 7,
@@ -2149,5 +2155,5 @@
       }
     }
   },
-  "btcDominance": 58
+  "btcDominance": 58.1
 }
