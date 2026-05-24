@@ -219,7 +219,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 14.045573403063138
+      "peakPnl": 14.344415390362341
     },
     {
       "id": "XMR_sR_1779521409176",
@@ -253,7 +253,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 13.902784501461277
+      "peakPnl": 14.657630036038938
     },
     {
       "id": "DASH_sE_1779550477183",
@@ -2141,10 +2141,10 @@
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779621862509
   },
-  "scanCount": 180,
+  "scanCount": 181,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-24T12:15:19.483Z",
-  "lastReport": "2026-05-24T08:23:27.010Z",
+  "lastScan": "2026-05-24T13:14:44.828Z",
+  "lastReport": "2026-05-24T13:14:44.828Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
@@ -2219,5 +2219,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.1
 }
