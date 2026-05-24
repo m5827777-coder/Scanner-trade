@@ -137,23 +137,6 @@
       "peakPnl": 5.361263980117171
     },
     {
-      "id": "BTC_sR_1779202157518",
-      "symbol": "BTC",
-      "name": "Bitcoin",
-      "coinId": "bitcoin",
-      "rank": 1,
-      "stratId": "sR",
-      "entryPrice": 76246.6,
-      "entryTime": 1779202157518,
-      "entryDate": "2026-05-19T14:49:17.518Z",
-      "entrySignal": "Ротация #1 BTC: BTC Dom=58.1% · Коррекция -7.2% · RSI=44",
-      "strength": 77,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "XLM_sR_1779211294888",
       "symbol": "XLM",
       "name": "Stellar",
@@ -475,9 +458,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "MORPHO_sE_1779621862509",
+      "symbol": "MORPHO",
+      "name": "Morpho",
+      "coinId": "morpho",
+      "rank": 59,
+      "stratId": "sE",
+      "entryPrice": 2.2046,
+      "entryTime": 1779621862509,
+      "entryDate": "2026-05-24T11:24:22.509Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=1.9815 > EMA21=1.9634 · RSI=64 · Vol x1.0",
+      "strength": 80,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "BTC_sR_1779202157518",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "coinId": "bitcoin",
+      "rank": 1,
+      "stratId": "sR",
+      "entryPrice": 76246.6,
+      "entryTime": 1779202157518,
+      "entryDate": "2026-05-19T14:49:17.518Z",
+      "entrySignal": "Ротация #1 BTC: BTC Dom=58.1% · Коррекция -7.2% · RSI=44",
+      "strength": 77,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 77286.1,
+      "exitTime": 1779621831405,
+      "exitReason": "Возврат к 7d max $78605.4000",
+      "pnl": 1.363339480055504,
+      "pnlUsd": 1.363339480055504,
+      "total": 101.3633394800555
+    },
     {
       "id": "CC_sR_1779407433263",
       "symbol": "CC",
@@ -2115,26 +2138,27 @@
     "ZEC_sM": 1779370849454,
     "ICP_sR": 1779554034302,
     "WLD_sE": 1779503703040,
-    "JUP_sE": 1779449520402
+    "JUP_sE": 1779449520402,
+    "MORPHO_sE": 1779621862509
   },
-  "scanCount": 178,
+  "scanCount": 179,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-24T10:04:03.559Z",
+  "lastScan": "2026-05-24T11:24:39.815Z",
   "lastReport": "2026-05-24T08:23:27.010Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 69,
-    "wins": 26,
+    "trades": 70,
+    "wins": 27,
     "losses": 43,
-    "totalPnl": -46.100017625156255,
-    "invested": 6900
+    "totalPnl": -44.736678145100754,
+    "invested": 7000
   },
   "byStrategy": {
     "sR": {
-      "trades": 51,
-      "wins": 22,
-      "pnl": -24.19074139880328
+      "trades": 52,
+      "wins": 23,
+      "pnl": -22.827401918747775
     },
     "sE": {
       "trades": 14,
@@ -2162,9 +2186,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 34,
-        "wins": 18,
-        "pnl": 20.704831949943117
+        "trades": 35,
+        "wins": 19,
+        "pnl": 22.06817142999862
       },
       "sE": {
         "trades": 7,
@@ -2195,5 +2219,5 @@
       }
     }
   },
-  "btcDominance": 58.1
+  "btcDominance": 58.2
 }
