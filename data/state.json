@@ -205,23 +205,6 @@
       "peakPnl": 0
     },
     {
-      "id": "CC_sR_1779407433263",
-      "symbol": "CC",
-      "name": "Canton",
-      "coinId": "canton-network",
-      "rank": 20,
-      "stratId": "sR",
-      "entryPrice": 0.15788,
-      "entryTime": 1779407433263,
-      "entryDate": "2026-05-21T23:50:33.263Z",
-      "entrySignal": "Ротация #20 CC: BTC Dom=58.1% · Коррекция -7.6% · RSI=55",
-      "strength": 67,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "XRP_sR_1779499545235",
       "symbol": "XRP",
       "name": "XRP",
@@ -458,9 +441,66 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "NEAR_sM_1779600959266",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 35,
+      "stratId": "sM",
+      "entryPrice": 2.343,
+      "entryTime": 1779600959266,
+      "entryDate": "2026-05-24T05:35:59.266Z",
+      "entrySignal": "Пробой 20d max $2.3360 на +0.3% · Объём x1.8 · RSI=86",
+      "strength": 84,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "RENDER_sR_1779600972129",
+      "symbol": "RENDER",
+      "name": "Render",
+      "coinId": "render-token",
+      "rank": 70,
+      "stratId": "sR",
+      "entryPrice": 1.948,
+      "entryTime": 1779600972129,
+      "entryDate": "2026-05-24T05:36:12.129Z",
+      "entrySignal": "Ротация #70 RENDER: BTC Dom=58.1% · Коррекция -7.3% · RSI=54",
+      "strength": 63,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "CC_sR_1779407433263",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 20,
+      "stratId": "sR",
+      "entryPrice": 0.15788,
+      "entryTime": 1779407433263,
+      "entryDate": "2026-05-21T23:50:33.263Z",
+      "entrySignal": "Ротация #20 CC: BTC Dom=58.1% · Коррекция -7.6% · RSI=55",
+      "strength": 67,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.1634,
+      "exitTime": 1779600941876,
+      "exitReason": "Возврат к 7d max $0.1663",
+      "pnl": 3.4963263237902185,
+      "pnlUsd": 3.4963263237902185,
+      "total": 103.49632632379021
+    },
     {
       "id": "RENDER_sR_1779554039544",
       "symbol": "RENDER",
@@ -2039,7 +2079,7 @@
     "ETC_sR": 1779126582063,
     "ENA_sR": 1779554042696,
     "ALGO_sR": 1779200452029,
-    "RENDER_sR": 1779554039544,
+    "RENDER_sR": 1779600972129,
     "APT_sR": 1779380943732,
     "ARB_sR": 1779571845857,
     "AVAX_sR": 1778943064629,
@@ -2069,7 +2109,7 @@
     "DASH_sE": 1779550477183,
     "SUI_sR": 1779554020771,
     "ASTER_sE": 1779331130364,
-    "NEAR_sM": 1779533242314,
+    "NEAR_sM": 1779600959266,
     "RENDER_sE": 1779355847806,
     "XMR_sE": 1779359045756,
     "ZEC_sM": 1779370849454,
@@ -2077,24 +2117,24 @@
     "WLD_sE": 1779503703040,
     "JUP_sE": 1779449520402
   },
-  "scanCount": 174,
+  "scanCount": 175,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-24T02:46:27.583Z",
+  "lastScan": "2026-05-24T05:36:24.101Z",
   "lastReport": "2026-05-24T02:46:27.583Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 68,
-    "wins": 25,
+    "trades": 69,
+    "wins": 26,
     "losses": 43,
-    "totalPnl": -49.596343948946476,
-    "invested": 6800
+    "totalPnl": -46.100017625156255,
+    "invested": 6900
   },
   "byStrategy": {
     "sR": {
-      "trades": 50,
-      "wins": 21,
-      "pnl": -27.687067722593497
+      "trades": 51,
+      "wins": 22,
+      "pnl": -24.19074139880328
     },
     "sE": {
       "trades": 14,
@@ -2122,9 +2162,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 33,
-        "wins": 17,
-        "pnl": 17.2085056261529
+        "trades": 34,
+        "wins": 18,
+        "pnl": 20.704831949943117
       },
       "sE": {
         "trades": 7,
