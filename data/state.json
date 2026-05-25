@@ -15,7 +15,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.168475962216258
+      "peakPnl": 5.182574369096278
     },
     {
       "id": "DOGE_sR_1779126561336",
@@ -321,7 +321,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 15.706359368331194
+      "peakPnl": 16.858728126333762
     },
     {
       "id": "CC_sE_1779635583749",
@@ -355,7 +355,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 9.61090788160957
     },
     {
       "id": "BCH_sR_1779639267790",
@@ -2338,9 +2338,9 @@
     "MORPHO_sE": 1779720285783,
     "TON_sE": 1779731758815
   },
-  "scanCount": 201,
+  "scanCount": 202,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-25T17:56:26.490Z",
+  "lastScan": "2026-05-25T19:20:00.909Z",
   "lastReport": "2026-05-25T14:45:03.877Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 30,
