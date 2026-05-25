@@ -15,7 +15,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.168475962216258
     },
     {
       "id": "ETH_sR_1779126557406",
@@ -372,24 +372,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 10.670081092616304
-    },
-    {
-      "id": "MORPHO_sE_1779621862509",
-      "symbol": "MORPHO",
-      "name": "Morpho",
-      "coinId": "morpho",
-      "rank": 59,
-      "stratId": "sE",
-      "entryPrice": 2.2046,
-      "entryTime": 1779621862509,
-      "entryDate": "2026-05-24T11:24:22.509Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=1.9815 > EMA21=1.9634 · RSI=64 · Vol x1.0",
-      "strength": 80,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 9.081012428558456
+      "peakPnl": 13.35894152795562
     },
     {
       "id": "CC_sE_1779635583749",
@@ -475,9 +458,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "MORPHO_sE_1779720285783",
+      "symbol": "MORPHO",
+      "name": "Morpho",
+      "coinId": "morpho",
+      "rank": 57,
+      "stratId": "sE",
+      "entryPrice": 2.3382,
+      "entryTime": 1779720285783,
+      "entryDate": "2026-05-25T14:44:45.783Z",
+      "entrySignal": "Golden Cross вчера · EMA9=2.0584 > EMA21=1.9996 · RSI=69 · Vol x1.8",
+      "strength": 86,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "MORPHO_sE_1779621862509",
+      "symbol": "MORPHO",
+      "name": "Morpho",
+      "coinId": "morpho",
+      "rank": 59,
+      "stratId": "sE",
+      "entryPrice": 2.2046,
+      "entryTime": 1779621862509,
+      "entryDate": "2026-05-24T11:24:22.509Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=1.9815 > EMA21=1.9634 · RSI=64 · Vol x1.0",
+      "strength": 80,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 9.081012428558456,
+      "exitPrice": 2.3382,
+      "exitTime": 1779720260893,
+      "exitReason": "📉 Trailing stop: пик +9.1% → откат до +6.1%",
+      "pnl": 6.060056246031023,
+      "pnlUsd": 6.060056246031023,
+      "total": 106.06005624603102
+    },
     {
       "id": "RENDER_sR_1779600972129",
       "symbol": "RENDER",
@@ -2277,20 +2300,20 @@
     "ICP_sR": 1779554034302,
     "WLD_sE": 1779635600295,
     "JUP_sE": 1779449520402,
-    "MORPHO_sE": 1779621862509
+    "MORPHO_sE": 1779720285783
   },
-  "scanCount": 198,
+  "scanCount": 199,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-25T13:50:55.212Z",
-  "lastReport": "2026-05-25T09:57:21.046Z",
+  "lastScan": "2026-05-25T14:45:03.877Z",
+  "lastReport": "2026-05-25T14:45:03.877Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 30,
   "totalStats": {
-    "trades": 76,
-    "wins": 32,
+    "trades": 77,
+    "wins": 33,
     "losses": 44,
-    "totalPnl": -7.436595848825267,
-    "invested": 7600
+    "totalPnl": -1.3765396027942431,
+    "invested": 7700
   },
   "byStrategy": {
     "sR": {
@@ -2299,9 +2322,9 @@
       "pnl": -9.043058326377572
     },
     "sE": {
-      "trades": 16,
-      "wins": 4,
-      "pnl": -23.845038920986198
+      "trades": 17,
+      "wins": 5,
+      "pnl": -17.784982674955174
     },
     "sM": {
       "trades": 4,
@@ -2329,9 +2352,9 @@
         "pnl": 35.85251502236882
       },
       "sE": {
-        "trades": 9,
-        "wins": 4,
-        "pnl": 16.213023862749832
+        "trades": 10,
+        "wins": 5,
+        "pnl": 22.273080108780857
       },
       "sM": {
         "trades": 2,
