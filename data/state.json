@@ -2367,9 +2367,9 @@
     "MORPHO_sE": 1779720285783,
     "TON_sE": 1779749246806
   },
-  "scanCount": 206,
+  "scanCount": 207,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-25T22:47:58.226Z",
+  "lastScan": "2026-05-25T23:49:16.689Z",
   "lastReport": "2026-05-25T19:22:17.952Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 30,
@@ -2445,5 +2445,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.3
 }
