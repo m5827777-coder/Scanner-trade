@@ -2227,12 +2227,12 @@
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779621862509
   },
-  "scanCount": 192,
+  "scanCount": 193,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-24T23:37:51.326Z",
-  "lastReport": "2026-05-24T19:10:29.392Z",
+  "lastScan": "2026-05-25T01:36:18.689Z",
+  "lastReport": "2026-05-25T01:36:18.689Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 25,
+  "fearGreed": 30,
   "totalStats": {
     "trades": 73,
     "wins": 29,
@@ -2305,5 +2305,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.3
 }
