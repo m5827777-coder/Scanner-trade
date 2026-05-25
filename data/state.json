@@ -341,23 +341,6 @@
       "peakPnl": 0
     },
     {
-      "id": "WLD_sE_1779635600295",
-      "symbol": "WLD",
-      "name": "Worldcoin",
-      "coinId": "worldcoin-wld",
-      "rank": 69,
-      "stratId": "sE",
-      "entryPrice": 0.3007,
-      "entryTime": 1779635600295,
-      "entryDate": "2026-05-24T15:13:20.295Z",
-      "entrySignal": "Golden Cross 2д назад · EMA9=0.2712 > EMA21=0.2638 · RSI=62 · Vol x2.1",
-      "strength": 88,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 11.473229132025265
-    },
-    {
       "id": "BCH_sR_1779639267790",
       "symbol": "BCH",
       "name": "Bitcoin Cash",
@@ -426,6 +409,25 @@
       "peakPnl": 0
     },
     {
+      "id": "TON_sE_1779749246806",
+      "symbol": "TON",
+      "name": "Toncoin",
+      "coinId": "the-open-network",
+      "rank": 21,
+      "stratId": "sE",
+      "entryPrice": 1.94,
+      "entryTime": 1779749246806,
+      "entryDate": "2026-05-25T22:47:26.806Z",
+      "entrySignal": "Golden Cross вчера · EMA9=1.9325 > EMA21=1.9260 · RSI=52 · Vol x1.6",
+      "strength": 73,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    }
+  ],
+  "closedTrades": [
+    {
       "id": "TON_sE_1779731758815",
       "symbol": "TON",
       "name": "Toncoin",
@@ -437,13 +439,40 @@
       "entryDate": "2026-05-25T17:55:58.815Z",
       "entrySignal": "Golden Cross вчера · EMA9=1.9577 > EMA21=1.9375 · RSI=57 · Vol x1.1",
       "strength": 78,
-      "regime": "BULL",
+      "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 1.94,
+      "exitTime": 1779749236681,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.098741529525649,
+      "pnlUsd": -6.098741529525649,
+      "total": 93.90125847047435
+    },
+    {
+      "id": "WLD_sE_1779635600295",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 69,
+      "stratId": "sE",
+      "entryPrice": 0.3007,
+      "entryTime": 1779635600295,
+      "entryDate": "2026-05-24T15:13:20.295Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=0.2712 > EMA21=0.2638 · RSI=62 · Vol x2.1",
+      "strength": 88,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 11.473229132025265,
+      "exitPrice": 0.3291,
+      "exitTime": 1779749234621,
+      "exitReason": "📉 Trailing stop: пик +11.5% → откат до +9.4%",
+      "pnl": 9.44462919853674,
+      "pnlUsd": 9.44462919853674,
+      "total": 109.44462919853675
+    },
     {
       "id": "ICP_sR_1779554034302",
       "symbol": "ICP",
@@ -2336,20 +2365,20 @@
     "WLD_sE": 1779635600295,
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779720285783,
-    "TON_sE": 1779731758815
+    "TON_sE": 1779749246806
   },
-  "scanCount": 205,
+  "scanCount": 206,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-25T21:53:57.557Z",
+  "lastScan": "2026-05-25T22:47:58.226Z",
   "lastReport": "2026-05-25T19:22:17.952Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 30,
   "totalStats": {
-    "trades": 80,
-    "wins": 36,
-    "losses": 44,
-    "totalPnl": 20.818573418978943,
-    "invested": 8000
+    "trades": 82,
+    "wins": 37,
+    "losses": 45,
+    "totalPnl": 24.164461087990034,
+    "invested": 8200
   },
   "byStrategy": {
     "sR": {
@@ -2358,9 +2387,9 @@
       "pnl": 13.152054695395615
     },
     "sE": {
-      "trades": 17,
-      "wins": 5,
-      "pnl": -17.784982674955174
+      "trades": 19,
+      "wins": 6,
+      "pnl": -14.439095005944083
     },
     "sM": {
       "trades": 4,
@@ -2388,9 +2417,9 @@
         "pnl": 58.04762804414201
       },
       "sE": {
-        "trades": 10,
-        "wins": 5,
-        "pnl": 22.273080108780857
+        "trades": 12,
+        "wins": 6,
+        "pnl": 25.61896777779195
       },
       "sM": {
         "trades": 2,
