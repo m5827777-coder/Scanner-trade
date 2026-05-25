@@ -256,23 +256,6 @@
       "peakPnl": 5.636070853462162
     },
     {
-      "id": "ICP_sR_1779554034302",
-      "symbol": "ICP",
-      "name": "Internet Computer",
-      "coinId": "internet-computer",
-      "rank": 57,
-      "stratId": "sR",
-      "entryPrice": 2.535,
-      "entryTime": 1779554034302,
-      "entryDate": "2026-05-23T16:33:54.302Z",
-      "entrySignal": "Ротация #57 ICP: BTC Dom=58% · Коррекция -7.9% · RSI=45",
-      "strength": 70,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 6.153846153846142
-    },
-    {
       "id": "ENA_sR_1779554042696",
       "symbol": "ENA",
       "name": "Ethena",
@@ -338,7 +321,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 15.151515151515152
+      "peakPnl": 15.706359368331194
     },
     {
       "id": "CC_sE_1779635583749",
@@ -441,9 +424,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "TON_sE_1779731758815",
+      "symbol": "TON",
+      "name": "Toncoin",
+      "coinId": "the-open-network",
+      "rank": 21,
+      "stratId": "sE",
+      "entryPrice": 2.066,
+      "entryTime": 1779731758815,
+      "entryDate": "2026-05-25T17:55:58.815Z",
+      "entrySignal": "Golden Cross вчера · EMA9=1.9577 > EMA21=1.9375 · RSI=57 · Vol x1.1",
+      "strength": 78,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "ICP_sR_1779554034302",
+      "symbol": "ICP",
+      "name": "Internet Computer",
+      "coinId": "internet-computer",
+      "rank": 57,
+      "stratId": "sR",
+      "entryPrice": 2.535,
+      "entryTime": 1779554034302,
+      "entryDate": "2026-05-23T16:33:54.302Z",
+      "entrySignal": "Ротация #57 ICP: BTC Dom=58% · Коррекция -7.9% · RSI=45",
+      "strength": 70,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 6.3510848126232755,
+      "exitPrice": 2.696,
+      "exitTime": 1779731747628,
+      "exitReason": "Возврат к 7d max $2.7510",
+      "pnl": 6.3510848126232755,
+      "pnlUsd": 6.3510848126232755,
+      "total": 106.35108481262327
+    },
     {
       "id": "TON_sR_1779554019490",
       "symbol": "TON",
@@ -2312,26 +2335,27 @@
     "ICP_sR": 1779554034302,
     "WLD_sE": 1779635600295,
     "JUP_sE": 1779449520402,
-    "MORPHO_sE": 1779720285783
+    "MORPHO_sE": 1779720285783,
+    "TON_sE": 1779731758815
   },
-  "scanCount": 200,
+  "scanCount": 201,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-25T16:12:38.704Z",
+  "lastScan": "2026-05-25T17:56:26.490Z",
   "lastReport": "2026-05-25T14:45:03.877Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 30,
   "totalStats": {
-    "trades": 79,
-    "wins": 35,
+    "trades": 80,
+    "wins": 36,
     "losses": 44,
-    "totalPnl": 14.46748860635567,
-    "invested": 7900
+    "totalPnl": 20.818573418978943,
+    "invested": 8000
   },
   "byStrategy": {
     "sR": {
-      "trades": 58,
-      "wins": 28,
-      "pnl": 6.800969882772339
+      "trades": 59,
+      "wins": 29,
+      "pnl": 13.152054695395615
     },
     "sE": {
       "trades": 17,
@@ -2359,9 +2383,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 41,
-        "wins": 24,
-        "pnl": 51.69654323151873
+        "trades": 42,
+        "wins": 25,
+        "pnl": 58.04762804414201
       },
       "sE": {
         "trades": 10,
