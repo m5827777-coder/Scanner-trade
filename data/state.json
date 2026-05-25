@@ -389,7 +389,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.698151950718697
     },
     {
       "id": "MORPHO_sE_1779621862509",
@@ -406,7 +406,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 8.264537784632129
+      "peakPnl": 9.081012428558456
     },
     {
       "id": "CC_sE_1779635583749",
@@ -2256,9 +2256,9 @@
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779621862509
   },
-  "scanCount": 196,
+  "scanCount": 197,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-25T09:57:21.046Z",
+  "lastScan": "2026-05-25T10:45:20.640Z",
   "lastReport": "2026-05-25T09:57:21.046Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 30,
