@@ -137,23 +137,6 @@
       "peakPnl": 5.361263980117171
     },
     {
-      "id": "XLM_sR_1779211294888",
-      "symbol": "XLM",
-      "name": "Stellar",
-      "coinId": "stellar",
-      "rank": 22,
-      "stratId": "sR",
-      "entryPrice": 0.14584,
-      "entryTime": 1779211294888,
-      "entryDate": "2026-05-19T17:21:34.888Z",
-      "entrySignal": "Ротация #22 XLM: BTC Dom=58.2% · Коррекция -13.5% · RSI=37",
-      "strength": 80,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ASTER_sE_1779331130364",
       "symbol": "ASTER",
       "name": "Aster",
@@ -477,6 +460,25 @@
       "peakPnl": 0
     },
     {
+      "id": "ARB_sR_1779689279053",
+      "symbol": "ARB",
+      "name": "Arbitrum",
+      "coinId": "arbitrum",
+      "rank": 89,
+      "stratId": "sR",
+      "entryPrice": 0.10754,
+      "entryTime": 1779689279053,
+      "entryDate": "2026-05-25T06:07:59.053Z",
+      "entrySignal": "Ротация #89 ARB: BTC Dom=58.3% · Коррекция -10.2% · RSI=34",
+      "strength": 79,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    }
+  ],
+  "closedTrades": [
+    {
       "id": "ATOM_sR_1779658385501",
       "symbol": "ATOM",
       "name": "Cosmos Hub",
@@ -491,10 +493,37 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 6.389301634472511,
+      "exitPrice": 2.148,
+      "exitTime": 1779689242592,
+      "exitReason": "Возврат к 7d max $2.1900",
+      "pnl": 6.389301634472511,
+      "pnlUsd": 6.389301634472511,
+      "total": 106.38930163447252
+    },
+    {
+      "id": "XLM_sR_1779211294888",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 22,
+      "stratId": "sR",
+      "entryPrice": 0.14584,
+      "entryTime": 1779211294888,
+      "entryDate": "2026-05-19T17:21:34.888Z",
+      "entrySignal": "Ротация #22 XLM: BTC Dom=58.2% · Коррекция -13.5% · RSI=37",
+      "strength": 80,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.14907,
+      "exitTime": 1779689236718,
+      "exitReason": "Возврат к 7d max $0.1520",
+      "pnl": 2.214755896873293,
+      "pnlUsd": 2.214755896873293,
+      "total": 102.2147558968733
+    },
     {
       "id": "ARB_sR_1779571845856",
       "symbol": "ARB",
@@ -2190,7 +2219,7 @@
     "ALGO_sR": 1779200452029,
     "RENDER_sR": 1779600972129,
     "APT_sR": 1779380943732,
-    "ARB_sR": 1779571845857,
+    "ARB_sR": 1779689279053,
     "AVAX_sR": 1778943064629,
     "HBAR_sR": 1778752941540,
     "CC_sE": 1779635583749,
@@ -2227,24 +2256,24 @@
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779621862509
   },
-  "scanCount": 194,
+  "scanCount": 195,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-25T02:55:20.962Z",
+  "lastScan": "2026-05-25T06:08:04.366Z",
   "lastReport": "2026-05-25T02:55:20.962Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 30,
   "totalStats": {
-    "trades": 73,
-    "wins": 29,
+    "trades": 75,
+    "wins": 31,
     "losses": 44,
-    "totalPnl": -26.256259129657714,
-    "invested": 7300
+    "totalPnl": -17.652201598311912,
+    "invested": 7500
   },
   "byStrategy": {
     "sR": {
-      "trades": 53,
-      "wins": 23,
-      "pnl": -27.86272160721002
+      "trades": 55,
+      "wins": 25,
+      "pnl": -19.258664075864218
     },
     "sE": {
       "trades": 16,
@@ -2272,9 +2301,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 36,
-        "wins": 19,
-        "pnl": 17.032851741536376
+        "trades": 38,
+        "wins": 21,
+        "pnl": 25.63690927288218
       },
       "sE": {
         "trades": 9,
