@@ -18,23 +18,6 @@
       "peakPnl": 5.168475962216258
     },
     {
-      "id": "ETH_sR_1779126557406",
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "coinId": "ethereum",
-      "rank": 2,
-      "stratId": "sR",
-      "entryPrice": 2109.87,
-      "entryTime": 1779126557406,
-      "entryDate": "2026-05-18T17:49:17.406Z",
-      "entrySignal": "Ротация #2 ETH: BTC Dom=58.2% · Коррекция -10.1% · RSI=36",
-      "strength": 86,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "DOGE_sR_1779126561336",
       "symbol": "DOGE",
       "name": "Dogecoin",
@@ -222,23 +205,6 @@
       "peakPnl": 0
     },
     {
-      "id": "TON_sR_1779554019490",
-      "symbol": "TON",
-      "name": "Toncoin",
-      "coinId": "the-open-network",
-      "rank": 23,
-      "stratId": "sR",
-      "entryPrice": 1.779,
-      "entryTime": 1779554019490,
-      "entryDate": "2026-05-23T16:33:39.490Z",
-      "entrySignal": "Ротация #23 TON: BTC Dom=58% · Коррекция -15.0% · RSI=45",
-      "strength": 78,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SUI_sR_1779554020771",
       "symbol": "SUI",
       "name": "Sui",
@@ -372,7 +338,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 13.35894152795562
+      "peakPnl": 15.151515151515152
     },
     {
       "id": "CC_sE_1779635583749",
@@ -478,6 +444,52 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "TON_sR_1779554019490",
+      "symbol": "TON",
+      "name": "Toncoin",
+      "coinId": "the-open-network",
+      "rank": 23,
+      "stratId": "sR",
+      "entryPrice": 1.779,
+      "entryTime": 1779554019490,
+      "entryDate": "2026-05-23T16:33:39.490Z",
+      "entrySignal": "Ротация #23 TON: BTC Dom=58% · Коррекция -15.0% · RSI=45",
+      "strength": 78,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 15.008431703204042,
+      "exitPrice": 2.046,
+      "exitTime": 1779725514649,
+      "exitReason": "✅ TP +12%",
+      "pnl": 15.008431703204042,
+      "pnlUsd": 15.008431703204042,
+      "total": 115.00843170320404
+    },
+    {
+      "id": "ETH_sR_1779126557406",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "coinId": "ethereum",
+      "rank": 2,
+      "stratId": "sR",
+      "entryPrice": 2109.87,
+      "entryTime": 1779126557406,
+      "entryDate": "2026-05-18T17:49:17.406Z",
+      "entrySignal": "Ротация #2 ETH: BTC Dom=58.2% · Коррекция -10.1% · RSI=36",
+      "strength": 86,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2127.5,
+      "exitTime": 1779725510736,
+      "exitReason": "Возврат к 7d max $2157.5900",
+      "pnl": 0.8355965059458691,
+      "pnlUsd": 0.8355965059458691,
+      "total": 100.83559650594587
+    },
     {
       "id": "MORPHO_sE_1779621862509",
       "symbol": "MORPHO",
@@ -2302,24 +2314,24 @@
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779720285783
   },
-  "scanCount": 199,
+  "scanCount": 200,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-25T14:45:03.877Z",
+  "lastScan": "2026-05-25T16:12:38.704Z",
   "lastReport": "2026-05-25T14:45:03.877Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 30,
   "totalStats": {
-    "trades": 77,
-    "wins": 33,
+    "trades": 79,
+    "wins": 35,
     "losses": 44,
-    "totalPnl": -1.3765396027942431,
-    "invested": 7700
+    "totalPnl": 14.46748860635567,
+    "invested": 7900
   },
   "byStrategy": {
     "sR": {
-      "trades": 56,
-      "wins": 26,
-      "pnl": -9.043058326377572
+      "trades": 58,
+      "wins": 28,
+      "pnl": 6.800969882772339
     },
     "sE": {
       "trades": 17,
@@ -2347,9 +2359,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 39,
-        "wins": 22,
-        "pnl": 35.85251502236882
+        "trades": 41,
+        "wins": 24,
+        "pnl": 51.69654323151873
       },
       "sE": {
         "trades": 10,
