@@ -304,7 +304,7 @@
       "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 6.153846153846142
     },
     {
       "id": "ENA_sR_1779554042696",
@@ -372,24 +372,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.420401195049092
-    },
-    {
-      "id": "RENDER_sR_1779600972129",
-      "symbol": "RENDER",
-      "name": "Render",
-      "coinId": "render-token",
-      "rank": 70,
-      "stratId": "sR",
-      "entryPrice": 1.948,
-      "entryTime": 1779600972129,
-      "entryDate": "2026-05-24T05:36:12.129Z",
-      "entrySignal": "Ротация #70 RENDER: BTC Dom=58.1% · Коррекция -7.3% · RSI=54",
-      "strength": 63,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 5.698151950718697
+      "peakPnl": 10.670081092616304
     },
     {
       "id": "MORPHO_sE_1779621862509",
@@ -475,9 +458,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "RENDER_sE_1779717040650",
+      "symbol": "RENDER",
+      "name": "Render",
+      "coinId": "render-token",
+      "rank": 64,
+      "stratId": "sE",
+      "entryPrice": 2.144,
+      "entryTime": 1779717040650,
+      "entryDate": "2026-05-25T13:50:40.650Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=1.9567 > EMA21=1.9103 · RSI=64 · Vol x1.4",
+      "strength": 77,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "RENDER_sR_1779600972129",
+      "symbol": "RENDER",
+      "name": "Render",
+      "coinId": "render-token",
+      "rank": 70,
+      "stratId": "sR",
+      "entryPrice": 1.948,
+      "entryTime": 1779600972129,
+      "entryDate": "2026-05-24T05:36:12.129Z",
+      "entrySignal": "Ротация #70 RENDER: BTC Dom=58.1% · Коррекция -7.3% · RSI=54",
+      "strength": 63,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 10.215605749486645,
+      "exitPrice": 2.147,
+      "exitTime": 1779717012493,
+      "exitReason": "Возврат к 7d max $2.1020",
+      "pnl": 10.215605749486645,
+      "pnlUsd": 10.215605749486645,
+      "total": 110.21560574948664
+    },
     {
       "id": "ATOM_sR_1779658385501",
       "symbol": "ATOM",
@@ -2248,7 +2271,7 @@
     "SUI_sR": 1779554020771,
     "ASTER_sE": 1779331130364,
     "NEAR_sM": 1779600959266,
-    "RENDER_sE": 1779355847806,
+    "RENDER_sE": 1779717040651,
     "XMR_sE": 1779359045756,
     "ZEC_sM": 1779370849454,
     "ICP_sR": 1779554034302,
@@ -2256,24 +2279,24 @@
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779621862509
   },
-  "scanCount": 197,
+  "scanCount": 198,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-25T10:45:20.640Z",
+  "lastScan": "2026-05-25T13:50:55.212Z",
   "lastReport": "2026-05-25T09:57:21.046Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 30,
   "totalStats": {
-    "trades": 75,
-    "wins": 31,
+    "trades": 76,
+    "wins": 32,
     "losses": 44,
-    "totalPnl": -17.652201598311912,
-    "invested": 7500
+    "totalPnl": -7.436595848825267,
+    "invested": 7600
   },
   "byStrategy": {
     "sR": {
-      "trades": 55,
-      "wins": 25,
-      "pnl": -19.258664075864218
+      "trades": 56,
+      "wins": 26,
+      "pnl": -9.043058326377572
     },
     "sE": {
       "trades": 16,
@@ -2301,9 +2324,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 38,
-        "wins": 21,
-        "pnl": 25.63690927288218
+        "trades": 39,
+        "wins": 22,
+        "pnl": 35.85251502236882
       },
       "sE": {
         "trades": 9,
@@ -2334,5 +2357,5 @@
       }
     }
   },
-  "btcDominance": 58.3
+  "btcDominance": 58.2
 }
