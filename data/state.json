@@ -15,7 +15,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.182574369096278
+      "peakPnl": 5.661920203017055
     },
     {
       "id": "DOGE_sR_1779126561336",
@@ -2396,10 +2396,10 @@
     "MORPHO_sE": 1779720285783,
     "TON_sE": 1779749246806
   },
-  "scanCount": 208,
+  "scanCount": 209,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-26T01:33:59.173Z",
-  "lastReport": "2026-05-26T01:33:59.173Z",
+  "lastScan": "2026-05-26T02:43:02.789Z",
+  "lastReport": "2026-05-26T02:43:02.789Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 34,
   "totalStats": {
