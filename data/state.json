@@ -375,23 +375,6 @@
       "peakPnl": 0
     },
     {
-      "id": "FET_sE_1779774475061",
-      "symbol": "FET",
-      "name": "Artificial Superintelligence Alliance",
-      "coinId": "fetch-ai",
-      "rank": 100,
-      "stratId": "sE",
-      "entryPrice": 0.2363,
-      "entryTime": 1779774475061,
-      "entryDate": "2026-05-26T05:47:55.061Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.2144 > EMA21=0.2121 · RSI=63 · Vol x1.9",
-      "strength": 91,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 8.379179009733383
-    },
-    {
       "id": "MORPHO_sE_1779807408212",
       "symbol": "MORPHO",
       "name": "Morpho",
@@ -461,6 +444,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "FET_sE_1779774475061",
+      "symbol": "FET",
+      "name": "Artificial Superintelligence Alliance",
+      "coinId": "fetch-ai",
+      "rank": 100,
+      "stratId": "sE",
+      "entryPrice": 0.2363,
+      "entryTime": 1779774475061,
+      "entryDate": "2026-05-26T05:47:55.061Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.2144 > EMA21=0.2121 · RSI=63 · Vol x1.9",
+      "strength": 91,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 8.379179009733383,
+      "exitPrice": 0.2513,
+      "exitTime": 1779820456161,
+      "exitReason": "📉 Trailing stop: пик +8.4% → откат до +6.3%",
+      "pnl": 6.347862886161665,
+      "pnlUsd": 6.347862886161665,
+      "total": 106.34786288616166
+    },
     {
       "id": "WLD_sE_1779759226667",
       "symbol": "WLD",
@@ -2518,18 +2524,18 @@
     "OKB_sE": 1779774454092,
     "FET_sE": 1779774475061
   },
-  "scanCount": 214,
+  "scanCount": 215,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-26T16:06:45.715Z",
+  "lastScan": "2026-05-26T18:34:57.830Z",
   "lastReport": "2026-05-26T14:57:07.144Z",
-  "marketRegime": "NEUTRAL",
+  "marketRegime": "BEAR",
   "fearGreed": 34,
   "totalStats": {
-    "trades": 87,
-    "wins": 41,
+    "trades": 88,
+    "wins": 42,
     "losses": 46,
-    "totalPnl": 63.75492987682334,
-    "invested": 8700
+    "totalPnl": 70.102792762985,
+    "invested": 8800
   },
   "byStrategy": {
     "sR": {
@@ -2538,9 +2544,9 @@
       "pnl": 25.096750756123743
     },
     "sE": {
-      "trades": 21,
-      "wins": 7,
-      "pnl": -1.4326735369084744
+      "trades": 22,
+      "wins": 8,
+      "pnl": 4.915189349253191
     },
     "sM": {
       "trades": 5,
@@ -2590,11 +2596,11 @@
         "pnl": -15.331930428643199
       },
       "sE": {
-        "trades": 6,
-        "wins": 0,
-        "pnl": -33.9125055003965
+        "trades": 7,
+        "wins": 1,
+        "pnl": -27.564642614234835
       }
     }
   },
-  "btcDominance": 58.1
+  "btcDominance": 58
 }
