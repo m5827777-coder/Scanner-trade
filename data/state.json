@@ -324,23 +324,6 @@
       "peakPnl": 0
     },
     {
-      "id": "RENDER_sE_1779717040650",
-      "symbol": "RENDER",
-      "name": "Render",
-      "coinId": "render-token",
-      "rank": 64,
-      "stratId": "sE",
-      "entryPrice": 2.144,
-      "entryTime": 1779717040650,
-      "entryDate": "2026-05-25T13:50:40.650Z",
-      "entrySignal": "Golden Cross 4д назад · EMA9=1.9567 > EMA21=1.9103 · RSI=64 · Vol x1.4",
-      "strength": 77,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 10.960820895522382
-    },
-    {
       "id": "TON_sE_1779749246806",
       "symbol": "TON",
       "name": "Toncoin",
@@ -444,6 +427,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "RENDER_sE_1779717040650",
+      "symbol": "RENDER",
+      "name": "Render",
+      "coinId": "render-token",
+      "rank": 64,
+      "stratId": "sE",
+      "entryPrice": 2.144,
+      "entryTime": 1779717040650,
+      "entryDate": "2026-05-25T13:50:40.650Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=1.9567 > EMA21=1.9103 · RSI=64 · Vol x1.4",
+      "strength": 77,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 10.960820895522382,
+      "exitPrice": 2.292,
+      "exitTime": 1779825744234,
+      "exitReason": "📉 Trailing stop: пик +11.0% → откат до +6.9%",
+      "pnl": 6.902985074626851,
+      "pnlUsd": 6.902985074626851,
+      "total": 106.90298507462686
+    },
     {
       "id": "FET_sE_1779774475061",
       "symbol": "FET",
@@ -2524,18 +2530,18 @@
     "OKB_sE": 1779774454092,
     "FET_sE": 1779774475061
   },
-  "scanCount": 215,
+  "scanCount": 216,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-26T18:34:57.830Z",
-  "lastReport": "2026-05-26T14:57:07.144Z",
+  "lastScan": "2026-05-26T20:03:06.879Z",
+  "lastReport": "2026-05-26T20:03:06.879Z",
   "marketRegime": "BEAR",
   "fearGreed": 34,
   "totalStats": {
-    "trades": 88,
-    "wins": 42,
+    "trades": 89,
+    "wins": 43,
     "losses": 46,
-    "totalPnl": 70.102792762985,
-    "invested": 8800
+    "totalPnl": 77.00577783761186,
+    "invested": 8900
   },
   "byStrategy": {
     "sR": {
@@ -2544,9 +2550,9 @@
       "pnl": 25.096750756123743
     },
     "sE": {
-      "trades": 22,
-      "wins": 8,
-      "pnl": 4.915189349253191
+      "trades": 23,
+      "wins": 9,
+      "pnl": 11.818174423880041
     },
     "sM": {
       "trades": 5,
@@ -2596,9 +2602,9 @@
         "pnl": -15.331930428643199
       },
       "sE": {
-        "trades": 7,
-        "wins": 1,
-        "pnl": -27.564642614234835
+        "trades": 8,
+        "wins": 2,
+        "pnl": -20.661657539607983
       }
     }
   },
