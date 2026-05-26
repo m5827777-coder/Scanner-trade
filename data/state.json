@@ -15,7 +15,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.822642041449316
+      "peakPnl": 5.918511208233456
     },
     {
       "id": "DOGE_sR_1779126561336",
@@ -389,7 +389,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 6.686415573423606
+      "peakPnl": 8.379179009733383
     },
     {
       "id": "MORPHO_sE_1779807408212",
@@ -421,6 +421,40 @@
       "entrySignal": "Golden Cross 4д назад · EMA9=0.3013 > EMA21=0.2791 · RSI=78 · Vol x4.6",
       "strength": 84,
       "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "ZEC_sR_1779811568648",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 13,
+      "stratId": "sR",
+      "entryPrice": 611.21,
+      "entryTime": 1779811568648,
+      "entryDate": "2026-05-26T16:06:08.648Z",
+      "entrySignal": "Ротация #13 ZEC: BTC Dom=58.1% · Коррекция -12.0% · RSI=60",
+      "strength": 69,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "ONDO_sR_1779811583133",
+      "symbol": "ONDO",
+      "name": "Ondo",
+      "coinId": "ondo-finance",
+      "rank": 46,
+      "stratId": "sR",
+      "entryPrice": 0.4204,
+      "entryTime": 1779811583133,
+      "entryDate": "2026-05-26T16:06:23.133Z",
+      "entrySignal": "Ротация #46 ONDO: BTC Dom=58.1% · Коррекция -11.6% · RSI=60",
+      "strength": 65,
+      "regime": "BULL",
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
@@ -2460,11 +2494,11 @@
     "LTC_sR": 1779126568920,
     "DOGE_sR": 1779126561336,
     "XRP_sR": 1779499545235,
-    "ZEC_sR": 1779034352031,
+    "ZEC_sR": 1779811568648,
     "BNB_sR": 1779093283699,
     "TRX_sE": 1779117523577,
     "WBT_sR": 1779119539183,
-    "ONDO_sR": 1779141257801,
+    "ONDO_sR": 1779811583133,
     "BTC_sR": 1779202157518,
     "TON_sR": 1779554019490,
     "FIL_sR": 1779554045402,
@@ -2484,9 +2518,9 @@
     "OKB_sE": 1779774454092,
     "FET_sE": 1779774475061
   },
-  "scanCount": 213,
+  "scanCount": 214,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-26T14:57:07.144Z",
+  "lastScan": "2026-05-26T16:06:45.715Z",
   "lastReport": "2026-05-26T14:57:07.144Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 34,
