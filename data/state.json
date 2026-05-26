@@ -15,7 +15,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.73241223741716
+      "peakPnl": 5.822642041449316
     },
     {
       "id": "DOGE_sR_1779126561336",
@@ -137,23 +137,6 @@
       "peakPnl": 5.096181452770597
     },
     {
-      "id": "APT_sR_1779380943732",
-      "symbol": "APT",
-      "name": "Aptos",
-      "coinId": "aptos",
-      "rank": 82,
-      "stratId": "sR",
-      "entryPrice": 0.9564,
-      "entryTime": 1779380943732,
-      "entryDate": "2026-05-21T16:29:03.732Z",
-      "entrySignal": "Ротация #82 APT: BTC Dom=58.1% · Коррекция -11.3% · RSI=47",
-      "strength": 72,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "XRP_sR_1779499545235",
       "symbol": "XRP",
       "name": "XRP",
@@ -273,23 +256,6 @@
       "peakPnl": 5.154743784880773
     },
     {
-      "id": "FIL_sR_1779554045402",
-      "symbol": "FIL",
-      "name": "Filecoin",
-      "coinId": "filecoin",
-      "rank": 83,
-      "stratId": "sR",
-      "entryPrice": 0.9559,
-      "entryTime": 1779554045402,
-      "entryDate": "2026-05-23T16:34:05.402Z",
-      "entrySignal": "Ротация #83 FIL: BTC Dom=58% · Коррекция -8.0% · RSI=46",
-      "strength": 69,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "JUP_sR_1779557801197",
       "symbol": "JUP",
       "name": "Jupiter",
@@ -372,7 +338,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 10.49440298507463
+      "peakPnl": 10.960820895522382
     },
     {
       "id": "TON_sE_1779749246806",
@@ -390,23 +356,6 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
-    {
-      "id": "WLD_sE_1779759226667",
-      "symbol": "WLD",
-      "name": "Worldcoin",
-      "coinId": "worldcoin-wld",
-      "rank": 65,
-      "stratId": "sE",
-      "entryPrice": 0.327,
-      "entryTime": 1779759226667,
-      "entryDate": "2026-05-26T01:33:46.667Z",
-      "entrySignal": "Golden Cross 4д назад · EMA9=0.2878 > EMA21=0.2730 · RSI=68 · Vol x1.2",
-      "strength": 74,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 13.975535168195707
     },
     {
       "id": "OKB_sE_1779774454091",
@@ -440,10 +389,113 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
+      "peakPnl": 6.686415573423606
+    },
+    {
+      "id": "MORPHO_sE_1779807408212",
+      "symbol": "MORPHO",
+      "name": "Morpho",
+      "coinId": "morpho",
+      "rank": 58,
+      "stratId": "sE",
+      "entryPrice": 2.2638,
+      "entryTime": 1779807408212,
+      "entryDate": "2026-05-26T14:56:48.212Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=2.0926 > EMA21=2.0245 · RSI=64 · Vol x1.5",
+      "strength": 82,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "WLD_sE_1779807410474",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 61,
+      "stratId": "sE",
+      "entryPrice": 0.3945,
+      "entryTime": 1779807410474,
+      "entryDate": "2026-05-26T14:56:50.474Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=0.3013 > EMA21=0.2791 · RSI=78 · Vol x4.6",
+      "strength": 84,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
       "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "WLD_sE_1779759226667",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 65,
+      "stratId": "sE",
+      "entryPrice": 0.327,
+      "entryTime": 1779759226667,
+      "entryDate": "2026-05-26T01:33:46.667Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=0.2878 > EMA21=0.2730 · RSI=68 · Vol x1.2",
+      "strength": 74,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 20.76452599388378,
+      "exitPrice": 0.3949,
+      "exitTime": 1779807383106,
+      "exitReason": "✅ TP +15%",
+      "pnl": 20.76452599388378,
+      "pnlUsd": 20.76452599388378,
+      "total": 120.76452599388378
+    },
+    {
+      "id": "FIL_sR_1779554045402",
+      "symbol": "FIL",
+      "name": "Filecoin",
+      "coinId": "filecoin",
+      "rank": 83,
+      "stratId": "sR",
+      "entryPrice": 0.9559,
+      "entryTime": 1779554045402,
+      "entryDate": "2026-05-23T16:34:05.402Z",
+      "entrySignal": "Ротация #83 FIL: BTC Dom=58% · Коррекция -8.0% · RSI=46",
+      "strength": 69,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 7.8146249607699545,
+      "exitPrice": 1.0306,
+      "exitTime": 1779807380698,
+      "exitReason": "Возврат к 7d max $1.0385",
+      "pnl": 7.8146249607699545,
+      "pnlUsd": 7.8146249607699545,
+      "total": 107.81462496076995
+    },
+    {
+      "id": "APT_sR_1779380943732",
+      "symbol": "APT",
+      "name": "Aptos",
+      "coinId": "aptos",
+      "rank": 82,
+      "stratId": "sR",
+      "entryPrice": 0.9564,
+      "entryTime": 1779380943732,
+      "entryDate": "2026-05-21T16:29:03.732Z",
+      "entrySignal": "Ротация #82 APT: BTC Dom=58.1% · Коррекция -11.3% · RSI=47",
+      "strength": 72,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.9959,
+      "exitTime": 1779807377735,
+      "exitReason": "Возврат к 7d max $1.0022",
+      "pnl": 4.130071099958174,
+      "pnlUsd": 4.130071099958174,
+      "total": 104.13007109995817
+    },
     {
       "id": "MORPHO_sE_1779720285783",
       "symbol": "MORPHO",
@@ -2425,36 +2477,36 @@
     "XMR_sE": 1779359045756,
     "ZEC_sM": 1779370849454,
     "ICP_sR": 1779554034302,
-    "WLD_sE": 1779759226667,
+    "WLD_sE": 1779807410474,
     "JUP_sE": 1779449520402,
-    "MORPHO_sE": 1779720285783,
+    "MORPHO_sE": 1779807408212,
     "TON_sE": 1779749246806,
     "OKB_sE": 1779774454092,
     "FET_sE": 1779774475061
   },
-  "scanCount": 212,
+  "scanCount": 213,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-26T09:43:14.410Z",
-  "lastReport": "2026-05-26T09:43:14.410Z",
+  "lastScan": "2026-05-26T14:57:07.144Z",
+  "lastReport": "2026-05-26T14:57:07.144Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 34,
   "totalStats": {
-    "trades": 84,
-    "wins": 38,
+    "trades": 87,
+    "wins": 41,
     "losses": 46,
-    "totalPnl": 31.045707822211433,
-    "invested": 8400
+    "totalPnl": 63.75492987682334,
+    "invested": 8700
   },
   "byStrategy": {
     "sR": {
-      "trades": 59,
-      "wins": 29,
-      "pnl": 13.152054695395615
+      "trades": 61,
+      "wins": 31,
+      "pnl": 25.096750756123743
     },
     "sE": {
-      "trades": 20,
-      "wins": 6,
-      "pnl": -22.197199530792254
+      "trades": 21,
+      "wins": 7,
+      "pnl": -1.4326735369084744
     },
     "sM": {
       "trades": 5,
@@ -2477,14 +2529,14 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 42,
-        "wins": 25,
-        "pnl": 58.04762804414201
+        "trades": 44,
+        "wins": 27,
+        "pnl": 69.99232410487014
       },
       "sE": {
-        "trades": 13,
-        "wins": 6,
-        "pnl": 17.86086325294378
+        "trades": 14,
+        "wins": 7,
+        "pnl": 38.62538924682756
       },
       "sM": {
         "trades": 3,
@@ -2510,5 +2562,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.1
 }
