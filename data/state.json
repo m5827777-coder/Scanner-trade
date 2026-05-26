@@ -15,7 +15,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.918511208233456
+      "peakPnl": 5.929789933737485
     },
     {
       "id": "DOGE_sR_1779126561336",
@@ -2536,9 +2536,9 @@
     "OKB_sE": 1779774454092,
     "FET_sE": 1779774475061
   },
-  "scanCount": 218,
+  "scanCount": 219,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-26T22:07:17.700Z",
+  "lastScan": "2026-05-26T23:20:22.098Z",
   "lastReport": "2026-05-26T20:03:06.879Z",
   "marketRegime": "BEAR",
   "fearGreed": 34,
