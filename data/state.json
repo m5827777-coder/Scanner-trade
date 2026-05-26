@@ -15,7 +15,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.661920203017055
+      "peakPnl": 5.73241223741716
     },
     {
       "id": "DOGE_sR_1779126561336",
@@ -372,7 +372,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 7.089552238805956
     },
     {
       "id": "TON_sE_1779749246806",
@@ -403,6 +403,40 @@
       "entryDate": "2026-05-26T01:33:46.667Z",
       "entrySignal": "Golden Cross 4д назад · EMA9=0.2878 > EMA21=0.2730 · RSI=68 · Vol x1.2",
       "strength": 74,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "OKB_sE_1779774454091",
+      "symbol": "OKB",
+      "name": "OKB",
+      "coinId": "okb",
+      "rank": 47,
+      "stratId": "sE",
+      "entryPrice": 93.69,
+      "entryTime": 1779774454092,
+      "entryDate": "2026-05-26T05:47:34.092Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=84.8452 > EMA21=84.3887 · RSI=68 · Vol x8.0",
+      "strength": 92,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "FET_sE_1779774475061",
+      "symbol": "FET",
+      "name": "Artificial Superintelligence Alliance",
+      "coinId": "fetch-ai",
+      "rank": 100,
+      "stratId": "sE",
+      "entryPrice": 0.2363,
+      "entryTime": 1779774475061,
+      "entryDate": "2026-05-26T05:47:55.061Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.2144 > EMA21=0.2121 · RSI=63 · Vol x1.9",
+      "strength": 91,
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
@@ -2394,11 +2428,13 @@
     "WLD_sE": 1779759226667,
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779720285783,
-    "TON_sE": 1779749246806
+    "TON_sE": 1779749246806,
+    "OKB_sE": 1779774454092,
+    "FET_sE": 1779774475061
   },
-  "scanCount": 209,
+  "scanCount": 210,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-26T02:43:02.789Z",
+  "lastScan": "2026-05-26T05:47:55.951Z",
   "lastReport": "2026-05-26T02:43:02.789Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 34,
