@@ -392,23 +392,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ZEC_sR_1779811568648",
-      "symbol": "ZEC",
-      "name": "Zcash",
-      "coinId": "zcash",
-      "rank": 13,
-      "stratId": "sR",
-      "entryPrice": 611.21,
-      "entryTime": 1779811568648,
-      "entryDate": "2026-05-26T16:06:08.648Z",
-      "entrySignal": "Ротация #13 ZEC: BTC Dom=58.1% · Коррекция -12.0% · RSI=60",
-      "strength": 69,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ONDO_sR_1779811583133",
       "symbol": "ONDO",
       "name": "Ondo",
@@ -427,6 +410,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ZEC_sR_1779811568648",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 13,
+      "stratId": "sR",
+      "entryPrice": 611.21,
+      "entryTime": 1779811568648,
+      "entryDate": "2026-05-26T16:06:08.648Z",
+      "entrySignal": "Ротация #13 ZEC: BTC Dom=58.1% · Коррекция -12.0% · RSI=60",
+      "strength": 69,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 577.09,
+      "exitTime": 1779833196467,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.58236939840644,
+      "pnlUsd": -5.58236939840644,
+      "total": 94.41763060159356
+    },
     {
       "id": "RENDER_sE_1779717040650",
       "symbol": "RENDER",
@@ -2530,24 +2536,24 @@
     "OKB_sE": 1779774454092,
     "FET_sE": 1779774475061
   },
-  "scanCount": 217,
+  "scanCount": 218,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-26T20:31:54.744Z",
+  "lastScan": "2026-05-26T22:07:17.700Z",
   "lastReport": "2026-05-26T20:03:06.879Z",
   "marketRegime": "BEAR",
   "fearGreed": 34,
   "totalStats": {
-    "trades": 89,
+    "trades": 90,
     "wins": 43,
-    "losses": 46,
-    "totalPnl": 77.00577783761186,
-    "invested": 8900
+    "losses": 47,
+    "totalPnl": 71.42340843920542,
+    "invested": 9000
   },
   "byStrategy": {
     "sR": {
-      "trades": 61,
+      "trades": 62,
       "wins": 31,
-      "pnl": 25.096750756123743
+      "pnl": 19.514381357717305
     },
     "sE": {
       "trades": 23,
@@ -2592,9 +2598,9 @@
     },
     "BEAR": {
       "sR": {
-        "trades": 9,
+        "trades": 10,
         "wins": 1,
-        "pnl": -41.53874741175101
+        "pnl": -47.12111681015745
       },
       "sM": {
         "trades": 2,
