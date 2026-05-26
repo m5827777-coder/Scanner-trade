@@ -307,23 +307,6 @@
       "peakPnl": 6.927710843373498
     },
     {
-      "id": "NEAR_sM_1779600959266",
-      "symbol": "NEAR",
-      "name": "NEAR Protocol",
-      "coinId": "near",
-      "rank": 35,
-      "stratId": "sM",
-      "entryPrice": 2.343,
-      "entryTime": 1779600959266,
-      "entryDate": "2026-05-24T05:35:59.266Z",
-      "entrySignal": "Пробой 20d max $2.3360 на +0.3% · Объём x1.8 · RSI=86",
-      "strength": 84,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 18.52326077678191
-    },
-    {
       "id": "CC_sE_1779635583749",
       "symbol": "CC",
       "name": "Canton",
@@ -392,23 +375,6 @@
       "peakPnl": 0
     },
     {
-      "id": "MORPHO_sE_1779720285783",
-      "symbol": "MORPHO",
-      "name": "Morpho",
-      "coinId": "morpho",
-      "rank": 57,
-      "stratId": "sE",
-      "entryPrice": 2.3382,
-      "entryTime": 1779720285783,
-      "entryDate": "2026-05-25T14:44:45.783Z",
-      "entrySignal": "Golden Cross вчера · EMA9=2.0584 > EMA21=1.9996 · RSI=69 · Vol x1.8",
-      "strength": 86,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "TON_sE_1779749246806",
       "symbol": "TON",
       "name": "Toncoin",
@@ -424,9 +390,72 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "WLD_sE_1779759226667",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 65,
+      "stratId": "sE",
+      "entryPrice": 0.327,
+      "entryTime": 1779759226667,
+      "entryDate": "2026-05-26T01:33:46.667Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=0.2878 > EMA21=0.2730 · RSI=68 · Vol x1.2",
+      "strength": 74,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "MORPHO_sE_1779720285783",
+      "symbol": "MORPHO",
+      "name": "Morpho",
+      "coinId": "morpho",
+      "rank": 57,
+      "stratId": "sE",
+      "entryPrice": 2.3382,
+      "entryTime": 1779720285783,
+      "entryDate": "2026-05-25T14:44:45.783Z",
+      "entrySignal": "Golden Cross вчера · EMA9=2.0584 > EMA21=1.9996 · RSI=69 · Vol x1.8",
+      "strength": 86,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2.1568,
+      "exitTime": 1779759203012,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -7.758104524848173,
+      "pnlUsd": -7.758104524848173,
+      "total": 92.24189547515182
+    },
+    {
+      "id": "NEAR_sM_1779600959266",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 35,
+      "stratId": "sM",
+      "entryPrice": 2.343,
+      "entryTime": 1779600959266,
+      "entryDate": "2026-05-24T05:35:59.266Z",
+      "entrySignal": "Пробой 20d max $2.3360 на +0.3% · Объём x1.8 · RSI=86",
+      "strength": 84,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 18.52326077678191,
+      "exitPrice": 2.686,
+      "exitTime": 1779759201106,
+      "exitReason": "📉 Trailing stop: пик +18.5% → откат до +14.6%",
+      "pnl": 14.639351259069569,
+      "pnlUsd": 14.639351259069569,
+      "total": 114.63935125906957
+    },
     {
       "id": "TON_sE_1779731758815",
       "symbol": "TON",
@@ -2362,23 +2391,23 @@
     "XMR_sE": 1779359045756,
     "ZEC_sM": 1779370849454,
     "ICP_sR": 1779554034302,
-    "WLD_sE": 1779635600295,
+    "WLD_sE": 1779759226667,
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779720285783,
     "TON_sE": 1779749246806
   },
-  "scanCount": 207,
+  "scanCount": 208,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-25T23:49:16.689Z",
-  "lastReport": "2026-05-25T19:22:17.952Z",
+  "lastScan": "2026-05-26T01:33:59.173Z",
+  "lastReport": "2026-05-26T01:33:59.173Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 30,
+  "fearGreed": 34,
   "totalStats": {
-    "trades": 82,
-    "wins": 37,
-    "losses": 45,
-    "totalPnl": 24.164461087990034,
-    "invested": 8200
+    "trades": 84,
+    "wins": 38,
+    "losses": 46,
+    "totalPnl": 31.045707822211433,
+    "invested": 8400
   },
   "byStrategy": {
     "sR": {
@@ -2387,14 +2416,14 @@
       "pnl": 13.152054695395615
     },
     "sE": {
-      "trades": 19,
+      "trades": 20,
       "wins": 6,
-      "pnl": -14.439095005944083
+      "pnl": -22.197199530792254
     },
     "sM": {
-      "trades": 4,
-      "wins": 2,
-      "pnl": 25.45150139853849
+      "trades": 5,
+      "wins": 3,
+      "pnl": 40.09085265760806
     }
   },
   "byRegime": {
@@ -2417,14 +2446,14 @@
         "pnl": 58.04762804414201
       },
       "sE": {
-        "trades": 12,
+        "trades": 13,
         "wins": 6,
-        "pnl": 25.61896777779195
+        "pnl": 17.86086325294378
       },
       "sM": {
-        "trades": 2,
-        "wins": 2,
-        "pnl": 40.78343182718169
+        "trades": 3,
+        "wins": 3,
+        "pnl": 55.42278308625126
       }
     },
     "BEAR": {
@@ -2445,5 +2474,5 @@
       }
     }
   },
-  "btcDominance": 58.3
+  "btcDominance": 58.2
 }
