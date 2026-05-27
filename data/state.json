@@ -375,23 +375,6 @@
       "peakPnl": 0
     },
     {
-      "id": "WLD_sE_1779807410474",
-      "symbol": "WLD",
-      "name": "Worldcoin",
-      "coinId": "worldcoin-wld",
-      "rank": 61,
-      "stratId": "sE",
-      "entryPrice": 0.3945,
-      "entryTime": 1779807410474,
-      "entryDate": "2026-05-26T14:56:50.474Z",
-      "entrySignal": "Golden Cross 4д назад · EMA9=0.3013 > EMA21=0.2791 · RSI=78 · Vol x4.6",
-      "strength": 84,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ONDO_sR_1779811583133",
       "symbol": "ONDO",
       "name": "Ondo",
@@ -410,6 +393,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "WLD_sE_1779807410474",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 61,
+      "stratId": "sE",
+      "entryPrice": 0.3945,
+      "entryTime": 1779807410474,
+      "entryDate": "2026-05-26T14:56:50.474Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=0.3013 > EMA21=0.2791 · RSI=78 · Vol x4.6",
+      "strength": 84,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.3668,
+      "exitTime": 1779845362768,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -7.021546261089988,
+      "pnlUsd": -7.021546261089988,
+      "total": 92.97845373891002
+    },
     {
       "id": "ZEC_sR_1779811568648",
       "symbol": "ZEC",
@@ -2536,18 +2542,18 @@
     "OKB_sE": 1779774454092,
     "FET_sE": 1779774475061
   },
-  "scanCount": 219,
+  "scanCount": 220,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-26T23:20:22.098Z",
+  "lastScan": "2026-05-27T01:30:03.478Z",
   "lastReport": "2026-05-26T20:03:06.879Z",
   "marketRegime": "BEAR",
-  "fearGreed": 34,
+  "fearGreed": 25,
   "totalStats": {
-    "trades": 90,
+    "trades": 91,
     "wins": 43,
-    "losses": 47,
-    "totalPnl": 71.42340843920542,
-    "invested": 9000
+    "losses": 48,
+    "totalPnl": 64.40186217811544,
+    "invested": 9100
   },
   "byStrategy": {
     "sR": {
@@ -2556,9 +2562,9 @@
       "pnl": 19.514381357717305
     },
     "sE": {
-      "trades": 23,
+      "trades": 24,
       "wins": 9,
-      "pnl": 11.818174423880041
+      "pnl": 4.7966281627900536
     },
     "sM": {
       "trades": 5,
@@ -2608,9 +2614,9 @@
         "pnl": -15.331930428643199
       },
       "sE": {
-        "trades": 8,
+        "trades": 9,
         "wins": 2,
-        "pnl": -20.661657539607983
+        "pnl": -27.68320380069797
       }
     }
   },
