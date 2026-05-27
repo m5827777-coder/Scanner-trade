@@ -441,6 +441,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ICP_sE_1779872137827",
+      "symbol": "ICP",
+      "name": "Internet Computer",
+      "coinId": "internet-computer",
+      "rank": 53,
+      "stratId": "sE",
+      "entryPrice": 2.96,
+      "entryTime": 1779872137827,
+      "entryDate": "2026-05-27T08:55:37.827Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=2.7115 > EMA21=2.7087 · RSI=59 · Vol x2.7",
+      "strength": 92,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -2591,12 +2608,13 @@
     "MORPHO_sE": 1779807408212,
     "TON_sE": 1779749246806,
     "OKB_sE": 1779774454092,
-    "FET_sE": 1779861261888
+    "FET_sE": 1779861261888,
+    "ICP_sE": 1779872137827
   },
-  "scanCount": 222,
+  "scanCount": 223,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-27T05:54:24.521Z",
-  "lastReport": "2026-05-27T02:54:00.303Z",
+  "lastScan": "2026-05-27T08:55:57.785Z",
+  "lastReport": "2026-05-27T08:55:57.785Z",
   "marketRegime": "BEAR",
   "fearGreed": 25,
   "totalStats": {
