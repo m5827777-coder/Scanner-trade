@@ -137,23 +137,6 @@
       "peakPnl": 5.801532084920757
     },
     {
-      "id": "DASH_sE_1779550477183",
-      "symbol": "DASH",
-      "name": "Dash",
-      "coinId": "dash",
-      "rank": 94,
-      "stratId": "sE",
-      "entryPrice": 45.23,
-      "entryTime": 1779550477183,
-      "entryDate": "2026-05-23T15:34:37.183Z",
-      "entrySignal": "EMA начало расхождения · EMA9=44.9787 > EMA21=44.1330 · RSI=52 · Vol x1.6",
-      "strength": 71,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "DOT_sR_1779554029231",
       "symbol": "DOT",
       "name": "Polkadot",
@@ -169,40 +152,6 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 5.636070853462162
-    },
-    {
-      "id": "JUP_sR_1779557801197",
-      "symbol": "JUP",
-      "name": "Jupiter",
-      "coinId": "jupiter-exchange-solana",
-      "rank": 87,
-      "stratId": "sR",
-      "entryPrice": 0.1992,
-      "entryTime": 1779557801197,
-      "entryDate": "2026-05-23T17:36:41.197Z",
-      "entrySignal": "Ротация #87 JUP: BTC Dom=58% · Коррекция -11.0% · RSI=49",
-      "strength": 71,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 6.927710843373498
-    },
-    {
-      "id": "CC_sE_1779635583749",
-      "symbol": "CC",
-      "name": "Canton",
-      "coinId": "canton-network",
-      "rank": 20,
-      "stratId": "sE",
-      "entryPrice": 0.16608,
-      "entryTime": 1779635583749,
-      "entryDate": "2026-05-24T15:13:03.749Z",
-      "entrySignal": "EMA начало расхождения · EMA9=0.1571 > EMA21=0.1547 · RSI=61 · Vol x1.0",
-      "strength": 72,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
     },
     {
       "id": "BCH_sR_1779639267790",
@@ -390,9 +339,112 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ADA_sR_1779925184772",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 16,
+      "stratId": "sR",
+      "entryPrice": 0.2367,
+      "entryTime": 1779925184772,
+      "entryDate": "2026-05-27T23:39:44.772Z",
+      "entrySignal": "Ротация #16 ADA: BTC Dom=57.8% · Коррекция -7.0% · RSI=36",
+      "strength": 78,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "CC_sR_1779925187689",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 21,
+      "stratId": "sR",
+      "entryPrice": 0.15606,
+      "entryTime": 1779925187689,
+      "entryDate": "2026-05-27T23:39:47.689Z",
+      "entrySignal": "Ротация #21 CC: BTC Dom=57.8% · Коррекция -7.1% · RSI=51",
+      "strength": 66,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "CC_sE_1779635583749",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 20,
+      "stratId": "sE",
+      "entryPrice": 0.16608,
+      "entryTime": 1779635583749,
+      "entryDate": "2026-05-24T15:13:03.749Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.1571 > EMA21=0.1547 · RSI=61 · Vol x1.0",
+      "strength": 72,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.15606,
+      "exitTime": 1779925175458,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.033236994219654,
+      "pnlUsd": -6.033236994219653,
+      "total": 93.96676300578035
+    },
+    {
+      "id": "JUP_sR_1779557801197",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "coinId": "jupiter-exchange-solana",
+      "rank": 87,
+      "stratId": "sR",
+      "entryPrice": 0.1992,
+      "entryTime": 1779557801197,
+      "entryDate": "2026-05-23T17:36:41.197Z",
+      "entrySignal": "Ротация #87 JUP: BTC Dom=58% · Коррекция -11.0% · RSI=49",
+      "strength": 71,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 6.927710843373498,
+      "exitPrice": 0.1883,
+      "exitTime": 1779925174724,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.4718875502008,
+      "pnlUsd": -5.471887550200801,
+      "total": 94.5281124497992
+    },
+    {
+      "id": "DASH_sE_1779550477183",
+      "symbol": "DASH",
+      "name": "Dash",
+      "coinId": "dash",
+      "rank": 94,
+      "stratId": "sE",
+      "entryPrice": 45.23,
+      "entryTime": 1779550477183,
+      "entryDate": "2026-05-23T15:34:37.183Z",
+      "entrySignal": "EMA начало расхождения · EMA9=44.9787 > EMA21=44.1330 · RSI=52 · Vol x1.6",
+      "strength": 71,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 42.21,
+      "exitTime": 1779925173361,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.676984302454116,
+      "pnlUsd": -6.676984302454116,
+      "total": 93.32301569754588
+    },
     {
       "id": "ENA_sR_1779554042696",
       "symbol": "ENA",
@@ -2673,14 +2725,14 @@
   ],
   "cooldowns": {
     "SOL_sR": 1779013117881,
-    "ADA_sR": 1779126563661,
+    "ADA_sR": 1779925184772,
     "HYPE_sR": 1778949423923,
     "BCH_sR": 1779639267790,
     "XLM_sR": 1779211294888,
     "UNI_sR": 1779554027073,
     "DOT_sR": 1779554029231,
     "AAVE_sR": 1779255526612,
-    "CC_sR": 1779407433263,
+    "CC_sR": 1779925187689,
     "ETC_sR": 1779126582063,
     "ENA_sR": 1779554042696,
     "ALGO_sR": 1779912519969,
@@ -2728,29 +2780,29 @@
     "ICP_sE": 1779872137827,
     "FIL_sE": 1779874621060
   },
-  "scanCount": 231,
+  "scanCount": 232,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-27T22:20:39.253Z",
+  "lastScan": "2026-05-27T23:40:16.698Z",
   "lastReport": "2026-05-27T20:08:52.415Z",
   "marketRegime": "BEAR",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 99,
+    "trades": 102,
     "wins": 43,
-    "losses": 56,
-    "totalPnl": 22.11633789693724,
-    "invested": 9900
+    "losses": 59,
+    "totalPnl": 3.934229050062669,
+    "invested": 10200
   },
   "byStrategy": {
     "sR": {
-      "trades": 68,
+      "trades": 69,
       "wins": 31,
-      "pnl": -13.323986090166617
+      "pnl": -18.795873640367418
     },
     "sE": {
-      "trades": 26,
+      "trades": 28,
       "wins": 9,
-      "pnl": -4.650528670504216
+      "pnl": -17.360749967177984
     },
     "sM": {
       "trades": 5,
@@ -2790,9 +2842,9 @@
     },
     "BEAR": {
       "sR": {
-        "trades": 16,
+        "trades": 17,
         "wins": 1,
-        "pnl": -79.95948425804137
+        "pnl": -85.43137180824218
       },
       "sM": {
         "trades": 2,
@@ -2800,9 +2852,9 @@
         "pnl": -15.331930428643199
       },
       "sE": {
-        "trades": 11,
+        "trades": 13,
         "wins": 2,
-        "pnl": -37.13036063399224
+        "pnl": -49.840581930666005
       }
     }
   },
