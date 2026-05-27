@@ -324,23 +324,6 @@
       "peakPnl": 0
     },
     {
-      "id": "TON_sE_1779749246806",
-      "symbol": "TON",
-      "name": "Toncoin",
-      "coinId": "the-open-network",
-      "rank": 21,
-      "stratId": "sE",
-      "entryPrice": 1.94,
-      "entryTime": 1779749246806,
-      "entryDate": "2026-05-25T22:47:26.806Z",
-      "entrySignal": "Golden Cross вчера · EMA9=1.9325 > EMA21=1.9260 · RSI=52 · Vol x1.6",
-      "strength": 73,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "OKB_sE_1779774454091",
       "symbol": "OKB",
       "name": "OKB",
@@ -370,23 +353,6 @@
       "entrySignal": "Golden Cross 2д назад · EMA9=2.0926 > EMA21=2.0245 · RSI=64 · Vol x1.5",
       "strength": 82,
       "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "ONDO_sR_1779811583133",
-      "symbol": "ONDO",
-      "name": "Ondo",
-      "coinId": "ondo-finance",
-      "rank": 46,
-      "stratId": "sR",
-      "entryPrice": 0.4204,
-      "entryTime": 1779811583133,
-      "entryDate": "2026-05-26T16:06:23.133Z",
-      "entrySignal": "Ротация #46 ONDO: BTC Dom=58.1% · Коррекция -11.6% · RSI=60",
-      "strength": 65,
-      "regime": "BULL",
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
@@ -475,9 +441,72 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "TON_sR_1779884022591",
+      "symbol": "TON",
+      "name": "Toncoin",
+      "coinId": "the-open-network",
+      "rank": 22,
+      "stratId": "sR",
+      "entryPrice": 1.882,
+      "entryTime": 1779884022591,
+      "entryDate": "2026-05-27T12:13:42.591Z",
+      "entrySignal": "Ротация #22 TON: BTC Dom=57.9% · Коррекция -14.3% · RSI=49",
+      "strength": 75,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "ONDO_sR_1779811583133",
+      "symbol": "ONDO",
+      "name": "Ondo",
+      "coinId": "ondo-finance",
+      "rank": 46,
+      "stratId": "sR",
+      "entryPrice": 0.4204,
+      "entryTime": 1779811583133,
+      "entryDate": "2026-05-26T16:06:23.133Z",
+      "entrySignal": "Ротация #46 ONDO: BTC Dom=58.1% · Коррекция -11.6% · RSI=60",
+      "strength": 65,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.3971,
+      "exitTime": 1779884011944,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.542340627973355,
+      "pnlUsd": -5.542340627973356,
+      "total": 94.45765937202664
+    },
+    {
+      "id": "TON_sE_1779749246806",
+      "symbol": "TON",
+      "name": "Toncoin",
+      "coinId": "the-open-network",
+      "rank": 21,
+      "stratId": "sE",
+      "entryPrice": 1.94,
+      "entryTime": 1779749246806,
+      "entryDate": "2026-05-25T22:47:26.806Z",
+      "entrySignal": "Golden Cross вчера · EMA9=1.9325 > EMA21=1.9260 · RSI=52 · Vol x1.6",
+      "strength": 73,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.882,
+      "exitTime": 1779884010542,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -2.9896907216494872,
+      "pnlUsd": -2.9896907216494872,
+      "total": 97.01030927835052
+    },
     {
       "id": "WLD_sE_1779807410474",
       "symbol": "WLD",
@@ -2609,7 +2638,7 @@
     "WBT_sR": 1779119539183,
     "ONDO_sR": 1779811583133,
     "BTC_sR": 1779202157518,
-    "TON_sR": 1779554019490,
+    "TON_sR": 1779884022591,
     "FIL_sR": 1779554045402,
     "JUP_sR": 1779557801197,
     "DASH_sE": 1779550477183,
@@ -2629,29 +2658,29 @@
     "ICP_sE": 1779872137827,
     "FIL_sE": 1779874621060
   },
-  "scanCount": 224,
+  "scanCount": 225,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-27T09:37:10.589Z",
+  "lastScan": "2026-05-27T12:14:10.955Z",
   "lastReport": "2026-05-27T09:37:10.589Z",
   "marketRegime": "BEAR",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 91,
+    "trades": 93,
     "wins": 43,
-    "losses": 48,
-    "totalPnl": 64.40186217811544,
-    "invested": 9100
+    "losses": 50,
+    "totalPnl": 55.869830828492596,
+    "invested": 9300
   },
   "byStrategy": {
     "sR": {
-      "trades": 62,
+      "trades": 63,
       "wins": 31,
-      "pnl": 19.514381357717305
+      "pnl": 13.972040729743949
     },
     "sE": {
-      "trades": 24,
+      "trades": 25,
       "wins": 9,
-      "pnl": 4.7966281627900536
+      "pnl": 1.8069374411405663
     },
     "sM": {
       "trades": 5,
@@ -2691,9 +2720,9 @@
     },
     "BEAR": {
       "sR": {
-        "trades": 10,
+        "trades": 11,
         "wins": 1,
-        "pnl": -47.12111681015745
+        "pnl": -52.663457438130806
       },
       "sM": {
         "trades": 2,
@@ -2701,9 +2730,9 @@
         "pnl": -15.331930428643199
       },
       "sE": {
-        "trades": 9,
+        "trades": 10,
         "wins": 2,
-        "pnl": -27.68320380069797
+        "pnl": -30.67289452234746
       }
     }
   },
