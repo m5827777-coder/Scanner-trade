@@ -458,6 +458,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ONDO_sR_1779898347287",
+      "symbol": "ONDO",
+      "name": "Ondo",
+      "coinId": "ondo-finance",
+      "rank": 46,
+      "stratId": "sR",
+      "entryPrice": 0.4007,
+      "entryTime": 1779898347287,
+      "entryDate": "2026-05-27T16:12:27.287Z",
+      "entrySignal": "Ротация #46 ONDO: BTC Dom=57.7% · Коррекция -15.7% · RSI=55",
+      "strength": 73,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -2636,7 +2653,7 @@
     "BNB_sR": 1779093283699,
     "TRX_sE": 1779117523577,
     "WBT_sR": 1779119539183,
-    "ONDO_sR": 1779811583133,
+    "ONDO_sR": 1779898347287,
     "BTC_sR": 1779202157518,
     "TON_sR": 1779884022591,
     "FIL_sR": 1779554045402,
@@ -2658,9 +2675,9 @@
     "ICP_sE": 1779872137827,
     "FIL_sE": 1779874621060
   },
-  "scanCount": 226,
+  "scanCount": 227,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-27T15:26:19.148Z",
+  "lastScan": "2026-05-27T16:12:49.842Z",
   "lastReport": "2026-05-27T15:26:19.148Z",
   "marketRegime": "BEAR",
   "fearGreed": 25,
