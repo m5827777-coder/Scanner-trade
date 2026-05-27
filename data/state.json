@@ -424,6 +424,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ALGO_sR_1779912519969",
+      "symbol": "ALGO",
+      "name": "Algorand",
+      "coinId": "algorand",
+      "rank": 73,
+      "stratId": "sR",
+      "entryPrice": 0.10723,
+      "entryTime": 1779912519969,
+      "entryDate": "2026-05-27T20:08:39.969Z",
+      "entrySignal": "Ротация #73 ALGO: BTC Dom=57.8% · Коррекция -10.5% · RSI=42",
+      "strength": 75,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -2648,7 +2665,7 @@
     "CC_sR": 1779407433263,
     "ETC_sR": 1779126582063,
     "ENA_sR": 1779554042696,
-    "ALGO_sR": 1779200452029,
+    "ALGO_sR": 1779912519969,
     "RENDER_sR": 1779600972129,
     "APT_sR": 1779380943732,
     "ARB_sR": 1779689279053,
@@ -2693,10 +2710,10 @@
     "ICP_sE": 1779872137827,
     "FIL_sE": 1779874621060
   },
-  "scanCount": 228,
+  "scanCount": 229,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-27T18:34:12.815Z",
-  "lastReport": "2026-05-27T15:26:19.148Z",
+  "lastScan": "2026-05-27T20:08:52.415Z",
+  "lastReport": "2026-05-27T20:08:52.415Z",
   "marketRegime": "BEAR",
   "fearGreed": 25,
   "totalStats": {
