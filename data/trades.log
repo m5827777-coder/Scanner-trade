@@ -37170,3 +37170,63 @@
 [2026-05-27 02:54:02 UTC] 📧 6h report sent
 [2026-05-27 02:54:02 UTC] 
 📊 ИТОГ: WR=47.3% PnL=$64.40 Trades=91
+[2026-05-27 05:53:35 UTC] ════════════════════════════════════════════════════
+[2026-05-27 05:53:35 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-05-27 05:53:35 UTC] ════════════════════════════════════════════════════
+[2026-05-27 05:53:35 UTC] 📡 Scan #222
+[2026-05-27 05:53:36 UTC] 📊 BTC Dom=57.9%
+[2026-05-27 05:53:36 UTC] 🌡 F&G=25 Regime=BEAR Open=24
+[2026-05-27 05:53:37 UTC]   📂 HOLD TRX/sE PnL=+5.33%
+[2026-05-27 05:53:37 UTC]   📂 HOLD DOGE/sR PnL=-2.45%
+[2026-05-27 05:53:37 UTC]   📂 HOLD ADA/sR PnL=-3.89%
+[2026-05-27 05:53:37 UTC]   📂 HOLD LINK/sR PnL=-0.34%
+[2026-05-27 05:53:37 UTC]   📂 HOLD LTC/sR PnL=-2.88%
+[2026-05-27 05:53:38 UTC]   📂 HOLD ETC/sR PnL=-1.30%
+[2026-05-27 05:53:38 UTC]   📂 HOLD ALGO/sR PnL=-3.42%
+[2026-05-27 05:53:38 UTC]   📂 HOLD ASTER/sE PnL=-1.25%
+[2026-05-27 05:53:38 UTC]   📂 HOLD XRP/sR PnL=-0.45%
+[2026-05-27 05:53:39 UTC]   📂 HOLD XMR/sR PnL=+2.00%
+[2026-05-27 05:53:39 UTC]   📂 HOLD DASH/sE PnL=-4.20%
+[2026-05-27 05:53:39 UTC]   📂 HOLD SUI/sR PnL=-3.45%
+[2026-05-27 05:53:39 UTC]   📂 HOLD UNI/sR PnL=-3.77%
+[2026-05-27 05:53:40 UTC]   📂 HOLD DOT/sR PnL=+1.53%
+[2026-05-27 05:53:40 UTC]   📂 HOLD ENA/sR PnL=-2.32%
+[2026-05-27 05:53:40 UTC]   📂 HOLD JUP/sR PnL=-1.31%
+[2026-05-27 05:53:40 UTC]   📂 HOLD CC/sE PnL=-4.74%
+[2026-05-27 05:53:41 UTC]   📂 HOLD BCH/sR PnL=-2.02%
+[2026-05-27 05:53:41 UTC]   📂 HOLD ARB/sR PnL=+1.02%
+[2026-05-27 05:53:41 UTC]   📂 HOLD TON/sE PnL=-1.24%
+[2026-05-27 05:53:41 UTC]   📂 HOLD OKB/sE PnL=-5.45%
+[2026-05-27 05:53:42 UTC]   📂 HOLD MORPHO/sE PnL=-0.98%
+[2026-05-27 05:53:42 UTC]   📂 HOLD ONDO/sR PnL=-2.31%
+[2026-05-27 05:53:42 UTC]   📂 HOLD WLD/sE PnL=+4.37%
+[2026-05-27 05:53:42 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-05-27 05:53:42 UTC] ✓ CoinGecko: 79 токенов. Проверяю входы...
+[2026-05-27 05:53:50 UTC]   ⏭ XMR: нет данных (monero)
+[2026-05-27 05:53:51 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-05-27 05:53:54 UTC]   ⏭ M: нет данных (memecore)
+[2026-05-27 05:53:58 UTC]   ⏭ TAO: нет данных (bittensor)
+[2026-05-27 05:53:59 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-05-27 05:54:00 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-05-27 05:54:03 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-05-27 05:54:06 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-05-27 05:54:08 UTC]   📈 ENTRY RENDER/sE [BULL_TREND] via OKX: Golden Cross 6д назад · EMA9=2.0920 > EMA21=1.9845 · RSI=63 · Vol x1.2 @ $2.251
+[2026-05-27 05:54:10 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-05-27 05:54:11 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-05-27 05:54:11 UTC]   ⏭ U: нет данных (united-stables)
+[2026-05-27 05:54:13 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-05-27 05:54:13 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-05-27 05:54:14 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-05-27 05:54:14 UTC]   ⏭ JST: нет данных (just)
+[2026-05-27 05:54:15 UTC]   ⏭ VVV: нет данных (venice-token)
+[2026-05-27 05:54:16 UTC]   ⏭ DEXE: нет данных (dexe)
+[2026-05-27 05:54:17 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-05-27 05:54:19 UTC]   ⏭ XDC: нет данных (xdce-crowd-sale)
+[2026-05-27 05:54:20 UTC]   ⏭ BDX: нет данных (beldex)
+[2026-05-27 05:54:20 UTC]   ⏭ GHO: нет данных (gho)
+[2026-05-27 05:54:21 UTC]   ⏭ HASH: нет данных (hash-2)
+[2026-05-27 05:54:21 UTC]   📈 ENTRY FET/sE [BULL_TREND] via OKX: Golden Cross вчера · EMA9=0.2244 > EMA21=0.2167 · RSI=64 · Vol x1.2 @ $0.2471
+[2026-05-27 05:54:24 UTC]   ⏭ VET: нет данных (vechain)
+[2026-05-27 05:54:24 UTC] ✅ Данные: 56 токенов OK, 23 недоступно | Открыто: 2 | Всего: 26
+[2026-05-27 05:54:24 UTC] 
+📊 ИТОГ: WR=47.3% PnL=$64.40 Trades=91

@@ -407,6 +407,40 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "RENDER_sE_1779861248735",
+      "symbol": "RENDER",
+      "name": "Render",
+      "coinId": "render-token",
+      "rank": 64,
+      "stratId": "sE",
+      "entryPrice": 2.251,
+      "entryTime": 1779861248735,
+      "entryDate": "2026-05-27T05:54:08.735Z",
+      "entrySignal": "Golden Cross 6д назад · EMA9=2.0920 > EMA21=1.9845 · RSI=63 · Vol x1.2",
+      "strength": 74,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "FET_sE_1779861261888",
+      "symbol": "FET",
+      "name": "Artificial Superintelligence Alliance",
+      "coinId": "fetch-ai",
+      "rank": 96,
+      "stratId": "sE",
+      "entryPrice": 0.2471,
+      "entryTime": 1779861261888,
+      "entryDate": "2026-05-27T05:54:21.888Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.2244 > EMA21=0.2167 · RSI=64 · Vol x1.2",
+      "strength": 78,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -2548,7 +2582,7 @@
     "SUI_sR": 1779554020771,
     "ASTER_sE": 1779331130364,
     "NEAR_sM": 1779600959266,
-    "RENDER_sE": 1779717040651,
+    "RENDER_sE": 1779861248735,
     "XMR_sE": 1779359045756,
     "ZEC_sM": 1779370849454,
     "ICP_sR": 1779554034302,
@@ -2557,11 +2591,11 @@
     "MORPHO_sE": 1779807408212,
     "TON_sE": 1779749246806,
     "OKB_sE": 1779774454092,
-    "FET_sE": 1779774475061
+    "FET_sE": 1779861261888
   },
-  "scanCount": 221,
+  "scanCount": 222,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-27T02:54:00.303Z",
+  "lastScan": "2026-05-27T05:54:24.521Z",
   "lastReport": "2026-05-27T02:54:00.303Z",
   "marketRegime": "BEAR",
   "fearGreed": 25,
@@ -2637,5 +2671,5 @@
       }
     }
   },
-  "btcDominance": 58
+  "btcDominance": 57.9
 }
