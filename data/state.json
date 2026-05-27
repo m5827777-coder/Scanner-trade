@@ -458,6 +458,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "FIL_sE_1779874621060",
+      "symbol": "FIL",
+      "name": "Filecoin",
+      "coinId": "filecoin",
+      "rank": 80,
+      "stratId": "sE",
+      "entryPrice": 1.0543,
+      "entryTime": 1779874621060,
+      "entryDate": "2026-05-27T09:37:01.060Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=1.0053 > EMA21=1.0042 · RSI=56 · Vol x2.1",
+      "strength": 92,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -2609,12 +2626,13 @@
     "TON_sE": 1779749246806,
     "OKB_sE": 1779774454092,
     "FET_sE": 1779861261888,
-    "ICP_sE": 1779872137827
+    "ICP_sE": 1779872137827,
+    "FIL_sE": 1779874621060
   },
-  "scanCount": 223,
+  "scanCount": 224,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-27T08:55:57.785Z",
-  "lastReport": "2026-05-27T08:55:57.785Z",
+  "lastScan": "2026-05-27T09:37:10.589Z",
+  "lastReport": "2026-05-27T09:37:10.589Z",
   "marketRegime": "BEAR",
   "fearGreed": 25,
   "totalStats": {
