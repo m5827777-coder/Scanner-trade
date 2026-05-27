@@ -103,23 +103,6 @@
       "peakPnl": 6.412161389873128
     },
     {
-      "id": "ALGO_sR_1779200452029",
-      "symbol": "ALGO",
-      "name": "Algorand",
-      "coinId": "algorand",
-      "rank": 71,
-      "stratId": "sR",
-      "entryPrice": 0.11266,
-      "entryTime": 1779200452029,
-      "entryDate": "2026-05-19T14:20:52.029Z",
-      "entrySignal": "Ротация #71 ALGO: BTC Dom=58.2% · Коррекция -11.6% · RSI=47",
-      "strength": 73,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 5.361263980117171
-    },
-    {
       "id": "ASTER_sE_1779331130364",
       "symbol": "ASTER",
       "name": "Aster",
@@ -183,23 +166,6 @@
       "entrySignal": "EMA начало расхождения · EMA9=44.9787 > EMA21=44.1330 · RSI=52 · Vol x1.6",
       "strength": 71,
       "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "SUI_sR_1779554020771",
-      "symbol": "SUI",
-      "name": "Sui",
-      "coinId": "sui",
-      "rank": 26,
-      "stratId": "sR",
-      "entryPrice": 1.0399,
-      "entryTime": 1779554020771,
-      "entryDate": "2026-05-23T16:33:40.771Z",
-      "entrySignal": "Ротация #26 SUI: BTC Dom=58% · Коррекция -10.7% · RSI=48",
-      "strength": 71,
-      "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
@@ -319,23 +285,6 @@
       "entrySignal": "Ротация #89 ARB: BTC Dom=58.3% · Коррекция -10.2% · RSI=34",
       "strength": 79,
       "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "OKB_sE_1779774454091",
-      "symbol": "OKB",
-      "name": "OKB",
-      "coinId": "okb",
-      "rank": 47,
-      "stratId": "sE",
-      "entryPrice": 93.69,
-      "entryTime": 1779774454092,
-      "entryDate": "2026-05-26T05:47:34.092Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=84.8452 > EMA21=84.3887 · RSI=68 · Vol x8.0",
-      "strength": 92,
-      "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
@@ -478,6 +427,75 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "OKB_sE_1779774454091",
+      "symbol": "OKB",
+      "name": "OKB",
+      "coinId": "okb",
+      "rank": 47,
+      "stratId": "sE",
+      "entryPrice": 93.69,
+      "entryTime": 1779774454092,
+      "entryDate": "2026-05-26T05:47:34.092Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=84.8452 > EMA21=84.3887 · RSI=68 · Vol x8.0",
+      "strength": 92,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 87.64,
+      "exitTime": 1779906809619,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.4574661116447825,
+      "pnlUsd": -6.4574661116447825,
+      "total": 93.54253388835522
+    },
+    {
+      "id": "SUI_sR_1779554020771",
+      "symbol": "SUI",
+      "name": "Sui",
+      "coinId": "sui",
+      "rank": 26,
+      "stratId": "sR",
+      "entryPrice": 1.0399,
+      "entryTime": 1779554020771,
+      "entryDate": "2026-05-23T16:33:40.771Z",
+      "entrySignal": "Ротация #26 SUI: BTC Dom=58% · Коррекция -10.7% · RSI=48",
+      "strength": 71,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.9746,
+      "exitTime": 1779906807024,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -6.279449947110301,
+      "pnlUsd": -6.279449947110301,
+      "total": 93.7205500528897
+    },
+    {
+      "id": "ALGO_sR_1779200452029",
+      "symbol": "ALGO",
+      "name": "Algorand",
+      "coinId": "algorand",
+      "rank": 71,
+      "stratId": "sR",
+      "entryPrice": 0.11266,
+      "entryTime": 1779200452029,
+      "entryDate": "2026-05-19T14:20:52.029Z",
+      "entrySignal": "Ротация #71 ALGO: BTC Dom=58.2% · Коррекция -11.6% · RSI=47",
+      "strength": 73,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 5.361263980117171,
+      "exitPrice": 0.1065,
+      "exitTime": 1779906804835,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.46777915853009,
+      "pnlUsd": -5.46777915853009,
+      "total": 94.53222084146991
+    },
     {
       "id": "ONDO_sR_1779811583133",
       "symbol": "ONDO",
@@ -2675,29 +2693,29 @@
     "ICP_sE": 1779872137827,
     "FIL_sE": 1779874621060
   },
-  "scanCount": 227,
+  "scanCount": 228,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-27T16:12:49.842Z",
+  "lastScan": "2026-05-27T18:34:12.815Z",
   "lastReport": "2026-05-27T15:26:19.148Z",
   "marketRegime": "BEAR",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 93,
+    "trades": 96,
     "wins": 43,
-    "losses": 50,
-    "totalPnl": 55.869830828492596,
-    "invested": 9300
+    "losses": 53,
+    "totalPnl": 37.66513561120742,
+    "invested": 9600
   },
   "byStrategy": {
     "sR": {
-      "trades": 63,
+      "trades": 65,
       "wins": 31,
-      "pnl": 13.972040729743949
+      "pnl": 2.224811624103559
     },
     "sE": {
-      "trades": 25,
+      "trades": 26,
       "wins": 9,
-      "pnl": 1.8069374411405663
+      "pnl": -4.650528670504216
     },
     "sM": {
       "trades": 5,
@@ -2737,9 +2755,9 @@
     },
     "BEAR": {
       "sR": {
-        "trades": 11,
+        "trades": 13,
         "wins": 1,
-        "pnl": -52.663457438130806
+        "pnl": -64.41068654377119
       },
       "sM": {
         "trades": 2,
@@ -2747,11 +2765,11 @@
         "pnl": -15.331930428643199
       },
       "sE": {
-        "trades": 10,
+        "trades": 11,
         "wins": 2,
-        "pnl": -30.67289452234746
+        "pnl": -37.13036063399224
       }
     }
   },
-  "btcDominance": 57.7
+  "btcDominance": 57.8
 }
