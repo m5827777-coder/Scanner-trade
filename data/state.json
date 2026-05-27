@@ -35,23 +35,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ADA_sR_1779126563661",
-      "symbol": "ADA",
-      "name": "Cardano",
-      "coinId": "cardano",
-      "rank": 15,
-      "stratId": "sR",
-      "entryPrice": 0.2496,
-      "entryTime": 1779126563661,
-      "entryDate": "2026-05-18T17:49:23.661Z",
-      "entrySignal": "Ротация #15 ADA: BTC Dom=58.2% · Коррекция -11.8% · RSI=43",
-      "strength": 79,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "LINK_sR_1779126565966",
       "symbol": "LINK",
       "name": "Chainlink",
@@ -171,23 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "UNI_sR_1779554027073",
-      "symbol": "UNI",
-      "name": "Uniswap",
-      "coinId": "uniswap",
-      "rank": 41,
-      "stratId": "sR",
-      "entryPrice": 3.399,
-      "entryTime": 1779554027073,
-      "entryDate": "2026-05-23T16:33:47.073Z",
-      "entrySignal": "Ротация #41 UNI: BTC Dom=58% · Коррекция -8.0% · RSI=47",
-      "strength": 68,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "DOT_sR_1779554029231",
       "symbol": "DOT",
       "name": "Polkadot",
@@ -203,23 +169,6 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 5.636070853462162
-    },
-    {
-      "id": "ENA_sR_1779554042696",
-      "symbol": "ENA",
-      "name": "Ethena",
-      "coinId": "ethena",
-      "rank": 77,
-      "stratId": "sR",
-      "entryPrice": 0.09855,
-      "entryTime": 1779554042696,
-      "entryDate": "2026-05-23T16:34:02.696Z",
-      "entrySignal": "Ротация #77 ENA: BTC Dom=58% · Коррекция -10.7% · RSI=41",
-      "strength": 75,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 5.154743784880773
     },
     {
       "id": "JUP_sR_1779557801197",
@@ -444,6 +393,75 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ENA_sR_1779554042696",
+      "symbol": "ENA",
+      "name": "Ethena",
+      "coinId": "ethena",
+      "rank": 77,
+      "stratId": "sR",
+      "entryPrice": 0.09855,
+      "entryTime": 1779554042696,
+      "entryDate": "2026-05-23T16:34:02.696Z",
+      "entrySignal": "Ротация #77 ENA: BTC Dom=58% · Коррекция -10.7% · RSI=41",
+      "strength": 75,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 5.154743784880773,
+      "exitPrice": 0.09312,
+      "exitTime": 1779920394334,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.509893455098939,
+      "pnlUsd": -5.509893455098938,
+      "total": 94.49010654490107
+    },
+    {
+      "id": "UNI_sR_1779554027073",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "coinId": "uniswap",
+      "rank": 41,
+      "stratId": "sR",
+      "entryPrice": 3.399,
+      "entryTime": 1779554027073,
+      "entryDate": "2026-05-23T16:33:47.073Z",
+      "entrySignal": "Ротация #41 UNI: BTC Dom=58% · Коррекция -8.0% · RSI=47",
+      "strength": 68,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 3.228,
+      "exitTime": 1779920393276,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.030891438658423,
+      "pnlUsd": -5.030891438658423,
+      "total": 94.96910856134157
+    },
+    {
+      "id": "ADA_sR_1779126563661",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 15,
+      "stratId": "sR",
+      "entryPrice": 0.2496,
+      "entryTime": 1779126563661,
+      "entryDate": "2026-05-18T17:49:23.661Z",
+      "entrySignal": "Ротация #15 ADA: BTC Dom=58.2% · Коррекция -11.8% · RSI=43",
+      "strength": 79,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.2371,
+      "exitTime": 1779920390325,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.008012820512814,
+      "pnlUsd": -5.008012820512814,
+      "total": 94.99198717948718
+    },
     {
       "id": "OKB_sE_1779774454091",
       "symbol": "OKB",
@@ -2710,24 +2728,24 @@
     "ICP_sE": 1779872137827,
     "FIL_sE": 1779874621060
   },
-  "scanCount": 230,
+  "scanCount": 231,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-27T20:35:59.913Z",
+  "lastScan": "2026-05-27T22:20:39.253Z",
   "lastReport": "2026-05-27T20:08:52.415Z",
   "marketRegime": "BEAR",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 96,
+    "trades": 99,
     "wins": 43,
-    "losses": 53,
-    "totalPnl": 37.66513561120742,
-    "invested": 9600
+    "losses": 56,
+    "totalPnl": 22.11633789693724,
+    "invested": 9900
   },
   "byStrategy": {
     "sR": {
-      "trades": 65,
+      "trades": 68,
       "wins": 31,
-      "pnl": 2.224811624103559
+      "pnl": -13.323986090166617
     },
     "sE": {
       "trades": 26,
@@ -2772,9 +2790,9 @@
     },
     "BEAR": {
       "sR": {
-        "trades": 13,
+        "trades": 16,
         "wins": 1,
-        "pnl": -64.41068654377119
+        "pnl": -79.95948425804137
       },
       "sM": {
         "trades": 2,
