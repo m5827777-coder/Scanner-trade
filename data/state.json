@@ -137,6 +137,127 @@
       "peakPnl": 0
     },
     {
+      "id": "SOL_sR_1779986481479",
+      "symbol": "SOL",
+      "name": "Solana",
+      "coinId": "solana",
+      "rank": 7,
+      "stratId": "sR",
+      "entryPrice": 81.81,
+      "entryTime": 1779986481479,
+      "entryDate": "2026-05-28T16:41:21.479Z",
+      "entrySignal": "Ротация #7 SOL: BTC Dom=57.6% · Коррекция -7.1% · RSI=39",
+      "strength": 81,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "DOGE_sR_1779986483571",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "coinId": "dogecoin",
+      "rank": 10,
+      "stratId": "sR",
+      "entryPrice": 0.09906,
+      "entryTime": 1779986483571,
+      "entryDate": "2026-05-28T16:41:23.571Z",
+      "entrySignal": "Ротация #10 DOGE: BTC Dom=57.6% · Коррекция -7.2% · RSI=41",
+      "strength": 80,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "ICP_sR_1779986502655",
+      "symbol": "ICP",
+      "name": "Internet Computer",
+      "coinId": "internet-computer",
+      "rank": 55,
+      "stratId": "sR",
+      "entryPrice": 2.757,
+      "entryTime": 1779986502655,
+      "entryDate": "2026-05-28T16:41:42.655Z",
+      "entrySignal": "Ротация #55 ICP: BTC Dom=57.6% · Коррекция -10.7% · RSI=52",
+      "strength": 70,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "ATOM_sR_1779986507191",
+      "symbol": "ATOM",
+      "name": "Cosmos Hub",
+      "coinId": "cosmos",
+      "rank": 67,
+      "stratId": "sR",
+      "entryPrice": 2.019,
+      "entryTime": 1779986507191,
+      "entryDate": "2026-05-28T16:41:47.191Z",
+      "entrySignal": "Ротация #67 ATOM: BTC Dom=57.6% · Коррекция -12.2% · RSI=50",
+      "strength": 72,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "RENDER_sR_1779986508153",
+      "symbol": "RENDER",
+      "name": "Render",
+      "coinId": "render-token",
+      "rank": 68,
+      "stratId": "sR",
+      "entryPrice": 1.988,
+      "entryTime": 1779986508153,
+      "entryDate": "2026-05-28T16:41:48.153Z",
+      "entrySignal": "Ротация #68 RENDER: BTC Dom=57.6% · Коррекция -18.4% · RSI=51",
+      "strength": 79,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "APT_sR_1779986513750",
+      "symbol": "APT",
+      "name": "Aptos",
+      "coinId": "aptos",
+      "rank": 82,
+      "stratId": "sR",
+      "entryPrice": 0.9287,
+      "entryTime": 1779986513750,
+      "entryDate": "2026-05-28T16:41:53.750Z",
+      "entrySignal": "Ротация #82 APT: BTC Dom=57.6% · Коррекция -8.0% · RSI=43",
+      "strength": 72,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "FIL_sR_1779986514896",
+      "symbol": "FIL",
+      "name": "Filecoin",
+      "coinId": "filecoin",
+      "rank": 83,
+      "stratId": "sR",
+      "entryPrice": 0.964,
+      "entryTime": 1779986514896,
+      "entryDate": "2026-05-28T16:41:54.896Z",
+      "entrySignal": "Ротация #83 FIL: BTC Dom=57.6% · Коррекция -12.3% · RSI=47",
+      "strength": 74,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    }
+  ],
+  "closedTrades": [
+    {
       "id": "XLM_sE_1779931476538",
       "symbol": "XLM",
       "name": "Stellar",
@@ -148,13 +269,17 @@
       "entryDate": "2026-05-28T01:24:36.538Z",
       "entrySignal": "Golden Cross сегодня · EMA9=0.1564 > EMA21=0.1559 · RSI=67 · Vol x4.5",
       "strength": 92,
-      "regime": "BULL_TREND",
+      "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 14.159544159544165
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 15.686609686609687,
+      "exitPrice": 0.20303,
+      "exitTime": 1779986477863,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.686609686609687,
+      "pnlUsd": 15.686609686609689,
+      "total": 115.68660968660969
+    },
     {
       "id": "ARB_sR_1779689279053",
       "symbol": "ARB",
@@ -2848,7 +2973,7 @@
     }
   ],
   "cooldowns": {
-    "SOL_sR": 1779013117881,
+    "SOL_sR": 1779986481479,
     "ADA_sR": 1779925184772,
     "HYPE_sR": 1778949423923,
     "BCH_sR": 1779639267790,
@@ -2860,8 +2985,8 @@
     "ETC_sR": 1779126582063,
     "ENA_sR": 1779554042696,
     "ALGO_sR": 1779912519969,
-    "RENDER_sR": 1779600972129,
-    "APT_sR": 1779380943732,
+    "RENDER_sR": 1779986508153,
+    "APT_sR": 1779986513750,
     "ARB_sR": 1779689279053,
     "AVAX_sR": 1778943064629,
     "HBAR_sR": 1778752941540,
@@ -2871,12 +2996,12 @@
     "HYPE_sE": 1779533232173,
     "LINK_sR": 1779126565966,
     "NEAR_sR": 1778862201360,
-    "ATOM_sR": 1779658385501,
+    "ATOM_sR": 1779986507191,
     "FIGR_HELOC_sE": 1779931469733,
     "XMR_sR": 1779521409176,
     "ETH_sR": 1779126557406,
     "LTC_sR": 1779126568920,
-    "DOGE_sR": 1779126561336,
+    "DOGE_sR": 1779986483571,
     "XRP_sR": 1779499545235,
     "ZEC_sR": 1779811568648,
     "BNB_sR": 1779093283699,
@@ -2885,7 +3010,7 @@
     "ONDO_sR": 1779898347287,
     "BTC_sR": 1779202157518,
     "TON_sR": 1779884022591,
-    "FIL_sR": 1779554045402,
+    "FIL_sR": 1779986514896,
     "JUP_sR": 1779557801197,
     "DASH_sE": 1779550477183,
     "SUI_sR": 1779554020771,
@@ -2894,7 +3019,7 @@
     "RENDER_sE": 1779861248735,
     "XMR_sE": 1779359045756,
     "ZEC_sM": 1779370849454,
-    "ICP_sR": 1779554034302,
+    "ICP_sR": 1779986502655,
     "WLD_sE": 1779850424416,
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779807408212,
@@ -2905,18 +3030,18 @@
     "FIL_sE": 1779874621060,
     "XLM_sE": 1779931476538
   },
-  "scanCount": 239,
+  "scanCount": 240,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-28T15:39:07.774Z",
+  "lastScan": "2026-05-28T16:42:02.738Z",
   "lastReport": "2026-05-28T15:39:07.774Z",
   "marketRegime": "BEAR",
   "fearGreed": 22,
   "totalStats": {
-    "trades": 117,
-    "wins": 44,
+    "trades": 118,
+    "wins": 45,
     "losses": 73,
-    "totalPnl": -85.05291426451467,
-    "invested": 11700
+    "totalPnl": -69.36630457790498,
+    "invested": 11800
   },
   "byStrategy": {
     "sR": {
@@ -2925,9 +3050,9 @@
       "pnl": -61.939570910487184
     },
     "sE": {
-      "trades": 34,
-      "wins": 9,
-      "pnl": -63.20419601163554
+      "trades": 35,
+      "wins": 10,
+      "pnl": -47.517586325025846
     },
     "sM": {
       "trades": 5,
@@ -2977,9 +3102,9 @@
         "pnl": -15.331930428643199
       },
       "sE": {
-        "trades": 19,
-        "wins": 2,
-        "pnl": -95.68402797512357
+        "trades": 20,
+        "wins": 3,
+        "pnl": -79.99741828851388
       }
     }
   },
