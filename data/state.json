@@ -3115,9 +3115,9 @@
     "FIL_sE": 1779874621060,
     "XLM_sE": 1779995983828
   },
-  "scanCount": 243,
+  "scanCount": 244,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-28T21:25:11.729Z",
+  "lastScan": "2026-05-28T22:51:11.109Z",
   "lastReport": "2026-05-28T20:12:44.675Z",
   "marketRegime": "BEAR",
   "fearGreed": 22,
@@ -3193,5 +3193,5 @@
       }
     }
   },
-  "btcDominance": 57.6
+  "btcDominance": 57.7
 }
