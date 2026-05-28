@@ -83,7 +83,7 @@
       "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 7.759022661568585
     },
     {
       "id": "ADA_sR_1779925184772",
@@ -3115,9 +3115,9 @@
     "FIL_sE": 1779874621060,
     "XLM_sE": 1779995983828
   },
-  "scanCount": 244,
+  "scanCount": 245,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-28T22:51:11.109Z",
+  "lastScan": "2026-05-28T23:58:26.527Z",
   "lastReport": "2026-05-28T20:12:44.675Z",
   "marketRegime": "BEAR",
   "fearGreed": 22,
