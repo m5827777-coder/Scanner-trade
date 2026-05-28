@@ -69,23 +69,6 @@
       "peakPnl": 5.636070853462162
     },
     {
-      "id": "ARB_sR_1779689279053",
-      "symbol": "ARB",
-      "name": "Arbitrum",
-      "coinId": "arbitrum",
-      "rank": 89,
-      "stratId": "sR",
-      "entryPrice": 0.10754,
-      "entryTime": 1779689279053,
-      "entryDate": "2026-05-25T06:07:59.053Z",
-      "entrySignal": "Ротация #89 ARB: BTC Dom=58.3% · Коррекция -10.2% · RSI=34",
-      "strength": 79,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ALGO_sR_1779912519969",
       "symbol": "ALGO",
       "name": "Algorand",
@@ -168,10 +151,33 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.071225071225082
+      "peakPnl": 14.159544159544165
     }
   ],
   "closedTrades": [
+    {
+      "id": "ARB_sR_1779689279053",
+      "symbol": "ARB",
+      "name": "Arbitrum",
+      "coinId": "arbitrum",
+      "rank": 89,
+      "stratId": "sR",
+      "entryPrice": 0.10754,
+      "entryTime": 1779689279053,
+      "entryDate": "2026-05-25T06:07:59.053Z",
+      "entrySignal": "Ротация #89 ARB: BTC Dom=58.3% · Коррекция -10.2% · RSI=34",
+      "strength": 79,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.10213,
+      "exitTime": 1779982711081,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.0306862562767325,
+      "pnlUsd": -5.0306862562767325,
+      "total": 94.96931374372326
+    },
     {
       "id": "TON_sR_1779884022591",
       "symbol": "TON",
@@ -2899,24 +2905,24 @@
     "FIL_sE": 1779874621060,
     "XLM_sE": 1779931476538
   },
-  "scanCount": 238,
+  "scanCount": 239,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-28T12:39:28.788Z",
-  "lastReport": "2026-05-28T09:53:44.906Z",
+  "lastScan": "2026-05-28T15:39:07.774Z",
+  "lastReport": "2026-05-28T15:39:07.774Z",
   "marketRegime": "BEAR",
   "fearGreed": 22,
   "totalStats": {
-    "trades": 116,
+    "trades": 117,
     "wins": 44,
-    "losses": 72,
-    "totalPnl": -80.02222800823793,
-    "invested": 11600
+    "losses": 73,
+    "totalPnl": -85.05291426451467,
+    "invested": 11700
   },
   "byStrategy": {
     "sR": {
-      "trades": 77,
+      "trades": 78,
       "wins": 32,
-      "pnl": -56.90888465421045
+      "pnl": -61.939570910487184
     },
     "sE": {
       "trades": 34,
@@ -2961,9 +2967,9 @@
     },
     "BEAR": {
       "sR": {
-        "trades": 25,
+        "trades": 26,
         "wins": 2,
-        "pnl": -123.54438282208521
+        "pnl": -128.57506907836193
       },
       "sM": {
         "trades": 2,
@@ -2977,5 +2983,5 @@
       }
     }
   },
-  "btcDominance": 57.9
+  "btcDominance": 57.6
 }
