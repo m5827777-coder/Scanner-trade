@@ -188,23 +188,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ICP_sE_1779872137827",
-      "symbol": "ICP",
-      "name": "Internet Computer",
-      "coinId": "internet-computer",
-      "rank": 53,
-      "stratId": "sE",
-      "entryPrice": 2.96,
-      "entryTime": 1779872137827,
-      "entryDate": "2026-05-27T08:55:37.827Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=2.7115 > EMA21=2.7087 · RSI=59 · Vol x2.7",
-      "strength": 92,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FIL_sE_1779874621060",
       "symbol": "FIL",
       "name": "Filecoin",
@@ -325,6 +308,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ICP_sE_1779872137827",
+      "symbol": "ICP",
+      "name": "Internet Computer",
+      "coinId": "internet-computer",
+      "rank": 53,
+      "stratId": "sE",
+      "entryPrice": 2.96,
+      "entryTime": 1779872137827,
+      "entryDate": "2026-05-27T08:55:37.827Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=2.7115 > EMA21=2.7087 · RSI=59 · Vol x2.7",
+      "strength": 92,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2.777,
+      "exitTime": 1779936049852,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.182432432432427,
+      "pnlUsd": -6.182432432432426,
+      "total": 93.81756756756758
+    },
     {
       "id": "ONDO_sR_1779898347287",
       "symbol": "ONDO",
@@ -2845,18 +2851,18 @@
     "FIL_sE": 1779874621060,
     "XLM_sE": 1779931476538
   },
-  "scanCount": 233,
+  "scanCount": 234,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-28T01:25:07.201Z",
-  "lastReport": "2026-05-27T20:08:52.415Z",
+  "lastScan": "2026-05-28T02:41:27.518Z",
+  "lastReport": "2026-05-28T02:41:27.518Z",
   "marketRegime": "BEAR",
   "fearGreed": 22,
   "totalStats": {
-    "trades": 107,
+    "trades": 108,
     "wins": 44,
-    "losses": 63,
-    "totalPnl": -18.657635541708267,
-    "invested": 10700
+    "losses": 64,
+    "totalPnl": -24.840067974140695,
+    "invested": 10800
   },
   "byStrategy": {
     "sR": {
@@ -2865,9 +2871,9 @@
       "pnl": -20.48679040148309
     },
     "sE": {
-      "trades": 31,
+      "trades": 32,
       "wins": 9,
-      "pnl": -38.26169779783325
+      "pnl": -44.44413023026568
     },
     "sM": {
       "trades": 5,
@@ -2917,9 +2923,9 @@
         "pnl": -15.331930428643199
       },
       "sE": {
-        "trades": 16,
+        "trades": 17,
         "wins": 2,
-        "pnl": -70.74152976132127
+        "pnl": -76.9239621937537
       }
     }
   },
