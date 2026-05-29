@@ -69,23 +69,6 @@
       "peakPnl": 5.636070853462162
     },
     {
-      "id": "ALGO_sR_1779912519969",
-      "symbol": "ALGO",
-      "name": "Algorand",
-      "coinId": "algorand",
-      "rank": 73,
-      "stratId": "sR",
-      "entryPrice": 0.10723,
-      "entryTime": 1779912519969,
-      "entryDate": "2026-05-27T20:08:39.969Z",
-      "entrySignal": "Ротация #73 ALGO: BTC Dom=57.8% · Коррекция -10.5% · RSI=42",
-      "strength": 75,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 9.51226335913457
-    },
-    {
       "id": "ADA_sR_1779925184772",
       "symbol": "ADA",
       "name": "Cardano",
@@ -376,6 +359,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ALGO_sR_1779912519969",
+      "symbol": "ALGO",
+      "name": "Algorand",
+      "coinId": "algorand",
+      "rank": 73,
+      "stratId": "sR",
+      "entryPrice": 0.10723,
+      "entryTime": 1779912519969,
+      "entryDate": "2026-05-27T20:08:39.969Z",
+      "entrySignal": "Ротация #73 ALGO: BTC Dom=57.8% · Коррекция -10.5% · RSI=42",
+      "strength": 75,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 11.088314837265688,
+      "exitPrice": 0.11912,
+      "exitTime": 1780047815059,
+      "exitReason": "Возврат к 7d max $0.1199",
+      "pnl": 11.088314837265688,
+      "pnlUsd": 11.088314837265688,
+      "total": 111.08831483726568
+    },
     {
       "id": "XLM_sE_1779931476538",
       "symbol": "XLM",
@@ -3149,24 +3155,24 @@
     "FIL_sE": 1779874621060,
     "XLM_sE": 1779995983828
   },
-  "scanCount": 248,
+  "scanCount": 249,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-29T07:08:23.244Z",
-  "lastReport": "2026-05-29T02:44:45.592Z",
+  "lastScan": "2026-05-29T09:44:22.137Z",
+  "lastReport": "2026-05-29T09:44:22.137Z",
   "marketRegime": "BEAR",
   "fearGreed": 23,
   "totalStats": {
-    "trades": 118,
-    "wins": 45,
+    "trades": 119,
+    "wins": 46,
     "losses": 73,
-    "totalPnl": -69.36630457790498,
-    "invested": 11800
+    "totalPnl": -58.2779897406393,
+    "invested": 11900
   },
   "byStrategy": {
     "sR": {
-      "trades": 78,
-      "wins": 32,
-      "pnl": -61.939570910487184
+      "trades": 79,
+      "wins": 33,
+      "pnl": -50.85125607322149
     },
     "sE": {
       "trades": 35,
@@ -3211,9 +3217,9 @@
     },
     "BEAR": {
       "sR": {
-        "trades": 26,
-        "wins": 2,
-        "pnl": -128.57506907836193
+        "trades": 27,
+        "wins": 3,
+        "pnl": -117.48675424109625
       },
       "sM": {
         "trades": 2,
