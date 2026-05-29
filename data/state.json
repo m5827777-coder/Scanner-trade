@@ -338,7 +338,7 @@
       "regime": "BEAR",
       "size": 100,
       "src": "CoinGecko",
-      "peakPnl": 0
+      "peakPnl": 7.4294328959997005
     },
     {
       "id": "INJ_sM_1780066339309",
@@ -3247,9 +3247,9 @@
     "XLM_sE": 1780090035565,
     "INJ_sM": 1780066339309
   },
-  "scanCount": 256,
+  "scanCount": 257,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-29T21:27:47.566Z",
+  "lastScan": "2026-05-29T22:49:28.346Z",
   "lastReport": "2026-05-29T20:13:57.718Z",
   "marketRegime": "BEAR",
   "fearGreed": 23,
