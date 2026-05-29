@@ -373,6 +373,57 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "TON_sR_1780075400153",
+      "symbol": "TON",
+      "name": "Toncoin",
+      "coinId": "the-open-network",
+      "rank": 23,
+      "stratId": "sR",
+      "entryPrice": 1.798,
+      "entryTime": 1780075400153,
+      "entryDate": "2026-05-29T17:23:20.153Z",
+      "entrySignal": "Ротация #23 TON: BTC Dom=57.7% · Коррекция -18.1% · RSI=46",
+      "strength": 82,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "ETC_sR_1780075414720",
+      "symbol": "ETC",
+      "name": "Ethereum Classic",
+      "coinId": "ethereum-classic",
+      "rank": 61,
+      "stratId": "sR",
+      "entryPrice": 8.292,
+      "entryTime": 1780075414720,
+      "entryDate": "2026-05-29T17:23:34.720Z",
+      "entrySignal": "Ротация #61 ETC: BTC Dom=57.7% · Коррекция -9.8% · RSI=40",
+      "strength": 75,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "JUP_sR_1780075427579",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "coinId": "jupiter-exchange-solana",
+      "rank": 91,
+      "stratId": "sR",
+      "entryPrice": 0.1862,
+      "entryTime": 1780075427579,
+      "entryDate": "2026-05-29T17:23:47.579Z",
+      "entrySignal": "Ротация #91 JUP: BTC Dom=57.7% · Коррекция -13.2% · RSI=45",
+      "strength": 77,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -3124,7 +3175,7 @@
     "DOT_sR": 1779554029231,
     "AAVE_sR": 1779996000872,
     "CC_sR": 1779925187689,
-    "ETC_sR": 1779126582063,
+    "ETC_sR": 1780075414720,
     "ENA_sR": 1779554042696,
     "ALGO_sR": 1779912519969,
     "RENDER_sR": 1779986508153,
@@ -3151,9 +3202,9 @@
     "WBT_sR": 1779119539183,
     "ONDO_sR": 1779898347287,
     "BTC_sR": 1779202157518,
-    "TON_sR": 1779884022591,
+    "TON_sR": 1780075400154,
     "FIL_sR": 1779986514896,
-    "JUP_sR": 1779557801197,
+    "JUP_sR": 1780075427579,
     "DASH_sE": 1779550477183,
     "SUI_sR": 1779554020771,
     "ASTER_sE": 1779331130364,
@@ -3173,9 +3224,9 @@
     "XLM_sE": 1779995983828,
     "INJ_sM": 1780066339309
   },
-  "scanCount": 252,
+  "scanCount": 253,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-29T14:52:24.680Z",
+  "lastScan": "2026-05-29T17:23:51.938Z",
   "lastReport": "2026-05-29T14:52:24.680Z",
   "marketRegime": "BEAR",
   "fearGreed": 23,
@@ -3251,5 +3302,5 @@
       }
     }
   },
-  "btcDominance": 57.6
+  "btcDominance": 57.7
 }
