@@ -356,6 +356,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "INJ_sM_1780066339309",
+      "symbol": "INJ",
+      "name": "Injective",
+      "coinId": "injective-protocol",
+      "rank": 89,
+      "stratId": "sM",
+      "entryPrice": 6.336,
+      "entryTime": 1780066339309,
+      "entryDate": "2026-05-29T14:52:19.309Z",
+      "entrySignal": "Пробой 20d max $6.1100 на +3.7% · Объём x1.8 · RSI=71",
+      "strength": 84,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -3153,12 +3170,13 @@
     "FET_sE": 1779861261888,
     "ICP_sE": 1779872137827,
     "FIL_sE": 1779874621060,
-    "XLM_sE": 1779995983828
+    "XLM_sE": 1779995983828,
+    "INJ_sM": 1780066339309
   },
-  "scanCount": 251,
+  "scanCount": 252,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-29T13:51:57.076Z",
-  "lastReport": "2026-05-29T09:44:22.137Z",
+  "lastScan": "2026-05-29T14:52:24.680Z",
+  "lastReport": "2026-05-29T14:52:24.680Z",
   "marketRegime": "BEAR",
   "fearGreed": 23,
   "totalStats": {
@@ -3233,5 +3251,5 @@
       }
     }
   },
-  "btcDominance": 57.7
+  "btcDominance": 57.6
 }
