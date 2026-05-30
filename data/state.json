@@ -407,6 +407,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "INJ_sM_1780147089737",
+      "symbol": "INJ",
+      "name": "Injective",
+      "coinId": "injective-protocol",
+      "rank": 86,
+      "stratId": "sM",
+      "entryPrice": 6.807,
+      "entryTime": 1780147089737,
+      "entryDate": "2026-05-30T13:18:09.737Z",
+      "entrySignal": "Пробой 20d max $6.1100 на +11.4% · Объём x1.5 · RSI=74",
+      "strength": 85,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -3343,14 +3360,14 @@
     "ICP_sE": 1779872137827,
     "FIL_sE": 1779874621060,
     "XLM_sE": 1780090035565,
-    "INJ_sM": 1780066339309,
+    "INJ_sM": 1780147089737,
     "HBAR_sE": 1780099072719,
     "ALGO_sE": 1780129363451
   },
-  "scanCount": 266,
+  "scanCount": 267,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-30T12:53:33.644Z",
-  "lastReport": "2026-05-30T08:22:58.455Z",
+  "lastScan": "2026-05-30T13:18:16.932Z",
+  "lastReport": "2026-05-30T13:18:16.932Z",
   "marketRegime": "BEAR",
   "fearGreed": 23,
   "totalStats": {
