@@ -406,7 +406,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.918524212144514
     },
     {
       "id": "INJ_sM_1780147089737",
@@ -3364,9 +3364,9 @@
     "HBAR_sE": 1780099072719,
     "ALGO_sE": 1780129363451
   },
-  "scanCount": 267,
+  "scanCount": 268,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-30T13:18:16.932Z",
+  "lastScan": "2026-05-30T14:22:02.511Z",
   "lastReport": "2026-05-30T13:18:16.932Z",
   "marketRegime": "BEAR",
   "fearGreed": 23,
