@@ -307,23 +307,6 @@
       "peakPnl": 0
     },
     {
-      "id": "INJ_sM_1780066339309",
-      "symbol": "INJ",
-      "name": "Injective",
-      "coinId": "injective-protocol",
-      "rank": 89,
-      "stratId": "sM",
-      "entryPrice": 6.336,
-      "entryTime": 1780066339309,
-      "entryDate": "2026-05-29T14:52:19.309Z",
-      "entrySignal": "Пробой 20d max $6.1100 на +3.7% · Объём x1.8 · RSI=71",
-      "strength": 84,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 10.98484848484848
-    },
-    {
       "id": "TON_sR_1780075400153",
       "symbol": "TON",
       "name": "Toncoin",
@@ -392,6 +375,25 @@
       "peakPnl": 0
     },
     {
+      "id": "ALGO_sE_1780129363451",
+      "symbol": "ALGO",
+      "name": "Algorand",
+      "coinId": "algorand",
+      "rank": 63,
+      "stratId": "sE",
+      "entryPrice": 0.1275,
+      "entryTime": 1780129363451,
+      "entryDate": "2026-05-30T08:22:43.451Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.1150 > EMA21=0.1145 · RSI=63 · Vol x2.9",
+      "strength": 92,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    }
+  ],
+  "closedTrades": [
+    {
       "id": "ALGO_sE_1780108713739",
       "symbol": "ALGO",
       "name": "Algorand",
@@ -403,13 +405,40 @@
       "entryDate": "2026-05-30T02:38:33.739Z",
       "entrySignal": "Golden Cross сегодня · EMA9=0.1167 > EMA21=0.1153 · RSI=67 · Vol x2.0",
       "strength": 91,
-      "regime": "BULL_TREND",
+      "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 0.12756,
+      "exitTime": 1780129337975,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.143771613567799,
+      "pnlUsd": -6.143771613567798,
+      "total": 93.8562283864322
+    },
+    {
+      "id": "INJ_sM_1780066339309",
+      "symbol": "INJ",
+      "name": "Injective",
+      "coinId": "injective-protocol",
+      "rank": 89,
+      "stratId": "sM",
+      "entryPrice": 6.336,
+      "entryTime": 1780066339309,
+      "entryDate": "2026-05-29T14:52:19.309Z",
+      "entrySignal": "Пробой 20d max $6.1100 на +3.7% · Объём x1.8 · RSI=71",
+      "strength": 84,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 10.98484848484848,
+      "exitPrice": 6.531,
+      "exitTime": 1780129335992,
+      "exitReason": "📉 Trailing: пик +11.0% → сейчас +3.1%",
+      "pnl": 3.0776515151515054,
+      "pnlUsd": 3.0776515151515054,
+      "total": 103.0776515151515
+    },
     {
       "id": "XLM_sE_1780090035565",
       "symbol": "XLM",
@@ -3299,20 +3328,20 @@
     "XLM_sE": 1780090035565,
     "INJ_sM": 1780066339309,
     "HBAR_sE": 1780099072719,
-    "ALGO_sE": 1780108713739
+    "ALGO_sE": 1780129363451
   },
-  "scanCount": 261,
+  "scanCount": 262,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-30T06:12:40.193Z",
-  "lastReport": "2026-05-30T02:38:48.815Z",
+  "lastScan": "2026-05-30T08:22:58.455Z",
+  "lastReport": "2026-05-30T08:22:58.455Z",
   "marketRegime": "BEAR",
   "fearGreed": 23,
   "totalStats": {
-    "trades": 123,
-    "wins": 50,
-    "losses": 73,
-    "totalPnl": -12.249714648180362,
-    "invested": 12300
+    "trades": 125,
+    "wins": 51,
+    "losses": 74,
+    "totalPnl": -15.315834746596655,
+    "invested": 12500
   },
   "byStrategy": {
     "sR": {
@@ -3321,14 +3350,14 @@
       "pnl": -38.63814089838175
     },
     "sE": {
-      "trades": 37,
+      "trades": 38,
       "wins": 12,
-      "pnl": -13.702426407406655
+      "pnl": -19.846198020974455
     },
     "sM": {
-      "trades": 5,
-      "wins": 3,
-      "pnl": 40.09085265760806
+      "trades": 6,
+      "wins": 4,
+      "pnl": 43.16850417275957
     }
   },
   "byRegime": {
@@ -3368,14 +3397,14 @@
         "pnl": -105.2736390662565
       },
       "sM": {
-        "trades": 2,
-        "wins": 0,
-        "pnl": -15.331930428643199
+        "trades": 3,
+        "wins": 1,
+        "pnl": -12.254278913491694
       },
       "sE": {
-        "trades": 22,
+        "trades": 23,
         "wins": 5,
-        "pnl": -46.18225837089469
+        "pnl": -52.32602998446249
       }
     }
   },
