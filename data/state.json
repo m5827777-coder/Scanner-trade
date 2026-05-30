@@ -424,6 +424,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "BNB_sM_1780155702890",
+      "symbol": "BNB",
+      "name": "BNB",
+      "coinId": "binancecoin",
+      "rank": 4,
+      "stratId": "sM",
+      "entryPrice": 690.6,
+      "entryTime": 1780155702890,
+      "entryDate": "2026-05-30T15:41:42.890Z",
+      "entrySignal": "Пробой 20d max $689.9000 на +0.1% · Объём x2.2 · RSI=63",
+      "strength": 80,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -3362,11 +3379,12 @@
     "XLM_sE": 1780090035565,
     "INJ_sM": 1780147089737,
     "HBAR_sE": 1780099072719,
-    "ALGO_sE": 1780129363451
+    "ALGO_sE": 1780129363451,
+    "BNB_sM": 1780155702890
   },
-  "scanCount": 268,
+  "scanCount": 269,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-30T14:22:02.511Z",
+  "lastScan": "2026-05-30T15:42:21.820Z",
   "lastReport": "2026-05-30T13:18:16.932Z",
   "marketRegime": "BEAR",
   "fearGreed": 23,
@@ -3442,5 +3460,5 @@
       }
     }
   },
-  "btcDominance": 57.5
+  "btcDominance": 57.4
 }
