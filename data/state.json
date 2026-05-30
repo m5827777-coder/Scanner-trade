@@ -18,23 +18,6 @@
       "peakPnl": 5.929789933737485
     },
     {
-      "id": "ASTER_sE_1779331130364",
-      "symbol": "ASTER",
-      "name": "Aster",
-      "coinId": "aster-2",
-      "rank": 49,
-      "stratId": "sE",
-      "entryPrice": 0.6966,
-      "entryTime": 1779331130364,
-      "entryDate": "2026-05-21T02:38:50.364Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.6724 > EMA21=0.6713 · RSI=58 · Vol x1.5",
-      "strength": 86,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 10.594315245478032
-    },
-    {
       "id": "DOT_sR_1779554029231",
       "symbol": "DOT",
       "name": "Polkadot",
@@ -441,9 +424,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ASTER_sE_1780181672759",
+      "symbol": "ASTER",
+      "name": "Aster",
+      "coinId": "aster-2",
+      "rank": 46,
+      "stratId": "sE",
+      "entryPrice": 0.7437,
+      "entryTime": 1780181672759,
+      "entryDate": "2026-05-30T22:54:32.759Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.7007 > EMA21=0.6893 · RSI=63 · Vol x2.4",
+      "strength": 84,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "ASTER_sE_1779331130364",
+      "symbol": "ASTER",
+      "name": "Aster",
+      "coinId": "aster-2",
+      "rank": 49,
+      "stratId": "sE",
+      "entryPrice": 0.6966,
+      "entryTime": 1779331130364,
+      "entryDate": "2026-05-21T02:38:50.364Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.6724 > EMA21=0.6713 · RSI=58 · Vol x1.5",
+      "strength": 86,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 10.594315245478032,
+      "exitPrice": 0.7436,
+      "exitTime": 1780181649229,
+      "exitReason": "📉 Trailing stop: пик +10.6% → откат до +6.7%",
+      "pnl": 6.74705713465404,
+      "pnlUsd": 6.74705713465404,
+      "total": 106.74705713465404
+    },
     {
       "id": "ALGO_sE_1780108713739",
       "symbol": "ALGO",
@@ -3362,7 +3385,7 @@
     "JUP_sR": 1780075427579,
     "DASH_sE": 1779550477183,
     "SUI_sR": 1779554020771,
-    "ASTER_sE": 1779331130364,
+    "ASTER_sE": 1780181672760,
     "NEAR_sM": 1779600959266,
     "RENDER_sE": 1779861248735,
     "XMR_sE": 1779359045756,
@@ -3382,18 +3405,18 @@
     "ALGO_sE": 1780129363451,
     "BNB_sM": 1780155702890
   },
-  "scanCount": 276,
+  "scanCount": 277,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-30T21:57:09.388Z",
+  "lastScan": "2026-05-30T22:54:53.928Z",
   "lastReport": "2026-05-30T19:06:08.470Z",
   "marketRegime": "BEAR",
   "fearGreed": 23,
   "totalStats": {
-    "trades": 125,
-    "wins": 51,
+    "trades": 126,
+    "wins": 52,
     "losses": 74,
-    "totalPnl": -15.315834746596655,
-    "invested": 12500
+    "totalPnl": -8.568777611942615,
+    "invested": 12600
   },
   "byStrategy": {
     "sR": {
@@ -3402,9 +3425,9 @@
       "pnl": -38.63814089838175
     },
     "sE": {
-      "trades": 38,
-      "wins": 12,
-      "pnl": -19.846198020974455
+      "trades": 39,
+      "wins": 13,
+      "pnl": -13.099140886320416
     },
     "sM": {
       "trades": 6,
@@ -3454,11 +3477,11 @@
         "pnl": -12.254278913491694
       },
       "sE": {
-        "trades": 23,
-        "wins": 5,
-        "pnl": -52.32602998446249
+        "trades": 24,
+        "wins": 6,
+        "pnl": -45.578972849808444
       }
     }
   },
-  "btcDominance": 57.3
+  "btcDominance": 57.4
 }
