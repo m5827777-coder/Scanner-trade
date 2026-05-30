@@ -32,7 +32,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 6.129773184036744
+      "peakPnl": 7.637094458799888
     },
     {
       "id": "DOT_sR_1779554029231",
@@ -3382,10 +3382,10 @@
     "ALGO_sE": 1780129363451,
     "BNB_sM": 1780155702890
   },
-  "scanCount": 272,
+  "scanCount": 273,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-30T18:48:54.510Z",
-  "lastReport": "2026-05-30T13:18:16.932Z",
+  "lastScan": "2026-05-30T19:06:08.470Z",
+  "lastReport": "2026-05-30T19:06:08.470Z",
   "marketRegime": "BEAR",
   "fearGreed": 23,
   "totalStats": {
