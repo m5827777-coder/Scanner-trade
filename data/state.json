@@ -35,23 +35,6 @@
       "peakPnl": 5.096181452770597
     },
     {
-      "id": "XRP_sR_1779499545235",
-      "symbol": "XRP",
-      "name": "XRP",
-      "coinId": "ripple",
-      "rank": 5,
-      "stratId": "sR",
-      "entryPrice": 1.3372,
-      "entryTime": 1779499545235,
-      "entryDate": "2026-05-23T01:25:45.235Z",
-      "entrySignal": "Ротация #5 XRP: BTC Dom=58% · Коррекция -7.8% · RSI=40",
-      "strength": 81,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "DOT_sR_1779554029231",
       "symbol": "DOT",
       "name": "Polkadot",
@@ -392,23 +375,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XLM_sE_1780090035565",
-      "symbol": "XLM",
-      "name": "Stellar",
-      "coinId": "stellar",
-      "rank": 17,
-      "stratId": "sE",
-      "entryPrice": 0.24291,
-      "entryTime": 1780090035565,
-      "entryDate": "2026-05-29T21:27:15.565Z",
-      "entrySignal": "Golden Cross 2д назад · EMA9=0.1857 > EMA21=0.1703 · RSI=85 · Vol x1.0",
-      "strength": 76,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 7.982380305462926
-    },
-    {
       "id": "HBAR_sE_1780099072719",
       "symbol": "HBAR",
       "name": "Hedera",
@@ -424,9 +390,72 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ALGO_sE_1780108713739",
+      "symbol": "ALGO",
+      "name": "Algorand",
+      "coinId": "algorand",
+      "rank": 63,
+      "stratId": "sE",
+      "entryPrice": 0.13591,
+      "entryTime": 1780108713739,
+      "entryDate": "2026-05-30T02:38:33.739Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.1167 > EMA21=0.1153 · RSI=67 · Vol x2.0",
+      "strength": 91,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "XLM_sE_1780090035565",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 17,
+      "stratId": "sE",
+      "entryPrice": 0.24291,
+      "entryTime": 1780090035565,
+      "entryDate": "2026-05-29T21:27:15.565Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=0.1857 > EMA21=0.1703 · RSI=85 · Vol x1.0",
+      "strength": 76,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 16.33938495739164,
+      "exitPrice": 0.2826,
+      "exitTime": 1780108687358,
+      "exitReason": "✅ TP +15%",
+      "pnl": 16.33938495739164,
+      "pnlUsd": 16.33938495739164,
+      "total": 116.33938495739164
+    },
+    {
+      "id": "XRP_sR_1779499545235",
+      "symbol": "XRP",
+      "name": "XRP",
+      "coinId": "ripple",
+      "rank": 5,
+      "stratId": "sR",
+      "entryPrice": 1.3372,
+      "entryTime": 1779499545235,
+      "entryDate": "2026-05-23T01:25:45.235Z",
+      "entrySignal": "Ротация #5 XRP: BTC Dom=58% · Коррекция -7.8% · RSI=40",
+      "strength": 81,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.3585,
+      "exitTime": 1780108681257,
+      "exitReason": "Возврат к 7d max $1.3761",
+      "pnl": 1.592880646126241,
+      "pnlUsd": 1.592880646126241,
+      "total": 101.59288064612625
+    },
     {
       "id": "XMR_sR_1780022651781",
       "symbol": "XMR",
@@ -3269,31 +3298,32 @@
     "FIL_sE": 1779874621060,
     "XLM_sE": 1780090035565,
     "INJ_sM": 1780066339309,
-    "HBAR_sE": 1780099072719
+    "HBAR_sE": 1780099072719,
+    "ALGO_sE": 1780108713739
   },
-  "scanCount": 258,
+  "scanCount": 259,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-29T23:58:21.759Z",
-  "lastReport": "2026-05-29T20:13:57.718Z",
+  "lastScan": "2026-05-30T02:38:48.815Z",
+  "lastReport": "2026-05-30T02:38:48.815Z",
   "marketRegime": "BEAR",
   "fearGreed": 23,
   "totalStats": {
-    "trades": 121,
-    "wins": 48,
+    "trades": 123,
+    "wins": 50,
     "losses": 73,
-    "totalPnl": -30.181980251698242,
-    "invested": 12100
+    "totalPnl": -12.249714648180362,
+    "invested": 12300
   },
   "byStrategy": {
     "sR": {
-      "trades": 80,
-      "wins": 34,
-      "pnl": -40.23102154450799
+      "trades": 81,
+      "wins": 35,
+      "pnl": -38.63814089838175
     },
     "sE": {
-      "trades": 36,
-      "wins": 11,
-      "pnl": -30.041811364798296
+      "trades": 37,
+      "wins": 12,
+      "pnl": -13.702426407406655
     },
     "sM": {
       "trades": 5,
@@ -3333,9 +3363,9 @@
     },
     "BEAR": {
       "sR": {
-        "trades": 28,
-        "wins": 4,
-        "pnl": -106.86651971238274
+        "trades": 29,
+        "wins": 5,
+        "pnl": -105.2736390662565
       },
       "sM": {
         "trades": 2,
@@ -3343,11 +3373,11 @@
         "pnl": -15.331930428643199
       },
       "sE": {
-        "trades": 21,
-        "wins": 4,
-        "pnl": -62.52164332828633
+        "trades": 22,
+        "wins": 5,
+        "pnl": -46.18225837089469
       }
     }
   },
-  "btcDominance": 57.5
+  "btcDominance": 57.4
 }
