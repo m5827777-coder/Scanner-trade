@@ -18,23 +18,6 @@
       "peakPnl": 5.929789933737485
     },
     {
-      "id": "DOT_sR_1779554029231",
-      "symbol": "DOT",
-      "name": "Polkadot",
-      "coinId": "polkadot",
-      "rank": 45,
-      "stratId": "sR",
-      "entryPrice": 1.242,
-      "entryTime": 1779554029231,
-      "entryDate": "2026-05-23T16:33:49.231Z",
-      "entrySignal": "Ротация #45 DOT: BTC Dom=58% · Коррекция -7.7% · RSI=47",
-      "strength": 68,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 5.636070853462162
-    },
-    {
       "id": "ADA_sR_1779925184772",
       "symbol": "ADA",
       "name": "Cardano",
@@ -443,23 +426,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ENA_sR_1780207944941",
-      "symbol": "ENA",
-      "name": "Ethena",
-      "coinId": "ethena",
-      "rank": 82,
-      "stratId": "sR",
-      "entryPrice": 0.09203,
-      "entryTime": 1780207944941,
-      "entryDate": "2026-05-31T06:12:24.941Z",
-      "entrySignal": "Ротация #82 ENA: BTC Dom=57.2% · Коррекция -13.4% · RSI=37",
-      "strength": 82,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "OKB_sE_1780216734422",
       "symbol": "OKB",
       "name": "OKB",
@@ -512,6 +478,52 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ENA_sR_1780207944941",
+      "symbol": "ENA",
+      "name": "Ethena",
+      "coinId": "ethena",
+      "rank": 82,
+      "stratId": "sR",
+      "entryPrice": 0.09203,
+      "entryTime": 1780207944941,
+      "entryDate": "2026-05-31T06:12:24.941Z",
+      "entrySignal": "Ротация #82 ENA: BTC Dom=57.2% · Коррекция -13.4% · RSI=37",
+      "strength": 82,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.08694,
+      "exitTime": 1780245876635,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.530805172226445,
+      "pnlUsd": -5.5308051722264455,
+      "total": 94.46919482777355
+    },
+    {
+      "id": "DOT_sR_1779554029231",
+      "symbol": "DOT",
+      "name": "Polkadot",
+      "coinId": "polkadot",
+      "rank": 45,
+      "stratId": "sR",
+      "entryPrice": 1.242,
+      "entryTime": 1779554029231,
+      "entryDate": "2026-05-23T16:33:49.231Z",
+      "entrySignal": "Ротация #45 DOT: BTC Dom=58% · Коррекция -7.7% · RSI=47",
+      "strength": 68,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 5.636070853462162,
+      "exitPrice": 1.167,
+      "exitTime": 1780245870992,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -6.038647342995166,
+      "pnlUsd": -6.038647342995166,
+      "total": 93.96135265700484
+    },
     {
       "id": "XLM_sE_1780207920322",
       "symbol": "XLM",
@@ -3521,24 +3533,24 @@
     "BNB_sE": 1780230011252,
     "XLM_sM": 1780236866389
   },
-  "scanCount": 288,
+  "scanCount": 289,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-31T15:40:57.874Z",
+  "lastScan": "2026-05-31T16:45:12.189Z",
   "lastReport": "2026-05-31T13:26:36.030Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 128,
+    "trades": 130,
     "wins": 54,
-    "losses": 74,
-    "totalPnl": 4.096872074207017,
-    "invested": 12800
+    "losses": 76,
+    "totalPnl": -7.472580441014594,
+    "invested": 13000
   },
   "byStrategy": {
     "sR": {
-      "trades": 81,
+      "trades": 83,
       "wins": 35,
-      "pnl": -38.63814089838175
+      "pnl": -50.207593413603355
     },
     "sE": {
       "trades": 40,
@@ -3583,9 +3595,9 @@
     },
     "BEAR": {
       "sR": {
-        "trades": 29,
+        "trades": 31,
         "wins": 5,
-        "pnl": -105.2736390662565
+        "pnl": -116.8430915814781
       },
       "sM": {
         "trades": 4,
