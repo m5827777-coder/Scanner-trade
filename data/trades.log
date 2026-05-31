@@ -41390,3 +41390,43 @@
 [2026-05-31 19:08:04 UTC] 📧 6h report sent
 [2026-05-31 19:08:04 UTC] 
 📊 ИТОГ: WR=41.5% PnL=$-7.47 Trades=130
+[2026-05-31 19:58:45 UTC] ════════════════════════════════════════════════════
+[2026-05-31 19:58:45 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-05-31 19:58:45 UTC] ════════════════════════════════════════════════════
+[2026-05-31 19:58:45 UTC] 📡 Scan #293
+[2026-05-31 19:58:45 UTC] 📊 BTC Dom=57.3%
+[2026-05-31 19:58:45 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-05-31 19:58:46 UTC] 🌡 F&G=28 Regime=BEAR Open=28
+[2026-05-31 19:58:46 UTC]   📂 HOLD TRX/sE PnL=-1.26%
+[2026-05-31 19:58:46 UTC]   📂 HOLD ADA/sR PnL=-1.61%
+[2026-05-31 19:58:47 UTC]   📂 HOLD CC/sR PnL=-1.70%
+[2026-05-31 19:58:47 UTC]   📂 HOLD FIGR_HELOC/sE PnL=-1.49%
+[2026-05-31 19:58:47 UTC]   📂 HOLD SOL/sR PnL=-0.21%
+[2026-05-31 19:58:47 UTC]   📂 HOLD DOGE/sR PnL=+0.47%
+[2026-05-31 19:58:48 UTC]   📂 HOLD ICP/sR PnL=-3.26%
+[2026-05-31 19:58:48 UTC]   📂 HOLD ATOM/sR PnL=-4.66%
+[2026-05-31 19:58:48 UTC]   📂 HOLD RENDER/sR PnL=+3.52%
+[2026-05-31 19:58:48 UTC]   📂 HOLD APT/sR PnL=-0.87%
+[2026-05-31 19:58:49 UTC]   📂 HOLD FIL/sR PnL=-4.46%
+[2026-05-31 19:58:49 UTC]   📂 HOLD LINK/sR PnL=+0.18%
+[2026-05-31 19:58:49 UTC]   📂 HOLD AAVE/sR PnL=+0.14%
+[2026-05-31 19:58:49 UTC]   📂 HOLD ARB/sR PnL=-3.89%
+[2026-05-31 19:58:50 UTC]   📂 HOLD AVAX/sR PnL=-1.01%
+[2026-05-31 19:58:50 UTC]   📂 HOLD ETH/sR PnL=-0.03%
+[2026-05-31 19:58:50 UTC]   📂 HOLD TON/sR PnL=+3.62%
+[2026-05-31 19:58:50 UTC]   📂 HOLD ETC/sR PnL=-2.03%
+[2026-05-31 19:58:50 UTC]   📂 HOLD JUP/sR PnL=+1.24%
+[2026-05-31 19:58:51 UTC]   📂 HOLD HBAR/sE PnL=-4.30%
+[2026-05-31 19:58:51 UTC]   📂 HOLD ALGO/sE PnL=-1.53%
+[2026-05-31 19:58:51 UTC]   📂 HOLD FET/sE PnL=+4.84%
+[2026-05-31 19:58:52 UTC]   📂 HOLD INJ/sM PnL=-6.08%
+[2026-05-31 19:58:52 UTC]   📂 HOLD ASTER/sE PnL=-3.63%
+[2026-05-31 19:58:52 UTC]   📂 HOLD XMR/sR PnL=-1.99%
+[2026-05-31 19:58:52 UTC]   📂 HOLD OKB/sE PnL=+0.22%
+[2026-05-31 19:58:53 UTC]   📂 HOLD BNB/sE PnL=-2.25%
+[2026-05-31 19:58:53 UTC]   📂 HOLD XLM/sM PnL=-5.70%
+[2026-05-31 19:58:53 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-05-31 19:58:53 UTC] ✓ CoinGecko: 80 токенов. Проверяю входы...
+[2026-05-31 19:58:53 UTC] ✅ Данные: 0 токенов OK, 0 недоступно | Открыто: 0 | Всего: 28
+[2026-05-31 19:58:53 UTC] 
+📊 ИТОГ: WR=41.5% PnL=$-7.47 Trades=130
