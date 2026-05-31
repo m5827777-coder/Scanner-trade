@@ -443,23 +443,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XLM_sE_1780207920322",
-      "symbol": "XLM",
-      "name": "Stellar",
-      "coinId": "stellar",
-      "rank": 17,
-      "stratId": "sE",
-      "entryPrice": 0.23982,
-      "entryTime": 1780207920322,
-      "entryDate": "2026-05-31T06:12:00.322Z",
-      "entrySignal": "Golden Cross 3д назад · EMA9=0.1980 > EMA21=0.1775 · RSI=77 · Vol x1.1",
-      "strength": 74,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 10.653823701109161
-    },
-    {
       "id": "ENA_sR_1780207944941",
       "symbol": "ENA",
       "name": "Ethena",
@@ -509,9 +492,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XLM_sM_1780236866389",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 17,
+      "stratId": "sM",
+      "entryPrice": 0.25825,
+      "entryTime": 1780236866389,
+      "entryDate": "2026-05-31T14:14:26.389Z",
+      "entrySignal": "Пробой 20d max $0.2240 на +15.3% · Объём x2.7 · RSI=86",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "XLM_sE_1780207920322",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 17,
+      "stratId": "sE",
+      "entryPrice": 0.23982,
+      "entryTime": 1780207920322,
+      "entryDate": "2026-05-31T06:12:00.322Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=0.1980 > EMA21=0.1775 · RSI=77 · Vol x1.1",
+      "strength": 74,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 10.653823701109161,
+      "exitPrice": 0.25811,
+      "exitTime": 1780236857476,
+      "exitReason": "📉 Trailing stop: пик +10.7% → откат до +7.6%",
+      "pnl": 7.626553248269535,
+      "pnlUsd": 7.626553248269534,
+      "total": 107.62655324826953
+    },
     {
       "id": "BNB_sM_1780155702890",
       "symbol": "BNB",
@@ -3495,20 +3518,21 @@
     "HBAR_sE": 1780099072719,
     "ALGO_sE": 1780129363451,
     "BNB_sM": 1780155702890,
-    "BNB_sE": 1780230011252
+    "BNB_sE": 1780230011252,
+    "XLM_sM": 1780236866389
   },
-  "scanCount": 286,
+  "scanCount": 287,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-31T13:26:36.030Z",
+  "lastScan": "2026-05-31T14:15:00.803Z",
   "lastReport": "2026-05-31T13:26:36.030Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 127,
-    "wins": 53,
+    "trades": 128,
+    "wins": 54,
     "losses": 74,
-    "totalPnl": -3.5296811740625174,
-    "invested": 12700
+    "totalPnl": 4.096872074207017,
+    "invested": 12800
   },
   "byStrategy": {
     "sR": {
@@ -3517,9 +3541,9 @@
       "pnl": -38.63814089838175
     },
     "sE": {
-      "trades": 39,
-      "wins": 13,
-      "pnl": -13.099140886320416
+      "trades": 40,
+      "wins": 14,
+      "pnl": -5.472587638050882
     },
     "sM": {
       "trades": 7,
@@ -3569,9 +3593,9 @@
         "pnl": -7.215182475611597
       },
       "sE": {
-        "trades": 24,
-        "wins": 6,
-        "pnl": -45.578972849808444
+        "trades": 25,
+        "wins": 7,
+        "pnl": -37.95241960153891
       }
     }
   },
