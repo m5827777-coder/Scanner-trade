@@ -416,7 +416,7 @@ const STRATEGIES = {
   sR: {
     id: 'sR', name: 'Altcoin Rotation', color: '#4DB8FF',
     bestRegimes:  ['BULL_TREND', 'BULL', 'NEUTRAL'],
-    worstRegimes: ['BEAR_TREND'],
+    worstRegimes: ['BEAR_TREND', 'BEAR'],  // BEAR добавлен — WR 16% исторически
     desc: 'BTC Dom ≤ 61% + топ-30 альт скорректировался 7-20% + RSI 38-56',
 
     getParams(p = {}) {
@@ -437,20 +437,26 @@ const STRATEGIES = {
       const p = this.getParams(params.sR || params);
       if (!bars || bars.length < 12) return null;
 
-      const sym     = (params._symbol || '').toUpperCase();
-      const btcDom  = params._btcDom ?? 60;
-      const rank    = params._rank   ?? 999;
+      const sym          = (params._symbol || '').toUpperCase();
+      const btcDom       = params._btcDom ?? 60;
+      const rank         = params._rank   ?? 999;
+      const globalRegime = params._globalRegime || '';
 
-      // 1. Только когда BTC доминация ≤ 61% — деньги идут в альты
+      // 0. Блокируем в BEAR/BEAR_TREND — исторически WR 16%, -$116
+      if (globalRegime === 'BEAR' || globalRegime === 'BEAR_TREND') {
+        return { signal: false, extra: `Глобальный режим ${globalRegime} — ротация заблокирована` };
+      }
+
+      // 1. Только когда BTC доминация ≤ btcDomMax — деньги идут в альты
       if (btcDom > p.btcDomMax) {
         return { signal: false, extra: `BTC Dom=${btcDom}% > ${p.btcDomMax}% — альт-сезон не начался` };
       }
 
-      // 2. Только топ-30 токены (или whitelist)
-      if (rank > p.maxRank && !ROTATION_WHITELIST.has(sym)) {
+      // 2. Только топ-maxRank токены (whitelist не обходит лимит ранга)
+      if (rank > p.maxRank) {
         return { signal: false, extra: `Rank #${rank} > ${p.maxRank} — не топ-альт` };
       }
-      if (rank === 999 && !ROTATION_WHITELIST.has(sym)) {
+      if (!ROTATION_WHITELIST.has(sym) && rank > p.maxRank) {
         return { signal: false, extra: `${sym} не в whitelist ротации` };
       }
 
@@ -458,9 +464,10 @@ const STRATEGIES = {
       const vols   = bars.map(b => b.volume);
       const n = closes.length - 1;
 
-      // 3. Коррекция 7–20% от 7d max
-      const h7   = Math.max(...bars.slice(-8, -1).map(b => b.high));
-      const drop = ((closes[n] - h7) / h7) * 100;
+      // 3. Коррекция dropMin–dropMax% от 14d max (по close — без intraday-спайков)
+      const recentBars = bars.slice(-15, -1);  // 14 дней, без текущей свечи
+      const h14   = Math.max(...recentBars.map(b => b.close));
+      const drop = ((closes[n] - h14) / h14) * 100;
 
       if (drop > -p.dropMin) {
         return { signal: false, extra: `Коррекция ${drop.toFixed(1)}% < ${p.dropMin}% — нет входа` };
@@ -518,11 +525,11 @@ const STRATEGIES = {
         return { signal: true, reason: `BTC Dom=${btcDom}% > ${p.btcDomExit}% — ротация закончилась`, pnl };
       }
 
-      // Возврат к 7d max (откупили коррекцию)
-      if (bars?.length >= 7) {
-        const h7 = Math.max(...bars.slice(-8, -1).map(b => b.high));
-        if (price >= h7 * 0.98) {
-          return { signal: true, reason: `Возврат к 7d max $${h7.toFixed(4)}`, pnl };
+      // Возврат к 14d max (откупили коррекцию)
+      if (bars?.length >= 14) {
+        const h14 = Math.max(...bars.slice(-15, -1).map(b => b.close));
+        if (price >= h14 * 0.98) {
+          return { signal: true, reason: `Возврат к 14d max $${h14.toFixed(4)}`, pnl };
         }
       }
 
