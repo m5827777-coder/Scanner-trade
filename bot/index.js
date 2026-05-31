@@ -5,12 +5,22 @@ const path       = require('path');
 const nodemailer = require('nodemailer');
 const { STRATEGIES, REGIME_PERFORMANCE, SD_BLACKLIST, detectRegime } = require('./strategies');
 
-// Читаем глобальные параметры из params.json
+// Читаем глобальные параметры из params.json (несколько путей для надёжности)
 function loadGlobalParams() {
-  try {
-    const pp=path.join(__dirname,'..','data','params.json');
-    if(fs.existsSync(pp)){const p=JSON.parse(fs.readFileSync(pp,'utf8'));return p.global||{};}
-  }catch{}
+  const candidates = [
+    path.join(__dirname, '..', 'data', 'params.json'),
+    path.join(__dirname, 'params.json'),
+    path.join(__dirname, '..', 'params.json'),
+  ];
+  for (const pp of candidates) {
+    try {
+      if (fs.existsSync(pp)) {
+        const p = JSON.parse(fs.readFileSync(pp, 'utf8'));
+        console.log(`[PARAMS] Загружены из ${pp}`);
+        return p.global || {};
+      }
+    } catch {}
+  }
   return {};
 }
 const _gp=loadGlobalParams();
@@ -340,13 +350,21 @@ async function main(){
   CFG.params.fearGreed=fg;
   // Перечитываем params.json при каждом скане (динамические параметры стратегий)
   try {
-    const paramsPath=path.join(__dirname,'..','data','params.json');
-    if(fs.existsSync(paramsPath)){
-      const fullParams=JSON.parse(fs.readFileSync(paramsPath,'utf8'));
-      fullParams.fearGreed=fg;
-      CFG._stratParams=fullParams;
+    const paramsCandidates = [
+      path.join(__dirname,'..','data','params.json'),
+      path.join(__dirname,'params.json'),
+      path.join(__dirname,'..','params.json'),
+    ];
+    for (const paramsPath of paramsCandidates) {
+      if (fs.existsSync(paramsPath)) {
+        const fullParams = JSON.parse(fs.readFileSync(paramsPath,'utf8'));
+        fullParams.fearGreed = fg;
+        CFG._stratParams = fullParams;
+        log(`[PARAMS] Перечитаны из ${paramsPath}`);
+        break;
+      }
     }
-  } catch(e) { log('[PARAMS] '+e.message); }  // обновляем для sB стратегии
+  } catch(e) { log('[PARAMS] '+e.message); }
   // BTC данные для определения режима рынка
   const{bars:btcBars}=await fetchKlines('BTC','bitcoin',210);
   const{regime}=btcBars?detectRegime(btcBars,fg):{regime:'NEUTRAL'};
@@ -387,6 +405,12 @@ async function main(){
       const pU=CFG.positionSize*ex.pnl/100;const held=Date.now()-pos.entryTime;
       const c={...pos,exitPrice:price,exitTime:Date.now(),exitReason:ex.reason,pnl:ex.pnl,pnlUsd:pU,total:CFG.positionSize+pU,regime:state.marketRegime};
       state.closedTrades.unshift(c);updStats(state,c);toClose.push(pos.id);
+      // При SL-выходе ставим штрафной cooldown 24ч (не дать войти снова сразу же)
+      if(ex.reason?.includes('SL')||ex.reason?.includes('🛑')){
+        const slPenalty=24*60*60*1000; // 24 часа в мс
+        state.cooldowns[`${pos.symbol}_${pos.stratId}`]=Date.now()+slPenalty-CFG.cooldownMin*60000;
+        log(`  🔒 SL-cooldown 24ч для ${pos.symbol}/${pos.stratId}`);
+      }
       log(`  ${ex.pnl>=0?'✅':'❌'} CLOSE ${pos.symbol}/${pos.stratId}: ${ex.reason} PnL=${pct(ex.pnl)} held=${durFmt(held)}`);
       await tg(msgExit(pos,price,ex.reason,ex.pnl,pU,held));
       await new Promise(r=>setTimeout(r,400));
@@ -433,7 +457,7 @@ async function main(){
         const block=s.worstRegimes.filter(r=>r!=='NEUTRAL'&&r!=='RANGE');
         if(block.includes(tr))continue;
 
-        const entry=checkEntryEx(sid,bars,{...(CFG._stratParams||CFG.params),fearGreed:fg,_symbol:sym,_btcDom:btcDom,_rank:cg.market_cap_rank,_chg24:cg.price_change_percentage_24h});
+        const entry=checkEntryEx(sid,bars,{...(CFG._stratParams||CFG.params),fearGreed:fg,_symbol:sym,_btcDom:btcDom,_rank:cg.market_cap_rank,_chg24:cg.price_change_percentage_24h,_globalRegime:regime});
         if(!entry?.signal)continue;
 
         const price=bars[bars.length-1].close;
