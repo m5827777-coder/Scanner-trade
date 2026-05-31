@@ -304,7 +304,7 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 6.562847608453831
     },
     {
       "id": "ETC_sR_1780075414720",
@@ -409,23 +409,6 @@
       "peakPnl": 0
     },
     {
-      "id": "BNB_sM_1780155702890",
-      "symbol": "BNB",
-      "name": "BNB",
-      "coinId": "binancecoin",
-      "rank": 4,
-      "stratId": "sM",
-      "entryPrice": 690.6,
-      "entryTime": 1780155702890,
-      "entryDate": "2026-05-30T15:41:42.890Z",
-      "entrySignal": "Пробой 20d max $689.9000 на +0.1% · Объём x2.2 · RSI=63",
-      "strength": 80,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 7.283521575441639
-    },
-    {
       "id": "ASTER_sE_1780181672759",
       "symbol": "ASTER",
       "name": "Aster",
@@ -474,7 +457,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 6.296388958385444
     },
     {
       "id": "ENA_sR_1780207944941",
@@ -509,9 +492,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "BNB_sE_1780230011252",
+      "symbol": "BNB",
+      "name": "BNB",
+      "coinId": "binancecoin",
+      "rank": 4,
+      "stratId": "sE",
+      "entryPrice": 725.2,
+      "entryTime": 1780230011252,
+      "entryDate": "2026-05-31T12:20:11.252Z",
+      "entrySignal": "Golden Cross вчера · EMA9=671.9593 > EMA21=660.4442 · RSI=69 · Vol x6.8",
+      "strength": 88,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "BNB_sM_1780155702890",
+      "symbol": "BNB",
+      "name": "BNB",
+      "coinId": "binancecoin",
+      "rank": 4,
+      "stratId": "sM",
+      "entryPrice": 690.6,
+      "entryTime": 1780155702890,
+      "entryDate": "2026-05-30T15:41:42.890Z",
+      "entrySignal": "Пробой 20d max $689.9000 на +0.1% · Объём x2.2 · RSI=63",
+      "strength": 80,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 7.283521575441639,
+      "exitPrice": 725.4,
+      "exitTime": 1780230008106,
+      "exitReason": "📉 Trailing stop: пик +7.3% → откат до +5.0%",
+      "pnl": 5.039096437880097,
+      "pnlUsd": 5.039096437880097,
+      "total": 105.03909643788009
+    },
     {
       "id": "ASTER_sE_1779331130364",
       "symbol": "ASTER",
@@ -3471,20 +3494,21 @@
     "INJ_sM": 1780147089737,
     "HBAR_sE": 1780099072719,
     "ALGO_sE": 1780129363451,
-    "BNB_sM": 1780155702890
+    "BNB_sM": 1780155702890,
+    "BNB_sE": 1780230011252
   },
-  "scanCount": 284,
+  "scanCount": 285,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-31T11:12:38.794Z",
+  "lastScan": "2026-05-31T12:20:47.787Z",
   "lastReport": "2026-05-31T08:39:13.852Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 126,
-    "wins": 52,
+    "trades": 127,
+    "wins": 53,
     "losses": 74,
-    "totalPnl": -8.568777611942615,
-    "invested": 12600
+    "totalPnl": -3.5296811740625174,
+    "invested": 12700
   },
   "byStrategy": {
     "sR": {
@@ -3498,9 +3522,9 @@
       "pnl": -13.099140886320416
     },
     "sM": {
-      "trades": 6,
-      "wins": 4,
-      "pnl": 43.16850417275957
+      "trades": 7,
+      "wins": 5,
+      "pnl": 48.207600610639666
     }
   },
   "byRegime": {
@@ -3540,9 +3564,9 @@
         "pnl": -105.2736390662565
       },
       "sM": {
-        "trades": 3,
-        "wins": 1,
-        "pnl": -12.254278913491694
+        "trades": 4,
+        "wins": 2,
+        "pnl": -7.215182475611597
       },
       "sE": {
         "trades": 24,
