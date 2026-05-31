@@ -389,7 +389,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.918524212144514
+      "peakPnl": 6.764027671022292
     },
     {
       "id": "INJ_sM_1780147089737",
@@ -423,7 +423,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 5.430060816681147
+      "peakPnl": 7.283521575441639
     },
     {
       "id": "ASTER_sE_1780181672759",
@@ -440,6 +440,23 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "XMR_sR_1780196107078",
+      "symbol": "XMR",
+      "name": "Monero",
+      "coinId": "monero",
+      "rank": 18,
+      "stratId": "sR",
+      "entryPrice": 368.9537286301015,
+      "entryTime": 1780196107078,
+      "entryDate": "2026-05-31T02:55:07.078Z",
+      "entrySignal": "Ротация #18 XMR: BTC Dom=57.2% · Коррекция -7.9% · RSI=45",
+      "strength": 75,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "CoinGecko",
       "peakPnl": 0
     }
   ],
@@ -3369,7 +3386,7 @@
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1779986507191,
     "FIGR_HELOC_sE": 1779931469733,
-    "XMR_sR": 1780022651781,
+    "XMR_sR": 1780196107079,
     "ETH_sR": 1780022644210,
     "LTC_sR": 1779126568920,
     "DOGE_sR": 1779986483571,
@@ -3405,10 +3422,10 @@
     "ALGO_sE": 1780129363451,
     "BNB_sM": 1780155702890
   },
-  "scanCount": 279,
+  "scanCount": 280,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-31T01:56:29.201Z",
-  "lastReport": "2026-05-31T01:56:29.201Z",
+  "lastScan": "2026-05-31T02:55:36.982Z",
+  "lastReport": "2026-05-31T02:55:36.982Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
@@ -3483,5 +3500,5 @@
       }
     }
   },
-  "btcDominance": 57.3
+  "btcDominance": 57.2
 }
