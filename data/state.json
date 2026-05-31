@@ -457,7 +457,7 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 6.296388958385444
+      "peakPnl": 10.653823701109161
     },
     {
       "id": "ENA_sR_1780207944941",
@@ -3497,10 +3497,10 @@
     "BNB_sM": 1780155702890,
     "BNB_sE": 1780230011252
   },
-  "scanCount": 285,
+  "scanCount": 286,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-31T12:20:47.787Z",
-  "lastReport": "2026-05-31T08:39:13.852Z",
+  "lastScan": "2026-05-31T13:26:36.030Z",
+  "lastReport": "2026-05-31T13:26:36.030Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
@@ -3575,5 +3575,5 @@
       }
     }
   },
-  "btcDominance": 57.3
+  "btcDominance": 57.2
 }
