@@ -40664,3 +40664,69 @@
 [2026-05-31 02:55:38 UTC] 📧 6h report sent
 [2026-05-31 02:55:38 UTC] 
 📊 ИТОГ: WR=41.3% PnL=$-8.57 Trades=126
+[2026-05-31 06:11:45 UTC] ════════════════════════════════════════════════════
+[2026-05-31 06:11:45 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-05-31 06:11:45 UTC] ════════════════════════════════════════════════════
+[2026-05-31 06:11:45 UTC] 📡 Scan #281
+[2026-05-31 06:11:45 UTC] 📊 BTC Dom=57.2%
+[2026-05-31 06:11:46 UTC] 🌡 F&G=28 Regime=BEAR Open=27
+[2026-05-31 06:11:46 UTC]   📂 HOLD TRX/sE PnL=-2.16%
+[2026-05-31 06:11:46 UTC]   📂 HOLD DOT/sR PnL=-3.95%
+[2026-05-31 06:11:47 UTC]   📂 HOLD ADA/sR PnL=+0.38%
+[2026-05-31 06:11:47 UTC]   📂 HOLD CC/sR PnL=-1.13%
+[2026-05-31 06:11:47 UTC]   📂 HOLD FIGR_HELOC/sE PnL=-1.49%
+[2026-05-31 06:11:47 UTC]   📂 HOLD SOL/sR PnL=+1.34%
+[2026-05-31 06:11:48 UTC]   📂 HOLD DOGE/sR PnL=+1.87%
+[2026-05-31 06:11:48 UTC]   📂 HOLD ICP/sR PnL=-1.56%
+[2026-05-31 06:11:48 UTC]   📂 HOLD ATOM/sR PnL=-0.30%
+[2026-05-31 06:11:48 UTC]   📂 HOLD RENDER/sR PnL=+5.84%
+[2026-05-31 06:11:49 UTC]   📂 HOLD APT/sR PnL=+1.93%
+[2026-05-31 06:11:49 UTC]   📂 HOLD FIL/sR PnL=+0.58%
+[2026-05-31 06:11:49 UTC]   📂 HOLD LINK/sR PnL=+2.14%
+[2026-05-31 06:11:50 UTC]   📂 HOLD AAVE/sR PnL=+2.28%
+[2026-05-31 06:11:50 UTC]   📂 HOLD ARB/sR PnL=-0.99%
+[2026-05-31 06:11:50 UTC]   📂 HOLD AVAX/sR PnL=+1.28%
+[2026-05-31 06:11:50 UTC]   📂 HOLD ETH/sR PnL=+1.45%
+[2026-05-31 06:11:50 UTC]   📂 HOLD TON/sR PnL=+4.89%
+[2026-05-31 06:11:51 UTC]   📂 HOLD ETC/sR PnL=-0.60%
+[2026-05-31 06:11:51 UTC]   📂 HOLD JUP/sR PnL=-0.59%
+[2026-05-31 06:11:51 UTC]   📂 HOLD HBAR/sE PnL=-3.47%
+[2026-05-31 06:11:51 UTC]   📂 HOLD ALGO/sE PnL=+0.14%
+[2026-05-31 06:11:52 UTC]   📂 HOLD FET/sE PnL=+2.92%
+[2026-05-31 06:11:52 UTC]   📂 HOLD INJ/sM PnL=-4.08%
+[2026-05-31 06:11:52 UTC]   📂 HOLD BNB/sM PnL=+6.62%
+[2026-05-31 06:11:52 UTC]   📂 HOLD ASTER/sE PnL=+2.14%
+[2026-05-31 06:11:53 UTC]   📂 HOLD XMR/sR PnL=+0.44%
+[2026-05-31 06:11:53 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-05-31 06:11:53 UTC] ✓ CoinGecko: 80 токенов. Проверяю входы...
+[2026-05-31 06:11:59 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-05-31 06:12:00 UTC]   📈 ENTRY XLM/sE [BULL_TREND] via OKX: Golden Cross 3д назад · EMA9=0.1980 > EMA21=0.1775 · RSI=77 · Vol x1.1 @ $0.23982
+[2026-05-31 06:12:01 UTC]   ⏭ XMR: нет данных (monero)
+[2026-05-31 06:12:02 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-05-31 06:12:06 UTC]   ⏭ M: нет данных (memecore)
+[2026-05-31 06:12:06 UTC]   ⏭ LAB: нет данных (lab)
+[2026-05-31 06:12:09 UTC]   ⏭ TAO: нет данных (bittensor)
+[2026-05-31 06:12:09 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-05-31 06:12:10 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-05-31 06:12:14 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-05-31 06:12:15 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-05-31 06:12:20 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-05-31 06:12:21 UTC]   ⏭ U: нет данных (united-stables)
+[2026-05-31 06:12:21 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-05-31 06:12:22 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-05-31 06:12:23 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-05-31 06:12:23 UTC]   ⏭ DEXE: нет данных (dexe)
+[2026-05-31 06:12:24 UTC]   ⏭ VVV: нет данных (venice-token)
+[2026-05-31 06:12:24 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-05-31 06:12:24 UTC]   📈 ENTRY ENA/sR [BEAR] via OKX: Ротация #82 ENA: BTC Dom=57.2% · Коррекция -13.4% · RSI=37 @ $0.09203
+[2026-05-31 06:12:26 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-05-31 06:12:26 UTC]   ⏭ JST: нет данных (just)
+[2026-05-31 06:12:27 UTC]   ⏭ H: нет данных (humanity)
+[2026-05-31 06:12:28 UTC]   ⏭ XDC: нет данных (xdce-crowd-sale)
+[2026-05-31 06:12:31 UTC]   ⏭ BDX: нет данных (beldex)
+[2026-05-31 06:12:32 UTC]   ⏭ GHO: нет данных (gho)
+[2026-05-31 06:12:33 UTC]   ⏭ HASH: нет данных (hash-2)
+[2026-05-31 06:12:33 UTC]   ⏭ APXUSD: нет данных (apxusd)
+[2026-05-31 06:12:33 UTC] ✅ Данные: 54 токенов OK, 26 недоступно | Открыто: 2 | Всего: 29
+[2026-05-31 06:12:33 UTC] 
+📊 ИТОГ: WR=41.3% PnL=$-8.57 Trades=126
