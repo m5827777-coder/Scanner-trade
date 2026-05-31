@@ -423,7 +423,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 5.430060816681147
     },
     {
       "id": "ASTER_sE_1780181672759",
@@ -3405,12 +3405,12 @@
     "ALGO_sE": 1780129363451,
     "BNB_sM": 1780155702890
   },
-  "scanCount": 278,
+  "scanCount": 279,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-30T23:51:10.117Z",
-  "lastReport": "2026-05-30T19:06:08.470Z",
+  "lastScan": "2026-05-31T01:56:29.201Z",
+  "lastReport": "2026-05-31T01:56:29.201Z",
   "marketRegime": "BEAR",
-  "fearGreed": 23,
+  "fearGreed": 28,
   "totalStats": {
     "trades": 126,
     "wins": 52,
@@ -3483,5 +3483,5 @@
       }
     }
   },
-  "btcDominance": 57.4
+  "btcDominance": 57.3
 }
