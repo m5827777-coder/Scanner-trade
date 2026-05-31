@@ -168,7 +168,7 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 6.438631790744473
+      "peakPnl": 7.3440643863179025
     },
     {
       "id": "APT_sR_1779986513750",
@@ -489,6 +489,23 @@
       "entrySignal": "Ротация #82 ENA: BTC Dom=57.2% · Коррекция -13.4% · RSI=37",
       "strength": 82,
       "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "OKB_sE_1780216734422",
+      "symbol": "OKB",
+      "name": "OKB",
+      "coinId": "okb",
+      "rank": 46,
+      "stratId": "sE",
+      "entryPrice": 92.5,
+      "entryTime": 1780216734422,
+      "entryDate": "2026-05-31T08:38:54.422Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=87.6620 > EMA21=86.0058 · RSI=63 · Vol x1.1",
+      "strength": 73,
+      "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
@@ -3446,7 +3463,7 @@
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779807408212,
     "TON_sE": 1779749246806,
-    "OKB_sE": 1779774454092,
+    "OKB_sE": 1780216734422,
     "FET_sE": 1780141910776,
     "ICP_sE": 1779872137827,
     "FIL_sE": 1779874621060,
@@ -3456,10 +3473,10 @@
     "ALGO_sE": 1780129363451,
     "BNB_sM": 1780155702890
   },
-  "scanCount": 281,
+  "scanCount": 282,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-05-31T06:12:33.678Z",
-  "lastReport": "2026-05-31T02:55:36.982Z",
+  "lastScan": "2026-05-31T08:39:13.852Z",
+  "lastReport": "2026-05-31T08:39:13.852Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
@@ -3534,5 +3551,5 @@
       }
     }
   },
-  "btcDominance": 57.2
+  "btcDominance": 57.3
 }
