@@ -3539,10 +3539,10 @@
     "BNB_sE": 1780230011252,
     "XLM_sM": 1780236866389
   },
-  "scanCount": 300,
+  "scanCount": 301,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-01T10:32:53.311Z",
-  "lastReport": "2026-06-01T10:32:53.311Z",
+  "lastScan": "2026-06-01T11:22:22.285Z",
+  "lastReport": "2026-06-01T11:22:22.285Z",
   "marketRegime": "BEAR",
   "fearGreed": 29,
   "totalStats": {
