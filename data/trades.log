@@ -41835,3 +41835,40 @@
 [2026-06-01 17:27:54 UTC] 📧 6h report sent
 [2026-06-01 17:27:54 UTC] 
 📊 ИТОГ: WR=39.9% PnL=$-30.71 Trades=138
+[2026-06-01 20:39:51 UTC] ════════════════════════════════════════════════════
+[2026-06-01 20:39:51 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-06-01 20:39:51 UTC] ════════════════════════════════════════════════════
+[2026-06-01 20:39:51 UTC] 📡 Scan #304
+[2026-06-01 20:39:51 UTC] 📊 BTC Dom=56.7%
+[2026-06-01 20:39:51 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-06-01 20:39:52 UTC] 🌡 F&G=29 Regime=BEAR Open=20
+[2026-06-01 20:39:52 UTC]   📂 HOLD TRX/sE PnL=-3.09%
+[2026-06-01 20:39:52 UTC]   📂 HOLD ADA/sR PnL=-2.37%
+[2026-06-01 20:39:53 UTC]   📂 HOLD CC/sR PnL=-0.85%
+[2026-06-01 20:39:53 UTC]   📂 HOLD FIGR_HELOC/sE PnL=+0.98%
+[2026-06-01 20:39:53 UTC]   📂 HOLD SOL/sR PnL=-0.76%
+[2026-06-01 20:39:53 UTC]   📂 HOLD DOGE/sR PnL=+1.70%
+[2026-06-01 20:39:54 UTC]   ✅ CLOSE ICP/sR: Возврат к 14d max $2.9950 PnL=+8.78% held=4д 3ч
+[2026-06-01 20:39:55 UTC]   📂 HOLD RENDER/sR PnL=+7.39%
+[2026-06-01 20:39:55 UTC]   📂 HOLD APT/sR PnL=+1.44%
+[2026-06-01 20:39:55 UTC]   📂 HOLD LINK/sR PnL=+0.49%
+[2026-06-01 20:39:55 UTC]   📂 HOLD AAVE/sR PnL=-0.85%
+[2026-06-01 20:39:56 UTC]   📂 HOLD AVAX/sR PnL=+0.28%
+[2026-06-01 20:39:56 UTC]   📂 HOLD ETH/sR PnL=+0.35%
+[2026-06-01 20:39:56 UTC]   📂 HOLD ETC/sR PnL=-2.48%
+[2026-06-01 20:39:56 UTC]   📂 HOLD JUP/sR PnL=+7.25%
+[2026-06-01 20:39:57 UTC]   📂 HOLD FET/sE PnL=+5.27%
+[2026-06-01 20:39:57 UTC]   📂 HOLD INJ/sM PnL=+3.73%
+[2026-06-01 20:39:57 UTC]   🔒 SL-cooldown 24ч для XMR/sR
+[2026-06-01 20:39:57 UTC]   ❌ CLOSE XMR/sR: 🛑 SL -5% PnL=-5.30% held=1д 17ч
+[2026-06-01 20:39:58 UTC]   📂 HOLD OKB/sE PnL=-3.09%
+[2026-06-01 20:39:58 UTC]   📂 HOLD XLM/sM PnL=-3.66%
+[2026-06-01 20:39:58 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-06-01 20:39:58 UTC] ✓ CoinGecko: 80 токенов. Проверяю входы...
+[2026-06-01 20:40:05 UTC]   📈 ENTRY RAIN/sE [BULL_TREND] via CoinGecko: Golden Cross 7д назад · EMA9=0.0126 > EMA21=0.0107 · RSI=78 · Vol x1.4 @ $0.01362256617741718
+[2026-06-01 20:40:07 UTC]   ⏭ XMR: нет данных (monero)
+[2026-06-01 20:40:08 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-06-01 20:40:09 UTC]   📈 ENTRY TON/sE [BULL_TREND] via OKX: Golden Cross вчера · EMA9=1.9590 > EMA21=1.9275 · RSI=63 · Vol x1.3 @ $2.176
+[2026-06-01 20:40:10 UTC] ✅ Данные: 18 токенов OK, 2 недоступно | Открыто: 2 | Всего: 20
+[2026-06-01 20:40:10 UTC] 
+📊 ИТОГ: WR=40.0% PnL=$-27.23 Trades=140
