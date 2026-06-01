@@ -41756,3 +41756,48 @@
 [2026-06-01 11:22:24 UTC] 📧 6h report sent
 [2026-06-01 11:22:24 UTC] 
 📊 ИТОГ: WR=41.2% PnL=$-13.53 Trades=131
+[2026-06-01 16:23:26 UTC] ════════════════════════════════════════════════════
+[2026-06-01 16:23:26 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-06-01 16:23:26 UTC] ════════════════════════════════════════════════════
+[2026-06-01 16:23:26 UTC] 📡 Scan #302
+[2026-06-01 16:23:26 UTC] 📊 BTC Dom=56.7%
+[2026-06-01 16:23:26 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-06-01 16:23:27 UTC] 🌡 F&G=29 Regime=BEAR Open=27
+[2026-06-01 16:23:27 UTC]   📂 HOLD TRX/sE PnL=-2.21%
+[2026-06-01 16:23:27 UTC]   📂 HOLD ADA/sR PnL=-3.72%
+[2026-06-01 16:23:28 UTC]   📂 HOLD CC/sR PnL=-0.54%
+[2026-06-01 16:23:28 UTC]   📂 HOLD FIGR_HELOC/sE PnL=+1.18%
+[2026-06-01 16:23:28 UTC]   📂 HOLD SOL/sR PnL=-2.73%
+[2026-06-01 16:23:28 UTC]   📂 HOLD DOGE/sR PnL=-0.60%
+[2026-06-01 16:23:29 UTC]   📂 HOLD ICP/sR PnL=+3.48%
+[2026-06-01 16:23:29 UTC]   🔒 SL-cooldown 24ч для ATOM/sR
+[2026-06-01 16:23:29 UTC]   ❌ CLOSE ATOM/sR: 🛑 SL -5% PnL=-5.60% held=3д 23ч
+[2026-06-01 16:23:30 UTC]   📂 HOLD RENDER/sR PnL=-0.25%
+[2026-06-01 16:23:30 UTC]   📂 HOLD APT/sR PnL=-1.57%
+[2026-06-01 16:23:30 UTC]   🔒 SL-cooldown 24ч для FIL/sR
+[2026-06-01 16:23:30 UTC]   ❌ CLOSE FIL/sR: 🛑 SL -5% PnL=-5.45% held=3д 23ч
+[2026-06-01 16:23:31 UTC]   📂 HOLD LINK/sR PnL=-1.13%
+[2026-06-01 16:23:31 UTC]   📂 HOLD AAVE/sR PnL=-2.60%
+[2026-06-01 16:23:32 UTC]   🔒 SL-cooldown 24ч для ARB/sR
+[2026-06-01 16:23:32 UTC]   ❌ CLOSE ARB/sR: 🛑 SL -5% PnL=-5.20% held=3д 21ч
+[2026-06-01 16:23:32 UTC]   📂 HOLD AVAX/sR PnL=-2.05%
+[2026-06-01 16:23:33 UTC]   📂 HOLD ETH/sR PnL=-1.62%
+[2026-06-01 16:23:33 UTC]   ✅ CLOSE TON/sR: ✅ TP +12% PnL=+20.08% held=2д 23ч
+[2026-06-01 16:23:34 UTC]   📂 HOLD ETC/sR PnL=-3.36%
+[2026-06-01 16:23:34 UTC]   📂 HOLD JUP/sR PnL=+1.24%
+[2026-06-01 16:23:34 UTC]   🔒 SL-cooldown 24ч для HBAR/sE
+[2026-06-01 16:23:34 UTC]   ❌ CLOSE HBAR/sE: 🛑 SL -6% PnL=-6.92% held=2д 16ч
+[2026-06-01 16:23:35 UTC]   📂 HOLD FET/sE PnL=+1.08%
+[2026-06-01 16:23:35 UTC]   📂 HOLD INJ/sM PnL=+5.19%
+[2026-06-01 16:23:35 UTC]   🔒 SL-cooldown 24ч для ASTER/sE
+[2026-06-01 16:23:35 UTC]   ❌ CLOSE ASTER/sE: 🛑 SL -6% PnL=-7.76% held=1д 17ч
+[2026-06-01 16:23:36 UTC]   📂 HOLD XMR/sR PnL=-1.99%
+[2026-06-01 16:23:37 UTC]   📂 HOLD OKB/sE PnL=-3.83%
+[2026-06-01 16:23:37 UTC]   🔒 SL-cooldown 24ч для BNB/sE
+[2026-06-01 16:23:37 UTC]   ❌ CLOSE BNB/sE: 🛑 SL -6% PnL=-6.34% held=1д 4ч
+[2026-06-01 16:23:38 UTC]   📂 HOLD XLM/sM PnL=-2.15%
+[2026-06-01 16:23:38 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-06-01 16:23:38 UTC] ✓ CoinGecko: 80 токенов. Проверяю входы...
+[2026-06-01 16:23:38 UTC] ✅ Данные: 0 токенов OK, 0 недоступно | Открыто: 0 | Всего: 20
+[2026-06-01 16:23:38 UTC] 
+📊 ИТОГ: WR=39.9% PnL=$-30.71 Trades=138
