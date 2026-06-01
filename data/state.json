@@ -341,23 +341,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ALGO_sE_1780129363451",
-      "symbol": "ALGO",
-      "name": "Algorand",
-      "coinId": "algorand",
-      "rank": 63,
-      "stratId": "sE",
-      "entryPrice": 0.1275,
-      "entryTime": 1780129363451,
-      "entryDate": "2026-05-30T08:22:43.451Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.1150 > EMA21=0.1145 · RSI=63 · Vol x2.9",
-      "strength": 92,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FET_sE_1780141910776",
       "symbol": "FET",
       "name": "Artificial Superintelligence Alliance",
@@ -478,6 +461,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ALGO_sE_1780129363451",
+      "symbol": "ALGO",
+      "name": "Algorand",
+      "coinId": "algorand",
+      "rank": 63,
+      "stratId": "sE",
+      "entryPrice": 0.1275,
+      "entryTime": 1780129363451,
+      "entryDate": "2026-05-30T08:22:43.451Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.1150 > EMA21=0.1145 · RSI=63 · Vol x2.9",
+      "strength": 92,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.11978,
+      "exitTime": 1780309970663,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.054901960784317,
+      "pnlUsd": -6.054901960784317,
+      "total": 93.94509803921568
+    },
     {
       "id": "ENA_sR_1780207944941",
       "symbol": "ENA",
@@ -3528,23 +3534,23 @@
     "XLM_sE": 1780207920322,
     "INJ_sM": 1780147089737,
     "HBAR_sE": 1780099072719,
-    "ALGO_sE": 1780129363451,
+    "ALGO_sE": 1780389170663,
     "BNB_sM": 1780155702890,
     "BNB_sE": 1780230011252,
     "XLM_sM": 1780236866389
   },
-  "scanCount": 299,
+  "scanCount": 300,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-01T05:17:22.426Z",
-  "lastReport": "2026-06-01T03:31:21.900Z",
+  "lastScan": "2026-06-01T10:32:53.311Z",
+  "lastReport": "2026-06-01T10:32:53.311Z",
   "marketRegime": "BEAR",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 130,
+    "trades": 131,
     "wins": 54,
-    "losses": 76,
-    "totalPnl": -7.472580441014594,
-    "invested": 13000
+    "losses": 77,
+    "totalPnl": -13.527482401798911,
+    "invested": 13100
   },
   "byStrategy": {
     "sR": {
@@ -3553,9 +3559,9 @@
       "pnl": -50.207593413603355
     },
     "sE": {
-      "trades": 40,
+      "trades": 41,
       "wins": 14,
-      "pnl": -5.472587638050882
+      "pnl": -11.5274895988352
     },
     "sM": {
       "trades": 7,
@@ -3605,11 +3611,11 @@
         "pnl": -7.215182475611597
       },
       "sE": {
-        "trades": 25,
+        "trades": 26,
         "wins": 7,
-        "pnl": -37.95241960153891
+        "pnl": -44.00732156232323
       }
     }
   },
-  "btcDominance": 57.3
+  "btcDominance": 57.1
 }
