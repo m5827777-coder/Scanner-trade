@@ -290,23 +290,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XLM_sM_1780236866389",
-      "symbol": "XLM",
-      "name": "Stellar",
-      "coinId": "stellar",
-      "rank": 17,
-      "stratId": "sM",
-      "entryPrice": 0.25825,
-      "entryTime": 1780236866389,
-      "entryDate": "2026-05-31T14:14:26.389Z",
-      "entrySignal": "Пробой 20d max $0.2240 на +15.3% · Объём x2.7 · RSI=86",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "RAIN_sE_1780346405546",
       "symbol": "RAIN",
       "name": "Rain",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "XLM_sM_1780236866389",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 17,
+      "stratId": "sM",
+      "entryPrice": 0.25825,
+      "entryTime": 1780236866389,
+      "entryDate": "2026-05-31T14:14:26.389Z",
+      "entrySignal": "Пробой 20d max $0.2240 на +15.3% · Объём x2.7 · RSI=86",
+      "strength": 95,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.23783,
+      "exitTime": 1780370905090,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.9070667957405485,
+      "pnlUsd": -7.9070667957405485,
+      "total": 92.09293320425945
+    },
     {
       "id": "XMR_sR_1780196107078",
       "symbol": "XMR",
@@ -3625,21 +3631,21 @@
     "ALGO_sE": 1780389170663,
     "BNB_sM": 1780155702890,
     "BNB_sE": 1780410217269,
-    "XLM_sM": 1780236866389,
+    "XLM_sM": 1780450105090,
     "RAIN_sE": 1780346405546
   },
-  "scanCount": 307,
+  "scanCount": 308,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-02T00:00:12.809Z",
-  "lastReport": "2026-06-01T21:26:10.275Z",
+  "lastScan": "2026-06-02T03:29:04.619Z",
+  "lastReport": "2026-06-02T03:29:04.619Z",
   "marketRegime": "BEAR",
   "fearGreed": 23,
   "totalStats": {
-    "trades": 140,
+    "trades": 141,
     "wins": 56,
-    "losses": 84,
-    "totalPnl": -27.23003846664748,
-    "invested": 14000
+    "losses": 85,
+    "totalPnl": -35.137105262388026,
+    "invested": 14100
   },
   "byStrategy": {
     "sR": {
@@ -3653,9 +3659,9 @@
       "pnl": -32.54705890950507
     },
     "sM": {
-      "trades": 7,
+      "trades": 8,
       "wins": 5,
-      "pnl": 48.207600610639666
+      "pnl": 40.30053381489912
     }
   },
   "byRegime": {
@@ -3695,9 +3701,9 @@
         "pnl": -109.52607833565679
       },
       "sM": {
-        "trades": 4,
+        "trades": 5,
         "wins": 2,
-        "pnl": -7.215182475611597
+        "pnl": -15.122249271352146
       },
       "sE": {
         "trades": 29,
@@ -3706,5 +3712,5 @@
       }
     }
   },
-  "btcDominance": 56.6
+  "btcDominance": 56.5
 }
