@@ -86,23 +86,6 @@
       "peakPnl": 7.3440643863179025
     },
     {
-      "id": "LINK_sR_1779995985483",
-      "symbol": "LINK",
-      "name": "Chainlink",
-      "coinId": "chainlink",
-      "rank": 19,
-      "stratId": "sR",
-      "entryPrice": 9.029,
-      "entryTime": 1779995985483,
-      "entryDate": "2026-05-28T19:19:45.483Z",
-      "entrySignal": "Ротация #19 LINK: BTC Dom=57.6% · Коррекция -10.0% · RSI=40",
-      "strength": 80,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ETH_sR_1780022644210",
       "symbol": "ETH",
       "name": "Ethereum",
@@ -223,6 +206,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "LINK_sR_1779995985483",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "coinId": "chainlink",
+      "rank": 19,
+      "stratId": "sR",
+      "entryPrice": 9.029,
+      "entryTime": 1779995985483,
+      "entryDate": "2026-05-28T19:19:45.483Z",
+      "entrySignal": "Ротация #19 LINK: BTC Dom=57.6% · Коррекция -10.0% · RSI=40",
+      "strength": 80,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 8.54,
+      "exitTime": 1780431184133,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.415882157492533,
+      "pnlUsd": -5.4158821574925335,
+      "total": 94.58411784250747
+    },
     {
       "id": "ETC_sR_1780075414720",
       "symbol": "ETC",
@@ -3673,7 +3679,7 @@
     "FLR_sE": 1778797959970,
     "XRP_sE": 1778801425373,
     "HYPE_sE": 1779533232173,
-    "LINK_sR": 1779995985483,
+    "LINK_sR": 1780510384134,
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1780410209384,
     "FIGR_HELOC_sE": 1779931469733,
@@ -3717,24 +3723,24 @@
     "RAIN_sE": 1780346405546,
     "WLD_sM": 1780395231187
   },
-  "scanCount": 314,
+  "scanCount": 315,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-02T17:04:59.704Z",
+  "lastScan": "2026-06-02T20:13:44.539Z",
   "lastReport": "2026-06-02T16:13:22.918Z",
   "marketRegime": "BEAR_TREND",
   "fearGreed": 23,
   "totalStats": {
-    "trades": 149,
+    "trades": 150,
     "wins": 56,
-    "losses": 93,
-    "totalPnl": -84.96472534500137,
-    "invested": 14900
+    "losses": 94,
+    "totalPnl": -90.3806075024939,
+    "invested": 15000
   },
   "byStrategy": {
     "sR": {
-      "trades": 95,
+      "trades": 96,
       "wins": 37,
-      "pnl": -78.23267759538743
+      "pnl": -83.64855975287996
     },
     "sE": {
       "trades": 46,
@@ -3796,9 +3802,9 @@
     },
     "BEAR_TREND": {
       "sR": {
-        "trades": 6,
+        "trades": 7,
         "wins": 0,
-        "pnl": -35.34209742760539
+        "pnl": -40.75797958509792
       },
       "sE": {
         "trades": 2,
