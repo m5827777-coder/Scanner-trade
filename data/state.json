@@ -288,6 +288,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "WLD_sM_1780395231187",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 61,
+      "stratId": "sM",
+      "entryPrice": 0.4161,
+      "entryTime": 1780395231187,
+      "entryDate": "2026-06-02T10:13:51.187Z",
+      "entrySignal": "Пробой 20d max $0.4142 на +0.5% · Объём x2.1 · RSI=65",
+      "strength": 81,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -3644,12 +3661,13 @@
     "BNB_sM": 1780155702890,
     "BNB_sE": 1780410217269,
     "XLM_sM": 1780450105090,
-    "RAIN_sE": 1780346405546
+    "RAIN_sE": 1780346405546,
+    "WLD_sM": 1780395231187
   },
-  "scanCount": 310,
+  "scanCount": 311,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-02T08:52:10.946Z",
-  "lastReport": "2026-06-02T03:29:04.619Z",
+  "lastScan": "2026-06-02T10:14:08.121Z",
+  "lastReport": "2026-06-02T10:14:08.121Z",
   "marketRegime": "BEAR_TREND",
   "fearGreed": 23,
   "totalStats": {
@@ -3736,5 +3754,5 @@
       }
     }
   },
-  "btcDominance": 56.3
+  "btcDominance": 56.2
 }
