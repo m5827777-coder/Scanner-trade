@@ -3628,12 +3628,12 @@
     "XLM_sM": 1780236866389,
     "RAIN_sE": 1780346405546
   },
-  "scanCount": 306,
+  "scanCount": 307,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-01T22:49:32.195Z",
+  "lastScan": "2026-06-02T00:00:12.809Z",
   "lastReport": "2026-06-01T21:26:10.275Z",
   "marketRegime": "BEAR",
-  "fearGreed": 29,
+  "fearGreed": 23,
   "totalStats": {
     "trades": 140,
     "wins": 56,
