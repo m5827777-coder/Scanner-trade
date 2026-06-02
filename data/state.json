@@ -137,23 +137,6 @@
       "peakPnl": 0
     },
     {
-      "id": "AAVE_sR_1779996000872",
-      "symbol": "AAVE",
-      "name": "Aave",
-      "coinId": "aave",
-      "rank": 62,
-      "stratId": "sR",
-      "entryPrice": 81.26,
-      "entryTime": 1779996000872,
-      "entryDate": "2026-05-28T19:20:00.872Z",
-      "entrySignal": "Ротация #62 AAVE: BTC Dom=57.6% · Коррекция -9.5% · RSI=35",
-      "strength": 78,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "AVAX_sR_1779999136929",
       "symbol": "AVAX",
       "name": "Avalanche",
@@ -256,23 +239,6 @@
       "peakPnl": 0
     },
     {
-      "id": "OKB_sE_1780216734422",
-      "symbol": "OKB",
-      "name": "OKB",
-      "coinId": "okb",
-      "rank": 46,
-      "stratId": "sE",
-      "entryPrice": 92.5,
-      "entryTime": 1780216734422,
-      "entryDate": "2026-05-31T08:38:54.422Z",
-      "entrySignal": "Golden Cross 5д назад · EMA9=87.6620 > EMA21=86.0058 · RSI=63 · Vol x1.1",
-      "strength": 73,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "RAIN_sE_1780346405546",
       "symbol": "RAIN",
       "name": "Rain",
@@ -305,9 +271,72 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ICP_sE_1780403478707",
+      "symbol": "ICP",
+      "name": "Internet Computer",
+      "coinId": "internet-computer",
+      "rank": 52,
+      "stratId": "sE",
+      "entryPrice": 3.05,
+      "entryTime": 1780403478707,
+      "entryDate": "2026-06-02T12:31:18.707Z",
+      "entrySignal": "Golden Cross вчера · EMA9=2.7932 > EMA21=2.7477 · RSI=60 · Vol x1.1",
+      "strength": 77,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "OKB_sE_1780216734422",
+      "symbol": "OKB",
+      "name": "OKB",
+      "coinId": "okb",
+      "rank": 46,
+      "stratId": "sE",
+      "entryPrice": 92.5,
+      "entryTime": 1780216734422,
+      "entryDate": "2026-05-31T08:38:54.422Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=87.6620 > EMA21=86.0058 · RSI=63 · Vol x1.1",
+      "strength": 73,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 86.54,
+      "exitTime": 1780403456110,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.443243243243237,
+      "pnlUsd": -6.443243243243237,
+      "total": 93.55675675675677
+    },
+    {
+      "id": "AAVE_sR_1779996000872",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "coinId": "aave",
+      "rank": 62,
+      "stratId": "sR",
+      "entryPrice": 81.26,
+      "entryTime": 1779996000872,
+      "entryDate": "2026-05-28T19:20:00.872Z",
+      "entrySignal": "Ротация #62 AAVE: BTC Dom=57.6% · Коррекция -9.5% · RSI=35",
+      "strength": 78,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 77.16,
+      "exitTime": 1780403453547,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.0455328574944724,
+      "pnlUsd": -5.0455328574944724,
+      "total": 94.95446714250552
+    },
     {
       "id": "TON_sE_1780346409631",
       "symbol": "TON",
@@ -3606,7 +3635,7 @@
     "XLM_sR": 1779211294888,
     "UNI_sR": 1779554027073,
     "DOT_sR": 1779554029231,
-    "AAVE_sR": 1779996000872,
+    "AAVE_sR": 1780482653547,
     "CC_sR": 1779925187689,
     "ETC_sR": 1780075414720,
     "ENA_sR": 1780207944941,
@@ -3650,9 +3679,9 @@
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779807408212,
     "TON_sE": 1780469494501,
-    "OKB_sE": 1780216734422,
+    "OKB_sE": 1780482656110,
     "FET_sE": 1780141910776,
-    "ICP_sE": 1779872137827,
+    "ICP_sE": 1780403478707,
     "FIL_sE": 1779874621060,
     "XLM_sE": 1780207920322,
     "INJ_sM": 1780147089737,
@@ -3664,29 +3693,29 @@
     "RAIN_sE": 1780346405546,
     "WLD_sM": 1780395231187
   },
-  "scanCount": 311,
+  "scanCount": 312,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-02T10:14:08.121Z",
+  "lastScan": "2026-06-02T12:31:38.600Z",
   "lastReport": "2026-06-02T10:14:08.121Z",
   "marketRegime": "BEAR_TREND",
   "fearGreed": 23,
   "totalStats": {
-    "trades": 143,
+    "trades": 145,
     "wins": 56,
-    "losses": 87,
-    "totalPnl": -48.62932130279659,
-    "invested": 14300
+    "losses": 89,
+    "totalPnl": -60.1180974035343,
+    "invested": 14500
   },
   "byStrategy": {
     "sR": {
-      "trades": 90,
+      "trades": 91,
       "wins": 37,
-      "pnl": -48.34051679642589
+      "pnl": -53.38604965392036
     },
     "sE": {
-      "trades": 45,
+      "trades": 46,
       "wins": 14,
-      "pnl": -40.589338321269786
+      "pnl": -47.03258156451302
     },
     "sM": {
       "trades": 8,
@@ -3743,14 +3772,14 @@
     },
     "BEAR_TREND": {
       "sR": {
-        "trades": 1,
+        "trades": 2,
         "wins": 0,
-        "pnl": -5.449936628643851
+        "pnl": -10.495469486138322
       },
       "sE": {
-        "trades": 1,
+        "trades": 2,
         "wins": 0,
-        "pnl": -8.042279411764717
+        "pnl": -14.485522655007955
       }
     }
   },
