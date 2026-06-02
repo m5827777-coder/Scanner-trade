@@ -52,23 +52,6 @@
       "peakPnl": 0
     },
     {
-      "id": "DOGE_sR_1779986483571",
-      "symbol": "DOGE",
-      "name": "Dogecoin",
-      "coinId": "dogecoin",
-      "rank": 10,
-      "stratId": "sR",
-      "entryPrice": 0.09906,
-      "entryTime": 1779986483571,
-      "entryDate": "2026-05-28T16:41:23.571Z",
-      "entrySignal": "Ротация #10 DOGE: BTC Dom=57.6% · Коррекция -7.2% · RSI=41",
-      "strength": 80,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "RENDER_sR_1779986508153",
       "symbol": "RENDER",
       "name": "Render",
@@ -206,6 +189,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "DOGE_sR_1779986483571",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "coinId": "dogecoin",
+      "rank": 10,
+      "stratId": "sR",
+      "entryPrice": 0.09906,
+      "entryTime": 1779986483571,
+      "entryDate": "2026-05-28T16:41:23.571Z",
+      "entrySignal": "Ротация #10 DOGE: BTC Dom=57.6% · Коррекция -7.2% · RSI=41",
+      "strength": 80,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.09383,
+      "exitTime": 1780432798192,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.279628507974963,
+      "pnlUsd": -5.279628507974963,
+      "total": 94.72037149202504
+    },
     {
       "id": "LINK_sR_1779995985483",
       "symbol": "LINK",
@@ -3686,7 +3692,7 @@
     "XMR_sR": 1780425597712,
     "ETH_sR": 1780022644210,
     "LTC_sR": 1779126568920,
-    "DOGE_sR": 1779986483571,
+    "DOGE_sR": 1780511998192,
     "XRP_sR": 1779499545235,
     "ZEC_sR": 1779811568648,
     "BNB_sR": 1779093283699,
@@ -3723,24 +3729,24 @@
     "RAIN_sE": 1780346405546,
     "WLD_sM": 1780395231187
   },
-  "scanCount": 315,
+  "scanCount": 316,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-02T20:13:44.539Z",
-  "lastReport": "2026-06-02T16:13:22.918Z",
+  "lastScan": "2026-06-02T20:40:34.638Z",
+  "lastReport": "2026-06-02T20:40:34.638Z",
   "marketRegime": "BEAR_TREND",
   "fearGreed": 23,
   "totalStats": {
-    "trades": 150,
+    "trades": 151,
     "wins": 56,
-    "losses": 94,
-    "totalPnl": -90.3806075024939,
-    "invested": 15000
+    "losses": 95,
+    "totalPnl": -95.66023601046886,
+    "invested": 15100
   },
   "byStrategy": {
     "sR": {
-      "trades": 96,
+      "trades": 97,
       "wins": 37,
-      "pnl": -83.64855975287996
+      "pnl": -88.92818826085492
     },
     "sE": {
       "trades": 46,
@@ -3802,9 +3808,9 @@
     },
     "BEAR_TREND": {
       "sR": {
-        "trades": 7,
+        "trades": 8,
         "wins": 0,
-        "pnl": -40.75797958509792
+        "pnl": -46.03760809307288
       },
       "sE": {
         "trades": 2,
@@ -3813,5 +3819,5 @@
       }
     }
   },
-  "btcDominance": 55.8
+  "btcDominance": 55.9
 }
