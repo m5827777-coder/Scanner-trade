@@ -52,23 +52,6 @@
       "peakPnl": 0
     },
     {
-      "id": "SOL_sR_1779986481479",
-      "symbol": "SOL",
-      "name": "Solana",
-      "coinId": "solana",
-      "rank": 7,
-      "stratId": "sR",
-      "entryPrice": 81.81,
-      "entryTime": 1779986481479,
-      "entryDate": "2026-05-28T16:41:21.479Z",
-      "entrySignal": "Ротация #7 SOL: BTC Dom=57.6% · Коррекция -7.1% · RSI=39",
-      "strength": 81,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "DOGE_sR_1779986483571",
       "symbol": "DOGE",
       "name": "Dogecoin",
@@ -103,23 +86,6 @@
       "peakPnl": 7.3440643863179025
     },
     {
-      "id": "APT_sR_1779986513750",
-      "symbol": "APT",
-      "name": "Aptos",
-      "coinId": "aptos",
-      "rank": 82,
-      "stratId": "sR",
-      "entryPrice": 0.9287,
-      "entryTime": 1779986513750,
-      "entryDate": "2026-05-28T16:41:53.750Z",
-      "entrySignal": "Ротация #82 APT: BTC Dom=57.6% · Коррекция -8.0% · RSI=43",
-      "strength": 72,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "LINK_sR_1779995985483",
       "symbol": "LINK",
       "name": "Chainlink",
@@ -137,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "AVAX_sR_1779999136929",
-      "symbol": "AVAX",
-      "name": "Avalanche",
-      "coinId": "avalanche-2",
-      "rank": 29,
-      "stratId": "sR",
-      "entryPrice": 8.929,
-      "entryTime": 1779999136929,
-      "entryDate": "2026-05-28T20:12:16.929Z",
-      "entrySignal": "Ротация #29 AVAX: BTC Dom=57.6% · Коррекция -7.0% · RSI=41",
-      "strength": 71,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ETH_sR_1780022644210",
       "symbol": "ETH",
       "name": "Ethereum",
@@ -165,23 +114,6 @@
       "entryDate": "2026-05-29T02:44:04.210Z",
       "entrySignal": "Ротация #2 ETH: BTC Dom=57.7% · Коррекция -7.1% · RSI=31",
       "strength": 85,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "ETC_sR_1780075414720",
-      "symbol": "ETC",
-      "name": "Ethereum Classic",
-      "coinId": "ethereum-classic",
-      "rank": 61,
-      "stratId": "sR",
-      "entryPrice": 8.292,
-      "entryTime": 1780075414720,
-      "entryDate": "2026-05-29T17:23:34.720Z",
-      "entrySignal": "Ротация #61 ETC: BTC Dom=57.7% · Коррекция -9.8% · RSI=40",
-      "strength": 75,
       "regime": "BEAR",
       "size": 100,
       "src": "OKX",
@@ -291,6 +223,98 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ETC_sR_1780075414720",
+      "symbol": "ETC",
+      "name": "Ethereum Classic",
+      "coinId": "ethereum-classic",
+      "rank": 61,
+      "stratId": "sR",
+      "entryPrice": 8.292,
+      "entryTime": 1780075414720,
+      "entryDate": "2026-05-29T17:23:34.720Z",
+      "entrySignal": "Ротация #61 ETC: BTC Dom=57.7% · Коррекция -9.8% · RSI=40",
+      "strength": 75,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 7.765,
+      "exitTime": 1780416760103,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -6.355523396044383,
+      "pnlUsd": -6.355523396044383,
+      "total": 93.64447660395561
+    },
+    {
+      "id": "AVAX_sR_1779999136929",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "coinId": "avalanche-2",
+      "rank": 29,
+      "stratId": "sR",
+      "entryPrice": 8.929,
+      "entryTime": 1779999136929,
+      "entryDate": "2026-05-28T20:12:16.929Z",
+      "entrySignal": "Ротация #29 AVAX: BTC Dom=57.6% · Коррекция -7.0% · RSI=41",
+      "strength": 71,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 8.441,
+      "exitTime": 1780416759104,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.465337663792133,
+      "pnlUsd": -5.465337663792132,
+      "total": 94.53466233620787
+    },
+    {
+      "id": "APT_sR_1779986513750",
+      "symbol": "APT",
+      "name": "Aptos",
+      "coinId": "aptos",
+      "rank": 82,
+      "stratId": "sR",
+      "entryPrice": 0.9287,
+      "entryTime": 1779986513750,
+      "entryDate": "2026-05-28T16:41:53.750Z",
+      "entrySignal": "Ротация #82 APT: BTC Dom=57.6% · Коррекция -8.0% · RSI=43",
+      "strength": 72,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.8629,
+      "exitTime": 1780416758093,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -7.085172822224613,
+      "pnlUsd": -7.085172822224613,
+      "total": 92.9148271777754
+    },
+    {
+      "id": "SOL_sR_1779986481479",
+      "symbol": "SOL",
+      "name": "Solana",
+      "coinId": "solana",
+      "rank": 7,
+      "stratId": "sR",
+      "entryPrice": 81.81,
+      "entryTime": 1779986481479,
+      "entryDate": "2026-05-28T16:41:21.479Z",
+      "entrySignal": "Ротация #7 SOL: BTC Dom=57.6% · Коррекция -7.1% · RSI=39",
+      "strength": 81,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 76.95,
+      "exitTime": 1780416756417,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.94059405940594,
+      "pnlUsd": -5.94059405940594,
+      "total": 94.05940594059406
+    },
     {
       "id": "OKB_sE_1780216734422",
       "symbol": "OKB",
@@ -3628,7 +3652,7 @@
     }
   ],
   "cooldowns": {
-    "SOL_sR": 1779986481479,
+    "SOL_sR": 1780495956417,
     "ADA_sR": 1780469489931,
     "HYPE_sR": 1778949423923,
     "BCH_sR": 1779639267790,
@@ -3637,13 +3661,13 @@
     "DOT_sR": 1779554029231,
     "AAVE_sR": 1780482653547,
     "CC_sR": 1779925187689,
-    "ETC_sR": 1780075414720,
+    "ETC_sR": 1780495960103,
     "ENA_sR": 1780207944941,
     "ALGO_sR": 1779912519969,
     "RENDER_sR": 1779986508153,
-    "APT_sR": 1779986513750,
+    "APT_sR": 1780495958093,
     "ARB_sR": 1780410212169,
-    "AVAX_sR": 1779999136929,
+    "AVAX_sR": 1780495959104,
     "HBAR_sR": 1778752941540,
     "CC_sE": 1779635583749,
     "FLR_sE": 1778797959970,
@@ -3693,24 +3717,24 @@
     "RAIN_sE": 1780346405546,
     "WLD_sM": 1780395231187
   },
-  "scanCount": 312,
+  "scanCount": 313,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-02T12:31:38.600Z",
-  "lastReport": "2026-06-02T10:14:08.121Z",
+  "lastScan": "2026-06-02T16:13:22.918Z",
+  "lastReport": "2026-06-02T16:13:22.918Z",
   "marketRegime": "BEAR_TREND",
   "fearGreed": 23,
   "totalStats": {
-    "trades": 145,
+    "trades": 149,
     "wins": 56,
-    "losses": 89,
-    "totalPnl": -60.1180974035343,
-    "invested": 14500
+    "losses": 93,
+    "totalPnl": -84.96472534500137,
+    "invested": 14900
   },
   "byStrategy": {
     "sR": {
-      "trades": 91,
+      "trades": 95,
       "wins": 37,
-      "pnl": -53.38604965392036
+      "pnl": -78.23267759538743
     },
     "sE": {
       "trades": 46,
@@ -3772,9 +3796,9 @@
     },
     "BEAR_TREND": {
       "sR": {
-        "trades": 2,
+        "trades": 6,
         "wins": 0,
-        "pnl": -10.495469486138322
+        "pnl": -35.34209742760539
       },
       "sE": {
         "trades": 2,
@@ -3783,5 +3807,5 @@
       }
     }
   },
-  "btcDominance": 56.2
+  "btcDominance": 55.9
 }
