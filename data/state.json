@@ -18,23 +18,6 @@
       "peakPnl": 5.929789933737485
     },
     {
-      "id": "ADA_sR_1779925184772",
-      "symbol": "ADA",
-      "name": "Cardano",
-      "coinId": "cardano",
-      "rank": 16,
-      "stratId": "sR",
-      "entryPrice": 0.2367,
-      "entryTime": 1779925184772,
-      "entryDate": "2026-05-27T23:39:44.772Z",
-      "entrySignal": "Ротация #16 ADA: BTC Dom=57.8% · Коррекция -7.0% · RSI=36",
-      "strength": 78,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "CC_sR_1779925187689",
       "symbol": "CC",
       "name": "Canton",
@@ -305,7 +288,9 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "TON_sE_1780346409631",
       "symbol": "TON",
@@ -318,13 +303,40 @@
       "entryDate": "2026-06-01T20:40:09.631Z",
       "entrySignal": "Golden Cross вчера · EMA9=1.9590 > EMA21=1.9275 · RSI=63 · Vol x1.3",
       "strength": 80,
-      "regime": "BULL_TREND",
+      "regime": "BEAR_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 2.001,
+      "exitTime": 1780390294501,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -8.042279411764717,
+      "pnlUsd": -8.042279411764717,
+      "total": 91.95772058823528
+    },
+    {
+      "id": "ADA_sR_1779925184772",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 16,
+      "stratId": "sR",
+      "entryPrice": 0.2367,
+      "entryTime": 1779925184772,
+      "entryDate": "2026-05-27T23:39:44.772Z",
+      "entrySignal": "Ротация #16 ADA: BTC Dom=57.8% · Коррекция -7.0% · RSI=36",
+      "strength": 78,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.2238,
+      "exitTime": 1780390289931,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.449936628643851,
+      "pnlUsd": -5.449936628643851,
+      "total": 94.55006337135615
+    },
     {
       "id": "XLM_sM_1780236866389",
       "symbol": "XLM",
@@ -3571,7 +3583,7 @@
   ],
   "cooldowns": {
     "SOL_sR": 1779986481479,
-    "ADA_sR": 1779925184772,
+    "ADA_sR": 1780469489931,
     "HYPE_sR": 1778949423923,
     "BCH_sR": 1779639267790,
     "XLM_sR": 1779211294888,
@@ -3620,7 +3632,7 @@
     "WLD_sE": 1779850424416,
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779807408212,
-    "TON_sE": 1780346409631,
+    "TON_sE": 1780469494501,
     "OKB_sE": 1780216734422,
     "FET_sE": 1780141910776,
     "ICP_sE": 1779872137827,
@@ -3634,29 +3646,29 @@
     "XLM_sM": 1780450105090,
     "RAIN_sE": 1780346405546
   },
-  "scanCount": 309,
+  "scanCount": 310,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-02T04:27:43.514Z",
+  "lastScan": "2026-06-02T08:52:10.946Z",
   "lastReport": "2026-06-02T03:29:04.619Z",
-  "marketRegime": "BEAR",
+  "marketRegime": "BEAR_TREND",
   "fearGreed": 23,
   "totalStats": {
-    "trades": 141,
+    "trades": 143,
     "wins": 56,
-    "losses": 85,
-    "totalPnl": -35.137105262388026,
-    "invested": 14100
+    "losses": 87,
+    "totalPnl": -48.62932130279659,
+    "invested": 14300
   },
   "byStrategy": {
     "sR": {
-      "trades": 89,
+      "trades": 90,
       "wins": 37,
-      "pnl": -42.89058016778204
+      "pnl": -48.34051679642589
     },
     "sE": {
-      "trades": 44,
+      "trades": 45,
       "wins": 14,
-      "pnl": -32.54705890950507
+      "pnl": -40.589338321269786
     },
     "sM": {
       "trades": 8,
@@ -3710,7 +3722,19 @@
         "wins": 7,
         "pnl": -65.0268908729931
       }
+    },
+    "BEAR_TREND": {
+      "sR": {
+        "trades": 1,
+        "wins": 0,
+        "pnl": -5.449936628643851
+      },
+      "sE": {
+        "trades": 1,
+        "wins": 0,
+        "pnl": -8.042279411764717
+      }
     }
   },
-  "btcDominance": 56.5
+  "btcDominance": 56.3
 }
