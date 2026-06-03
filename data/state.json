@@ -103,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "WLD_sM_1780395231187",
-      "symbol": "WLD",
-      "name": "Worldcoin",
-      "coinId": "worldcoin-wld",
-      "rank": 61,
-      "stratId": "sM",
-      "entryPrice": 0.4161,
-      "entryTime": 1780395231187,
-      "entryDate": "2026-06-02T10:13:51.187Z",
-      "entrySignal": "Пробой 20d max $0.4142 на +0.5% · Объём x2.1 · RSI=65",
-      "strength": 81,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ICP_sE_1780403478707",
       "symbol": "ICP",
       "name": "Internet Computer",
@@ -186,7 +169,9 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "TON_sE_1780498681261",
       "symbol": "TON",
@@ -199,13 +184,40 @@
       "entryDate": "2026-06-03T14:58:01.261Z",
       "entrySignal": "Golden Cross 2д назад · EMA9=1.9512 > EMA21=1.9248 · RSI=59 · Vol x1.0",
       "strength": 77,
-      "regime": "BULL_TREND",
+      "regime": "BEAR_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 1.876,
+      "exitTime": 1780519853640,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -9.937590014402318,
+      "pnlUsd": -9.937590014402318,
+      "total": 90.06240998559768
+    },
+    {
+      "id": "WLD_sM_1780395231187",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 61,
+      "stratId": "sM",
+      "entryPrice": 0.4161,
+      "entryTime": 1780395231187,
+      "entryDate": "2026-06-02T10:13:51.187Z",
+      "entrySignal": "Пробой 20d max $0.4142 на +0.5% · Объём x2.1 · RSI=65",
+      "strength": 81,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.5229,
+      "exitTime": 1780519851689,
+      "exitReason": "✅ TP +25%",
+      "pnl": 25.666906993511173,
+      "pnlUsd": 25.666906993511176,
+      "total": 125.66690699351118
+    },
     {
       "id": "JUP_sR_1780075427579",
       "symbol": "JUP",
@@ -3800,7 +3812,7 @@
     "WLD_sE": 1779850424416,
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779807408212,
-    "TON_sE": 1780498681261,
+    "TON_sE": 1780599053641,
     "OKB_sE": 1780482656110,
     "FET_sE": 1780141910776,
     "ICP_sE": 1780403478707,
@@ -3818,18 +3830,18 @@
     "ONDO_sE": 1780463615522,
     "ZEC_sE": 1780481143545
   },
-  "scanCount": 325,
+  "scanCount": 326,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-03T18:42:48.588Z",
-  "lastReport": "2026-06-03T16:28:36.017Z",
+  "lastScan": "2026-06-03T20:51:28.203Z",
+  "lastReport": "2026-06-03T20:51:28.203Z",
   "marketRegime": "BEAR_TREND",
   "fearGreed": 11,
   "totalStats": {
-    "trades": 154,
-    "wins": 57,
-    "losses": 97,
-    "totalPnl": -96.5880466309256,
-    "invested": 15400
+    "trades": 156,
+    "wins": 58,
+    "losses": 98,
+    "totalPnl": -80.85872965181674,
+    "invested": 15600
   },
   "byStrategy": {
     "sR": {
@@ -3838,14 +3850,14 @@
       "pnl": -83.51735514805353
     },
     "sE": {
-      "trades": 47,
+      "trades": 48,
       "wins": 14,
-      "pnl": -53.37122529777116
+      "pnl": -63.30881531217348
     },
     "sM": {
-      "trades": 8,
-      "wins": 5,
-      "pnl": 40.30053381489912
+      "trades": 9,
+      "wins": 6,
+      "pnl": 65.96744080841029
     }
   },
   "byRegime": {
@@ -3902,11 +3914,16 @@
         "pnl": -40.62677498027148
       },
       "sE": {
-        "trades": 3,
+        "trades": 4,
         "wins": 0,
-        "pnl": -20.824166388266097
+        "pnl": -30.761756402668414
+      },
+      "sM": {
+        "trades": 1,
+        "wins": 1,
+        "pnl": 25.666906993511176
       }
     }
   },
-  "btcDominance": 55.8
+  "btcDominance": 55.7
 }
