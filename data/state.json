@@ -1,23 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "TRX_sE_1779117523577",
-      "symbol": "TRX",
-      "name": "TRON",
-      "coinId": "tron",
-      "rank": 8,
-      "stratId": "sE",
-      "entryPrice": 0.35465,
-      "entryTime": 1779117523577,
-      "entryDate": "2026-05-18T15:18:43.577Z",
-      "entrySignal": "EMA начало расхождения · EMA9=0.3520 > EMA21=0.3454 · RSI=69 · Vol x1.1",
-      "strength": 63,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 5.929789933737485
-    },
-    {
       "id": "CC_sR_1779925187689",
       "symbol": "CC",
       "name": "Canton",
@@ -67,23 +50,6 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 7.3440643863179025
-    },
-    {
-      "id": "ETH_sR_1780022644210",
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "coinId": "ethereum",
-      "rank": 2,
-      "stratId": "sR",
-      "entryPrice": 2000.42,
-      "entryTime": 1780022644210,
-      "entryDate": "2026-05-29T02:44:04.210Z",
-      "entrySignal": "Ротация #2 ETH: BTC Dom=57.7% · Коррекция -7.1% · RSI=31",
-      "strength": 85,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
     },
     {
       "id": "JUP_sR_1780075427579",
@@ -189,6 +155,52 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ETH_sR_1780022644210",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "coinId": "ethereum",
+      "rank": 2,
+      "stratId": "sR",
+      "entryPrice": 2000.42,
+      "entryTime": 1780022644210,
+      "entryDate": "2026-05-29T02:44:04.210Z",
+      "entrySignal": "Ротация #2 ETH: BTC Dom=57.7% · Коррекция -7.1% · RSI=31",
+      "strength": 85,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1863.71,
+      "exitTime": 1780445393518,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -6.834064846382261,
+      "pnlUsd": -6.834064846382261,
+      "total": 93.16593515361774
+    },
+    {
+      "id": "TRX_sE_1779117523577",
+      "symbol": "TRX",
+      "name": "TRON",
+      "coinId": "tron",
+      "rank": 8,
+      "stratId": "sE",
+      "entryPrice": 0.35465,
+      "entryTime": 1779117523577,
+      "entryDate": "2026-05-18T15:18:43.577Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.3520 > EMA21=0.3454 · RSI=69 · Vol x1.1",
+      "strength": 63,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 5.929789933737485,
+      "exitPrice": 0.33217,
+      "exitTime": 1780445391778,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.338643733258141,
+      "pnlUsd": -6.338643733258141,
+      "total": 93.66135626674186
+    },
     {
       "id": "DOGE_sR_1779986483571",
       "symbol": "DOGE",
@@ -3690,13 +3702,13 @@
     "ATOM_sR": 1780410209384,
     "FIGR_HELOC_sE": 1779931469733,
     "XMR_sR": 1780425597712,
-    "ETH_sR": 1780022644210,
+    "ETH_sR": 1780524593518,
     "LTC_sR": 1779126568920,
     "DOGE_sR": 1780511998192,
     "XRP_sR": 1779499545235,
     "ZEC_sR": 1779811568648,
     "BNB_sR": 1779093283699,
-    "TRX_sE": 1779117523577,
+    "TRX_sE": 1780524591778,
     "WBT_sR": 1779119539183,
     "ONDO_sR": 1779898347287,
     "BTC_sR": 1779202157518,
@@ -3729,29 +3741,29 @@
     "RAIN_sE": 1780346405546,
     "WLD_sM": 1780395231187
   },
-  "scanCount": 317,
+  "scanCount": 318,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-02T22:28:20.951Z",
+  "lastScan": "2026-06-03T00:10:35.812Z",
   "lastReport": "2026-06-02T20:40:34.638Z",
   "marketRegime": "BEAR_TREND",
-  "fearGreed": 23,
+  "fearGreed": 11,
   "totalStats": {
-    "trades": 151,
+    "trades": 153,
     "wins": 56,
-    "losses": 95,
-    "totalPnl": -95.66023601046886,
-    "invested": 15100
+    "losses": 97,
+    "totalPnl": -108.83294459010926,
+    "invested": 15300
   },
   "byStrategy": {
     "sR": {
-      "trades": 97,
+      "trades": 98,
       "wins": 37,
-      "pnl": -88.92818826085492
+      "pnl": -95.76225310723719
     },
     "sE": {
-      "trades": 46,
+      "trades": 47,
       "wins": 14,
-      "pnl": -47.03258156451302
+      "pnl": -53.37122529777116
     },
     "sM": {
       "trades": 8,
@@ -3808,14 +3820,14 @@
     },
     "BEAR_TREND": {
       "sR": {
-        "trades": 8,
+        "trades": 9,
         "wins": 0,
-        "pnl": -46.03760809307288
+        "pnl": -52.871672939455145
       },
       "sE": {
-        "trades": 2,
+        "trades": 3,
         "wins": 0,
-        "pnl": -14.485522655007955
+        "pnl": -20.824166388266097
       }
     }
   },
