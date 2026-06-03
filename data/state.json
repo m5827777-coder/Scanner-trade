@@ -152,6 +152,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "NIGHT_sE_1780457793302",
+      "symbol": "NIGHT",
+      "name": "Midnight",
+      "coinId": "midnight-3",
+      "rank": 91,
+      "stratId": "sE",
+      "entryPrice": 0.03795,
+      "entryTime": 1780457793302,
+      "entryDate": "2026-06-03T03:36:33.302Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=0.0367 > EMA21=0.0351 · RSI=62 · Vol x1.7",
+      "strength": 81,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -3739,12 +3756,13 @@
     "BNB_sE": 1780410217269,
     "XLM_sM": 1780450105090,
     "RAIN_sE": 1780346405546,
-    "WLD_sM": 1780395231187
+    "WLD_sM": 1780395231187,
+    "NIGHT_sE": 1780457793302
   },
-  "scanCount": 318,
+  "scanCount": 319,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-03T00:10:35.812Z",
-  "lastReport": "2026-06-02T20:40:34.638Z",
+  "lastScan": "2026-06-03T03:36:38.100Z",
+  "lastReport": "2026-06-03T03:36:38.100Z",
   "marketRegime": "BEAR_TREND",
   "fearGreed": 11,
   "totalStats": {
@@ -3831,5 +3849,5 @@
       }
     }
   },
-  "btcDominance": 56
+  "btcDominance": 55.9
 }
