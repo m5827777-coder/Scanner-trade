@@ -3795,10 +3795,10 @@
     "ONDO_sE": 1780463615522,
     "ZEC_sE": 1780481143545
   },
-  "scanCount": 321,
+  "scanCount": 322,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-03T10:06:17.224Z",
-  "lastReport": "2026-06-03T10:06:17.224Z",
+  "lastScan": "2026-06-03T10:49:53.290Z",
+  "lastReport": "2026-06-03T10:49:53.290Z",
   "marketRegime": "BEAR_TREND",
   "fearGreed": 11,
   "totalStats": {
