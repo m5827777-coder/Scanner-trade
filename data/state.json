@@ -52,23 +52,6 @@
       "peakPnl": 7.3440643863179025
     },
     {
-      "id": "JUP_sR_1780075427579",
-      "symbol": "JUP",
-      "name": "Jupiter",
-      "coinId": "jupiter-exchange-solana",
-      "rank": 91,
-      "stratId": "sR",
-      "entryPrice": 0.1862,
-      "entryTime": 1780075427579,
-      "entryDate": "2026-05-29T17:23:47.579Z",
-      "entrySignal": "Ротация #91 JUP: BTC Dom=57.7% · Коррекция -13.2% · RSI=45",
-      "strength": 77,
-      "regime": "BEAR",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FET_sE_1780141910776",
       "symbol": "FET",
       "name": "Artificial Superintelligence Alliance",
@@ -203,9 +186,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "TON_sE_1780498681261",
+      "symbol": "TON",
+      "name": "Toncoin",
+      "coinId": "the-open-network",
+      "rank": 22,
+      "stratId": "sE",
+      "entryPrice": 2.083,
+      "entryTime": 1780498681261,
+      "entryDate": "2026-06-03T14:58:01.261Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=1.9512 > EMA21=1.9248 · RSI=59 · Vol x1.0",
+      "strength": 77,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "JUP_sR_1780075427579",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "coinId": "jupiter-exchange-solana",
+      "rank": 91,
+      "stratId": "sR",
+      "entryPrice": 0.1862,
+      "entryTime": 1780075427579,
+      "entryDate": "2026-05-29T17:23:47.579Z",
+      "entrySignal": "Ротация #91 JUP: BTC Dom=57.7% · Коррекция -13.2% · RSI=45",
+      "strength": 77,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.209,
+      "exitTime": 1780498668991,
+      "exitReason": "✅ TP +12%",
+      "pnl": 12.244897959183666,
+      "pnlUsd": 12.244897959183666,
+      "total": 112.24489795918366
+    },
     {
       "id": "ETH_sR_1780022644210",
       "symbol": "ETH",
@@ -3777,7 +3800,7 @@
     "WLD_sE": 1779850424416,
     "JUP_sE": 1779449520402,
     "MORPHO_sE": 1779807408212,
-    "TON_sE": 1780469494501,
+    "TON_sE": 1780498681261,
     "OKB_sE": 1780482656110,
     "FET_sE": 1780141910776,
     "ICP_sE": 1780403478707,
@@ -3795,24 +3818,24 @@
     "ONDO_sE": 1780463615522,
     "ZEC_sE": 1780481143545
   },
-  "scanCount": 322,
+  "scanCount": 323,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-03T10:49:53.290Z",
+  "lastScan": "2026-06-03T14:58:31.727Z",
   "lastReport": "2026-06-03T10:49:53.290Z",
   "marketRegime": "BEAR_TREND",
   "fearGreed": 11,
   "totalStats": {
-    "trades": 153,
-    "wins": 56,
+    "trades": 154,
+    "wins": 57,
     "losses": 97,
-    "totalPnl": -108.83294459010926,
-    "invested": 15300
+    "totalPnl": -96.5880466309256,
+    "invested": 15400
   },
   "byStrategy": {
     "sR": {
-      "trades": 98,
-      "wins": 37,
-      "pnl": -95.76225310723719
+      "trades": 99,
+      "wins": 38,
+      "pnl": -83.51735514805353
     },
     "sE": {
       "trades": 47,
@@ -3874,9 +3897,9 @@
     },
     "BEAR_TREND": {
       "sR": {
-        "trades": 9,
-        "wins": 0,
-        "pnl": -52.871672939455145
+        "trades": 10,
+        "wins": 1,
+        "pnl": -40.62677498027148
       },
       "sE": {
         "trades": 3,
