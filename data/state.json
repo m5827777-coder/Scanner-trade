@@ -35,23 +35,6 @@
       "peakPnl": 7.3440643863179025
     },
     {
-      "id": "FET_sE_1780141910776",
-      "symbol": "FET",
-      "name": "Artificial Superintelligence Alliance",
-      "coinId": "fetch-ai",
-      "rank": 95,
-      "stratId": "sE",
-      "entryPrice": 0.2602,
-      "entryTime": 1780141910776,
-      "entryDate": "2026-05-30T11:51:50.776Z",
-      "entrySignal": "Golden Cross 5д назад · EMA9=0.2342 > EMA21=0.2229 · RSI=65 · Vol x1.1",
-      "strength": 73,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 6.764027671022292
-    },
-    {
       "id": "RAIN_sE_1780346405546",
       "symbol": "RAIN",
       "name": "Rain",
@@ -118,9 +101,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "WLD_sM_1780555756576",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 48,
+      "stratId": "sM",
+      "entryPrice": 0.5328,
+      "entryTime": 1780555756576,
+      "entryDate": "2026-06-04T06:49:16.576Z",
+      "entrySignal": "Пробой 20d max $0.4830 на +10.3% · Объём x1.7 · RSI=74",
+      "strength": 87,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "FET_sE_1780141910776",
+      "symbol": "FET",
+      "name": "Artificial Superintelligence Alliance",
+      "coinId": "fetch-ai",
+      "rank": 95,
+      "stratId": "sE",
+      "entryPrice": 0.2602,
+      "entryTime": 1780141910776,
+      "entryDate": "2026-05-30T11:51:50.776Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=0.2342 > EMA21=0.2229 · RSI=65 · Vol x1.1",
+      "strength": 73,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 6.764027671022292,
+      "exitPrice": 0.244,
+      "exitTime": 1780555734681,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.225980015372787,
+      "pnlUsd": -6.225980015372787,
+      "total": 93.77401998462722
+    },
     {
       "id": "ICP_sE_1780403478707",
       "symbol": "ICP",
@@ -3832,7 +3855,7 @@
     "MORPHO_sE": 1779807408212,
     "TON_sE": 1780599053641,
     "OKB_sE": 1780482656110,
-    "FET_sE": 1780141910776,
+    "FET_sE": 1780634934681,
     "ICP_sE": 1780617640572,
     "FIL_sE": 1779874621060,
     "XLM_sE": 1780207920322,
@@ -3843,23 +3866,23 @@
     "BNB_sE": 1780410217269,
     "XLM_sM": 1780450105090,
     "RAIN_sE": 1780346405546,
-    "WLD_sM": 1780395231187,
+    "WLD_sM": 1780555756576,
     "NIGHT_sE": 1780457793302,
     "ONDO_sE": 1780463615522,
     "ZEC_sE": 1780481143545
   },
-  "scanCount": 330,
+  "scanCount": 331,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-04T03:31:55.128Z",
+  "lastScan": "2026-06-04T06:49:37.941Z",
   "lastReport": "2026-06-04T03:31:55.128Z",
   "marketRegime": "BEAR_TREND",
   "fearGreed": 12,
   "totalStats": {
-    "trades": 159,
+    "trades": 160,
     "wins": 58,
-    "losses": 101,
-    "totalPnl": -98.58661093980712,
-    "invested": 15900
+    "losses": 102,
+    "totalPnl": -104.8125909551799,
+    "invested": 16000
   },
   "byStrategy": {
     "sR": {
@@ -3868,9 +3891,9 @@
       "pnl": -83.51735514805353
     },
     "sE": {
-      "trades": 50,
+      "trades": 51,
       "wins": 14,
-      "pnl": -72.57481912109817
+      "pnl": -78.80079913647096
     },
     "sM": {
       "trades": 10,
@@ -3932,9 +3955,9 @@
         "pnl": -40.62677498027148
       },
       "sE": {
-        "trades": 6,
+        "trades": 7,
         "wins": 0,
-        "pnl": -40.027760211593105
+        "pnl": -46.25374022696589
       },
       "sM": {
         "trades": 2,
@@ -3943,5 +3966,5 @@
       }
     }
   },
-  "btcDominance": 55.4
+  "btcDominance": 55.6
 }
