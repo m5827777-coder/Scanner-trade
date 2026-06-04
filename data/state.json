@@ -52,23 +52,6 @@
       "peakPnl": 6.764027671022292
     },
     {
-      "id": "INJ_sM_1780147089737",
-      "symbol": "INJ",
-      "name": "Injective",
-      "coinId": "injective-protocol",
-      "rank": 86,
-      "stratId": "sM",
-      "entryPrice": 6.807,
-      "entryTime": 1780147089737,
-      "entryDate": "2026-05-30T13:18:09.737Z",
-      "entrySignal": "Пробой 20d max $6.1100 на +11.4% · Объём x1.5 · RSI=74",
-      "strength": 85,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "RAIN_sE_1780346405546",
       "symbol": "RAIN",
       "name": "Rain",
@@ -83,23 +66,6 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
-      "id": "ICP_sE_1780403478707",
-      "symbol": "ICP",
-      "name": "Internet Computer",
-      "coinId": "internet-computer",
-      "rank": 52,
-      "stratId": "sE",
-      "entryPrice": 3.05,
-      "entryTime": 1780403478707,
-      "entryDate": "2026-06-02T12:31:18.707Z",
-      "entrySignal": "Golden Cross вчера · EMA9=2.7932 > EMA21=2.7477 · RSI=60 · Vol x1.1",
-      "strength": 77,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
       "peakPnl": 0
     },
     {
@@ -155,6 +121,52 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ICP_sE_1780403478707",
+      "symbol": "ICP",
+      "name": "Internet Computer",
+      "coinId": "internet-computer",
+      "rank": 52,
+      "stratId": "sE",
+      "entryPrice": 3.05,
+      "entryTime": 1780403478707,
+      "entryDate": "2026-06-02T12:31:18.707Z",
+      "entrySignal": "Golden Cross вчера · EMA9=2.7932 > EMA21=2.7477 · RSI=60 · Vol x1.1",
+      "strength": 77,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2.858,
+      "exitTime": 1780538440572,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.295081967213107,
+      "pnlUsd": -6.295081967213107,
+      "total": 93.70491803278689
+    },
+    {
+      "id": "INJ_sM_1780147089737",
+      "symbol": "INJ",
+      "name": "Injective",
+      "coinId": "injective-protocol",
+      "rank": 86,
+      "stratId": "sM",
+      "entryPrice": 6.807,
+      "entryTime": 1780147089737,
+      "entryDate": "2026-05-30T13:18:09.737Z",
+      "entrySignal": "Пробой 20d max $6.1100 на +11.4% · Объём x1.5 · RSI=74",
+      "strength": 85,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 6.231,
+      "exitTime": 1780538439283,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -8.461877479065674,
+      "pnlUsd": -8.461877479065674,
+      "total": 91.53812252093432
+    },
     {
       "id": "FIGR_HELOC_sE_1779931469733",
       "symbol": "FIGR_HELOC",
@@ -3821,10 +3833,10 @@
     "TON_sE": 1780599053641,
     "OKB_sE": 1780482656110,
     "FET_sE": 1780141910776,
-    "ICP_sE": 1780403478707,
+    "ICP_sE": 1780617640572,
     "FIL_sE": 1779874621060,
     "XLM_sE": 1780207920322,
-    "INJ_sM": 1780147089737,
+    "INJ_sM": 1780617639283,
     "HBAR_sE": 1780410214663,
     "ALGO_sE": 1780389170663,
     "BNB_sM": 1780155702890,
@@ -3836,18 +3848,18 @@
     "ONDO_sE": 1780463615522,
     "ZEC_sE": 1780481143545
   },
-  "scanCount": 328,
+  "scanCount": 329,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-03T23:21:35.869Z",
+  "lastScan": "2026-06-04T02:01:22.034Z",
   "lastReport": "2026-06-03T20:51:28.203Z",
   "marketRegime": "BEAR_TREND",
-  "fearGreed": 11,
+  "fearGreed": 12,
   "totalStats": {
-    "trades": 157,
+    "trades": 159,
     "wins": 58,
-    "losses": 99,
-    "totalPnl": -83.82965149352833,
-    "invested": 15700
+    "losses": 101,
+    "totalPnl": -98.58661093980712,
+    "invested": 15900
   },
   "byStrategy": {
     "sR": {
@@ -3856,14 +3868,14 @@
       "pnl": -83.51735514805353
     },
     "sE": {
-      "trades": 49,
+      "trades": 50,
       "wins": 14,
-      "pnl": -66.27973715388507
+      "pnl": -72.57481912109817
     },
     "sM": {
-      "trades": 9,
+      "trades": 10,
       "wins": 6,
-      "pnl": 65.96744080841029
+      "pnl": 57.50556332934461
     }
   },
   "byRegime": {
@@ -3920,16 +3932,16 @@
         "pnl": -40.62677498027148
       },
       "sE": {
-        "trades": 5,
+        "trades": 6,
         "wins": 0,
-        "pnl": -33.73267824438
+        "pnl": -40.027760211593105
       },
       "sM": {
-        "trades": 1,
+        "trades": 2,
         "wins": 1,
-        "pnl": 25.666906993511176
+        "pnl": 17.205029514445503
       }
     }
   },
-  "btcDominance": 55.4
+  "btcDominance": 55.1
 }
