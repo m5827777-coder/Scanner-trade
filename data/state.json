@@ -50,7 +50,9 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "WLD_sM_1780555756576",
       "symbol": "WLD",
@@ -63,13 +65,17 @@
       "entryDate": "2026-06-04T06:49:16.576Z",
       "entrySignal": "Пробой 20d max $0.4830 на +10.3% · Объём x1.7 · RSI=74",
       "strength": 87,
-      "regime": "BULL_TREND",
+      "regime": "BEAR_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 0.4941,
+      "exitTime": 1780568979526,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.263513513513526,
+      "pnlUsd": -7.2635135135135265,
+      "total": 92.73648648648647
+    },
     {
       "id": "ZEC_sE_1780481143544",
       "symbol": "ZEC",
@@ -3884,23 +3890,23 @@
     "BNB_sE": 1780410217269,
     "XLM_sM": 1780450105090,
     "RAIN_sE": 1780346405546,
-    "WLD_sM": 1780555756576,
+    "WLD_sM": 1780648179526,
     "NIGHT_sE": 1780457793302,
     "ONDO_sE": 1780645734397,
     "ZEC_sE": 1780645735219
   },
-  "scanCount": 332,
+  "scanCount": 333,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-04T09:49:37.522Z",
+  "lastScan": "2026-06-04T10:30:19.702Z",
   "lastReport": "2026-06-04T09:49:37.522Z",
   "marketRegime": "BEAR_TREND",
   "fearGreed": 12,
   "totalStats": {
-    "trades": 163,
+    "trades": 164,
     "wins": 58,
-    "losses": 105,
-    "totalPnl": -133.97034438953742,
-    "invested": 16300
+    "losses": 106,
+    "totalPnl": -141.23385790305093,
+    "invested": 16400
   },
   "byStrategy": {
     "sR": {
@@ -3914,9 +3920,9 @@
       "pnl": -102.07324069960112
     },
     "sM": {
-      "trades": 10,
+      "trades": 11,
       "wins": 6,
-      "pnl": 57.50556332934461
+      "pnl": 50.24204981583108
     }
   },
   "byRegime": {
@@ -3978,11 +3984,11 @@
         "pnl": -69.52618179009605
       },
       "sM": {
-        "trades": 2,
+        "trades": 3,
         "wins": 1,
-        "pnl": 17.205029514445503
+        "pnl": 9.941516000931976
       }
     }
   },
-  "btcDominance": 55.6
+  "btcDominance": 55.5
 }
