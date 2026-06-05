@@ -16,7 +16,9 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "NIGHT_sE_1780457793302",
       "symbol": "NIGHT",
@@ -29,13 +31,17 @@
       "entryDate": "2026-06-03T03:36:33.302Z",
       "entrySignal": "Golden Cross 7д назад · EMA9=0.0367 > EMA21=0.0351 · RSI=62 · Vol x1.7",
       "strength": 81,
-      "regime": "BULL_TREND",
+      "regime": "BEAR_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 0.034863,
+      "exitTime": 1780628000523,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -8.134387351778654,
+      "pnlUsd": -8.134387351778654,
+      "total": 91.86561264822134
+    },
     {
       "id": "CC_sR_1779925187689",
       "symbol": "CC",
@@ -3897,22 +3903,22 @@
     "XLM_sM": 1780450105090,
     "RAIN_sE": 1780346405546,
     "WLD_sM": 1780648179526,
-    "NIGHT_sE": 1780457793302,
+    "NIGHT_sE": 1780707200523,
     "ONDO_sE": 1780645734397,
     "ZEC_sE": 1780645735219
   },
-  "scanCount": 342,
+  "scanCount": 343,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-05T01:33:45.874Z",
-  "lastReport": "2026-06-04T19:58:58.279Z",
+  "lastScan": "2026-06-05T02:54:01.376Z",
+  "lastReport": "2026-06-05T02:54:01.376Z",
   "marketRegime": "BEAR_TREND",
   "fearGreed": 12,
   "totalStats": {
-    "trades": 165,
+    "trades": 166,
     "wins": 58,
-    "losses": 107,
-    "totalPnl": -146.75096670735698,
-    "invested": 16500
+    "losses": 108,
+    "totalPnl": -154.88535405913564,
+    "invested": 16600
   },
   "byStrategy": {
     "sR": {
@@ -3921,9 +3927,9 @@
       "pnl": -94.91977582358692
     },
     "sE": {
-      "trades": 53,
+      "trades": 54,
       "wins": 14,
-      "pnl": -102.07324069960112
+      "pnl": -110.20762805137977
     },
     "sM": {
       "trades": 11,
@@ -3985,9 +3991,9 @@
         "pnl": -52.029195655804884
       },
       "sE": {
-        "trades": 9,
+        "trades": 10,
         "wins": 0,
-        "pnl": -69.52618179009605
+        "pnl": -77.6605691418747
       },
       "sM": {
         "trades": 3,
@@ -3996,5 +4002,5 @@
       }
     }
   },
-  "btcDominance": 55.8
+  "btcDominance": 55.7
 }
