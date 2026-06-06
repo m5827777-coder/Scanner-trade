@@ -1,23 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "RAIN_sE_1780346405546",
-      "symbol": "RAIN",
-      "name": "Rain",
-      "coinId": "rain",
-      "rank": 16,
-      "stratId": "sE",
-      "entryPrice": 0.01362256617741718,
-      "entryTime": 1780346405546,
-      "entryDate": "2026-06-01T20:40:05.546Z",
-      "entrySignal": "Golden Cross 7д назад · EMA9=0.0126 > EMA21=0.0107 · RSI=78 · Vol x1.4",
-      "strength": 77,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "FIGR_HELOC_sE_1780760952114",
       "symbol": "FIGR_HELOC",
       "name": "Figure Heloc",
@@ -36,6 +19,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "RAIN_sE_1780346405546",
+      "symbol": "RAIN",
+      "name": "Rain",
+      "coinId": "rain",
+      "rank": 16,
+      "stratId": "sE",
+      "entryPrice": 0.01362256617741718,
+      "entryTime": 1780346405546,
+      "entryDate": "2026-06-01T20:40:05.546Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=0.0126 > EMA21=0.0107 · RSI=78 · Vol x1.4",
+      "strength": 77,
+      "regime": "BEAR_TREND",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 0.012799521907062555,
+      "exitTime": 1780778136234,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.04177112913592,
+      "pnlUsd": -6.04177112913592,
+      "total": 93.95822887086408
+    },
     {
       "id": "NIGHT_sE_1780457793302",
       "symbol": "NIGHT",
@@ -3918,24 +3924,24 @@
     "BNB_sM": 1780155702890,
     "BNB_sE": 1780410217269,
     "XLM_sM": 1780450105090,
-    "RAIN_sE": 1780346405546,
+    "RAIN_sE": 1780857336234,
     "WLD_sM": 1780648179526,
     "NIGHT_sE": 1780707200523,
     "ONDO_sE": 1780645734397,
     "ZEC_sE": 1780645735219
   },
-  "scanCount": 370,
+  "scanCount": 371,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-06T19:16:13.447Z",
+  "lastScan": "2026-06-06T20:36:15.842Z",
   "lastReport": "2026-06-06T19:14:02.361Z",
   "marketRegime": "BEAR_TREND",
   "fearGreed": 12,
   "totalStats": {
-    "trades": 166,
+    "trades": 167,
     "wins": 58,
-    "losses": 108,
-    "totalPnl": -154.88535405913564,
-    "invested": 16600
+    "losses": 109,
+    "totalPnl": -160.92712518827156,
+    "invested": 16700
   },
   "byStrategy": {
     "sR": {
@@ -3944,9 +3950,9 @@
       "pnl": -94.91977582358692
     },
     "sE": {
-      "trades": 54,
+      "trades": 55,
       "wins": 14,
-      "pnl": -110.20762805137977
+      "pnl": -116.2493991805157
     },
     "sM": {
       "trades": 11,
@@ -4008,9 +4014,9 @@
         "pnl": -52.029195655804884
       },
       "sE": {
-        "trades": 10,
+        "trades": 11,
         "wins": 0,
-        "pnl": -77.6605691418747
+        "pnl": -83.70234027101063
       },
       "sM": {
         "trades": 3,
