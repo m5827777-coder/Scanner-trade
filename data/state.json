@@ -16,6 +16,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "CC_sE_1780789438833",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 16,
+      "stratId": "sE",
+      "entryPrice": 0.16409,
+      "entryTime": 1780789438833,
+      "entryDate": "2026-06-06T23:43:58.833Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.1552 > EMA21=0.1551 · RSI=57 · Vol x1.2",
+      "strength": 83,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -3879,7 +3896,7 @@
     "ARB_sR": 1780410212169,
     "AVAX_sR": 1780495959104,
     "HBAR_sR": 1778752941540,
-    "CC_sE": 1779635583749,
+    "CC_sE": 1780789438833,
     "FLR_sE": 1778797959970,
     "XRP_sE": 1778801425373,
     "HYPE_sE": 1779533232173,
@@ -3930,9 +3947,9 @@
     "ONDO_sE": 1780645734397,
     "ZEC_sE": 1780645735219
   },
-  "scanCount": 373,
+  "scanCount": 374,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-06T22:43:25.812Z",
+  "lastScan": "2026-06-06T23:44:31.263Z",
   "lastReport": "2026-06-06T19:14:02.361Z",
   "marketRegime": "BEAR_TREND",
   "fearGreed": 12,
@@ -4025,5 +4042,5 @@
       }
     }
   },
-  "btcDominance": 56
+  "btcDominance": 56.1
 }
