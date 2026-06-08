@@ -3947,11 +3947,11 @@
     "ONDO_sE": 1780645734397,
     "ZEC_sE": 1780645735219
   },
-  "scanCount": 398,
+  "scanCount": 399,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-08T15:39:32.597Z",
+  "lastScan": "2026-06-08T17:50:14.144Z",
   "lastReport": "2026-06-08T15:39:32.597Z",
-  "marketRegime": "BEAR_TREND",
+  "marketRegime": "BEAR",
   "fearGreed": 8,
   "totalStats": {
     "trades": 167,
@@ -4042,5 +4042,5 @@
       }
     }
   },
-  "btcDominance": 56.3
+  "btcDominance": 56.1
 }
