@@ -3947,12 +3947,12 @@
     "ONDO_sE": 1780645734397,
     "ZEC_sE": 1780645735219
   },
-  "scanCount": 403,
+  "scanCount": 404,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-08T23:03:19.110Z",
+  "lastScan": "2026-06-09T00:12:31.423Z",
   "lastReport": "2026-06-08T20:07:42.809Z",
   "marketRegime": "BEAR",
-  "fearGreed": 8,
+  "fearGreed": 10,
   "totalStats": {
     "trades": 167,
     "wins": 58,
