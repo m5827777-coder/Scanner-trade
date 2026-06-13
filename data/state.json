@@ -33,6 +33,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "TRUMP_sM_1781319159719",
+      "symbol": "TRUMP",
+      "name": "Official Trump",
+      "coinId": "official-trump",
+      "rank": 95,
+      "stratId": "sM",
+      "entryPrice": 2.332,
+      "entryTime": 1781319159719,
+      "entryDate": "2026-06-13T02:52:39.719Z",
+      "entrySignal": "Пробой 20d max $2.1270 на +9.6% · Объём x2.0 · RSI=65",
+      "strength": 88,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -3968,12 +3985,13 @@
     "WLD_sM": 1780648179526,
     "NIGHT_sE": 1780707200523,
     "ONDO_sE": 1780645734397,
-    "ZEC_sE": 1780645735219
+    "ZEC_sE": 1780645735219,
+    "TRUMP_sM": 1781319159720
   },
-  "scanCount": 454,
+  "scanCount": 455,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-13T00:06:29.385Z",
-  "lastReport": "2026-06-12T20:03:24.428Z",
+  "lastScan": "2026-06-13T02:52:42.240Z",
+  "lastReport": "2026-06-13T02:52:42.240Z",
   "marketRegime": "BEAR",
   "fearGreed": 13,
   "totalStats": {
