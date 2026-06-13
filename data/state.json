@@ -18,23 +18,6 @@
       "peakPnl": 0
     },
     {
-      "id": "FIGR_HELOC_sE_1781284575579",
-      "symbol": "FIGR_HELOC",
-      "name": "Figure Heloc",
-      "coinId": "figure-heloc",
-      "rank": 9,
-      "stratId": "sE",
-      "entryPrice": 1.0313602,
-      "entryTime": 1781284575580,
-      "entryDate": "2026-06-12T17:16:15.580Z",
-      "entrySignal": "Golden Cross вчера · EMA9=1.0288 > EMA21=1.0283 · RSI=51 · Vol x1.0",
-      "strength": 66,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "TRUMP_sM_1781319159719",
       "symbol": "TRUMP",
       "name": "Official Trump",
@@ -53,6 +36,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "FIGR_HELOC_sE_1781284575579",
+      "symbol": "FIGR_HELOC",
+      "name": "Figure Heloc",
+      "coinId": "figure-heloc",
+      "rank": 9,
+      "stratId": "sE",
+      "entryPrice": 1.0313602,
+      "entryTime": 1781284575580,
+      "entryDate": "2026-06-12T17:16:15.580Z",
+      "entrySignal": "Golden Cross вчера · EMA9=1.0288 > EMA21=1.0283 · RSI=51 · Vol x1.0",
+      "strength": 66,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 1.0177517,
+      "exitTime": 1781385101101,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -1.3194711217283654,
+      "pnlUsd": -1.3194711217283654,
+      "total": 98.68052887827163
+    },
     {
       "id": "FIGR_HELOC_sE_1780760952114",
       "symbol": "FIGR_HELOC",
@@ -3988,18 +3994,18 @@
     "ZEC_sE": 1780645735219,
     "TRUMP_sM": 1781319159720
   },
-  "scanCount": 467,
+  "scanCount": 468,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-13T19:57:31.262Z",
+  "lastScan": "2026-06-13T21:12:16.294Z",
   "lastReport": "2026-06-13T19:17:42.245Z",
   "marketRegime": "BEAR",
   "fearGreed": 13,
   "totalStats": {
-    "trades": 168,
+    "trades": 169,
     "wins": 58,
-    "losses": 110,
-    "totalPnl": -161.5125334677586,
-    "invested": 16800
+    "losses": 111,
+    "totalPnl": -162.83200458948696,
+    "invested": 16900
   },
   "byStrategy": {
     "sR": {
@@ -4008,9 +4014,9 @@
       "pnl": -94.91977582358692
     },
     "sE": {
-      "trades": 56,
+      "trades": 57,
       "wins": 14,
-      "pnl": -116.83480746000272
+      "pnl": -118.15427858173109
     },
     "sM": {
       "trades": 11,
@@ -4060,9 +4066,9 @@
         "pnl": -15.122249271352146
       },
       "sE": {
-        "trades": 30,
+        "trades": 31,
         "wins": 7,
-        "pnl": -65.61229915248013
+        "pnl": -66.9317702742085
       }
     },
     "BEAR_TREND": {
