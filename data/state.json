@@ -16,7 +16,9 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "TRUMP_sM_1781319159719",
       "symbol": "TRUMP",
@@ -29,13 +31,17 @@
       "entryDate": "2026-06-13T02:52:39.719Z",
       "entrySignal": "Пробой 20d max $2.1270 на +9.6% · Объём x2.0 · RSI=65",
       "strength": 88,
-      "regime": "BULL_TREND",
+      "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 2.099,
+      "exitTime": 1781402260279,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -9.991423670668938,
+      "pnlUsd": -9.991423670668938,
+      "total": 90.00857632933106
+    },
     {
       "id": "FIGR_HELOC_sE_1781284575579",
       "symbol": "FIGR_HELOC",
@@ -3992,20 +3998,20 @@
     "NIGHT_sE": 1780707200523,
     "ONDO_sE": 1780645734397,
     "ZEC_sE": 1780645735219,
-    "TRUMP_sM": 1781319159720
+    "TRUMP_sM": 1781481460279
   },
-  "scanCount": 470,
+  "scanCount": 471,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-13T23:35:34.905Z",
-  "lastReport": "2026-06-13T19:17:42.245Z",
+  "lastScan": "2026-06-14T01:58:20.800Z",
+  "lastReport": "2026-06-14T01:58:20.800Z",
   "marketRegime": "BEAR",
-  "fearGreed": 13,
+  "fearGreed": 18,
   "totalStats": {
-    "trades": 169,
+    "trades": 170,
     "wins": 58,
-    "losses": 111,
-    "totalPnl": -162.83200458948696,
-    "invested": 16900
+    "losses": 112,
+    "totalPnl": -172.8234282601559,
+    "invested": 17000
   },
   "byStrategy": {
     "sR": {
@@ -4019,9 +4025,9 @@
       "pnl": -118.15427858173109
     },
     "sM": {
-      "trades": 11,
+      "trades": 12,
       "wins": 6,
-      "pnl": 50.24204981583108
+      "pnl": 40.250626145162144
     }
   },
   "byRegime": {
@@ -4061,9 +4067,9 @@
         "pnl": -109.52607833565679
       },
       "sM": {
-        "trades": 5,
+        "trades": 6,
         "wins": 2,
-        "pnl": -15.122249271352146
+        "pnl": -25.113672942021083
       },
       "sE": {
         "trades": 31,
