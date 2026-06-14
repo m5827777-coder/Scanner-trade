@@ -4000,10 +4000,10 @@
     "ZEC_sE": 1780645735219,
     "TRUMP_sM": 1781481460279
   },
-  "scanCount": 476,
+  "scanCount": 477,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-14T12:10:20.128Z",
-  "lastReport": "2026-06-14T09:25:35.138Z",
+  "lastScan": "2026-06-14T13:51:19.180Z",
+  "lastReport": "2026-06-14T13:51:19.180Z",
   "marketRegime": "BEAR",
   "fearGreed": 18,
   "totalStats": {
@@ -4095,5 +4095,5 @@
       }
     }
   },
-  "btcDominance": 56.6
+  "btcDominance": 56.7
 }
