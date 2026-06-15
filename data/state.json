@@ -33,6 +33,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ATOM_sE_1781524440766",
+      "symbol": "ATOM",
+      "name": "Cosmos Hub",
+      "coinId": "cosmos",
+      "rank": 66,
+      "stratId": "sE",
+      "entryPrice": 2.005,
+      "entryTime": 1781524440766,
+      "entryDate": "2026-06-15T11:54:00.766Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=1.9172 > EMA21=1.9117 · RSI=57 · Vol x1.4",
+      "strength": 86,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4015,12 +4032,13 @@
     "NIGHT_sE": 1780707200523,
     "ONDO_sE": 1780645734397,
     "ZEC_sE": 1780645735219,
-    "TRUMP_sM": 1781481460279
+    "TRUMP_sM": 1781481460279,
+    "ATOM_sE": 1781524440766
   },
-  "scanCount": 489,
+  "scanCount": 490,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-15T08:42:58.131Z",
-  "lastReport": "2026-06-15T03:39:29.021Z",
+  "lastScan": "2026-06-15T11:54:12.485Z",
+  "lastReport": "2026-06-15T11:54:12.485Z",
   "marketRegime": "BEAR",
   "fearGreed": 20,
   "totalStats": {
@@ -4112,5 +4130,5 @@
       }
     }
   },
-  "btcDominance": 56.6
+  "btcDominance": 56.5
 }
