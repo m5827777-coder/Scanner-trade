@@ -50,6 +50,40 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XLM_sE_1781534882065",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 16,
+      "stratId": "sE",
+      "entryPrice": 0.21333,
+      "entryTime": 1781534882065,
+      "entryDate": "2026-06-15T14:48:02.065Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.1964 > EMA21=0.1936 · RSI=58 · Vol x1.1",
+      "strength": 73,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "NEAR_sE_1781534889254",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 31,
+      "stratId": "sE",
+      "entryPrice": 2.506,
+      "entryTime": 1781534889254,
+      "entryDate": "2026-06-15T14:48:09.254Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=2.1959 > EMA21=2.1694 · RSI=59 · Vol x1.1",
+      "strength": 82,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4020,7 +4054,7 @@
     "FET_sE": 1780634934681,
     "ICP_sE": 1780617640572,
     "FIL_sE": 1779874621060,
-    "XLM_sE": 1780207920322,
+    "XLM_sE": 1781534882065,
     "INJ_sM": 1780617639283,
     "HBAR_sE": 1780410214663,
     "ALGO_sE": 1780389170663,
@@ -4033,11 +4067,12 @@
     "ONDO_sE": 1780645734397,
     "ZEC_sE": 1780645735219,
     "TRUMP_sM": 1781481460279,
-    "ATOM_sE": 1781524440766
+    "ATOM_sE": 1781524440766,
+    "NEAR_sE": 1781534889254
   },
-  "scanCount": 490,
+  "scanCount": 491,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-15T11:54:12.485Z",
+  "lastScan": "2026-06-15T14:48:37.053Z",
   "lastReport": "2026-06-15T11:54:12.485Z",
   "marketRegime": "BEAR",
   "fearGreed": 20,
@@ -4130,5 +4165,5 @@
       }
     }
   },
-  "btcDominance": 56.5
+  "btcDominance": 56.4
 }

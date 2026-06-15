@@ -49676,3 +49676,45 @@
 [2026-06-15 11:54:14 UTC] 📧 6h report sent
 [2026-06-15 11:54:14 UTC] 
 📊 ИТОГ: WR=34.1% PnL=$-172.82 Trades=170
+[2026-06-15 14:47:53 UTC] ════════════════════════════════════════════════════
+[2026-06-15 14:47:53 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-06-15 14:47:53 UTC] ════════════════════════════════════════════════════
+[2026-06-15 14:47:53 UTC] 📡 Scan #491
+[2026-06-15 14:47:53 UTC] 📊 BTC Dom=56.4%
+[2026-06-15 14:47:53 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-06-15 14:47:54 UTC] 🌡 F&G=20 Regime=BEAR Open=3
+[2026-06-15 14:47:54 UTC]   📂 HOLD CC/sE PnL=+1.59%
+[2026-06-15 14:47:54 UTC]   📂 HOLD HYPE/sE PnL=+2.42%
+[2026-06-15 14:47:55 UTC]   📂 HOLD ATOM/sE PnL=-0.30%
+[2026-06-15 14:47:55 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-06-15 14:47:55 UTC] ✓ CoinGecko: 80 токенов. Проверяю входы...
+[2026-06-15 14:48:02 UTC]   📈 ENTRY XLM/sE [BULL] via OKX: EMA начало расхождения · EMA9=0.1964 > EMA21=0.1936 · RSI=58 · Vol x1.1 @ $0.21333
+[2026-06-15 14:48:06 UTC]   ⏭ GRAM: нет данных (the-open-network)
+[2026-06-15 14:48:07 UTC]   ⏭ M: нет данных (memecore)
+[2026-06-15 14:48:09 UTC]   📈 ENTRY NEAR/sE [BULL_TREND] via OKX: Golden Cross сегодня · EMA9=2.1959 > EMA21=2.1694 · RSI=59 · Vol x1.1 @ $2.506
+[2026-06-15 14:48:10 UTC]   ⏭ LAB: нет данных (lab)
+[2026-06-15 14:48:13 UTC]   ⏭ TAO: нет данных (bittensor)
+[2026-06-15 14:48:13 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-06-15 14:48:16 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-06-15 14:48:18 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-06-15 14:48:21 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-06-15 14:48:22 UTC]   ⏭ BEAT: нет данных (audiera)
+[2026-06-15 14:48:23 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-06-15 14:48:24 UTC]   ⏭ U: нет данных (united-stables)
+[2026-06-15 14:48:25 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-06-15 14:48:25 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-06-15 14:48:26 UTC]   ⏭ DEXE: нет данных (dexe)
+[2026-06-15 14:48:26 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-06-15 14:48:28 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-06-15 14:48:29 UTC]   ⏭ VVV: нет данных (venice-token)
+[2026-06-15 14:48:29 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-06-15 14:48:30 UTC]   ⏭ 币安人生: нет данных (bianrensheng)
+[2026-06-15 14:48:30 UTC]   ⏭ JAAA: нет данных (janus-henderson-anemoy-aaa-clo-fund)
+[2026-06-15 14:48:31 UTC]   ⏭ JST: нет данных (just)
+[2026-06-15 14:48:32 UTC]   ⏭ BDX: нет данных (beldex)
+[2026-06-15 14:48:33 UTC]   ⏭ XDC: нет данных (xdce-crowd-sale)
+[2026-06-15 14:48:33 UTC]   ⏭ GHO: нет данных (gho)
+[2026-06-15 14:48:34 UTC]   ⏭ H: нет данных (humanity)
+[2026-06-15 14:48:37 UTC] ✅ Данные: 55 токенов OK, 25 недоступно | Открыто: 2 | Всего: 5
+[2026-06-15 14:48:38 UTC] 
+📊 ИТОГ: WR=34.1% PnL=$-172.82 Trades=170
