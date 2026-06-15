@@ -16,6 +16,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "HYPE_sE_1781512942242",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 10,
+      "stratId": "sE",
+      "entryPrice": 65.942,
+      "entryTime": 1781512942242,
+      "entryDate": "2026-06-15T08:42:22.242Z",
+      "entrySignal": "EMA начало расхождения · EMA9=61.3851 > EMA21=60.4353 · RSI=60 · Vol x1.2",
+      "strength": 74,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -3951,7 +3968,7 @@
     "CC_sE": 1780789438833,
     "FLR_sE": 1778797959970,
     "XRP_sE": 1778801425373,
-    "HYPE_sE": 1779533232173,
+    "HYPE_sE": 1781512942242,
     "LINK_sR": 1780510384134,
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1780410209384,
@@ -4000,9 +4017,9 @@
     "ZEC_sE": 1780645735219,
     "TRUMP_sM": 1781481460279
   },
-  "scanCount": 488,
+  "scanCount": 489,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-15T03:39:29.021Z",
+  "lastScan": "2026-06-15T08:42:58.131Z",
   "lastReport": "2026-06-15T03:39:29.021Z",
   "marketRegime": "BEAR",
   "fearGreed": 20,
