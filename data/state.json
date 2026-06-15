@@ -84,6 +84,40 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ADA_sR_1781543251332",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 17,
+      "stratId": "sR",
+      "entryPrice": 0.1867,
+      "entryTime": 1781543251332,
+      "entryDate": "2026-06-15T17:07:31.332Z",
+      "entrySignal": "Ротация #17 ADA: BTC Dom=56.4% · Коррекция -13.3% · RSI=42",
+      "strength": 73,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "WBT_sE_1781543253079",
+      "symbol": "WBT",
+      "name": "WhiteBIT Coin",
+      "coinId": "whitebit",
+      "rank": 19,
+      "stratId": "sE",
+      "entryPrice": 54.955889949126295,
+      "entryTime": 1781543253079,
+      "entryDate": "2026-06-15T17:07:33.079Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=51.6696 > EMA21=51.6193 · RSI=59 · Vol x1.3",
+      "strength": 84,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4000,7 +4034,7 @@
   ],
   "cooldowns": {
     "SOL_sR": 1780495956417,
-    "ADA_sR": 1780469489931,
+    "ADA_sR": 1781543251332,
     "HYPE_sR": 1778949423923,
     "BCH_sR": 1779639267790,
     "XLM_sR": 1779211294888,
@@ -4068,13 +4102,14 @@
     "ZEC_sE": 1780645735219,
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1781524440766,
-    "NEAR_sE": 1781534889254
+    "NEAR_sE": 1781534889254,
+    "WBT_sE": 1781543253079
   },
-  "scanCount": 491,
+  "scanCount": 492,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-15T14:48:37.053Z",
-  "lastReport": "2026-06-15T11:54:12.485Z",
-  "marketRegime": "BEAR",
+  "lastScan": "2026-06-15T17:08:03.368Z",
+  "lastReport": "2026-06-15T17:08:03.368Z",
+  "marketRegime": "BULL_TREND",
   "fearGreed": 20,
   "totalStats": {
     "trades": 170,
