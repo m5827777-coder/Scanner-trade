@@ -86,23 +86,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ADA_sR_1781543251332",
-      "symbol": "ADA",
-      "name": "Cardano",
-      "coinId": "cardano",
-      "rank": 17,
-      "stratId": "sR",
-      "entryPrice": 0.1867,
-      "entryTime": 1781543251332,
-      "entryDate": "2026-06-15T17:07:31.332Z",
-      "entrySignal": "Ротация #17 ADA: BTC Dom=56.4% · Коррекция -13.3% · RSI=42",
-      "strength": 73,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "WBT_sE_1781543253079",
       "symbol": "WBT",
       "name": "WhiteBIT Coin",
@@ -121,6 +104,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ADA_sR_1781543251332",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 17,
+      "stratId": "sR",
+      "entryPrice": 0.1867,
+      "entryTime": 1781543251332,
+      "entryDate": "2026-06-15T17:07:31.332Z",
+      "entrySignal": "Ротация #17 ADA: BTC Dom=56.4% · Коррекция -13.3% · RSI=42",
+      "strength": 73,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.1772,
+      "exitTime": 1781575381942,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.088377075522232,
+      "pnlUsd": -5.088377075522232,
+      "total": 94.91162292447777
+    },
     {
       "id": "TRUMP_sM_1781319159719",
       "symbol": "TRUMP",
@@ -4034,7 +4040,7 @@
   ],
   "cooldowns": {
     "SOL_sR": 1780495956417,
-    "ADA_sR": 1781543251332,
+    "ADA_sR": 1781654581942,
     "HYPE_sR": 1778949423923,
     "BCH_sR": 1779639267790,
     "XLM_sR": 1779211294888,
@@ -4105,24 +4111,24 @@
     "NEAR_sE": 1781534889254,
     "WBT_sE": 1781543253079
   },
-  "scanCount": 496,
+  "scanCount": 497,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-15T23:23:26.361Z",
+  "lastScan": "2026-06-16T02:03:42.386Z",
   "lastReport": "2026-06-15T20:50:35.321Z",
   "marketRegime": "BULL_TREND",
-  "fearGreed": 20,
+  "fearGreed": 23,
   "totalStats": {
-    "trades": 170,
+    "trades": 171,
     "wins": 58,
-    "losses": 112,
-    "totalPnl": -172.8234282601559,
-    "invested": 17000
+    "losses": 113,
+    "totalPnl": -177.91180533567814,
+    "invested": 17100
   },
   "byStrategy": {
     "sR": {
-      "trades": 101,
+      "trades": 102,
       "wins": 38,
-      "pnl": -94.91977582358692
+      "pnl": -100.00815289910915
     },
     "sE": {
       "trades": 57,
@@ -4197,6 +4203,13 @@
         "trades": 3,
         "wins": 1,
         "pnl": 9.941516000931976
+      }
+    },
+    "BULL_TREND": {
+      "sR": {
+        "trades": 1,
+        "wins": 0,
+        "pnl": -5.088377075522232
       }
     }
   },
