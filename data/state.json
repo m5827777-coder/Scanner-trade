@@ -4111,10 +4111,10 @@
     "NEAR_sE": 1781534889254,
     "WBT_sE": 1781543253079
   },
-  "scanCount": 497,
+  "scanCount": 498,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-16T02:03:42.386Z",
-  "lastReport": "2026-06-15T20:50:35.321Z",
+  "lastScan": "2026-06-16T03:35:24.503Z",
+  "lastReport": "2026-06-16T03:35:24.503Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 23,
   "totalStats": {
@@ -4213,5 +4213,5 @@
       }
     }
   },
-  "btcDominance": 56.5
+  "btcDominance": 56.4
 }
