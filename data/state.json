@@ -69,23 +69,6 @@
       "peakPnl": 0
     },
     {
-      "id": "NEAR_sE_1781534889254",
-      "symbol": "NEAR",
-      "name": "NEAR Protocol",
-      "coinId": "near",
-      "rank": 31,
-      "stratId": "sE",
-      "entryPrice": 2.506,
-      "entryTime": 1781534889254,
-      "entryDate": "2026-06-15T14:48:09.254Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=2.1959 > EMA21=2.1694 · RSI=59 · Vol x1.1",
-      "strength": 82,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "WBT_sE_1781543253079",
       "symbol": "WBT",
       "name": "WhiteBIT Coin",
@@ -121,6 +104,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "NEAR_sE_1781534889254",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 31,
+      "stratId": "sE",
+      "entryPrice": 2.506,
+      "entryTime": 1781534889254,
+      "entryDate": "2026-06-15T14:48:09.254Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=2.1959 > EMA21=2.1694 · RSI=59 · Vol x1.1",
+      "strength": 82,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2.327,
+      "exitTime": 1781628044871,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -7.142857142857137,
+      "pnlUsd": -7.142857142857136,
+      "total": 92.85714285714286
+    },
     {
       "id": "ADA_sR_1781543251332",
       "symbol": "ADA",
@@ -4125,21 +4131,21 @@
     "ZEC_sE": 1780645735219,
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1781524440766,
-    "NEAR_sE": 1781534889254,
+    "NEAR_sE": 1781707244871,
     "WBT_sE": 1781543253079
   },
-  "scanCount": 501,
+  "scanCount": 502,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-16T12:28:22.003Z",
-  "lastReport": "2026-06-16T11:02:30.076Z",
-  "marketRegime": "BULL_TREND",
+  "lastScan": "2026-06-16T16:41:22.987Z",
+  "lastReport": "2026-06-16T16:41:22.987Z",
+  "marketRegime": "BEAR",
   "fearGreed": 23,
   "totalStats": {
-    "trades": 171,
+    "trades": 172,
     "wins": 58,
-    "losses": 113,
-    "totalPnl": -177.91180533567814,
-    "invested": 17100
+    "losses": 114,
+    "totalPnl": -185.05466247853528,
+    "invested": 17200
   },
   "byStrategy": {
     "sR": {
@@ -4148,9 +4154,9 @@
       "pnl": -100.00815289910915
     },
     "sE": {
-      "trades": 57,
+      "trades": 58,
       "wins": 14,
-      "pnl": -118.15427858173109
+      "pnl": -125.29713572458823
     },
     "sM": {
       "trades": 12,
@@ -4200,9 +4206,9 @@
         "pnl": -25.113672942021083
       },
       "sE": {
-        "trades": 31,
+        "trades": 32,
         "wins": 7,
-        "pnl": -66.9317702742085
+        "pnl": -74.07462741706564
       }
     },
     "BEAR_TREND": {
