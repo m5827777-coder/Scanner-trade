@@ -101,6 +101,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "UNI_sE_1781684174308",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "coinId": "uniswap",
+      "rank": 43,
+      "stratId": "sE",
+      "entryPrice": 3.589,
+      "entryTime": 1781684174308,
+      "entryDate": "2026-06-17T08:16:14.308Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=2.8659 > EMA21=2.8650 · RSI=67 · Vol x5.8",
+      "strength": 92,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4132,11 +4149,12 @@
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1781524440766,
     "NEAR_sE": 1781707244871,
-    "WBT_sE": 1781543253079
+    "WBT_sE": 1781543253079,
+    "UNI_sE": 1781684174308
   },
-  "scanCount": 509,
+  "scanCount": 510,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-17T03:33:28.926Z",
+  "lastScan": "2026-06-17T08:16:33.808Z",
   "lastReport": "2026-06-17T03:33:28.926Z",
   "marketRegime": "BEAR",
   "fearGreed": 22,
@@ -4236,5 +4254,5 @@
       }
     }
   },
-  "btcDominance": 56.3
+  "btcDominance": 56.2
 }
