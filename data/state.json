@@ -18,23 +18,6 @@
       "peakPnl": 0
     },
     {
-      "id": "HYPE_sE_1781512942242",
-      "symbol": "HYPE",
-      "name": "Hyperliquid",
-      "coinId": "hyperliquid",
-      "rank": 10,
-      "stratId": "sE",
-      "entryPrice": 65.942,
-      "entryTime": 1781512942242,
-      "entryDate": "2026-06-15T08:42:22.242Z",
-      "entrySignal": "EMA начало расхождения · EMA9=61.3851 > EMA21=60.4353 · RSI=60 · Vol x1.2",
-      "strength": 74,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ATOM_sE_1781524440766",
       "symbol": "ATOM",
       "name": "Cosmos Hub",
@@ -121,6 +104,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "HYPE_sE_1781512942242",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 10,
+      "stratId": "sE",
+      "entryPrice": 65.942,
+      "entryTime": 1781512942242,
+      "entryDate": "2026-06-15T08:42:22.242Z",
+      "entrySignal": "EMA начало расхождения · EMA9=61.3851 > EMA21=60.4353 · RSI=60 · Vol x1.2",
+      "strength": 74,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 75.935,
+      "exitTime": 1781713435167,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.154226441418231,
+      "pnlUsd": 15.154226441418231,
+      "total": 115.15422644141823
+    },
     {
       "id": "UNI_sE_1781684174308",
       "symbol": "UNI",
@@ -4175,18 +4181,18 @@
     "WBT_sE": 1781543253079,
     "UNI_sE": 1781778625586
   },
-  "scanCount": 513,
+  "scanCount": 514,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-17T15:14:53.042Z",
+  "lastScan": "2026-06-17T16:24:31.838Z",
   "lastReport": "2026-06-17T15:14:53.042Z",
   "marketRegime": "BEAR",
   "fearGreed": 22,
   "totalStats": {
-    "trades": 173,
-    "wins": 58,
+    "trades": 174,
+    "wins": 59,
     "losses": 115,
-    "totalPnl": -194.13797259277322,
-    "invested": 17300
+    "totalPnl": -178.98374615135498,
+    "invested": 17400
   },
   "byStrategy": {
     "sR": {
@@ -4195,9 +4201,9 @@
       "pnl": -100.00815289910915
     },
     "sE": {
-      "trades": 59,
-      "wins": 14,
-      "pnl": -134.38044583882618
+      "trades": 60,
+      "wins": 15,
+      "pnl": -119.22621939740795
     },
     "sM": {
       "trades": 12,
@@ -4247,9 +4253,9 @@
         "pnl": -25.113672942021083
       },
       "sE": {
-        "trades": 33,
-        "wins": 7,
-        "pnl": -83.15793753130359
+        "trades": 34,
+        "wins": 8,
+        "pnl": -68.00371108988536
       }
     },
     "BEAR_TREND": {
