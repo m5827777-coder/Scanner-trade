@@ -103,6 +103,25 @@
       "peakPnl": 0
     },
     {
+      "id": "ASTER_sE_1781699444159",
+      "symbol": "ASTER",
+      "name": "Aster",
+      "coinId": "aster-2",
+      "rank": 46,
+      "stratId": "sE",
+      "entryPrice": 0.7445,
+      "entryTime": 1781699444159,
+      "entryDate": "2026-06-17T12:30:44.159Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.6632 > EMA21=0.6606 · RSI=64 · Vol x3.7",
+      "strength": 92,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    }
+  ],
+  "closedTrades": [
+    {
       "id": "UNI_sE_1781684174308",
       "symbol": "UNI",
       "name": "Uniswap",
@@ -114,13 +133,17 @@
       "entryDate": "2026-06-17T08:16:14.308Z",
       "entrySignal": "Golden Cross сегодня · EMA9=2.8659 > EMA21=2.8650 · RSI=67 · Vol x5.8",
       "strength": 92,
-      "regime": "BULL_TREND",
+      "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 3.263,
+      "exitTime": 1781699425585,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -9.083310114237952,
+      "pnlUsd": -9.083310114237952,
+      "total": 90.91668988576205
+    },
     {
       "id": "NEAR_sE_1781534889254",
       "symbol": "NEAR",
@@ -4120,7 +4143,7 @@
     "JUP_sR": 1780075427579,
     "DASH_sE": 1779550477183,
     "SUI_sR": 1779554020771,
-    "ASTER_sE": 1780410215962,
+    "ASTER_sE": 1781699444159,
     "NEAR_sM": 1779600959266,
     "RENDER_sE": 1779861248735,
     "XMR_sE": 1779359045756,
@@ -4150,20 +4173,20 @@
     "ATOM_sE": 1781524440766,
     "NEAR_sE": 1781707244871,
     "WBT_sE": 1781543253079,
-    "UNI_sE": 1781684174308
+    "UNI_sE": 1781778625586
   },
-  "scanCount": 511,
+  "scanCount": 512,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-17T10:46:18.095Z",
+  "lastScan": "2026-06-17T12:31:05.954Z",
   "lastReport": "2026-06-17T10:46:18.095Z",
   "marketRegime": "BEAR",
   "fearGreed": 22,
   "totalStats": {
-    "trades": 172,
+    "trades": 173,
     "wins": 58,
-    "losses": 114,
-    "totalPnl": -185.05466247853528,
-    "invested": 17200
+    "losses": 115,
+    "totalPnl": -194.13797259277322,
+    "invested": 17300
   },
   "byStrategy": {
     "sR": {
@@ -4172,9 +4195,9 @@
       "pnl": -100.00815289910915
     },
     "sE": {
-      "trades": 58,
+      "trades": 59,
       "wins": 14,
-      "pnl": -125.29713572458823
+      "pnl": -134.38044583882618
     },
     "sM": {
       "trades": 12,
@@ -4224,9 +4247,9 @@
         "pnl": -25.113672942021083
       },
       "sE": {
-        "trades": 32,
+        "trades": 33,
         "wins": 7,
-        "pnl": -74.07462741706564
+        "pnl": -83.15793753130359
       }
     },
     "BEAR_TREND": {
