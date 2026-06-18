@@ -67,7 +67,9 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "ASTER_sE_1781699444159",
       "symbol": "ASTER",
@@ -80,13 +82,17 @@
       "entryDate": "2026-06-17T12:30:44.159Z",
       "entrySignal": "Golden Cross сегодня · EMA9=0.6632 > EMA21=0.6606 · RSI=64 · Vol x3.7",
       "strength": 92,
-      "regime": "BULL_TREND",
+      "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 0.6876,
+      "exitTime": 1781753070812,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -7.642713230355952,
+      "pnlUsd": -7.642713230355952,
+      "total": 92.35728676964405
+    },
     {
       "id": "ATOM_sE_1781524440766",
       "symbol": "ATOM",
@@ -4155,7 +4161,7 @@
     "JUP_sR": 1780075427579,
     "DASH_sE": 1779550477183,
     "SUI_sR": 1779554020771,
-    "ASTER_sE": 1781699444159,
+    "ASTER_sE": 1781832270812,
     "NEAR_sM": 1779600959266,
     "RENDER_sE": 1779861248735,
     "XMR_sE": 1779359045756,
@@ -4187,18 +4193,18 @@
     "WBT_sE": 1781543253079,
     "UNI_sE": 1781778625586
   },
-  "scanCount": 520,
+  "scanCount": 521,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-18T02:13:06.975Z",
-  "lastReport": "2026-06-18T02:13:06.975Z",
+  "lastScan": "2026-06-18T03:25:10.806Z",
+  "lastReport": "2026-06-18T03:25:10.806Z",
   "marketRegime": "BEAR",
   "fearGreed": 15,
   "totalStats": {
-    "trades": 175,
+    "trades": 176,
     "wins": 59,
-    "losses": 116,
-    "totalPnl": -185.46753667504575,
-    "invested": 17500
+    "losses": 117,
+    "totalPnl": -193.1102499054017,
+    "invested": 17600
   },
   "byStrategy": {
     "sR": {
@@ -4207,9 +4213,9 @@
       "pnl": -100.00815289910915
     },
     "sE": {
-      "trades": 61,
+      "trades": 62,
       "wins": 15,
-      "pnl": -125.71000992109872
+      "pnl": -133.35272315145465
     },
     "sM": {
       "trades": 12,
@@ -4259,9 +4265,9 @@
         "pnl": -25.113672942021083
       },
       "sE": {
-        "trades": 35,
+        "trades": 36,
         "wins": 8,
-        "pnl": -74.48750161357613
+        "pnl": -82.13021484393208
       }
     },
     "BEAR_TREND": {
