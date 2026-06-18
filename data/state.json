@@ -50,7 +50,9 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "XMR_sR_1781595421867",
       "symbol": "XMR",
@@ -63,13 +65,17 @@
       "entryDate": "2026-06-16T07:37:01.867Z",
       "entrySignal": "Ротация #18 XMR: BTC Dom=56.5% · Коррекция -11.0% · RSI=48",
       "strength": 66,
-      "regime": "BULL_TREND",
+      "regime": "BEAR",
       "size": 100,
       "src": "CoinGecko",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 328.13915988845554,
+      "exitTime": 1781766330762,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.300661312736529,
+      "pnlUsd": -5.300661312736529,
+      "total": 94.69933868726348
+    },
     {
       "id": "ASTER_sE_1781699444159",
       "symbol": "ASTER",
@@ -4145,7 +4151,7 @@
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1780410209384,
     "FIGR_HELOC_sE": 1781284575580,
-    "XMR_sR": 1781595421867,
+    "XMR_sR": 1781845530762,
     "ETH_sR": 1780524593518,
     "LTC_sR": 1779126568920,
     "DOGE_sR": 1780511998192,
@@ -4193,24 +4199,24 @@
     "WBT_sE": 1781543253079,
     "UNI_sE": 1781778625586
   },
-  "scanCount": 521,
+  "scanCount": 522,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-18T03:25:10.806Z",
+  "lastScan": "2026-06-18T07:06:04.847Z",
   "lastReport": "2026-06-18T03:25:10.806Z",
   "marketRegime": "BEAR",
   "fearGreed": 15,
   "totalStats": {
-    "trades": 176,
+    "trades": 177,
     "wins": 59,
-    "losses": 117,
-    "totalPnl": -193.1102499054017,
-    "invested": 17600
+    "losses": 118,
+    "totalPnl": -198.41091121813824,
+    "invested": 17700
   },
   "byStrategy": {
     "sR": {
-      "trades": 102,
+      "trades": 103,
       "wins": 38,
-      "pnl": -100.00815289910915
+      "pnl": -105.30881421184567
     },
     "sE": {
       "trades": 62,
@@ -4255,9 +4261,9 @@
     },
     "BEAR": {
       "sR": {
-        "trades": 37,
+        "trades": 38,
         "wins": 7,
-        "pnl": -109.52607833565679
+        "pnl": -114.82673964839331
       },
       "sM": {
         "trades": 6,
