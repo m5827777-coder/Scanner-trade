@@ -18,23 +18,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ATOM_sE_1781524440766",
-      "symbol": "ATOM",
-      "name": "Cosmos Hub",
-      "coinId": "cosmos",
-      "rank": 66,
-      "stratId": "sE",
-      "entryPrice": 2.005,
-      "entryTime": 1781524440766,
-      "entryDate": "2026-06-15T11:54:00.766Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=1.9172 > EMA21=1.9117 · RSI=57 · Vol x1.4",
-      "strength": 86,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "XLM_sE_1781534882065",
       "symbol": "XLM",
       "name": "Stellar",
@@ -104,6 +87,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ATOM_sE_1781524440766",
+      "symbol": "ATOM",
+      "name": "Cosmos Hub",
+      "coinId": "cosmos",
+      "rank": 66,
+      "stratId": "sE",
+      "entryPrice": 2.005,
+      "entryTime": 1781524440766,
+      "entryDate": "2026-06-15T11:54:00.766Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=1.9172 > EMA21=1.9117 · RSI=57 · Vol x1.4",
+      "strength": 86,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.875,
+      "exitTime": 1781748746705,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.483790523690767,
+      "pnlUsd": -6.483790523690767,
+      "total": 93.51620947630923
+    },
     {
       "id": "HYPE_sE_1781512942242",
       "symbol": "HYPE",
@@ -4176,23 +4182,23 @@
     "ONDO_sE": 1780645734397,
     "ZEC_sE": 1780645735219,
     "TRUMP_sM": 1781481460279,
-    "ATOM_sE": 1781524440766,
+    "ATOM_sE": 1781827946706,
     "NEAR_sE": 1781707244871,
     "WBT_sE": 1781543253079,
     "UNI_sE": 1781778625586
   },
-  "scanCount": 519,
+  "scanCount": 520,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-17T23:54:15.920Z",
-  "lastReport": "2026-06-17T20:07:00.686Z",
+  "lastScan": "2026-06-18T02:13:06.975Z",
+  "lastReport": "2026-06-18T02:13:06.975Z",
   "marketRegime": "BEAR",
-  "fearGreed": 22,
+  "fearGreed": 15,
   "totalStats": {
-    "trades": 174,
+    "trades": 175,
     "wins": 59,
-    "losses": 115,
-    "totalPnl": -178.98374615135498,
-    "invested": 17400
+    "losses": 116,
+    "totalPnl": -185.46753667504575,
+    "invested": 17500
   },
   "byStrategy": {
     "sR": {
@@ -4201,9 +4207,9 @@
       "pnl": -100.00815289910915
     },
     "sE": {
-      "trades": 60,
+      "trades": 61,
       "wins": 15,
-      "pnl": -119.22621939740795
+      "pnl": -125.71000992109872
     },
     "sM": {
       "trades": 12,
@@ -4253,9 +4259,9 @@
         "pnl": -25.113672942021083
       },
       "sE": {
-        "trades": 34,
+        "trades": 35,
         "wins": 8,
-        "pnl": -68.00371108988536
+        "pnl": -74.48750161357613
       }
     },
     "BEAR_TREND": {
