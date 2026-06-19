@@ -51654,3 +51654,45 @@
 [2026-06-19 03:48:21 UTC] 📧 6h report sent
 [2026-06-19 03:48:21 UTC] 
 📊 ИТОГ: WR=33.5% PnL=$-187.40 Trades=179
+[2026-06-19 07:28:38 UTC] ════════════════════════════════════════════════════
+[2026-06-19 07:28:38 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-06-19 07:28:38 UTC] ════════════════════════════════════════════════════
+[2026-06-19 07:28:38 UTC] 📡 Scan #534
+[2026-06-19 07:28:39 UTC] 📊 BTC Dom=56%
+[2026-06-19 07:28:39 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-06-19 07:28:39 UTC] 🌡 F&G=14 Regime=BEAR Open=3
+[2026-06-19 07:28:39 UTC]   📂 HOLD CC/sE PnL=-4.26%
+[2026-06-19 07:28:40 UTC]   📂 HOLD UNI/sE PnL=-2.68%
+[2026-06-19 07:28:40 UTC]   📂 HOLD FIGR_HELOC/sE PnL=-1.37%
+[2026-06-19 07:28:40 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-06-19 07:28:40 UTC] ✓ CoinGecko: 79 токенов. Проверяю входы...
+[2026-06-19 07:28:47 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-06-19 07:28:48 UTC]   ⏭ XMR: нет данных (monero)
+[2026-06-19 07:28:50 UTC]   ⏭ LAB: нет данных (lab)
+[2026-06-19 07:28:50 UTC]   ⏭ GRAM: нет данных (the-open-network)
+[2026-06-19 07:28:51 UTC]   ⏭ M: нет данных (memecore)
+[2026-06-19 07:28:56 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-06-19 07:28:57 UTC]   ⏭ TAO: нет данных (bittensor)
+[2026-06-19 07:28:59 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-06-19 07:29:01 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-06-19 07:29:03 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-06-19 07:29:06 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-06-19 07:29:06 UTC]   ⏭ U: нет данных (united-stables)
+[2026-06-19 07:29:07 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-06-19 07:29:08 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-06-19 07:29:10 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-06-19 07:29:11 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-06-19 07:29:11 UTC]   ⏭ DEXE: нет данных (dexe)
+[2026-06-19 07:29:12 UTC]   ⏭ 币安人生: нет данных (bianrensheng)
+[2026-06-19 07:29:12 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-06-19 07:29:12 UTC]   ⏭ JAAA: нет данных (janus-henderson-anemoy-aaa-clo-fund)
+[2026-06-19 07:29:13 UTC]   ⏭ VVV: нет данных (venice-token)
+[2026-06-19 07:29:13 UTC]   ⏭ JST: нет данных (just)
+[2026-06-19 07:29:14 UTC]   ⏭ BDX: нет данных (beldex)
+[2026-06-19 07:29:16 UTC]   ⏭ GHO: нет данных (gho)
+[2026-06-19 07:29:16 UTC]   ⏭ XDC: нет данных (xdce-crowd-sale)
+[2026-06-19 07:29:16 UTC]   ⏭ EURSAFO: нет данных (spiko-amundi-overnight-swap-fund-eur)
+[2026-06-19 07:29:17 UTC]   ⏭ HASH: нет данных (hash-2)
+[2026-06-19 07:29:19 UTC] ✅ Данные: 52 токенов OK, 27 недоступно | Открыто: 0 | Всего: 3
+[2026-06-19 07:29:19 UTC] 
+📊 ИТОГ: WR=33.5% PnL=$-187.40 Trades=179
