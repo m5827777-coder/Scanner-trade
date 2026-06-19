@@ -1,23 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "CC_sE_1780789438833",
-      "symbol": "CC",
-      "name": "Canton",
-      "coinId": "canton-network",
-      "rank": 16,
-      "stratId": "sE",
-      "entryPrice": 0.16409,
-      "entryTime": 1780789438833,
-      "entryDate": "2026-06-06T23:43:58.833Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.1552 > EMA21=0.1551 · RSI=57 · Vol x1.2",
-      "strength": 83,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "UNI_sE_1781792637010",
       "symbol": "UNI",
       "name": "Uniswap",
@@ -53,6 +36,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "CC_sE_1780789438833",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 16,
+      "stratId": "sE",
+      "entryPrice": 0.16409,
+      "entryTime": 1780789438833,
+      "entryDate": "2026-06-06T23:43:58.833Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.1552 > EMA21=0.1551 · RSI=57 · Vol x1.2",
+      "strength": 83,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.154,
+      "exitTime": 1781864300543,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.149064537753681,
+      "pnlUsd": -6.149064537753681,
+      "total": 93.85093546224633
+    },
     {
       "id": "WBT_sE_1781543253079",
       "symbol": "WBT",
@@ -4189,7 +4195,7 @@
     "ARB_sR": 1780410212169,
     "AVAX_sR": 1780495959104,
     "HBAR_sR": 1778752941540,
-    "CC_sE": 1780789438833,
+    "CC_sE": 1781943500543,
     "FLR_sE": 1778797959970,
     "XRP_sE": 1778801425373,
     "HYPE_sE": 1781512942242,
@@ -4245,18 +4251,18 @@
     "WBT_sE": 1781883464112,
     "UNI_sE": 1781792637010
   },
-  "scanCount": 534,
+  "scanCount": 535,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-19T07:29:19.635Z",
-  "lastReport": "2026-06-19T03:48:18.564Z",
+  "lastScan": "2026-06-19T10:18:55.819Z",
+  "lastReport": "2026-06-19T10:18:55.819Z",
   "marketRegime": "BEAR",
   "fearGreed": 14,
   "totalStats": {
-    "trades": 179,
+    "trades": 180,
     "wins": 60,
-    "losses": 119,
-    "totalPnl": -187.40155412660383,
-    "invested": 17900
+    "losses": 120,
+    "totalPnl": -193.5506186643575,
+    "invested": 18000
   },
   "byStrategy": {
     "sR": {
@@ -4265,9 +4271,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 64,
+      "trades": 65,
       "wins": 16,
-      "pnl": -122.34336605992023
+      "pnl": -128.49243059767392
     },
     "sM": {
       "trades": 12,
@@ -4317,9 +4323,9 @@
         "pnl": -25.113672942021083
       },
       "sE": {
-        "trades": 38,
+        "trades": 39,
         "wins": 9,
-        "pnl": -71.12085775239765
+        "pnl": -77.26992229015133
       }
     },
     "BEAR_TREND": {
@@ -4347,5 +4353,5 @@
       }
     }
   },
-  "btcDominance": 56
+  "btcDominance": 55.9
 }
