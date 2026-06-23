@@ -1,23 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "UNI_sE_1781792637010",
-      "symbol": "UNI",
-      "name": "Uniswap",
-      "coinId": "uniswap",
-      "rank": 44,
-      "stratId": "sE",
-      "entryPrice": 3.138,
-      "entryTime": 1781792637010,
-      "entryDate": "2026-06-18T14:23:57.010Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=2.8798 > EMA21=2.8773 · RSI=55 · Vol x1.7",
-      "strength": 91,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FIGR_HELOC_sE_1781804268445",
       "symbol": "FIGR_HELOC",
       "name": "Figure Heloc",
@@ -53,6 +36,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "UNI_sE_1781792637010",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "coinId": "uniswap",
+      "rank": 44,
+      "stratId": "sE",
+      "entryPrice": 3.138,
+      "entryTime": 1781792637010,
+      "entryDate": "2026-06-18T14:23:57.010Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=2.8798 > EMA21=2.8773 · RSI=55 · Vol x1.7",
+      "strength": 91,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2.831,
+      "exitTime": 1782204645455,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -9.783301465901847,
+      "pnlUsd": -9.783301465901847,
+      "total": 90.21669853409816
+    },
     {
       "id": "CC_sE_1780789438833",
       "symbol": "CC",
@@ -4266,20 +4272,20 @@
     "ATOM_sE": 1781827946706,
     "NEAR_sE": 1781707244871,
     "WBT_sE": 1781883464112,
-    "UNI_sE": 1781792637010
+    "UNI_sE": 1782283845455
   },
-  "scanCount": 590,
+  "scanCount": 591,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-23T05:53:48.173Z",
-  "lastReport": "2026-06-23T02:45:06.159Z",
+  "lastScan": "2026-06-23T08:51:26.428Z",
+  "lastReport": "2026-06-23T08:51:26.428Z",
   "marketRegime": "BEAR",
   "fearGreed": 23,
   "totalStats": {
-    "trades": 180,
+    "trades": 181,
     "wins": 60,
-    "losses": 120,
-    "totalPnl": -193.5506186643575,
-    "invested": 18000
+    "losses": 121,
+    "totalPnl": -203.33392013025934,
+    "invested": 18100
   },
   "byStrategy": {
     "sR": {
@@ -4288,9 +4294,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 65,
+      "trades": 66,
       "wins": 16,
-      "pnl": -128.49243059767392
+      "pnl": -138.27573206357576
     },
     "sM": {
       "trades": 12,
@@ -4340,9 +4346,9 @@
         "pnl": -25.113672942021083
       },
       "sE": {
-        "trades": 39,
+        "trades": 40,
         "wins": 9,
-        "pnl": -77.26992229015133
+        "pnl": -87.05322375605317
       }
     },
     "BEAR_TREND": {
