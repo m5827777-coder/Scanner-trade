@@ -4274,12 +4274,12 @@
     "WBT_sE": 1781883464112,
     "UNI_sE": 1782283845455
   },
-  "scanCount": 601,
+  "scanCount": 602,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-23T23:10:24.892Z",
+  "lastScan": "2026-06-24T00:09:14.347Z",
   "lastReport": "2026-06-23T19:54:22.228Z",
   "marketRegime": "BEAR",
-  "fearGreed": 23,
+  "fearGreed": 17,
   "totalStats": {
     "trades": 181,
     "wins": 60,
