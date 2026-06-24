@@ -33,6 +33,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "AAVE_sE_1782343221088",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "coinId": "aave",
+      "rank": 59,
+      "stratId": "sE",
+      "entryPrice": 79.31,
+      "entryTime": 1782343221088,
+      "entryDate": "2026-06-24T23:20:21.088Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=74.7925 > EMA21=73.8421 · RSI=56 · Vol x1.2",
+      "strength": 76,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4272,14 +4289,15 @@
     "ATOM_sE": 1781827946706,
     "NEAR_sE": 1781707244871,
     "WBT_sE": 1781883464112,
-    "UNI_sE": 1782283845455
+    "UNI_sE": 1782283845455,
+    "AAVE_sE": 1782343221088
   },
-  "scanCount": 615,
+  "scanCount": 616,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-24T22:08:46.314Z",
+  "lastScan": "2026-06-24T23:20:37.453Z",
   "lastReport": "2026-06-24T19:39:11.028Z",
-  "marketRegime": "NEUTRAL",
-  "fearGreed": 50,
+  "marketRegime": "BEAR",
+  "fearGreed": 17,
   "totalStats": {
     "trades": 181,
     "wins": 60,
@@ -4376,5 +4394,5 @@
       }
     }
   },
-  "btcDominance": 60
+  "btcDominance": 55.9
 }
