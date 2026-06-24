@@ -55089,3 +55089,15 @@
 [2026-06-24 20:55:58 UTC] ✅ Данные: 50 токенов OK, 29 недоступно | Открыто: 0 | Всего: 2
 [2026-06-24 20:55:58 UTC] 
 📊 ИТОГ: WR=33.1% PnL=$-203.33 Trades=181
+[2026-06-24 22:08:44 UTC] ════════════════════════════════════════════════════
+[2026-06-24 22:08:44 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-06-24 22:08:44 UTC] ════════════════════════════════════════════════════
+[2026-06-24 22:08:44 UTC] 📡 Scan #615
+[2026-06-24 22:08:45 UTC] 📊 BTC Dom=60%
+[2026-06-24 22:08:45 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-06-24 22:08:45 UTC] 🌡 F&G=50 Regime=NEUTRAL Open=2
+[2026-06-24 22:08:46 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-06-24 22:08:46 UTC] [CG ERR] Invalid response body while trying to fetch https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=24h: Premature close
+[2026-06-24 22:08:46 UTC] ⚠ CoinGecko недоступен
+[2026-06-24 22:08:46 UTC] 
+📊 ИТОГ: WR=33.1% PnL=$-203.33 Trades=181
