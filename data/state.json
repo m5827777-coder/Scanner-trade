@@ -4274,10 +4274,10 @@
     "WBT_sE": 1781883464112,
     "UNI_sE": 1782283845455
   },
-  "scanCount": 608,
+  "scanCount": 609,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-24T13:07:03.150Z",
-  "lastReport": "2026-06-24T08:58:54.530Z",
+  "lastScan": "2026-06-24T14:16:40.658Z",
+  "lastReport": "2026-06-24T14:16:40.658Z",
   "marketRegime": "BEAR",
   "fearGreed": 17,
   "totalStats": {
@@ -4376,5 +4376,5 @@
       }
     }
   },
-  "btcDominance": 56.2
+  "btcDominance": 55.9
 }
