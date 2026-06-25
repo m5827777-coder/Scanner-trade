@@ -4292,10 +4292,10 @@
     "UNI_sE": 1782283845455,
     "AAVE_sE": 1782343221088
   },
-  "scanCount": 617,
+  "scanCount": 618,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-25T01:29:31.031Z",
-  "lastReport": "2026-06-24T19:39:11.028Z",
+  "lastScan": "2026-06-25T02:45:35.944Z",
+  "lastReport": "2026-06-25T02:45:35.944Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 50,
   "totalStats": {
