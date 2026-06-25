@@ -4292,12 +4292,12 @@
     "UNI_sE": 1782283845455,
     "AAVE_sE": 1782343221088
   },
-  "scanCount": 620,
+  "scanCount": 621,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-25T08:38:56.049Z",
-  "lastReport": "2026-06-25T02:45:35.944Z",
-  "marketRegime": "BEAR",
-  "fearGreed": 12,
+  "lastScan": "2026-06-25T08:52:37.797Z",
+  "lastReport": "2026-06-25T08:52:37.797Z",
+  "marketRegime": "NEUTRAL",
+  "fearGreed": 50,
   "totalStats": {
     "trades": 181,
     "wins": 60,
@@ -4394,5 +4394,5 @@
       }
     }
   },
-  "btcDominance": 56.1
+  "btcDominance": 60
 }
