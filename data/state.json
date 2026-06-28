@@ -4310,10 +4310,10 @@
     "AAVE_sE": 1782343221088,
     "WLFI_sE": 1782394160013
   },
-  "scanCount": 668,
+  "scanCount": 669,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-06-28T08:14:35.172Z",
-  "lastReport": "2026-06-28T02:55:28.639Z",
+  "lastScan": "2026-06-28T08:45:00.412Z",
+  "lastReport": "2026-06-28T08:45:00.412Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 50,
   "totalStats": {
