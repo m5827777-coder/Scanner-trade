@@ -50,6 +50,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "MORPHO_sE_1782933887117",
+      "symbol": "MORPHO",
+      "name": "Morpho",
+      "coinId": "morpho",
+      "rank": 53,
+      "stratId": "sE",
+      "entryPrice": 2.1038,
+      "entryTime": 1782933887117,
+      "entryDate": "2026-07-01T19:24:47.117Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=1.9101 > EMA21=1.8867 · RSI=59 · Vol x1.0",
+      "strength": 81,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4313,7 +4330,7 @@
     "ICP_sR": 1779986502655,
     "WLD_sE": 1779850424416,
     "JUP_sE": 1781968157103,
-    "MORPHO_sE": 1779807408212,
+    "MORPHO_sE": 1782933887117,
     "TON_sE": 1780599053641,
     "OKB_sE": 1780482656110,
     "FET_sE": 1780634934681,
@@ -4339,9 +4356,9 @@
     "AAVE_sE": 1782343221088,
     "WLFI_sE": 1782394160013
   },
-  "scanCount": 719,
+  "scanCount": 720,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-01T17:48:43.200Z",
+  "lastScan": "2026-07-01T19:25:02.832Z",
   "lastReport": "2026-07-01T14:23:23.778Z",
   "marketRegime": "BEAR",
   "fearGreed": 11,
