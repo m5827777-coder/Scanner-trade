@@ -1,40 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "FIGR_HELOC_sE_1781804268445",
-      "symbol": "FIGR_HELOC",
-      "name": "Figure Heloc",
-      "coinId": "figure-heloc",
-      "rank": 9,
-      "stratId": "sE",
-      "entryPrice": 1.026574,
-      "entryTime": 1781804268445,
-      "entryDate": "2026-06-18T17:37:48.445Z",
-      "entrySignal": "Golden Cross 2д назад · EMA9=1.0264 > EMA21=1.0269 · RSI=50 · Vol x1.1",
-      "strength": 66,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
-      "id": "JUP_sE_1781968157103",
-      "symbol": "JUP",
-      "name": "Jupiter",
-      "coinId": "jupiter-exchange-solana",
-      "rank": 87,
-      "stratId": "sE",
-      "entryPrice": 0.2043,
-      "entryTime": 1781968157103,
-      "entryDate": "2026-06-20T15:09:17.103Z",
-      "entrySignal": "Golden Cross 3д назад · EMA9=0.1869 > EMA21=0.1836 · RSI=57 · Vol x1.0",
-      "strength": 73,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "AAVE_sE_1782343221088",
       "symbol": "AAVE",
       "name": "Aave",
@@ -67,9 +33,72 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "WBT_sE_1782928088771",
+      "symbol": "WBT",
+      "name": "WhiteBIT Coin",
+      "coinId": "whitebit",
+      "rank": 17,
+      "stratId": "sE",
+      "entryPrice": 54.861,
+      "entryTime": 1782928088771,
+      "entryDate": "2026-07-01T17:48:08.771Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=51.0502 > EMA21=50.9743 · RSI=61 · Vol x1.3",
+      "strength": 83,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "JUP_sE_1781968157103",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "coinId": "jupiter-exchange-solana",
+      "rank": 87,
+      "stratId": "sE",
+      "entryPrice": 0.2043,
+      "entryTime": 1781968157103,
+      "entryDate": "2026-06-20T15:09:17.103Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=0.1869 > EMA21=0.1836 · RSI=57 · Vol x1.0",
+      "strength": 73,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.235,
+      "exitTime": 1782928079928,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.026921194322062,
+      "pnlUsd": 15.026921194322062,
+      "total": 115.02692119432206
+    },
+    {
+      "id": "FIGR_HELOC_sE_1781804268445",
+      "symbol": "FIGR_HELOC",
+      "name": "Figure Heloc",
+      "coinId": "figure-heloc",
+      "rank": 9,
+      "stratId": "sE",
+      "entryPrice": 1.026574,
+      "entryTime": 1781804268445,
+      "entryDate": "2026-06-18T17:37:48.445Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=1.0264 > EMA21=1.0269 · RSI=50 · Vol x1.1",
+      "strength": 66,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 1.0132373,
+      "exitTime": 1782928078978,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -1.299146481403211,
+      "pnlUsd": -1.299146481403211,
+      "total": 98.70085351859679
+    },
     {
       "id": "UNI_sE_1781792637010",
       "symbol": "UNI",
@@ -4305,23 +4334,23 @@
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1781827946706,
     "NEAR_sE": 1781707244871,
-    "WBT_sE": 1781883464112,
+    "WBT_sE": 1782928088771,
     "UNI_sE": 1782283845455,
     "AAVE_sE": 1782343221088,
     "WLFI_sE": 1782394160013
   },
-  "scanCount": 718,
+  "scanCount": 719,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-01T15:55:54.417Z",
+  "lastScan": "2026-07-01T17:48:43.200Z",
   "lastReport": "2026-07-01T14:23:23.778Z",
-  "marketRegime": "NEUTRAL",
-  "fearGreed": 50,
+  "marketRegime": "BEAR",
+  "fearGreed": 11,
   "totalStats": {
-    "trades": 181,
-    "wins": 60,
-    "losses": 121,
-    "totalPnl": -203.33392013025934,
-    "invested": 18100
+    "trades": 183,
+    "wins": 61,
+    "losses": 122,
+    "totalPnl": -189.60614541734049,
+    "invested": 18300
   },
   "byStrategy": {
     "sR": {
@@ -4330,9 +4359,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 66,
-      "wins": 16,
-      "pnl": -138.27573206357576
+      "trades": 68,
+      "wins": 17,
+      "pnl": -124.5479573506569
     },
     "sM": {
       "trades": 12,
@@ -4382,9 +4411,9 @@
         "pnl": -25.113672942021083
       },
       "sE": {
-        "trades": 40,
-        "wins": 9,
-        "pnl": -87.05322375605317
+        "trades": 42,
+        "wins": 10,
+        "pnl": -73.32544904313433
       }
     },
     "BEAR_TREND": {
@@ -4412,5 +4441,5 @@
       }
     }
   },
-  "btcDominance": 60
+  "btcDominance": 55.7
 }
