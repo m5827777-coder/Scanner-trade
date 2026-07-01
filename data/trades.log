@@ -56742,3 +56742,50 @@
 [2026-07-01 20:59:35 UTC] ⚠ CoinGecko недоступен
 [2026-07-01 20:59:35 UTC] 
 📊 ИТОГ: WR=33.3% PnL=$-189.61 Trades=183
+[2026-07-01 22:19:43 UTC] ════════════════════════════════════════════════════
+[2026-07-01 22:19:43 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-07-01 22:19:43 UTC] ════════════════════════════════════════════════════
+[2026-07-01 22:19:43 UTC] 📡 Scan #723
+[2026-07-01 22:19:43 UTC] 📊 BTC Dom=55.8%
+[2026-07-01 22:19:43 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-07-01 22:19:44 UTC] 🌡 F&G=11 Regime=BEAR Open=4
+[2026-07-01 22:19:44 UTC]   📂 HOLD AAVE/sE PnL=+8.23%
+[2026-07-01 22:19:44 UTC]   📂 HOLD WLFI/sE PnL=-3.52%
+[2026-07-01 22:19:45 UTC]   📂 HOLD WBT/sE PnL=+0.92%
+[2026-07-01 22:19:45 UTC]   📂 HOLD MORPHO/sE PnL=+0.16%
+[2026-07-01 22:19:45 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-07-01 22:19:45 UTC] ✓ CoinGecko: 79 токенов. Проверяю входы...
+[2026-07-01 22:19:48 UTC]   📈 ENTRY FIGR_HELOC/sE [NEUTRAL] via CoinGecko: Golden Cross 4д назад · EMA9=1.0321 > EMA21=1.0304 · RSI=52 · Vol x1.6 @ $1.0386205
+[2026-07-01 22:19:53 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-07-01 22:19:54 UTC]   ⏭ XMR: нет данных (monero)
+[2026-07-01 22:19:56 UTC]   ⏭ GRAM: нет данных (the-open-network)
+[2026-07-01 22:19:59 UTC]   ⏭ LAB: нет данных (lab)
+[2026-07-01 22:20:02 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-07-01 22:20:02 UTC]   ⏭ TAO: нет данных (bittensor)
+[2026-07-01 22:20:07 UTC]   ⏭ M: нет данных (memecore)
+[2026-07-01 22:20:07 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-07-01 22:20:09 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-07-01 22:20:13 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-07-01 22:20:14 UTC]   ⏭ DEXE: нет данных (dexe)
+[2026-07-01 22:20:14 UTC]   ⏭ U: нет данных (united-stables)
+[2026-07-01 22:20:15 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-07-01 22:20:16 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-07-01 22:20:16 UTC]   ⏭ BEAT: нет данных (audiera)
+[2026-07-01 22:20:16 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-07-01 22:20:17 UTC]   ⏭ USDGO: нет данных (usdgo)
+[2026-07-01 22:20:17 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-07-01 22:20:21 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-07-01 22:20:21 UTC]   ⏭ JST: нет данных (just)
+[2026-07-01 22:20:22 UTC]   ⏭ ADI: нет данных (adi-token)
+[2026-07-01 22:20:22 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-07-01 22:20:22 UTC]   ⏭ 币安人生: нет данных (bianrensheng)
+[2026-07-01 22:20:23 UTC]   ⏭ JAAA: нет данных (janus-henderson-anemoy-aaa-clo-fund)
+[2026-07-01 22:20:24 UTC]   ⏭ BDX: нет данных (beldex)
+[2026-07-01 22:20:24 UTC]   ⏭ EURSAFO: нет данных (spiko-amundi-overnight-swap-fund-eur)
+[2026-07-01 22:20:25 UTC]   ⏭ VVV: нет данных (venice-token)
+[2026-07-01 22:20:25 UTC]   ⏭ VELVET: нет данных (velvet)
+[2026-07-01 22:20:26 UTC]   ⏭ GHO: нет данных (gho)
+[2026-07-01 22:20:27 UTC]   ⏭ XDC: нет данных (xdce-crowd-sale)
+[2026-07-01 22:20:28 UTC] ✅ Данные: 49 токенов OK, 30 недоступно | Открыто: 1 | Всего: 5
+[2026-07-01 22:20:28 UTC] 
+📊 ИТОГ: WR=33.3% PnL=$-189.61 Trades=183
