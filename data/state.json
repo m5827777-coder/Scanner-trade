@@ -101,6 +101,40 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "SOL_sE_1783000011019",
+      "symbol": "SOL",
+      "name": "Solana",
+      "coinId": "solana",
+      "rank": 7,
+      "stratId": "sE",
+      "entryPrice": 81.73,
+      "entryTime": 1783000011019,
+      "entryDate": "2026-07-02T13:46:51.019Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=74.7037 > EMA21=73.0798 · RSI=62 · Vol x1.3",
+      "strength": 80,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "UNI_sE_1783000026374",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "coinId": "uniswap",
+      "rank": 43,
+      "stratId": "sE",
+      "entryPrice": 3.187,
+      "entryTime": 1783000026374,
+      "entryDate": "2026-07-02T13:47:06.374Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=2.9466 > EMA21=2.9220 · RSI=57 · Vol x1.5",
+      "strength": 87,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4386,17 +4420,18 @@
     "ATOM_sE": 1781827946706,
     "NEAR_sE": 1781707244871,
     "WBT_sE": 1782928088771,
-    "UNI_sE": 1782283845455,
+    "UNI_sE": 1783000026374,
     "AAVE_sE": 1782343221088,
     "WLFI_sE": 1782394160013,
-    "LIT_sM": 1782981286266
+    "LIT_sM": 1782981286266,
+    "SOL_sE": 1783000011019
   },
-  "scanCount": 731,
+  "scanCount": 732,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-02T13:06:39.914Z",
-  "lastReport": "2026-07-02T08:48:52.258Z",
-  "marketRegime": "NEUTRAL",
-  "fearGreed": 50,
+  "lastScan": "2026-07-02T13:47:30.205Z",
+  "lastReport": "2026-07-02T13:47:30.205Z",
+  "marketRegime": "BEAR",
+  "fearGreed": 19,
   "totalStats": {
     "trades": 183,
     "wins": 61,
@@ -4493,5 +4528,5 @@
       }
     }
   },
-  "btcDominance": 60
+  "btcDominance": 55.7
 }
