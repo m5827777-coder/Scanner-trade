@@ -4373,9 +4373,9 @@
     "AAVE_sE": 1782343221088,
     "WLFI_sE": 1782394160013
   },
-  "scanCount": 726,
+  "scanCount": 727,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-02T02:45:50.219Z",
+  "lastScan": "2026-07-02T05:45:05.711Z",
   "lastReport": "2026-07-02T02:45:50.219Z",
   "marketRegime": "BEAR",
   "fearGreed": 19,
@@ -4475,5 +4475,5 @@
       }
     }
   },
-  "btcDominance": 55.7
+  "btcDominance": 55.8
 }
