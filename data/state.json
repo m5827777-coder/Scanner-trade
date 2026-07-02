@@ -84,6 +84,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "LIT_sM_1782981286266",
+      "symbol": "LIT",
+      "name": "Lighter",
+      "coinId": "lighter",
+      "rank": 100,
+      "stratId": "sM",
+      "entryPrice": 2.1547,
+      "entryTime": 1782981286266,
+      "entryDate": "2026-07-02T08:34:46.266Z",
+      "entrySignal": "Пробой 20d max $1.9868 на +8.5% · Объём x5.0 · RSI=65",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4371,11 +4388,12 @@
     "WBT_sE": 1782928088771,
     "UNI_sE": 1782283845455,
     "AAVE_sE": 1782343221088,
-    "WLFI_sE": 1782394160013
+    "WLFI_sE": 1782394160013,
+    "LIT_sM": 1782981286266
   },
-  "scanCount": 727,
+  "scanCount": 728,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-02T05:45:05.711Z",
+  "lastScan": "2026-07-02T08:34:47.271Z",
   "lastReport": "2026-07-02T02:45:50.219Z",
   "marketRegime": "BEAR",
   "fearGreed": 19,
@@ -4475,5 +4493,5 @@
       }
     }
   },
-  "btcDominance": 55.8
+  "btcDominance": 55.7
 }
