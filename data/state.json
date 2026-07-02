@@ -4426,10 +4426,10 @@
     "LIT_sM": 1782981286266,
     "SOL_sE": 1783000011019
   },
-  "scanCount": 735,
+  "scanCount": 736,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-02T18:47:11.926Z",
-  "lastReport": "2026-07-02T13:47:30.205Z",
+  "lastScan": "2026-07-02T19:16:55.628Z",
+  "lastReport": "2026-07-02T19:16:55.627Z",
   "marketRegime": "BEAR",
   "fearGreed": 19,
   "totalStats": {
@@ -4528,5 +4528,5 @@
       }
     }
   },
-  "btcDominance": 55.8
+  "btcDominance": 55.7
 }
