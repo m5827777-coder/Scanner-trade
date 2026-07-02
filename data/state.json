@@ -4391,12 +4391,12 @@
     "WLFI_sE": 1782394160013,
     "LIT_sM": 1782981286266
   },
-  "scanCount": 729,
+  "scanCount": 730,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-02T08:48:52.258Z",
+  "lastScan": "2026-07-02T11:13:11.798Z",
   "lastReport": "2026-07-02T08:48:52.258Z",
-  "marketRegime": "BEAR",
-  "fearGreed": 19,
+  "marketRegime": "NEUTRAL",
+  "fearGreed": 50,
   "totalStats": {
     "trades": 183,
     "wins": 61,
@@ -4493,5 +4493,5 @@
       }
     }
   },
-  "btcDominance": 55.7
+  "btcDominance": 60
 }
