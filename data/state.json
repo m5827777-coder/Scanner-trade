@@ -52,23 +52,6 @@
       "peakPnl": 0
     },
     {
-      "id": "MORPHO_sE_1782933887117",
-      "symbol": "MORPHO",
-      "name": "Morpho",
-      "coinId": "morpho",
-      "rank": 53,
-      "stratId": "sE",
-      "entryPrice": 2.1038,
-      "entryTime": 1782933887117,
-      "entryDate": "2026-07-01T19:24:47.117Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=1.9101 > EMA21=1.8867 · RSI=59 · Vol x1.0",
-      "strength": 81,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FIGR_HELOC_sE_1782944388882",
       "symbol": "FIGR_HELOC",
       "name": "Figure Heloc",
@@ -155,6 +138,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "MORPHO_sE_1782933887117",
+      "symbol": "MORPHO",
+      "name": "Morpho",
+      "coinId": "morpho",
+      "rank": 53,
+      "stratId": "sE",
+      "entryPrice": 2.1038,
+      "entryTime": 1782933887117,
+      "entryDate": "2026-07-01T19:24:47.117Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=1.9101 > EMA21=1.8867 · RSI=59 · Vol x1.0",
+      "strength": 81,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.9711,
+      "exitTime": 1783075698916,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.307633805494821,
+      "pnlUsd": -6.307633805494821,
+      "total": 93.69236619450518
+    },
     {
       "id": "JUP_sE_1781968157103",
       "symbol": "JUP",
@@ -4415,7 +4421,7 @@
     "ICP_sR": 1779986502655,
     "WLD_sE": 1779850424416,
     "JUP_sE": 1781968157103,
-    "MORPHO_sE": 1782933887117,
+    "MORPHO_sE": 1783154898916,
     "TON_sE": 1780599053641,
     "OKB_sE": 1780482656110,
     "FET_sE": 1780634934681,
@@ -4444,18 +4450,18 @@
     "SOL_sE": 1783000011019,
     "SKY_sM": 1783045692492
   },
-  "scanCount": 745,
+  "scanCount": 746,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-03T08:55:23.461Z",
+  "lastScan": "2026-07-03T10:49:00.948Z",
   "lastReport": "2026-07-03T08:55:23.461Z",
   "marketRegime": "BEAR",
   "fearGreed": 21,
   "totalStats": {
-    "trades": 183,
+    "trades": 184,
     "wins": 61,
-    "losses": 122,
-    "totalPnl": -189.60614541734049,
-    "invested": 18300
+    "losses": 123,
+    "totalPnl": -195.9137792228353,
+    "invested": 18400
   },
   "byStrategy": {
     "sR": {
@@ -4464,9 +4470,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 68,
+      "trades": 69,
       "wins": 17,
-      "pnl": -124.5479573506569
+      "pnl": -130.85559115615172
     },
     "sM": {
       "trades": 12,
@@ -4516,9 +4522,9 @@
         "pnl": -25.113672942021083
       },
       "sE": {
-        "trades": 42,
+        "trades": 43,
         "wins": 10,
-        "pnl": -73.32544904313433
+        "pnl": -79.63308284862914
       }
     },
     "BEAR_TREND": {
@@ -4546,5 +4552,5 @@
       }
     }
   },
-  "btcDominance": 55.7
+  "btcDominance": 55.6
 }
