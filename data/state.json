@@ -135,6 +135,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "SKY_sM_1783045692492",
+      "symbol": "SKY",
+      "name": "Sky",
+      "coinId": "sky",
+      "rank": 55,
+      "stratId": "sM",
+      "entryPrice": 0.06003,
+      "entryTime": 1783045692492,
+      "entryDate": "2026-07-03T02:28:12.492Z",
+      "entrySignal": "Пробой 20d max $0.0600 на +0.1% · Объём x1.9 · RSI=56",
+      "strength": 73,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4424,12 +4441,13 @@
     "AAVE_sE": 1782343221088,
     "WLFI_sE": 1782394160013,
     "LIT_sM": 1782981286266,
-    "SOL_sE": 1783000011019
+    "SOL_sE": 1783000011019,
+    "SKY_sM": 1783045692492
   },
-  "scanCount": 741,
+  "scanCount": 742,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-03T01:15:55.203Z",
-  "lastReport": "2026-07-02T19:16:55.627Z",
+  "lastScan": "2026-07-03T02:28:30.204Z",
+  "lastReport": "2026-07-03T02:28:30.204Z",
   "marketRegime": "BEAR",
   "fearGreed": 21,
   "totalStats": {
