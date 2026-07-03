@@ -18,23 +18,6 @@
       "peakPnl": 0
     },
     {
-      "id": "WLFI_sE_1782394160013",
-      "symbol": "WLFI",
-      "name": "World Liberty Financial",
-      "coinId": "world-liberty-financial",
-      "rank": 42,
-      "stratId": "sE",
-      "entryPrice": 0.06084,
-      "entryTime": 1782394160013,
-      "entryDate": "2026-06-25T13:29:20.013Z",
-      "entrySignal": "Golden Cross 9д назад · EMA9=0.0588 > EMA21=0.0589 · RSI=55 · Vol x1.1",
-      "strength": 75,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "WBT_sE_1782928088771",
       "symbol": "WBT",
       "name": "WhiteBIT Coin",
@@ -138,6 +121,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "WLFI_sE_1782394160013",
+      "symbol": "WLFI",
+      "name": "World Liberty Financial",
+      "coinId": "world-liberty-financial",
+      "rank": 42,
+      "stratId": "sE",
+      "entryPrice": 0.06084,
+      "entryTime": 1782394160013,
+      "entryDate": "2026-06-25T13:29:20.013Z",
+      "entrySignal": "Golden Cross 9д назад · EMA9=0.0588 > EMA21=0.0589 · RSI=55 · Vol x1.1",
+      "strength": 75,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.05655,
+      "exitTime": 1783090407833,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -7.051282051282044,
+      "pnlUsd": -7.051282051282044,
+      "total": 92.94871794871796
+    },
     {
       "id": "MORPHO_sE_1782933887117",
       "symbol": "MORPHO",
@@ -4445,23 +4451,23 @@
     "WBT_sE": 1782928088771,
     "UNI_sE": 1783000026374,
     "AAVE_sE": 1782343221088,
-    "WLFI_sE": 1782394160013,
+    "WLFI_sE": 1783169607833,
     "LIT_sM": 1782981286266,
     "SOL_sE": 1783000011019,
     "SKY_sM": 1783045692492
   },
-  "scanCount": 748,
+  "scanCount": 749,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-03T13:52:04.971Z",
+  "lastScan": "2026-07-03T14:54:10.465Z",
   "lastReport": "2026-07-03T13:52:04.971Z",
   "marketRegime": "BEAR",
   "fearGreed": 21,
   "totalStats": {
-    "trades": 184,
+    "trades": 185,
     "wins": 61,
-    "losses": 123,
-    "totalPnl": -195.9137792228353,
-    "invested": 18400
+    "losses": 124,
+    "totalPnl": -202.96506127411735,
+    "invested": 18500
   },
   "byStrategy": {
     "sR": {
@@ -4470,9 +4476,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 69,
+      "trades": 70,
       "wins": 17,
-      "pnl": -130.85559115615172
+      "pnl": -137.90687320743376
     },
     "sM": {
       "trades": 12,
@@ -4522,9 +4528,9 @@
         "pnl": -25.113672942021083
       },
       "sE": {
-        "trades": 43,
+        "trades": 44,
         "wins": 10,
-        "pnl": -79.63308284862914
+        "pnl": -86.68436489991119
       }
     },
     "BEAR_TREND": {
