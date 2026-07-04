@@ -4462,10 +4462,10 @@
     "SOL_sE": 1783000011019,
     "SKY_sM": 1783045692492
   },
-  "scanCount": 761,
+  "scanCount": 762,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-04T07:32:40.340Z",
-  "lastReport": "2026-07-04T02:26:30.691Z",
+  "lastScan": "2026-07-04T08:30:02.010Z",
+  "lastReport": "2026-07-04T08:30:02.010Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 22,
   "totalStats": {
@@ -4564,5 +4564,5 @@
       }
     }
   },
-  "btcDominance": 55.7
+  "btcDominance": 55.6
 }
