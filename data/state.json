@@ -4462,10 +4462,10 @@
     "SOL_sE": 1783000011019,
     "SKY_sM": 1783045692492
   },
-  "scanCount": 771,
+  "scanCount": 772,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-04T18:16:44.146Z",
-  "lastReport": "2026-07-04T13:12:40.831Z",
+  "lastScan": "2026-07-04T19:02:55.262Z",
+  "lastReport": "2026-07-04T19:02:55.262Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 22,
   "totalStats": {
