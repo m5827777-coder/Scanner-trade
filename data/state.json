@@ -86,23 +86,6 @@
       "peakPnl": 0
     },
     {
-      "id": "SKY_sM_1783045692492",
-      "symbol": "SKY",
-      "name": "Sky",
-      "coinId": "sky",
-      "rank": 55,
-      "stratId": "sM",
-      "entryPrice": 0.06003,
-      "entryTime": 1783045692492,
-      "entryDate": "2026-07-03T02:28:12.492Z",
-      "entrySignal": "Пробой 20d max $0.0600 на +0.1% · Объём x1.9 · RSI=56",
-      "strength": 73,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ADA_sE_1783214340360",
       "symbol": "ADA",
       "name": "Cardano",
@@ -121,6 +104,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "SKY_sM_1783045692492",
+      "symbol": "SKY",
+      "name": "Sky",
+      "coinId": "sky",
+      "rank": 55,
+      "stratId": "sM",
+      "entryPrice": 0.06003,
+      "entryTime": 1783045692492,
+      "entryDate": "2026-07-03T02:28:12.492Z",
+      "entrySignal": "Пробой 20d max $0.0600 на +0.1% · Объём x1.9 · RSI=56",
+      "strength": 73,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.05579,
+      "exitTime": 1783228253230,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.06313509911711,
+      "pnlUsd": -7.06313509911711,
+      "total": 92.9368649008829
+    },
     {
       "id": "FIGR_HELOC_sE_1782944388882",
       "symbol": "FIGR_HELOC",
@@ -4477,21 +4483,21 @@
     "WLFI_sE": 1783169607833,
     "LIT_sM": 1782981286266,
     "SOL_sE": 1783000011019,
-    "SKY_sM": 1783045692492,
+    "SKY_sM": 1783307453230,
     "ADA_sE": 1783214340360
   },
-  "scanCount": 779,
+  "scanCount": 780,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-05T02:35:48.751Z",
+  "lastScan": "2026-07-05T05:11:34.211Z",
   "lastReport": "2026-07-05T02:35:48.751Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 23,
   "totalStats": {
-    "trades": 186,
+    "trades": 187,
     "wins": 61,
-    "losses": 125,
-    "totalPnl": -205.7497838941696,
-    "invested": 18600
+    "losses": 126,
+    "totalPnl": -212.81291899328673,
+    "invested": 18700
   },
   "byStrategy": {
     "sR": {
@@ -4505,9 +4511,9 @@
       "pnl": -140.69159582748603
     },
     "sM": {
-      "trades": 12,
+      "trades": 13,
       "wins": 6,
-      "pnl": 40.250626145162144
+      "pnl": 33.18749104604503
     }
   },
   "byRegime": {
@@ -4535,9 +4541,9 @@
         "pnl": 35.8406666267753
       },
       "sM": {
-        "trades": 3,
+        "trades": 4,
         "wins": 3,
-        "pnl": 55.42278308625126
+        "pnl": 48.359647987134146
       }
     },
     "BEAR": {
