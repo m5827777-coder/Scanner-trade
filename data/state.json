@@ -4486,9 +4486,9 @@
     "SKY_sM": 1783307453230,
     "ADA_sE": 1783214340360
   },
-  "scanCount": 780,
+  "scanCount": 781,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-05T05:11:34.211Z",
+  "lastScan": "2026-07-05T08:14:45.752Z",
   "lastReport": "2026-07-05T02:35:48.751Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 23,
@@ -4588,5 +4588,5 @@
       }
     }
   },
-  "btcDominance": 55.7
+  "btcDominance": 55.8
 }
