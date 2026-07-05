@@ -4521,9 +4521,9 @@
     "ADA_sE": 1783214340360,
     "BCH_sE": 1783241136263
   },
-  "scanCount": 795,
+  "scanCount": 796,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-05T22:13:05.466Z",
+  "lastScan": "2026-07-05T23:17:54.841Z",
   "lastReport": "2026-07-05T19:09:09.431Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 23,
@@ -4623,5 +4623,5 @@
       }
     }
   },
-  "btcDominance": 55.6
+  "btcDominance": 55.8
 }
