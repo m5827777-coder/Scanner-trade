@@ -101,6 +101,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "BCH_sE_1783241136263",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
+      "coinId": "bitcoin-cash",
+      "rank": 23,
+      "stratId": "sE",
+      "entryPrice": 240.3,
+      "entryTime": 1783241136263,
+      "entryDate": "2026-07-05T08:45:36.263Z",
+      "entrySignal": "Golden Cross вчера · EMA9=219.0816 > EMA21=216.1281 · RSI=56 · Vol x1.0",
+      "strength": 77,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4484,12 +4501,13 @@
     "LIT_sM": 1782981286266,
     "SOL_sE": 1783000011019,
     "SKY_sM": 1783307453230,
-    "ADA_sE": 1783214340360
+    "ADA_sE": 1783214340360,
+    "BCH_sE": 1783241136263
   },
-  "scanCount": 781,
+  "scanCount": 782,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-05T08:14:45.752Z",
-  "lastReport": "2026-07-05T02:35:48.751Z",
+  "lastScan": "2026-07-05T08:46:06.543Z",
+  "lastReport": "2026-07-05T08:46:06.543Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 23,
   "totalStats": {
@@ -4588,5 +4606,5 @@
       }
     }
   },
-  "btcDominance": 55.8
+  "btcDominance": 55.7
 }
