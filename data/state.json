@@ -118,6 +118,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "NIGHT_sE_1783252446162",
+      "symbol": "NIGHT",
+      "name": "Midnight",
+      "coinId": "midnight-3",
+      "rank": 99,
+      "stratId": "sE",
+      "entryPrice": 0.033435,
+      "entryTime": 1783252446162,
+      "entryDate": "2026-07-05T11:54:06.162Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.0323 > EMA21=0.0322 · RSI=54 · Vol x1.1",
+      "strength": 78,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4488,7 +4505,7 @@
     "XLM_sM": 1780450105090,
     "RAIN_sE": 1780857336234,
     "WLD_sM": 1780648179526,
-    "NIGHT_sE": 1780707200523,
+    "NIGHT_sE": 1783252446162,
     "ONDO_sE": 1780645734397,
     "ZEC_sE": 1780645735219,
     "TRUMP_sM": 1781481460279,
@@ -4504,9 +4521,9 @@
     "ADA_sE": 1783214340360,
     "BCH_sE": 1783241136263
   },
-  "scanCount": 783,
+  "scanCount": 784,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-05T10:28:16.464Z",
+  "lastScan": "2026-07-05T11:54:07.083Z",
   "lastReport": "2026-07-05T08:46:06.543Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 23,
