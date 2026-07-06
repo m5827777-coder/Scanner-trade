@@ -1,23 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "AAVE_sE_1782343221088",
-      "symbol": "AAVE",
-      "name": "Aave",
-      "coinId": "aave",
-      "rank": 59,
-      "stratId": "sE",
-      "entryPrice": 79.31,
-      "entryTime": 1782343221088,
-      "entryDate": "2026-06-24T23:20:21.088Z",
-      "entrySignal": "Golden Cross 3д назад · EMA9=74.7925 > EMA21=73.8421 · RSI=56 · Vol x1.2",
-      "strength": 76,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "WBT_sE_1782928088771",
       "symbol": "WBT",
       "name": "WhiteBIT Coin",
@@ -138,6 +121,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "AAVE_sE_1782343221088",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "coinId": "aave",
+      "rank": 59,
+      "stratId": "sE",
+      "entryPrice": 79.31,
+      "entryTime": 1782343221088,
+      "entryDate": "2026-06-24T23:20:21.088Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=74.7925 > EMA21=73.8421 · RSI=56 · Vol x1.2",
+      "strength": 76,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 91.59,
+      "exitTime": 1783332399340,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.48354558063296,
+      "pnlUsd": 15.48354558063296,
+      "total": 115.48354558063296
+    },
     {
       "id": "SKY_sM_1783045692492",
       "symbol": "SKY",
@@ -4521,18 +4527,18 @@
     "ADA_sE": 1783214340360,
     "BCH_sE": 1783241136263
   },
-  "scanCount": 800,
+  "scanCount": 801,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-06T08:51:20.695Z",
-  "lastReport": "2026-07-06T08:51:20.695Z",
+  "lastScan": "2026-07-06T10:07:21.124Z",
+  "lastReport": "2026-07-06T10:07:21.124Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 24,
   "totalStats": {
-    "trades": 187,
-    "wins": 61,
+    "trades": 188,
+    "wins": 62,
     "losses": 126,
-    "totalPnl": -212.81291899328673,
-    "invested": 18700
+    "totalPnl": -197.32937341265378,
+    "invested": 18800
   },
   "byStrategy": {
     "sR": {
@@ -4541,9 +4547,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 71,
-      "wins": 17,
-      "pnl": -140.69159582748603
+      "trades": 72,
+      "wins": 18,
+      "pnl": -125.20805024685306
     },
     "sM": {
       "trades": 13,
@@ -4571,9 +4577,9 @@
         "pnl": 69.99232410487014
       },
       "sE": {
-        "trades": 15,
-        "wins": 7,
-        "pnl": 35.8406666267753
+        "trades": 16,
+        "wins": 8,
+        "pnl": 51.324212207408266
       },
       "sM": {
         "trades": 4,
