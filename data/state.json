@@ -4586,9 +4586,9 @@
     "LTC_sE": 1783341057525,
     "ETH_sE": 1783351224520
   },
-  "scanCount": 807,
+  "scanCount": 808,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-06T20:16:06.351Z",
+  "lastScan": "2026-07-06T21:48:54.350Z",
   "lastReport": "2026-07-06T19:49:13.509Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 24,
@@ -4693,5 +4693,5 @@
       }
     }
   },
-  "btcDominance": 55.8
+  "btcDominance": 55.9
 }
