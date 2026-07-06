@@ -135,6 +135,40 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ETH_sE_1783351224519",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "coinId": "ethereum",
+      "rank": 2,
+      "stratId": "sE",
+      "entryPrice": 1760.95,
+      "entryTime": 1783351224519,
+      "entryDate": "2026-07-06T15:20:24.519Z",
+      "entrySignal": "Golden Cross вчера · EMA9=1709.9752 > EMA21=1697.7212 · RSI=53 · Vol x6.9",
+      "strength": 90,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "ZEC_sE_1783351230871",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 15,
+      "stratId": "sE",
+      "entryPrice": 447.87,
+      "entryTime": 1783351230871,
+      "entryDate": "2026-07-06T15:20:30.871Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=440.9929 > EMA21=440.5024 · RSI=49 · Vol x1.0",
+      "strength": 80,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4530,7 +4564,7 @@
     "WLD_sM": 1780648179526,
     "NIGHT_sE": 1783252446162,
     "ONDO_sE": 1780645734397,
-    "ZEC_sE": 1780645735219,
+    "ZEC_sE": 1783351230871,
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1781827946706,
     "NEAR_sE": 1781707244871,
@@ -4543,12 +4577,13 @@
     "SKY_sM": 1783307453230,
     "ADA_sE": 1783214340360,
     "BCH_sE": 1783241136263,
-    "LTC_sE": 1783341057525
+    "LTC_sE": 1783341057525,
+    "ETH_sE": 1783351224520
   },
-  "scanCount": 802,
+  "scanCount": 803,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-06T12:31:26.155Z",
-  "lastReport": "2026-07-06T10:07:21.124Z",
+  "lastScan": "2026-07-06T15:21:06.101Z",
+  "lastReport": "2026-07-06T15:21:06.101Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 24,
   "totalStats": {
@@ -4647,5 +4682,5 @@
       }
     }
   },
-  "btcDominance": 55.5
+  "btcDominance": 55.6
 }
