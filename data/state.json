@@ -18,23 +18,6 @@
       "peakPnl": 0
     },
     {
-      "id": "LIT_sM_1782981286266",
-      "symbol": "LIT",
-      "name": "Lighter",
-      "coinId": "lighter",
-      "rank": 100,
-      "stratId": "sM",
-      "entryPrice": 2.1547,
-      "entryTime": 1782981286266,
-      "entryDate": "2026-07-02T08:34:46.266Z",
-      "entrySignal": "Пробой 20d max $1.9868 на +8.5% · Объём x5.0 · RSI=65",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SOL_sE_1783000011019",
       "symbol": "SOL",
       "name": "Solana",
@@ -172,6 +155,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "LIT_sM_1782981286266",
+      "symbol": "LIT",
+      "name": "Lighter",
+      "coinId": "lighter",
+      "rank": 100,
+      "stratId": "sM",
+      "entryPrice": 2.1547,
+      "entryTime": 1782981286266,
+      "entryDate": "2026-07-02T08:34:46.266Z",
+      "entrySignal": "Пробой 20d max $1.9868 на +8.5% · Объём x5.0 · RSI=65",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2.6959,
+      "exitTime": 1783361801037,
+      "exitReason": "✅ TP +25%",
+      "pnl": 25.117185687102605,
+      "pnlUsd": 25.117185687102605,
+      "total": 125.1171856871026
+    },
     {
       "id": "AAVE_sE_1782343221088",
       "symbol": "AAVE",
@@ -4580,18 +4586,18 @@
     "LTC_sE": 1783341057525,
     "ETH_sE": 1783351224520
   },
-  "scanCount": 804,
+  "scanCount": 805,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-06T16:02:22.147Z",
+  "lastScan": "2026-07-06T18:17:25.729Z",
   "lastReport": "2026-07-06T15:21:06.101Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 24,
   "totalStats": {
-    "trades": 188,
-    "wins": 62,
+    "trades": 189,
+    "wins": 63,
     "losses": 126,
-    "totalPnl": -197.32937341265378,
-    "invested": 18800
+    "totalPnl": -172.2121877255512,
+    "invested": 18900
   },
   "byStrategy": {
     "sR": {
@@ -4605,9 +4611,9 @@
       "pnl": -125.20805024685306
     },
     "sM": {
-      "trades": 13,
-      "wins": 6,
-      "pnl": 33.18749104604503
+      "trades": 14,
+      "wins": 7,
+      "pnl": 58.30467673314764
     }
   },
   "byRegime": {
@@ -4679,8 +4685,13 @@
         "trades": 1,
         "wins": 0,
         "pnl": -5.088377075522232
+      },
+      "sM": {
+        "trades": 1,
+        "wins": 1,
+        "pnl": 25.117185687102605
       }
     }
   },
-  "btcDominance": 55.8
+  "btcDominance": 55.9
 }
