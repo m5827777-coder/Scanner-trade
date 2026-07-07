@@ -4627,9 +4627,9 @@
     "ETH_sE": 1783351224520,
     "AVAX_sE": 1783416722684
   },
-  "scanCount": 818,
+  "scanCount": 819,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-07T14:18:57.988Z",
+  "lastScan": "2026-07-07T16:08:41.486Z",
   "lastReport": "2026-07-07T14:18:57.988Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
@@ -4739,5 +4739,5 @@
       }
     }
   },
-  "btcDominance": 55.8
+  "btcDominance": 56
 }
