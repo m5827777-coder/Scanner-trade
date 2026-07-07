@@ -52,23 +52,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ADA_sE_1783214340360",
-      "symbol": "ADA",
-      "name": "Cardano",
-      "coinId": "cardano",
-      "rank": 16,
-      "stratId": "sE",
-      "entryPrice": 0.1917,
-      "entryTime": 1783214340360,
-      "entryDate": "2026-07-05T01:19:00.360Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.1691 > EMA21=0.1667 · RSI=61 · Vol x1.1",
-      "strength": 81,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "BCH_sE_1783241136263",
       "symbol": "BCH",
       "name": "Bitcoin Cash",
@@ -155,6 +138,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ADA_sE_1783214340360",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 16,
+      "stratId": "sE",
+      "entryPrice": 0.1917,
+      "entryTime": 1783214340360,
+      "entryDate": "2026-07-05T01:19:00.360Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.1691 > EMA21=0.1667 · RSI=61 · Vol x1.1",
+      "strength": 81,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.1799,
+      "exitTime": 1783402719977,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.1554512258737635,
+      "pnlUsd": -6.1554512258737635,
+      "total": 93.84454877412624
+    },
     {
       "id": "LIT_sM_1782981286266",
       "symbol": "LIT",
@@ -4581,23 +4587,23 @@
     "LIT_sM": 1782981286266,
     "SOL_sE": 1783000011019,
     "SKY_sM": 1783307453230,
-    "ADA_sE": 1783214340360,
+    "ADA_sE": 1783481919977,
     "BCH_sE": 1783241136263,
     "LTC_sE": 1783341057525,
     "ETH_sE": 1783351224520
   },
-  "scanCount": 812,
+  "scanCount": 813,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-07T02:36:25.123Z",
+  "lastScan": "2026-07-07T05:39:22.675Z",
   "lastReport": "2026-07-07T02:36:25.123Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 27,
   "totalStats": {
-    "trades": 189,
+    "trades": 190,
     "wins": 63,
-    "losses": 126,
-    "totalPnl": -172.2121877255512,
-    "invested": 18900
+    "losses": 127,
+    "totalPnl": -178.36763895142496,
+    "invested": 19000
   },
   "byStrategy": {
     "sR": {
@@ -4606,9 +4612,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 72,
+      "trades": 73,
       "wins": 18,
-      "pnl": -125.20805024685306
+      "pnl": -131.36350147272682
     },
     "sM": {
       "trades": 14,
@@ -4690,8 +4696,13 @@
         "trades": 1,
         "wins": 1,
         "pnl": 25.117185687102605
+      },
+      "sE": {
+        "trades": 1,
+        "wins": 0,
+        "pnl": -6.1554512258737635
       }
     }
   },
-  "btcDominance": 55.9
+  "btcDominance": 55.8
 }
