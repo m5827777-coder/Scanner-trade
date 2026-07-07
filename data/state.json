@@ -4627,11 +4627,11 @@
     "ETH_sE": 1783351224520,
     "AVAX_sE": 1783416722684
   },
-  "scanCount": 817,
+  "scanCount": 818,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-07T13:39:21.488Z",
-  "lastReport": "2026-07-07T09:32:27.664Z",
-  "marketRegime": "BULL_TREND",
+  "lastScan": "2026-07-07T14:18:57.988Z",
+  "lastReport": "2026-07-07T14:18:57.988Z",
+  "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "totalStats": {
     "trades": 190,
