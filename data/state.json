@@ -137,6 +137,25 @@
       "peakPnl": 0
     },
     {
+      "id": "MORPHO_sE_1783509829791",
+      "symbol": "MORPHO",
+      "name": "Morpho",
+      "coinId": "morpho",
+      "rank": 54,
+      "stratId": "sE",
+      "entryPrice": 2.0892,
+      "entryTime": 1783509829791,
+      "entryDate": "2026-07-08T11:23:49.791Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=1.9858 > EMA21=1.9359 · RSI=57 · Vol x1.0",
+      "strength": 73,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    }
+  ],
+  "closedTrades": [
+    {
       "id": "WLFI_sE_1783414363386",
       "symbol": "WLFI",
       "name": "World Liberty Financial",
@@ -148,13 +167,17 @@
       "entryDate": "2026-07-07T08:52:43.386Z",
       "entrySignal": "Golden Cross сегодня · EMA9=0.0587 > EMA21=0.0585 · RSI=57 · Vol x1.3",
       "strength": 85,
-      "regime": "BULL",
+      "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 0.05751,
+      "exitTime": 1783509807205,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -5.798525798525802,
+      "pnlUsd": -5.7985257985258025,
+      "total": 94.2014742014742
+    },
     {
       "id": "AVAX_sE_1783416722684",
       "symbol": "AVAX",
@@ -4599,7 +4622,7 @@
     "ICP_sR": 1779986502655,
     "WLD_sE": 1779850424416,
     "JUP_sE": 1781968157103,
-    "MORPHO_sE": 1783154898916,
+    "MORPHO_sE": 1783509829791,
     "TON_sE": 1780599053641,
     "OKB_sE": 1780482656110,
     "FET_sE": 1780634934681,
@@ -4633,18 +4656,18 @@
     "ETH_sE": 1783351224520,
     "AVAX_sE": 1783416722684
   },
-  "scanCount": 831,
+  "scanCount": 832,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-08T09:30:57.877Z",
+  "lastScan": "2026-07-08T11:24:08.818Z",
   "lastReport": "2026-07-08T08:17:56.844Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 20,
   "totalStats": {
-    "trades": 191,
+    "trades": 192,
     "wins": 63,
-    "losses": 128,
-    "totalPnl": -184.02077548279027,
-    "invested": 19100
+    "losses": 129,
+    "totalPnl": -189.8193012813161,
+    "invested": 19200
   },
   "byStrategy": {
     "sR": {
@@ -4653,9 +4676,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 74,
+      "trades": 75,
       "wins": 18,
-      "pnl": -137.01663800409213
+      "pnl": -142.81516380261795
     },
     "sM": {
       "trades": 14,
@@ -4683,9 +4706,9 @@
         "pnl": 69.99232410487014
       },
       "sE": {
-        "trades": 17,
+        "trades": 18,
         "wins": 8,
-        "pnl": 45.67107567604295
+        "pnl": 39.87254987751715
       },
       "sM": {
         "trades": 4,
@@ -4745,5 +4768,5 @@
       }
     }
   },
-  "btcDominance": 55.9
+  "btcDominance": 56
 }
