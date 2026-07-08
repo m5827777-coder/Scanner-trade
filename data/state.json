@@ -86,23 +86,6 @@
       "peakPnl": 0
     },
     {
-      "id": "LTC_sE_1783341057525",
-      "symbol": "LTC",
-      "name": "Litecoin",
-      "coinId": "litecoin",
-      "rank": 28,
-      "stratId": "sE",
-      "entryPrice": 44.4,
-      "entryTime": 1783341057525,
-      "entryDate": "2026-07-06T12:30:57.525Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=43.8779 > EMA21=43.8330 · RSI=49 · Vol x1.2",
-      "strength": 79,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ETH_sE_1783351224519",
       "symbol": "ETH",
       "name": "Ethereum",
@@ -189,6 +172,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "LTC_sE_1783341057525",
+      "symbol": "LTC",
+      "name": "Litecoin",
+      "coinId": "litecoin",
+      "rank": 28,
+      "stratId": "sE",
+      "entryPrice": 44.4,
+      "entryTime": 1783341057525,
+      "entryDate": "2026-07-06T12:30:57.525Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=43.8779 > EMA21=43.8330 · RSI=49 · Vol x1.2",
+      "strength": 79,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 43.42,
+      "exitTime": 1783538181669,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -2.2072072072072,
+      "pnlUsd": -2.2072072072072,
+      "total": 97.7927927927928
+    },
     {
       "id": "WLFI_sE_1783414363386",
       "symbol": "WLFI",
@@ -4690,18 +4696,18 @@
     "ETH_sE": 1783351224520,
     "AVAX_sE": 1783416722684
   },
-  "scanCount": 837,
+  "scanCount": 838,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-08T18:09:31.561Z",
-  "lastReport": "2026-07-08T13:51:01.779Z",
+  "lastScan": "2026-07-08T19:17:03.523Z",
+  "lastReport": "2026-07-08T19:17:03.523Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 20,
   "totalStats": {
-    "trades": 192,
+    "trades": 193,
     "wins": 63,
-    "losses": 129,
-    "totalPnl": -189.8193012813161,
-    "invested": 19200
+    "losses": 130,
+    "totalPnl": -192.0265084885233,
+    "invested": 19300
   },
   "byStrategy": {
     "sR": {
@@ -4710,9 +4716,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 75,
+      "trades": 76,
       "wins": 18,
-      "pnl": -142.81516380261795
+      "pnl": -145.02237100982515
     },
     "sM": {
       "trades": 14,
@@ -4740,9 +4746,9 @@
         "pnl": 69.99232410487014
       },
       "sE": {
-        "trades": 18,
+        "trades": 19,
         "wins": 8,
-        "pnl": 39.87254987751715
+        "pnl": 37.665342670309954
       },
       "sM": {
         "trades": 4,
@@ -4802,5 +4808,5 @@
       }
     }
   },
-  "btcDominance": 56
+  "btcDominance": 55.9
 }
