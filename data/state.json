@@ -69,23 +69,6 @@
       "peakPnl": 0
     },
     {
-      "id": "NIGHT_sE_1783252446162",
-      "symbol": "NIGHT",
-      "name": "Midnight",
-      "coinId": "midnight-3",
-      "rank": 99,
-      "stratId": "sE",
-      "entryPrice": 0.033435,
-      "entryTime": 1783252446162,
-      "entryDate": "2026-07-05T11:54:06.162Z",
-      "entrySignal": "Golden Cross вчера · EMA9=0.0323 > EMA21=0.0322 · RSI=54 · Vol x1.1",
-      "strength": 78,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ETH_sE_1783351224519",
       "symbol": "ETH",
       "name": "Ethereum",
@@ -172,6 +155,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "NIGHT_sE_1783252446162",
+      "symbol": "NIGHT",
+      "name": "Midnight",
+      "coinId": "midnight-3",
+      "rank": 99,
+      "stratId": "sE",
+      "entryPrice": 0.033435,
+      "entryTime": 1783252446162,
+      "entryDate": "2026-07-05T11:54:06.162Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.0323 > EMA21=0.0322 · RSI=54 · Vol x1.1",
+      "strength": 78,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.031484,
+      "exitTime": 1783543827351,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -5.835202631972488,
+      "pnlUsd": -5.835202631972488,
+      "total": 94.16479736802751
+    },
     {
       "id": "LTC_sE_1783341057525",
       "symbol": "LTC",
@@ -4696,18 +4702,18 @@
     "ETH_sE": 1783351224520,
     "AVAX_sE": 1783416722684
   },
-  "scanCount": 839,
+  "scanCount": 840,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-08T19:52:30.906Z",
+  "lastScan": "2026-07-08T20:51:03.564Z",
   "lastReport": "2026-07-08T19:17:03.523Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 20,
   "totalStats": {
-    "trades": 193,
+    "trades": 194,
     "wins": 63,
-    "losses": 130,
-    "totalPnl": -192.0265084885233,
-    "invested": 19300
+    "losses": 131,
+    "totalPnl": -197.86171112049578,
+    "invested": 19400
   },
   "byStrategy": {
     "sR": {
@@ -4716,9 +4722,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 76,
+      "trades": 77,
       "wins": 18,
-      "pnl": -145.02237100982515
+      "pnl": -150.85757364179764
     },
     "sM": {
       "trades": 14,
@@ -4746,9 +4752,9 @@
         "pnl": 69.99232410487014
       },
       "sE": {
-        "trades": 19,
+        "trades": 20,
         "wins": 8,
-        "pnl": 37.665342670309954
+        "pnl": 31.830140038337465
       },
       "sM": {
         "trades": 4,
