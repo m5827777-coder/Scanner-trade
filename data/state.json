@@ -152,7 +152,9 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "AVAX_sE_1783416722684",
       "symbol": "AVAX",
@@ -168,10 +170,14 @@
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 6.392,
+      "exitTime": 1783476559832,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -5.6531365313653135,
+      "pnlUsd": -5.6531365313653135,
+      "total": 94.34686346863468
+    },
     {
       "id": "ADA_sE_1783214340360",
       "symbol": "ADA",
@@ -4627,18 +4633,18 @@
     "ETH_sE": 1783351224520,
     "AVAX_sE": 1783416722684
   },
-  "scanCount": 826,
+  "scanCount": 827,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-08T01:07:46.253Z",
-  "lastReport": "2026-07-07T19:47:48.965Z",
+  "lastScan": "2026-07-08T02:10:01.766Z",
+  "lastReport": "2026-07-08T02:10:01.766Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 20,
   "totalStats": {
-    "trades": 190,
+    "trades": 191,
     "wins": 63,
-    "losses": 127,
-    "totalPnl": -178.36763895142496,
-    "invested": 19000
+    "losses": 128,
+    "totalPnl": -184.02077548279027,
+    "invested": 19100
   },
   "byStrategy": {
     "sR": {
@@ -4647,9 +4653,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 73,
+      "trades": 74,
       "wins": 18,
-      "pnl": -131.36350147272682
+      "pnl": -137.01663800409213
     },
     "sM": {
       "trades": 14,
@@ -4677,9 +4683,9 @@
         "pnl": 69.99232410487014
       },
       "sE": {
-        "trades": 16,
+        "trades": 17,
         "wins": 8,
-        "pnl": 51.324212207408266
+        "pnl": 45.67107567604295
       },
       "sM": {
         "trades": 4,
@@ -4739,5 +4745,5 @@
       }
     }
   },
-  "btcDominance": 56.1
+  "btcDominance": 56
 }
