@@ -186,6 +186,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ARB_sE_1783633790318",
+      "symbol": "ARB",
+      "name": "Arbitrum",
+      "coinId": "arbitrum",
+      "rank": 96,
+      "stratId": "sE",
+      "entryPrice": 0.08884,
+      "entryTime": 1783633790318,
+      "entryDate": "2026-07-09T21:49:50.318Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0815 > EMA21=0.0808 · RSI=58 · Vol x1.2",
+      "strength": 83,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4735,11 +4752,12 @@
     "LTC_sE": 1783341057525,
     "ETH_sE": 1783351224520,
     "AVAX_sE": 1783587367393,
-    "SKY_sE": 1783587377362
+    "SKY_sE": 1783587377362,
+    "ARB_sE": 1783633790318
   },
-  "scanCount": 855,
+  "scanCount": 856,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-09T20:18:46.234Z",
+  "lastScan": "2026-07-09T21:49:52.097Z",
   "lastReport": "2026-07-09T19:36:51.722Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 22,
