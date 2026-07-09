@@ -4737,10 +4737,10 @@
     "AVAX_sE": 1783587367393,
     "SKY_sE": 1783587377362
   },
-  "scanCount": 850,
+  "scanCount": 851,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-09T14:19:01.253Z",
-  "lastReport": "2026-07-09T09:29:17.784Z",
+  "lastScan": "2026-07-09T14:46:01.945Z",
+  "lastReport": "2026-07-09T14:46:01.945Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 22,
   "totalStats": {
@@ -4849,5 +4849,5 @@
       }
     }
   },
-  "btcDominance": 56.2
+  "btcDominance": 56.1
 }
