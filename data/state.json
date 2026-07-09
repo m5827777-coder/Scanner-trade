@@ -4702,10 +4702,10 @@
     "ETH_sE": 1783351224520,
     "AVAX_sE": 1783416722684
   },
-  "scanCount": 844,
+  "scanCount": 845,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-09T01:51:19.976Z",
-  "lastReport": "2026-07-09T01:51:19.976Z",
+  "lastScan": "2026-07-09T02:28:29.475Z",
+  "lastReport": "2026-07-09T02:28:29.475Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 22,
   "totalStats": {
