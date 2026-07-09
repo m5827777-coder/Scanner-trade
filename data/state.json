@@ -152,6 +152,40 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "AVAX_sE_1783587367393",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "coinId": "avalanche-2",
+      "rank": 32,
+      "stratId": "sE",
+      "entryPrice": 6.741,
+      "entryTime": 1783587367393,
+      "entryDate": "2026-07-09T08:56:07.393Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=6.7036 > EMA21=6.7163 · RSI=46 · Vol x1.2",
+      "strength": 68,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "SKY_sE_1783587377362",
+      "symbol": "SKY",
+      "name": "Sky",
+      "coinId": "sky",
+      "rank": 55,
+      "stratId": "sE",
+      "entryPrice": 0.05803,
+      "entryTime": 1783587377362,
+      "entryDate": "2026-07-09T08:56:17.362Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0559 > EMA21=0.0559 · RSI=52 · Vol x1.4",
+      "strength": 87,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4700,12 +4734,13 @@
     "BCH_sE": 1783241136263,
     "LTC_sE": 1783341057525,
     "ETH_sE": 1783351224520,
-    "AVAX_sE": 1783416722684
+    "AVAX_sE": 1783587367393,
+    "SKY_sE": 1783587377362
   },
-  "scanCount": 846,
+  "scanCount": 847,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-09T05:49:47.043Z",
-  "lastReport": "2026-07-09T02:28:29.475Z",
+  "lastScan": "2026-07-09T08:56:36.329Z",
+  "lastReport": "2026-07-09T08:56:36.329Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 22,
   "totalStats": {
@@ -4814,5 +4849,5 @@
       }
     }
   },
-  "btcDominance": 56
+  "btcDominance": 56.1
 }
