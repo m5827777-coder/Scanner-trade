@@ -203,6 +203,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "LEO_sE_1783669674148",
+      "symbol": "LEO",
+      "name": "LEO Token",
+      "coinId": "leo-token",
+      "rank": 14,
+      "stratId": "sE",
+      "entryPrice": 9.667,
+      "entryTime": 1783669674148,
+      "entryDate": "2026-07-10T07:47:54.148Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=9.4268 > EMA21=9.4247 · RSI=58 · Vol x2.9",
+      "strength": 92,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4753,11 +4770,12 @@
     "ETH_sE": 1783351224520,
     "AVAX_sE": 1783587367393,
     "SKY_sE": 1783587377362,
-    "ARB_sE": 1783633790318
+    "ARB_sE": 1783633790318,
+    "LEO_sE": 1783669674148
   },
-  "scanCount": 860,
+  "scanCount": 861,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-10T04:07:04.115Z",
+  "lastScan": "2026-07-10T07:48:28.773Z",
   "lastReport": "2026-07-10T02:30:28.461Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 23,
@@ -4867,5 +4885,5 @@
       }
     }
   },
-  "btcDominance": 56.3
+  "btcDominance": 56.4
 }
