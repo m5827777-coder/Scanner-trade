@@ -4755,10 +4755,10 @@
     "SKY_sE": 1783587377362,
     "ARB_sE": 1783633790318
   },
-  "scanCount": 858,
+  "scanCount": 859,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-10T00:04:55.909Z",
-  "lastReport": "2026-07-09T19:36:51.722Z",
+  "lastScan": "2026-07-10T02:30:28.461Z",
+  "lastReport": "2026-07-10T02:30:28.461Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 23,
   "totalStats": {
