@@ -220,6 +220,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ICP_sM_1783692607975",
+      "symbol": "ICP",
+      "name": "Internet Computer",
+      "coinId": "internet-computer",
+      "rank": 60,
+      "stratId": "sM",
+      "entryPrice": 2.319,
+      "entryTime": 1783692607975,
+      "entryDate": "2026-07-10T14:10:07.975Z",
+      "entrySignal": "Пробой 20d max $2.3180 на +0.0% · Объём x1.6 · RSI=50",
+      "strength": 67,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4771,12 +4788,13 @@
     "AVAX_sE": 1783587367393,
     "SKY_sE": 1783587377362,
     "ARB_sE": 1783633790318,
-    "LEO_sE": 1783669674148
+    "LEO_sE": 1783669674148,
+    "ICP_sM": 1783692607975
   },
-  "scanCount": 864,
+  "scanCount": 865,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-10T12:56:30.162Z",
-  "lastReport": "2026-07-10T09:25:49.514Z",
+  "lastScan": "2026-07-10T14:10:26.908Z",
+  "lastReport": "2026-07-10T14:10:26.908Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 23,
   "totalStats": {
