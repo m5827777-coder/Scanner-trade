@@ -4808,9 +4808,9 @@
     "LEO_sE": 1783669674148,
     "ICP_sM": 1783692607975
   },
-  "scanCount": 866,
+  "scanCount": 867,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-10T15:28:22.560Z",
+  "lastScan": "2026-07-10T17:17:25.990Z",
   "lastReport": "2026-07-10T14:10:26.908Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 23,
@@ -4920,5 +4920,5 @@
       }
     }
   },
-  "btcDominance": 56.4
+  "btcDominance": 56.3
 }
