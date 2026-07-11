@@ -271,6 +271,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "POL_sE_1783766752733",
+      "symbol": "POL",
+      "name": "POL (ex-MATIC)",
+      "coinId": "polygon-ecosystem-token",
+      "rank": 74,
+      "stratId": "sE",
+      "entryPrice": 0.08024,
+      "entryTime": 1783766752733,
+      "entryDate": "2026-07-11T10:45:52.733Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.0765 > EMA21=0.0759 · RSI=56 · Vol x1.0",
+      "strength": 78,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4823,11 +4840,12 @@
     "SKY_sE": 1783587377362,
     "ARB_sE": 1783633790318,
     "LEO_sE": 1783669674148,
-    "ICP_sM": 1783692607975
+    "ICP_sM": 1783692607975,
+    "POL_sE": 1783766752733
   },
-  "scanCount": 880,
+  "scanCount": 881,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-11T09:44:44.525Z",
+  "lastScan": "2026-07-11T10:46:03.820Z",
   "lastReport": "2026-07-11T07:47:08.847Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 26,
