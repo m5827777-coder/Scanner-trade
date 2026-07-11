@@ -103,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "AVAX_sE_1783587367393",
-      "symbol": "AVAX",
-      "name": "Avalanche",
-      "coinId": "avalanche-2",
-      "rank": 32,
-      "stratId": "sE",
-      "entryPrice": 6.741,
-      "entryTime": 1783587367393,
-      "entryDate": "2026-07-09T08:56:07.393Z",
-      "entrySignal": "Golden Cross 4д назад · EMA9=6.7036 > EMA21=6.7163 · RSI=46 · Vol x1.2",
-      "strength": 68,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SKY_sE_1783587377362",
       "symbol": "SKY",
       "name": "Sky",
@@ -257,6 +240,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "AVAX_sE_1783587367393",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "coinId": "avalanche-2",
+      "rank": 32,
+      "stratId": "sE",
+      "entryPrice": 6.741,
+      "entryTime": 1783587367393,
+      "entryDate": "2026-07-09T08:56:07.393Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=6.7036 > EMA21=6.7163 · RSI=46 · Vol x1.2",
+      "strength": 68,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 6.562,
+      "exitTime": 1783813303305,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -2.655392375018534,
+      "pnlUsd": -2.655392375018534,
+      "total": 97.34460762498146
+    },
     {
       "id": "ZEC_sE_1783351230871",
       "symbol": "ZEC",
@@ -4879,18 +4885,18 @@
     "POL_sE": 1783766752733,
     "PEPE_sE": 1783782559945
   },
-  "scanCount": 895,
+  "scanCount": 896,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-11T22:54:43.565Z",
+  "lastScan": "2026-07-11T23:42:23.483Z",
   "lastReport": "2026-07-11T18:54:09.498Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 26,
   "totalStats": {
-    "trades": 197,
+    "trades": 198,
     "wins": 65,
-    "losses": 132,
-    "totalPnl": -169.8700289501851,
-    "invested": 19700
+    "losses": 133,
+    "totalPnl": -172.5254213252036,
+    "invested": 19800
   },
   "byStrategy": {
     "sR": {
@@ -4899,9 +4905,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 80,
+      "trades": 81,
       "wins": 20,
-      "pnl": -122.86589147148696
+      "pnl": -125.5212838465055
     },
     "sM": {
       "trades": 14,
@@ -4929,9 +4935,9 @@
         "pnl": 69.99232410487014
       },
       "sE": {
-        "trades": 23,
+        "trades": 24,
         "wins": 10,
-        "pnl": 59.82182220864813
+        "pnl": 57.16642983362959
       },
       "sM": {
         "trades": 4,
@@ -4991,5 +4997,5 @@
       }
     }
   },
-  "btcDominance": 56.2
+  "btcDominance": 56.3
 }
