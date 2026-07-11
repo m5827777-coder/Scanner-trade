@@ -271,6 +271,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "PEPE_sE_1783782559945",
+      "symbol": "PEPE",
+      "name": "Pepe",
+      "coinId": "pepe",
+      "rank": 61,
+      "stratId": "sE",
+      "entryPrice": 0.000002819,
+      "entryTime": 1783782559945,
+      "entryDate": "2026-07-11T15:09:19.945Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0000 > EMA21=0.0000 · RSI=55 · Vol x1.0",
+      "strength": 82,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4847,11 +4864,12 @@
     "ARB_sE": 1783633790318,
     "LEO_sE": 1783669674148,
     "ICP_sM": 1783692607975,
-    "POL_sE": 1783766752733
+    "POL_sE": 1783766752733,
+    "PEPE_sE": 1783782559945
   },
-  "scanCount": 885,
+  "scanCount": 886,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-11T14:06:14.031Z",
+  "lastScan": "2026-07-11T15:09:34.246Z",
   "lastReport": "2026-07-11T13:06:31.009Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 26,
