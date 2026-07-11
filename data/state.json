@@ -103,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "WLFI_sE_1783523634675",
-      "symbol": "WLFI",
-      "name": "World Liberty Financial",
-      "coinId": "world-liberty-financial",
-      "rank": 42,
-      "stratId": "sE",
-      "entryPrice": 0.05941,
-      "entryTime": 1783523634675,
-      "entryDate": "2026-07-08T15:13:54.675Z",
-      "entrySignal": "Golden Cross вчера · EMA9=0.0587 > EMA21=0.0585 · RSI=52 · Vol x1.1",
-      "strength": 73,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ADA_sR_1783529386230",
       "symbol": "ADA",
       "name": "Cardano",
@@ -291,6 +274,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "WLFI_sE_1783523634675",
+      "symbol": "WLFI",
+      "name": "World Liberty Financial",
+      "coinId": "world-liberty-financial",
+      "rank": 42,
+      "stratId": "sE",
+      "entryPrice": 0.05941,
+      "entryTime": 1783523634675,
+      "entryDate": "2026-07-08T15:13:54.675Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.0587 > EMA21=0.0585 · RSI=52 · Vol x1.1",
+      "strength": 73,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.05789,
+      "exitTime": 1783786032256,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -2.558491836391181,
+      "pnlUsd": -2.558491836391181,
+      "total": 97.44150816360882
+    },
     {
       "id": "UNI_sE_1783000026374",
       "symbol": "UNI",
@@ -4867,18 +4873,18 @@
     "POL_sE": 1783766752733,
     "PEPE_sE": 1783782559945
   },
-  "scanCount": 886,
+  "scanCount": 887,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-11T15:09:34.246Z",
+  "lastScan": "2026-07-11T16:07:48.745Z",
   "lastReport": "2026-07-11T13:06:31.009Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 26,
   "totalStats": {
-    "trades": 195,
+    "trades": 196,
     "wins": 64,
-    "losses": 131,
-    "totalPnl": -182.76914758111704,
-    "invested": 19500
+    "losses": 132,
+    "totalPnl": -185.3276394175082,
+    "invested": 19600
   },
   "byStrategy": {
     "sR": {
@@ -4887,9 +4893,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 78,
+      "trades": 79,
       "wins": 19,
-      "pnl": -135.7650101024189
+      "pnl": -138.32350193881007
     },
     "sM": {
       "trades": 14,
@@ -4917,9 +4923,9 @@
         "pnl": 69.99232410487014
       },
       "sE": {
-        "trades": 21,
+        "trades": 22,
         "wins": 9,
-        "pnl": 46.922703577716206
+        "pnl": 44.36421174132502
       },
       "sM": {
         "trades": 4,
@@ -4979,5 +4985,5 @@
       }
     }
   },
-  "btcDominance": 56.3
+  "btcDominance": 56.2
 }
