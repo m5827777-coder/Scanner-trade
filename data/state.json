@@ -35,23 +35,6 @@
       "peakPnl": 0
     },
     {
-      "id": "UNI_sE_1783000026374",
-      "symbol": "UNI",
-      "name": "Uniswap",
-      "coinId": "uniswap",
-      "rank": 43,
-      "stratId": "sE",
-      "entryPrice": 3.187,
-      "entryTime": 1783000026374,
-      "entryDate": "2026-07-02T13:47:06.374Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=2.9466 > EMA21=2.9220 · RSI=57 · Vol x1.5",
-      "strength": 87,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "BCH_sE_1783241136263",
       "symbol": "BCH",
       "name": "Bitcoin Cash",
@@ -291,6 +274,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "UNI_sE_1783000026374",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "coinId": "uniswap",
+      "rank": 43,
+      "stratId": "sE",
+      "entryPrice": 3.187,
+      "entryTime": 1783000026374,
+      "entryDate": "2026-07-02T13:47:06.374Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=2.9466 > EMA21=2.9220 · RSI=57 · Vol x1.5",
+      "strength": 87,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 3.668,
+      "exitTime": 1783773306164,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.092563539378737,
+      "pnlUsd": 15.092563539378737,
+      "total": 115.09256353937874
+    },
     {
       "id": "NIGHT_sE_1783252446162",
       "symbol": "NIGHT",
@@ -4843,18 +4849,18 @@
     "ICP_sM": 1783692607975,
     "POL_sE": 1783766752733
   },
-  "scanCount": 882,
+  "scanCount": 883,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-11T11:37:02.050Z",
+  "lastScan": "2026-07-11T12:35:49.168Z",
   "lastReport": "2026-07-11T07:47:08.847Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 26,
   "totalStats": {
-    "trades": 194,
-    "wins": 63,
+    "trades": 195,
+    "wins": 64,
     "losses": 131,
-    "totalPnl": -197.86171112049578,
-    "invested": 19400
+    "totalPnl": -182.76914758111704,
+    "invested": 19500
   },
   "byStrategy": {
     "sR": {
@@ -4863,9 +4869,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 77,
-      "wins": 18,
-      "pnl": -150.85757364179764
+      "trades": 78,
+      "wins": 19,
+      "pnl": -135.7650101024189
     },
     "sM": {
       "trades": 14,
@@ -4893,9 +4899,9 @@
         "pnl": 69.99232410487014
       },
       "sE": {
-        "trades": 20,
-        "wins": 8,
-        "pnl": 31.830140038337465
+        "trades": 21,
+        "wins": 9,
+        "pnl": 46.922703577716206
       },
       "sM": {
         "trades": 4,
