@@ -4825,10 +4825,10 @@
     "LEO_sE": 1783669674148,
     "ICP_sM": 1783692607975
   },
-  "scanCount": 874,
+  "scanCount": 875,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-11T00:11:43.275Z",
-  "lastReport": "2026-07-10T19:20:55.154Z",
+  "lastScan": "2026-07-11T02:07:37.489Z",
+  "lastReport": "2026-07-11T02:07:37.489Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 26,
   "totalStats": {
