@@ -69,23 +69,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ZEC_sE_1783351230871",
-      "symbol": "ZEC",
-      "name": "Zcash",
-      "coinId": "zcash",
-      "rank": 15,
-      "stratId": "sE",
-      "entryPrice": 447.87,
-      "entryTime": 1783351230871,
-      "entryDate": "2026-07-06T15:20:30.871Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=440.9929 > EMA21=440.5024 · RSI=49 · Vol x1.0",
-      "strength": 80,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "MORPHO_sE_1783509829791",
       "symbol": "MORPHO",
       "name": "Morpho",
@@ -274,6 +257,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ZEC_sE_1783351230871",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 15,
+      "stratId": "sE",
+      "entryPrice": 447.87,
+      "entryTime": 1783351230871,
+      "entryDate": "2026-07-06T15:20:30.871Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=440.9929 > EMA21=440.5024 · RSI=49 · Vol x1.0",
+      "strength": 80,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 517.1,
+      "exitTime": 1783797619166,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.45761046732311,
+      "pnlUsd": 15.45761046732311,
+      "total": 115.45761046732311
+    },
     {
       "id": "WLFI_sE_1783523634675",
       "symbol": "WLFI",
@@ -4873,18 +4879,18 @@
     "POL_sE": 1783766752733,
     "PEPE_sE": 1783782559945
   },
-  "scanCount": 890,
+  "scanCount": 891,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-11T18:54:09.498Z",
+  "lastScan": "2026-07-11T19:21:02.340Z",
   "lastReport": "2026-07-11T18:54:09.498Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 26,
   "totalStats": {
-    "trades": 196,
-    "wins": 64,
+    "trades": 197,
+    "wins": 65,
     "losses": 132,
-    "totalPnl": -185.3276394175082,
-    "invested": 19600
+    "totalPnl": -169.8700289501851,
+    "invested": 19700
   },
   "byStrategy": {
     "sR": {
@@ -4893,9 +4899,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 79,
-      "wins": 19,
-      "pnl": -138.32350193881007
+      "trades": 80,
+      "wins": 20,
+      "pnl": -122.86589147148696
     },
     "sM": {
       "trades": 14,
@@ -4923,9 +4929,9 @@
         "pnl": 69.99232410487014
       },
       "sE": {
-        "trades": 22,
-        "wins": 9,
-        "pnl": 44.36421174132502
+        "trades": 23,
+        "wins": 10,
+        "pnl": 59.82182220864813
       },
       "sM": {
         "trades": 4,
