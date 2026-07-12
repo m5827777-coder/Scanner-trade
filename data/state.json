@@ -237,6 +237,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XLM_sR_1783869256111",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 17,
+      "stratId": "sR",
+      "entryPrice": 0.18881,
+      "entryTime": 1783869256111,
+      "entryDate": "2026-07-12T15:14:16.111Z",
+      "entrySignal": "Ротация #17 XLM: BTC Dom=56.2% · Коррекция -10.7% · RSI=45",
+      "strength": 68,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4823,7 +4840,7 @@
     "ADA_sR": 1783529386230,
     "HYPE_sR": 1778949423923,
     "BCH_sR": 1779639267790,
-    "XLM_sR": 1779211294888,
+    "XLM_sR": 1783869256111,
     "UNI_sR": 1779554027073,
     "DOT_sR": 1779554029231,
     "AAVE_sR": 1780482653547,
@@ -4908,9 +4925,9 @@
     "POL_sE": 1783766752733,
     "PEPE_sE": 1783782559945
   },
-  "scanCount": 907,
+  "scanCount": 908,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-12T14:12:23.410Z",
+  "lastScan": "2026-07-12T15:14:50.036Z",
   "lastReport": "2026-07-12T13:07:38.109Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 26,
