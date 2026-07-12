@@ -254,6 +254,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "GRAM_sR_1783893772185",
+      "symbol": "GRAM",
+      "name": "Gram (prev. Toncoin)",
+      "coinId": "the-open-network",
+      "rank": 25,
+      "stratId": "sR",
+      "entryPrice": 1.617,
+      "entryTime": 1783893772185,
+      "entryDate": "2026-07-12T22:02:52.185Z",
+      "entrySignal": "Ротация #25 GRAM: BTC Dom=56.2% · Коррекция -10.4% · RSI=46",
+      "strength": 63,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4923,11 +4940,12 @@
     "LEO_sE": 1783669674148,
     "ICP_sM": 1783692607975,
     "POL_sE": 1783766752733,
-    "PEPE_sE": 1783782559945
+    "PEPE_sE": 1783782559945,
+    "GRAM_sR": 1783893772185
   },
-  "scanCount": 915,
+  "scanCount": 916,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-12T21:05:52.595Z",
+  "lastScan": "2026-07-12T22:03:18.902Z",
   "lastReport": "2026-07-12T18:58:25.003Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 26,
