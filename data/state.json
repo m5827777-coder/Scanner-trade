@@ -18,23 +18,6 @@
       "peakPnl": 0
     },
     {
-      "id": "SOL_sE_1783000011019",
-      "symbol": "SOL",
-      "name": "Solana",
-      "coinId": "solana",
-      "rank": 7,
-      "stratId": "sE",
-      "entryPrice": 81.73,
-      "entryTime": 1783000011019,
-      "entryDate": "2026-07-02T13:46:51.019Z",
-      "entrySignal": "Golden Cross 2д назад · EMA9=74.7037 > EMA21=73.0798 · RSI=62 · Vol x1.3",
-      "strength": 80,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "BCH_sE_1783241136263",
       "symbol": "BCH",
       "name": "Bitcoin Cash",
@@ -240,6 +223,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "SOL_sE_1783000011019",
+      "symbol": "SOL",
+      "name": "Solana",
+      "coinId": "solana",
+      "rank": 7,
+      "stratId": "sE",
+      "entryPrice": 81.73,
+      "entryTime": 1783000011019,
+      "entryDate": "2026-07-02T13:46:51.019Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=74.7037 > EMA21=73.0798 · RSI=62 · Vol x1.3",
+      "strength": 80,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 76.29,
+      "exitTime": 1783818718560,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.656062645295482,
+      "pnlUsd": -6.656062645295481,
+      "total": 93.34393735470452
+    },
     {
       "id": "AVAX_sE_1783587367393",
       "symbol": "AVAX",
@@ -4871,7 +4877,7 @@
     "AAVE_sE": 1782343221088,
     "WLFI_sE": 1783523634675,
     "LIT_sM": 1782981286266,
-    "SOL_sE": 1783000011019,
+    "SOL_sE": 1783897918560,
     "SKY_sM": 1783307453230,
     "ADA_sE": 1783481919977,
     "BCH_sE": 1783241136263,
@@ -4885,18 +4891,18 @@
     "POL_sE": 1783766752733,
     "PEPE_sE": 1783782559945
   },
-  "scanCount": 896,
+  "scanCount": 897,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-11T23:42:23.483Z",
-  "lastReport": "2026-07-11T18:54:09.498Z",
+  "lastScan": "2026-07-12T01:12:37.800Z",
+  "lastReport": "2026-07-12T01:12:37.800Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 26,
   "totalStats": {
-    "trades": 198,
+    "trades": 199,
     "wins": 65,
-    "losses": 133,
-    "totalPnl": -172.5254213252036,
-    "invested": 19800
+    "losses": 134,
+    "totalPnl": -179.1814839704991,
+    "invested": 19900
   },
   "byStrategy": {
     "sR": {
@@ -4905,9 +4911,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 81,
+      "trades": 82,
       "wins": 20,
-      "pnl": -125.5212838465055
+      "pnl": -132.177346491801
     },
     "sM": {
       "trades": 14,
@@ -4935,9 +4941,9 @@
         "pnl": 69.99232410487014
       },
       "sE": {
-        "trades": 24,
+        "trades": 25,
         "wins": 10,
-        "pnl": 57.16642983362959
+        "pnl": 50.510367188334115
       },
       "sM": {
         "trades": 4,
