@@ -52,23 +52,6 @@
       "peakPnl": 0
     },
     {
-      "id": "MORPHO_sE_1783509829791",
-      "symbol": "MORPHO",
-      "name": "Morpho",
-      "coinId": "morpho",
-      "rank": 54,
-      "stratId": "sE",
-      "entryPrice": 2.0892,
-      "entryTime": 1783509829791,
-      "entryDate": "2026-07-08T11:23:49.791Z",
-      "entrySignal": "Golden Cross 7д назад · EMA9=1.9858 > EMA21=1.9359 · RSI=57 · Vol x1.0",
-      "strength": 73,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ADA_sR_1783529386230",
       "symbol": "ADA",
       "name": "Cardano",
@@ -274,6 +257,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "MORPHO_sE_1783509829791",
+      "symbol": "MORPHO",
+      "name": "Morpho",
+      "coinId": "morpho",
+      "rank": 54,
+      "stratId": "sE",
+      "entryPrice": 2.0892,
+      "entryTime": 1783509829791,
+      "entryDate": "2026-07-08T11:23:49.791Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=1.9858 > EMA21=1.9359 · RSI=57 · Vol x1.0",
+      "strength": 73,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.9516,
+      "exitTime": 1783931742833,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.586253111238749,
+      "pnlUsd": -6.586253111238749,
+      "total": 93.41374688876125
+    },
     {
       "id": "SOL_sE_1783000011019",
       "symbol": "SOL",
@@ -4902,7 +4908,7 @@
     "ICP_sR": 1779986502655,
     "WLD_sE": 1779850424416,
     "JUP_sE": 1781968157103,
-    "MORPHO_sE": 1783509829791,
+    "MORPHO_sE": 1784010942833,
     "TON_sE": 1780599053641,
     "OKB_sE": 1780482656110,
     "FET_sE": 1780634934681,
@@ -4943,18 +4949,18 @@
     "PEPE_sE": 1783782559945,
     "GRAM_sR": 1783893772185
   },
-  "scanCount": 921,
+  "scanCount": 922,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-13T05:44:30.307Z",
-  "lastReport": "2026-07-13T02:13:05.749Z",
+  "lastScan": "2026-07-13T08:36:20.451Z",
+  "lastReport": "2026-07-13T08:36:20.450Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 199,
+    "trades": 200,
     "wins": 65,
-    "losses": 134,
-    "totalPnl": -179.1814839704991,
-    "invested": 19900
+    "losses": 135,
+    "totalPnl": -185.76773708173786,
+    "invested": 20000
   },
   "byStrategy": {
     "sR": {
@@ -4963,9 +4969,9 @@
       "pnl": -105.30881421184567
     },
     "sE": {
-      "trades": 82,
+      "trades": 83,
       "wins": 20,
-      "pnl": -132.177346491801
+      "pnl": -138.76359960303975
     },
     "sM": {
       "trades": 14,
@@ -4993,9 +4999,9 @@
         "pnl": 69.99232410487014
       },
       "sE": {
-        "trades": 25,
+        "trades": 26,
         "wins": 10,
-        "pnl": 50.510367188334115
+        "pnl": 43.92411407709537
       },
       "sM": {
         "trades": 4,
@@ -5055,5 +5061,5 @@
       }
     }
   },
-  "btcDominance": 56
+  "btcDominance": 56.1
 }
