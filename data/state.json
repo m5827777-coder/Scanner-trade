@@ -254,6 +254,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "LINK_sE_1783952479784",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "coinId": "chainlink",
+      "rank": 19,
+      "stratId": "sE",
+      "entryPrice": 7.917,
+      "entryTime": 1783952479784,
+      "entryDate": "2026-07-13T14:21:19.784Z",
+      "entrySignal": "Golden Cross 8д назад · EMA9=7.8961 > EMA21=7.8207 · RSI=52 · Vol x1.0",
+      "strength": 62,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4971,12 +4988,13 @@
     "POL_sE": 1783766752733,
     "PEPE_sE": 1783782559945,
     "GRAM_sR": 1783893772185,
-    "PUMP_sE": 1783933101245
+    "PUMP_sE": 1783933101245,
+    "LINK_sE": 1783952479784
   },
-  "scanCount": 925,
+  "scanCount": 926,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-13T13:48:52.910Z",
-  "lastReport": "2026-07-13T08:58:25.308Z",
+  "lastScan": "2026-07-13T14:21:51.866Z",
+  "lastReport": "2026-07-13T14:21:51.866Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
