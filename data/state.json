@@ -254,6 +254,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "PUMP_sE_1783933101245",
+      "symbol": "PUMP",
+      "name": "Pump.fun",
+      "coinId": "pump-fun",
+      "rank": 92,
+      "stratId": "sE",
+      "entryPrice": 0.001528,
+      "entryTime": 1783933101245,
+      "entryDate": "2026-07-13T08:58:21.245Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0015 > EMA21=0.0015 · RSI=50 · Vol x1.1",
+      "strength": 83,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4947,12 +4964,13 @@
     "ICP_sM": 1783692607975,
     "POL_sE": 1783766752733,
     "PEPE_sE": 1783782559945,
-    "GRAM_sR": 1783893772185
+    "GRAM_sR": 1783893772185,
+    "PUMP_sE": 1783933101245
   },
-  "scanCount": 922,
+  "scanCount": 923,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-13T08:36:20.451Z",
-  "lastReport": "2026-07-13T08:36:20.450Z",
+  "lastScan": "2026-07-13T08:58:25.308Z",
+  "lastReport": "2026-07-13T08:58:25.308Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
