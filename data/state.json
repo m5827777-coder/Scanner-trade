@@ -52,23 +52,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ADA_sR_1783529386230",
-      "symbol": "ADA",
-      "name": "Cardano",
-      "coinId": "cardano",
-      "rank": 17,
-      "stratId": "sR",
-      "entryPrice": 0.167,
-      "entryTime": 1783529386230,
-      "entryDate": "2026-07-08T16:49:46.230Z",
-      "entrySignal": "Ротация #17 ADA: BTC Dom=55.9% · Коррекция -12.5% · RSI=45",
-      "strength": 71,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SKY_sE_1783587377362",
       "symbol": "SKY",
       "name": "Sky",
@@ -274,6 +257,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ADA_sR_1783529386230",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 17,
+      "stratId": "sR",
+      "entryPrice": 0.167,
+      "entryTime": 1783529386230,
+      "entryDate": "2026-07-08T16:49:46.230Z",
+      "entrySignal": "Ротация #17 ADA: BTC Dom=55.9% · Коррекция -12.5% · RSI=45",
+      "strength": 71,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.1578,
+      "exitTime": 1783950494569,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.508982035928152,
+      "pnlUsd": -5.5089820359281525,
+      "total": 94.49101796407184
+    },
     {
       "id": "MORPHO_sE_1783509829791",
       "symbol": "MORPHO",
@@ -4877,7 +4883,7 @@
   ],
   "cooldowns": {
     "SOL_sR": 1780495956417,
-    "ADA_sR": 1783529386230,
+    "ADA_sR": 1784029694569,
     "HYPE_sR": 1778949423923,
     "BCH_sR": 1779639267790,
     "XLM_sR": 1783869256111,
@@ -4967,24 +4973,24 @@
     "GRAM_sR": 1783893772185,
     "PUMP_sE": 1783933101245
   },
-  "scanCount": 924,
+  "scanCount": 925,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-13T11:41:48.752Z",
+  "lastScan": "2026-07-13T13:48:52.910Z",
   "lastReport": "2026-07-13T08:58:25.308Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 200,
+    "trades": 201,
     "wins": 65,
-    "losses": 135,
-    "totalPnl": -185.76773708173786,
-    "invested": 20000
+    "losses": 136,
+    "totalPnl": -191.276719117666,
+    "invested": 20100
   },
   "byStrategy": {
     "sR": {
-      "trades": 103,
+      "trades": 104,
       "wins": 38,
-      "pnl": -105.30881421184567
+      "pnl": -110.81779624777383
     },
     "sE": {
       "trades": 83,
@@ -5012,9 +5018,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 44,
+        "trades": 45,
         "wins": 27,
-        "pnl": 69.99232410487014
+        "pnl": 64.48334206894198
       },
       "sE": {
         "trades": 26,
@@ -5079,5 +5085,5 @@
       }
     }
   },
-  "btcDominance": 56.1
+  "btcDominance": 56
 }
