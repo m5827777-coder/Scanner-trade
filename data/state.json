@@ -4943,12 +4943,12 @@
     "PEPE_sE": 1783782559945,
     "GRAM_sR": 1783893772185
   },
-  "scanCount": 918,
+  "scanCount": 919,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-12T23:56:12.058Z",
-  "lastReport": "2026-07-12T18:58:25.003Z",
+  "lastScan": "2026-07-13T02:01:16.244Z",
+  "lastReport": "2026-07-13T02:01:16.244Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 26,
+  "fearGreed": 28,
   "totalStats": {
     "trades": 199,
     "wins": 65,
@@ -5055,5 +5055,5 @@
       }
     }
   },
-  "btcDominance": 56.2
+  "btcDominance": 56.1
 }
