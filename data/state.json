@@ -120,40 +120,6 @@
       "peakPnl": 0
     },
     {
-      "id": "FIL_sE_1783697298044",
-      "symbol": "FIL",
-      "name": "Filecoin",
-      "coinId": "filecoin",
-      "rank": 91,
-      "stratId": "sE",
-      "entryPrice": 0.8008,
-      "entryTime": 1783697298044,
-      "entryDate": "2026-07-10T15:28:18.044Z",
-      "entrySignal": "Golden Cross вчера · EMA9=0.7822 > EMA21=0.7792 · RSI=51 · Vol x1.0",
-      "strength": 79,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "FIGR_HELOC_sE_1783728665207",
-      "symbol": "FIGR_HELOC",
-      "name": "Figure Heloc",
-      "coinId": "figure-heloc",
-      "rank": 9,
-      "stratId": "sE",
-      "entryPrice": 1.0329282,
-      "entryTime": 1783728665207,
-      "entryDate": "2026-07-11T00:11:05.207Z",
-      "entrySignal": "Golden Cross 9д назад · EMA9=1.0268 > EMA21=1.0274 · RSI=51 · Vol x2.0",
-      "strength": 76,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "POL_sE_1783766752733",
       "symbol": "POL",
       "name": "POL (ex-MATIC)",
@@ -274,6 +240,52 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "FIGR_HELOC_sE_1783728665207",
+      "symbol": "FIGR_HELOC",
+      "name": "Figure Heloc",
+      "coinId": "figure-heloc",
+      "rank": 9,
+      "stratId": "sE",
+      "entryPrice": 1.0329282,
+      "entryTime": 1783728665207,
+      "entryDate": "2026-07-11T00:11:05.207Z",
+      "entrySignal": "Golden Cross 9д назад · EMA9=1.0268 > EMA21=1.0274 · RSI=51 · Vol x2.0",
+      "strength": 76,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 1.0028228,
+      "exitTime": 1783966129255,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -2.914568505342391,
+      "pnlUsd": -2.914568505342391,
+      "total": 97.08543149465761
+    },
+    {
+      "id": "FIL_sE_1783697298044",
+      "symbol": "FIL",
+      "name": "Filecoin",
+      "coinId": "filecoin",
+      "rank": 91,
+      "stratId": "sE",
+      "entryPrice": 0.8008,
+      "entryTime": 1783697298044,
+      "entryDate": "2026-07-10T15:28:18.044Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.7822 > EMA21=0.7792 · RSI=51 · Vol x1.0",
+      "strength": 79,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.7524,
+      "exitTime": 1783966128079,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.043956043956044,
+      "pnlUsd": -6.043956043956043,
+      "total": 93.95604395604396
+    },
     {
       "id": "ADA_sR_1783529386230",
       "symbol": "ADA",
@@ -4953,7 +4965,7 @@
     "OKB_sE": 1780482656110,
     "FET_sE": 1780634934681,
     "ICP_sE": 1780617640572,
-    "FIL_sE": 1783697298044,
+    "FIL_sE": 1784045328079,
     "XLM_sE": 1781534882065,
     "INJ_sM": 1780617639283,
     "HBAR_sE": 1780410214663,
@@ -4991,18 +5003,18 @@
     "PUMP_sE": 1783933101245,
     "LINK_sE": 1783952479784
   },
-  "scanCount": 927,
+  "scanCount": 928,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-13T16:15:11.770Z",
+  "lastScan": "2026-07-13T18:09:24.805Z",
   "lastReport": "2026-07-13T14:21:51.866Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 201,
+    "trades": 203,
     "wins": 65,
-    "losses": 136,
-    "totalPnl": -191.276719117666,
-    "invested": 20100
+    "losses": 138,
+    "totalPnl": -200.23524366696444,
+    "invested": 20300
   },
   "byStrategy": {
     "sR": {
@@ -5011,9 +5023,9 @@
       "pnl": -110.81779624777383
     },
     "sE": {
-      "trades": 83,
+      "trades": 85,
       "wins": 20,
-      "pnl": -138.76359960303975
+      "pnl": -147.72212415233818
     },
     "sM": {
       "trades": 14,
@@ -5041,9 +5053,9 @@
         "pnl": 64.48334206894198
       },
       "sE": {
-        "trades": 26,
+        "trades": 28,
         "wins": 10,
-        "pnl": 43.92411407709537
+        "pnl": 34.965589527796936
       },
       "sM": {
         "trades": 4,
@@ -5103,5 +5115,5 @@
       }
     }
   },
-  "btcDominance": 56
+  "btcDominance": 55.9
 }
