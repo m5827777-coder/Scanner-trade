@@ -288,6 +288,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "HYPE_sR_1784049381501",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 10,
+      "stratId": "sR",
+      "entryPrice": 64.702,
+      "entryTime": 1784049381501,
+      "entryDate": "2026-07-14T17:16:21.501Z",
+      "entrySignal": "Ротация #10 HYPE: BTC Dom=56.3% · Коррекция -10.2% · RSI=48",
+      "strength": 69,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5010,7 +5027,7 @@
   "cooldowns": {
     "SOL_sR": 1780495956417,
     "ADA_sR": 1784044759406,
-    "HYPE_sR": 1778949423923,
+    "HYPE_sR": 1784049381501,
     "BCH_sR": 1779639267790,
     "XLM_sR": 1784080150194,
     "UNI_sR": 1779554027073,
@@ -5102,9 +5119,9 @@
     "ENA_sE": 1784033509510,
     "SUI_sE": 1784044763011
   },
-  "scanCount": 946,
+  "scanCount": 947,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-14T15:59:23.768Z",
+  "lastScan": "2026-07-14T17:16:54.739Z",
   "lastReport": "2026-07-14T13:21:43.208Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 22,
