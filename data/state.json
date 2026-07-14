@@ -171,23 +171,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XLM_sR_1783869256111",
-      "symbol": "XLM",
-      "name": "Stellar",
-      "coinId": "stellar",
-      "rank": 17,
-      "stratId": "sR",
-      "entryPrice": 0.18881,
-      "entryTime": 1783869256111,
-      "entryDate": "2026-07-12T15:14:16.111Z",
-      "entrySignal": "Ротация #17 XLM: BTC Dom=56.2% · Коррекция -10.7% · RSI=45",
-      "strength": 68,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "GRAM_sR_1783893772185",
       "symbol": "GRAM",
       "name": "Gram (prev. Toncoin)",
@@ -223,6 +206,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "XLM_sR_1783869256111",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 17,
+      "stratId": "sR",
+      "entryPrice": 0.18881,
+      "entryTime": 1783869256111,
+      "entryDate": "2026-07-12T15:14:16.111Z",
+      "entrySignal": "Ротация #17 XLM: BTC Dom=56.2% · Коррекция -10.7% · RSI=45",
+      "strength": 68,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.17867,
+      "exitTime": 1784000950194,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.370478258566819,
+      "pnlUsd": -5.370478258566819,
+      "total": 94.62952174143318
+    },
     {
       "id": "PUMP_sE_1783933101245",
       "symbol": "PUMP",
@@ -4921,7 +4927,7 @@
     "ADA_sR": 1784029694569,
     "HYPE_sR": 1778949423923,
     "BCH_sR": 1779639267790,
-    "XLM_sR": 1783869256111,
+    "XLM_sR": 1784080150194,
     "UNI_sR": 1779554027073,
     "DOT_sR": 1779554029231,
     "AAVE_sR": 1780482653547,
@@ -5009,24 +5015,24 @@
     "PUMP_sE": 1783933101245,
     "LINK_sE": 1783952479784
   },
-  "scanCount": 936,
+  "scanCount": 937,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-14T01:58:46.107Z",
+  "lastScan": "2026-07-14T03:49:52.071Z",
   "lastReport": "2026-07-14T01:58:46.107Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 22,
   "totalStats": {
-    "trades": 204,
+    "trades": 205,
     "wins": 65,
-    "losses": 139,
-    "totalPnl": -204.9472855517812,
-    "invested": 20400
+    "losses": 140,
+    "totalPnl": -210.317763810348,
+    "invested": 20500
   },
   "byStrategy": {
     "sR": {
-      "trades": 104,
+      "trades": 105,
       "wins": 38,
-      "pnl": -110.81779624777383
+      "pnl": -116.18827450634065
     },
     "sE": {
       "trades": 86,
@@ -5054,9 +5060,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 45,
+        "trades": 46,
         "wins": 27,
-        "pnl": 64.48334206894198
+        "pnl": 59.11286381037516
       },
       "sE": {
         "trades": 29,
