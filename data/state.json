@@ -5015,10 +5015,10 @@
     "PUMP_sE": 1783933101245,
     "LINK_sE": 1783952479784
   },
-  "scanCount": 938,
+  "scanCount": 939,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-14T05:59:28.457Z",
-  "lastReport": "2026-07-14T01:58:46.107Z",
+  "lastScan": "2026-07-14T07:53:44.225Z",
+  "lastReport": "2026-07-14T07:53:44.225Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 22,
   "totalStats": {
