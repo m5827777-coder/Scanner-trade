@@ -237,6 +237,57 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XRP_sE_1784044752405",
+      "symbol": "XRP",
+      "name": "XRP",
+      "coinId": "ripple",
+      "rank": 6,
+      "stratId": "sE",
+      "entryPrice": 1.1054,
+      "entryTime": 1784044752405,
+      "entryDate": "2026-07-14T15:59:12.405Z",
+      "entrySignal": "Golden Cross 9д назад · EMA9=1.1004 > EMA21=1.1034 · RSI=51 · Vol x1.1",
+      "strength": 64,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "ADA_sR_1784044759406",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 19,
+      "stratId": "sR",
+      "entryPrice": 0.1657,
+      "entryTime": 1784044759406,
+      "entryDate": "2026-07-14T15:59:19.406Z",
+      "entrySignal": "Ротация #19 ADA: BTC Dom=56.3% · Коррекция -13.2% · RSI=51",
+      "strength": 67,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "SUI_sE_1784044763011",
+      "symbol": "SUI",
+      "name": "Sui",
+      "coinId": "sui",
+      "rank": 29,
+      "stratId": "sE",
+      "entryPrice": 0.7594,
+      "entryTime": 1784044763011,
+      "entryDate": "2026-07-14T15:59:23.011Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.7384 > EMA21=0.7319 · RSI=57 · Vol x1.2",
+      "strength": 75,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4958,7 +5009,7 @@
   ],
   "cooldowns": {
     "SOL_sR": 1780495956417,
-    "ADA_sR": 1784029694569,
+    "ADA_sR": 1784044759406,
     "HYPE_sR": 1778949423923,
     "BCH_sR": 1779639267790,
     "XLM_sR": 1784080150194,
@@ -4976,7 +5027,7 @@
     "HBAR_sR": 1778752941540,
     "CC_sE": 1781943500543,
     "FLR_sE": 1778797959970,
-    "XRP_sE": 1778801425373,
+    "XRP_sE": 1784044752405,
     "HYPE_sE": 1781512942242,
     "LINK_sR": 1780510384134,
     "NEAR_sR": 1778862201360,
@@ -5048,11 +5099,12 @@
     "GRAM_sR": 1783893772185,
     "PUMP_sE": 1783933101245,
     "LINK_sE": 1783952479784,
-    "ENA_sE": 1784033509510
+    "ENA_sE": 1784033509510,
+    "SUI_sE": 1784044763011
   },
-  "scanCount": 945,
+  "scanCount": 946,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-14T14:30:53.002Z",
+  "lastScan": "2026-07-14T15:59:23.768Z",
   "lastReport": "2026-07-14T13:21:43.208Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 22,
@@ -5162,5 +5214,5 @@
       }
     }
   },
-  "btcDominance": 56.1
+  "btcDominance": 56.3
 }
