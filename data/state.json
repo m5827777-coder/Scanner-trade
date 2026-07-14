@@ -203,6 +203,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "NEAR_sE_1784023635147",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 35,
+      "stratId": "sE",
+      "entryPrice": 1.988,
+      "entryTime": 1784023635147,
+      "entryDate": "2026-07-14T10:07:15.147Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=1.9424 > EMA21=1.9586 · RSI=53 · Vol x1.1",
+      "strength": 75,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -4992,7 +5009,7 @@
     "ZEC_sE": 1783859897958,
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1781827946706,
-    "NEAR_sE": 1781707244871,
+    "NEAR_sE": 1784023635147,
     "WBT_sE": 1782928088771,
     "UNI_sE": 1783000026374,
     "AAVE_sE": 1782343221088,
@@ -5015,9 +5032,9 @@
     "PUMP_sE": 1783933101245,
     "LINK_sE": 1783952479784
   },
-  "scanCount": 940,
+  "scanCount": 941,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-14T08:07:44.428Z",
+  "lastScan": "2026-07-14T10:07:38.060Z",
   "lastReport": "2026-07-14T07:53:44.225Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 22,
@@ -5127,5 +5144,5 @@
       }
     }
   },
-  "btcDominance": 56
+  "btcDominance": 56.1
 }
