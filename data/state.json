@@ -18,23 +18,6 @@
       "peakPnl": 0
     },
     {
-      "id": "BCH_sE_1783241136263",
-      "symbol": "BCH",
-      "name": "Bitcoin Cash",
-      "coinId": "bitcoin-cash",
-      "rank": 23,
-      "stratId": "sE",
-      "entryPrice": 240.3,
-      "entryTime": 1783241136263,
-      "entryDate": "2026-07-05T08:45:36.263Z",
-      "entrySignal": "Golden Cross вчера · EMA9=219.0816 > EMA21=216.1281 · RSI=56 · Vol x1.0",
-      "strength": 77,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ETH_sE_1783351224519",
       "symbol": "ETH",
       "name": "Ethereum",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ONDO_sE_1784158618304",
+      "symbol": "ONDO",
+      "name": "Ondo",
+      "coinId": "ondo-finance",
+      "rank": 44,
+      "stratId": "sE",
+      "entryPrice": 0.3671,
+      "entryTime": 1784158618304,
+      "entryDate": "2026-07-15T23:36:58.304Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.3334 > EMA21=0.3310 · RSI=62 · Vol x2.5",
+      "strength": 92,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "BCH_sE_1783241136263",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
+      "coinId": "bitcoin-cash",
+      "rank": 23,
+      "stratId": "sE",
+      "entryPrice": 240.3,
+      "entryTime": 1783241136263,
+      "entryDate": "2026-07-05T08:45:36.263Z",
+      "entrySignal": "Golden Cross вчера · EMA9=219.0816 > EMA21=216.1281 · RSI=56 · Vol x1.0",
+      "strength": 77,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 224.8,
+      "exitTime": 1784158595199,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.450270495214315,
+      "pnlUsd": -6.450270495214315,
+      "total": 93.54972950478569
+    },
     {
       "id": "XLM_sR_1783869256111",
       "symbol": "XLM",
@@ -5124,7 +5147,7 @@
     "RAIN_sE": 1780857336234,
     "WLD_sM": 1780648179526,
     "NIGHT_sE": 1783252446162,
-    "ONDO_sE": 1780645734397,
+    "ONDO_sE": 1784158618304,
     "ZEC_sE": 1783859897958,
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1781827946706,
@@ -5137,7 +5160,7 @@
     "SOL_sE": 1783897918560,
     "SKY_sM": 1783307453230,
     "ADA_sE": 1783481919977,
-    "BCH_sE": 1783241136263,
+    "BCH_sE": 1784237795200,
     "LTC_sE": 1784114164675,
     "ETH_sE": 1783351224520,
     "AVAX_sE": 1783587367393,
@@ -5153,18 +5176,18 @@
     "ENA_sE": 1784033509510,
     "SUI_sE": 1784044763011
   },
-  "scanCount": 973,
+  "scanCount": 974,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-15T22:37:40.037Z",
+  "lastScan": "2026-07-15T23:36:59.236Z",
   "lastReport": "2026-07-15T19:02:33.620Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 205,
+    "trades": 206,
     "wins": 65,
-    "losses": 140,
-    "totalPnl": -210.317763810348,
-    "invested": 20500
+    "losses": 141,
+    "totalPnl": -216.7680343055623,
+    "invested": 20600
   },
   "byStrategy": {
     "sR": {
@@ -5173,9 +5196,9 @@
       "pnl": -116.18827450634065
     },
     "sE": {
-      "trades": 86,
+      "trades": 87,
       "wins": 20,
-      "pnl": -152.43416603715494
+      "pnl": -158.88443653236925
     },
     "sM": {
       "trades": 14,
@@ -5203,9 +5226,9 @@
         "pnl": 59.11286381037516
       },
       "sE": {
-        "trades": 29,
+        "trades": 30,
         "wins": 10,
-        "pnl": 30.25354764298018
+        "pnl": 23.803277147765865
       },
       "sM": {
         "trades": 4,
