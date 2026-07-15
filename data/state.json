@@ -322,6 +322,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "LTC_sE_1784114164675",
+      "symbol": "LTC",
+      "name": "Litecoin",
+      "coinId": "litecoin",
+      "rank": 27,
+      "stratId": "sE",
+      "entryPrice": 45.53,
+      "entryTime": 1784114164675,
+      "entryDate": "2026-07-15T11:16:04.675Z",
+      "entrySignal": "EMA начало расхождения · EMA9=44.5864 > EMA21=44.1211 · RSI=58 · Vol x1.3",
+      "strength": 76,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5121,7 +5138,7 @@
     "SKY_sM": 1783307453230,
     "ADA_sE": 1783481919977,
     "BCH_sE": 1783241136263,
-    "LTC_sE": 1783341057525,
+    "LTC_sE": 1784114164675,
     "ETH_sE": 1783351224520,
     "AVAX_sE": 1783587367393,
     "SKY_sE": 1783587377362,
@@ -5136,9 +5153,9 @@
     "ENA_sE": 1784033509510,
     "SUI_sE": 1784044763011
   },
-  "scanCount": 961,
+  "scanCount": 962,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-15T09:48:45.525Z",
+  "lastScan": "2026-07-15T11:16:05.702Z",
   "lastReport": "2026-07-15T07:58:14.855Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
