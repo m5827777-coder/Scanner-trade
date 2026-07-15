@@ -305,6 +305,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "PUMP_sE_1784080520130",
+      "symbol": "PUMP",
+      "name": "Pump.fun",
+      "coinId": "pump-fun",
+      "rank": 92,
+      "stratId": "sE",
+      "entryPrice": 0.00164,
+      "entryTime": 1784080520130,
+      "entryDate": "2026-07-15T01:55:20.130Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.0015 > EMA21=0.0015 · RSI=60 · Vol x1.3",
+      "strength": 76,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5114,15 +5131,15 @@
     "POL_sE": 1783766752733,
     "PEPE_sE": 1783782559945,
     "GRAM_sR": 1783893772185,
-    "PUMP_sE": 1783933101245,
+    "PUMP_sE": 1784080520130,
     "LINK_sE": 1783952479784,
     "ENA_sE": 1784033509510,
     "SUI_sE": 1784044763011
   },
-  "scanCount": 955,
+  "scanCount": 956,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-15T00:13:42.838Z",
-  "lastReport": "2026-07-14T19:10:44.475Z",
+  "lastScan": "2026-07-15T01:55:24.092Z",
+  "lastReport": "2026-07-15T01:55:24.092Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
@@ -5231,5 +5248,5 @@
       }
     }
   },
-  "btcDominance": 56.4
+  "btcDominance": 56.3
 }
