@@ -5176,10 +5176,10 @@
     "ENA_sE": 1784033509510,
     "SUI_sE": 1784044763011
   },
-  "scanCount": 974,
+  "scanCount": 975,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-15T23:36:59.236Z",
-  "lastReport": "2026-07-15T19:02:33.620Z",
+  "lastScan": "2026-07-16T01:03:33.055Z",
+  "lastReport": "2026-07-16T01:03:33.055Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
