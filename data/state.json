@@ -239,23 +239,6 @@
       "peakPnl": 0
     },
     {
-      "id": "HYPE_sR_1784049381501",
-      "symbol": "HYPE",
-      "name": "Hyperliquid",
-      "coinId": "hyperliquid",
-      "rank": 10,
-      "stratId": "sR",
-      "entryPrice": 64.702,
-      "entryTime": 1784049381501,
-      "entryDate": "2026-07-14T17:16:21.501Z",
-      "entrySignal": "Ротация #10 HYPE: BTC Dom=56.3% · Коррекция -10.2% · RSI=48",
-      "strength": 69,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "PUMP_sE_1784080520130",
       "symbol": "PUMP",
       "name": "Pump.fun",
@@ -308,6 +291,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "HYPE_sR_1784049381501",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 10,
+      "stratId": "sR",
+      "entryPrice": 64.702,
+      "entryTime": 1784049381501,
+      "entryDate": "2026-07-14T17:16:21.501Z",
+      "entrySignal": "Ротация #10 HYPE: BTC Dom=56.3% · Коррекция -10.2% · RSI=48",
+      "strength": 69,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 61.178,
+      "exitTime": 1784243536769,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.446508608698341,
+      "pnlUsd": -5.446508608698341,
+      "total": 94.55349139130166
+    },
     {
       "id": "CRO_sE_1784224894955",
       "symbol": "CRO",
@@ -5119,7 +5125,7 @@
   "cooldowns": {
     "SOL_sR": 1780495956417,
     "ADA_sR": 1784044759406,
-    "HYPE_sR": 1784049381501,
+    "HYPE_sR": 1784322736769,
     "BCH_sR": 1779639267790,
     "XLM_sR": 1784080150194,
     "UNI_sR": 1779554027073,
@@ -5212,24 +5218,24 @@
     "SUI_sE": 1784044763011,
     "CRO_sE": 1784307700593
   },
-  "scanCount": 992,
+  "scanCount": 993,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-16T22:17:20.097Z",
+  "lastScan": "2026-07-16T23:12:59.384Z",
   "lastReport": "2026-07-16T19:02:16.791Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 209,
+    "trades": 210,
     "wins": 65,
-    "losses": 144,
-    "totalPnl": -237.81993919486186,
-    "invested": 20900
+    "losses": 145,
+    "totalPnl": -243.2664478035602,
+    "invested": 21000
   },
   "byStrategy": {
     "sR": {
-      "trades": 106,
+      "trades": 107,
       "wins": 38,
-      "pnl": -121.1975509441885
+      "pnl": -126.64405955288684
     },
     "sE": {
       "trades": 88,
@@ -5257,9 +5263,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 47,
+        "trades": 48,
         "wins": 27,
-        "pnl": 54.103587372527294
+        "pnl": 48.65707876382895
       },
       "sE": {
         "trades": 31,
