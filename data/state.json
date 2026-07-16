@@ -137,23 +137,6 @@
       "peakPnl": 0
     },
     {
-      "id": "GRAM_sR_1783893772185",
-      "symbol": "GRAM",
-      "name": "Gram (prev. Toncoin)",
-      "coinId": "the-open-network",
-      "rank": 25,
-      "stratId": "sR",
-      "entryPrice": 1.617,
-      "entryTime": 1783893772185,
-      "entryDate": "2026-07-12T22:02:52.185Z",
-      "entrySignal": "Ротация #25 GRAM: BTC Dom=56.2% · Коррекция -10.4% · RSI=46",
-      "strength": 63,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "LINK_sE_1783952479784",
       "symbol": "LINK",
       "name": "Chainlink",
@@ -322,7 +305,9 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "CRO_sE_1784224894955",
       "symbol": "CRO",
@@ -335,13 +320,40 @@
       "entryDate": "2026-07-16T18:01:34.955Z",
       "entrySignal": "Golden Cross сегодня · EMA9=0.0581 > EMA21=0.0576 · RSI=68 · Vol x1.7",
       "strength": 88,
-      "regime": "BULL_TREND",
+      "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 0.05895,
+      "exitTime": 1784228500593,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -9.013736687760455,
+      "pnlUsd": -9.013736687760455,
+      "total": 90.98626331223954
+    },
+    {
+      "id": "GRAM_sR_1783893772185",
+      "symbol": "GRAM",
+      "name": "Gram (prev. Toncoin)",
+      "coinId": "the-open-network",
+      "rank": 25,
+      "stratId": "sR",
+      "entryPrice": 1.617,
+      "entryTime": 1783893772185,
+      "entryDate": "2026-07-12T22:02:52.185Z",
+      "entrySignal": "Ротация #25 GRAM: BTC Dom=56.2% · Коррекция -10.4% · RSI=46",
+      "strength": 63,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.536,
+      "exitTime": 1784228497586,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.0092764378478645,
+      "pnlUsd": -5.0092764378478645,
+      "total": 94.99072356215214
+    },
     {
       "id": "ICP_sM_1783692607975",
       "symbol": "ICP",
@@ -5193,36 +5205,36 @@
     "ICP_sM": 1784300180465,
     "POL_sE": 1783766752733,
     "PEPE_sE": 1783782559945,
-    "GRAM_sR": 1783893772185,
+    "GRAM_sR": 1784307697586,
     "PUMP_sE": 1784080520130,
     "LINK_sE": 1783952479784,
     "ENA_sE": 1784033509510,
     "SUI_sE": 1784044763011,
-    "CRO_sE": 1784224894955
+    "CRO_sE": 1784307700593
   },
-  "scanCount": 987,
+  "scanCount": 988,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-16T18:01:36.256Z",
-  "lastReport": "2026-07-16T13:38:26.378Z",
+  "lastScan": "2026-07-16T19:02:16.791Z",
+  "lastReport": "2026-07-16T19:02:16.791Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 207,
+    "trades": 209,
     "wins": 65,
-    "losses": 142,
-    "totalPnl": -223.79692606925354,
-    "invested": 20700
+    "losses": 144,
+    "totalPnl": -237.81993919486186,
+    "invested": 20900
   },
   "byStrategy": {
     "sR": {
-      "trades": 105,
+      "trades": 106,
       "wins": 38,
-      "pnl": -116.18827450634065
+      "pnl": -121.1975509441885
     },
     "sE": {
-      "trades": 87,
+      "trades": 88,
       "wins": 20,
-      "pnl": -158.88443653236925
+      "pnl": -167.8981732201297
     },
     "sM": {
       "trades": 15,
@@ -5245,14 +5257,14 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 46,
+        "trades": 47,
         "wins": 27,
-        "pnl": 59.11286381037516
+        "pnl": 54.103587372527294
       },
       "sE": {
-        "trades": 30,
+        "trades": 31,
         "wins": 10,
-        "pnl": 23.803277147765865
+        "pnl": 14.78954046000541
       },
       "sM": {
         "trades": 5,
