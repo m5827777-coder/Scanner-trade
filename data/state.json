@@ -322,6 +322,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "CRO_sE_1784224894955",
+      "symbol": "CRO",
+      "name": "Cronos",
+      "coinId": "crypto-com-chain",
+      "rank": 36,
+      "stratId": "sE",
+      "entryPrice": 0.06479,
+      "entryTime": 1784224894955,
+      "entryDate": "2026-07-16T18:01:34.955Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0581 > EMA21=0.0576 · RSI=68 · Vol x1.7",
+      "strength": 88,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5180,11 +5197,12 @@
     "PUMP_sE": 1784080520130,
     "LINK_sE": 1783952479784,
     "ENA_sE": 1784033509510,
-    "SUI_sE": 1784044763011
+    "SUI_sE": 1784044763011,
+    "CRO_sE": 1784224894955
   },
-  "scanCount": 986,
+  "scanCount": 987,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-16T16:57:00.619Z",
+  "lastScan": "2026-07-16T18:01:36.256Z",
   "lastReport": "2026-07-16T13:38:26.378Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
