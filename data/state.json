@@ -86,23 +86,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ICP_sM_1783692607975",
-      "symbol": "ICP",
-      "name": "Internet Computer",
-      "coinId": "internet-computer",
-      "rank": 60,
-      "stratId": "sM",
-      "entryPrice": 2.319,
-      "entryTime": 1783692607975,
-      "entryDate": "2026-07-10T14:10:07.975Z",
-      "entrySignal": "Пробой 20d max $2.3180 на +0.0% · Объём x1.6 · RSI=50",
-      "strength": 67,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "POL_sE_1783766752733",
       "symbol": "POL",
       "name": "POL (ex-MATIC)",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ICP_sM_1783692607975",
+      "symbol": "ICP",
+      "name": "Internet Computer",
+      "coinId": "internet-computer",
+      "rank": 60,
+      "stratId": "sM",
+      "entryPrice": 2.319,
+      "entryTime": 1783692607975,
+      "entryDate": "2026-07-10T14:10:07.975Z",
+      "entrySignal": "Пробой 20d max $2.3180 на +0.0% · Объём x1.6 · RSI=50",
+      "strength": 67,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2.156,
+      "exitTime": 1784220980465,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.028891763691238,
+      "pnlUsd": -7.028891763691238,
+      "total": 92.97110823630877
+    },
     {
       "id": "BCH_sE_1783241136263",
       "symbol": "BCH",
@@ -5167,7 +5173,7 @@
     "SKY_sE": 1783587377362,
     "ARB_sE": 1783633790318,
     "LEO_sE": 1783669674148,
-    "ICP_sM": 1783692607975,
+    "ICP_sM": 1784300180465,
     "POL_sE": 1783766752733,
     "PEPE_sE": 1783782559945,
     "GRAM_sR": 1783893772185,
@@ -5176,18 +5182,18 @@
     "ENA_sE": 1784033509510,
     "SUI_sE": 1784044763011
   },
-  "scanCount": 985,
+  "scanCount": 986,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-16T15:50:23.564Z",
+  "lastScan": "2026-07-16T16:57:00.619Z",
   "lastReport": "2026-07-16T13:38:26.378Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 206,
+    "trades": 207,
     "wins": 65,
-    "losses": 141,
-    "totalPnl": -216.7680343055623,
-    "invested": 20600
+    "losses": 142,
+    "totalPnl": -223.79692606925354,
+    "invested": 20700
   },
   "byStrategy": {
     "sR": {
@@ -5201,9 +5207,9 @@
       "pnl": -158.88443653236925
     },
     "sM": {
-      "trades": 14,
+      "trades": 15,
       "wins": 7,
-      "pnl": 58.30467673314764
+      "pnl": 51.275784969456396
     }
   },
   "byRegime": {
@@ -5231,9 +5237,9 @@
         "pnl": 23.803277147765865
       },
       "sM": {
-        "trades": 4,
+        "trades": 5,
         "wins": 3,
-        "pnl": 48.359647987134146
+        "pnl": 41.330756223442904
       }
     },
     "BEAR": {
@@ -5288,5 +5294,5 @@
       }
     }
   },
-  "btcDominance": 56.4
+  "btcDominance": 56.3
 }
