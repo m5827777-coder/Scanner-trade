@@ -5176,9 +5176,9 @@
     "ENA_sE": 1784033509510,
     "SUI_sE": 1784044763011
   },
-  "scanCount": 983,
+  "scanCount": 984,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-16T13:38:26.378Z",
+  "lastScan": "2026-07-16T14:20:28.082Z",
   "lastReport": "2026-07-16T13:38:26.378Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
@@ -5288,5 +5288,5 @@
       }
     }
   },
-  "btcDominance": 56.2
+  "btcDominance": 56.3
 }
