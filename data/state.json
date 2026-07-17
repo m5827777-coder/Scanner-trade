@@ -154,23 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "NEAR_sE_1784023635147",
-      "symbol": "NEAR",
-      "name": "NEAR Protocol",
-      "coinId": "near",
-      "rank": 35,
-      "stratId": "sE",
-      "entryPrice": 1.988,
-      "entryTime": 1784023635147,
-      "entryDate": "2026-07-14T10:07:15.147Z",
-      "entrySignal": "Golden Cross 7д назад · EMA9=1.9424 > EMA21=1.9586 · RSI=53 · Vol x1.1",
-      "strength": 75,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ENA_sE_1784033509510",
       "symbol": "ENA",
       "name": "Ethena",
@@ -291,6 +274,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "NEAR_sE_1784023635147",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 35,
+      "stratId": "sE",
+      "entryPrice": 1.988,
+      "entryTime": 1784023635147,
+      "entryDate": "2026-07-14T10:07:15.147Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=1.9424 > EMA21=1.9586 · RSI=53 · Vol x1.1",
+      "strength": 75,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.932,
+      "exitTime": 1784276522853,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -2.8169014084507067,
+      "pnlUsd": -2.8169014084507067,
+      "total": 97.1830985915493
+    },
     {
       "id": "HYPE_sR_1784049381501",
       "symbol": "HYPE",
@@ -5218,18 +5224,18 @@
     "SUI_sE": 1784044763011,
     "CRO_sE": 1784307700593
   },
-  "scanCount": 998,
+  "scanCount": 999,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-17T08:00:39.057Z",
+  "lastScan": "2026-07-17T08:22:41.054Z",
   "lastReport": "2026-07-17T08:00:39.057Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "totalStats": {
-    "trades": 210,
+    "trades": 211,
     "wins": 65,
-    "losses": 145,
-    "totalPnl": -243.2664478035602,
-    "invested": 21000
+    "losses": 146,
+    "totalPnl": -246.08334921201092,
+    "invested": 21100
   },
   "byStrategy": {
     "sR": {
@@ -5238,9 +5244,9 @@
       "pnl": -126.64405955288684
     },
     "sE": {
-      "trades": 88,
+      "trades": 89,
       "wins": 20,
-      "pnl": -167.8981732201297
+      "pnl": -170.71507462858042
     },
     "sM": {
       "trades": 15,
@@ -5268,9 +5274,9 @@
         "pnl": 48.65707876382895
       },
       "sE": {
-        "trades": 31,
+        "trades": 32,
         "wins": 10,
-        "pnl": 14.78954046000541
+        "pnl": 11.972639051554705
       },
       "sM": {
         "trades": 5,
