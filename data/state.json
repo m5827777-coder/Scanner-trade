@@ -5224,9 +5224,9 @@
     "SUI_sE": 1784044763011,
     "CRO_sE": 1784307700593
   },
-  "scanCount": 1000,
+  "scanCount": 1001,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-17T10:14:20.849Z",
+  "lastScan": "2026-07-17T11:41:25.956Z",
   "lastReport": "2026-07-17T08:00:39.057Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
@@ -5336,5 +5336,5 @@
       }
     }
   },
-  "btcDominance": 56.1
+  "btcDominance": 56.2
 }
