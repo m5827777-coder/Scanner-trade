@@ -154,23 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ENA_sE_1784033509510",
-      "symbol": "ENA",
-      "name": "Ethena",
-      "coinId": "ethena",
-      "rank": 78,
-      "stratId": "sE",
-      "entryPrice": 0.08488,
-      "entryTime": 1784033509510,
-      "entryDate": "2026-07-14T12:51:49.510Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.0802 > EMA21=0.0801 · RSI=55 · Vol x1.1",
-      "strength": 83,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "XRP_sE_1784044752405",
       "symbol": "XRP",
       "name": "XRP",
@@ -274,6 +257,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ENA_sE_1784033509510",
+      "symbol": "ENA",
+      "name": "Ethena",
+      "coinId": "ethena",
+      "rank": 78,
+      "stratId": "sE",
+      "entryPrice": 0.08488,
+      "entryTime": 1784033509510,
+      "entryDate": "2026-07-14T12:51:49.510Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0802 > EMA21=0.0801 · RSI=55 · Vol x1.1",
+      "strength": 83,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.07924,
+      "exitTime": 1784294177290,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.644674835061254,
+      "pnlUsd": -6.644674835061254,
+      "total": 93.35532516493875
+    },
     {
       "id": "NEAR_sE_1784023635147",
       "symbol": "NEAR",
@@ -5220,22 +5226,22 @@
     "GRAM_sR": 1784307697586,
     "PUMP_sE": 1784080520130,
     "LINK_sE": 1783952479784,
-    "ENA_sE": 1784033509510,
+    "ENA_sE": 1784373377290,
     "SUI_sE": 1784044763011,
     "CRO_sE": 1784307700593
   },
-  "scanCount": 1002,
+  "scanCount": 1003,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-17T12:47:37.757Z",
-  "lastReport": "2026-07-17T08:00:39.057Z",
+  "lastScan": "2026-07-17T13:17:01.189Z",
+  "lastReport": "2026-07-17T13:17:01.189Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "totalStats": {
-    "trades": 211,
+    "trades": 212,
     "wins": 65,
-    "losses": 146,
-    "totalPnl": -246.08334921201092,
-    "invested": 21100
+    "losses": 147,
+    "totalPnl": -252.72802404707218,
+    "invested": 21200
   },
   "byStrategy": {
     "sR": {
@@ -5244,9 +5250,9 @@
       "pnl": -126.64405955288684
     },
     "sE": {
-      "trades": 89,
+      "trades": 90,
       "wins": 20,
-      "pnl": -170.71507462858042
+      "pnl": -177.3597494636417
     },
     "sM": {
       "trades": 15,
@@ -5274,9 +5280,9 @@
         "pnl": 48.65707876382895
       },
       "sE": {
-        "trades": 32,
+        "trades": 33,
         "wins": 10,
-        "pnl": 11.972639051554705
+        "pnl": 5.32796421649345
       },
       "sM": {
         "trades": 5,
