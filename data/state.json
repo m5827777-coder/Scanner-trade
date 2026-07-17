@@ -254,6 +254,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "INJ_sE_1784303219151",
+      "symbol": "INJ",
+      "name": "Injective",
+      "coinId": "injective-protocol",
+      "rank": 100,
+      "stratId": "sE",
+      "entryPrice": 5.087,
+      "entryTime": 1784303219151,
+      "entryDate": "2026-07-17T15:46:59.151Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=4.9790 > EMA21=4.9291 · RSI=52 · Vol x1.2",
+      "strength": 81,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5228,11 +5245,12 @@
     "LINK_sE": 1783952479784,
     "ENA_sE": 1784373377290,
     "SUI_sE": 1784044763011,
-    "CRO_sE": 1784307700593
+    "CRO_sE": 1784307700593,
+    "INJ_sE": 1784303219151
   },
-  "scanCount": 1004,
+  "scanCount": 1005,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-17T14:19:06.961Z",
+  "lastScan": "2026-07-17T15:47:00.269Z",
   "lastReport": "2026-07-17T13:17:01.189Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
@@ -5342,5 +5360,5 @@
       }
     }
   },
-  "btcDominance": 56.2
+  "btcDominance": 56.3
 }
