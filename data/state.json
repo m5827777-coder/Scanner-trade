@@ -239,23 +239,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ONDO_sE_1784158618304",
-      "symbol": "ONDO",
-      "name": "Ondo",
-      "coinId": "ondo-finance",
-      "rank": 44,
-      "stratId": "sE",
-      "entryPrice": 0.3671,
-      "entryTime": 1784158618304,
-      "entryDate": "2026-07-15T23:36:58.304Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.3334 > EMA21=0.3310 · RSI=62 · Vol x2.5",
-      "strength": 92,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "INJ_sE_1784303219151",
       "symbol": "INJ",
       "name": "Injective",
@@ -308,6 +291,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ONDO_sE_1784158618304",
+      "symbol": "ONDO",
+      "name": "Ondo",
+      "coinId": "ondo-finance",
+      "rank": 44,
+      "stratId": "sE",
+      "entryPrice": 0.3671,
+      "entryTime": 1784158618304,
+      "entryDate": "2026-07-15T23:36:58.304Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.3334 > EMA21=0.3310 · RSI=62 · Vol x2.5",
+      "strength": 92,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.3442,
+      "exitTime": 1784370086444,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.238082266412415,
+      "pnlUsd": -6.238082266412415,
+      "total": 93.76191773358758
+    },
     {
       "id": "ENA_sE_1784033509510",
       "symbol": "ENA",
@@ -5251,7 +5257,7 @@
     "RAIN_sE": 1780857336234,
     "WLD_sM": 1780648179526,
     "NIGHT_sE": 1783252446162,
-    "ONDO_sE": 1784158618304,
+    "ONDO_sE": 1784449286444,
     "ZEC_sE": 1783859897958,
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1781827946706,
@@ -5282,18 +5288,18 @@
     "CRO_sE": 1784333221601,
     "INJ_sE": 1784303219151
   },
-  "scanCount": 1021,
+  "scanCount": 1022,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-18T09:00:52.664Z",
+  "lastScan": "2026-07-18T10:22:01.996Z",
   "lastReport": "2026-07-18T07:40:37.881Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 212,
+    "trades": 213,
     "wins": 65,
-    "losses": 147,
-    "totalPnl": -252.72802404707218,
-    "invested": 21200
+    "losses": 148,
+    "totalPnl": -258.9661063134846,
+    "invested": 21300
   },
   "byStrategy": {
     "sR": {
@@ -5302,9 +5308,9 @@
       "pnl": -126.64405955288684
     },
     "sE": {
-      "trades": 90,
+      "trades": 91,
       "wins": 20,
-      "pnl": -177.3597494636417
+      "pnl": -183.5978317300541
     },
     "sM": {
       "trades": 15,
@@ -5332,9 +5338,9 @@
         "pnl": 48.65707876382895
       },
       "sE": {
-        "trades": 33,
+        "trades": 34,
         "wins": 10,
-        "pnl": 5.32796421649345
+        "pnl": -0.9101180499189647
       },
       "sM": {
         "trades": 5,
