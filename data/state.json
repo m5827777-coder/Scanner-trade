@@ -5282,10 +5282,10 @@
     "CRO_sE": 1784333221601,
     "INJ_sE": 1784303219151
   },
-  "scanCount": 1019,
+  "scanCount": 1020,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-18T07:17:09.839Z",
-  "lastReport": "2026-07-18T01:58:24.742Z",
+  "lastScan": "2026-07-18T07:40:37.881Z",
+  "lastReport": "2026-07-18T07:40:37.881Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
