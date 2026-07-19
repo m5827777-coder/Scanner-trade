@@ -205,23 +205,6 @@
       "peakPnl": 0
     },
     {
-      "id": "PUMP_sE_1784080520130",
-      "symbol": "PUMP",
-      "name": "Pump.fun",
-      "coinId": "pump-fun",
-      "rank": 92,
-      "stratId": "sE",
-      "entryPrice": 0.00164,
-      "entryTime": 1784080520130,
-      "entryDate": "2026-07-15T01:55:20.130Z",
-      "entrySignal": "EMA начало расхождения · EMA9=0.0015 > EMA21=0.0015 · RSI=60 · Vol x1.3",
-      "strength": 76,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "LTC_sE_1784114164675",
       "symbol": "LTC",
       "name": "Litecoin",
@@ -291,6 +274,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "PUMP_sE_1784080520130",
+      "symbol": "PUMP",
+      "name": "Pump.fun",
+      "coinId": "pump-fun",
+      "rank": 92,
+      "stratId": "sE",
+      "entryPrice": 0.00164,
+      "entryTime": 1784080520130,
+      "entryDate": "2026-07-15T01:55:20.130Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.0015 > EMA21=0.0015 · RSI=60 · Vol x1.3",
+      "strength": 76,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.001906,
+      "exitTime": 1784496265734,
+      "exitReason": "✅ TP +15%",
+      "pnl": 16.21951219512195,
+      "pnlUsd": 16.21951219512195,
+      "total": 116.21951219512195
+    },
     {
       "id": "ONDO_sE_1784158618304",
       "symbol": "ONDO",
@@ -5288,18 +5294,18 @@
     "CRO_sE": 1784333221601,
     "INJ_sE": 1784303219151
   },
-  "scanCount": 1056,
+  "scanCount": 1057,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-19T20:29:07.105Z",
+  "lastScan": "2026-07-19T21:25:08.785Z",
   "lastReport": "2026-07-19T18:58:21.573Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 213,
-    "wins": 65,
+    "trades": 214,
+    "wins": 66,
     "losses": 148,
-    "totalPnl": -258.9661063134846,
-    "invested": 21300
+    "totalPnl": -242.74659411836265,
+    "invested": 21400
   },
   "byStrategy": {
     "sR": {
@@ -5308,9 +5314,9 @@
       "pnl": -126.64405955288684
     },
     "sE": {
-      "trades": 91,
-      "wins": 20,
-      "pnl": -183.5978317300541
+      "trades": 92,
+      "wins": 21,
+      "pnl": -167.37831953493216
     },
     "sM": {
       "trades": 15,
@@ -5338,9 +5344,9 @@
         "pnl": 48.65707876382895
       },
       "sE": {
-        "trades": 34,
-        "wins": 10,
-        "pnl": -0.9101180499189647
+        "trades": 35,
+        "wins": 11,
+        "pnl": 15.309394145202987
       },
       "sM": {
         "trades": 5,
