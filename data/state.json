@@ -256,23 +256,6 @@
       "peakPnl": 0
     },
     {
-      "id": "CRO_sE_1784333221601",
-      "symbol": "CRO",
-      "name": "Cronos",
-      "coinId": "crypto-com-chain",
-      "rank": 31,
-      "stratId": "sE",
-      "entryPrice": 0.06179,
-      "entryTime": 1784333221601,
-      "entryDate": "2026-07-18T00:07:01.601Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.0576 > EMA21=0.0573 · RSI=64 · Vol x1.0",
-      "strength": 80,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "PUMP_sM_1784514568511",
       "symbol": "PUMP",
       "name": "Pump.fun",
@@ -291,6 +274,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "CRO_sE_1784333221601",
+      "symbol": "CRO",
+      "name": "Cronos",
+      "coinId": "crypto-com-chain",
+      "rank": 31,
+      "stratId": "sE",
+      "entryPrice": 0.06179,
+      "entryTime": 1784333221601,
+      "entryDate": "2026-07-18T00:07:01.601Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0576 > EMA21=0.0573 · RSI=64 · Vol x1.0",
+      "strength": 80,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.05761,
+      "exitTime": 1784530377993,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.76484868101634,
+      "pnlUsd": -6.76484868101634,
+      "total": 93.23515131898365
+    },
     {
       "id": "PUMP_sE_1784080520130",
       "symbol": "PUMP",
@@ -5308,22 +5314,22 @@
     "LINK_sE": 1783952479784,
     "ENA_sE": 1784373377290,
     "SUI_sE": 1784044763011,
-    "CRO_sE": 1784333221601,
+    "CRO_sE": 1784609577993,
     "INJ_sE": 1784303219151,
     "PUMP_sM": 1784514568511
   },
-  "scanCount": 1062,
+  "scanCount": 1063,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-20T04:01:11.386Z",
+  "lastScan": "2026-07-20T06:53:34.007Z",
   "lastReport": "2026-07-20T02:29:38.467Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 214,
+    "trades": 215,
     "wins": 66,
-    "losses": 148,
-    "totalPnl": -242.74659411836265,
-    "invested": 21400
+    "losses": 149,
+    "totalPnl": -249.51144279937898,
+    "invested": 21500
   },
   "byStrategy": {
     "sR": {
@@ -5332,9 +5338,9 @@
       "pnl": -126.64405955288684
     },
     "sE": {
-      "trades": 92,
+      "trades": 93,
       "wins": 21,
-      "pnl": -167.37831953493216
+      "pnl": -174.1431682159485
     },
     "sM": {
       "trades": 15,
@@ -5362,9 +5368,9 @@
         "pnl": 48.65707876382895
       },
       "sE": {
-        "trades": 35,
+        "trades": 36,
         "wins": 11,
-        "pnl": 15.309394145202987
+        "pnl": 8.544545464186648
       },
       "sM": {
         "trades": 5,
@@ -5424,5 +5430,5 @@
       }
     }
   },
-  "btcDominance": 56.6
+  "btcDominance": 56.4
 }
