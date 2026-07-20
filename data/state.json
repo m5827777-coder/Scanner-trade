@@ -254,6 +254,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "BCH_sR_1784581753951",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
+      "coinId": "bitcoin-cash",
+      "rank": 23,
+      "stratId": "sR",
+      "entryPrice": 220.7,
+      "entryTime": 1784581753951,
+      "entryDate": "2026-07-20T21:09:13.951Z",
+      "entrySignal": "Ротация #23 BCH: BTC Dom=56.6% · Коррекция -11.6% · RSI=48",
+      "strength": 63,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5230,7 +5247,7 @@
     "SOL_sR": 1780495956417,
     "ADA_sR": 1784044759406,
     "HYPE_sR": 1784322736769,
-    "BCH_sR": 1779639267790,
+    "BCH_sR": 1784581753951,
     "XLM_sR": 1784080150194,
     "UNI_sR": 1779554027073,
     "DOT_sR": 1779554029231,
@@ -5324,9 +5341,9 @@
     "INJ_sE": 1784303219151,
     "PUMP_sM": 1784514568511
   },
-  "scanCount": 1072,
+  "scanCount": 1073,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-20T19:57:58.150Z",
+  "lastScan": "2026-07-20T21:09:44.057Z",
   "lastReport": "2026-07-20T19:38:15.711Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
@@ -5436,5 +5453,5 @@
       }
     }
   },
-  "btcDominance": 56.5
+  "btcDominance": 56.6
 }
