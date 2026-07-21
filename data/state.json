@@ -322,6 +322,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "BTC_sE_1784640380566",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "coinId": "bitcoin",
+      "rank": 1,
+      "stratId": "sE",
+      "entryPrice": 66452.4,
+      "entryTime": 1784640380566,
+      "entryDate": "2026-07-21T13:26:20.566Z",
+      "entrySignal": "EMA начало расхождения · EMA9=64792.3971 > EMA21=63930.3928 · RSI=61 · Vol x1.0",
+      "strength": 72,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5413,12 +5430,13 @@
     "SUI_sE": 1784044763011,
     "CRO_sE": 1784609577993,
     "INJ_sE": 1784303219151,
-    "PUMP_sM": 1784514568511
+    "PUMP_sM": 1784514568511,
+    "BTC_sE": 1784640380567
   },
-  "scanCount": 1083,
+  "scanCount": 1084,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-21T12:14:51.373Z",
-  "lastReport": "2026-07-21T08:17:06.381Z",
+  "lastScan": "2026-07-21T13:26:22.075Z",
+  "lastReport": "2026-07-21T13:26:22.074Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
