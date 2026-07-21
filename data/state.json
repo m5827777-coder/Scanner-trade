@@ -5341,10 +5341,10 @@
     "INJ_sE": 1784303219151,
     "PUMP_sM": 1784514568511
   },
-  "scanCount": 1076,
+  "scanCount": 1077,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-21T00:09:05.971Z",
-  "lastReport": "2026-07-20T19:38:15.711Z",
+  "lastScan": "2026-07-21T02:08:09.422Z",
+  "lastReport": "2026-07-21T02:08:09.422Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
