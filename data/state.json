@@ -271,6 +271,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ONDO_sE_1784623558585",
+      "symbol": "ONDO",
+      "name": "Ondo",
+      "coinId": "ondo-finance",
+      "rank": 42,
+      "stratId": "sE",
+      "entryPrice": 0.3914,
+      "entryTime": 1784623558585,
+      "entryDate": "2026-07-21T08:45:58.585Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=0.3555 > EMA21=0.3443 · RSI=62 · Vol x1.0",
+      "strength": 73,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5332,7 +5349,7 @@
     "RAIN_sE": 1780857336234,
     "WLD_sM": 1780648179526,
     "NIGHT_sE": 1783252446162,
-    "ONDO_sE": 1784449286444,
+    "ONDO_sE": 1784623558585,
     "ZEC_sE": 1783859897958,
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1781827946706,
@@ -5364,9 +5381,9 @@
     "INJ_sE": 1784303219151,
     "PUMP_sM": 1784514568511
   },
-  "scanCount": 1080,
+  "scanCount": 1081,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-21T08:17:06.381Z",
+  "lastScan": "2026-07-21T08:46:22.126Z",
   "lastReport": "2026-07-21T08:17:06.381Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
