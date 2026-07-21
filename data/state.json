@@ -5341,12 +5341,12 @@
     "INJ_sE": 1784303219151,
     "PUMP_sM": 1784514568511
   },
-  "scanCount": 1075,
+  "scanCount": 1076,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-20T23:13:30.071Z",
+  "lastScan": "2026-07-21T00:09:05.971Z",
   "lastReport": "2026-07-20T19:38:15.711Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 29,
+  "fearGreed": 25,
   "totalStats": {
     "trades": 216,
     "wins": 66,
@@ -5453,5 +5453,5 @@
       }
     }
   },
-  "btcDominance": 56.6
+  "btcDominance": 56.5
 }
