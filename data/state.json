@@ -324,6 +324,25 @@
       "peakPnl": 0
     },
     {
+      "id": "FIGR_HELOC_sE_1784846088392",
+      "symbol": "FIGR_HELOC",
+      "name": "Figure Heloc",
+      "coinId": "figure-heloc",
+      "rank": 9,
+      "stratId": "sE",
+      "entryPrice": 1.0398252080443078,
+      "entryTime": 1784846088392,
+      "entryDate": "2026-07-23T22:34:48.392Z",
+      "entrySignal": "Golden Cross 8д назад · EMA9=1.0200 > EMA21=1.0221 · RSI=54 · Vol x4.4",
+      "strength": 85,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
+    }
+  ],
+  "closedTrades": [
+    {
       "id": "WLFI_sE_1784794886446",
       "symbol": "WLFI",
       "name": "World Liberty Financial",
@@ -338,10 +357,14 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 0.05779,
+      "exitTime": 1784846083912,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -7.254052319049905,
+      "pnlUsd": -7.254052319049905,
+      "total": 92.7459476809501
+    },
     {
       "id": "PUMP_sM_1784514568511",
       "symbol": "PUMP",
@@ -5382,7 +5405,7 @@
     "LINK_sR": 1780510384134,
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1780410209384,
-    "FIGR_HELOC_sE": 1784333212347,
+    "FIGR_HELOC_sE": 1784846088392,
     "XMR_sR": 1781845530762,
     "ETH_sR": 1780524593518,
     "LTC_sR": 1779126568920,
@@ -5431,7 +5454,7 @@
     "WBT_sE": 1782928088771,
     "UNI_sE": 1783000026374,
     "AAVE_sE": 1782343221088,
-    "WLFI_sE": 1784794886446,
+    "WLFI_sE": 1784925283912,
     "LIT_sM": 1782981286266,
     "SOL_sE": 1783897918560,
     "SKY_sM": 1783307453230,
@@ -5456,18 +5479,18 @@
     "PUMP_sM": 1784829236219,
     "BTC_sE": 1784640380567
   },
-  "scanCount": 1128,
+  "scanCount": 1129,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-23T21:37:34.314Z",
+  "lastScan": "2026-07-23T22:34:49.124Z",
   "lastReport": "2026-07-23T19:06:06.062Z",
   "marketRegime": "BULL",
   "fearGreed": 31,
   "totalStats": {
-    "trades": 218,
+    "trades": 219,
     "wins": 67,
-    "losses": 151,
-    "totalPnl": -252.95335795878327,
-    "invested": 21800
+    "losses": 152,
+    "totalPnl": -260.20741027783316,
+    "invested": 21900
   },
   "byStrategy": {
     "sR": {
@@ -5476,9 +5499,9 @@
       "pnl": -120.48835647503529
     },
     "sE": {
-      "trades": 94,
+      "trades": 95,
       "wins": 21,
-      "pnl": -176.02200572557405
+      "pnl": -183.27605804462397
     },
     "sM": {
       "trades": 16,
@@ -5494,9 +5517,9 @@
         "pnl": -3.3568259369953877
       },
       "sE": {
-        "trades": 1,
+        "trades": 2,
         "wins": 0,
-        "pnl": -6.145557283339533
+        "pnl": -13.39960960238944
       },
       "sM": {
         "trades": 1,
