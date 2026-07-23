@@ -5456,10 +5456,10 @@
     "PUMP_sM": 1784829236219,
     "BTC_sE": 1784640380567
   },
-  "scanCount": 1120,
+  "scanCount": 1121,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-23T12:56:29.446Z",
-  "lastReport": "2026-07-23T08:21:27.472Z",
+  "lastScan": "2026-07-23T13:43:41.924Z",
+  "lastReport": "2026-07-23T13:43:41.924Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
   "totalStats": {
