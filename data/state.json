@@ -5439,12 +5439,12 @@
     "PUMP_sM": 1784829236219,
     "BTC_sE": 1784640380567
   },
-  "scanCount": 1112,
+  "scanCount": 1113,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-22T23:43:32.908Z",
-  "lastReport": "2026-07-22T19:05:09.741Z",
+  "lastScan": "2026-07-23T01:12:45.884Z",
+  "lastReport": "2026-07-23T01:12:45.884Z",
   "marketRegime": "BULL",
-  "fearGreed": 33,
+  "fearGreed": 31,
   "totalStats": {
     "trades": 218,
     "wins": 67,
