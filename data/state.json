@@ -5479,9 +5479,9 @@
     "PUMP_sM": 1784829236219,
     "BTC_sE": 1784640380567
   },
-  "scanCount": 1136,
+  "scanCount": 1137,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-24T09:07:35.107Z",
+  "lastScan": "2026-07-24T11:08:05.778Z",
   "lastReport": "2026-07-24T08:15:57.402Z",
   "marketRegime": "BULL",
   "fearGreed": 28,
@@ -5596,5 +5596,5 @@
       }
     }
   },
-  "btcDominance": 56.8
+  "btcDominance": 56.7
 }
