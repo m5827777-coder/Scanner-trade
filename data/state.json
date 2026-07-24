@@ -52,23 +52,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ARB_sE_1783633790318",
-      "symbol": "ARB",
-      "name": "Arbitrum",
-      "coinId": "arbitrum",
-      "rank": 96,
-      "stratId": "sE",
-      "entryPrice": 0.08884,
-      "entryTime": 1783633790318,
-      "entryDate": "2026-07-09T21:49:50.318Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.0815 > EMA21=0.0808 · RSI=58 · Vol x1.2",
-      "strength": 83,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "LEO_sE_1783669674148",
       "symbol": "LEO",
       "name": "LEO Token",
@@ -257,6 +240,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ARB_sE_1783633790318",
+      "symbol": "ARB",
+      "name": "Arbitrum",
+      "coinId": "arbitrum",
+      "rank": 96,
+      "stratId": "sE",
+      "entryPrice": 0.08884,
+      "entryTime": 1783633790318,
+      "entryDate": "2026-07-09T21:49:50.318Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0815 > EMA21=0.0808 · RSI=58 · Vol x1.2",
+      "strength": 83,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.08311,
+      "exitTime": 1784931580864,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.449797388563709,
+      "pnlUsd": -6.4497973885637085,
+      "total": 93.55020261143629
+    },
     {
       "id": "SUI_sE_1784044763011",
       "symbol": "SUI",
@@ -5517,7 +5523,7 @@
     "ETH_sE": 1783351224520,
     "AVAX_sE": 1783587367393,
     "SKY_sE": 1783587377362,
-    "ARB_sE": 1783633790318,
+    "ARB_sE": 1785010780864,
     "LEO_sE": 1783669674148,
     "ICP_sM": 1784300180465,
     "POL_sE": 1783766752733,
@@ -5532,18 +5538,18 @@
     "PUMP_sM": 1784829236219,
     "BTC_sE": 1784640380567
   },
-  "scanCount": 1146,
+  "scanCount": 1147,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-24T21:16:06.791Z",
+  "lastScan": "2026-07-24T22:20:25.667Z",
   "lastReport": "2026-07-24T19:17:54.013Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 225,
+    "trades": 226,
     "wins": 67,
-    "losses": 158,
-    "totalPnl": -289.9772108036319,
-    "invested": 22500
+    "losses": 159,
+    "totalPnl": -296.4270081921956,
+    "invested": 22600
   },
   "byStrategy": {
     "sR": {
@@ -5552,9 +5558,9 @@
       "pnl": -125.74436009986537
     },
     "sE": {
-      "trades": 100,
+      "trades": 101,
       "wins": 21,
-      "pnl": -207.78985494559262
+      "pnl": -214.23965233415632
     },
     "sM": {
       "trades": 16,
@@ -5587,9 +5593,9 @@
         "pnl": 54.8127818416805
       },
       "sE": {
-        "trades": 41,
+        "trades": 42,
         "wins": 11,
-        "pnl": -11.708236757663958
+        "pnl": -18.158034146227667
       },
       "sM": {
         "trades": 5,
