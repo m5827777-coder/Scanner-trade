@@ -86,23 +86,6 @@
       "peakPnl": 0
     },
     {
-      "id": "POL_sE_1783766752733",
-      "symbol": "POL",
-      "name": "POL (ex-MATIC)",
-      "coinId": "polygon-ecosystem-token",
-      "rank": 74,
-      "stratId": "sE",
-      "entryPrice": 0.08024,
-      "entryTime": 1783766752733,
-      "entryDate": "2026-07-11T10:45:52.733Z",
-      "entrySignal": "Golden Cross вчера · EMA9=0.0765 > EMA21=0.0759 · RSI=56 · Vol x1.0",
-      "strength": 78,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "PEPE_sE_1783782559945",
       "symbol": "PEPE",
       "name": "Pepe",
@@ -120,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ZEC_sE_1783859897958",
-      "symbol": "ZEC",
-      "name": "Zcash",
-      "coinId": "zcash",
-      "rank": 14,
-      "stratId": "sE",
-      "entryPrice": 523.65,
-      "entryTime": 1783859897958,
-      "entryDate": "2026-07-12T12:38:17.958Z",
-      "entrySignal": "Golden Cross 5д назад · EMA9=482.7545 > EMA21=465.2456 · RSI=58 · Vol x1.0",
-      "strength": 73,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "LINK_sE_1783952479784",
       "symbol": "LINK",
       "name": "Chainlink",
@@ -148,23 +114,6 @@
       "entryDate": "2026-07-13T14:21:19.784Z",
       "entrySignal": "Golden Cross 8д назад · EMA9=7.8961 > EMA21=7.8207 · RSI=52 · Vol x1.0",
       "strength": 62,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "SUI_sE_1784044763011",
-      "symbol": "SUI",
-      "name": "Sui",
-      "coinId": "sui",
-      "rank": 29,
-      "stratId": "sE",
-      "entryPrice": 0.7594,
-      "entryTime": 1784044763011,
-      "entryDate": "2026-07-14T15:59:23.011Z",
-      "entrySignal": "EMA начало расхождения · EMA9=0.7384 > EMA21=0.7319 · RSI=57 · Vol x1.2",
-      "strength": 75,
       "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
@@ -308,6 +257,75 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "SUI_sE_1784044763011",
+      "symbol": "SUI",
+      "name": "Sui",
+      "coinId": "sui",
+      "rank": 29,
+      "stratId": "sE",
+      "entryPrice": 0.7594,
+      "entryTime": 1784044763011,
+      "entryDate": "2026-07-14T15:59:23.011Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.7384 > EMA21=0.7319 · RSI=57 · Vol x1.2",
+      "strength": 75,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.7126,
+      "exitTime": 1784913351861,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.162760073742422,
+      "pnlUsd": -6.162760073742422,
+      "total": 93.83723992625758
+    },
+    {
+      "id": "ZEC_sE_1783859897958",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 14,
+      "stratId": "sE",
+      "entryPrice": 523.65,
+      "entryTime": 1783859897958,
+      "entryDate": "2026-07-12T12:38:17.958Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=482.7545 > EMA21=465.2456 · RSI=58 · Vol x1.0",
+      "strength": 73,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 489.99,
+      "exitTime": 1784913350942,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.42795760527069,
+      "pnlUsd": -6.42795760527069,
+      "total": 93.57204239472931
+    },
+    {
+      "id": "POL_sE_1783766752733",
+      "symbol": "POL",
+      "name": "POL (ex-MATIC)",
+      "coinId": "polygon-ecosystem-token",
+      "rank": 74,
+      "stratId": "sE",
+      "entryPrice": 0.08024,
+      "entryTime": 1783766752733,
+      "entryDate": "2026-07-11T10:45:52.733Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.0765 > EMA21=0.0759 · RSI=56 · Vol x1.0",
+      "strength": 78,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.07679,
+      "exitTime": 1784913349539,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -4.299601196410778,
+      "pnlUsd": -4.299601196410778,
+      "total": 95.70039880358922
+    },
     {
       "id": "XRP_sE_1784044752405",
       "symbol": "XRP",
@@ -5482,7 +5500,7 @@
     "WLD_sM": 1780648179526,
     "NIGHT_sE": 1783252446162,
     "ONDO_sE": 1784623558585,
-    "ZEC_sE": 1783859897958,
+    "ZEC_sE": 1784992550942,
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1781827946706,
     "NEAR_sE": 1784023635147,
@@ -5508,24 +5526,24 @@
     "PUMP_sE": 1784080520130,
     "LINK_sE": 1783952479784,
     "ENA_sE": 1784903114799,
-    "SUI_sE": 1784044763011,
+    "SUI_sE": 1784992551861,
     "CRO_sE": 1784609577993,
     "INJ_sE": 1784303219151,
     "PUMP_sM": 1784829236219,
     "BTC_sE": 1784640380567
   },
-  "scanCount": 1141,
+  "scanCount": 1142,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-24T15:51:42.185Z",
+  "lastScan": "2026-07-24T17:16:28.114Z",
   "lastReport": "2026-07-24T13:25:33.785Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 222,
+    "trades": 225,
     "wins": 67,
-    "losses": 155,
-    "totalPnl": -273.086891928208,
-    "invested": 22200
+    "losses": 158,
+    "totalPnl": -289.9772108036319,
+    "invested": 22500
   },
   "byStrategy": {
     "sR": {
@@ -5534,9 +5552,9 @@
       "pnl": -125.74436009986537
     },
     "sE": {
-      "trades": 97,
+      "trades": 100,
       "wins": 21,
-      "pnl": -190.89953607016875
+      "pnl": -207.78985494559262
     },
     "sM": {
       "trades": 16,
@@ -5569,9 +5587,9 @@
         "pnl": 54.8127818416805
       },
       "sE": {
-        "trades": 38,
+        "trades": 41,
         "wins": 11,
-        "pnl": 5.182082117759932
+        "pnl": -11.708236757663958
       },
       "sM": {
         "trades": 5,
