@@ -222,40 +222,6 @@
       "peakPnl": 0
     },
     {
-      "id": "BCH_sR_1784581753951",
-      "symbol": "BCH",
-      "name": "Bitcoin Cash",
-      "coinId": "bitcoin-cash",
-      "rank": 23,
-      "stratId": "sR",
-      "entryPrice": 220.7,
-      "entryTime": 1784581753951,
-      "entryDate": "2026-07-20T21:09:13.951Z",
-      "entrySignal": "Ротация #23 BCH: BTC Dom=56.6% · Коррекция -11.6% · RSI=48",
-      "strength": 63,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "ADA_sE_1784614509768",
-      "symbol": "ADA",
-      "name": "Cardano",
-      "coinId": "cardano",
-      "rank": 17,
-      "stratId": "sE",
-      "entryPrice": 0.1759,
-      "entryTime": 1784614509768,
-      "entryDate": "2026-07-21T06:15:09.768Z",
-      "entrySignal": "Golden Cross вчера · EMA9=0.1678 > EMA21=0.1667 · RSI=57 · Vol x1.6",
-      "strength": 84,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ONDO_sE_1784623558585",
       "symbol": "ONDO",
       "name": "Ondo",
@@ -342,6 +308,52 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ADA_sE_1784614509768",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 17,
+      "stratId": "sE",
+      "entryPrice": 0.1759,
+      "entryTime": 1784614509768,
+      "entryDate": "2026-07-21T06:15:09.768Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.1678 > EMA21=0.1667 · RSI=57 · Vol x1.6",
+      "strength": 84,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.1651,
+      "exitTime": 1784899491907,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.139852188743607,
+      "pnlUsd": -6.139852188743607,
+      "total": 93.8601478112564
+    },
+    {
+      "id": "BCH_sR_1784581753951",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
+      "coinId": "bitcoin-cash",
+      "rank": 23,
+      "stratId": "sR",
+      "entryPrice": 220.7,
+      "entryTime": 1784581753951,
+      "entryDate": "2026-07-20T21:09:13.951Z",
+      "entrySignal": "Ротация #23 BCH: BTC Dom=56.6% · Коррекция -11.6% · RSI=48",
+      "strength": 63,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 209.1,
+      "exitTime": 1784899490716,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.256003624830083,
+      "pnlUsd": -5.256003624830083,
+      "total": 94.74399637516991
+    },
     {
       "id": "WLFI_sE_1784794886446",
       "symbol": "WLFI",
@@ -5384,7 +5396,7 @@
     "SOL_sR": 1780495956417,
     "ADA_sR": 1784044759406,
     "HYPE_sR": 1784322736769,
-    "BCH_sR": 1784581753951,
+    "BCH_sR": 1784978690716,
     "XLM_sR": 1784080150194,
     "UNI_sR": 1779554027073,
     "DOT_sR": 1779554029231,
@@ -5458,7 +5470,7 @@
     "LIT_sM": 1782981286266,
     "SOL_sE": 1783897918560,
     "SKY_sM": 1783307453230,
-    "ADA_sE": 1784614509768,
+    "ADA_sE": 1784978691907,
     "BCH_sE": 1784237795200,
     "LTC_sE": 1784114164675,
     "ETH_sE": 1783351224520,
@@ -5479,29 +5491,29 @@
     "PUMP_sM": 1784829236219,
     "BTC_sE": 1784640380567
   },
-  "scanCount": 1138,
+  "scanCount": 1139,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-24T12:42:01.443Z",
-  "lastReport": "2026-07-24T08:15:57.402Z",
+  "lastScan": "2026-07-24T13:25:33.785Z",
+  "lastReport": "2026-07-24T13:25:33.785Z",
   "marketRegime": "BULL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 219,
+    "trades": 221,
     "wins": 67,
-    "losses": 152,
-    "totalPnl": -260.20741027783316,
-    "invested": 21900
+    "losses": 154,
+    "totalPnl": -271.60326609140685,
+    "invested": 22100
   },
   "byStrategy": {
     "sR": {
-      "trades": 108,
+      "trades": 109,
       "wins": 39,
-      "pnl": -120.48835647503529
+      "pnl": -125.74436009986537
     },
     "sE": {
-      "trades": 95,
+      "trades": 96,
       "wins": 21,
-      "pnl": -183.27605804462397
+      "pnl": -189.41591023336758
     },
     "sM": {
       "trades": 16,
@@ -5512,14 +5524,14 @@
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 8,
+        "trades": 9,
         "wins": 3,
-        "pnl": -3.3568259369953877
+        "pnl": -8.612829561825471
       },
       "sE": {
-        "trades": 2,
+        "trades": 3,
         "wins": 0,
-        "pnl": -13.39960960238944
+        "pnl": -19.539461791133046
       },
       "sM": {
         "trades": 1,
@@ -5596,5 +5608,5 @@
       }
     }
   },
-  "btcDominance": 56.7
+  "btcDominance": 56.6
 }
