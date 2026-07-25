@@ -237,6 +237,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "SHIB_sE_1784999658459",
+      "symbol": "SHIB",
+      "name": "Shiba Inu",
+      "coinId": "shiba-inu",
+      "rank": 31,
+      "stratId": "sE",
+      "entryPrice": 0.000004904,
+      "entryTime": 1784999658459,
+      "entryDate": "2026-07-25T17:14:18.459Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.0000 > EMA21=0.0000 · RSI=66 · Vol x2.4",
+      "strength": 88,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5536,11 +5553,12 @@
     "CRO_sE": 1784609577993,
     "INJ_sE": 1784303219151,
     "PUMP_sM": 1784829236219,
-    "BTC_sE": 1784640380567
+    "BTC_sE": 1784640380567,
+    "SHIB_sE": 1784999658459
   },
-  "scanCount": 1161,
+  "scanCount": 1162,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-25T16:13:50.889Z",
+  "lastScan": "2026-07-25T17:14:46.511Z",
   "lastReport": "2026-07-25T13:12:58.299Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
