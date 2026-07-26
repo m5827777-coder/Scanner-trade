@@ -271,6 +271,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "AAVE_sE_1785079929899",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "coinId": "aave",
+      "rank": 51,
+      "stratId": "sE",
+      "entryPrice": 97.36,
+      "entryTime": 1785079929899,
+      "entryDate": "2026-07-26T15:32:09.899Z",
+      "entrySignal": "EMA начало расхождения · EMA9=94.5141 > EMA21=92.9579 · RSI=58 · Vol x1.0",
+      "strength": 73,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5546,7 +5563,7 @@
     "NEAR_sE": 1784023635147,
     "WBT_sE": 1782928088771,
     "UNI_sE": 1783000026374,
-    "AAVE_sE": 1782343221088,
+    "AAVE_sE": 1785079929899,
     "WLFI_sE": 1784925283912,
     "LIT_sM": 1782981286266,
     "SOL_sE": 1783897918560,
@@ -5573,9 +5590,9 @@
     "BTC_sE": 1784640380567,
     "SHIB_sE": 1784999658459
   },
-  "scanCount": 1180,
+  "scanCount": 1181,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-26T14:17:50.334Z",
+  "lastScan": "2026-07-26T15:32:29.085Z",
   "lastReport": "2026-07-26T13:08:18.987Z",
   "marketRegime": "BULL",
   "fearGreed": 26,
