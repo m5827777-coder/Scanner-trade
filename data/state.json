@@ -254,6 +254,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "OKB_sE_1785071279484",
+      "symbol": "OKB",
+      "name": "OKB",
+      "coinId": "okb",
+      "rank": 44,
+      "stratId": "sE",
+      "entryPrice": 84.89,
+      "entryTime": 1785071279484,
+      "entryDate": "2026-07-26T13:07:59.484Z",
+      "entrySignal": "EMA начало расхождения · EMA9=82.4330 > EMA21=81.2591 · RSI=65 · Vol x1.0",
+      "strength": 72,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5508,7 +5525,7 @@
     "JUP_sE": 1781968157103,
     "MORPHO_sE": 1784010942833,
     "TON_sE": 1780599053641,
-    "OKB_sE": 1780482656110,
+    "OKB_sE": 1785071279484,
     "FET_sE": 1780634934681,
     "ICP_sE": 1784631032311,
     "FIL_sE": 1784045328079,
@@ -5556,10 +5573,10 @@
     "BTC_sE": 1784640380567,
     "SHIB_sE": 1784999658459
   },
-  "scanCount": 1178,
+  "scanCount": 1179,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-26T12:46:39.788Z",
-  "lastReport": "2026-07-26T08:17:10.432Z",
+  "lastScan": "2026-07-26T13:08:18.987Z",
+  "lastReport": "2026-07-26T13:08:18.987Z",
   "marketRegime": "BULL",
   "fearGreed": 26,
   "totalStats": {
@@ -5673,5 +5690,5 @@
       }
     }
   },
-  "btcDominance": 56.5
+  "btcDominance": 56.4
 }
