@@ -5653,11 +5653,11 @@
     "BTC_sE": 1784640380567,
     "SHIB_sE": 1784999658459
   },
-  "scanCount": 1204,
+  "scanCount": 1205,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-27T21:50:13.465Z",
+  "lastScan": "2026-07-27T22:45:20.024Z",
   "lastReport": "2026-07-27T19:19:26.894Z",
-  "marketRegime": "BULL",
+  "marketRegime": "NEUTRAL",
   "fearGreed": 30,
   "totalStats": {
     "trades": 228,
