@@ -103,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "INJ_sE_1784303219151",
-      "symbol": "INJ",
-      "name": "Injective",
-      "coinId": "injective-protocol",
-      "rank": 100,
-      "stratId": "sE",
-      "entryPrice": 5.087,
-      "entryTime": 1784303219151,
-      "entryDate": "2026-07-17T15:46:59.151Z",
-      "entrySignal": "Golden Cross 2д назад · EMA9=4.9790 > EMA21=4.9291 · RSI=52 · Vol x1.2",
-      "strength": 81,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ONDO_sE_1784623558585",
       "symbol": "ONDO",
       "name": "Ondo",
@@ -325,6 +308,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "INJ_sE_1784303219151",
+      "symbol": "INJ",
+      "name": "Injective",
+      "coinId": "injective-protocol",
+      "rank": 100,
+      "stratId": "sE",
+      "entryPrice": 5.087,
+      "entryTime": 1784303219151,
+      "entryDate": "2026-07-17T15:46:59.151Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=4.9790 > EMA21=4.9291 · RSI=52 · Vol x1.2",
+      "strength": 81,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 4.818,
+      "exitTime": 1785185191266,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -5.287988991547084,
+      "pnlUsd": -5.287988991547084,
+      "total": 94.71201100845292
+    },
     {
       "id": "SKY_sE_1783587377362",
       "symbol": "SKY",
@@ -5647,18 +5653,18 @@
     "BTC_sE": 1784640380567,
     "SHIB_sE": 1784999658459
   },
-  "scanCount": 1202,
+  "scanCount": 1203,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-27T19:20:31.195Z",
+  "lastScan": "2026-07-27T20:47:12.476Z",
   "lastReport": "2026-07-27T19:19:26.894Z",
   "marketRegime": "BULL",
   "fearGreed": 30,
   "totalStats": {
-    "trades": 227,
+    "trades": 228,
     "wins": 67,
-    "losses": 160,
-    "totalPnl": -298.6499963017941,
-    "invested": 22700
+    "losses": 161,
+    "totalPnl": -303.93798529334117,
+    "invested": 22800
   },
   "byStrategy": {
     "sR": {
@@ -5667,9 +5673,9 @@
       "pnl": -125.74436009986537
     },
     "sE": {
-      "trades": 102,
+      "trades": 103,
       "wins": 21,
-      "pnl": -216.4626404437548
+      "pnl": -221.75062943530187
     },
     "sM": {
       "trades": 16,
@@ -5685,9 +5691,9 @@
         "pnl": -8.612829561825471
       },
       "sE": {
-        "trades": 4,
+        "trades": 5,
         "wins": 0,
-        "pnl": -21.76244990073153
+        "pnl": -27.050438892278613
       },
       "sM": {
         "trades": 1,
