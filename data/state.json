@@ -273,23 +273,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ZEC_sR_1785105336993",
-      "symbol": "ZEC",
-      "name": "Zcash",
-      "coinId": "zcash",
-      "rank": 15,
-      "stratId": "sR",
-      "entryPrice": 506.18,
-      "entryTime": 1785105336993,
-      "entryDate": "2026-07-26T22:35:36.993Z",
-      "entrySignal": "Ротация #15 ZEC: BTC Dom=56.5% · Коррекция -12.1% · RSI=51",
-      "strength": 66,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "PUMP_sM_1785160697866",
       "symbol": "PUMP",
       "name": "Pump.fun",
@@ -308,6 +291,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ZEC_sR_1785105336993",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 15,
+      "stratId": "sR",
+      "entryPrice": 506.18,
+      "entryTime": 1785105336993,
+      "entryDate": "2026-07-26T22:35:36.993Z",
+      "entrySignal": "Ротация #15 ZEC: BTC Dom=56.5% · Коррекция -12.1% · RSI=51",
+      "strength": 66,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 475.96,
+      "exitTime": 1785195967894,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.970208226322658,
+      "pnlUsd": -5.970208226322658,
+      "total": 94.02979177367735
+    },
     {
       "id": "INJ_sE_1784303219151",
       "symbol": "INJ",
@@ -5584,7 +5590,7 @@
     "LTC_sR": 1779126568920,
     "DOGE_sR": 1780511998192,
     "XRP_sR": 1779499545235,
-    "ZEC_sR": 1785105336993,
+    "ZEC_sR": 1785275167894,
     "BNB_sR": 1779093283699,
     "TRX_sE": 1780524591778,
     "WBT_sR": 1779119539183,
@@ -5653,24 +5659,24 @@
     "BTC_sE": 1784640380567,
     "SHIB_sE": 1784999658459
   },
-  "scanCount": 1205,
+  "scanCount": 1206,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-27T22:45:20.024Z",
+  "lastScan": "2026-07-27T23:46:42.521Z",
   "lastReport": "2026-07-27T19:19:26.894Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 30,
   "totalStats": {
-    "trades": 228,
+    "trades": 229,
     "wins": 67,
-    "losses": 161,
-    "totalPnl": -303.93798529334117,
-    "invested": 22800
+    "losses": 162,
+    "totalPnl": -309.9081935196638,
+    "invested": 22900
   },
   "byStrategy": {
     "sR": {
-      "trades": 109,
+      "trades": 110,
       "wins": 39,
-      "pnl": -125.74436009986537
+      "pnl": -131.71456832618804
     },
     "sE": {
       "trades": 103,
@@ -5703,9 +5709,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 49,
+        "trades": 50,
         "wins": 28,
-        "pnl": 54.8127818416805
+        "pnl": 48.842573615357836
       },
       "sE": {
         "trades": 42,
@@ -5770,5 +5776,5 @@
       }
     }
   },
-  "btcDominance": 56.5
+  "btcDominance": 56.4
 }
