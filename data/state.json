@@ -322,6 +322,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "PUMP_sM_1785160697866",
+      "symbol": "PUMP",
+      "name": "Pump.fun",
+      "coinId": "pump-fun",
+      "rank": 75,
+      "stratId": "sM",
+      "entryPrice": 0.002143,
+      "entryTime": 1785160697866,
+      "entryDate": "2026-07-27T13:58:17.866Z",
+      "entrySignal": "Пробой 20d max $0.0021 на +2.2% · Объём x1.6 · RSI=70",
+      "strength": 79,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5620,13 +5637,13 @@
     "SUI_sE": 1784992551861,
     "CRO_sE": 1784609577993,
     "INJ_sE": 1784303219151,
-    "PUMP_sM": 1784829236219,
+    "PUMP_sM": 1785160697866,
     "BTC_sE": 1784640380567,
     "SHIB_sE": 1784999658459
   },
-  "scanCount": 1196,
+  "scanCount": 1197,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-27T11:43:38.336Z",
+  "lastScan": "2026-07-27T13:58:18.879Z",
   "lastReport": "2026-07-27T09:40:11.016Z",
   "marketRegime": "BULL",
   "fearGreed": 30,
@@ -5741,5 +5758,5 @@
       }
     }
   },
-  "btcDominance": 56.4
+  "btcDominance": 56.5
 }

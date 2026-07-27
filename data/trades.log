@@ -80581,3 +80581,49 @@
 [2026-07-27 11:43:38 UTC] ✅ Данные: 55 токенов OK, 24 недоступно | Открыто: 0 | Всего: 19
 [2026-07-27 11:43:38 UTC] 
 📊 ИТОГ: WR=29.6% PnL=$-296.43 Trades=226
+[2026-07-27 13:57:43 UTC] ════════════════════════════════════════════════════
+[2026-07-27 13:57:43 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-07-27 13:57:43 UTC] ════════════════════════════════════════════════════
+[2026-07-27 13:57:43 UTC] 📡 Scan #1197
+[2026-07-27 13:57:44 UTC] 📊 BTC Dom=56.5%
+[2026-07-27 13:57:44 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-07-27 13:57:44 UTC] 🌡 F&G=30 Regime=BULL Open=19
+[2026-07-27 13:57:45 UTC]   📂 HOLD WBT/sE PnL=+4.41%
+[2026-07-27 13:57:45 UTC]   📂 HOLD ETH/sE PnL=+11.24%
+[2026-07-27 13:57:45 UTC]   📂 HOLD SKY/sE PnL=-1.12%
+[2026-07-27 13:57:45 UTC]   📂 HOLD LEO/sE PnL=+0.58%
+[2026-07-27 13:57:46 UTC]   📂 HOLD PEPE/sE PnL=+6.10%
+[2026-07-27 13:57:46 UTC]   📂 HOLD LINK/sE PnL=+10.65%
+[2026-07-27 13:57:46 UTC]   📂 HOLD LTC/sE PnL=+3.60%
+[2026-07-27 13:57:46 UTC]   📂 HOLD INJ/sE PnL=-3.30%
+[2026-07-27 13:57:47 UTC]   📂 HOLD ONDO/sE PnL=+5.54%
+[2026-07-27 13:57:47 UTC]   📂 HOLD BNB/sE PnL=-0.67%
+[2026-07-27 13:57:47 UTC]   📂 HOLD ICP/sE PnL=-1.09%
+[2026-07-27 13:57:47 UTC]   📂 HOLD BTC/sE PnL=-1.84%
+[2026-07-27 13:57:48 UTC]   📂 HOLD FIGR_HELOC/sE PnL=-2.47%
+[2026-07-27 13:57:48 UTC]   📂 HOLD ENA/sE PnL=+7.64%
+[2026-07-27 13:57:48 UTC]   📂 HOLD SHIB/sE PnL=+2.12%
+[2026-07-27 13:57:48 UTC]   📂 HOLD OKB/sE PnL=+1.28%
+[2026-07-27 13:57:49 UTC]   📂 HOLD AAVE/sE PnL=+2.91%
+[2026-07-27 13:57:49 UTC]   📂 HOLD BCH/sR PnL=+2.20%
+[2026-07-27 13:57:49 UTC]   📂 HOLD ZEC/sR PnL=-0.73%
+[2026-07-27 13:57:49 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-07-27 13:57:49 UTC] ✓ CoinGecko: 79 токенов. Проверяю входы...
+[2026-07-27 13:57:53 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-07-27 13:57:54 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-07-27 13:57:56 UTC]   ⏭ XMR: нет данных (monero)
+[2026-07-27 13:58:03 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-07-27 13:58:08 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-07-27 13:58:08 UTC]   ⏭ M: нет данных (memecore)
+[2026-07-27 13:58:10 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-07-27 13:58:11 UTC]   ⏭ BEAT: нет данных (audiera)
+[2026-07-27 13:58:13 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-07-27 13:58:14 UTC]   ⏭ USDGO: нет данных (usdgo)
+[2026-07-27 13:58:15 UTC]   ⏭ U: нет данных (united-stables)
+[2026-07-27 13:58:15 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-07-27 13:58:15 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-07-27 13:58:17 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-07-27 13:58:17 UTC]   📈 ENTRY PUMP/sM [BULL] via OKX: Пробой 20d max $0.0021 на +2.2% · Объём x1.6 · RSI=70 @ $0.002143
+[2026-07-27 13:58:18 UTC] ✅ Данные: 43 токенов OK, 14 недоступно | Открыто: 1 | Всего: 20
+[2026-07-27 13:58:18 UTC] 
+📊 ИТОГ: WR=29.6% PnL=$-296.43 Trades=226
