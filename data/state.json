@@ -35,23 +35,6 @@
       "peakPnl": 0
     },
     {
-      "id": "SKY_sE_1783587377362",
-      "symbol": "SKY",
-      "name": "Sky",
-      "coinId": "sky",
-      "rank": 55,
-      "stratId": "sE",
-      "entryPrice": 0.05803,
-      "entryTime": 1783587377362,
-      "entryDate": "2026-07-09T08:56:17.362Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.0559 > EMA21=0.0559 · RSI=52 · Vol x1.4",
-      "strength": 87,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "LEO_sE_1783669674148",
       "symbol": "LEO",
       "name": "LEO Token",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "SKY_sE_1783587377362",
+      "symbol": "SKY",
+      "name": "Sky",
+      "coinId": "sky",
+      "rank": 55,
+      "stratId": "sE",
+      "entryPrice": 0.05803,
+      "entryTime": 1783587377362,
+      "entryDate": "2026-07-09T08:56:17.362Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0559 > EMA21=0.0559 · RSI=52 · Vol x1.4",
+      "strength": 87,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.05674,
+      "exitTime": 1785168974997,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -2.2229881095984827,
+      "pnlUsd": -2.2229881095984827,
+      "total": 97.77701189040151
+    },
     {
       "id": "ARB_sE_1783633790318",
       "symbol": "ARB",
@@ -5641,18 +5647,18 @@
     "BTC_sE": 1784640380567,
     "SHIB_sE": 1784999658459
   },
-  "scanCount": 1198,
+  "scanCount": 1199,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-27T14:20:17.588Z",
+  "lastScan": "2026-07-27T16:16:52.648Z",
   "lastReport": "2026-07-27T14:20:17.588Z",
   "marketRegime": "BULL",
   "fearGreed": 30,
   "totalStats": {
-    "trades": 226,
+    "trades": 227,
     "wins": 67,
-    "losses": 159,
-    "totalPnl": -296.4270081921956,
-    "invested": 22600
+    "losses": 160,
+    "totalPnl": -298.6499963017941,
+    "invested": 22700
   },
   "byStrategy": {
     "sR": {
@@ -5661,9 +5667,9 @@
       "pnl": -125.74436009986537
     },
     "sE": {
-      "trades": 101,
+      "trades": 102,
       "wins": 21,
-      "pnl": -214.23965233415632
+      "pnl": -216.4626404437548
     },
     "sM": {
       "trades": 16,
@@ -5679,9 +5685,9 @@
         "pnl": -8.612829561825471
       },
       "sE": {
-        "trades": 3,
+        "trades": 4,
         "wins": 0,
-        "pnl": -19.539461791133046
+        "pnl": -21.76244990073153
       },
       "sM": {
         "trades": 1,
