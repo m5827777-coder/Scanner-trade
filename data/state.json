@@ -5671,9 +5671,9 @@
     "BTC_sE": 1784640380567,
     "SHIB_sE": 1785325890401
   },
-  "scanCount": 1220,
+  "scanCount": 1221,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-28T19:57:06.498Z",
+  "lastScan": "2026-07-28T21:02:52.555Z",
   "lastReport": "2026-07-28T19:15:48.887Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
@@ -5788,5 +5788,5 @@
       }
     }
   },
-  "btcDominance": 56.3
+  "btcDominance": 56.4
 }
