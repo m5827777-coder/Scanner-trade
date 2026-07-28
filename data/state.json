@@ -254,7 +254,9 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "PUMP_sM_1785160697866",
       "symbol": "PUMP",
@@ -267,13 +269,17 @@
       "entryDate": "2026-07-27T13:58:17.866Z",
       "entrySignal": "Пробой 20d max $0.0021 на +2.2% · Объём x1.6 · RSI=70",
       "strength": 79,
-      "regime": "BULL",
+      "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 0.001947,
+      "exitTime": 1785262880960,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -9.14605692953803,
+      "pnlUsd": -9.14605692953803,
+      "total": 90.85394307046197
+    },
     {
       "id": "SHIB_sE_1784999658459",
       "symbol": "SHIB",
@@ -5661,22 +5667,22 @@
     "SUI_sE": 1784992551861,
     "CRO_sE": 1784609577993,
     "INJ_sE": 1784303219151,
-    "PUMP_sM": 1785160697866,
+    "PUMP_sM": 1785342080960,
     "BTC_sE": 1784640380567,
     "SHIB_sE": 1785325890401
   },
-  "scanCount": 1217,
+  "scanCount": 1218,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-28T17:03:52.570Z",
+  "lastScan": "2026-07-28T18:22:01.131Z",
   "lastReport": "2026-07-28T13:52:12.522Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 230,
+    "trades": 231,
     "wins": 67,
-    "losses": 163,
-    "totalPnl": -316.18878079535716,
-    "invested": 23000
+    "losses": 164,
+    "totalPnl": -325.3348377248952,
+    "invested": 23100
   },
   "byStrategy": {
     "sR": {
@@ -5690,9 +5696,9 @@
       "pnl": -228.03121671099518
     },
     "sM": {
-      "trades": 16,
+      "trades": 17,
       "wins": 7,
-      "pnl": 43.55700424182612
+      "pnl": 34.41094731228809
     }
   },
   "byRegime": {
@@ -5725,9 +5731,9 @@
         "pnl": -18.158034146227667
       },
       "sM": {
-        "trades": 5,
+        "trades": 6,
         "wins": 3,
-        "pnl": 41.330756223442904
+        "pnl": 32.18469929390487
       }
     },
     "BEAR": {
