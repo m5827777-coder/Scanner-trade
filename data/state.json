@@ -205,23 +205,6 @@
       "peakPnl": 0
     },
     {
-      "id": "SHIB_sE_1784999658459",
-      "symbol": "SHIB",
-      "name": "Shiba Inu",
-      "coinId": "shiba-inu",
-      "rank": 31,
-      "stratId": "sE",
-      "entryPrice": 0.000004904,
-      "entryTime": 1784999658459,
-      "entryDate": "2026-07-25T17:14:18.459Z",
-      "entrySignal": "Golden Cross вчера · EMA9=0.0000 > EMA21=0.0000 · RSI=66 · Vol x2.4",
-      "strength": 88,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "OKB_sE_1785071279484",
       "symbol": "OKB",
       "name": "OKB",
@@ -291,6 +274,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "SHIB_sE_1784999658459",
+      "symbol": "SHIB",
+      "name": "Shiba Inu",
+      "coinId": "shiba-inu",
+      "rank": 31,
+      "stratId": "sE",
+      "entryPrice": 0.000004904,
+      "entryTime": 1784999658459,
+      "entryDate": "2026-07-25T17:14:18.459Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.0000 > EMA21=0.0000 · RSI=66 · Vol x2.4",
+      "strength": 88,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.000004596,
+      "exitTime": 1785246690401,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.280587275693317,
+      "pnlUsd": -6.280587275693318,
+      "total": 93.71941272430668
+    },
     {
       "id": "ZEC_sR_1785105336993",
       "symbol": "ZEC",
@@ -5657,20 +5663,20 @@
     "INJ_sE": 1784303219151,
     "PUMP_sM": 1785160697866,
     "BTC_sE": 1784640380567,
-    "SHIB_sE": 1784999658459
+    "SHIB_sE": 1785325890401
   },
-  "scanCount": 1214,
+  "scanCount": 1215,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-28T13:13:57.077Z",
-  "lastReport": "2026-07-28T08:24:58.358Z",
-  "marketRegime": "NEUTRAL",
+  "lastScan": "2026-07-28T13:52:12.522Z",
+  "lastReport": "2026-07-28T13:52:12.522Z",
+  "marketRegime": "BEAR",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 229,
+    "trades": 230,
     "wins": 67,
-    "losses": 162,
-    "totalPnl": -309.9081935196638,
-    "invested": 22900
+    "losses": 163,
+    "totalPnl": -316.18878079535716,
+    "invested": 23000
   },
   "byStrategy": {
     "sR": {
@@ -5679,9 +5685,9 @@
       "pnl": -131.71456832618804
     },
     "sE": {
-      "trades": 103,
+      "trades": 104,
       "wins": 21,
-      "pnl": -221.75062943530187
+      "pnl": -228.03121671099518
     },
     "sM": {
       "trades": 16,
@@ -5736,9 +5742,9 @@
         "pnl": -25.113672942021083
       },
       "sE": {
-        "trades": 44,
+        "trades": 45,
         "wins": 10,
-        "pnl": -86.68436489991119
+        "pnl": -92.96495217560451
       }
     },
     "BEAR_TREND": {
@@ -5776,5 +5782,5 @@
       }
     }
   },
-  "btcDominance": 56.4
+  "btcDominance": 56.3
 }
