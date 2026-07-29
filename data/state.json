@@ -137,23 +137,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ICP_sE_1784631032311",
-      "symbol": "ICP",
-      "name": "Internet Computer",
-      "coinId": "internet-computer",
-      "rank": 60,
-      "stratId": "sE",
-      "entryPrice": 2.207,
-      "entryTime": 1784631032311,
-      "entryDate": "2026-07-21T10:50:32.311Z",
-      "entrySignal": "Golden Cross 7д назад · EMA9=2.1843 > EMA21=2.2011 · RSI=50 · Vol x1.1",
-      "strength": 69,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "BTC_sE_1784640380566",
       "symbol": "BTC",
       "name": "Bitcoin",
@@ -257,6 +240,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ICP_sE_1784631032311",
+      "symbol": "ICP",
+      "name": "Internet Computer",
+      "coinId": "internet-computer",
+      "rank": 60,
+      "stratId": "sE",
+      "entryPrice": 2.207,
+      "entryTime": 1784631032311,
+      "entryDate": "2026-07-21T10:50:32.311Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=2.1843 > EMA21=2.2011 · RSI=50 · Vol x1.1",
+      "strength": 69,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2.074,
+      "exitTime": 1785313799431,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.026280018124151,
+      "pnlUsd": -6.026280018124151,
+      "total": 93.97371998187585
+    },
     {
       "id": "FIGR_HELOC_sE_1784846088392",
       "symbol": "FIGR_HELOC",
@@ -5648,7 +5654,7 @@
     "TON_sE": 1780599053641,
     "OKB_sE": 1785071279484,
     "FET_sE": 1780634934681,
-    "ICP_sE": 1784631032311,
+    "ICP_sE": 1785392999431,
     "FIL_sE": 1784045328079,
     "XLM_sE": 1781534882065,
     "INJ_sM": 1780617639283,
@@ -5695,18 +5701,18 @@
     "SHIB_sE": 1785325890401,
     "LIT_sE": 1785305786207
   },
-  "scanCount": 1227,
+  "scanCount": 1228,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-29T06:16:30.329Z",
-  "lastReport": "2026-07-29T02:05:02.642Z",
-  "marketRegime": "NEUTRAL",
+  "lastScan": "2026-07-29T08:30:42.493Z",
+  "lastReport": "2026-07-29T08:30:42.493Z",
+  "marketRegime": "BULL",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 232,
+    "trades": 233,
     "wins": 67,
-    "losses": 165,
-    "totalPnl": -328.8543819484036,
-    "invested": 23200
+    "losses": 166,
+    "totalPnl": -334.8806619665278,
+    "invested": 23300
   },
   "byStrategy": {
     "sR": {
@@ -5715,9 +5721,9 @@
       "pnl": -131.71456832618804
     },
     "sE": {
-      "trades": 105,
+      "trades": 106,
       "wins": 21,
-      "pnl": -231.5507609345036
+      "pnl": -237.57704095262773
     },
     "sM": {
       "trades": 17,
@@ -5733,9 +5739,9 @@
         "pnl": -8.612829561825471
       },
       "sE": {
-        "trades": 5,
+        "trades": 6,
         "wins": 0,
-        "pnl": -27.050438892278613
+        "pnl": -33.07671891040276
       },
       "sM": {
         "trades": 1,
@@ -5812,5 +5818,5 @@
       }
     }
   },
-  "btcDominance": 56.5
+  "btcDominance": 56.6
 }
