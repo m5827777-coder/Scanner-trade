@@ -205,23 +205,6 @@
       "peakPnl": 0
     },
     {
-      "id": "LIT_sE_1785305786207",
-      "symbol": "LIT",
-      "name": "Lighter",
-      "coinId": "lighter",
-      "rank": 92,
-      "stratId": "sE",
-      "entryPrice": 2.3335,
-      "entryTime": 1785305786207,
-      "entryDate": "2026-07-29T06:16:26.207Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=2.2351 > EMA21=2.2349 · RSI=56 · Vol x1.1",
-      "strength": 83,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "UNI_sM_1785333389220",
       "symbol": "UNI",
       "name": "Uniswap",
@@ -237,9 +220,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "BEAT_sE_1785359177736",
+      "symbol": "BEAT",
+      "name": "Audiera",
+      "coinId": "audiera",
+      "rank": 58,
+      "stratId": "sE",
+      "entryPrice": 3.8675129865612052,
+      "entryTime": 1785359177736,
+      "entryDate": "2026-07-29T21:06:17.736Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=3.1716 > EMA21=2.8785 · RSI=65 · Vol x1.9",
+      "strength": 82,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "LIT_sE_1785305786207",
+      "symbol": "LIT",
+      "name": "Lighter",
+      "coinId": "lighter",
+      "rank": 92,
+      "stratId": "sE",
+      "entryPrice": 2.3335,
+      "entryTime": 1785305786207,
+      "entryDate": "2026-07-29T06:16:26.207Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=2.2351 > EMA21=2.2349 · RSI=56 · Vol x1.1",
+      "strength": 83,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2.1703,
+      "exitTime": 1785359152915,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.993786158131552,
+      "pnlUsd": -6.993786158131552,
+      "total": 93.00621384186844
+    },
     {
       "id": "ENA_sE_1784903114798",
       "symbol": "ENA",
@@ -5722,21 +5745,22 @@
     "PUMP_sM": 1785342080960,
     "BTC_sE": 1784640380567,
     "SHIB_sE": 1785325890401,
-    "LIT_sE": 1785305786207,
-    "UNI_sM": 1785333389220
+    "LIT_sE": 1785438352915,
+    "UNI_sM": 1785333389220,
+    "BEAT_sE": 1785359177736
   },
-  "scanCount": 1238,
+  "scanCount": 1239,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-29T20:02:38.205Z",
+  "lastScan": "2026-07-29T21:06:35.984Z",
   "lastReport": "2026-07-29T19:05:42.820Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 234,
+    "trades": 235,
     "wins": 67,
-    "losses": 167,
-    "totalPnl": -340.96680428862516,
-    "invested": 23400
+    "losses": 168,
+    "totalPnl": -347.9605904467567,
+    "invested": 23500
   },
   "byStrategy": {
     "sR": {
@@ -5745,9 +5769,9 @@
       "pnl": -131.71456832618804
     },
     "sE": {
-      "trades": 107,
+      "trades": 108,
       "wins": 21,
-      "pnl": -243.6631832747251
+      "pnl": -250.65696943285664
     },
     "sM": {
       "trades": 17,
@@ -5780,9 +5804,9 @@
         "pnl": 48.842573615357836
       },
       "sE": {
-        "trades": 44,
+        "trades": 45,
         "wins": 11,
-        "pnl": -27.76372069183345
+        "pnl": -34.757506849965
       },
       "sM": {
         "trades": 6,
