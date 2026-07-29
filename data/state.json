@@ -237,6 +237,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "UNI_sM_1785333389220",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "coinId": "uniswap",
+      "rank": 37,
+      "stratId": "sM",
+      "entryPrice": 4.039,
+      "entryTime": 1785333389220,
+      "entryDate": "2026-07-29T13:56:29.220Z",
+      "entrySignal": "Пробой 20d max $3.9610 на +2.0% · Объём x1.5 · RSI=66",
+      "strength": 76,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5699,12 +5716,13 @@
     "PUMP_sM": 1785342080960,
     "BTC_sE": 1784640380567,
     "SHIB_sE": 1785325890401,
-    "LIT_sE": 1785305786207
+    "LIT_sE": 1785305786207,
+    "UNI_sM": 1785333389220
   },
-  "scanCount": 1231,
+  "scanCount": 1232,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-29T13:16:50.814Z",
-  "lastReport": "2026-07-29T08:30:42.493Z",
+  "lastScan": "2026-07-29T13:56:53.592Z",
+  "lastReport": "2026-07-29T13:56:53.592Z",
   "marketRegime": "BULL",
   "fearGreed": 29,
   "totalStats": {
@@ -5818,5 +5836,5 @@
       }
     }
   },
-  "btcDominance": 56.6
+  "btcDominance": 56.7
 }
