@@ -5725,11 +5725,11 @@
     "LIT_sE": 1785305786207,
     "UNI_sM": 1785333389220
   },
-  "scanCount": 1235,
+  "scanCount": 1236,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-29T17:53:56.547Z",
+  "lastScan": "2026-07-29T18:45:34.998Z",
   "lastReport": "2026-07-29T13:56:53.592Z",
-  "marketRegime": "NEUTRAL",
+  "marketRegime": "BULL",
   "fearGreed": 29,
   "totalStats": {
     "trades": 234,
