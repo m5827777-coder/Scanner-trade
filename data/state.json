@@ -5755,11 +5755,11 @@
     "UNI_sM": 1785333389220,
     "BEAT_sE": 1785460927285
   },
-  "scanCount": 1246,
+  "scanCount": 1247,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-30T08:14:59.031Z",
+  "lastScan": "2026-07-30T08:43:21.257Z",
   "lastReport": "2026-07-30T08:14:59.031Z",
-  "marketRegime": "NEUTRAL",
+  "marketRegime": "BULL",
   "fearGreed": 28,
   "totalStats": {
     "trades": 236,
