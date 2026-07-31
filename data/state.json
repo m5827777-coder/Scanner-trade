@@ -5818,9 +5818,9 @@
     "UNI_sM": 1785333389220,
     "BEAT_sE": 1785460927285
   },
-  "scanCount": 1274,
+  "scanCount": 1275,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-31T21:42:47.601Z",
+  "lastScan": "2026-07-31T22:41:49.297Z",
   "lastReport": "2026-07-31T19:16:37.543Z",
   "marketRegime": "BEAR",
   "fearGreed": 25,
@@ -5935,5 +5935,5 @@
       }
     }
   },
-  "btcDominance": 56.3
+  "btcDominance": 56.2
 }
