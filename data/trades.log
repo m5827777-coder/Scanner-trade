@@ -84323,3 +84323,58 @@
 [2026-07-31 13:51:41 UTC] 📧 6h report sent
 [2026-07-31 13:51:41 UTC] 
 📊 ИТОГ: WR=28.4% PnL=$-360.19 Trades=236
+[2026-07-31 14:31:16 UTC] ════════════════════════════════════════════════════
+[2026-07-31 14:31:16 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-07-31 14:31:16 UTC] ════════════════════════════════════════════════════
+[2026-07-31 14:31:16 UTC] 📡 Scan #1268
+[2026-07-31 14:31:16 UTC] 📊 BTC Dom=56%
+[2026-07-31 14:31:16 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-07-31 14:31:16 UTC] 🌡 F&G=25 Regime=BEAR Open=15
+[2026-07-31 14:31:17 UTC]   📂 HOLD WBT/sE PnL=-0.32%
+[2026-07-31 14:31:17 UTC]   📂 HOLD ETH/sE PnL=+5.96%
+[2026-07-31 14:31:17 UTC]   📂 HOLD LEO/sE PnL=+1.48%
+[2026-07-31 14:31:17 UTC]   📂 HOLD PEPE/sE PnL=-2.02%
+[2026-07-31 14:31:17 UTC]   📂 HOLD LINK/sE PnL=+2.55%
+[2026-07-31 14:31:18 UTC]   📂 HOLD LTC/sE PnL=-1.16%
+[2026-07-31 14:31:18 UTC]   📂 HOLD ONDO/sE PnL=+3.27%
+[2026-07-31 14:31:18 UTC]   📂 HOLD BNB/sE PnL=+1.56%
+[2026-07-31 14:31:18 UTC]   ❌ CLOSE BTC/sE: 📉 Death Cross EMA9<EMA21 PnL=-5.69% held=10д 1ч
+[2026-07-31 14:31:19 UTC] [TG] Bad Request: can't parse entities: Unsupported start tag "ema21" at byte offset 85
+[2026-07-31 14:31:19 UTC]   📂 HOLD OKB/sE PnL=+0.74%
+[2026-07-31 14:31:20 UTC]   📂 HOLD AAVE/sE PnL=+0.11%
+[2026-07-31 14:31:20 UTC]   📂 HOLD BCH/sR PnL=-2.86%
+[2026-07-31 14:31:20 UTC]   📂 HOLD UNI/sM PnL=+7.11%
+[2026-07-31 14:31:20 UTC]   📂 HOLD TRX/sE PnL=-0.50%
+[2026-07-31 14:31:21 UTC]   📂 HOLD ZEC/sR PnL=-4.42%
+[2026-07-31 14:31:21 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-07-31 14:31:21 UTC] ✓ CoinGecko: 79 токенов. Проверяю входы...
+[2026-07-31 14:31:27 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-07-31 14:31:28 UTC]   ⏭ XMR: нет данных (monero)
+[2026-07-31 14:31:28 UTC]   📈 ENTRY ADA/sE [BULL] via OKX: Golden Cross сегодня · EMA9=0.1662 > EMA21=0.1660 · RSI=52 · Vol x1.0 @ $0.1683
+[2026-07-31 14:31:35 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-07-31 14:31:40 UTC]   ⏭ M: нет данных (memecore)
+[2026-07-31 14:31:40 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-07-31 14:31:42 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-07-31 14:31:43 UTC]   ⏭ BEAT: нет данных (audiera)
+[2026-07-31 14:31:45 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-07-31 14:31:46 UTC]   ⏭ USDGO: нет данных (usdgo)
+[2026-07-31 14:31:46 UTC]   ⏭ U: нет данных (united-stables)
+[2026-07-31 14:31:48 UTC]   ⏭ EURSAFO: нет данных (spiko-amundi-overnight-swap-fund-eur)
+[2026-07-31 14:31:48 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-07-31 14:31:49 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-07-31 14:31:49 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-07-31 14:31:50 UTC]   ⏭ JST: нет данных (just)
+[2026-07-31 14:31:52 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-07-31 14:31:52 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-07-31 14:31:54 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-07-31 14:31:54 UTC]   ⏭ JAAA: нет данных (janus-henderson-anemoy-aaa-clo-fund)
+[2026-07-31 14:31:54 UTC]   ⏭ GHO: нет данных (gho)
+[2026-07-31 14:31:55 UTC]   ⏭ BDX: нет данных (beldex)
+[2026-07-31 14:31:56 UTC]   ⏭ 币安人生: нет данных (bianrensheng)
+[2026-07-31 14:31:57 UTC]   ⏭ VVV: нет данных (venice-token)
+[2026-07-31 14:31:59 UTC]   ⏭ XDC: нет данных (xdce-crowd-sale)
+[2026-07-31 14:31:59 UTC]   ⏭ USX: нет данных (usx)
+[2026-07-31 14:31:59 UTC]   ⏭ US: нет данных (talus)
+[2026-07-31 14:32:00 UTC] ✅ Данные: 53 токенов OK, 26 недоступно | Открыто: 1 | Всего: 15
+[2026-07-31 14:32:01 UTC] 
+📊 ИТОГ: WR=28.3% PnL=$-365.88 Trades=237

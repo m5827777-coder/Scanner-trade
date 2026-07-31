@@ -137,23 +137,6 @@
       "peakPnl": 0
     },
     {
-      "id": "BTC_sE_1784640380566",
-      "symbol": "BTC",
-      "name": "Bitcoin",
-      "coinId": "bitcoin",
-      "rank": 1,
-      "stratId": "sE",
-      "entryPrice": 66452.4,
-      "entryTime": 1784640380566,
-      "entryDate": "2026-07-21T13:26:20.566Z",
-      "entrySignal": "EMA начало расхождения · EMA9=64792.3971 > EMA21=63930.3928 · RSI=61 · Vol x1.0",
-      "strength": 72,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "OKB_sE_1785071279484",
       "symbol": "OKB",
       "name": "OKB",
@@ -254,9 +237,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ADA_sE_1785508288725",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 18,
+      "stratId": "sE",
+      "entryPrice": 0.1683,
+      "entryTime": 1785508288725,
+      "entryDate": "2026-07-31T14:31:28.725Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.1662 > EMA21=0.1660 · RSI=52 · Vol x1.0",
+      "strength": 77,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "BTC_sE_1784640380566",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "coinId": "bitcoin",
+      "rank": 1,
+      "stratId": "sE",
+      "entryPrice": 66452.4,
+      "entryTime": 1784640380566,
+      "entryDate": "2026-07-21T13:26:20.566Z",
+      "entrySignal": "EMA начало расхождения · EMA9=64792.3971 > EMA21=63930.3928 · RSI=61 · Vol x1.0",
+      "strength": 72,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 62671.6,
+      "exitTime": 1785508278948,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -5.689486008029801,
+      "pnlUsd": -5.6894860080298,
+      "total": 94.3105139919702
+    },
     {
       "id": "BEAT_sE_1785359177736",
       "symbol": "BEAT",
@@ -5764,7 +5787,7 @@
     "LIT_sM": 1782981286266,
     "SOL_sE": 1783897918560,
     "SKY_sM": 1783307453230,
-    "ADA_sE": 1784978691907,
+    "ADA_sE": 1785508288725,
     "BCH_sE": 1784237795200,
     "LTC_sE": 1784114164675,
     "ETH_sE": 1783351224520,
@@ -5789,18 +5812,18 @@
     "UNI_sM": 1785333389220,
     "BEAT_sE": 1785460927285
   },
-  "scanCount": 1267,
+  "scanCount": 1268,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-31T13:51:40.287Z",
+  "lastScan": "2026-07-31T14:32:00.684Z",
   "lastReport": "2026-07-31T13:51:40.287Z",
-  "marketRegime": "NEUTRAL",
+  "marketRegime": "BEAR",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 236,
+    "trades": 237,
     "wins": 67,
-    "losses": 169,
-    "totalPnl": -360.1857230809804,
-    "invested": 23600
+    "losses": 170,
+    "totalPnl": -365.8752090890102,
+    "invested": 23700
   },
   "byStrategy": {
     "sR": {
@@ -5809,9 +5832,9 @@
       "pnl": -131.71456832618804
     },
     "sE": {
-      "trades": 109,
+      "trades": 110,
       "wins": 21,
-      "pnl": -262.88210206708027
+      "pnl": -268.57158807511007
     },
     "sM": {
       "trades": 17,
@@ -5866,9 +5889,9 @@
         "pnl": -25.113672942021083
       },
       "sE": {
-        "trades": 45,
+        "trades": 46,
         "wins": 10,
-        "pnl": -92.96495217560451
+        "pnl": -98.65443818363431
       }
     },
     "BEAR_TREND": {
@@ -5906,5 +5929,5 @@
       }
     }
   },
-  "btcDominance": 56.3
+  "btcDominance": 56
 }
