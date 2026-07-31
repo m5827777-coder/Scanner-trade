@@ -205,23 +205,6 @@
       "peakPnl": 0
     },
     {
-      "id": "TRX_sE_1785419163269",
-      "symbol": "TRX",
-      "name": "TRON",
-      "coinId": "tron",
-      "rank": 8,
-      "stratId": "sE",
-      "entryPrice": 0.32855,
-      "entryTime": 1785419163269,
-      "entryDate": "2026-07-30T13:46:03.269Z",
-      "entrySignal": "Golden Cross 9д назад · EMA9=0.3279 > EMA21=0.3275 · RSI=51 · Vol x1.0",
-      "strength": 62,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ZEC_sR_1785460296210",
       "symbol": "ZEC",
       "name": "Zcash",
@@ -257,6 +240,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "TRX_sE_1785419163269",
+      "symbol": "TRX",
+      "name": "TRON",
+      "coinId": "tron",
+      "rank": 8,
+      "stratId": "sE",
+      "entryPrice": 0.32855,
+      "entryTime": 1785419163269,
+      "entryDate": "2026-07-30T13:46:03.269Z",
+      "entrySignal": "Golden Cross 9д назад · EMA9=0.3279 > EMA21=0.3275 · RSI=51 · Vol x1.0",
+      "strength": 62,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.32637,
+      "exitTime": 1785514662698,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -0.6635215340130924,
+      "pnlUsd": -0.6635215340130923,
+      "total": 99.33647846598691
+    },
     {
       "id": "BTC_sE_1784640380566",
       "symbol": "BTC",
@@ -5812,18 +5818,18 @@
     "UNI_sM": 1785333389220,
     "BEAT_sE": 1785460927285
   },
-  "scanCount": 1268,
+  "scanCount": 1269,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-31T14:32:00.684Z",
+  "lastScan": "2026-07-31T16:18:24.561Z",
   "lastReport": "2026-07-31T13:51:40.287Z",
   "marketRegime": "BEAR",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 237,
+    "trades": 238,
     "wins": 67,
-    "losses": 170,
-    "totalPnl": -365.8752090890102,
-    "invested": 23700
+    "losses": 171,
+    "totalPnl": -366.5387306230233,
+    "invested": 23800
   },
   "byStrategy": {
     "sR": {
@@ -5832,9 +5838,9 @@
       "pnl": -131.71456832618804
     },
     "sE": {
-      "trades": 110,
+      "trades": 111,
       "wins": 21,
-      "pnl": -268.57158807511007
+      "pnl": -269.2351096091232
     },
     "sM": {
       "trades": 17,
@@ -5889,9 +5895,9 @@
         "pnl": -25.113672942021083
       },
       "sE": {
-        "trades": 46,
+        "trades": 47,
         "wins": 10,
-        "pnl": -98.65443818363431
+        "pnl": -99.3179597176474
       }
     },
     "BEAR_TREND": {
@@ -5929,5 +5935,5 @@
       }
     }
   },
-  "btcDominance": 56
+  "btcDominance": 56.2
 }
