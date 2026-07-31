@@ -86,23 +86,6 @@
       "peakPnl": 0
     },
     {
-      "id": "LTC_sE_1784114164675",
-      "symbol": "LTC",
-      "name": "Litecoin",
-      "coinId": "litecoin",
-      "rank": 27,
-      "stratId": "sE",
-      "entryPrice": 45.53,
-      "entryTime": 1784114164675,
-      "entryDate": "2026-07-15T11:16:04.675Z",
-      "entrySignal": "EMA начало расхождения · EMA9=44.5864 > EMA21=44.1211 · RSI=58 · Vol x1.3",
-      "strength": 76,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ONDO_sE_1784623558585",
       "symbol": "ONDO",
       "name": "Ondo",
@@ -240,6 +223,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "LTC_sE_1784114164675",
+      "symbol": "LTC",
+      "name": "Litecoin",
+      "coinId": "litecoin",
+      "rank": 27,
+      "stratId": "sE",
+      "entryPrice": 45.53,
+      "entryTime": 1784114164675,
+      "entryDate": "2026-07-15T11:16:04.675Z",
+      "entrySignal": "EMA начало расхождения · EMA9=44.5864 > EMA21=44.1211 · RSI=58 · Vol x1.3",
+      "strength": 76,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 44.3,
+      "exitTime": 1785541203951,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -2.7015154842960776,
+      "pnlUsd": -2.7015154842960776,
+      "total": 97.29848451570392
+    },
     {
       "id": "TRX_sE_1785419163269",
       "symbol": "TRX",
@@ -5818,18 +5824,18 @@
     "UNI_sM": 1785333389220,
     "BEAT_sE": 1785460927285
   },
-  "scanCount": 1275,
+  "scanCount": 1276,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-31T22:41:49.297Z",
+  "lastScan": "2026-07-31T23:40:40.279Z",
   "lastReport": "2026-07-31T19:16:37.543Z",
   "marketRegime": "BEAR",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 238,
+    "trades": 239,
     "wins": 67,
-    "losses": 171,
-    "totalPnl": -366.5387306230233,
-    "invested": 23800
+    "losses": 172,
+    "totalPnl": -369.24024610731936,
+    "invested": 23900
   },
   "byStrategy": {
     "sR": {
@@ -5838,9 +5844,9 @@
       "pnl": -131.71456832618804
     },
     "sE": {
-      "trades": 111,
+      "trades": 112,
       "wins": 21,
-      "pnl": -269.2351096091232
+      "pnl": -271.93662509341925
     },
     "sM": {
       "trades": 17,
@@ -5895,9 +5901,9 @@
         "pnl": -25.113672942021083
       },
       "sE": {
-        "trades": 47,
+        "trades": 48,
         "wins": 10,
-        "pnl": -99.3179597176474
+        "pnl": -102.01947520194348
       }
     },
     "BEAR_TREND": {
