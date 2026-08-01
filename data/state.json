@@ -120,23 +120,6 @@
       "peakPnl": 0
     },
     {
-      "id": "AAVE_sE_1785079929899",
-      "symbol": "AAVE",
-      "name": "Aave",
-      "coinId": "aave",
-      "rank": 51,
-      "stratId": "sE",
-      "entryPrice": 97.36,
-      "entryTime": 1785079929899,
-      "entryDate": "2026-07-26T15:32:09.899Z",
-      "entrySignal": "EMA начало расхождения · EMA9=94.5141 > EMA21=92.9579 · RSI=58 · Vol x1.0",
-      "strength": 73,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "BCH_sR_1785083422109",
       "symbol": "BCH",
       "name": "Bitcoin Cash",
@@ -206,6 +189,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "AAVE_sE_1785079929899",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "coinId": "aave",
+      "rank": 51,
+      "stratId": "sE",
+      "entryPrice": 97.36,
+      "entryTime": 1785079929899,
+      "entryDate": "2026-07-26T15:32:09.899Z",
+      "entrySignal": "EMA начало расхождения · EMA9=94.5141 > EMA21=92.9579 · RSI=58 · Vol x1.0",
+      "strength": 73,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 91.33,
+      "exitTime": 1785567906849,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.193508627773214,
+      "pnlUsd": -6.193508627773215,
+      "total": 93.80649137222679
+    },
     {
       "id": "WBT_sE_1782928088771",
       "symbol": "WBT",
@@ -5800,7 +5806,7 @@
     "NEAR_sE": 1784023635147,
     "WBT_sE": 1782928088771,
     "UNI_sE": 1783000026374,
-    "AAVE_sE": 1785079929899,
+    "AAVE_sE": 1785647106849,
     "WLFI_sE": 1784925283912,
     "LIT_sM": 1782981286266,
     "SOL_sE": 1783897918560,
@@ -5830,18 +5836,18 @@
     "UNI_sM": 1785333389220,
     "BEAT_sE": 1785460927285
   },
-  "scanCount": 1279,
+  "scanCount": 1280,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-01T04:34:28.801Z",
+  "lastScan": "2026-08-01T07:05:43.817Z",
   "lastReport": "2026-08-01T02:15:02.054Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "totalStats": {
-    "trades": 240,
+    "trades": 241,
     "wins": 68,
-    "losses": 172,
-    "totalPnl": -369.16027119928776,
-    "invested": 24000
+    "losses": 173,
+    "totalPnl": -375.353779827061,
+    "invested": 24100
   },
   "byStrategy": {
     "sR": {
@@ -5850,9 +5856,9 @@
       "pnl": -131.71456832618804
     },
     "sE": {
-      "trades": 113,
+      "trades": 114,
       "wins": 22,
-      "pnl": -271.85665018538765
+      "pnl": -278.05015881316086
     },
     "sM": {
       "trades": 17,
@@ -5885,9 +5891,9 @@
         "pnl": 48.842573615357836
       },
       "sE": {
-        "trades": 45,
+        "trades": 46,
         "wins": 11,
-        "pnl": -34.757506849965
+        "pnl": -40.95101547773821
       },
       "sM": {
         "trades": 6,
