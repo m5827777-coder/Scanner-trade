@@ -1,23 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "WBT_sE_1782928088771",
-      "symbol": "WBT",
-      "name": "WhiteBIT Coin",
-      "coinId": "whitebit",
-      "rank": 17,
-      "stratId": "sE",
-      "entryPrice": 54.861,
-      "entryTime": 1782928088771,
-      "entryDate": "2026-07-01T17:48:08.771Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=51.0502 > EMA21=50.9743 · RSI=61 · Vol x1.3",
-      "strength": 83,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "ETH_sE_1783351224519",
       "symbol": "ETH",
       "name": "Ethereum",
@@ -223,6 +206,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "WBT_sE_1782928088771",
+      "symbol": "WBT",
+      "name": "WhiteBIT Coin",
+      "coinId": "whitebit",
+      "rank": 17,
+      "stratId": "sE",
+      "entryPrice": 54.861,
+      "entryTime": 1782928088771,
+      "entryDate": "2026-07-01T17:48:08.771Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=51.0502 > EMA21=50.9743 · RSI=61 · Vol x1.3",
+      "strength": 83,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 54.9048750342952,
+      "exitTime": 1785546702780,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": 0.07997490803157943,
+      "pnlUsd": 0.07997490803157943,
+      "total": 100.07997490803157
+    },
     {
       "id": "LTC_sE_1784114164675",
       "symbol": "LTC",
@@ -5824,18 +5830,18 @@
     "UNI_sM": 1785333389220,
     "BEAT_sE": 1785460927285
   },
-  "scanCount": 1276,
+  "scanCount": 1277,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-07-31T23:40:40.279Z",
+  "lastScan": "2026-08-01T01:12:19.739Z",
   "lastReport": "2026-07-31T19:16:37.543Z",
   "marketRegime": "BEAR",
-  "fearGreed": 25,
+  "fearGreed": 27,
   "totalStats": {
-    "trades": 239,
-    "wins": 67,
+    "trades": 240,
+    "wins": 68,
     "losses": 172,
-    "totalPnl": -369.24024610731936,
-    "invested": 23900
+    "totalPnl": -369.16027119928776,
+    "invested": 24000
   },
   "byStrategy": {
     "sR": {
@@ -5844,9 +5850,9 @@
       "pnl": -131.71456832618804
     },
     "sE": {
-      "trades": 112,
-      "wins": 21,
-      "pnl": -271.93662509341925
+      "trades": 113,
+      "wins": 22,
+      "pnl": -271.85665018538765
     },
     "sM": {
       "trades": 17,
@@ -5901,9 +5907,9 @@
         "pnl": -25.113672942021083
       },
       "sE": {
-        "trades": 48,
-        "wins": 10,
-        "pnl": -102.01947520194348
+        "trades": 49,
+        "wins": 11,
+        "pnl": -101.9395002939119
       }
     },
     "BEAR_TREND": {
