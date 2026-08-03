@@ -5853,12 +5853,12 @@
     "UNI_sM": 1785333389220,
     "BEAT_sE": 1785460927285
   },
-  "scanCount": 1318,
+  "scanCount": 1319,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-02T23:28:50.434Z",
-  "lastReport": "2026-08-02T19:02:14.085Z",
+  "lastScan": "2026-08-03T01:06:25.307Z",
+  "lastReport": "2026-08-03T01:06:25.307Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 27,
+  "fearGreed": 28,
   "totalStats": {
     "trades": 241,
     "wins": 68,
