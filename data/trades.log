@@ -86952,3 +86952,53 @@
 [2026-08-03 02:14:27 UTC] 📧 6h report sent
 [2026-08-03 02:14:27 UTC] 
 📊 ИТОГ: WR=28.2% PnL=$-375.35 Trades=241
+[2026-08-03 04:39:45 UTC] ════════════════════════════════════════════════════
+[2026-08-03 04:39:45 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-08-03 04:39:45 UTC] ════════════════════════════════════════════════════
+[2026-08-03 04:39:45 UTC] 📡 Scan #1321
+[2026-08-03 04:39:46 UTC] 📊 BTC Dom=56.2%
+[2026-08-03 04:39:46 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-08-03 04:39:46 UTC] 🌡 F&G=28 Regime=BEAR Open=12
+[2026-08-03 04:39:46 UTC]   📂 HOLD ETH/sE PnL=+5.73%
+[2026-08-03 04:39:46 UTC]   📂 HOLD LEO/sE PnL=+0.85%
+[2026-08-03 04:39:46 UTC]   📂 HOLD PEPE/sE PnL=+1.77%
+[2026-08-03 04:39:47 UTC]   📂 HOLD LINK/sE PnL=+4.50%
+[2026-08-03 04:39:47 UTC]   📂 HOLD ONDO/sE PnL=-4.83%
+[2026-08-03 04:39:47 UTC]   📂 HOLD BNB/sE PnL=+0.92%
+[2026-08-03 04:39:47 UTC]   📂 HOLD OKB/sE PnL=+1.81%
+[2026-08-03 04:39:47 UTC]   📂 HOLD BCH/sR PnL=-1.08%
+[2026-08-03 04:39:48 UTC]   📂 HOLD UNI/sM PnL=+2.43%
+[2026-08-03 04:39:48 UTC]   📂 HOLD ZEC/sR PnL=+0.06%
+[2026-08-03 04:39:48 UTC]   📂 HOLD ADA/sE PnL=+10.58%
+[2026-08-03 04:39:48 UTC]   📂 HOLD ENA/sE PnL=+0.08%
+[2026-08-03 04:39:48 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-08-03 04:39:48 UTC] ✓ CoinGecko: 80 токенов. Проверяю входы...
+[2026-08-03 04:39:55 UTC]   ⏭ XMR: нет данных (monero)
+[2026-08-03 04:40:00 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-08-03 04:40:05 UTC]   ⏭ M: нет данных (memecore)
+[2026-08-03 04:40:06 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-08-03 04:40:07 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-08-03 04:40:09 UTC]   ⏭ BEAT: нет данных (audiera)
+[2026-08-03 04:40:10 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-08-03 04:40:10 UTC]   ⏭ USDGO: нет данных (usdgo)
+[2026-08-03 04:40:11 UTC]   ⏭ U: нет данных (united-stables)
+[2026-08-03 04:40:12 UTC]   ⏭ EURSAFO: нет данных (spiko-amundi-overnight-swap-fund-eur)
+[2026-08-03 04:40:12 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-08-03 04:40:13 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-08-03 04:40:13 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-08-03 04:40:13 UTC]   ⏭ JST: нет данных (just)
+[2026-08-03 04:40:16 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-08-03 04:40:16 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-08-03 04:40:17 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-08-03 04:40:17 UTC]   ⏭ JAAA: нет данных (janus-henderson-anemoy-aaa-clo-fund)
+[2026-08-03 04:40:18 UTC]   ⏭ GHO: нет данных (gho)
+[2026-08-03 04:40:18 UTC]   ⏭ BDX: нет данных (beldex)
+[2026-08-03 04:40:19 UTC]   ⏭ 币安人生: нет данных (bianrensheng)
+[2026-08-03 04:40:20 UTC]   ⏭ VVV: нет данных (venice-token)
+[2026-08-03 04:40:20 UTC]   ⏭ CAKE: нет данных (pancakeswap-token)
+[2026-08-03 04:40:21 UTC]   ⏭ XDC: нет данных (xdce-crowd-sale)
+[2026-08-03 04:40:22 UTC]   ⏭ USX: нет данных (usx)
+[2026-08-03 04:40:22 UTC]   ⏭ US: нет данных (talus)
+[2026-08-03 04:40:23 UTC] ✅ Данные: 54 токенов OK, 26 недоступно | Открыто: 0 | Всего: 12
+[2026-08-03 04:40:23 UTC] 
+📊 ИТОГ: WR=28.2% PnL=$-375.35 Trades=241
