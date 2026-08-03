@@ -171,23 +171,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ADA_sE_1785508288725",
-      "symbol": "ADA",
-      "name": "Cardano",
-      "coinId": "cardano",
-      "rank": 18,
-      "stratId": "sE",
-      "entryPrice": 0.1683,
-      "entryTime": 1785508288725,
-      "entryDate": "2026-07-31T14:31:28.725Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.1662 > EMA21=0.1660 · RSI=52 · Vol x1.0",
-      "strength": 77,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ENA_sE_1785654450650",
       "symbol": "ENA",
       "name": "Ethena",
@@ -203,9 +186,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ADA_sE_1785765541219",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 16,
+      "stratId": "sE",
+      "entryPrice": 0.1944,
+      "entryTime": 1785765541219,
+      "entryDate": "2026-08-03T13:59:01.219Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=0.1766 > EMA21=0.1708 · RSI=71 · Vol x1.3",
+      "strength": 76,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "ADA_sE_1785508288725",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 18,
+      "stratId": "sE",
+      "entryPrice": 0.1683,
+      "entryTime": 1785508288725,
+      "entryDate": "2026-07-31T14:31:28.725Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.1662 > EMA21=0.1660 · RSI=52 · Vol x1.0",
+      "strength": 77,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.1944,
+      "exitTime": 1785765532675,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.50802139037432,
+      "pnlUsd": 15.508021390374319,
+      "total": 115.50802139037432
+    },
     {
       "id": "AAVE_sE_1785079929899",
       "symbol": "AAVE",
@@ -5828,7 +5851,7 @@
     "LIT_sM": 1782981286266,
     "SOL_sE": 1783897918560,
     "SKY_sM": 1783307453230,
-    "ADA_sE": 1785508288725,
+    "ADA_sE": 1785765541219,
     "BCH_sE": 1784237795200,
     "LTC_sE": 1784114164675,
     "ETH_sE": 1783351224520,
@@ -5853,18 +5876,18 @@
     "UNI_sM": 1785333389220,
     "BEAT_sE": 1785460927285
   },
-  "scanCount": 1324,
+  "scanCount": 1325,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-03T11:35:53.464Z",
+  "lastScan": "2026-08-03T13:59:34.206Z",
   "lastReport": "2026-08-03T09:33:29.884Z",
-  "marketRegime": "BEAR",
+  "marketRegime": "NEUTRAL",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 241,
-    "wins": 68,
+    "trades": 242,
+    "wins": 69,
     "losses": 173,
-    "totalPnl": -375.353779827061,
-    "invested": 24100
+    "totalPnl": -359.84575843668665,
+    "invested": 24200
   },
   "byStrategy": {
     "sR": {
@@ -5873,9 +5896,9 @@
       "pnl": -131.71456832618804
     },
     "sE": {
-      "trades": 114,
-      "wins": 22,
-      "pnl": -278.05015881316086
+      "trades": 115,
+      "wins": 23,
+      "pnl": -262.54213742278654
     },
     "sM": {
       "trades": 17,
@@ -5908,9 +5931,9 @@
         "pnl": 48.842573615357836
       },
       "sE": {
-        "trades": 46,
-        "wins": 11,
-        "pnl": -40.95101547773821
+        "trades": 47,
+        "wins": 12,
+        "pnl": -25.442994087363893
       },
       "sM": {
         "trades": 6,
