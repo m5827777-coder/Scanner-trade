@@ -220,6 +220,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "AVAX_sE_1785824084286",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "coinId": "avalanche-2",
+      "rank": 31,
+      "stratId": "sE",
+      "entryPrice": 6.829,
+      "entryTime": 1785824084286,
+      "entryDate": "2026-08-04T06:14:44.286Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=6.5614 > EMA21=6.5499 · RSI=58 · Vol x1.3",
+      "strength": 84,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5872,7 +5889,7 @@
     "BCH_sE": 1784237795200,
     "LTC_sE": 1784114164675,
     "ETH_sE": 1783351224520,
-    "AVAX_sE": 1783587367393,
+    "AVAX_sE": 1785824084286,
     "SKY_sE": 1783587377362,
     "ARB_sE": 1785010780864,
     "LEO_sE": 1783669674148,
@@ -5893,9 +5910,9 @@
     "UNI_sM": 1785333389220,
     "BEAT_sE": 1785460927285
   },
-  "scanCount": 1336,
+  "scanCount": 1337,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-04T03:41:40.694Z",
+  "lastScan": "2026-08-04T06:15:10.497Z",
   "lastReport": "2026-08-04T02:00:29.895Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
