@@ -120,23 +120,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ZEC_sR_1785460296210",
-      "symbol": "ZEC",
-      "name": "Zcash",
-      "coinId": "zcash",
-      "rank": 15,
-      "stratId": "sR",
-      "entryPrice": 476.98,
-      "entryTime": 1785460296210,
-      "entryDate": "2026-07-31T01:11:36.210Z",
-      "entrySignal": "Ротация #15 ZEC: BTC Dom=56.6% · Коррекция -14.4% · RSI=45",
-      "strength": 72,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ENA_sE_1785654450650",
       "symbol": "ENA",
       "name": "Ethena",
@@ -223,6 +206,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ZEC_sR_1785460296210",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 15,
+      "stratId": "sR",
+      "entryPrice": 476.98,
+      "entryTime": 1785460296210,
+      "entryDate": "2026-07-31T01:11:36.210Z",
+      "entrySignal": "Ротация #15 ZEC: BTC Dom=56.6% · Коррекция -14.4% · RSI=45",
+      "strength": 72,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 507.5,
+      "exitTime": 1785869680044,
+      "exitReason": "Возврат к 14d max $515.1100",
+      "pnl": 6.398591135896679,
+      "pnlUsd": 6.398591135896679,
+      "total": 106.39859113589668
+    },
     {
       "id": "LINK_sE_1783952479784",
       "symbol": "LINK",
@@ -5939,24 +5945,24 @@
     "UNI_sM": 1785333389220,
     "BEAT_sE": 1785460927285
   },
-  "scanCount": 1344,
+  "scanCount": 1345,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-04T17:16:15.508Z",
+  "lastScan": "2026-08-04T18:55:12.396Z",
   "lastReport": "2026-08-04T13:57:37.135Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 244,
-    "wins": 70,
+    "trades": 245,
+    "wins": 71,
     "losses": 174,
-    "totalPnl": -362.78538454865605,
-    "invested": 24400
+    "totalPnl": -356.3867934127594,
+    "invested": 24500
   },
   "byStrategy": {
     "sR": {
-      "trades": 110,
-      "wins": 39,
-      "pnl": -131.71456832618804
+      "trades": 111,
+      "wins": 40,
+      "pnl": -125.31597719029136
     },
     "sE": {
       "trades": 117,
@@ -5989,9 +5995,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 50,
-        "wins": 28,
-        "pnl": 48.842573615357836
+        "trades": 51,
+        "wins": 29,
+        "pnl": 55.241164751254516
       },
       "sE": {
         "trades": 49,
@@ -6056,5 +6062,5 @@
       }
     }
   },
-  "btcDominance": 56.5
+  "btcDominance": 56.6
 }
