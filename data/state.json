@@ -237,6 +237,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "HBAR_sE_1785834501314",
+      "symbol": "HBAR",
+      "name": "Hedera",
+      "coinId": "hedera-hashgraph",
+      "rank": 29,
+      "stratId": "sE",
+      "entryPrice": 0.0709,
+      "entryTime": 1785834501314,
+      "entryDate": "2026-08-04T09:08:21.314Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0696 > EMA21=0.0695 · RSI=55 · Vol x1.0",
+      "strength": 81,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5865,7 +5882,7 @@
     "FIL_sE": 1784045328079,
     "XLM_sE": 1781534882065,
     "INJ_sM": 1780617639283,
-    "HBAR_sE": 1780410214663,
+    "HBAR_sE": 1785834501314,
     "ALGO_sE": 1785808818238,
     "BNB_sM": 1780155702890,
     "BNB_sE": 1784631009103,
@@ -5910,9 +5927,9 @@
     "UNI_sM": 1785333389220,
     "BEAT_sE": 1785460927285
   },
-  "scanCount": 1338,
+  "scanCount": 1339,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-04T08:28:28.444Z",
+  "lastScan": "2026-08-04T09:08:50.348Z",
   "lastReport": "2026-08-04T08:28:28.444Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
