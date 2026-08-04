@@ -52,23 +52,6 @@
       "peakPnl": 0
     },
     {
-      "id": "LINK_sE_1783952479784",
-      "symbol": "LINK",
-      "name": "Chainlink",
-      "coinId": "chainlink",
-      "rank": 19,
-      "stratId": "sE",
-      "entryPrice": 7.917,
-      "entryTime": 1783952479784,
-      "entryDate": "2026-07-13T14:21:19.784Z",
-      "entrySignal": "Golden Cross 8д назад · EMA9=7.8961 > EMA21=7.8207 · RSI=52 · Vol x1.0",
-      "strength": 62,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "BNB_sE_1784631009103",
       "symbol": "BNB",
       "name": "BNB",
@@ -240,6 +223,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "LINK_sE_1783952479784",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "coinId": "chainlink",
+      "rank": 19,
+      "stratId": "sE",
+      "entryPrice": 7.917,
+      "entryTime": 1783952479784,
+      "entryDate": "2026-07-13T14:21:19.784Z",
+      "entrySignal": "Golden Cross 8д назад · EMA9=7.8961 > EMA21=7.8207 · RSI=52 · Vol x1.0",
+      "strength": 62,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 8.194,
+      "exitTime": 1785863736813,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": 3.4988000505242014,
+      "pnlUsd": 3.4988000505242014,
+      "total": 103.4988000505242
+    },
     {
       "id": "ONDO_sE_1784623558585",
       "symbol": "ONDO",
@@ -5933,18 +5939,18 @@
     "UNI_sM": 1785333389220,
     "BEAT_sE": 1785460927285
   },
-  "scanCount": 1343,
+  "scanCount": 1344,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-04T15:37:52.993Z",
+  "lastScan": "2026-08-04T17:16:15.508Z",
   "lastReport": "2026-08-04T13:57:37.135Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 243,
-    "wins": 69,
+    "trades": 244,
+    "wins": 70,
     "losses": 174,
-    "totalPnl": -366.28418459918026,
-    "invested": 24300
+    "totalPnl": -362.78538454865605,
+    "invested": 24400
   },
   "byStrategy": {
     "sR": {
@@ -5953,9 +5959,9 @@
       "pnl": -131.71456832618804
     },
     "sE": {
-      "trades": 116,
-      "wins": 23,
-      "pnl": -268.98056358528015
+      "trades": 117,
+      "wins": 24,
+      "pnl": -265.48176353475594
     },
     "sM": {
       "trades": 17,
@@ -5988,9 +5994,9 @@
         "pnl": 48.842573615357836
       },
       "sE": {
-        "trades": 48,
-        "wins": 12,
-        "pnl": -31.881420249857506
+        "trades": 49,
+        "wins": 13,
+        "pnl": -28.382620199333303
       },
       "sM": {
         "trades": 6,
