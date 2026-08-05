@@ -220,6 +220,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "PAXG_sE_1785903554683",
+      "symbol": "PAXG",
+      "name": "PAX Gold",
+      "coinId": "pax-gold",
+      "rank": 43,
+      "stratId": "sE",
+      "entryPrice": 4133,
+      "entryTime": 1785903554683,
+      "entryDate": "2026-08-05T04:19:14.683Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=4073.0124 > EMA21=4066.5172 · RSI=58 · Vol x1.2",
+      "strength": 79,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5960,11 +5977,12 @@
     "SHIB_sE": 1785325890401,
     "LIT_sE": 1785438352915,
     "UNI_sM": 1785333389220,
-    "BEAT_sE": 1785460927285
+    "BEAT_sE": 1785460927285,
+    "PAXG_sE": 1785903554683
   },
-  "scanCount": 1352,
+  "scanCount": 1353,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-05T01:59:19.443Z",
+  "lastScan": "2026-08-05T04:19:35.129Z",
   "lastReport": "2026-08-05T01:59:19.443Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
