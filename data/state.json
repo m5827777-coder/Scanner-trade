@@ -254,6 +254,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XMR_sE_1785969350861",
+      "symbol": "XMR",
+      "name": "Monero",
+      "coinId": "monero",
+      "rank": 17,
+      "stratId": "sE",
+      "entryPrice": 364.062168121434,
+      "entryTime": 1785969350861,
+      "entryDate": "2026-08-05T22:35:50.861Z",
+      "entrySignal": "EMA начало расхождения · EMA9=358.1045 > EMA21=351.1105 · RSI=60 · Vol x1.1",
+      "strength": 71,
+      "regime": "BULL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5961,7 +5978,7 @@
     "ASTER_sE": 1781832270812,
     "NEAR_sM": 1779600959266,
     "RENDER_sE": 1779861248735,
-    "XMR_sE": 1779359045756,
+    "XMR_sE": 1785969350861,
     "ZEC_sM": 1779370849454,
     "ICP_sR": 1779986502655,
     "WLD_sE": 1779850424416,
@@ -6021,9 +6038,9 @@
     "PAXG_sE": 1785903554683,
     "XAUT_sE": 1785912340985
   },
-  "scanCount": 1365,
+  "scanCount": 1366,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-05T21:32:18.983Z",
+  "lastScan": "2026-08-05T22:36:21.028Z",
   "lastReport": "2026-08-05T19:22:03.599Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
