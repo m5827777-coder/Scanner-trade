@@ -237,6 +237,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XAUT_sE_1785912340985",
+      "symbol": "XAUT",
+      "name": "Tether Gold",
+      "coinId": "tether-gold",
+      "rank": 37,
+      "stratId": "sE",
+      "entryPrice": 4156.5,
+      "entryTime": 1785912340985,
+      "entryDate": "2026-08-05T06:45:40.985Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=4072.5669 > EMA21=4064.7277 · RSI=60 · Vol x1.3",
+      "strength": 83,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5978,11 +5995,12 @@
     "LIT_sE": 1785438352915,
     "UNI_sM": 1785333389220,
     "BEAT_sE": 1785460927285,
-    "PAXG_sE": 1785903554683
+    "PAXG_sE": 1785903554683,
+    "XAUT_sE": 1785912340985
   },
-  "scanCount": 1353,
+  "scanCount": 1354,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-05T04:19:35.129Z",
+  "lastScan": "2026-08-05T06:46:04.258Z",
   "lastReport": "2026-08-05T01:59:19.443Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
