@@ -86,23 +86,6 @@
       "peakPnl": 0
     },
     {
-      "id": "BCH_sR_1785083422109",
-      "symbol": "BCH",
-      "name": "Bitcoin Cash",
-      "coinId": "bitcoin-cash",
-      "rank": 23,
-      "stratId": "sR",
-      "entryPrice": 213.5,
-      "entryTime": 1785083422109,
-      "entryDate": "2026-07-26T16:30:22.109Z",
-      "entrySignal": "Ротация #23 BCH: BTC Dom=56.4% · Коррекция -10.7% · RSI=45",
-      "strength": 64,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "UNI_sM_1785333389220",
       "symbol": "UNI",
       "name": "Uniswap",
@@ -274,6 +257,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "BCH_sR_1785083422109",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
+      "coinId": "bitcoin-cash",
+      "rank": 23,
+      "stratId": "sR",
+      "entryPrice": 213.5,
+      "entryTime": 1785083422109,
+      "entryDate": "2026-07-26T16:30:22.109Z",
+      "entrySignal": "Ротация #23 BCH: BTC Dom=56.4% · Коррекция -10.7% · RSI=45",
+      "strength": 64,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 215.8,
+      "exitTime": 1785960801981,
+      "exitReason": "Возврат к 14d max $219.9000",
+      "pnl": 1.0772833723653448,
+      "pnlUsd": 1.0772833723653448,
+      "total": 101.07728337236534
+    },
     {
       "id": "ZEC_sR_1785460296210",
       "symbol": "ZEC",
@@ -6015,24 +6021,24 @@
     "PAXG_sE": 1785903554683,
     "XAUT_sE": 1785912340985
   },
-  "scanCount": 1363,
+  "scanCount": 1364,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-05T19:22:03.599Z",
+  "lastScan": "2026-08-05T20:13:55.300Z",
   "lastReport": "2026-08-05T19:22:03.599Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "totalStats": {
-    "trades": 245,
-    "wins": 71,
+    "trades": 246,
+    "wins": 72,
     "losses": 174,
-    "totalPnl": -356.3867934127594,
-    "invested": 24500
+    "totalPnl": -355.30951004039406,
+    "invested": 24600
   },
   "byStrategy": {
     "sR": {
-      "trades": 111,
-      "wins": 40,
-      "pnl": -125.31597719029136
+      "trades": 112,
+      "wins": 41,
+      "pnl": -124.23869381792602
     },
     "sE": {
       "trades": 117,
@@ -6065,9 +6071,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 51,
-        "wins": 29,
-        "pnl": 55.241164751254516
+        "trades": 52,
+        "wins": 30,
+        "pnl": 56.31844812361986
       },
       "sE": {
         "trades": 49,
