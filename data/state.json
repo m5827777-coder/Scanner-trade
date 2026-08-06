@@ -6038,12 +6038,12 @@
     "PAXG_sE": 1785903554683,
     "XAUT_sE": 1785912340985
   },
-  "scanCount": 1367,
+  "scanCount": 1368,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-05T23:33:14.742Z",
+  "lastScan": "2026-08-06T00:55:12.101Z",
   "lastReport": "2026-08-05T19:22:03.599Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 27,
+  "fearGreed": 25,
   "totalStats": {
     "trades": 246,
     "wins": 72,
