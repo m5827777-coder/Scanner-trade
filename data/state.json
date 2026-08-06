@@ -154,23 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "AVAX_sE_1785824084286",
-      "symbol": "AVAX",
-      "name": "Avalanche",
-      "coinId": "avalanche-2",
-      "rank": 31,
-      "stratId": "sE",
-      "entryPrice": 6.829,
-      "entryTime": 1785824084286,
-      "entryDate": "2026-08-04T06:14:44.286Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=6.5614 > EMA21=6.5499 · RSI=58 · Vol x1.3",
-      "strength": 84,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "HBAR_sE_1785834501314",
       "symbol": "HBAR",
       "name": "Hedera",
@@ -257,6 +240,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "AVAX_sE_1785824084286",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "coinId": "avalanche-2",
+      "rank": 31,
+      "stratId": "sE",
+      "entryPrice": 6.829,
+      "entryTime": 1785824084286,
+      "entryDate": "2026-08-04T06:14:44.286Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=6.5614 > EMA21=6.5499 · RSI=58 · Vol x1.3",
+      "strength": 84,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 6.405,
+      "exitTime": 1786021961185,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.208815346317169,
+      "pnlUsd": -6.208815346317169,
+      "total": 93.79118465368283
+    },
     {
       "id": "PUMP_sM_1785879561972",
       "symbol": "PUMP",
@@ -6021,7 +6027,7 @@
     "BCH_sE": 1784237795200,
     "LTC_sE": 1784114164675,
     "ETH_sE": 1783351224520,
-    "AVAX_sE": 1785824084286,
+    "AVAX_sE": 1786101161185,
     "SKY_sE": 1783587377362,
     "ARB_sE": 1785010780864,
     "LEO_sE": 1783669674148,
@@ -6044,18 +6050,18 @@
     "PAXG_sE": 1785903554683,
     "XAUT_sE": 1785912340985
   },
-  "scanCount": 1374,
+  "scanCount": 1375,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-06T11:36:21.937Z",
+  "lastScan": "2026-08-06T13:13:17.755Z",
   "lastReport": "2026-08-06T08:25:34.433Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 247,
+    "trades": 248,
     "wins": 72,
-    "losses": 175,
-    "totalPnl": -362.3186697377258,
-    "invested": 24700
+    "losses": 176,
+    "totalPnl": -368.527485084043,
+    "invested": 24800
   },
   "byStrategy": {
     "sR": {
@@ -6064,9 +6070,9 @@
       "pnl": -124.23869381792602
     },
     "sE": {
-      "trades": 117,
+      "trades": 118,
       "wins": 24,
-      "pnl": -265.48176353475594
+      "pnl": -271.6905788810731
     },
     "sM": {
       "trades": 18,
@@ -6099,9 +6105,9 @@
         "pnl": 56.31844812361986
       },
       "sE": {
-        "trades": 49,
+        "trades": 50,
         "wins": 13,
-        "pnl": -28.382620199333303
+        "pnl": -34.59143554565047
       },
       "sM": {
         "trades": 7,
@@ -6161,5 +6167,5 @@
       }
     }
   },
-  "btcDominance": 56.7
+  "btcDominance": 56.6
 }
