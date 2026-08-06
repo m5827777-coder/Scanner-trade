@@ -188,23 +188,6 @@
       "peakPnl": 0
     },
     {
-      "id": "PUMP_sM_1785879561972",
-      "symbol": "PUMP",
-      "name": "Pump.fun",
-      "coinId": "pump-fun",
-      "rank": 65,
-      "stratId": "sM",
-      "entryPrice": 0.002511,
-      "entryTime": 1785879561972,
-      "entryDate": "2026-08-04T21:39:21.972Z",
-      "entrySignal": "Пробой 20d max $0.0023 на +9.2% · Объём x1.8 · RSI=75",
-      "strength": 88,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "PAXG_sE_1785903554683",
       "symbol": "PAXG",
       "name": "PAX Gold",
@@ -274,6 +257,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "PUMP_sM_1785879561972",
+      "symbol": "PUMP",
+      "name": "Pump.fun",
+      "coinId": "pump-fun",
+      "rank": 65,
+      "stratId": "sM",
+      "entryPrice": 0.002511,
+      "entryTime": 1785879561972,
+      "entryDate": "2026-08-04T21:39:21.972Z",
+      "entrySignal": "Пробой 20d max $0.0023 на +9.2% · Объём x1.8 · RSI=75",
+      "strength": 88,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.002335,
+      "exitTime": 1785988630795,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.0091596973317545,
+      "pnlUsd": -7.0091596973317545,
+      "total": 92.99084030266825
+    },
     {
       "id": "BCH_sR_1785083422109",
       "symbol": "BCH",
@@ -6029,7 +6035,7 @@
     "SUI_sE": 1784992551861,
     "CRO_sE": 1784609577993,
     "INJ_sE": 1784303219151,
-    "PUMP_sM": 1785879561972,
+    "PUMP_sM": 1786067830795,
     "BTC_sE": 1785943790095,
     "SHIB_sE": 1785325890401,
     "LIT_sE": 1785438352915,
@@ -6038,18 +6044,18 @@
     "PAXG_sE": 1785903554683,
     "XAUT_sE": 1785912340985
   },
-  "scanCount": 1369,
+  "scanCount": 1370,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-06T02:03:39.710Z",
+  "lastScan": "2026-08-06T03:57:42.705Z",
   "lastReport": "2026-08-06T02:03:39.710Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 25,
   "totalStats": {
-    "trades": 246,
+    "trades": 247,
     "wins": 72,
-    "losses": 174,
-    "totalPnl": -355.30951004039406,
-    "invested": 24600
+    "losses": 175,
+    "totalPnl": -362.3186697377258,
+    "invested": 24700
   },
   "byStrategy": {
     "sR": {
@@ -6063,9 +6069,9 @@
       "pnl": -265.48176353475594
     },
     "sM": {
-      "trades": 17,
+      "trades": 18,
       "wins": 7,
-      "pnl": 34.41094731228809
+      "pnl": 27.401787614956334
     }
   },
   "byRegime": {
@@ -6098,9 +6104,9 @@
         "pnl": -28.382620199333303
       },
       "sM": {
-        "trades": 6,
+        "trades": 7,
         "wins": 3,
-        "pnl": 32.18469929390487
+        "pnl": 25.175539596573117
       }
     },
     "BEAR": {
@@ -6155,5 +6161,5 @@
       }
     }
   },
-  "btcDominance": 56.6
+  "btcDominance": 56.7
 }
