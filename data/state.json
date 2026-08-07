@@ -237,6 +237,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "FIGR_HELOC_sE_1786069426051",
+      "symbol": "FIGR_HELOC",
+      "name": "Figure Heloc",
+      "coinId": "figure-heloc",
+      "rank": 9,
+      "stratId": "sE",
+      "entryPrice": 1.0347801836388042,
+      "entryTime": 1786069426051,
+      "entryDate": "2026-08-07T02:23:46.051Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=1.0214 > EMA21=1.0203 · RSI=53 · Vol x2.0",
+      "strength": 88,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -5970,7 +5987,7 @@
     "LINK_sR": 1780510384134,
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1780410209384,
-    "FIGR_HELOC_sE": 1784846088392,
+    "FIGR_HELOC_sE": 1786069426051,
     "XMR_sR": 1781845530762,
     "ETH_sR": 1780524593518,
     "LTC_sR": 1779126568920,
@@ -6050,10 +6067,10 @@
     "PAXG_sE": 1785903554683,
     "XAUT_sE": 1785912340985
   },
-  "scanCount": 1378,
+  "scanCount": 1379,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-07T00:29:03.543Z",
-  "lastReport": "2026-08-06T23:53:37.441Z",
+  "lastScan": "2026-08-07T02:24:14.838Z",
+  "lastReport": "2026-08-07T02:24:14.838Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
   "totalStats": {
