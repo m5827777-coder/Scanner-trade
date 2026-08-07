@@ -6084,9 +6084,9 @@
     "PAXG_sE": 1785903554683,
     "XAUT_sE": 1785912340985
   },
-  "scanCount": 1394,
+  "scanCount": 1395,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-07T16:14:02.293Z",
+  "lastScan": "2026-08-07T17:07:18.076Z",
   "lastReport": "2026-08-07T12:51:18.208Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
@@ -6201,5 +6201,5 @@
       }
     }
   },
-  "btcDominance": 56.7
+  "btcDominance": 56.8
 }
