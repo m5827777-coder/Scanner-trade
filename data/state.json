@@ -254,6 +254,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "LIT_sE_1786101845338",
+      "symbol": "LIT",
+      "name": "Lighter",
+      "coinId": "lighter",
+      "rank": 90,
+      "stratId": "sE",
+      "entryPrice": 2.414,
+      "entryTime": 1786101845338,
+      "entryDate": "2026-08-07T11:24:05.338Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=2.1910 > EMA21=2.1890 · RSI=62 · Vol x1.1",
+      "strength": 81,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -6061,15 +6078,15 @@
     "PUMP_sM": 1786067830795,
     "BTC_sE": 1785943790095,
     "SHIB_sE": 1785325890401,
-    "LIT_sE": 1785438352915,
+    "LIT_sE": 1786101845338,
     "UNI_sM": 1785333389220,
     "BEAT_sE": 1785460927285,
     "PAXG_sE": 1785903554683,
     "XAUT_sE": 1785912340985
   },
-  "scanCount": 1387,
+  "scanCount": 1388,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-07T10:31:08.599Z",
+  "lastScan": "2026-08-07T11:24:09.327Z",
   "lastReport": "2026-08-07T07:06:09.472Z",
   "marketRegime": "BULL",
   "fearGreed": 29,
@@ -6184,5 +6201,5 @@
       }
     }
   },
-  "btcDominance": 56.7
+  "btcDominance": 56.8
 }
