@@ -271,6 +271,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "USDGO_sE_1786125487034",
+      "symbol": "USDGO",
+      "name": "USDGO",
+      "coinId": "usdgo",
+      "rank": 61,
+      "stratId": "sE",
+      "entryPrice": 1.0001686214524925,
+      "entryTime": 1786125487034,
+      "entryDate": "2026-08-07T17:58:07.034Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=1.0001 > EMA21=1.0001 · RSI=54 · Vol x1.2",
+      "strength": 69,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -6082,11 +6099,12 @@
     "UNI_sM": 1785333389220,
     "BEAT_sE": 1785460927285,
     "PAXG_sE": 1785903554683,
-    "XAUT_sE": 1785912340985
+    "XAUT_sE": 1785912340985,
+    "USDGO_sE": 1786125487035
   },
-  "scanCount": 1395,
+  "scanCount": 1396,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-07T17:07:18.076Z",
+  "lastScan": "2026-08-07T17:58:21.149Z",
   "lastReport": "2026-08-07T12:51:18.208Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
