@@ -6102,9 +6102,9 @@
     "XAUT_sE": 1785912340985,
     "USDGO_sE": 1786125487035
   },
-  "scanCount": 1434,
+  "scanCount": 1435,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-08T17:47:26.076Z",
+  "lastScan": "2026-08-08T18:14:24.411Z",
   "lastReport": "2026-08-08T12:35:54.179Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 30,
@@ -6219,5 +6219,5 @@
       }
     }
   },
-  "btcDominance": 56.6
+  "btcDominance": 56.7
 }
