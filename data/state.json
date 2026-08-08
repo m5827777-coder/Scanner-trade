@@ -6102,12 +6102,12 @@
     "XAUT_sE": 1785912340985,
     "USDGO_sE": 1786125487035
   },
-  "scanCount": 1405,
+  "scanCount": 1406,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-07T23:32:57.970Z",
+  "lastScan": "2026-08-08T00:02:32.342Z",
   "lastReport": "2026-08-07T18:46:57.699Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 29,
+  "fearGreed": 30,
   "totalStats": {
     "trades": 248,
     "wins": 72,
