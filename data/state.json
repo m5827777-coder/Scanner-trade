@@ -137,23 +137,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ALGO_sE_1785808818238",
-      "symbol": "ALGO",
-      "name": "Algorand",
-      "coinId": "algorand",
-      "rank": 77,
-      "stratId": "sE",
-      "entryPrice": 0.09159,
-      "entryTime": 1785808818238,
-      "entryDate": "2026-08-04T02:00:18.238Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.0846 > EMA21=0.0838 · RSI=68 · Vol x1.1",
-      "strength": 81,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "HBAR_sE_1785834501314",
       "symbol": "HBAR",
       "name": "Hedera",
@@ -291,6 +274,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ALGO_sE_1785808818238",
+      "symbol": "ALGO",
+      "name": "Algorand",
+      "coinId": "algorand",
+      "rank": 77,
+      "stratId": "sE",
+      "entryPrice": 0.09159,
+      "entryTime": 1785808818238,
+      "entryDate": "2026-08-04T02:00:18.238Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0846 > EMA21=0.0838 · RSI=68 · Vol x1.1",
+      "strength": 81,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.08607,
+      "exitTime": 1786272236068,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.026858827382914,
+      "pnlUsd": -6.026858827382914,
+      "total": 93.97314117261709
+    },
     {
       "id": "LIT_sE_1786101845338",
       "symbol": "LIT",
@@ -6078,7 +6084,7 @@
     "XLM_sE": 1781534882065,
     "INJ_sM": 1780617639283,
     "HBAR_sE": 1785834501314,
-    "ALGO_sE": 1785808818238,
+    "ALGO_sE": 1786351436068,
     "BNB_sM": 1780155702890,
     "BNB_sE": 1784631009103,
     "XLM_sM": 1780450105090,
@@ -6126,18 +6132,18 @@
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873
   },
-  "scanCount": 1460,
+  "scanCount": 1461,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-09T10:02:50.683Z",
+  "lastScan": "2026-08-09T10:44:31.951Z",
   "lastReport": "2026-08-09T06:45:56.638Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
   "totalStats": {
-    "trades": 249,
+    "trades": 250,
     "wins": 72,
-    "losses": 177,
-    "totalPnl": -374.59210811635455,
-    "invested": 24900
+    "losses": 178,
+    "totalPnl": -380.61896694373746,
+    "invested": 25000
   },
   "byStrategy": {
     "sR": {
@@ -6146,9 +6152,9 @@
       "pnl": -124.23869381792602
     },
     "sE": {
-      "trades": 119,
+      "trades": 120,
       "wins": 24,
-      "pnl": -277.75520191338467
+      "pnl": -283.7820607407676
     },
     "sM": {
       "trades": 18,
@@ -6181,9 +6187,9 @@
         "pnl": 56.31844812361986
       },
       "sE": {
-        "trades": 51,
+        "trades": 52,
         "wins": 13,
-        "pnl": -40.656058577962
+        "pnl": -46.68291740534492
       },
       "sM": {
         "trades": 7,
