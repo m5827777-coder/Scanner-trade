@@ -271,6 +271,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "TAO_sE_1786245630873",
+      "symbol": "TAO",
+      "name": "Bittensor",
+      "coinId": "bittensor",
+      "rank": 42,
+      "stratId": "sE",
+      "entryPrice": 205,
+      "entryTime": 1786245630873,
+      "entryDate": "2026-08-09T03:20:30.873Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=196.5863 > EMA21=196.2814 · RSI=59 · Vol x1.2",
+      "strength": 82,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -6106,11 +6123,12 @@
     "BEAT_sE": 1785460927285,
     "PAXG_sE": 1785903554683,
     "XAUT_sE": 1785912340985,
-    "USDGO_sE": 1786125487035
+    "USDGO_sE": 1786125487035,
+    "TAO_sE": 1786245630873
   },
-  "scanCount": 1450,
+  "scanCount": 1451,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-09T01:43:07.835Z",
+  "lastScan": "2026-08-09T03:20:51.598Z",
   "lastReport": "2026-08-09T01:15:38.315Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
