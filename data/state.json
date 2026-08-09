@@ -239,23 +239,6 @@
       "peakPnl": 0
     },
     {
-      "id": "USDGO_sE_1786125487034",
-      "symbol": "USDGO",
-      "name": "USDGO",
-      "coinId": "usdgo",
-      "rank": 61,
-      "stratId": "sE",
-      "entryPrice": 1.0001686214524925,
-      "entryTime": 1786125487034,
-      "entryDate": "2026-08-07T17:58:07.034Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=1.0001 > EMA21=1.0001 · RSI=54 · Vol x1.2",
-      "strength": 69,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "TAO_sE_1786245630873",
       "symbol": "TAO",
       "name": "Bittensor",
@@ -291,6 +274,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "USDGO_sE_1786125487034",
+      "symbol": "USDGO",
+      "name": "USDGO",
+      "coinId": "usdgo",
+      "rank": 61,
+      "stratId": "sE",
+      "entryPrice": 1.0001686214524925,
+      "entryTime": 1786125487034,
+      "entryDate": "2026-08-07T17:58:07.034Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=1.0001 > EMA21=1.0001 · RSI=54 · Vol x1.2",
+      "strength": 69,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 1.0000267045506446,
+      "exitTime": 1786305738731,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -0.014189297564829706,
+      "pnlUsd": -0.014189297564829706,
+      "total": 99.98581070243517
+    },
     {
       "id": "ALGO_sE_1785808818238",
       "symbol": "ALGO",
@@ -6149,18 +6155,18 @@
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873
   },
-  "scanCount": 1478,
+  "scanCount": 1479,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-09T19:40:41.793Z",
+  "lastScan": "2026-08-09T20:02:50.169Z",
   "lastReport": "2026-08-09T18:32:28.286Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
   "totalStats": {
-    "trades": 250,
+    "trades": 251,
     "wins": 72,
-    "losses": 178,
-    "totalPnl": -380.61896694373746,
-    "invested": 25000
+    "losses": 179,
+    "totalPnl": -380.6331562413023,
+    "invested": 25100
   },
   "byStrategy": {
     "sR": {
@@ -6169,9 +6175,9 @@
       "pnl": -124.23869381792602
     },
     "sE": {
-      "trades": 120,
+      "trades": 121,
       "wins": 24,
-      "pnl": -283.7820607407676
+      "pnl": -283.7962500383324
     },
     "sM": {
       "trades": 18,
@@ -6204,9 +6210,9 @@
         "pnl": 56.31844812361986
       },
       "sE": {
-        "trades": 52,
+        "trades": 53,
         "wins": 13,
-        "pnl": -46.68291740534492
+        "pnl": -46.69710670290975
       },
       "sM": {
         "trades": 7,
