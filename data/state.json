@@ -271,6 +271,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "TRX_sE_1786370640000",
+      "symbol": "TRX",
+      "name": "TRON",
+      "coinId": "tron",
+      "rank": 8,
+      "stratId": "sE",
+      "entryPrice": 0.3311,
+      "entryTime": 1786370640000,
+      "entryDate": "2026-08-10T14:04:00.000Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.3290 > EMA21=0.3282 · RSI=60 · Vol x4.3",
+      "strength": 74,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -6104,7 +6121,7 @@
     "XRP_sR": 1779499545235,
     "ZEC_sR": 1785460296210,
     "BNB_sR": 1779093283699,
-    "TRX_sE": 1785419163269,
+    "TRX_sE": 1786370640000,
     "WBT_sR": 1779119539183,
     "ONDO_sR": 1779898347287,
     "BTC_sR": 1779202157518,
@@ -6178,9 +6195,9 @@
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873
   },
-  "scanCount": 1499,
+  "scanCount": 1500,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-10T12:55:46.537Z",
+  "lastScan": "2026-08-10T14:04:32.236Z",
   "lastReport": "2026-08-10T12:55:46.537Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 30,
@@ -6295,5 +6312,5 @@
       }
     }
   },
-  "btcDominance": 56.7
+  "btcDominance": 56.6
 }
