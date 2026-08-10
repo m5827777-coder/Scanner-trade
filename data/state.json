@@ -222,23 +222,6 @@
       "peakPnl": 0
     },
     {
-      "id": "FIGR_HELOC_sE_1786069426051",
-      "symbol": "FIGR_HELOC",
-      "name": "Figure Heloc",
-      "coinId": "figure-heloc",
-      "rank": 9,
-      "stratId": "sE",
-      "entryPrice": 1.0347801836388042,
-      "entryTime": 1786069426051,
-      "entryDate": "2026-08-07T02:23:46.051Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=1.0214 > EMA21=1.0203 · RSI=53 · Vol x2.0",
-      "strength": 88,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "TAO_sE_1786245630873",
       "symbol": "TAO",
       "name": "Bittensor",
@@ -271,9 +254,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "LINK_sE_1786362852720",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "coinId": "chainlink",
+      "rank": 19,
+      "stratId": "sE",
+      "entryPrice": 8.304,
+      "entryTime": 1786362852720,
+      "entryDate": "2026-08-10T11:54:12.720Z",
+      "entrySignal": "Golden Cross вчера · EMA9=8.2885 > EMA21=8.2826 · RSI=52 · Vol x1.1",
+      "strength": 66,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "FIGR_HELOC_sE_1786069426051",
+      "symbol": "FIGR_HELOC",
+      "name": "Figure Heloc",
+      "coinId": "figure-heloc",
+      "rank": 9,
+      "stratId": "sE",
+      "entryPrice": 1.0347801836388042,
+      "entryTime": 1786069426051,
+      "entryDate": "2026-08-07T02:23:46.051Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=1.0214 > EMA21=1.0203 · RSI=53 · Vol x2.0",
+      "strength": 88,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 1.001867417854847,
+      "exitTime": 1786362845307,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -3.1806528868981094,
+      "pnlUsd": -3.1806528868981094,
+      "total": 96.81934711310188
+    },
     {
       "id": "USDGO_sE_1786125487034",
       "symbol": "USDGO",
@@ -6139,7 +6162,7 @@
     "PEPE_sE": 1783782559945,
     "GRAM_sR": 1784307697586,
     "PUMP_sE": 1784080520130,
-    "LINK_sE": 1783952479784,
+    "LINK_sE": 1786362852720,
     "ENA_sE": 1785654450650,
     "SUI_sE": 1784992551861,
     "CRO_sE": 1784609577993,
@@ -6155,18 +6178,18 @@
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873
   },
-  "scanCount": 1496,
+  "scanCount": 1497,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-10T11:02:03.179Z",
+  "lastScan": "2026-08-10T11:54:37.487Z",
   "lastReport": "2026-08-10T07:20:38.157Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 30,
   "totalStats": {
-    "trades": 251,
+    "trades": 252,
     "wins": 72,
-    "losses": 179,
-    "totalPnl": -380.6331562413023,
-    "invested": 25100
+    "losses": 180,
+    "totalPnl": -383.8138091282004,
+    "invested": 25200
   },
   "byStrategy": {
     "sR": {
@@ -6175,9 +6198,9 @@
       "pnl": -124.23869381792602
     },
     "sE": {
-      "trades": 121,
+      "trades": 122,
       "wins": 24,
-      "pnl": -283.7962500383324
+      "pnl": -286.9769029252305
     },
     "sM": {
       "trades": 18,
@@ -6210,9 +6233,9 @@
         "pnl": 56.31844812361986
       },
       "sE": {
-        "trades": 53,
+        "trades": 54,
         "wins": 13,
-        "pnl": -46.69710670290975
+        "pnl": -49.87775958980786
       },
       "sM": {
         "trades": 7,
