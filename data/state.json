@@ -256,23 +256,6 @@
       "peakPnl": 0
     },
     {
-      "id": "LINK_sE_1786362852720",
-      "symbol": "LINK",
-      "name": "Chainlink",
-      "coinId": "chainlink",
-      "rank": 19,
-      "stratId": "sE",
-      "entryPrice": 8.304,
-      "entryTime": 1786362852720,
-      "entryDate": "2026-08-10T11:54:12.720Z",
-      "entrySignal": "Golden Cross вчера · EMA9=8.2885 > EMA21=8.2826 · RSI=52 · Vol x1.1",
-      "strength": 66,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "TRX_sE_1786370640000",
       "symbol": "TRX",
       "name": "TRON",
@@ -308,6 +291,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "LINK_sE_1786362852720",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "coinId": "chainlink",
+      "rank": 19,
+      "stratId": "sE",
+      "entryPrice": 8.304,
+      "entryTime": 1786362852720,
+      "entryDate": "2026-08-10T11:54:12.720Z",
+      "entrySignal": "Golden Cross вчера · EMA9=8.2885 > EMA21=8.2826 · RSI=52 · Vol x1.1",
+      "strength": 66,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 8.222,
+      "exitTime": 1786381478478,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -0.9874759152215887,
+      "pnlUsd": -0.9874759152215887,
+      "total": 99.0125240847784
+    },
     {
       "id": "FIGR_HELOC_sE_1786069426051",
       "symbol": "FIGR_HELOC",
@@ -6212,18 +6218,18 @@
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873
   },
-  "scanCount": 1502,
+  "scanCount": 1503,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-10T16:08:08.780Z",
+  "lastScan": "2026-08-10T17:05:12.322Z",
   "lastReport": "2026-08-10T12:55:46.537Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 30,
   "totalStats": {
-    "trades": 252,
+    "trades": 253,
     "wins": 72,
-    "losses": 180,
-    "totalPnl": -383.8138091282004,
-    "invested": 25200
+    "losses": 181,
+    "totalPnl": -384.80128504342196,
+    "invested": 25300
   },
   "byStrategy": {
     "sR": {
@@ -6232,9 +6238,9 @@
       "pnl": -124.23869381792602
     },
     "sE": {
-      "trades": 122,
+      "trades": 123,
       "wins": 24,
-      "pnl": -286.9769029252305
+      "pnl": -287.96437884045207
     },
     "sM": {
       "trades": 18,
@@ -6267,9 +6273,9 @@
         "pnl": 56.31844812361986
       },
       "sE": {
-        "trades": 54,
+        "trades": 55,
         "wins": 13,
-        "pnl": -49.87775958980786
+        "pnl": -50.865235505029446
       },
       "sM": {
         "trades": 7,
@@ -6329,5 +6335,5 @@
       }
     }
   },
-  "btcDominance": 56.6
+  "btcDominance": 56.5
 }
