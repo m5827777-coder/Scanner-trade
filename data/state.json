@@ -6218,12 +6218,12 @@
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873
   },
-  "scanCount": 1513,
+  "scanCount": 1514,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-10T23:40:56.342Z",
+  "lastScan": "2026-08-11T00:05:26.610Z",
   "lastReport": "2026-08-10T18:49:08.625Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 30,
+  "fearGreed": 29,
   "totalStats": {
     "trades": 253,
     "wins": 72,
