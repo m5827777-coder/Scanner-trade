@@ -222,23 +222,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ZEC_sE_1786289632284",
-      "symbol": "ZEC",
-      "name": "Zcash",
-      "coinId": "zcash",
-      "rank": 15,
-      "stratId": "sE",
-      "entryPrice": 521.54,
-      "entryTime": 1786289632284,
-      "entryDate": "2026-08-09T15:33:52.284Z",
-      "entrySignal": "Golden Cross 2д назад · EMA9=502.0519 > EMA21=497.1960 · RSI=58 · Vol x1.0",
-      "strength": 77,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "TRX_sE_1786370640000",
       "symbol": "TRX",
       "name": "TRON",
@@ -274,6 +257,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ZEC_sE_1786289632284",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 15,
+      "stratId": "sE",
+      "entryPrice": 521.54,
+      "entryTime": 1786289632284,
+      "entryDate": "2026-08-09T15:33:52.284Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=502.0519 > EMA21=497.1960 · RSI=58 · Vol x1.0",
+      "strength": 77,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 490.2,
+      "exitTime": 1786432033530,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.00912681673505,
+      "pnlUsd": -6.00912681673505,
+      "total": 93.99087318326495
+    },
     {
       "id": "LEO_sE_1783669674148",
       "symbol": "LEO",
@@ -6184,7 +6190,7 @@
     "WLD_sM": 1780648179526,
     "NIGHT_sE": 1783252446162,
     "ONDO_sE": 1785937033022,
-    "ZEC_sE": 1786289632284,
+    "ZEC_sE": 1786511233530,
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1781827946706,
     "NEAR_sE": 1784023635147,
@@ -6224,18 +6230,18 @@
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873
   },
-  "scanCount": 1520,
+  "scanCount": 1521,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-11T06:57:07.752Z",
+  "lastScan": "2026-08-11T07:07:50.434Z",
   "lastReport": "2026-08-11T06:57:07.751Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 254,
+    "trades": 255,
     "wins": 72,
-    "losses": 182,
-    "totalPnl": -386.21847755402507,
-    "invested": 25400
+    "losses": 183,
+    "totalPnl": -392.2276043707601,
+    "invested": 25500
   },
   "byStrategy": {
     "sR": {
@@ -6244,9 +6250,9 @@
       "pnl": -124.23869381792602
     },
     "sE": {
-      "trades": 124,
+      "trades": 125,
       "wins": 24,
-      "pnl": -289.3815713510552
+      "pnl": -295.3906981677902
     },
     "sM": {
       "trades": 18,
@@ -6279,9 +6285,9 @@
         "pnl": 56.31844812361986
       },
       "sE": {
-        "trades": 56,
+        "trades": 57,
         "wins": 13,
-        "pnl": -52.28242801563253
+        "pnl": -58.29155483236758
       },
       "sM": {
         "trades": 7,
