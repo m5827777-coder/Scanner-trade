@@ -120,23 +120,6 @@
       "peakPnl": 0
     },
     {
-      "id": "HBAR_sE_1785834501314",
-      "symbol": "HBAR",
-      "name": "Hedera",
-      "coinId": "hedera-hashgraph",
-      "rank": 29,
-      "stratId": "sE",
-      "entryPrice": 0.0709,
-      "entryTime": 1785834501314,
-      "entryDate": "2026-08-04T09:08:21.314Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.0696 > EMA21=0.0695 · RSI=55 · Vol x1.0",
-      "strength": 81,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "PAXG_sE_1785903554683",
       "symbol": "PAXG",
       "name": "PAX Gold",
@@ -291,6 +274,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "HBAR_sE_1785834501314",
+      "symbol": "HBAR",
+      "name": "Hedera",
+      "coinId": "hedera-hashgraph",
+      "rank": 29,
+      "stratId": "sE",
+      "entryPrice": 0.0709,
+      "entryTime": 1785834501314,
+      "entryDate": "2026-08-04T09:08:21.314Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0696 > EMA21=0.0695 · RSI=55 · Vol x1.0",
+      "strength": 81,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.06658,
+      "exitTime": 1786451483754,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.093088857545845,
+      "pnlUsd": -6.093088857545845,
+      "total": 93.90691114245415
+    },
     {
       "id": "ZEC_sE_1786289632284",
       "symbol": "ZEC",
@@ -6215,7 +6221,7 @@
     "FIL_sE": 1784045328079,
     "XLM_sE": 1781534882065,
     "INJ_sM": 1780617639283,
-    "HBAR_sE": 1785834501314,
+    "HBAR_sE": 1786530683754,
     "ALGO_sE": 1786351436068,
     "BNB_sM": 1780155702890,
     "BNB_sE": 1784631009103,
@@ -6264,18 +6270,18 @@
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873
   },
-  "scanCount": 1526,
+  "scanCount": 1527,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-11T11:51:38.377Z",
+  "lastScan": "2026-08-11T12:31:56.248Z",
   "lastReport": "2026-08-11T06:57:07.751Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 255,
+    "trades": 256,
     "wins": 72,
-    "losses": 183,
-    "totalPnl": -392.2276043707601,
-    "invested": 25500
+    "losses": 184,
+    "totalPnl": -398.32069322830597,
+    "invested": 25600
   },
   "byStrategy": {
     "sR": {
@@ -6284,9 +6290,9 @@
       "pnl": -124.23869381792602
     },
     "sE": {
-      "trades": 125,
+      "trades": 126,
       "wins": 24,
-      "pnl": -295.3906981677902
+      "pnl": -301.4837870253361
     },
     "sM": {
       "trades": 18,
@@ -6319,9 +6325,9 @@
         "pnl": 56.31844812361986
       },
       "sE": {
-        "trades": 57,
+        "trades": 58,
         "wins": 13,
-        "pnl": -58.29155483236758
+        "pnl": -64.38464368991343
       },
       "sM": {
         "trades": 7,
