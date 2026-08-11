@@ -69,23 +69,6 @@
       "peakPnl": 0
     },
     {
-      "id": "UNI_sM_1785333389220",
-      "symbol": "UNI",
-      "name": "Uniswap",
-      "coinId": "uniswap",
-      "rank": 37,
-      "stratId": "sM",
-      "entryPrice": 4.039,
-      "entryTime": 1785333389220,
-      "entryDate": "2026-07-29T13:56:29.220Z",
-      "entrySignal": "Пробой 20d max $3.9610 на +2.0% · Объём x1.5 · RSI=66",
-      "strength": 76,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ENA_sE_1785654450650",
       "symbol": "ENA",
       "name": "Ethena",
@@ -274,6 +257,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "UNI_sM_1785333389220",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "coinId": "uniswap",
+      "rank": 37,
+      "stratId": "sM",
+      "entryPrice": 4.039,
+      "entryTime": 1785333389220,
+      "entryDate": "2026-07-29T13:56:29.220Z",
+      "entrySignal": "Пробой 20d max $3.9610 на +2.0% · Объём x1.5 · RSI=66",
+      "strength": 76,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 3.75,
+      "exitTime": 1786460130825,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.1552364446645145,
+      "pnlUsd": -7.155236444664514,
+      "total": 92.84476355533549
+    },
     {
       "id": "HBAR_sE_1785834501314",
       "symbol": "HBAR",
@@ -6263,25 +6269,25 @@
     "BTC_sE": 1785943790095,
     "SHIB_sE": 1785325890401,
     "LIT_sE": 1786439621016,
-    "UNI_sM": 1785333389220,
+    "UNI_sM": 1786539330825,
     "BEAT_sE": 1785460927285,
     "PAXG_sE": 1785903554683,
     "XAUT_sE": 1785912340985,
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873
   },
-  "scanCount": 1529,
+  "scanCount": 1530,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-11T13:58:35.703Z",
+  "lastScan": "2026-08-11T14:56:09.706Z",
   "lastReport": "2026-08-11T12:51:22.123Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 256,
+    "trades": 257,
     "wins": 72,
-    "losses": 184,
-    "totalPnl": -398.32069322830597,
-    "invested": 25600
+    "losses": 185,
+    "totalPnl": -405.4759296729705,
+    "invested": 25700
   },
   "byStrategy": {
     "sR": {
@@ -6295,9 +6301,9 @@
       "pnl": -301.4837870253361
     },
     "sM": {
-      "trades": 18,
+      "trades": 19,
       "wins": 7,
-      "pnl": 27.401787614956334
+      "pnl": 20.24655117029182
     }
   },
   "byRegime": {
@@ -6330,9 +6336,9 @@
         "pnl": -64.38464368991343
       },
       "sM": {
-        "trades": 7,
+        "trades": 8,
         "wins": 3,
-        "pnl": 25.175539596573117
+        "pnl": 18.020303151908603
       }
     },
     "BEAR": {
@@ -6387,5 +6393,5 @@
       }
     }
   },
-  "btcDominance": 56.5
+  "btcDominance": 56.4
 }
