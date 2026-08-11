@@ -18,23 +18,6 @@
       "peakPnl": 0
     },
     {
-      "id": "LEO_sE_1783669674148",
-      "symbol": "LEO",
-      "name": "LEO Token",
-      "coinId": "leo-token",
-      "rank": 14,
-      "stratId": "sE",
-      "entryPrice": 9.667,
-      "entryTime": 1783669674148,
-      "entryDate": "2026-07-10T07:47:54.148Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=9.4268 > EMA21=9.4247 · RSI=58 · Vol x2.9",
-      "strength": 92,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "PEPE_sE_1783782559945",
       "symbol": "PEPE",
       "name": "Pepe",
@@ -291,6 +274,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "LEO_sE_1783669674148",
+      "symbol": "LEO",
+      "name": "LEO Token",
+      "coinId": "leo-token",
+      "rank": 14,
+      "stratId": "sE",
+      "entryPrice": 9.667,
+      "entryTime": 1783669674148,
+      "entryDate": "2026-07-10T07:47:54.148Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=9.4268 > EMA21=9.4247 · RSI=58 · Vol x2.9",
+      "strength": 92,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 9.53,
+      "exitTime": 1786414883412,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -1.4171925106030874,
+      "pnlUsd": -1.4171925106030876,
+      "total": 98.58280748939691
+    },
     {
       "id": "LINK_sE_1786362852720",
       "symbol": "LINK",
@@ -6218,18 +6224,18 @@
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873
   },
-  "scanCount": 1515,
+  "scanCount": 1516,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-11T01:15:40.653Z",
+  "lastScan": "2026-08-11T02:22:03.450Z",
   "lastReport": "2026-08-11T01:15:40.653Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 253,
+    "trades": 254,
     "wins": 72,
-    "losses": 181,
-    "totalPnl": -384.80128504342196,
-    "invested": 25300
+    "losses": 182,
+    "totalPnl": -386.21847755402507,
+    "invested": 25400
   },
   "byStrategy": {
     "sR": {
@@ -6238,9 +6244,9 @@
       "pnl": -124.23869381792602
     },
     "sE": {
-      "trades": 123,
+      "trades": 124,
       "wins": 24,
-      "pnl": -287.96437884045207
+      "pnl": -289.3815713510552
     },
     "sM": {
       "trades": 18,
@@ -6273,9 +6279,9 @@
         "pnl": 56.31844812361986
       },
       "sE": {
-        "trades": 55,
+        "trades": 56,
         "wins": 13,
-        "pnl": -50.865235505029446
+        "pnl": -52.28242801563253
       },
       "sM": {
         "trades": 7,
