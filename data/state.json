@@ -6282,10 +6282,10 @@
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873
   },
-  "scanCount": 1542,
+  "scanCount": 1543,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-12T00:05:06.967Z",
-  "lastReport": "2026-08-11T18:54:52.942Z",
+  "lastScan": "2026-08-12T01:23:36.487Z",
+  "lastReport": "2026-08-12T01:23:36.487Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "totalStats": {
@@ -6399,5 +6399,5 @@
       }
     }
   },
-  "btcDominance": 56.2
+  "btcDominance": 56.3
 }
