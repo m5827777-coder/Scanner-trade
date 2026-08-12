@@ -220,7 +220,9 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "LIT_sE_1786439621016",
       "symbol": "LIT",
@@ -233,13 +235,17 @@
       "entryDate": "2026-08-11T09:13:41.016Z",
       "entrySignal": "Golden Cross 2д назад · EMA9=2.2867 > EMA21=2.2461 · RSI=60 · Vol x1.0",
       "strength": 76,
-      "regime": "BULL_TREND",
+      "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 2.2435,
+      "exitTime": 1786545645830,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -7.887173591722776,
+      "pnlUsd": -7.887173591722776,
+      "total": 92.11282640827723
+    },
     {
       "id": "BTC_sE_1785943790095",
       "symbol": "BTC",
@@ -6274,7 +6280,7 @@
     "PUMP_sM": 1786067830795,
     "BTC_sE": 1785943790095,
     "SHIB_sE": 1785325890401,
-    "LIT_sE": 1786439621016,
+    "LIT_sE": 1786624845830,
     "UNI_sM": 1786539330825,
     "BEAT_sE": 1785460927285,
     "PAXG_sE": 1785903554683,
@@ -6282,18 +6288,18 @@
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873
   },
-  "scanCount": 1555,
+  "scanCount": 1556,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-12T13:39:16.905Z",
+  "lastScan": "2026-08-12T14:41:22.887Z",
   "lastReport": "2026-08-12T12:56:12.880Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 27,
   "totalStats": {
-    "trades": 258,
+    "trades": 259,
     "wins": 72,
-    "losses": 186,
-    "totalPnl": -406.9531343948163,
-    "invested": 25800
+    "losses": 187,
+    "totalPnl": -414.8403079865391,
+    "invested": 25900
   },
   "byStrategy": {
     "sR": {
@@ -6302,9 +6308,9 @@
       "pnl": -124.23869381792602
     },
     "sE": {
-      "trades": 127,
+      "trades": 128,
       "wins": 24,
-      "pnl": -302.9609917471819
+      "pnl": -310.84816533890466
     },
     "sM": {
       "trades": 19,
@@ -6337,9 +6343,9 @@
         "pnl": 56.31844812361986
       },
       "sE": {
-        "trades": 59,
+        "trades": 60,
         "wins": 13,
-        "pnl": -65.86184841175925
+        "pnl": -73.74902200348203
       },
       "sM": {
         "trades": 8,
