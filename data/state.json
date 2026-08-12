@@ -6340,11 +6340,11 @@
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873
   },
-  "scanCount": 1565,
+  "scanCount": 1566,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-12T21:57:37.430Z",
+  "lastScan": "2026-08-12T22:36:33.330Z",
   "lastReport": "2026-08-12T18:54:52.000Z",
-  "marketRegime": "NEUTRAL",
+  "marketRegime": "BEAR",
   "fearGreed": 27,
   "totalStats": {
     "trades": 262,
