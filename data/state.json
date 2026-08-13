@@ -6381,11 +6381,11 @@
     "TAO_sE": 1786245630873,
     "OKB_sM": 1786635532585
   },
-  "scanCount": 1593,
+  "scanCount": 1594,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-13T23:08:22.309Z",
+  "lastScan": "2026-08-13T23:54:24.868Z",
   "lastReport": "2026-08-13T18:55:11.915Z",
-  "marketRegime": "NEUTRAL",
+  "marketRegime": "BEAR",
   "fearGreed": 29,
   "totalStats": {
     "trades": 263,
