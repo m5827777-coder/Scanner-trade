@@ -220,6 +220,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "OKB_sM_1786635532585",
+      "symbol": "OKB",
+      "name": "OKB",
+      "coinId": "okb",
+      "rank": 41,
+      "stratId": "sM",
+      "entryPrice": 101.27,
+      "entryTime": 1786635532585,
+      "entryDate": "2026-08-13T15:38:52.585Z",
+      "entrySignal": "Пробой 20d max $96.0200 на +5.5% · Объём x4.1 · RSI=85",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -6355,11 +6372,12 @@
     "PAXG_sE": 1785903554683,
     "XAUT_sE": 1785912340985,
     "USDGO_sE": 1786125487035,
-    "TAO_sE": 1786245630873
+    "TAO_sE": 1786245630873,
+    "OKB_sM": 1786635532585
   },
-  "scanCount": 1582,
+  "scanCount": 1583,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-13T14:44:43.517Z",
+  "lastScan": "2026-08-13T15:39:14.708Z",
   "lastReport": "2026-08-13T12:57:25.819Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 29,
