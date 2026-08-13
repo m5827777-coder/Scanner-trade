@@ -6375,11 +6375,11 @@
     "TAO_sE": 1786245630873,
     "OKB_sM": 1786635532585
   },
-  "scanCount": 1583,
+  "scanCount": 1584,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-13T15:39:14.708Z",
+  "lastScan": "2026-08-13T16:31:35.897Z",
   "lastReport": "2026-08-13T12:57:25.819Z",
-  "marketRegime": "NEUTRAL",
+  "marketRegime": "BEAR",
   "fearGreed": 29,
   "totalStats": {
     "trades": 262,
