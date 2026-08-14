@@ -35,23 +35,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ENA_sE_1785654450650",
-      "symbol": "ENA",
-      "name": "Ethena",
-      "coinId": "ethena",
-      "rank": 76,
-      "stratId": "sE",
-      "entryPrice": 0.08839,
-      "entryTime": 1785654450650,
-      "entryDate": "2026-08-02T07:07:30.650Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.0840 > EMA21=0.0835 · RSI=57 · Vol x1.3",
-      "strength": 85,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "PAXG_sE_1785903554683",
       "symbol": "PAXG",
       "name": "PAX Gold",
@@ -223,6 +206,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ENA_sE_1785654450650",
+      "symbol": "ENA",
+      "name": "Ethena",
+      "coinId": "ethena",
+      "rank": 76,
+      "stratId": "sE",
+      "entryPrice": 0.08839,
+      "entryTime": 1785654450650,
+      "entryDate": "2026-08-02T07:07:30.650Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0840 > EMA21=0.0835 · RSI=57 · Vol x1.3",
+      "strength": 85,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.08303,
+      "exitTime": 1786718495658,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.064034393030875,
+      "pnlUsd": -6.064034393030875,
+      "total": 93.93596560696912
+    },
     {
       "id": "FIGR_HELOC_sE_1786565938113",
       "symbol": "FIGR_HELOC",
@@ -6365,7 +6371,7 @@
     "GRAM_sR": 1784307697586,
     "PUMP_sE": 1784080520130,
     "LINK_sE": 1786439600143,
-    "ENA_sE": 1785654450650,
+    "ENA_sE": 1786797695658,
     "SUI_sE": 1784992551861,
     "CRO_sE": 1784609577993,
     "INJ_sE": 1784303219151,
@@ -6381,18 +6387,18 @@
     "TAO_sE": 1786245630873,
     "OKB_sM": 1786635532585
   },
-  "scanCount": 1608,
+  "scanCount": 1609,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-14T13:50:08.693Z",
+  "lastScan": "2026-08-14T14:42:11.621Z",
   "lastReport": "2026-08-14T12:53:27.169Z",
   "marketRegime": "BEAR",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 263,
+    "trades": 264,
     "wins": 73,
-    "losses": 190,
-    "totalPnl": -412.0703548664723,
-    "invested": 26300
+    "losses": 191,
+    "totalPnl": -418.13438925950317,
+    "invested": 26400
   },
   "byStrategy": {
     "sR": {
@@ -6401,9 +6407,9 @@
       "pnl": -124.23869381792602
     },
     "sE": {
-      "trades": 132,
+      "trades": 133,
       "wins": 25,
-      "pnl": -308.0782122188379
+      "pnl": -314.14224661186876
     },
     "sM": {
       "trades": 19,
@@ -6458,9 +6464,9 @@
         "pnl": -25.113672942021083
       },
       "sE": {
-        "trades": 52,
+        "trades": 53,
         "wins": 12,
-        "pnl": -93.0995883261086
+        "pnl": -99.16362271913948
       }
     },
     "BEAR_TREND": {
