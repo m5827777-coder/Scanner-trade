@@ -186,7 +186,9 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "OKB_sM_1786635532585",
       "symbol": "OKB",
@@ -199,13 +201,17 @@
       "entryDate": "2026-08-13T15:38:52.585Z",
       "entrySignal": "Пробой 20d max $96.0200 на +5.5% · Объём x4.1 · RSI=85",
       "strength": 95,
-      "regime": "BULL_TREND",
+      "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 107.98,
+      "exitTime": 1786728200244,
+      "exitReason": "RSI=89≥88 — берём прибыль",
+      "pnl": 6.625851683618059,
+      "pnlUsd": 6.625851683618059,
+      "total": 106.62585168361807
+    },
     {
       "id": "ENA_sE_1785654450650",
       "symbol": "ENA",
@@ -6387,18 +6393,18 @@
     "TAO_sE": 1786245630873,
     "OKB_sM": 1786635532585
   },
-  "scanCount": 1611,
+  "scanCount": 1612,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-14T16:25:22.582Z",
+  "lastScan": "2026-08-14T17:23:51.599Z",
   "lastReport": "2026-08-14T12:53:27.169Z",
   "marketRegime": "BEAR",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 264,
-    "wins": 73,
+    "trades": 265,
+    "wins": 74,
     "losses": 191,
-    "totalPnl": -418.13438925950317,
-    "invested": 26400
+    "totalPnl": -411.5085375758851,
+    "invested": 26500
   },
   "byStrategy": {
     "sR": {
@@ -6412,9 +6418,9 @@
       "pnl": -314.14224661186876
     },
     "sM": {
-      "trades": 19,
-      "wins": 7,
-      "pnl": 20.24655117029182
+      "trades": 20,
+      "wins": 8,
+      "pnl": 26.87240285390988
     }
   },
   "byRegime": {
@@ -6459,9 +6465,9 @@
         "pnl": -114.82673964839331
       },
       "sM": {
-        "trades": 6,
-        "wins": 2,
-        "pnl": -25.113672942021083
+        "trades": 7,
+        "wins": 3,
+        "pnl": -18.487821258403024
       },
       "sE": {
         "trades": 53,
