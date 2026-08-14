@@ -6393,9 +6393,9 @@
     "TAO_sE": 1786245630873,
     "OKB_sM": 1786635532585
   },
-  "scanCount": 1614,
+  "scanCount": 1615,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-14T18:44:49.948Z",
+  "lastScan": "2026-08-14T19:11:40.635Z",
   "lastReport": "2026-08-14T18:44:49.948Z",
   "marketRegime": "BEAR",
   "fearGreed": 29,
@@ -6510,5 +6510,5 @@
       }
     }
   },
-  "btcDominance": 56.2
+  "btcDominance": 56.1
 }
