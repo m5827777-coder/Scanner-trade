@@ -186,6 +186,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ETHFI_sE_1786788688360",
+      "symbol": "ETHFI",
+      "name": "Ether.fi",
+      "coinId": "ether-fi",
+      "rank": 102,
+      "stratId": "sE",
+      "entryPrice": 0.4855,
+      "entryTime": 1786788688360,
+      "entryDate": "2026-08-15T10:11:28.360Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.4131 > EMA21=0.4060 · RSI=68 · Vol x1.1",
+      "strength": 81,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -6391,11 +6408,12 @@
     "XAUT_sE": 1785912340985,
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873,
-    "OKB_sM": 1786635532585
+    "OKB_sM": 1786635532585,
+    "ETHFI_sE": 1786788688360
   },
-  "scanCount": 1646,
+  "scanCount": 1647,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-15T09:54:47.054Z",
+  "lastScan": "2026-08-15T10:11:29.282Z",
   "lastReport": "2026-08-15T07:06:27.926Z",
   "marketRegime": "BEAR",
   "fearGreed": 34,
