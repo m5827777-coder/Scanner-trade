@@ -6411,10 +6411,10 @@
     "OKB_sM": 1786635532585,
     "ETHFI_sE": 1786788688360
   },
-  "scanCount": 1715,
+  "scanCount": 1716,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-16T12:00:45.036Z",
-  "lastReport": "2026-08-16T06:30:09.273Z",
+  "lastScan": "2026-08-16T12:27:58.334Z",
+  "lastReport": "2026-08-16T12:27:58.334Z",
   "marketRegime": "BEAR",
   "fearGreed": 34,
   "totalStats": {
