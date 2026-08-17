@@ -6428,12 +6428,12 @@
     "OKB_sM": 1786635532585,
     "ETHFI_sE": 1786788688360
   },
-  "scanCount": 1752,
+  "scanCount": 1753,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-16T23:52:35.202Z",
+  "lastScan": "2026-08-17T00:01:49.312Z",
   "lastReport": "2026-08-16T18:20:19.700Z",
   "marketRegime": "BEAR",
-  "fearGreed": 34,
+  "fearGreed": 31,
   "totalStats": {
     "trades": 265,
     "wins": 74,
