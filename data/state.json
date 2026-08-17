@@ -254,6 +254,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "WBT_sE_1786991769628",
+      "symbol": "WBT",
+      "name": "WhiteBIT Coin",
+      "coinId": "whitebit",
+      "rank": 18,
+      "stratId": "sE",
+      "entryPrice": 55.575441234194514,
+      "entryTime": 1786991769628,
+      "entryDate": "2026-08-17T18:36:09.628Z",
+      "entrySignal": "Golden Cross 8д назад · EMA9=55.0793 > EMA21=55.3449 · RSI=52 · Vol x1.2",
+      "strength": 69,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -6516,7 +6533,7 @@
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1787053704198,
     "NEAR_sE": 1784023635147,
-    "WBT_sE": 1782928088771,
+    "WBT_sE": 1786991769629,
     "UNI_sE": 1783000026374,
     "AAVE_sE": 1785647106849,
     "WLFI_sE": 1786888054104,
@@ -6554,9 +6571,9 @@
     "OKB_sM": 1786635532585,
     "ETHFI_sE": 1786788688360
   },
-  "scanCount": 1786,
+  "scanCount": 1787,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-17T18:30:51.661Z",
+  "lastScan": "2026-08-17T18:36:39.995Z",
   "lastReport": "2026-08-17T18:30:51.661Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
@@ -6671,5 +6688,5 @@
       }
     }
   },
-  "btcDominance": 60
+  "btcDominance": 56.5
 }
