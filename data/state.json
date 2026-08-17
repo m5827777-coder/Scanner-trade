@@ -237,6 +237,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "HYPE_sE_1786966282500",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 10,
+      "stratId": "sE",
+      "entryPrice": 59.648,
+      "entryTime": 1786966282500,
+      "entryDate": "2026-08-17T11:31:22.500Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=56.9286 > EMA21=56.8754 · RSI=55 · Vol x1.0",
+      "strength": 82,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -6380,7 +6397,7 @@
     "CC_sE": 1781943500543,
     "FLR_sE": 1778797959970,
     "XRP_sE": 1784044752405,
-    "HYPE_sE": 1781512942242,
+    "HYPE_sE": 1786966282501,
     "LINK_sR": 1780510384134,
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1780410209384,
@@ -6468,9 +6485,9 @@
     "OKB_sM": 1786635532585,
     "ETHFI_sE": 1786788688360
   },
-  "scanCount": 1769,
+  "scanCount": 1770,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-17T11:01:18.879Z",
+  "lastScan": "2026-08-17T11:31:55.051Z",
   "lastReport": "2026-08-17T06:42:11.260Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
@@ -6585,5 +6602,5 @@
       }
     }
   },
-  "btcDominance": 56.2
+  "btcDominance": 56.3
 }
