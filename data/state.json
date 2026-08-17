@@ -69,23 +69,6 @@
       "peakPnl": 0
     },
     {
-      "id": "TAO_sE_1786245630873",
-      "symbol": "TAO",
-      "name": "Bittensor",
-      "coinId": "bittensor",
-      "rank": 42,
-      "stratId": "sE",
-      "entryPrice": 205,
-      "entryTime": 1786245630873,
-      "entryDate": "2026-08-09T03:20:30.873Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=196.5863 > EMA21=196.2814 · RSI=59 · Vol x1.2",
-      "strength": 82,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "TRX_sE_1786370640000",
       "symbol": "TRX",
       "name": "TRON",
@@ -274,6 +257,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "TAO_sE_1786245630873",
+      "symbol": "TAO",
+      "name": "Bittensor",
+      "coinId": "bittensor",
+      "rank": 42,
+      "stratId": "sE",
+      "entryPrice": 205,
+      "entryTime": 1786245630873,
+      "entryDate": "2026-08-09T03:20:30.873Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=196.5863 > EMA21=196.2814 · RSI=59 · Vol x1.2",
+      "strength": 82,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 195.4,
+      "exitTime": 1786988077766,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -4.68292682926829,
+      "pnlUsd": -4.68292682926829,
+      "total": 95.3170731707317
+    },
     {
       "id": "ATOM_sE_1786632274313",
       "symbol": "ATOM",
@@ -6548,18 +6554,18 @@
     "OKB_sM": 1786635532585,
     "ETHFI_sE": 1786788688360
   },
-  "scanCount": 1783,
+  "scanCount": 1784,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-17T17:03:02.519Z",
+  "lastScan": "2026-08-17T17:35:17.868Z",
   "lastReport": "2026-08-17T12:32:42.765Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
   "totalStats": {
-    "trades": 268,
+    "trades": 269,
     "wins": 75,
-    "losses": 193,
-    "totalPnl": -407.8633045946874,
-    "invested": 26800
+    "losses": 194,
+    "totalPnl": -412.5462314239557,
+    "invested": 26900
   },
   "byStrategy": {
     "sR": {
@@ -6568,9 +6574,9 @@
       "pnl": -129.33179348933893
     },
     "sE": {
-      "trades": 135,
+      "trades": 136,
       "wins": 26,
-      "pnl": -305.40391395925815
+      "pnl": -310.08684078852644
     },
     "sM": {
       "trades": 20,
@@ -6603,9 +6609,9 @@
         "pnl": 51.22534845220693
       },
       "sE": {
-        "trades": 63,
+        "trades": 64,
         "wins": 14,
-        "pnl": -71.08064819860805
+        "pnl": -75.76357502787633
       },
       "sM": {
         "trades": 8,
@@ -6665,5 +6671,5 @@
       }
     }
   },
-  "btcDominance": 56.4
+  "btcDominance": 56.5
 }
