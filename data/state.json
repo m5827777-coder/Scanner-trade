@@ -220,6 +220,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "WLD_sE_1786946677208",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 54,
+      "stratId": "sE",
+      "entryPrice": 0.362,
+      "entryTime": 1786946677208,
+      "entryDate": "2026-08-17T06:04:37.208Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=0.3448 > EMA21=0.3400 · RSI=60 · Vol x1.0",
+      "strength": 76,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -6367,7 +6384,7 @@
     "XMR_sE": 1785969350861,
     "ZEC_sM": 1779370849454,
     "ICP_sR": 1779986502655,
-    "WLD_sE": 1779850424416,
+    "WLD_sE": 1786946677209,
     "JUP_sE": 1781968157103,
     "MORPHO_sE": 1784010942833,
     "TON_sE": 1780599053641,
@@ -6428,9 +6445,9 @@
     "OKB_sM": 1786635532585,
     "ETHFI_sE": 1786788688360
   },
-  "scanCount": 1760,
+  "scanCount": 1761,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-17T05:42:20.243Z",
+  "lastScan": "2026-08-17T06:04:53.638Z",
   "lastReport": "2026-08-17T00:55:58.754Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
