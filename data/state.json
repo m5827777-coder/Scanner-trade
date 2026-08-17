@@ -254,6 +254,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "MORPHO_sE_1786968846739",
+      "symbol": "MORPHO",
+      "name": "Morpho",
+      "coinId": "morpho",
+      "rank": 51,
+      "stratId": "sE",
+      "entryPrice": 2.0925,
+      "entryTime": 1786968846739,
+      "entryDate": "2026-08-17T12:14:06.739Z",
+      "entrySignal": "Golden Cross вчера · EMA9=1.9819 > EMA21=1.9666 · RSI=62 · Vol x1.0",
+      "strength": 76,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -6426,7 +6443,7 @@
     "ICP_sR": 1779986502655,
     "WLD_sE": 1786946677209,
     "JUP_sE": 1781968157103,
-    "MORPHO_sE": 1784010942833,
+    "MORPHO_sE": 1786968846739,
     "TON_sE": 1780599053641,
     "OKB_sE": 1785071279484,
     "FET_sE": 1780634934681,
@@ -6485,9 +6502,9 @@
     "OKB_sM": 1786635532585,
     "ETHFI_sE": 1786788688360
   },
-  "scanCount": 1771,
+  "scanCount": 1772,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-17T11:52:54.840Z",
+  "lastScan": "2026-08-17T12:14:22.469Z",
   "lastReport": "2026-08-17T06:42:11.260Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 31,
@@ -6602,5 +6619,5 @@
       }
     }
   },
-  "btcDominance": 56.3
+  "btcDominance": 56.2
 }
