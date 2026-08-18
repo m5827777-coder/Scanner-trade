@@ -6594,9 +6594,9 @@
     "OKB_sM": 1786635532585,
     "ETHFI_sE": 1786788688360
   },
-  "scanCount": 1827,
+  "scanCount": 1828,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-18T14:01:14.315Z",
+  "lastScan": "2026-08-18T14:39:08.269Z",
   "lastReport": "2026-08-18T12:34:15.488Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 41,
@@ -6711,5 +6711,5 @@
       }
     }
   },
-  "btcDominance": 56.5
+  "btcDominance": 56.7
 }
