@@ -116491,3 +116491,60 @@
 [2026-08-19 19:11:53 UTC] ✅ Данные: 54 токенов OK, 25 недоступно | Открыто: 0 | Всего: 18
 [2026-08-19 19:11:53 UTC] 
 📊 ИТОГ: WR=28.3% PnL=$-386.44 Trades=272
+[2026-08-19 19:36:28 UTC] ════════════════════════════════════════════════════
+[2026-08-19 19:36:28 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-08-19 19:36:28 UTC] ════════════════════════════════════════════════════
+[2026-08-19 19:36:28 UTC] 📡 Scan #1890
+[2026-08-19 19:36:28 UTC] 📊 BTC Dom=56.9%
+[2026-08-19 19:36:28 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-08-19 19:36:29 UTC] 🌡 F&G=46 Regime=NEUTRAL Open=18
+[2026-08-19 19:36:29 UTC]   📂 HOLD BNB/sE PnL=+6.22%
+[2026-08-19 19:36:29 UTC]   📂 HOLD PAXG/sE PnL=+8.84%
+[2026-08-19 19:36:29 UTC]   📂 HOLD XAUT/sE PnL=+7.92%
+[2026-08-19 19:36:30 UTC]   📂 HOLD TRX/sE PnL=+0.39%
+[2026-08-19 19:36:30 UTC]   📂 HOLD ICP/sE PnL=+0.63%
+[2026-08-19 19:36:30 UTC]   📂 HOLD ETHFI/sE PnL=+3.36%
+[2026-08-19 19:36:30 UTC]   📂 HOLD WLFI/sE PnL=+0.21%
+[2026-08-19 19:36:30 UTC]   📂 HOLD ZEC/sE PnL=+7.88%
+[2026-08-19 19:36:30 UTC]   ✅ CLOSE HYPE/sE: ✅ TP +15% PnL=+18.18% held=2д 8ч
+[2026-08-19 19:36:31 UTC]   📂 HOLD MORPHO/sE PnL=+1.88%
+[2026-08-19 19:36:32 UTC]   📂 HOLD POL/sE PnL=+3.45%
+[2026-08-19 19:36:32 UTC]   📂 HOLD SOL/sE PnL=+8.21%
+[2026-08-19 19:36:32 UTC]   📂 HOLD WBT/sE PnL=+4.91%
+[2026-08-19 19:36:32 UTC]   📂 HOLD ADA/sR PnL=+3.61%
+[2026-08-19 19:36:32 UTC]   📂 HOLD BTC/sE PnL=+4.30%
+[2026-08-19 19:36:33 UTC]   📂 HOLD ETH/sE PnL=+1.47%
+[2026-08-19 19:36:33 UTC]   📂 HOLD DOGE/sE PnL=-0.45%
+[2026-08-19 19:36:33 UTC]   📂 HOLD SKY/sM PnL=+2.01%
+[2026-08-19 19:36:33 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-08-19 19:36:33 UTC] ✓ CoinGecko: 79 токенов. Проверяю входы...
+[2026-08-19 19:36:37 UTC]   📈 ENTRY HYPE/sE [BULL_TREND] via OKX: Golden Cross 3д назад · EMA9=60.6920 > EMA21=58.6851 · RSI=73 · Vol x2.6 @ $70.379
+[2026-08-19 19:36:39 UTC]   📈 ENTRY RAIN/sE [BULL_TREND] via CoinGecko: Golden Cross сегодня · EMA9=0.0131 > EMA21=0.0131 · RSI=61 · Vol x1.1 @ $0.013910823780458447
+[2026-08-19 19:36:41 UTC]   ⏭ XMR: нет данных (monero)
+[2026-08-19 19:36:41 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-08-19 19:36:46 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-08-19 19:36:47 UTC]   ⏭ M: нет данных (memecore)
+[2026-08-19 19:36:53 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-08-19 19:36:53 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-08-19 19:36:56 UTC]   ⏭ U: нет данных (united-stables)
+[2026-08-19 19:36:57 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-08-19 19:36:58 UTC]   ⏭ EURSAFO: нет данных (spiko-amundi-overnight-swap-fund-eur)
+[2026-08-19 19:36:58 UTC]   ⏭ USDGO: нет данных (usdgo)
+[2026-08-19 19:36:59 UTC]   ⏭ BTW: нет данных (bitway)
+[2026-08-19 19:37:00 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-08-19 19:37:01 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-08-19 19:37:02 UTC]   ⏭ JST: нет данных (just)
+[2026-08-19 19:37:02 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-08-19 19:37:03 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-08-19 19:37:04 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-08-19 19:37:04 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-08-19 19:37:05 UTC]   ⏭ JAAA: нет данных (janus-henderson-anemoy-aaa-clo-fund)
+[2026-08-19 19:37:05 UTC]   ⏭ GHO: нет данных (gho)
+[2026-08-19 19:37:06 UTC]   ⏭ VVV: нет данных (venice-token)
+[2026-08-19 19:37:07 UTC]   ⏭ BDX: нет данных (beldex)
+[2026-08-19 19:37:08 UTC]   ⏭ XDC: нет данных (xdce-crowd-sale)
+[2026-08-19 19:37:10 UTC]   ⏭ CAKE: нет данных (pancakeswap-token)
+[2026-08-19 19:37:10 UTC]   ⏭ USX: нет данных (usx)
+[2026-08-19 19:37:11 UTC] ✅ Данные: 54 токенов OK, 25 недоступно | Открыто: 2 | Всего: 19
+[2026-08-19 19:37:11 UTC] 
+📊 ИТОГ: WR=28.6% PnL=$-368.26 Trades=273
