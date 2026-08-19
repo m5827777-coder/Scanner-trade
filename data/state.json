@@ -6675,10 +6675,10 @@
     "ETHFI_sE": 1786788688360,
     "DOGE_sE": 1787153609321
   },
-  "scanCount": 1886,
+  "scanCount": 1887,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-19T18:02:34.823Z",
-  "lastReport": "2026-08-19T12:34:58.203Z",
+  "lastScan": "2026-08-19T18:26:08.194Z",
+  "lastReport": "2026-08-19T18:26:08.194Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 46,
   "totalStats": {
