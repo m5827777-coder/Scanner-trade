@@ -6675,11 +6675,11 @@
     "ETHFI_sE": 1786788688360,
     "DOGE_sE": 1787153609321
   },
-  "scanCount": 1882,
+  "scanCount": 1883,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-19T16:35:17.044Z",
+  "lastScan": "2026-08-19T16:58:56.081Z",
   "lastReport": "2026-08-19T12:34:58.203Z",
-  "marketRegime": "BULL_TREND",
+  "marketRegime": "NEUTRAL",
   "fearGreed": 46,
   "totalStats": {
     "trades": 272,
@@ -6792,5 +6792,5 @@
       }
     }
   },
-  "btcDominance": 57.2
+  "btcDominance": 57.1
 }
