@@ -1,23 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "ETH_sE_1783351224519",
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "coinId": "ethereum",
-      "rank": 2,
-      "stratId": "sE",
-      "entryPrice": 1760.95,
-      "entryTime": 1783351224519,
-      "entryDate": "2026-07-06T15:20:24.519Z",
-      "entrySignal": "Golden Cross вчера · EMA9=1709.9752 > EMA21=1697.7212 · RSI=53 · Vol x6.9",
-      "strength": 90,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "BNB_sE_1784631009103",
       "symbol": "BNB",
       "name": "BNB",
@@ -271,9 +254,83 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ETH_sE_1787153605762",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "coinId": "ethereum",
+      "rank": 2,
+      "stratId": "sE",
+      "entryPrice": 2066.24,
+      "entryTime": 1787153605762,
+      "entryDate": "2026-08-19T15:33:25.762Z",
+      "entrySignal": "EMA начало расхождения · EMA9=1930.8250 > EMA21=1906.8135 · RSI=74 · Vol x3.0",
+      "strength": 84,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "DOGE_sE_1787153609321",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "coinId": "dogecoin",
+      "rank": 11,
+      "stratId": "sE",
+      "entryPrice": 0.07312,
+      "entryTime": 1787153609321,
+      "entryDate": "2026-08-19T15:33:29.321Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0708 > EMA21=0.0708 · RSI=59 · Vol x1.1",
+      "strength": 82,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "SKY_sM_1787153623428",
+      "symbol": "SKY",
+      "name": "Sky",
+      "coinId": "sky",
+      "rank": 55,
+      "stratId": "sM",
+      "entryPrice": 0.05881,
+      "entryTime": 1787153623428,
+      "entryDate": "2026-08-19T15:33:43.428Z",
+      "entrySignal": "Пробой 20d max $0.0587 на +0.2% · Объём x3.0 · RSI=62",
+      "strength": 84,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "ETH_sE_1783351224519",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "coinId": "ethereum",
+      "rank": 2,
+      "stratId": "sE",
+      "entryPrice": 1760.95,
+      "entryTime": 1783351224519,
+      "entryDate": "2026-07-06T15:20:24.519Z",
+      "entrySignal": "Golden Cross вчера · EMA9=1709.9752 > EMA21=1697.7212 · RSI=53 · Vol x6.9",
+      "strength": 90,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2067.21,
+      "exitTime": 1787153602201,
+      "exitReason": "✅ TP +15%",
+      "pnl": 17.391748771969677,
+      "pnlUsd": 17.391748771969677,
+      "total": 117.39174877196967
+    },
     {
       "id": "LINK_sE_1786439600143",
       "symbol": "LINK",
@@ -6585,11 +6642,11 @@
     "WLFI_sE": 1786888054104,
     "LIT_sM": 1782981286266,
     "SOL_sE": 1786978850455,
-    "SKY_sM": 1783307453230,
+    "SKY_sM": 1787153623428,
     "ADA_sE": 1786628148219,
     "BCH_sE": 1784237795200,
     "LTC_sE": 1784114164675,
-    "ETH_sE": 1783351224520,
+    "ETH_sE": 1787153605762,
     "AVAX_sE": 1786101161185,
     "SKY_sE": 1783587377362,
     "ARB_sE": 1785010780864,
@@ -6615,20 +6672,21 @@
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873,
     "OKB_sM": 1786635532585,
-    "ETHFI_sE": 1786788688360
+    "ETHFI_sE": 1786788688360,
+    "DOGE_sE": 1787153609321
   },
-  "scanCount": 1879,
+  "scanCount": 1880,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-19T15:00:07.388Z",
+  "lastScan": "2026-08-19T15:33:44.577Z",
   "lastReport": "2026-08-19T12:34:58.203Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 46,
   "totalStats": {
-    "trades": 271,
-    "wins": 76,
+    "trades": 272,
+    "wins": 77,
     "losses": 195,
-    "totalPnl": -403.83598282782197,
-    "invested": 27100
+    "totalPnl": -386.4442340558523,
+    "invested": 27200
   },
   "byStrategy": {
     "sR": {
@@ -6637,9 +6695,9 @@
       "pnl": -129.33179348933893
     },
     "sE": {
-      "trades": 138,
-      "wins": 27,
-      "pnl": -301.3765921923927
+      "trades": 139,
+      "wins": 28,
+      "pnl": -283.98484342042303
     },
     "sM": {
       "trades": 20,
@@ -6672,9 +6730,9 @@
         "pnl": 51.22534845220693
       },
       "sE": {
-        "trades": 66,
-        "wins": 15,
-        "pnl": -67.05332643174263
+        "trades": 67,
+        "wins": 16,
+        "pnl": -49.66157765977296
       },
       "sM": {
         "trades": 8,
@@ -6734,5 +6792,5 @@
       }
     }
   },
-  "btcDominance": 56.7
+  "btcDominance": 56.9
 }
