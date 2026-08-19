@@ -254,6 +254,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "BTC_sE_1787149522773",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "coinId": "bitcoin",
+      "rank": 1,
+      "stratId": "sE",
+      "entryPrice": 65425.3,
+      "entryTime": 1787149522773,
+      "entryDate": "2026-08-19T14:25:22.773Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=64223.0303 > EMA21=64136.5534 · RSI=60 · Vol x1.2",
+      "strength": 81,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -6588,7 +6605,7 @@
     "CRO_sE": 1784609577993,
     "INJ_sE": 1784303219151,
     "PUMP_sM": 1786067830795,
-    "BTC_sE": 1785943790095,
+    "BTC_sE": 1787149522773,
     "SHIB_sE": 1785325890401,
     "LIT_sE": 1786624845830,
     "UNI_sM": 1786539330825,
@@ -6600,9 +6617,9 @@
     "OKB_sM": 1786635532585,
     "ETHFI_sE": 1786788688360
   },
-  "scanCount": 1877,
+  "scanCount": 1878,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-19T13:56:29.487Z",
+  "lastScan": "2026-08-19T14:25:55.419Z",
   "lastReport": "2026-08-19T12:34:58.203Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 46,
@@ -6717,5 +6734,5 @@
       }
     }
   },
-  "btcDominance": 56.6
+  "btcDominance": 56.7
 }
