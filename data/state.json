@@ -86,23 +86,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ETHFI_sE_1786788688360",
-      "symbol": "ETHFI",
-      "name": "Ether.fi",
-      "coinId": "ether-fi",
-      "rank": 102,
-      "stratId": "sE",
-      "entryPrice": 0.4855,
-      "entryTime": 1786788688360,
-      "entryDate": "2026-08-15T10:11:28.360Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.4131 > EMA21=0.4060 · RSI=68 · Vol x1.1",
-      "strength": 81,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "WLFI_sE_1786888054104",
       "symbol": "WLFI",
       "name": "World Liberty Financial",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XRP_sM_1787213812980",
+      "symbol": "XRP",
+      "name": "XRP",
+      "coinId": "ripple",
+      "rank": 6,
+      "stratId": "sM",
+      "entryPrice": 1.1258,
+      "entryTime": 1787213812980,
+      "entryDate": "2026-08-20T08:16:52.980Z",
+      "entrySignal": "Пробой 20d max $1.0949 на +2.8% · Объём x2.4 · RSI=66",
+      "strength": 90,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "ETHFI_sE_1786788688360",
+      "symbol": "ETHFI",
+      "name": "Ether.fi",
+      "coinId": "ether-fi",
+      "rank": 102,
+      "stratId": "sE",
+      "entryPrice": 0.4855,
+      "entryTime": 1786788688360,
+      "entryDate": "2026-08-15T10:11:28.360Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.4131 > EMA21=0.4060 · RSI=68 · Vol x1.1",
+      "strength": 81,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.5615,
+      "exitTime": 1787213807476,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.65396498455201,
+      "pnlUsd": 15.65396498455201,
+      "total": 115.653964984552
+    },
     {
       "id": "HYPE_sE_1786966282500",
       "symbol": "HYPE",
@@ -6730,20 +6753,21 @@
     "TAO_sE": 1786245630873,
     "OKB_sM": 1786635532585,
     "ETHFI_sE": 1786788688360,
-    "DOGE_sE": 1787153609321
+    "DOGE_sE": 1787153609321,
+    "XRP_sM": 1787213812980
   },
-  "scanCount": 1914,
+  "scanCount": 1915,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-20T07:39:34.718Z",
+  "lastScan": "2026-08-20T08:16:53.910Z",
   "lastReport": "2026-08-20T06:35:58.304Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 62,
   "totalStats": {
-    "trades": 273,
-    "wins": 78,
+    "trades": 274,
+    "wins": 79,
     "losses": 195,
-    "totalPnl": -368.264244785466,
-    "invested": 27300
+    "totalPnl": -352.610279800914,
+    "invested": 27400
   },
   "byStrategy": {
     "sR": {
@@ -6752,9 +6776,9 @@
       "pnl": -129.33179348933893
     },
     "sE": {
-      "trades": 140,
-      "wins": 29,
-      "pnl": -265.80485415003676
+      "trades": 141,
+      "wins": 30,
+      "pnl": -250.15088916548476
     },
     "sM": {
       "trades": 20,
@@ -6843,11 +6867,11 @@
         "pnl": 25.117185687102605
       },
       "sE": {
-        "trades": 1,
-        "wins": 0,
-        "pnl": -6.1554512258737635
+        "trades": 2,
+        "wins": 1,
+        "pnl": 9.498513758678246
       }
     }
   },
-  "btcDominance": 58.3
+  "btcDominance": 58.5
 }
