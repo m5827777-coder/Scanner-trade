@@ -154,23 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "SOL_sE_1786978850455",
-      "symbol": "SOL",
-      "name": "Solana",
-      "coinId": "solana",
-      "rank": 7,
-      "stratId": "sE",
-      "entryPrice": 75.98,
-      "entryTime": 1786978850455,
-      "entryDate": "2026-08-17T15:00:50.455Z",
-      "entrySignal": "Golden Cross 7д назад · EMA9=75.5513 > EMA21=75.3463 · RSI=53 · Vol x1.0",
-      "strength": 63,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "WBT_sE_1786991769628",
       "symbol": "WBT",
       "name": "WhiteBIT Coin",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "SOL_sM_1787216284302",
+      "symbol": "SOL",
+      "name": "Solana",
+      "coinId": "solana",
+      "rank": 7,
+      "stratId": "sM",
+      "entryPrice": 87.73,
+      "entryTime": 1787216284302,
+      "entryDate": "2026-08-20T08:58:04.302Z",
+      "entrySignal": "Пробой 20d max $77.8600 на +12.7% · Объём x3.3 · RSI=80",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "SOL_sE_1786978850455",
+      "symbol": "SOL",
+      "name": "Solana",
+      "coinId": "solana",
+      "rank": 7,
+      "stratId": "sE",
+      "entryPrice": 75.98,
+      "entryTime": 1786978850455,
+      "entryDate": "2026-08-17T15:00:50.455Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=75.5513 > EMA21=75.3463 · RSI=53 · Vol x1.0",
+      "strength": 63,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 87.72,
+      "exitTime": 1787216279800,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.451434588049478,
+      "pnlUsd": 15.451434588049478,
+      "total": 115.45143458804948
+    },
     {
       "id": "ETHFI_sE_1786788688360",
       "symbol": "ETHFI",
@@ -6754,20 +6777,21 @@
     "OKB_sM": 1786635532585,
     "ETHFI_sE": 1786788688360,
     "DOGE_sE": 1787153609321,
-    "XRP_sM": 1787213812980
+    "XRP_sM": 1787213812980,
+    "SOL_sM": 1787216284302
   },
-  "scanCount": 1915,
+  "scanCount": 1916,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-20T08:16:53.910Z",
+  "lastScan": "2026-08-20T08:58:05.082Z",
   "lastReport": "2026-08-20T06:35:58.304Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 62,
   "totalStats": {
-    "trades": 274,
-    "wins": 79,
+    "trades": 275,
+    "wins": 80,
     "losses": 195,
-    "totalPnl": -352.610279800914,
-    "invested": 27400
+    "totalPnl": -337.1588452128645,
+    "invested": 27500
   },
   "byStrategy": {
     "sR": {
@@ -6776,9 +6800,9 @@
       "pnl": -129.33179348933893
     },
     "sE": {
-      "trades": 141,
-      "wins": 30,
-      "pnl": -250.15088916548476
+      "trades": 142,
+      "wins": 31,
+      "pnl": -234.6994545774353
     },
     "sM": {
       "trades": 20,
@@ -6867,11 +6891,11 @@
         "pnl": 25.117185687102605
       },
       "sE": {
-        "trades": 2,
-        "wins": 1,
-        "pnl": 9.498513758678246
+        "trades": 3,
+        "wins": 2,
+        "pnl": 24.949948346727723
       }
     }
   },
-  "btcDominance": 58.5
+  "btcDominance": 58.7
 }
