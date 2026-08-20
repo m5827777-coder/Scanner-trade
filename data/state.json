@@ -6816,10 +6816,10 @@
     "SOL_sM": 1787216284302,
     "LINK_sM": 1787234871146
   },
-  "scanCount": 1934,
+  "scanCount": 1935,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-20T18:14:12.978Z",
-  "lastReport": "2026-08-20T12:35:45.387Z",
+  "lastScan": "2026-08-20T18:30:38.681Z",
+  "lastReport": "2026-08-20T18:30:38.681Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 62,
   "totalStats": {
