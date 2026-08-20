@@ -103,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ZEC_sE_1786958631315",
-      "symbol": "ZEC",
-      "name": "Zcash",
-      "coinId": "zcash",
-      "rank": 14,
-      "stratId": "sE",
-      "entryPrice": 510.94,
-      "entryTime": 1786958631315,
-      "entryDate": "2026-08-17T09:23:51.315Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=495.7316 > EMA21=495.3419 · RSI=56 · Vol x1.1",
-      "strength": 83,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "MORPHO_sE_1786968846739",
       "symbol": "MORPHO",
       "name": "Morpho",
@@ -183,23 +166,6 @@
       "entrySignal": "Golden Cross сегодня · EMA9=64223.0303 > EMA21=64136.5534 · RSI=60 · Vol x1.2",
       "strength": 81,
       "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "ETH_sE_1787153605762",
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "coinId": "ethereum",
-      "rank": 2,
-      "stratId": "sE",
-      "entryPrice": 2066.24,
-      "entryTime": 1787153605762,
-      "entryDate": "2026-08-19T15:33:25.762Z",
-      "entrySignal": "EMA начало расхождения · EMA9=1930.8250 > EMA21=1906.8135 · RSI=74 · Vol x3.0",
-      "strength": 84,
-      "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
@@ -342,6 +308,52 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ETH_sE_1787153605762",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "coinId": "ethereum",
+      "rank": 2,
+      "stratId": "sE",
+      "entryPrice": 2066.24,
+      "entryTime": 1787153605762,
+      "entryDate": "2026-08-19T15:33:25.762Z",
+      "entrySignal": "EMA начало расхождения · EMA9=1930.8250 > EMA21=1906.8135 · RSI=74 · Vol x3.0",
+      "strength": 84,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2341.38,
+      "exitTime": 1787244781028,
+      "exitReason": "RSI=86≥85 перекуплен",
+      "pnl": 13.315974910949373,
+      "pnlUsd": 13.315974910949373,
+      "total": 113.31597491094938
+    },
+    {
+      "id": "ZEC_sE_1786958631315",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 14,
+      "stratId": "sE",
+      "entryPrice": 510.94,
+      "entryTime": 1786958631315,
+      "entryDate": "2026-08-17T09:23:51.315Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=495.7316 > EMA21=495.3419 · RSI=56 · Vol x1.1",
+      "strength": 83,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 587.63,
+      "exitTime": 1787244779126,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.009590167142914,
+      "pnlUsd": 15.009590167142914,
+      "total": 115.00959016714292
+    },
     {
       "id": "ADA_sR_1787059284255",
       "symbol": "ADA",
@@ -6804,18 +6816,18 @@
     "SOL_sM": 1787216284302,
     "LINK_sM": 1787234871146
   },
-  "scanCount": 1930,
+  "scanCount": 1931,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-20T16:16:42.094Z",
+  "lastScan": "2026-08-20T16:53:39.607Z",
   "lastReport": "2026-08-20T12:35:45.387Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 62,
   "totalStats": {
-    "trades": 276,
-    "wins": 81,
+    "trades": 278,
+    "wins": 83,
     "losses": 195,
-    "totalPnl": -325.0602213596535,
-    "invested": 27600
+    "totalPnl": -296.73465628156123,
+    "invested": 27800
   },
   "byStrategy": {
     "sR": {
@@ -6824,9 +6836,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 142,
-      "wins": 31,
-      "pnl": -234.6994545774353
+      "trades": 144,
+      "wins": 33,
+      "pnl": -206.37388949934302
     },
     "sM": {
       "trades": 20,
@@ -6915,11 +6927,11 @@
         "pnl": 25.117185687102605
       },
       "sE": {
-        "trades": 3,
-        "wins": 2,
-        "pnl": 24.949948346727723
+        "trades": 5,
+        "wins": 4,
+        "pnl": 53.27551342482001
       }
     }
   },
-  "btcDominance": 58.6
+  "btcDominance": 58.5
 }
