@@ -6850,9 +6850,9 @@
     "SOL_sM": 1787216284302,
     "LINK_sM": 1787234871146
   },
-  "scanCount": 1940,
+  "scanCount": 1941,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-20T20:51:16.572Z",
+  "lastScan": "2026-08-20T21:13:45.323Z",
   "lastReport": "2026-08-20T18:30:38.681Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 62,
@@ -6967,5 +6967,5 @@
       }
     }
   },
-  "btcDominance": 58.7
+  "btcDominance": 58.6
 }
