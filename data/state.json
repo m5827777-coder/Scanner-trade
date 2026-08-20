@@ -6780,9 +6780,9 @@
     "XRP_sM": 1787213812980,
     "SOL_sM": 1787216284302
   },
-  "scanCount": 1922,
+  "scanCount": 1923,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-20T11:55:55.321Z",
+  "lastScan": "2026-08-20T12:32:31.682Z",
   "lastReport": "2026-08-20T06:35:58.304Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 62,
@@ -6897,5 +6897,5 @@
       }
     }
   },
-  "btcDominance": 58.6
+  "btcDominance": 58.7
 }
