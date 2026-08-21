@@ -86,23 +86,6 @@
       "peakPnl": 0
     },
     {
-      "id": "MORPHO_sE_1786968846739",
-      "symbol": "MORPHO",
-      "name": "Morpho",
-      "coinId": "morpho",
-      "rank": 51,
-      "stratId": "sE",
-      "entryPrice": 2.0925,
-      "entryTime": 1786968846739,
-      "entryDate": "2026-08-17T12:14:06.739Z",
-      "entrySignal": "Golden Cross вчера · EMA9=1.9819 > EMA21=1.9666 · RSI=62 · Vol x1.0",
-      "strength": 76,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SKY_sM_1787153623428",
       "symbol": "SKY",
       "name": "Sky",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "GRAM_sM_1787319797191",
+      "symbol": "GRAM",
+      "name": "Gram (prev. Toncoin)",
+      "coinId": "the-open-network",
+      "rank": 25,
+      "stratId": "sM",
+      "entryPrice": 1.462,
+      "entryTime": 1787319797191,
+      "entryDate": "2026-08-21T13:43:17.191Z",
+      "entrySignal": "Пробой 20d max $1.4360 на +1.8% · Объём x3.0 · RSI=58",
+      "strength": 86,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "MORPHO_sE_1786968846739",
+      "symbol": "MORPHO",
+      "name": "Morpho",
+      "coinId": "morpho",
+      "rank": 51,
+      "stratId": "sE",
+      "entryPrice": 2.0925,
+      "entryTime": 1786968846739,
+      "entryDate": "2026-08-17T12:14:06.739Z",
+      "entrySignal": "Golden Cross вчера · EMA9=1.9819 > EMA21=1.9666 · RSI=62 · Vol x1.0",
+      "strength": 76,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2.4792,
+      "exitTime": 1787319785968,
+      "exitReason": "✅ TP +15%",
+      "pnl": 18.480286738351268,
+      "pnlUsd": 18.480286738351268,
+      "total": 118.48028673835127
+    },
     {
       "id": "POL_sE_1786974532919",
       "symbol": "POL",
@@ -7010,20 +7033,21 @@
     "XRP_sM": 1787307724269,
     "SOL_sM": 1787216284302,
     "LINK_sM": 1787234871146,
-    "DOGE_sM": 1787302442570
+    "DOGE_sM": 1787302442570,
+    "GRAM_sM": 1787319797191
   },
-  "scanCount": 1970,
+  "scanCount": 1971,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-21T12:58:03.855Z",
+  "lastScan": "2026-08-21T13:43:18.248Z",
   "lastReport": "2026-08-21T12:35:00.097Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 72,
   "totalStats": {
-    "trades": 285,
-    "wins": 90,
+    "trades": 286,
+    "wins": 91,
     "losses": 195,
-    "totalPnl": -172.86214620828642,
-    "invested": 28500
+    "totalPnl": -154.38185946993514,
+    "invested": 28600
   },
   "byStrategy": {
     "sR": {
@@ -7032,9 +7056,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 149,
-      "wins": 38,
-      "pnl": -119.77121006123528
+      "trades": 150,
+      "wins": 39,
+      "pnl": -101.29092332288401
     },
     "sM": {
       "trades": 22,
@@ -7123,11 +7147,11 @@
         "pnl": 62.38701632226969
       },
       "sE": {
-        "trades": 10,
-        "wins": 9,
-        "pnl": 139.87819286292776
+        "trades": 11,
+        "wins": 10,
+        "pnl": 158.35847960127904
       }
     }
   },
-  "btcDominance": 59.4
+  "btcDominance": 59.3
 }
