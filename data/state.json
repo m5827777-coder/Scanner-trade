@@ -1,23 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "BNB_sE_1784631009103",
-      "symbol": "BNB",
-      "name": "BNB",
-      "coinId": "binancecoin",
-      "rank": 4,
-      "stratId": "sE",
-      "entryPrice": 578.4,
-      "entryTime": 1784631009103,
-      "entryDate": "2026-07-21T10:50:09.103Z",
-      "entrySignal": "Golden Cross 6д назад · EMA9=574.3289 > EMA21=574.8843 · RSI=50 · Vol x1.1",
-      "strength": 67,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "PAXG_sE_1785903554683",
       "symbol": "PAXG",
       "name": "PAX Gold",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "ZEC_sE_1787294162681",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 12,
+      "stratId": "sE",
+      "entryPrice": 601.02,
+      "entryTime": 1787294162681,
+      "entryDate": "2026-08-21T06:36:02.681Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=537.5800 > EMA21=517.2372 · RSI=71 · Vol x2.5",
+      "strength": 84,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "BNB_sE_1784631009103",
+      "symbol": "BNB",
+      "name": "BNB",
+      "coinId": "binancecoin",
+      "rank": 4,
+      "stratId": "sE",
+      "entryPrice": 578.4,
+      "entryTime": 1784631009103,
+      "entryDate": "2026-07-21T10:50:09.103Z",
+      "entrySignal": "Golden Cross 6д назад · EMA9=574.3289 > EMA21=574.8843 · RSI=50 · Vol x1.1",
+      "strength": 67,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 669,
+      "exitTime": 1787294153559,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.663900414937764,
+      "pnlUsd": 15.663900414937764,
+      "total": 115.66390041493776
+    },
     {
       "id": "BTC_sE_1787149522773",
       "symbol": "BTC",
@@ -6827,7 +6850,7 @@
     "WLD_sM": 1780648179526,
     "NIGHT_sE": 1783252446162,
     "ONDO_sE": 1785937033022,
-    "ZEC_sE": 1786958631315,
+    "ZEC_sE": 1787294162681,
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1787053704198,
     "NEAR_sE": 1784023635147,
@@ -6873,18 +6896,18 @@
     "SOL_sM": 1787216284302,
     "LINK_sM": 1787234871146
   },
-  "scanCount": 1956,
+  "scanCount": 1957,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-21T06:00:18.568Z",
-  "lastReport": "2026-08-21T00:58:03.026Z",
+  "lastScan": "2026-08-21T06:36:03.722Z",
+  "lastReport": "2026-08-21T06:36:03.722Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 72,
   "totalStats": {
-    "trades": 279,
-    "wins": 84,
+    "trades": 280,
+    "wins": 85,
     "losses": 195,
-    "totalPnl": -281.44576956648314,
-    "invested": 27900
+    "totalPnl": -265.7818691515454,
+    "invested": 28000
   },
   "byStrategy": {
     "sR": {
@@ -6893,9 +6916,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 145,
-      "wins": 34,
-      "pnl": -191.0850027842649
+      "trades": 146,
+      "wins": 35,
+      "pnl": -175.42110236932714
     },
     "sM": {
       "trades": 20,
@@ -6984,11 +7007,11 @@
         "pnl": 25.117185687102605
       },
       "sE": {
-        "trades": 6,
-        "wins": 5,
-        "pnl": 68.56440013989813
+        "trades": 7,
+        "wins": 6,
+        "pnl": 84.2283005548359
       }
     }
   },
-  "btcDominance": 60
+  "btcDominance": 59.2
 }

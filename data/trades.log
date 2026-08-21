@@ -118951,3 +118951,38 @@
 [2026-08-21 06:00:18 UTC] ✅ Данные: 7 токенов OK, 0 недоступно | Открыто: 1 | Всего: 20
 [2026-08-21 06:00:18 UTC] 
 📊 ИТОГ: WR=30.1% PnL=$-281.45 Trades=279
+[2026-08-21 06:35:52 UTC] ════════════════════════════════════════════════════
+[2026-08-21 06:35:52 UTC] 🤖 Bot v6 | action=scan | report=true
+[2026-08-21 06:35:52 UTC] ════════════════════════════════════════════════════
+[2026-08-21 06:35:52 UTC] 📡 Scan #1957
+[2026-08-21 06:35:52 UTC] 📊 BTC Dom=59.2%
+[2026-08-21 06:35:52 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-08-21 06:35:53 UTC] 🌡 F&G=72 Regime=BULL_TREND Open=20
+[2026-08-21 06:35:53 UTC]   ✅ CLOSE BNB/sE: ✅ TP +15% PnL=+15.66% held=30д 19ч
+[2026-08-21 06:35:54 UTC]   📂 HOLD PAXG/sE PnL=+10.19%
+[2026-08-21 06:35:54 UTC]   📂 HOLD XAUT/sE PnL=+9.35%
+[2026-08-21 06:35:54 UTC]   📂 HOLD TRX/sE PnL=+2.15%
+[2026-08-21 06:35:55 UTC]   📂 HOLD ICP/sE PnL=+9.24%
+[2026-08-21 06:35:55 UTC]   📂 HOLD WLFI/sE PnL=-2.82%
+[2026-08-21 06:35:55 UTC]   📂 HOLD MORPHO/sE PnL=+8.28%
+[2026-08-21 06:35:55 UTC]   📂 HOLD POL/sE PnL=+8.58%
+[2026-08-21 06:35:55 UTC]   📂 HOLD WBT/sE PnL=+12.13%
+[2026-08-21 06:35:56 UTC]   📂 HOLD DOGE/sE PnL=+14.15%
+[2026-08-21 06:35:56 UTC]   📂 HOLD SKY/sM PnL=+9.90%
+[2026-08-21 06:35:56 UTC]   📂 HOLD HYPE/sE PnL=+3.69%
+[2026-08-21 06:35:56 UTC]   📂 HOLD RAIN/sE PnL=-0.24%
+[2026-08-21 06:35:56 UTC]   📂 HOLD HBAR/sE PnL=+5.56%
+[2026-08-21 06:35:57 UTC]   📂 HOLD XRP/sM PnL=+16.23%
+[2026-08-21 06:35:57 UTC]   📂 HOLD SOL/sM PnL=+3.01%
+[2026-08-21 06:35:57 UTC]   📂 HOLD LINK/sM PnL=+3.83%
+[2026-08-21 06:35:57 UTC]   📂 HOLD FLR/sE PnL=+3.55%
+[2026-08-21 06:35:57 UTC]   📂 HOLD XLM/sE PnL=+5.13%
+[2026-08-21 06:35:58 UTC]   📂 HOLD FIGR_HELOC/sE PnL=+0.00%
+[2026-08-21 06:35:58 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-08-21 06:35:58 UTC] ✓ CoinGecko: 80 токенов. Проверяю входы...
+[2026-08-21 06:36:02 UTC]   📈 ENTRY ZEC/sE [BULL_TREND] via OKX: Golden Cross 3д назад · EMA9=537.5800 > EMA21=517.2372 · RSI=71 · Vol x2.5 @ $601.02
+[2026-08-21 06:36:03 UTC] ✅ Данные: 10 токенов OK, 0 недоступно | Открыто: 1 | Всего: 20
+[2026-08-21 06:36:04 UTC] [EMAIL] ✅ → m5827777@gmail.com
+[2026-08-21 06:36:04 UTC] 📧 6h report sent
+[2026-08-21 06:36:04 UTC] 
+📊 ИТОГ: WR=30.4% PnL=$-265.78 Trades=280
