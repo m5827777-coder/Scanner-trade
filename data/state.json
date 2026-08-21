@@ -103,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "POL_sE_1786974532919",
-      "symbol": "POL",
-      "name": "POL (ex-MATIC)",
-      "coinId": "polygon-ecosystem-token",
-      "rank": 74,
-      "stratId": "sE",
-      "entryPrice": 0.07816,
-      "entryTime": 1786974532919,
-      "entryDate": "2026-08-17T13:48:52.919Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.0757 > EMA21=0.0756 · RSI=61 · Vol x1.0",
-      "strength": 80,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SKY_sM_1787153623428",
       "symbol": "SKY",
       "name": "Sky",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XRP_sM_1787307724269",
+      "symbol": "XRP",
+      "name": "XRP",
+      "coinId": "ripple",
+      "rank": 5,
+      "stratId": "sM",
+      "entryPrice": 1.3821,
+      "entryTime": 1787307724269,
+      "entryDate": "2026-08-21T10:22:04.269Z",
+      "entrySignal": "Пробой 20d max $1.0940 на +26.3% · Объём x4.7 · RSI=84",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "POL_sE_1786974532919",
+      "symbol": "POL",
+      "name": "POL (ex-MATIC)",
+      "coinId": "polygon-ecosystem-token",
+      "rank": 74,
+      "stratId": "sE",
+      "entryPrice": 0.07816,
+      "entryTime": 1786974532919,
+      "entryDate": "2026-08-17T13:48:52.919Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0757 > EMA21=0.0756 · RSI=61 · Vol x1.0",
+      "strength": 80,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.09215,
+      "exitTime": 1787307719575,
+      "exitReason": "✅ TP +15%",
+      "pnl": 17.89918116683726,
+      "pnlUsd": 17.89918116683726,
+      "total": 117.89918116683725
+    },
     {
       "id": "XRP_sM_1787213812980",
       "symbol": "XRP",
@@ -6984,23 +7007,23 @@
     "OKB_sM": 1786635532585,
     "ETHFI_sE": 1786788688360,
     "DOGE_sE": 1787153609321,
-    "XRP_sM": 1787213812980,
+    "XRP_sM": 1787307724269,
     "SOL_sM": 1787216284302,
     "LINK_sM": 1787234871146,
     "DOGE_sM": 1787302442570
   },
-  "scanCount": 1963,
+  "scanCount": 1964,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-21T09:56:03.847Z",
+  "lastScan": "2026-08-21T10:22:05.096Z",
   "lastReport": "2026-08-21T06:36:03.722Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 72,
   "totalStats": {
-    "trades": 284,
-    "wins": 89,
+    "trades": 285,
+    "wins": 90,
     "losses": 195,
-    "totalPnl": -190.76132737512367,
-    "invested": 28400
+    "totalPnl": -172.86214620828642,
+    "invested": 28500
   },
   "byStrategy": {
     "sR": {
@@ -7009,9 +7032,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 148,
-      "wins": 37,
-      "pnl": -137.67039122807253
+      "trades": 149,
+      "wins": 38,
+      "pnl": -119.77121006123528
     },
     "sM": {
       "trades": 22,
@@ -7100,9 +7123,9 @@
         "pnl": 62.38701632226969
       },
       "sE": {
-        "trades": 9,
-        "wins": 8,
-        "pnl": 121.9790116960905
+        "trades": 10,
+        "wins": 9,
+        "pnl": 139.87819286292776
       }
     }
   },
