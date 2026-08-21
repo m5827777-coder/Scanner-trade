@@ -6966,9 +6966,9 @@
     "LINK_sM": 1787234871146,
     "DOGE_sM": 1787302442570
   },
-  "scanCount": 1961,
+  "scanCount": 1962,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-21T08:54:03.608Z",
+  "lastScan": "2026-08-21T09:22:55.346Z",
   "lastReport": "2026-08-21T06:36:03.722Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 72,
@@ -7083,5 +7083,5 @@
       }
     }
   },
-  "btcDominance": 59.5
+  "btcDominance": 59.7
 }
