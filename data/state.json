@@ -120,23 +120,6 @@
       "peakPnl": 0
     },
     {
-      "id": "WBT_sE_1786991769628",
-      "symbol": "WBT",
-      "name": "WhiteBIT Coin",
-      "coinId": "whitebit",
-      "rank": 18,
-      "stratId": "sE",
-      "entryPrice": 55.575441234194514,
-      "entryTime": 1786991769628,
-      "entryDate": "2026-08-17T18:36:09.628Z",
-      "entrySignal": "Golden Cross 8д назад · EMA9=55.0793 > EMA21=55.3449 · RSI=52 · Vol x1.2",
-      "strength": 69,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "DOGE_sE_1787153609321",
       "symbol": "DOGE",
       "name": "Dogecoin",
@@ -256,23 +239,6 @@
       "peakPnl": 0
     },
     {
-      "id": "LINK_sM_1787234871146",
-      "symbol": "LINK",
-      "name": "Chainlink",
-      "coinId": "chainlink",
-      "rank": 16,
-      "stratId": "sM",
-      "entryPrice": 10.636,
-      "entryTime": 1787234871146,
-      "entryDate": "2026-08-20T14:07:51.146Z",
-      "entrySignal": "Пробой 20d max $9.7460 на +9.1% · Объём x2.0 · RSI=83",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FLR_sE_1787254318189",
       "symbol": "FLR",
       "name": "Flare",
@@ -339,9 +305,89 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ADA_sE_1787297547976",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 18,
+      "stratId": "sE",
+      "entryPrice": 0.2104,
+      "entryTime": 1787297547976,
+      "entryDate": "2026-08-21T07:32:27.976Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.1890 > EMA21=0.1850 · RSI=70 · Vol x2.0",
+      "strength": 88,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "BCH_sE_1787297549954",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
+      "coinId": "bitcoin-cash",
+      "rank": 21,
+      "stratId": "sE",
+      "entryPrice": 259,
+      "entryTime": 1787297549954,
+      "entryDate": "2026-08-21T07:32:29.954Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=219.7009 > EMA21=215.8790 · RSI=75 · Vol x5.1",
+      "strength": 92,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "LINK_sM_1787234871146",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "coinId": "chainlink",
+      "rank": 16,
+      "stratId": "sM",
+      "entryPrice": 10.636,
+      "entryTime": 1787234871146,
+      "entryDate": "2026-08-20T14:07:51.146Z",
+      "entrySignal": "Пробой 20d max $9.7460 на +9.1% · Объём x2.0 · RSI=83",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 11.796,
+      "exitTime": 1787297539784,
+      "exitReason": "RSI=88≥88 — берём прибыль",
+      "pnl": 10.906355772846938,
+      "pnlUsd": 10.90635577284694,
+      "total": 110.90635577284694
+    },
+    {
+      "id": "WBT_sE_1786991769628",
+      "symbol": "WBT",
+      "name": "WhiteBIT Coin",
+      "coinId": "whitebit",
+      "rank": 18,
+      "stratId": "sE",
+      "entryPrice": 55.575441234194514,
+      "entryTime": 1786991769628,
+      "entryDate": "2026-08-17T18:36:09.628Z",
+      "entrySignal": "Golden Cross 8д назад · EMA9=55.0793 > EMA21=55.3449 · RSI=52 · Vol x1.2",
+      "strength": 69,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 67.19925149383141,
+      "exitTime": 1787297537406,
+      "exitReason": "✅ TP +15%",
+      "pnl": 20.91537197276445,
+      "pnlUsd": 20.91537197276445,
+      "total": 120.91537197276445
+    },
     {
       "id": "BNB_sE_1784631009103",
       "symbol": "BNB",
@@ -6861,8 +6907,8 @@
     "LIT_sM": 1782981286266,
     "SOL_sE": 1786978850455,
     "SKY_sM": 1787153623428,
-    "ADA_sE": 1786628148219,
-    "BCH_sE": 1784237795200,
+    "ADA_sE": 1787297547976,
+    "BCH_sE": 1787297549954,
     "LTC_sE": 1784114164675,
     "ETH_sE": 1787153605762,
     "AVAX_sE": 1786101161185,
@@ -6896,18 +6942,18 @@
     "SOL_sM": 1787216284302,
     "LINK_sM": 1787234871146
   },
-  "scanCount": 1958,
+  "scanCount": 1959,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-21T06:53:31.991Z",
+  "lastScan": "2026-08-21T07:32:30.681Z",
   "lastReport": "2026-08-21T06:36:03.722Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 72,
   "totalStats": {
-    "trades": 280,
-    "wins": 85,
+    "trades": 282,
+    "wins": 87,
     "losses": 195,
-    "totalPnl": -265.7818691515454,
-    "invested": 28000
+    "totalPnl": -233.96014140593397,
+    "invested": 28200
   },
   "byStrategy": {
     "sR": {
@@ -6916,14 +6962,14 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 146,
-      "wins": 35,
-      "pnl": -175.42110236932714
+      "trades": 147,
+      "wins": 36,
+      "pnl": -154.50573039656268
     },
     "sM": {
-      "trades": 20,
-      "wins": 8,
-      "pnl": 26.87240285390988
+      "trades": 21,
+      "wins": 9,
+      "pnl": 37.77875862675682
     }
   },
   "byRegime": {
@@ -7002,16 +7048,16 @@
         "pnl": 7.0102467776887805
       },
       "sM": {
-        "trades": 1,
-        "wins": 1,
-        "pnl": 25.117185687102605
+        "trades": 2,
+        "wins": 2,
+        "pnl": 36.02354145994954
       },
       "sE": {
-        "trades": 7,
-        "wins": 6,
-        "pnl": 84.2283005548359
+        "trades": 8,
+        "wins": 7,
+        "pnl": 105.14367252760034
       }
     }
   },
-  "btcDominance": 59.2
+  "btcDominance": 59.3
 }
