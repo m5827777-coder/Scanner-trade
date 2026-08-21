@@ -256,23 +256,6 @@
       "peakPnl": 0
     },
     {
-      "id": "BCH_sE_1787297549954",
-      "symbol": "BCH",
-      "name": "Bitcoin Cash",
-      "coinId": "bitcoin-cash",
-      "rank": 21,
-      "stratId": "sE",
-      "entryPrice": 259,
-      "entryTime": 1787297549954,
-      "entryDate": "2026-08-21T07:32:29.954Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=219.7009 > EMA21=215.8790 · RSI=75 · Vol x5.1",
-      "strength": 92,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "DOGE_sM_1787302442570",
       "symbol": "DOGE",
       "name": "Dogecoin",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "BCH_sE_1787297549954",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
+      "coinId": "bitcoin-cash",
+      "rank": 21,
+      "stratId": "sE",
+      "entryPrice": 259,
+      "entryTime": 1787297549954,
+      "entryDate": "2026-08-21T07:32:29.954Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=219.7009 > EMA21=215.8790 · RSI=75 · Vol x5.1",
+      "strength": 92,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 298.1,
+      "exitTime": 1787331562917,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.096525096525104,
+      "pnlUsd": 15.096525096525104,
+      "total": 115.0965250965251
+    },
     {
       "id": "MORPHO_sE_1786968846739",
       "symbol": "MORPHO",
@@ -7036,18 +7042,18 @@
     "DOGE_sM": 1787302442570,
     "GRAM_sM": 1787319797191
   },
-  "scanCount": 1976,
+  "scanCount": 1977,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-21T16:25:49.078Z",
+  "lastScan": "2026-08-21T17:00:02.859Z",
   "lastReport": "2026-08-21T12:35:00.097Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 72,
   "totalStats": {
-    "trades": 286,
-    "wins": 91,
+    "trades": 287,
+    "wins": 92,
     "losses": 195,
-    "totalPnl": -154.38185946993514,
-    "invested": 28600
+    "totalPnl": -139.28533437341002,
+    "invested": 28700
   },
   "byStrategy": {
     "sR": {
@@ -7056,9 +7062,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 150,
-      "wins": 39,
-      "pnl": -101.29092332288401
+      "trades": 151,
+      "wins": 40,
+      "pnl": -86.19439822635891
     },
     "sM": {
       "trades": 22,
@@ -7147,11 +7153,11 @@
         "pnl": 62.38701632226969
       },
       "sE": {
-        "trades": 11,
-        "wins": 10,
-        "pnl": 158.35847960127904
+        "trades": 12,
+        "wins": 11,
+        "pnl": 173.45500469780416
       }
     }
   },
-  "btcDominance": 59.2
+  "btcDominance": 59.3
 }
