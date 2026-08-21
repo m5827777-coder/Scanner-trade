@@ -7042,10 +7042,10 @@
     "DOGE_sM": 1787302442570,
     "GRAM_sM": 1787319797191
   },
-  "scanCount": 1979,
+  "scanCount": 1980,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-21T17:57:50.752Z",
-  "lastReport": "2026-08-21T12:35:00.097Z",
+  "lastScan": "2026-08-21T18:28:34.405Z",
+  "lastReport": "2026-08-21T18:28:34.405Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 72,
   "totalStats": {
@@ -7159,5 +7159,5 @@
       }
     }
   },
-  "btcDominance": 59.3
+  "btcDominance": 59.2
 }
