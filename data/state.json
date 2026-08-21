@@ -120,23 +120,6 @@
       "peakPnl": 0
     },
     {
-      "id": "DOGE_sE_1787153609321",
-      "symbol": "DOGE",
-      "name": "Dogecoin",
-      "coinId": "dogecoin",
-      "rank": 11,
-      "stratId": "sE",
-      "entryPrice": 0.07312,
-      "entryTime": 1787153609321,
-      "entryDate": "2026-08-19T15:33:29.321Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.0708 > EMA21=0.0708 · RSI=59 · Vol x1.1",
-      "strength": 82,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SKY_sM_1787153623428",
       "symbol": "SKY",
       "name": "Sky",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "DOGE_sM_1787302442570",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "coinId": "dogecoin",
+      "rank": 10,
+      "stratId": "sM",
+      "entryPrice": 0.08545,
+      "entryTime": 1787302442570,
+      "entryDate": "2026-08-21T08:54:02.570Z",
+      "entrySignal": "Пробой 20d max $0.0741 на +15.3% · Объём x3.0 · RSI=83",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "DOGE_sE_1787153609321",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "coinId": "dogecoin",
+      "rank": 11,
+      "stratId": "sE",
+      "entryPrice": 0.07312,
+      "entryTime": 1787153609321,
+      "entryDate": "2026-08-19T15:33:29.321Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0708 > EMA21=0.0708 · RSI=59 · Vol x1.1",
+      "strength": 82,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.08543,
+      "exitTime": 1787302435107,
+      "exitReason": "✅ TP +15%",
+      "pnl": 16.835339168490155,
+      "pnlUsd": 16.835339168490155,
+      "total": 116.83533916849015
+    },
     {
       "id": "LINK_sM_1787234871146",
       "symbol": "LINK",
@@ -6940,20 +6963,21 @@
     "DOGE_sE": 1787153609321,
     "XRP_sM": 1787213812980,
     "SOL_sM": 1787216284302,
-    "LINK_sM": 1787234871146
+    "LINK_sM": 1787234871146,
+    "DOGE_sM": 1787302442570
   },
-  "scanCount": 1960,
+  "scanCount": 1961,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-21T08:08:14.659Z",
+  "lastScan": "2026-08-21T08:54:03.608Z",
   "lastReport": "2026-08-21T06:36:03.722Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 72,
   "totalStats": {
-    "trades": 282,
-    "wins": 87,
+    "trades": 283,
+    "wins": 88,
     "losses": 195,
-    "totalPnl": -233.96014140593397,
-    "invested": 28200
+    "totalPnl": -217.12480223744382,
+    "invested": 28300
   },
   "byStrategy": {
     "sR": {
@@ -6962,9 +6986,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 147,
-      "wins": 36,
-      "pnl": -154.50573039656268
+      "trades": 148,
+      "wins": 37,
+      "pnl": -137.67039122807253
     },
     "sM": {
       "trades": 21,
@@ -7053,11 +7077,11 @@
         "pnl": 36.02354145994954
       },
       "sE": {
-        "trades": 8,
-        "wins": 7,
-        "pnl": 105.14367252760034
+        "trades": 9,
+        "wins": 8,
+        "pnl": 121.9790116960905
       }
     }
   },
-  "btcDominance": 59.3
+  "btcDominance": 59.5
 }
