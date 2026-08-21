@@ -154,23 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "BTC_sE_1787149522773",
-      "symbol": "BTC",
-      "name": "Bitcoin",
-      "coinId": "bitcoin",
-      "rank": 1,
-      "stratId": "sE",
-      "entryPrice": 65425.3,
-      "entryTime": 1787149522773,
-      "entryDate": "2026-08-19T14:25:22.773Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=64223.0303 > EMA21=64136.5534 · RSI=60 · Vol x1.2",
-      "strength": 81,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "DOGE_sE_1787153609321",
       "symbol": "DOGE",
       "name": "Dogecoin",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "FIGR_HELOC_sE_1787292017647",
+      "symbol": "FIGR_HELOC",
+      "name": "Figure Heloc",
+      "coinId": "figure-heloc",
+      "rank": 9,
+      "stratId": "sE",
+      "entryPrice": 1.0261830487930816,
+      "entryTime": 1787292017647,
+      "entryDate": "2026-08-21T06:00:17.647Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=1.0206 > EMA21=1.0193 · RSI=52 · Vol x1.7",
+      "strength": 76,
+      "regime": "BULL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "BTC_sE_1787149522773",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "coinId": "bitcoin",
+      "rank": 1,
+      "stratId": "sE",
+      "entryPrice": 65425.3,
+      "entryTime": 1787149522773,
+      "entryDate": "2026-08-19T14:25:22.773Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=64223.0303 > EMA21=64136.5534 · RSI=60 · Vol x1.2",
+      "strength": 81,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 75428.1,
+      "exitTime": 1787292011727,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.288886715078116,
+      "pnlUsd": 15.288886715078116,
+      "total": 115.28888671507812
+    },
     {
       "id": "ETH_sE_1787153605762",
       "symbol": "ETH",
@@ -6762,7 +6785,7 @@
     "LINK_sR": 1780510384134,
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1780410209384,
-    "FIGR_HELOC_sE": 1786565938113,
+    "FIGR_HELOC_sE": 1787292017647,
     "XMR_sR": 1781845530762,
     "ETH_sR": 1780524593518,
     "LTC_sR": 1779126568920,
@@ -6850,18 +6873,18 @@
     "SOL_sM": 1787216284302,
     "LINK_sM": 1787234871146
   },
-  "scanCount": 1955,
+  "scanCount": 1956,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-21T05:31:17.838Z",
+  "lastScan": "2026-08-21T06:00:18.568Z",
   "lastReport": "2026-08-21T00:58:03.026Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 72,
   "totalStats": {
-    "trades": 278,
-    "wins": 83,
+    "trades": 279,
+    "wins": 84,
     "losses": 195,
-    "totalPnl": -296.73465628156123,
-    "invested": 27800
+    "totalPnl": -281.44576956648314,
+    "invested": 27900
   },
   "byStrategy": {
     "sR": {
@@ -6870,9 +6893,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 144,
-      "wins": 33,
-      "pnl": -206.37388949934302
+      "trades": 145,
+      "wins": 34,
+      "pnl": -191.0850027842649
     },
     "sM": {
       "trades": 20,
@@ -6961,11 +6984,11 @@
         "pnl": 25.117185687102605
       },
       "sE": {
-        "trades": 5,
-        "wins": 4,
-        "pnl": 53.27551342482001
+        "trades": 6,
+        "wins": 5,
+        "pnl": 68.56440013989813
       }
     }
   },
-  "btcDominance": 59.2
+  "btcDominance": 60
 }
