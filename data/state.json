@@ -322,6 +322,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ENA_sE_1787340825182",
+      "symbol": "ENA",
+      "name": "Ethena",
+      "coinId": "ethena",
+      "rank": 60,
+      "stratId": "sE",
+      "entryPrice": 0.13677,
+      "entryTime": 1787340825182,
+      "entryDate": "2026-08-21T19:33:45.182Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=0.1085 > EMA21=0.0976 · RSI=75 · Vol x1.0",
+      "strength": 77,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -7019,7 +7036,7 @@
     "GRAM_sR": 1784307697586,
     "PUMP_sE": 1784080520130,
     "LINK_sE": 1786439600143,
-    "ENA_sE": 1786797695658,
+    "ENA_sE": 1787340825182,
     "SUI_sE": 1784992551861,
     "CRO_sE": 1784609577993,
     "INJ_sE": 1784303219151,
@@ -7042,9 +7059,9 @@
     "DOGE_sM": 1787302442570,
     "GRAM_sM": 1787319797191
   },
-  "scanCount": 1982,
+  "scanCount": 1983,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-21T19:08:16.931Z",
+  "lastScan": "2026-08-21T19:33:46.082Z",
   "lastReport": "2026-08-21T18:28:34.405Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 72,
