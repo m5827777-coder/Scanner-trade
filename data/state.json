@@ -222,23 +222,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ZEC_sE_1787294162681",
-      "symbol": "ZEC",
-      "name": "Zcash",
-      "coinId": "zcash",
-      "rank": 12,
-      "stratId": "sE",
-      "entryPrice": 601.02,
-      "entryTime": 1787294162681,
-      "entryDate": "2026-08-21T06:36:02.681Z",
-      "entrySignal": "Golden Cross 3д назад · EMA9=537.5800 > EMA21=517.2372 · RSI=71 · Vol x2.5",
-      "strength": 84,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ADA_sE_1787297547976",
       "symbol": "ADA",
       "name": "Cardano",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "GT_sM_1787344424213",
+      "symbol": "GT",
+      "name": "Gate",
+      "coinId": "gatechain-token",
+      "rank": 83,
+      "stratId": "sM",
+      "entryPrice": 7.351360356494899,
+      "entryTime": 1787344424213,
+      "entryDate": "2026-08-21T20:33:44.213Z",
+      "entrySignal": "Пробой 20d max $7.0887 на +3.7% · Объём x2.4 · RSI=80",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "ZEC_sE_1787294162681",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 12,
+      "stratId": "sE",
+      "entryPrice": 601.02,
+      "entryTime": 1787294162681,
+      "entryDate": "2026-08-21T06:36:02.681Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=537.5800 > EMA21=517.2372 · RSI=71 · Vol x2.5",
+      "strength": 84,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 702.81,
+      "exitTime": 1787344391046,
+      "exitReason": "✅ TP +15%",
+      "pnl": 16.936208445642404,
+      "pnlUsd": 16.936208445642404,
+      "total": 116.93620844564241
+    },
     {
       "id": "BCH_sE_1787297549954",
       "symbol": "BCH",
@@ -7057,20 +7080,21 @@
     "SOL_sM": 1787216284302,
     "LINK_sM": 1787234871146,
     "DOGE_sM": 1787302442570,
-    "GRAM_sM": 1787319797191
+    "GRAM_sM": 1787319797191,
+    "GT_sM": 1787344424213
   },
-  "scanCount": 1985,
+  "scanCount": 1986,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-21T20:01:58.967Z",
+  "lastScan": "2026-08-21T20:33:45.199Z",
   "lastReport": "2026-08-21T18:28:34.405Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 72,
   "totalStats": {
-    "trades": 287,
-    "wins": 92,
+    "trades": 288,
+    "wins": 93,
     "losses": 195,
-    "totalPnl": -139.28533437341002,
-    "invested": 28700
+    "totalPnl": -122.34912592776762,
+    "invested": 28800
   },
   "byStrategy": {
     "sR": {
@@ -7079,9 +7103,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 151,
-      "wins": 40,
-      "pnl": -86.19439822635891
+      "trades": 152,
+      "wins": 41,
+      "pnl": -69.2581897807165
     },
     "sM": {
       "trades": 22,
@@ -7170,11 +7194,11 @@
         "pnl": 62.38701632226969
       },
       "sE": {
-        "trades": 12,
-        "wins": 11,
-        "pnl": 173.45500469780416
+        "trades": 13,
+        "wins": 12,
+        "pnl": 190.39121314344655
       }
     }
   },
-  "btcDominance": 59.3
+  "btcDominance": 59.2
 }
