@@ -188,23 +188,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XRP_sM_1787213812980",
-      "symbol": "XRP",
-      "name": "XRP",
-      "coinId": "ripple",
-      "rank": 6,
-      "stratId": "sM",
-      "entryPrice": 1.1258,
-      "entryTime": 1787213812980,
-      "entryDate": "2026-08-20T08:16:52.980Z",
-      "entrySignal": "Пробой 20d max $1.0949 на +2.8% · Объём x2.4 · RSI=66",
-      "strength": 90,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SOL_sM_1787216284302",
       "symbol": "SOL",
       "name": "Solana",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "BNB_sM_1787306163073",
+      "symbol": "BNB",
+      "name": "BNB",
+      "coinId": "binancecoin",
+      "rank": 4,
+      "stratId": "sM",
+      "entryPrice": 679.2,
+      "entryTime": 1787306163073,
+      "entryDate": "2026-08-21T09:56:03.073Z",
+      "entrySignal": "Пробой 20d max $620.6000 на +9.4% · Объём x1.7 · RSI=81",
+      "strength": 90,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "XRP_sM_1787213812980",
+      "symbol": "XRP",
+      "name": "XRP",
+      "coinId": "ripple",
+      "rank": 6,
+      "stratId": "sM",
+      "entryPrice": 1.1258,
+      "entryTime": 1787213812980,
+      "entryDate": "2026-08-20T08:16:52.980Z",
+      "entrySignal": "Пробой 20d max $1.0949 на +2.8% · Объём x2.4 · RSI=66",
+      "strength": 90,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.4226,
+      "exitTime": 1787306159976,
+      "exitReason": "✅ TP +25%",
+      "pnl": 26.363474862320146,
+      "pnlUsd": 26.363474862320146,
+      "total": 126.36347486232015
+    },
     {
       "id": "DOGE_sE_1787153609321",
       "symbol": "DOGE",
@@ -6912,7 +6935,7 @@
     "INJ_sM": 1780617639283,
     "HBAR_sE": 1787175286870,
     "ALGO_sE": 1786351436068,
-    "BNB_sM": 1780155702890,
+    "BNB_sM": 1787306163073,
     "BNB_sE": 1784631009103,
     "XLM_sM": 1780450105090,
     "RAIN_sE": 1787168199204,
@@ -6966,18 +6989,18 @@
     "LINK_sM": 1787234871146,
     "DOGE_sM": 1787302442570
   },
-  "scanCount": 1962,
+  "scanCount": 1963,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-21T09:22:55.346Z",
+  "lastScan": "2026-08-21T09:56:03.847Z",
   "lastReport": "2026-08-21T06:36:03.722Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 72,
   "totalStats": {
-    "trades": 283,
-    "wins": 88,
+    "trades": 284,
+    "wins": 89,
     "losses": 195,
-    "totalPnl": -217.12480223744382,
-    "invested": 28300
+    "totalPnl": -190.76132737512367,
+    "invested": 28400
   },
   "byStrategy": {
     "sR": {
@@ -6991,9 +7014,9 @@
       "pnl": -137.67039122807253
     },
     "sM": {
-      "trades": 21,
-      "wins": 9,
-      "pnl": 37.77875862675682
+      "trades": 22,
+      "wins": 10,
+      "pnl": 64.14223348907697
     }
   },
   "byRegime": {
@@ -7072,9 +7095,9 @@
         "pnl": 7.0102467776887805
       },
       "sM": {
-        "trades": 2,
-        "wins": 2,
-        "pnl": 36.02354145994954
+        "trades": 3,
+        "wins": 3,
+        "pnl": 62.38701632226969
       },
       "sE": {
         "trades": 9,
@@ -7083,5 +7106,5 @@
       }
     }
   },
-  "btcDominance": 59.7
+  "btcDominance": 60
 }
