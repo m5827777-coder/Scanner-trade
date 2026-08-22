@@ -52,23 +52,6 @@
       "peakPnl": 0
     },
     {
-      "id": "WLFI_sE_1786888054104",
-      "symbol": "WLFI",
-      "name": "World Liberty Financial",
-      "coinId": "world-liberty-financial",
-      "rank": 42,
-      "stratId": "sE",
-      "entryPrice": 0.06232,
-      "entryTime": 1786888054104,
-      "entryDate": "2026-08-16T13:47:34.104Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.0562 > EMA21=0.0555 · RSI=73 · Vol x1.1",
-      "strength": 81,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SKY_sM_1787153623428",
       "symbol": "SKY",
       "name": "Sky",
@@ -100,23 +83,6 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
-      "id": "FLR_sE_1787254318189",
-      "symbol": "FLR",
-      "name": "Flare",
-      "coinId": "flare-networks",
-      "rank": 93,
-      "stratId": "sE",
-      "entryPrice": 0.006842,
-      "entryTime": 1787254318189,
-      "entryDate": "2026-08-20T19:31:58.189Z",
-      "entrySignal": "Golden Cross вчера · EMA9=0.0063 > EMA21=0.0062 · RSI=73 · Vol x1.1",
-      "strength": 77,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
       "peakPnl": 0
     },
     {
@@ -339,9 +305,89 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "UNI_sE_1787375012492",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "coinId": "uniswap",
+      "rank": 38,
+      "stratId": "sE",
+      "entryPrice": 4.417,
+      "entryTime": 1787375012492,
+      "entryDate": "2026-08-22T05:03:32.492Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=3.7634 > EMA21=3.7305 · RSI=68 · Vol x1.3",
+      "strength": 84,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "OKB_sM_1787375014995",
+      "symbol": "OKB",
+      "name": "OKB",
+      "coinId": "okb",
+      "rank": 41,
+      "stratId": "sM",
+      "entryPrice": 116.73,
+      "entryTime": 1787375014995,
+      "entryDate": "2026-08-22T05:03:34.995Z",
+      "entrySignal": "Пробой 20d max $109.8500 на +6.3% · Объём x1.9 · RSI=80",
+      "strength": 92,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "FLR_sE_1787254318189",
+      "symbol": "FLR",
+      "name": "Flare",
+      "coinId": "flare-networks",
+      "rank": 93,
+      "stratId": "sE",
+      "entryPrice": 0.006842,
+      "entryTime": 1787254318189,
+      "entryDate": "2026-08-20T19:31:58.189Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.0063 > EMA21=0.0062 · RSI=73 · Vol x1.1",
+      "strength": 77,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.007889,
+      "exitTime": 1787374995422,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.302543116047943,
+      "pnlUsd": 15.302543116047943,
+      "total": 115.30254311604794
+    },
+    {
+      "id": "WLFI_sE_1786888054104",
+      "symbol": "WLFI",
+      "name": "World Liberty Financial",
+      "coinId": "world-liberty-financial",
+      "rank": 42,
+      "stratId": "sE",
+      "entryPrice": 0.06232,
+      "entryTime": 1786888054104,
+      "entryDate": "2026-08-16T13:47:34.104Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0562 > EMA21=0.0555 · RSI=73 · Vol x1.1",
+      "strength": 81,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.07089,
+      "exitTime": 1787374993814,
+      "exitReason": "RSI=85≥85 перекуплен",
+      "pnl": 13.751604621309363,
+      "pnlUsd": 13.751604621309363,
+      "total": 113.75160462130937
+    },
     {
       "id": "GT_sM_1787344424213",
       "symbol": "GT",
@@ -7269,7 +7315,7 @@
     "ATOM_sE": 1787053704198,
     "NEAR_sE": 1787373609022,
     "WBT_sE": 1786991769629,
-    "UNI_sE": 1783000026374,
+    "UNI_sE": 1787375012492,
     "AAVE_sE": 1785647106849,
     "WLFI_sE": 1786888054104,
     "LIT_sM": 1782981286266,
@@ -7303,7 +7349,7 @@
     "XAUT_sE": 1785912340985,
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873,
-    "OKB_sM": 1786635532585,
+    "OKB_sM": 1787375014995,
     "ETHFI_sE": 1786788688360,
     "DOGE_sE": 1787153609321,
     "XRP_sM": 1787307724269,
@@ -7317,18 +7363,18 @@
     "HYPE_sM": 1787371263877,
     "HBAR_sM": 1787371270682
   },
-  "scanCount": 2002,
+  "scanCount": 2003,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-22T04:40:09.805Z",
+  "lastScan": "2026-08-22T05:03:35.824Z",
   "lastReport": "2026-08-22T00:54:46.258Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 298,
-    "wins": 103,
+    "trades": 300,
+    "wins": 105,
     "losses": 195,
-    "totalPnl": 24.86241029804156,
-    "invested": 29800
+    "totalPnl": 53.916558035398864,
+    "invested": 30000
   },
   "byStrategy": {
     "sR": {
@@ -7337,9 +7383,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 158,
-      "wins": 47,
-      "pnl": 27.322730953627875
+      "trades": 160,
+      "wins": 49,
+      "pnl": 56.37687869098518
     },
     "sM": {
       "trades": 26,
@@ -7428,11 +7474,11 @@
         "pnl": 113.01763181373448
       },
       "sE": {
-        "trades": 19,
-        "wins": 18,
-        "pnl": 286.97213387779095
+        "trades": 21,
+        "wins": 20,
+        "pnl": 316.02628161514826
       }
     }
   },
-  "btcDominance": 58.4
+  "btcDominance": 58.3
 }
