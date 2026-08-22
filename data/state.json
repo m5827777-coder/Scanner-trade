@@ -205,23 +205,6 @@
       "peakPnl": 0
     },
     {
-      "id": "HBAR_sM_1787371270682",
-      "symbol": "HBAR",
-      "name": "Hedera",
-      "coinId": "hedera-hashgraph",
-      "rank": 29,
-      "stratId": "sM",
-      "entryPrice": 0.08302,
-      "entryTime": 1787371270682,
-      "entryDate": "2026-08-22T04:01:10.682Z",
-      "entrySignal": "Пробой 20d max $0.0740 на +12.3% · Объём x2.0 · RSI=81",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "OKB_sM_1787375014995",
       "symbol": "OKB",
       "name": "OKB",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "SOL_sM_1787393321148",
+      "symbol": "SOL",
+      "name": "Solana",
+      "coinId": "solana",
+      "rank": 7,
+      "stratId": "sM",
+      "entryPrice": 92.84,
+      "entryTime": 1787393321148,
+      "entryDate": "2026-08-22T10:08:41.148Z",
+      "entrySignal": "Пробой 20d max $88.1200 на +5.4% · Объём x3.5 · RSI=84",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "HBAR_sM_1787371270682",
+      "symbol": "HBAR",
+      "name": "Hedera",
+      "coinId": "hedera-hashgraph",
+      "rank": 29,
+      "stratId": "sM",
+      "entryPrice": 0.08302,
+      "entryTime": 1787371270682,
+      "entryDate": "2026-08-22T04:01:10.682Z",
+      "entrySignal": "Пробой 20d max $0.0740 на +12.3% · Объём x2.0 · RSI=81",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.07698,
+      "exitTime": 1787393317376,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.275355336063587,
+      "pnlUsd": -7.275355336063587,
+      "total": 92.72464466393642
+    },
     {
       "id": "UNI_sE_1787375012492",
       "symbol": "UNI",
@@ -7491,7 +7514,7 @@
     "ETHFI_sE": 1786788688360,
     "DOGE_sE": 1787153609321,
     "XRP_sM": 1787307724269,
-    "SOL_sM": 1787216284302,
+    "SOL_sM": 1787393321148,
     "LINK_sM": 1787234871146,
     "DOGE_sM": 1787302442570,
     "GRAM_sM": 1787319797191,
@@ -7499,23 +7522,23 @@
     "LTC_sM": 1787369024886,
     "SUI_sM": 1787456117335,
     "HYPE_sM": 1787371263877,
-    "HBAR_sM": 1787371270682,
+    "HBAR_sM": 1787472517377,
     "ADA_sM": 1787376926705,
     "SHIB_sM": 1787378231596,
     "AVAX_sM": 1787378232809
   },
-  "scanCount": 2014,
+  "scanCount": 2015,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-22T09:52:19.852Z",
+  "lastScan": "2026-08-22T10:08:41.915Z",
   "lastReport": "2026-08-22T06:29:28.304Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 306,
+    "trades": 307,
     "wins": 105,
-    "losses": 201,
-    "totalPnl": 12.8027119964255,
-    "invested": 30600
+    "losses": 202,
+    "totalPnl": 5.527356660361914,
+    "invested": 30700
   },
   "byStrategy": {
     "sR": {
@@ -7529,9 +7552,9 @@
       "pnl": 22.69516925446365
     },
     "sM": {
-      "trades": 27,
+      "trades": 28,
       "wins": 14,
-      "pnl": 107.34071237808993
+      "pnl": 100.06535704202635
     }
   },
   "byRegime": {
@@ -7610,9 +7633,9 @@
         "pnl": 7.0102467776887805
       },
       "sM": {
-        "trades": 8,
+        "trades": 9,
         "wins": 7,
-        "pnl": 105.58549521128265
+        "pnl": 98.31013987521906
       },
       "sE": {
         "trades": 26,
@@ -7621,5 +7644,5 @@
       }
     }
   },
-  "btcDominance": 58.7
+  "btcDominance": 58.8
 }
