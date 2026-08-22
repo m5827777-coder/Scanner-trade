@@ -7550,9 +7550,9 @@
     "SHIB_sM": 1787378231596,
     "AVAX_sM": 1787378232809
   },
-  "scanCount": 2027,
+  "scanCount": 2028,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-22T14:27:27.672Z",
+  "lastScan": "2026-08-22T14:46:54.541Z",
   "lastReport": "2026-08-22T12:26:47.548Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 71,
@@ -7667,5 +7667,5 @@
       }
     }
   },
-  "btcDominance": 58.8
+  "btcDominance": 58.9
 }
