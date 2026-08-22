@@ -171,23 +171,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XLM_sE_1787255813463",
-      "symbol": "XLM",
-      "name": "Stellar",
-      "coinId": "stellar",
-      "rank": 20,
-      "stratId": "sE",
-      "entryPrice": 0.17772,
-      "entryTime": 1787255813463,
-      "entryDate": "2026-08-20T19:56:53.463Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.1674 > EMA21=0.1672 · RSI=60 · Vol x1.0",
-      "strength": 80,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FIGR_HELOC_sE_1787292017647",
       "symbol": "FIGR_HELOC",
       "name": "Figure Heloc",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XLM_sE_1787362620312",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 20,
+      "stratId": "sE",
+      "entryPrice": 0.20694,
+      "entryTime": 1787362620312,
+      "entryDate": "2026-08-22T01:37:00.312Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.1776 > EMA21=0.1720 · RSI=77 · Vol x1.1",
+      "strength": 77,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "XLM_sE_1787255813463",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 20,
+      "stratId": "sE",
+      "entryPrice": 0.17772,
+      "entryTime": 1787255813463,
+      "entryDate": "2026-08-20T19:56:53.463Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.1674 > EMA21=0.1672 · RSI=60 · Vol x1.0",
+      "strength": 80,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.20718,
+      "exitTime": 1787362609405,
+      "exitReason": "✅ TP +15%",
+      "pnl": 16.576637407157335,
+      "pnlUsd": 16.576637407157335,
+      "total": 116.57663740715734
+    },
     {
       "id": "ICP_sE_1786374593092",
       "symbol": "ICP",
@@ -7046,7 +7069,7 @@
     "FET_sE": 1780634934681,
     "ICP_sE": 1786374593092,
     "FIL_sE": 1784045328079,
-    "XLM_sE": 1787255813463,
+    "XLM_sE": 1787362620312,
     "INJ_sM": 1780617639283,
     "HBAR_sE": 1787175286870,
     "ALGO_sE": 1786351436068,
@@ -7106,18 +7129,18 @@
     "GRAM_sM": 1787319797191,
     "GT_sM": 1787344424213
   },
-  "scanCount": 1997,
+  "scanCount": 1998,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-22T00:54:46.259Z",
+  "lastScan": "2026-08-22T01:37:01.215Z",
   "lastReport": "2026-08-22T00:54:46.258Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 289,
-    "wins": 94,
+    "trades": 290,
+    "wins": 95,
     "losses": 195,
-    "totalPnl": -106.84664733380636,
-    "invested": 28900
+    "totalPnl": -90.27000992664902,
+    "invested": 29000
   },
   "byStrategy": {
     "sR": {
@@ -7126,9 +7149,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 153,
-      "wins": 42,
-      "pnl": -53.75571118675525
+      "trades": 154,
+      "wins": 43,
+      "pnl": -37.179073779597914
     },
     "sM": {
       "trades": 22,
@@ -7217,9 +7240,9 @@
         "pnl": 62.38701632226969
       },
       "sE": {
-        "trades": 14,
-        "wins": 13,
-        "pnl": 205.8936917374078
+        "trades": 15,
+        "wins": 14,
+        "pnl": 222.47032914456514
       }
     }
   },
