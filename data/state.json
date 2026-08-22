@@ -171,23 +171,6 @@
       "peakPnl": 0
     },
     {
-      "id": "LTC_sM_1787369024886",
-      "symbol": "LTC",
-      "name": "Litecoin",
-      "coinId": "litecoin",
-      "rank": 24,
-      "stratId": "sM",
-      "entryPrice": 54.9,
-      "entryTime": 1787369024886,
-      "entryDate": "2026-08-22T03:23:44.886Z",
-      "entrySignal": "Пробой 20d max $48.2100 на +13.9% · Объём x2.5 · RSI=81",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "HYPE_sM_1787371263877",
       "symbol": "HYPE",
       "name": "Hyperliquid",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "LTC_sE_1787395008821",
+      "symbol": "LTC",
+      "name": "Litecoin",
+      "coinId": "litecoin",
+      "rank": 26,
+      "stratId": "sE",
+      "entryPrice": 51.02,
+      "entryTime": 1787395008821,
+      "entryDate": "2026-08-22T10:36:48.821Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=47.6059 > EMA21=46.3746 · RSI=71 · Vol x4.9",
+      "strength": 88,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "LTC_sM_1787369024886",
+      "symbol": "LTC",
+      "name": "Litecoin",
+      "coinId": "litecoin",
+      "rank": 24,
+      "stratId": "sM",
+      "entryPrice": 54.9,
+      "entryTime": 1787369024886,
+      "entryDate": "2026-08-22T03:23:44.886Z",
+      "entrySignal": "Пробой 20d max $48.2100 на +13.9% · Объём x2.5 · RSI=81",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 51.03,
+      "exitTime": 1787394996868,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.049180327868848,
+      "pnlUsd": -7.049180327868848,
+      "total": 92.95081967213115
+    },
     {
       "id": "HBAR_sM_1787371270682",
       "symbol": "HBAR",
@@ -7484,7 +7507,7 @@
     "SKY_sM": 1787153623428,
     "ADA_sE": 1787456116127,
     "BCH_sE": 1787376928918,
-    "LTC_sE": 1784114164675,
+    "LTC_sE": 1787395008821,
     "ETH_sE": 1787153605762,
     "AVAX_sE": 1787456119003,
     "SKY_sE": 1783587377362,
@@ -7519,7 +7542,7 @@
     "DOGE_sM": 1787302442570,
     "GRAM_sM": 1787319797191,
     "GT_sM": 1787344424213,
-    "LTC_sM": 1787369024886,
+    "LTC_sM": 1787474196868,
     "SUI_sM": 1787456117335,
     "HYPE_sM": 1787371263877,
     "HBAR_sM": 1787472517377,
@@ -7527,18 +7550,18 @@
     "SHIB_sM": 1787378231596,
     "AVAX_sM": 1787378232809
   },
-  "scanCount": 2015,
+  "scanCount": 2016,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-22T10:08:41.915Z",
+  "lastScan": "2026-08-22T10:36:49.715Z",
   "lastReport": "2026-08-22T06:29:28.304Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 307,
+    "trades": 308,
     "wins": 105,
-    "losses": 202,
-    "totalPnl": 5.527356660361914,
-    "invested": 30700
+    "losses": 203,
+    "totalPnl": -1.5218236675069345,
+    "invested": 30800
   },
   "byStrategy": {
     "sR": {
@@ -7552,9 +7575,9 @@
       "pnl": 22.69516925446365
     },
     "sM": {
-      "trades": 28,
+      "trades": 29,
       "wins": 14,
-      "pnl": 100.06535704202635
+      "pnl": 93.0161767141575
     }
   },
   "byRegime": {
@@ -7633,9 +7656,9 @@
         "pnl": 7.0102467776887805
       },
       "sM": {
-        "trades": 9,
+        "trades": 10,
         "wins": 7,
-        "pnl": 98.31013987521906
+        "pnl": 91.26095954735021
       },
       "sE": {
         "trades": 26,
@@ -7644,5 +7667,5 @@
       }
     }
   },
-  "btcDominance": 58.8
+  "btcDominance": 58.9
 }
