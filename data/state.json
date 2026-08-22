@@ -7129,9 +7129,9 @@
     "GRAM_sM": 1787319797191,
     "GT_sM": 1787344424213
   },
-  "scanCount": 1998,
+  "scanCount": 1999,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-22T01:37:01.215Z",
+  "lastScan": "2026-08-22T02:38:52.075Z",
   "lastReport": "2026-08-22T00:54:46.258Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 71,
@@ -7246,5 +7246,5 @@
       }
     }
   },
-  "btcDominance": 58.8
+  "btcDominance": 58.7
 }
