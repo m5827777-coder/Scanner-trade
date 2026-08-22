@@ -288,6 +288,57 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "HYPE_sM_1787371263877",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 10,
+      "stratId": "sM",
+      "entryPrice": 82.202,
+      "entryTime": 1787371263877,
+      "entryDate": "2026-08-22T04:01:03.877Z",
+      "entrySignal": "Пробой 20d max $74.5490 на +10.3% · Объём x1.7 · RSI=82",
+      "strength": 90,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "HBAR_sM_1787371270682",
+      "symbol": "HBAR",
+      "name": "Hedera",
+      "coinId": "hedera-hashgraph",
+      "rank": 29,
+      "stratId": "sM",
+      "entryPrice": 0.08302,
+      "entryTime": 1787371270682,
+      "entryDate": "2026-08-22T04:01:10.682Z",
+      "entrySignal": "Пробой 20d max $0.0740 на +12.3% · Объём x2.0 · RSI=81",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "SHIB_sE_1787371271893",
+      "symbol": "SHIB",
+      "name": "Shiba Inu",
+      "coinId": "shiba-inu",
+      "rank": 30,
+      "stratId": "sE",
+      "entryPrice": 0.000006075,
+      "entryTime": 1787371271893,
+      "entryDate": "2026-08-22T04:01:11.893Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=0.0000 > EMA21=0.0000 · RSI=78 · Vol x3.2",
+      "strength": 88,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -7198,7 +7249,7 @@
     "INJ_sE": 1784303219151,
     "PUMP_sM": 1786067830795,
     "BTC_sE": 1787149522773,
-    "SHIB_sE": 1785325890401,
+    "SHIB_sE": 1787371271893,
     "LIT_sE": 1786624845830,
     "UNI_sM": 1786539330825,
     "BEAT_sE": 1785460927285,
@@ -7216,11 +7267,13 @@
     "GRAM_sM": 1787319797191,
     "GT_sM": 1787344424213,
     "LTC_sM": 1787369024886,
-    "SUI_sM": 1787369026303
+    "SUI_sM": 1787369026303,
+    "HYPE_sM": 1787371263877,
+    "HBAR_sM": 1787371270682
   },
-  "scanCount": 2000,
+  "scanCount": 2001,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-22T03:23:47.045Z",
+  "lastScan": "2026-08-22T04:01:12.681Z",
   "lastReport": "2026-08-22T00:54:46.258Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 71,
@@ -7335,5 +7388,5 @@
       }
     }
   },
-  "btcDominance": 58.6
+  "btcDominance": 58.5
 }
