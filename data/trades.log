@@ -120678,3 +120678,47 @@
 [2026-08-22 05:03:35 UTC] ✅ Данные: 29 токенов OK, 3 недоступно | Открыто: 2 | Всего: 20
 [2026-08-22 05:03:36 UTC] 
 📊 ИТОГ: WR=35.0% PnL=$53.92 Trades=300
+[2026-08-22 05:35:13 UTC] ════════════════════════════════════════════════════
+[2026-08-22 05:35:13 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-08-22 05:35:13 UTC] ════════════════════════════════════════════════════
+[2026-08-22 05:35:13 UTC] 📡 Scan #2004
+[2026-08-22 05:35:14 UTC] 📊 BTC Dom=58.7%
+[2026-08-22 05:35:14 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-08-22 05:35:14 UTC] 🌡 F&G=71 Regime=BULL_TREND Open=20
+[2026-08-22 05:35:14 UTC]   📂 HOLD PAXG/sE PnL=+10.89%
+[2026-08-22 05:35:14 UTC]   📂 HOLD XAUT/sE PnL=+9.97%
+[2026-08-22 05:35:14 UTC]   📂 HOLD TRX/sE PnL=+4.50%
+[2026-08-22 05:35:15 UTC]   📂 HOLD SKY/sM PnL=+11.27%
+[2026-08-22 05:35:15 UTC]   📂 HOLD RAIN/sE PnL=+2.84%
+[2026-08-22 05:35:15 UTC]   📂 HOLD FIGR_HELOC/sE PnL=+0.39%
+[2026-08-22 05:35:15 UTC]   📂 HOLD BNB/sM PnL=+2.75%
+[2026-08-22 05:35:15 UTC]   📂 HOLD GRAM/sM PnL=+1.16%
+[2026-08-22 05:35:15 UTC]   📂 HOLD ZEC/sM PnL=+7.49%
+[2026-08-22 05:35:16 UTC]   📂 HOLD XLM/sE PnL=-1.53%
+[2026-08-22 05:35:16 UTC]   🔒 SL-cooldown 24ч для ADA/sE
+[2026-08-22 05:35:16 UTC]   ❌ CLOSE ADA/sE: 🛑 SL -6% PnL=-6.10% held=2ч 11м
+[2026-08-22 05:35:17 UTC]   📂 HOLD LTC/sM PnL=-4.97%
+[2026-08-22 05:35:17 UTC]   🔒 SL-cooldown 24ч для SUI/sM
+[2026-08-22 05:35:17 UTC]   ❌ CLOSE SUI/sM: 🛑 SL -7% PnL=-7.43% held=2ч 11м
+[2026-08-22 05:35:18 UTC]   📂 HOLD HYPE/sM PnL=-3.67%
+[2026-08-22 05:35:18 UTC]   📂 HOLD HBAR/sM PnL=-6.17%
+[2026-08-22 05:35:18 UTC]   🔒 SL-cooldown 24ч для SHIB/sE
+[2026-08-22 05:35:18 UTC]   ❌ CLOSE SHIB/sE: 🛑 SL -6% PnL=-6.01% held=1ч 34м
+[2026-08-22 05:35:19 UTC]   🔒 SL-cooldown 24ч для AVAX/sE
+[2026-08-22 05:35:19 UTC]   ❌ CLOSE AVAX/sE: 🛑 SL -6% PnL=-6.08% held=55м
+[2026-08-22 05:35:19 UTC]   🔒 SL-cooldown 24ч для NEAR/sE
+[2026-08-22 05:35:19 UTC]   ❌ CLOSE NEAR/sE: 🛑 SL -6% PnL=-9.20% held=55м
+[2026-08-22 05:35:20 UTC]   🔒 SL-cooldown 24ч для UNI/sE
+[2026-08-22 05:35:20 UTC]   ❌ CLOSE UNI/sE: 🛑 SL -6% PnL=-6.29% held=31м
+[2026-08-22 05:35:21 UTC]   📂 HOLD OKB/sM PnL=-3.19%
+[2026-08-22 05:35:21 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-08-22 05:35:21 UTC] ✓ CoinGecko: 80 токенов. Проверяю входы...
+[2026-08-22 05:35:25 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-08-22 05:35:26 UTC]   📈 ENTRY ADA/sM [BULL_TREND] via OKX: Пробой 20d max $0.2116 на +9.3% · Объём x3.3 · RSI=76 @ $0.2312
+[2026-08-22 05:35:27 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-08-22 05:35:28 UTC]   ⏭ XMR: нет данных (monero)
+[2026-08-22 05:35:28 UTC]   📈 ENTRY BCH/sE [BULL_TREND] via OKX: Golden Cross вчера · EMA9=236.7410 > EMA21=224.2914 · RSI=77 · Vol x2.6 @ $282.5
+[2026-08-22 05:35:31 UTC]   📈 ENTRY SUI/sE [BULL_TREND] via OKX: Golden Cross вчера · EMA9=0.7409 > EMA21=0.7167 · RSI=76 · Vol x3.8 @ $0.8435
+[2026-08-22 05:35:31 UTC] ✅ Данные: 19 токенов OK, 3 недоступно | Открыто: 3 | Всего: 17
+[2026-08-22 05:35:31 UTC] 
+📊 ИТОГ: WR=34.3% PnL=$12.80 Trades=306
