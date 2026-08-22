@@ -103,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "SOL_sM_1787216284302",
-      "symbol": "SOL",
-      "name": "Solana",
-      "coinId": "solana",
-      "rank": 7,
-      "stratId": "sM",
-      "entryPrice": 87.73,
-      "entryTime": 1787216284302,
-      "entryDate": "2026-08-20T08:58:04.302Z",
-      "entrySignal": "Пробой 20d max $77.8600 на +12.7% · Объём x3.3 · RSI=80",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FLR_sE_1787254318189",
       "symbol": "FLR",
       "name": "Flare",
@@ -185,23 +168,6 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "GT_sM_1787344424213",
-      "symbol": "GT",
-      "name": "Gate",
-      "coinId": "gatechain-token",
-      "rank": 83,
-      "stratId": "sM",
-      "entryPrice": 7.351360356494899,
-      "entryTime": 1787344424213,
-      "entryDate": "2026-08-21T20:33:44.213Z",
-      "entrySignal": "Пробой 20d max $7.0887 на +3.7% · Объём x2.4 · RSI=80",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "CoinGecko",
       "peakPnl": 0
     },
     {
@@ -339,9 +305,89 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "AVAX_sE_1787373606936",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "coinId": "avalanche-2",
+      "rank": 31,
+      "stratId": "sE",
+      "entryPrice": 8.207,
+      "entryTime": 1787373606936,
+      "entryDate": "2026-08-22T04:40:06.936Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=7.0646 > EMA21=6.7671 · RSI=78 · Vol x1.1",
+      "strength": 78,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "NEAR_sE_1787373609022",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 37,
+      "stratId": "sE",
+      "entryPrice": 2.13,
+      "entryTime": 1787373609022,
+      "entryDate": "2026-08-22T04:40:09.022Z",
+      "entrySignal": "Golden Cross вчера · EMA9=1.7906 > EMA21=1.7369 · RSI=75 · Vol x1.6",
+      "strength": 83,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "GT_sM_1787344424213",
+      "symbol": "GT",
+      "name": "Gate",
+      "coinId": "gatechain-token",
+      "rank": 83,
+      "stratId": "sM",
+      "entryPrice": 7.351360356494899,
+      "entryTime": 1787344424213,
+      "entryDate": "2026-08-21T20:33:44.213Z",
+      "entrySignal": "Пробой 20d max $7.0887 на +3.7% · Объём x2.4 · RSI=80",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 7.9775049311035815,
+      "exitTime": 1787373595479,
+      "exitReason": "RSI=88≥88 — берём прибыль",
+      "pnl": 8.517397382859706,
+      "pnlUsd": 8.517397382859706,
+      "total": 108.51739738285971
+    },
+    {
+      "id": "SOL_sM_1787216284302",
+      "symbol": "SOL",
+      "name": "Solana",
+      "coinId": "solana",
+      "rank": 7,
+      "stratId": "sM",
+      "entryPrice": 87.73,
+      "entryTime": 1787216284302,
+      "entryDate": "2026-08-20T08:58:04.302Z",
+      "entrySignal": "Пробой 20d max $77.8600 на +12.7% · Объём x3.3 · RSI=80",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 100.83,
+      "exitTime": 1787373593566,
+      "exitReason": "RSI=89≥88 — берём прибыль",
+      "pnl": 14.932178274250536,
+      "pnlUsd": 14.932178274250537,
+      "total": 114.93217827425053
+    },
     {
       "id": "ENA_sE_1787340825182",
       "symbol": "ENA",
@@ -7221,7 +7267,7 @@
     "ZEC_sE": 1787294162681,
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1787053704198,
-    "NEAR_sE": 1784023635147,
+    "NEAR_sE": 1787373609022,
     "WBT_sE": 1786991769629,
     "UNI_sE": 1783000026374,
     "AAVE_sE": 1785647106849,
@@ -7233,7 +7279,7 @@
     "BCH_sE": 1787297549954,
     "LTC_sE": 1784114164675,
     "ETH_sE": 1787153605762,
-    "AVAX_sE": 1786101161185,
+    "AVAX_sE": 1787373606936,
     "SKY_sE": 1783587377362,
     "ARB_sE": 1785010780864,
     "LEO_sE": 1783669674148,
@@ -7271,18 +7317,18 @@
     "HYPE_sM": 1787371263877,
     "HBAR_sM": 1787371270682
   },
-  "scanCount": 2001,
+  "scanCount": 2002,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-22T04:01:12.681Z",
+  "lastScan": "2026-08-22T04:40:09.805Z",
   "lastReport": "2026-08-22T00:54:46.258Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 296,
-    "wins": 101,
+    "trades": 298,
+    "wins": 103,
     "losses": 195,
-    "totalPnl": 1.4128346409313188,
-    "invested": 29600
+    "totalPnl": 24.86241029804156,
+    "invested": 29800
   },
   "byStrategy": {
     "sR": {
@@ -7296,9 +7342,9 @@
       "pnl": 27.322730953627875
     },
     "sM": {
-      "trades": 24,
-      "wins": 12,
-      "pnl": 91.32327332343152
+      "trades": 26,
+      "wins": 14,
+      "pnl": 114.77284898054177
     }
   },
   "byRegime": {
@@ -7377,9 +7423,9 @@
         "pnl": 7.0102467776887805
       },
       "sM": {
-        "trades": 5,
-        "wins": 5,
-        "pnl": 89.56805615662424
+        "trades": 7,
+        "wins": 7,
+        "pnl": 113.01763181373448
       },
       "sE": {
         "trades": 19,
@@ -7388,5 +7434,5 @@
       }
     }
   },
-  "btcDominance": 58.5
+  "btcDominance": 58.4
 }

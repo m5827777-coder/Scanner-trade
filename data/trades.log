@@ -120603,3 +120603,41 @@
 [2026-08-22 04:01:12 UTC] ✅ Данные: 21 токенов OK, 3 недоступно | Открыто: 3 | Всего: 20
 [2026-08-22 04:01:12 UTC] 
 📊 ИТОГ: WR=34.1% PnL=$1.41 Trades=296
+[2026-08-22 04:39:51 UTC] ════════════════════════════════════════════════════
+[2026-08-22 04:39:51 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-08-22 04:39:51 UTC] ════════════════════════════════════════════════════
+[2026-08-22 04:39:51 UTC] 📡 Scan #2002
+[2026-08-22 04:39:52 UTC] 📊 BTC Dom=58.4%
+[2026-08-22 04:39:52 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-08-22 04:39:52 UTC] 🌡 F&G=71 Regime=BULL_TREND Open=20
+[2026-08-22 04:39:52 UTC]   📂 HOLD PAXG/sE PnL=+11.10%
+[2026-08-22 04:39:52 UTC]   📂 HOLD XAUT/sE PnL=+10.25%
+[2026-08-22 04:39:52 UTC]   📂 HOLD TRX/sE PnL=+5.17%
+[2026-08-22 04:39:53 UTC]   📂 HOLD WLFI/sE PnL=+9.26%
+[2026-08-22 04:39:53 UTC]   📂 HOLD SKY/sM PnL=+15.42%
+[2026-08-22 04:39:53 UTC]   📂 HOLD RAIN/sE PnL=+7.89%
+[2026-08-22 04:39:53 UTC]   ✅ CLOSE SOL/sM: RSI=89≥88 — берём прибыль PnL=+14.93% held=1д 19ч
+[2026-08-22 04:39:54 UTC]   📂 HOLD FLR/sE PnL=+12.98%
+[2026-08-22 04:39:54 UTC]   📂 HOLD FIGR_HELOC/sE PnL=+0.39%
+[2026-08-22 04:39:55 UTC]   📂 HOLD BNB/sM PnL=+6.07%
+[2026-08-22 04:39:55 UTC]   📂 HOLD GRAM/sM PnL=+6.09%
+[2026-08-22 04:39:55 UTC]   ✅ CLOSE GT/sM: RSI=88≥88 — берём прибыль PnL=+8.52% held=8ч 6м
+[2026-08-22 04:39:56 UTC]   📂 HOLD ZEC/sM PnL=+12.33%
+[2026-08-22 04:39:56 UTC]   📂 HOLD XLM/sE PnL=+5.63%
+[2026-08-22 04:39:56 UTC]   📂 HOLD ADA/sE PnL=+2.44%
+[2026-08-22 04:39:56 UTC]   📂 HOLD LTC/sM PnL=-0.07%
+[2026-08-22 04:39:56 UTC]   📂 HOLD SUI/sM PnL=+2.79%
+[2026-08-22 04:39:56 UTC]   📂 HOLD HYPE/sM PnL=-0.75%
+[2026-08-22 04:39:56 UTC]   📂 HOLD HBAR/sM PnL=+2.98%
+[2026-08-22 04:39:57 UTC]   📂 HOLD SHIB/sE PnL=+1.53%
+[2026-08-22 04:39:57 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-08-22 04:39:57 UTC] ✓ CoinGecko: 81 токенов. Проверяю входы...
+[2026-08-22 04:39:59 UTC]   ⏭ FIGR_HELOC: нет данных (figure-heloc)
+[2026-08-22 04:40:01 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-08-22 04:40:02 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-08-22 04:40:03 UTC]   ⏭ XMR: нет данных (monero)
+[2026-08-22 04:40:06 UTC]   📈 ENTRY AVAX/sE [BULL_TREND] via OKX: Golden Cross 2д назад · EMA9=7.0646 > EMA21=6.7671 · RSI=78 · Vol x1.1 @ $8.207
+[2026-08-22 04:40:09 UTC]   📈 ENTRY NEAR/sE [BULL_TREND] via OKX: Golden Cross вчера · EMA9=1.7906 > EMA21=1.7369 · RSI=75 · Vol x1.6 @ $2.13
+[2026-08-22 04:40:09 UTC] ✅ Данные: 24 токенов OK, 4 недоступно | Открыто: 2 | Всего: 20
+[2026-08-22 04:40:10 UTC] 
+📊 ИТОГ: WR=34.6% PnL=$24.86 Trades=298
