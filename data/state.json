@@ -154,23 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XLM_sE_1787362620312",
-      "symbol": "XLM",
-      "name": "Stellar",
-      "coinId": "stellar",
-      "rank": 20,
-      "stratId": "sE",
-      "entryPrice": 0.20694,
-      "entryTime": 1787362620312,
-      "entryDate": "2026-08-22T01:37:00.312Z",
-      "entrySignal": "Golden Cross вчера · EMA9=0.1776 > EMA21=0.1720 · RSI=77 · Vol x1.1",
-      "strength": 77,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "HYPE_sM_1787371263877",
       "symbol": "HYPE",
       "name": "Hyperliquid",
@@ -290,23 +273,6 @@
       "peakPnl": 0
     },
     {
-      "id": "CRO_sE_1787378233757",
-      "symbol": "CRO",
-      "name": "Cronos",
-      "coinId": "crypto-com-chain",
-      "rank": 33,
-      "stratId": "sE",
-      "entryPrice": 0.06275,
-      "entryTime": 1787378233757,
-      "entryDate": "2026-08-22T05:57:13.757Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.0532 > EMA21=0.0521 · RSI=76 · Vol x2.8",
-      "strength": 92,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SOL_sM_1787393321148",
       "symbol": "SOL",
       "name": "Solana",
@@ -339,9 +305,89 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XLM_sM_1787412376985",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 20,
+      "stratId": "sM",
+      "entryPrice": 0.19483,
+      "entryTime": 1787412376985,
+      "entryDate": "2026-08-22T15:26:16.985Z",
+      "entrySignal": "Пробой 20d max $0.1839 на +5.9% · Объём x6.0 · RSI=72",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "HBAR_sE_1787412380090",
+      "symbol": "HBAR",
+      "name": "Hedera",
+      "coinId": "hedera-hashgraph",
+      "rank": 29,
+      "stratId": "sE",
+      "entryPrice": 0.07614,
+      "entryTime": 1787412380090,
+      "entryDate": "2026-08-22T15:26:20.090Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=0.0715 > EMA21=0.0696 · RSI=69 · Vol x4.5",
+      "strength": 88,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "CRO_sE_1787378233757",
+      "symbol": "CRO",
+      "name": "Cronos",
+      "coinId": "crypto-com-chain",
+      "rank": 33,
+      "stratId": "sE",
+      "entryPrice": 0.06275,
+      "entryTime": 1787378233757,
+      "entryDate": "2026-08-22T05:57:13.757Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0532 > EMA21=0.0521 · RSI=76 · Vol x2.8",
+      "strength": 92,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.05869,
+      "exitTime": 1787412368373,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.470119521912353,
+      "pnlUsd": -6.470119521912353,
+      "total": 93.52988047808765
+    },
+    {
+      "id": "XLM_sE_1787362620312",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 20,
+      "stratId": "sE",
+      "entryPrice": 0.20694,
+      "entryTime": 1787362620312,
+      "entryDate": "2026-08-22T01:37:00.312Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.1776 > EMA21=0.1720 · RSI=77 · Vol x1.1",
+      "strength": 77,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.19444,
+      "exitTime": 1787412366018,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.040398183048231,
+      "pnlUsd": -6.040398183048231,
+      "total": 93.95960181695177
+    },
     {
       "id": "LTC_sM_1787369024886",
       "symbol": "LTC",
@@ -7483,13 +7529,13 @@
     "FET_sE": 1780634934681,
     "ICP_sE": 1786374593092,
     "FIL_sE": 1784045328079,
-    "XLM_sE": 1787362620312,
+    "XLM_sE": 1787491566018,
     "INJ_sM": 1780617639283,
-    "HBAR_sE": 1787175286870,
+    "HBAR_sE": 1787412380090,
     "ALGO_sE": 1786351436068,
     "BNB_sM": 1787306163073,
     "BNB_sE": 1784631009103,
-    "XLM_sM": 1780450105090,
+    "XLM_sM": 1787412376986,
     "RAIN_sE": 1787168199204,
     "WLD_sM": 1780648179526,
     "NIGHT_sE": 1783252446162,
@@ -7521,7 +7567,7 @@
     "LINK_sE": 1786439600143,
     "ENA_sE": 1787340825182,
     "SUI_sE": 1787376931112,
-    "CRO_sE": 1787378233757,
+    "CRO_sE": 1787491568373,
     "INJ_sE": 1784303219151,
     "PUMP_sM": 1786067830795,
     "BTC_sE": 1787149522773,
@@ -7550,18 +7596,18 @@
     "SHIB_sM": 1787378231596,
     "AVAX_sM": 1787378232809
   },
-  "scanCount": 2029,
+  "scanCount": 2030,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-22T15:00:25.267Z",
+  "lastScan": "2026-08-22T15:26:20.819Z",
   "lastReport": "2026-08-22T12:26:47.548Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 308,
+    "trades": 310,
     "wins": 105,
-    "losses": 203,
-    "totalPnl": -1.5218236675069345,
-    "invested": 30800
+    "losses": 205,
+    "totalPnl": -14.032341372467519,
+    "invested": 31000
   },
   "byStrategy": {
     "sR": {
@@ -7570,9 +7616,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 165,
+      "trades": 167,
       "wins": 49,
-      "pnl": 22.69516925446365
+      "pnl": 10.184651549503066
     },
     "sM": {
       "trades": 29,
@@ -7661,9 +7707,9 @@
         "pnl": 91.26095954735021
       },
       "sE": {
-        "trades": 26,
+        "trades": 28,
         "wins": 20,
-        "pnl": 282.3445721786267
+        "pnl": 269.83405447366613
       }
     }
   },
