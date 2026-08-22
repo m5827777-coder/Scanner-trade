@@ -322,7 +322,9 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "TRUMP_sE_1787437541914",
       "symbol": "TRUMP",
@@ -338,10 +340,14 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 2.403,
+      "exitTime": 1787442913395,
+      "exitReason": "RSI=85≥85 перекуплен",
+      "pnl": 4.025974025974024,
+      "pnlUsd": 4.025974025974024,
+      "total": 104.02597402597402
+    },
     {
       "id": "FIGR_HELOC_sE_1787292017647",
       "symbol": "FIGR_HELOC",
@@ -7620,18 +7626,18 @@
     "AVAX_sM": 1787378232809,
     "TRUMP_sE": 1787437541914
   },
-  "scanCount": 2056,
+  "scanCount": 2057,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-22T23:40:01.486Z",
+  "lastScan": "2026-08-22T23:55:45.361Z",
   "lastReport": "2026-08-22T18:20:57.303Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 311,
-    "wins": 105,
+    "trades": 312,
+    "wins": 106,
     "losses": 206,
-    "totalPnl": -16.27780905695882,
-    "invested": 31100
+    "totalPnl": -12.251835030984795,
+    "invested": 31200
   },
   "byStrategy": {
     "sR": {
@@ -7640,9 +7646,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 168,
-      "wins": 49,
-      "pnl": 7.939183865011765
+      "trades": 169,
+      "wins": 50,
+      "pnl": 11.96515789098579
     },
     "sM": {
       "trades": 29,
@@ -7731,9 +7737,9 @@
         "pnl": 91.26095954735021
       },
       "sE": {
-        "trades": 29,
-        "wins": 20,
-        "pnl": 267.5885867891748
+        "trades": 30,
+        "wins": 21,
+        "pnl": 271.6145608151489
       }
     }
   },
