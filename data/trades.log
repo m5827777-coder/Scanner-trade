@@ -120790,3 +120790,35 @@
 [2026-08-22 06:29:29 UTC] 📧 6h report sent
 [2026-08-22 06:29:29 UTC] 
 📊 ИТОГ: WR=34.3% PnL=$12.80 Trades=306
+[2026-08-22 06:32:28 UTC] ════════════════════════════════════════════════════
+[2026-08-22 06:32:28 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-08-22 06:32:28 UTC] ════════════════════════════════════════════════════
+[2026-08-22 06:32:28 UTC] 📡 Scan #2007
+[2026-08-22 06:32:28 UTC] 📊 BTC Dom=58.7%
+[2026-08-22 06:32:28 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-08-22 06:32:28 UTC] 🌡 F&G=71 Regime=BULL_TREND Open=20
+[2026-08-22 06:32:28 UTC]   📂 HOLD PAXG/sE PnL=+10.91%
+[2026-08-22 06:32:29 UTC]   📂 HOLD XAUT/sE PnL=+10.00%
+[2026-08-22 06:32:29 UTC]   📂 HOLD TRX/sE PnL=+4.28%
+[2026-08-22 06:32:29 UTC]   📂 HOLD SKY/sM PnL=+12.60%
+[2026-08-22 06:32:29 UTC]   📂 HOLD RAIN/sE PnL=+2.71%
+[2026-08-22 06:32:29 UTC]   📂 HOLD FIGR_HELOC/sE PnL=+0.63%
+[2026-08-22 06:32:29 UTC]   📂 HOLD BNB/sM PnL=+2.12%
+[2026-08-22 06:32:30 UTC]   📂 HOLD GRAM/sM PnL=-0.27%
+[2026-08-22 06:32:30 UTC]   📂 HOLD ZEC/sM PnL=+5.50%
+[2026-08-22 06:32:30 UTC]   📂 HOLD XLM/sE PnL=+0.25%
+[2026-08-22 06:32:30 UTC]   📂 HOLD LTC/sM PnL=-6.25%
+[2026-08-22 06:32:30 UTC]   📂 HOLD HYPE/sM PnL=-4.55%
+[2026-08-22 06:32:30 UTC]   📂 HOLD HBAR/sM PnL=-5.36%
+[2026-08-22 06:32:30 UTC]   📂 HOLD OKB/sM PnL=-4.78%
+[2026-08-22 06:32:30 UTC]   📂 HOLD ADA/sM PnL=-0.30%
+[2026-08-22 06:32:31 UTC]   📂 HOLD BCH/sE PnL=-1.95%
+[2026-08-22 06:32:31 UTC]   📂 HOLD SUI/sE PnL=-0.92%
+[2026-08-22 06:32:31 UTC]   📂 HOLD SHIB/sM PnL=-1.82%
+[2026-08-22 06:32:31 UTC]   📂 HOLD AVAX/sM PnL=-1.59%
+[2026-08-22 06:32:31 UTC]   📂 HOLD CRO/sE PnL=-0.48%
+[2026-08-22 06:32:31 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-08-22 06:32:31 UTC] ✓ CoinGecko: 80 токенов. Проверяю входы...
+[2026-08-22 06:32:31 UTC] ✅ Данные: 0 токенов OK, 0 недоступно | Открыто: 0 | Всего: 20
+[2026-08-22 06:32:31 UTC] 
+📊 ИТОГ: WR=34.3% PnL=$12.80 Trades=306
