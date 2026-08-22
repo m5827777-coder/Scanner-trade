@@ -52,23 +52,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ICP_sE_1786374593092",
-      "symbol": "ICP",
-      "name": "Internet Computer",
-      "coinId": "internet-computer",
-      "rank": 58,
-      "stratId": "sE",
-      "entryPrice": 2.219,
-      "entryTime": 1786374593092,
-      "entryDate": "2026-08-10T15:09:53.092Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=2.1433 > EMA21=2.1366 · RSI=61 · Vol x1.0",
-      "strength": 80,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "WLFI_sE_1786888054104",
       "symbol": "WLFI",
       "name": "World Liberty Financial",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "ZEC_sM_1787360085121",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 12,
+      "stratId": "sM",
+      "entryPrice": 734.84,
+      "entryTime": 1787360085121,
+      "entryDate": "2026-08-22T00:54:45.121Z",
+      "entrySignal": "Пробой 20d max $580.9800 на +26.5% · Объём x2.0 · RSI=82",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "ICP_sE_1786374593092",
+      "symbol": "ICP",
+      "name": "Internet Computer",
+      "coinId": "internet-computer",
+      "rank": 58,
+      "stratId": "sE",
+      "entryPrice": 2.219,
+      "entryTime": 1786374593092,
+      "entryDate": "2026-08-10T15:09:53.092Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=2.1433 > EMA21=2.1366 · RSI=61 · Vol x1.0",
+      "strength": 80,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2.563,
+      "exitTime": 1787360077969,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.502478593961259,
+      "pnlUsd": 15.502478593961259,
+      "total": 115.50247859396126
+    },
     {
       "id": "ZEC_sE_1787294162681",
       "symbol": "ZEC",
@@ -7013,7 +7036,7 @@
     "NEAR_sM": 1779600959266,
     "RENDER_sE": 1779861248735,
     "XMR_sE": 1785969350861,
-    "ZEC_sM": 1779370849454,
+    "ZEC_sM": 1787360085121,
     "ICP_sR": 1779986502655,
     "WLD_sE": 1787097974963,
     "JUP_sE": 1781968157103,
@@ -7083,18 +7106,18 @@
     "GRAM_sM": 1787319797191,
     "GT_sM": 1787344424213
   },
-  "scanCount": 1996,
+  "scanCount": 1997,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-22T00:00:43.943Z",
-  "lastReport": "2026-08-21T18:28:34.405Z",
+  "lastScan": "2026-08-22T00:54:46.259Z",
+  "lastReport": "2026-08-22T00:54:46.258Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 288,
-    "wins": 93,
+    "trades": 289,
+    "wins": 94,
     "losses": 195,
-    "totalPnl": -122.34912592776762,
-    "invested": 28800
+    "totalPnl": -106.84664733380636,
+    "invested": 28900
   },
   "byStrategy": {
     "sR": {
@@ -7103,9 +7126,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 152,
-      "wins": 41,
-      "pnl": -69.2581897807165
+      "trades": 153,
+      "wins": 42,
+      "pnl": -53.75571118675525
     },
     "sM": {
       "trades": 22,
@@ -7194,11 +7217,11 @@
         "pnl": 62.38701632226969
       },
       "sE": {
-        "trades": 13,
-        "wins": 12,
-        "pnl": 190.39121314344655
+        "trades": 14,
+        "wins": 13,
+        "pnl": 205.8936917374078
       }
     }
   },
-  "btcDominance": 59
+  "btcDominance": 58.8
 }
