@@ -154,40 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ADA_sM_1787376926705",
-      "symbol": "ADA",
-      "name": "Cardano",
-      "coinId": "cardano",
-      "rank": 17,
-      "stratId": "sM",
-      "entryPrice": 0.2312,
-      "entryTime": 1787376926705,
-      "entryDate": "2026-08-22T05:35:26.705Z",
-      "entrySignal": "Пробой 20d max $0.2116 на +9.3% · Объём x3.3 · RSI=76",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "BCH_sE_1787376928918",
-      "symbol": "BCH",
-      "name": "Bitcoin Cash",
-      "coinId": "bitcoin-cash",
-      "rank": 21,
-      "stratId": "sE",
-      "entryPrice": 282.5,
-      "entryTime": 1787376928918,
-      "entryDate": "2026-08-22T05:35:28.918Z",
-      "entrySignal": "Golden Cross вчера · EMA9=236.7410 > EMA21=224.2914 · RSI=77 · Vol x2.6",
-      "strength": 88,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "AVAX_sM_1787378232809",
       "symbol": "AVAX",
       "name": "Avalanche",
@@ -322,9 +288,72 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "PEPE_sE_1787464985904",
+      "symbol": "PEPE",
+      "name": "Pepe",
+      "coinId": "pepe",
+      "rank": 50,
+      "stratId": "sE",
+      "entryPrice": 0.000003923,
+      "entryTime": 1787464985904,
+      "entryDate": "2026-08-23T06:03:05.904Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=0.0000 > EMA21=0.0000 · RSI=79 · Vol x1.0",
+      "strength": 72,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "BCH_sE_1787376928918",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
+      "coinId": "bitcoin-cash",
+      "rank": 21,
+      "stratId": "sE",
+      "entryPrice": 282.5,
+      "entryTime": 1787376928918,
+      "entryDate": "2026-08-22T05:35:28.918Z",
+      "entrySignal": "Golden Cross вчера · EMA9=236.7410 > EMA21=224.2914 · RSI=77 · Vol x2.6",
+      "strength": 88,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 265.1,
+      "exitTime": 1787464967471,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.159292035398222,
+      "pnlUsd": -6.159292035398222,
+      "total": 93.84070796460178
+    },
+    {
+      "id": "ADA_sM_1787376926705",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 17,
+      "stratId": "sM",
+      "entryPrice": 0.2312,
+      "entryTime": 1787376926705,
+      "entryDate": "2026-08-22T05:35:26.705Z",
+      "entrySignal": "Пробой 20d max $0.2116 на +9.3% · Объём x3.3 · RSI=76",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.2143,
+      "exitTime": 1787464966486,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.309688581314878,
+      "pnlUsd": -7.309688581314878,
+      "total": 92.69031141868513
+    },
     {
       "id": "OKB_sM_1787375014995",
       "symbol": "OKB",
@@ -7650,7 +7679,7 @@
     "SOL_sE": 1786978850455,
     "SKY_sM": 1787153623428,
     "ADA_sE": 1787456116127,
-    "BCH_sE": 1787376928918,
+    "BCH_sE": 1787544167471,
     "LTC_sE": 1787395008821,
     "ETH_sE": 1787153605762,
     "AVAX_sE": 1787456119003,
@@ -7659,7 +7688,7 @@
     "LEO_sE": 1783669674148,
     "ICP_sM": 1784300180465,
     "POL_sE": 1787457765203,
-    "PEPE_sE": 1783782559945,
+    "PEPE_sE": 1787464985904,
     "GRAM_sR": 1784307697586,
     "PUMP_sE": 1784080520130,
     "LINK_sE": 1786439600143,
@@ -7690,23 +7719,23 @@
     "SUI_sM": 1787456117335,
     "HYPE_sM": 1787371263877,
     "HBAR_sM": 1787472517377,
-    "ADA_sM": 1787376926705,
+    "ADA_sM": 1787544166486,
     "SHIB_sM": 1787536937167,
     "AVAX_sM": 1787378232809,
     "TRUMP_sE": 1787451269778
   },
-  "scanCount": 2065,
+  "scanCount": 2066,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-23T05:45:44.260Z",
+  "lastScan": "2026-08-23T06:03:22.214Z",
   "lastReport": "2026-08-23T00:59:42.127Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 66,
   "totalStats": {
-    "trades": 315,
+    "trades": 317,
     "wins": 106,
-    "losses": 209,
-    "totalPnl": -32.95761669119391,
-    "invested": 31500
+    "losses": 211,
+    "totalPnl": -46.426597307907016,
+    "invested": 31700
   },
   "byStrategy": {
     "sR": {
@@ -7715,14 +7744,14 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 170,
+      "trades": 171,
       "wins": 50,
-      "pnl": 5.800368323706592
+      "pnl": -0.35892371169162995
     },
     "sM": {
-      "trades": 31,
+      "trades": 32,
       "wins": 14,
-      "pnl": 78.47518462122757
+      "pnl": 71.1654960399127
     }
   },
   "byRegime": {
@@ -7801,14 +7830,14 @@
         "pnl": 7.0102467776887805
       },
       "sM": {
-        "trades": 12,
+        "trades": 13,
         "wins": 7,
-        "pnl": 76.71996745442028
+        "pnl": 69.41027887310541
       },
       "sE": {
-        "trades": 31,
+        "trades": 32,
         "wins": 21,
-        "pnl": 265.4497712478697
+        "pnl": 259.2904792124715
       }
     }
   },
