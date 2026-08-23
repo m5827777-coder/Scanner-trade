@@ -7781,9 +7781,9 @@
     "AVAX_sM": 1787378232809,
     "TRUMP_sE": 1787451269778
   },
-  "scanCount": 2071,
+  "scanCount": 2072,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-23T08:13:10.634Z",
+  "lastScan": "2026-08-23T08:47:54.556Z",
   "lastReport": "2026-08-23T06:31:40.290Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 66,
@@ -7898,5 +7898,5 @@
       }
     }
   },
-  "btcDominance": 59.2
+  "btcDominance": 59
 }
