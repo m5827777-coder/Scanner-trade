@@ -205,40 +205,6 @@
       "peakPnl": 0
     },
     {
-      "id": "SUI_sE_1787376931112",
-      "symbol": "SUI",
-      "name": "Sui",
-      "coinId": "sui",
-      "rank": 28,
-      "stratId": "sE",
-      "entryPrice": 0.8435,
-      "entryTime": 1787376931112,
-      "entryDate": "2026-08-22T05:35:31.112Z",
-      "entrySignal": "Golden Cross вчера · EMA9=0.7409 > EMA21=0.7167 · RSI=76 · Vol x3.8",
-      "strength": 88,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "SHIB_sM_1787378231596",
-      "symbol": "SHIB",
-      "name": "Shiba Inu",
-      "coinId": "shiba-inu",
-      "rank": 31,
-      "stratId": "sM",
-      "entryPrice": 0.000005708,
-      "entryTime": 1787378231596,
-      "entryDate": "2026-08-22T05:57:11.596Z",
-      "entrySignal": "Пробой 20d max $0.0000 на +10.6% · Объём x4.8 · RSI=75",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "AVAX_sM_1787378232809",
       "symbol": "AVAX",
       "name": "Avalanche",
@@ -339,9 +305,72 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "POL_sE_1787457765203",
+      "symbol": "POL",
+      "name": "POL (ex-MATIC)",
+      "coinId": "polygon-ecosystem-token",
+      "rank": 68,
+      "stratId": "sE",
+      "entryPrice": 0.10287,
+      "entryTime": 1787457765203,
+      "entryDate": "2026-08-23T04:02:45.203Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=0.0900 > EMA21=0.0832 · RSI=74 · Vol x1.1",
+      "strength": 73,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "SHIB_sM_1787378231596",
+      "symbol": "SHIB",
+      "name": "Shiba Inu",
+      "coinId": "shiba-inu",
+      "rank": 31,
+      "stratId": "sM",
+      "entryPrice": 0.000005708,
+      "entryTime": 1787378231596,
+      "entryDate": "2026-08-22T05:57:11.596Z",
+      "entrySignal": "Пробой 20d max $0.0000 на +10.6% · Объём x4.8 · RSI=75",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.0000053,
+      "exitTime": 1787457737167,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.147862648913808,
+      "pnlUsd": -7.147862648913808,
+      "total": 92.85213735108618
+    },
+    {
+      "id": "SUI_sE_1787376931112",
+      "symbol": "SUI",
+      "name": "Sui",
+      "coinId": "sui",
+      "rank": 28,
+      "stratId": "sE",
+      "entryPrice": 0.8435,
+      "entryTime": 1787376931112,
+      "entryDate": "2026-08-22T05:35:31.112Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.7409 > EMA21=0.7167 · RSI=76 · Vol x3.8",
+      "strength": 88,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.7915,
+      "exitTime": 1787457736203,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.164789567279199,
+      "pnlUsd": -6.164789567279198,
+      "total": 93.8352104327208
+    },
     {
       "id": "TRUMP_sE_1787437541914",
       "symbol": "TRUMP",
@@ -7606,13 +7635,13 @@
     "ARB_sE": 1785010780864,
     "LEO_sE": 1783669674148,
     "ICP_sM": 1784300180465,
-    "POL_sE": 1786974532919,
+    "POL_sE": 1787457765203,
     "PEPE_sE": 1783782559945,
     "GRAM_sR": 1784307697586,
     "PUMP_sE": 1784080520130,
     "LINK_sE": 1786439600143,
     "ENA_sE": 1787340825182,
-    "SUI_sE": 1787376931112,
+    "SUI_sE": 1787536936203,
     "CRO_sE": 1787491568373,
     "INJ_sE": 1784303219151,
     "PUMP_sM": 1786067830795,
@@ -7639,22 +7668,22 @@
     "HYPE_sM": 1787371263877,
     "HBAR_sM": 1787472517377,
     "ADA_sM": 1787376926705,
-    "SHIB_sM": 1787378231596,
+    "SHIB_sM": 1787536937167,
     "AVAX_sM": 1787378232809,
     "TRUMP_sE": 1787451269778
   },
-  "scanCount": 2061,
+  "scanCount": 2062,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-23T03:15:27.460Z",
+  "lastScan": "2026-08-23T04:02:57.056Z",
   "lastReport": "2026-08-23T00:59:42.127Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 66,
   "totalStats": {
-    "trades": 312,
+    "trades": 314,
     "wins": 106,
-    "losses": 206,
-    "totalPnl": -12.251835030984795,
-    "invested": 31200
+    "losses": 208,
+    "totalPnl": -25.5644872471778,
+    "invested": 31400
   },
   "byStrategy": {
     "sR": {
@@ -7663,14 +7692,14 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 169,
+      "trades": 170,
       "wins": 50,
-      "pnl": 11.96515789098579
+      "pnl": 5.800368323706592
     },
     "sM": {
-      "trades": 29,
+      "trades": 30,
       "wins": 14,
-      "pnl": 93.0161767141575
+      "pnl": 85.86831406524368
     }
   },
   "byRegime": {
@@ -7749,16 +7778,16 @@
         "pnl": 7.0102467776887805
       },
       "sM": {
-        "trades": 10,
+        "trades": 11,
         "wins": 7,
-        "pnl": 91.26095954735021
+        "pnl": 84.1130968984364
       },
       "sE": {
-        "trades": 30,
+        "trades": 31,
         "wins": 21,
-        "pnl": 271.6145608151489
+        "pnl": 265.4497712478697
       }
     }
   },
-  "btcDominance": 59.3
+  "btcDominance": 59.4
 }
