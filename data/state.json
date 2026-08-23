@@ -239,23 +239,6 @@
       "peakPnl": 0
     },
     {
-      "id": "POL_sE_1787457765203",
-      "symbol": "POL",
-      "name": "POL (ex-MATIC)",
-      "coinId": "polygon-ecosystem-token",
-      "rank": 68,
-      "stratId": "sE",
-      "entryPrice": 0.10287,
-      "entryTime": 1787457765203,
-      "entryDate": "2026-08-23T04:02:45.203Z",
-      "entrySignal": "Golden Cross 5д назад · EMA9=0.0900 > EMA21=0.0832 · RSI=74 · Vol x1.1",
-      "strength": 73,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "NEAR_sE_1787463924108",
       "symbol": "NEAR",
       "name": "NEAR Protocol",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "KCS_sE_1787479149580",
+      "symbol": "KCS",
+      "name": "KuCoin",
+      "coinId": "kucoin-shares",
+      "rank": 69,
+      "stratId": "sE",
+      "entryPrice": 7.4,
+      "entryTime": 1787479149580,
+      "entryDate": "2026-08-23T09:59:09.580Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=7.1971 > EMA21=6.9441 · RSI=62 · Vol x1.4",
+      "strength": 77,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "Bybit",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "POL_sE_1787457765203",
+      "symbol": "POL",
+      "name": "POL (ex-MATIC)",
+      "coinId": "polygon-ecosystem-token",
+      "rank": 68,
+      "stratId": "sE",
+      "entryPrice": 0.10287,
+      "entryTime": 1787457765203,
+      "entryDate": "2026-08-23T04:02:45.203Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=0.0900 > EMA21=0.0832 · RSI=74 · Vol x1.1",
+      "strength": 73,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.10754,
+      "exitTime": 1787479109668,
+      "exitReason": "RSI=87≥85 перекуплен",
+      "pnl": 4.539710313988523,
+      "pnlUsd": 4.539710313988523,
+      "total": 104.53971031398852
+    },
     {
       "id": "TRUMP_sE_1787451269778",
       "symbol": "TRUMP",
@@ -7779,20 +7802,21 @@
     "ADA_sM": 1787544166486,
     "SHIB_sM": 1787536937167,
     "AVAX_sM": 1787378232809,
-    "TRUMP_sE": 1787451269778
+    "TRUMP_sE": 1787451269778,
+    "KCS_sE": 1787479149580
   },
-  "scanCount": 2074,
+  "scanCount": 2075,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-23T09:41:34.765Z",
+  "lastScan": "2026-08-23T09:59:10.702Z",
   "lastReport": "2026-08-23T06:31:40.290Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 66,
   "totalStats": {
-    "trades": 318,
-    "wins": 107,
+    "trades": 319,
+    "wins": 108,
     "losses": 211,
-    "totalPnl": -39.56131233381374,
-    "invested": 31800
+    "totalPnl": -35.02160201982522,
+    "invested": 31900
   },
   "byStrategy": {
     "sR": {
@@ -7801,9 +7825,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 172,
-      "wins": 51,
-      "pnl": 6.506361262401646
+      "trades": 173,
+      "wins": 52,
+      "pnl": 11.046071576390169
     },
     "sM": {
       "trades": 32,
@@ -7892,9 +7916,9 @@
         "pnl": 69.41027887310541
       },
       "sE": {
-        "trades": 33,
-        "wins": 22,
-        "pnl": 266.1557641865648
+        "trades": 34,
+        "wins": 23,
+        "pnl": 270.6954745005533
       }
     }
   },
