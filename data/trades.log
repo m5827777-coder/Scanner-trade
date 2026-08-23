@@ -123514,3 +123514,58 @@
 [2026-08-23 06:55:02 UTC] ✅ Данные: 56 токенов OK, 24 недоступно | Открыто: 0 | Всего: 17
 [2026-08-23 06:55:02 UTC] 
 📊 ИТОГ: WR=33.6% PnL=$-39.56 Trades=318
+[2026-08-23 07:23:44 UTC] ════════════════════════════════════════════════════
+[2026-08-23 07:23:44 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-08-23 07:23:44 UTC] ════════════════════════════════════════════════════
+[2026-08-23 07:23:44 UTC] 📡 Scan #2069
+[2026-08-23 07:23:45 UTC] 📊 BTC Dom=59.2%
+[2026-08-23 07:23:45 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-08-23 07:23:45 UTC] 🌡 F&G=66 Regime=BULL_TREND Open=17
+[2026-08-23 07:23:45 UTC]   📂 HOLD PAXG/sE PnL=+11.09%
+[2026-08-23 07:23:46 UTC]   📂 HOLD XAUT/sE PnL=+10.26%
+[2026-08-23 07:23:46 UTC]   📂 HOLD TRX/sE PnL=+3.46%
+[2026-08-23 07:23:46 UTC]   📂 HOLD SKY/sM PnL=+9.17%
+[2026-08-23 07:23:46 UTC]   📂 HOLD RAIN/sE PnL=-0.41%
+[2026-08-23 07:23:46 UTC]   📂 HOLD BNB/sM PnL=+1.25%
+[2026-08-23 07:23:47 UTC]   📂 HOLD GRAM/sM PnL=-0.55%
+[2026-08-23 07:23:47 UTC]   📂 HOLD ZEC/sM PnL=+8.60%
+[2026-08-23 07:23:47 UTC]   📂 HOLD HYPE/sM PnL=-4.10%
+[2026-08-23 07:23:47 UTC]   📂 HOLD AVAX/sM PnL=-4.12%
+[2026-08-23 07:23:47 UTC]   📂 HOLD SOL/sM PnL=-0.10%
+[2026-08-23 07:23:48 UTC]   📂 HOLD LTC/sE PnL=+0.69%
+[2026-08-23 07:23:48 UTC]   📂 HOLD XLM/sM PnL=-2.18%
+[2026-08-23 07:23:48 UTC]   📂 HOLD HBAR/sE PnL=+0.70%
+[2026-08-23 07:23:48 UTC]   📂 HOLD POL/sE PnL=+1.77%
+[2026-08-23 07:23:48 UTC]   📂 HOLD NEAR/sE PnL=+1.53%
+[2026-08-23 07:23:49 UTC]   📂 HOLD PEPE/sE PnL=-0.18%
+[2026-08-23 07:23:49 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-08-23 07:23:49 UTC] ✓ CoinGecko: 80 токенов. Проверяю входы...
+[2026-08-23 07:23:55 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-08-23 07:23:56 UTC]   ⏭ XMR: нет данных (monero)
+[2026-08-23 07:24:02 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-08-23 07:24:03 UTC]   ⏭ M: нет данных (memecore)
+[2026-08-23 07:24:04 UTC]   📈 ENTRY TAO/sE [BULL_TREND] via OKX: Golden Cross 3д назад · EMA9=211.2177 > EMA21=204.4564 · RSI=62 · Vol x1.0 @ $220.1
+[2026-08-23 07:24:09 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-08-23 07:24:09 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-08-23 07:24:12 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-08-23 07:24:13 UTC]   ⏭ U: нет данных (united-stables)
+[2026-08-23 07:24:13 UTC]   ⏭ BTW: нет данных (bitway)
+[2026-08-23 07:24:14 UTC]   ⏭ EURSAFO: нет данных (spiko-amundi-overnight-swap-fund-eur)
+[2026-08-23 07:24:14 UTC]   ⏭ USDGO: нет данных (usdgo)
+[2026-08-23 07:24:15 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-08-23 07:24:16 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-08-23 07:24:16 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-08-23 07:24:16 UTC]   ⏭ JST: нет данных (just)
+[2026-08-23 07:24:17 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-08-23 07:24:18 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-08-23 07:24:18 UTC]   ⏭ VVV: нет данных (venice-token)
+[2026-08-23 07:24:19 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-08-23 07:24:20 UTC]   ⏭ JAAA: нет данных (janus-henderson-anemoy-aaa-clo-fund)
+[2026-08-23 07:24:20 UTC]   ⏭ GHO: нет данных (gho)
+[2026-08-23 07:24:21 UTC]   ⏭ BDX: нет данных (beldex)
+[2026-08-23 07:24:23 UTC]   📈 ENTRY FLR/sE [BULL_TREND] via OKX: Golden Cross 3д назад · EMA9=0.0066 > EMA21=0.0064 · RSI=66 · Vol x1.0 @ $0.007029
+[2026-08-23 07:24:25 UTC]   ⏭ XDC: нет данных (xdce-crowd-sale)
+[2026-08-23 07:24:25 UTC]   ⏭ CAKE: нет данных (pancakeswap-token)
+[2026-08-23 07:24:26 UTC] ✅ Данные: 56 токенов OK, 24 недоступно | Открыто: 2 | Всего: 19
+[2026-08-23 07:24:26 UTC] 
+📊 ИТОГ: WR=33.6% PnL=$-39.56 Trades=318

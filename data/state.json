@@ -288,6 +288,40 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "TAO_sE_1787469844400",
+      "symbol": "TAO",
+      "name": "Bittensor",
+      "coinId": "bittensor",
+      "rank": 42,
+      "stratId": "sE",
+      "entryPrice": 220.1,
+      "entryTime": 1787469844400,
+      "entryDate": "2026-08-23T07:24:04.400Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=211.2177 > EMA21=204.4564 · RSI=62 · Vol x1.0",
+      "strength": 72,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "FLR_sE_1787469863140",
+      "symbol": "FLR",
+      "name": "Flare",
+      "coinId": "flare-networks",
+      "rank": 93,
+      "stratId": "sE",
+      "entryPrice": 0.007029,
+      "entryTime": 1787469863140,
+      "entryDate": "2026-08-23T07:24:23.140Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=0.0066 > EMA21=0.0064 · RSI=66 · Vol x1.0",
+      "strength": 72,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -7625,7 +7659,7 @@
     "AVAX_sR": 1780495959104,
     "HBAR_sR": 1778752941540,
     "CC_sE": 1781943500543,
-    "FLR_sE": 1787254318189,
+    "FLR_sE": 1787469863140,
     "XRP_sE": 1784044752405,
     "HYPE_sE": 1787168197411,
     "LINK_sR": 1780510384134,
@@ -7711,7 +7745,7 @@
     "PAXG_sE": 1785903554683,
     "XAUT_sE": 1785912340985,
     "USDGO_sE": 1786125487035,
-    "TAO_sE": 1786245630873,
+    "TAO_sE": 1787469844400,
     "OKB_sM": 1787539564478,
     "ETHFI_sE": 1786788688360,
     "DOGE_sE": 1787153609321,
@@ -7730,9 +7764,9 @@
     "AVAX_sM": 1787378232809,
     "TRUMP_sE": 1787451269778
   },
-  "scanCount": 2068,
+  "scanCount": 2069,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-23T06:55:02.087Z",
+  "lastScan": "2026-08-23T07:24:26.275Z",
   "lastReport": "2026-08-23T06:31:40.290Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 66,
@@ -7847,5 +7881,5 @@
       }
     }
   },
-  "btcDominance": 59.3
+  "btcDominance": 59.2
 }
