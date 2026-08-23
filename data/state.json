@@ -7805,10 +7805,10 @@
     "TRUMP_sE": 1787451269778,
     "KCS_sE": 1787479149580
   },
-  "scanCount": 2098,
+  "scanCount": 2099,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-23T18:01:09.996Z",
-  "lastReport": "2026-08-23T12:28:21.163Z",
+  "lastScan": "2026-08-23T18:20:14.082Z",
+  "lastReport": "2026-08-23T18:20:14.082Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 66,
   "totalStats": {
@@ -7922,5 +7922,5 @@
       }
     }
   },
-  "btcDominance": 59.2
+  "btcDominance": 59.1
 }
