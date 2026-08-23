@@ -154,23 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "OKB_sM_1787375014995",
-      "symbol": "OKB",
-      "name": "OKB",
-      "coinId": "okb",
-      "rank": 41,
-      "stratId": "sM",
-      "entryPrice": 116.73,
-      "entryTime": 1787375014995,
-      "entryDate": "2026-08-22T05:03:34.995Z",
-      "entrySignal": "Пробой 20d max $109.8500 на +6.3% · Объём x1.9 · RSI=80",
-      "strength": 92,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ADA_sM_1787376926705",
       "symbol": "ADA",
       "name": "Cardano",
@@ -325,6 +308,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "OKB_sM_1787375014995",
+      "symbol": "OKB",
+      "name": "OKB",
+      "coinId": "okb",
+      "rank": 41,
+      "stratId": "sM",
+      "entryPrice": 116.73,
+      "entryTime": 1787375014995,
+      "entryDate": "2026-08-22T05:03:34.995Z",
+      "entrySignal": "Пробой 20d max $109.8500 на +6.3% · Объём x1.9 · RSI=80",
+      "strength": 92,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 108.1,
+      "exitTime": 1787460364478,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.393129444016114,
+      "pnlUsd": -7.393129444016114,
+      "total": 92.60687055598389
+    },
     {
       "id": "SHIB_sM_1787378231596",
       "symbol": "SHIB",
@@ -7654,7 +7660,7 @@
     "XAUT_sE": 1785912340985,
     "USDGO_sE": 1786125487035,
     "TAO_sE": 1786245630873,
-    "OKB_sM": 1787375014995,
+    "OKB_sM": 1787539564478,
     "ETHFI_sE": 1786788688360,
     "DOGE_sE": 1787153609321,
     "XRP_sM": 1787307724269,
@@ -7672,18 +7678,18 @@
     "AVAX_sM": 1787378232809,
     "TRUMP_sE": 1787451269778
   },
-  "scanCount": 2062,
+  "scanCount": 2063,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-23T04:02:57.056Z",
+  "lastScan": "2026-08-23T04:46:45.018Z",
   "lastReport": "2026-08-23T00:59:42.127Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 66,
   "totalStats": {
-    "trades": 314,
+    "trades": 315,
     "wins": 106,
-    "losses": 208,
-    "totalPnl": -25.5644872471778,
-    "invested": 31400
+    "losses": 209,
+    "totalPnl": -32.95761669119391,
+    "invested": 31500
   },
   "byStrategy": {
     "sR": {
@@ -7697,9 +7703,9 @@
       "pnl": 5.800368323706592
     },
     "sM": {
-      "trades": 30,
+      "trades": 31,
       "wins": 14,
-      "pnl": 85.86831406524368
+      "pnl": 78.47518462122757
     }
   },
   "byRegime": {
@@ -7778,9 +7784,9 @@
         "pnl": 7.0102467776887805
       },
       "sM": {
-        "trades": 11,
+        "trades": 12,
         "wins": 7,
-        "pnl": 84.1130968984364
+        "pnl": 76.71996745442028
       },
       "sE": {
         "trades": 31,
