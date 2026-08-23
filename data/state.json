@@ -322,6 +322,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "TRUMP_sE_1787451269778",
+      "symbol": "TRUMP",
+      "name": "Official Trump",
+      "coinId": "official-trump",
+      "rank": 95,
+      "stratId": "sE",
+      "entryPrice": 2.316,
+      "entryTime": 1787451269778,
+      "entryDate": "2026-08-23T02:14:29.778Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=1.8500 > EMA21=1.6620 · RSI=80 · Vol x1.5",
+      "strength": 78,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -7624,11 +7641,11 @@
     "ADA_sM": 1787376926705,
     "SHIB_sM": 1787378231596,
     "AVAX_sM": 1787378232809,
-    "TRUMP_sE": 1787437541914
+    "TRUMP_sE": 1787451269778
   },
-  "scanCount": 2059,
+  "scanCount": 2060,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-23T00:59:42.127Z",
+  "lastScan": "2026-08-23T02:14:30.868Z",
   "lastReport": "2026-08-23T00:59:42.127Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 66,
@@ -7743,5 +7760,5 @@
       }
     }
   },
-  "btcDominance": 59.2
+  "btcDominance": 59.3
 }
