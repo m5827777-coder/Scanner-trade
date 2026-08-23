@@ -256,23 +256,6 @@
       "peakPnl": 0
     },
     {
-      "id": "PEPE_sE_1787464985904",
-      "symbol": "PEPE",
-      "name": "Pepe",
-      "coinId": "pepe",
-      "rank": 50,
-      "stratId": "sE",
-      "entryPrice": 0.000003923,
-      "entryTime": 1787464985904,
-      "entryDate": "2026-08-23T06:03:05.904Z",
-      "entrySignal": "Golden Cross 3д назад · EMA9=0.0000 > EMA21=0.0000 · RSI=79 · Vol x1.0",
-      "strength": 72,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "TAO_sE_1787469844400",
       "symbol": "TAO",
       "name": "Bittensor",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "PEPE_sE_1787464985904",
+      "symbol": "PEPE",
+      "name": "Pepe",
+      "coinId": "pepe",
+      "rank": 50,
+      "stratId": "sE",
+      "entryPrice": 0.000003923,
+      "entryTime": 1787464985904,
+      "entryDate": "2026-08-23T06:03:05.904Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=0.0000 > EMA21=0.0000 · RSI=79 · Vol x1.0",
+      "strength": 72,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.000004221,
+      "exitTime": 1787519855908,
+      "exitReason": "RSI=85≥85 перекуплен",
+      "pnl": 7.596227377007379,
+      "pnlUsd": 7.596227377007378,
+      "total": 107.59622737700738
+    },
     {
       "id": "POL_sE_1787457765203",
       "symbol": "POL",
@@ -7805,18 +7811,18 @@
     "TRUMP_sE": 1787451269778,
     "KCS_sE": 1787479149580
   },
-  "scanCount": 2107,
+  "scanCount": 2108,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-23T20:57:08.204Z",
+  "lastScan": "2026-08-23T21:18:14.806Z",
   "lastReport": "2026-08-23T18:20:14.082Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 66,
   "totalStats": {
-    "trades": 319,
-    "wins": 108,
+    "trades": 320,
+    "wins": 109,
     "losses": 211,
-    "totalPnl": -35.02160201982522,
-    "invested": 31900
+    "totalPnl": -27.42537464281784,
+    "invested": 32000
   },
   "byStrategy": {
     "sR": {
@@ -7825,9 +7831,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 173,
-      "wins": 52,
-      "pnl": 11.046071576390169
+      "trades": 174,
+      "wins": 53,
+      "pnl": 18.642298953397546
     },
     "sM": {
       "trades": 32,
@@ -7916,11 +7922,11 @@
         "pnl": 69.41027887310541
       },
       "sE": {
-        "trades": 34,
-        "wins": 23,
-        "pnl": 270.6954745005533
+        "trades": 35,
+        "wins": 24,
+        "pnl": 278.2917018775607
       }
     }
   },
-  "btcDominance": 59.2
+  "btcDominance": 59.1
 }
