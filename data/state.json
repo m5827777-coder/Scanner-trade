@@ -239,23 +239,6 @@
       "peakPnl": 0
     },
     {
-      "id": "TRUMP_sE_1787451269778",
-      "symbol": "TRUMP",
-      "name": "Official Trump",
-      "coinId": "official-trump",
-      "rank": 95,
-      "stratId": "sE",
-      "entryPrice": 2.316,
-      "entryTime": 1787451269778,
-      "entryDate": "2026-08-23T02:14:29.778Z",
-      "entrySignal": "Golden Cross 3д назад · EMA9=1.8500 > EMA21=1.6620 · RSI=80 · Vol x1.5",
-      "strength": 78,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "POL_sE_1787457765203",
       "symbol": "POL",
       "name": "POL (ex-MATIC)",
@@ -308,6 +291,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "TRUMP_sE_1787451269778",
+      "symbol": "TRUMP",
+      "name": "Official Trump",
+      "coinId": "official-trump",
+      "rank": 95,
+      "stratId": "sE",
+      "entryPrice": 2.316,
+      "entryTime": 1787451269778,
+      "entryDate": "2026-08-23T02:14:29.778Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=1.8500 > EMA21=1.6620 · RSI=80 · Vol x1.5",
+      "strength": 78,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2.475,
+      "exitTime": 1787466667345,
+      "exitReason": "RSI=89≥85 перекуплен",
+      "pnl": 6.865284974093276,
+      "pnlUsd": 6.865284974093276,
+      "total": 106.86528497409327
+    },
     {
       "id": "BCH_sE_1787376928918",
       "symbol": "BCH",
@@ -7724,18 +7730,18 @@
     "AVAX_sM": 1787378232809,
     "TRUMP_sE": 1787451269778
   },
-  "scanCount": 2066,
+  "scanCount": 2067,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-23T06:03:22.214Z",
-  "lastReport": "2026-08-23T00:59:42.127Z",
+  "lastScan": "2026-08-23T06:31:40.290Z",
+  "lastReport": "2026-08-23T06:31:40.290Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 66,
   "totalStats": {
-    "trades": 317,
-    "wins": 106,
+    "trades": 318,
+    "wins": 107,
     "losses": 211,
-    "totalPnl": -46.426597307907016,
-    "invested": 31700
+    "totalPnl": -39.56131233381374,
+    "invested": 31800
   },
   "byStrategy": {
     "sR": {
@@ -7744,9 +7750,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 171,
-      "wins": 50,
-      "pnl": -0.35892371169162995
+      "trades": 172,
+      "wins": 51,
+      "pnl": 6.506361262401646
     },
     "sM": {
       "trades": 32,
@@ -7835,9 +7841,9 @@
         "pnl": 69.41027887310541
       },
       "sE": {
-        "trades": 32,
-        "wins": 21,
-        "pnl": 259.2904792124715
+        "trades": 33,
+        "wins": 22,
+        "pnl": 266.1557641865648
       }
     }
   },
