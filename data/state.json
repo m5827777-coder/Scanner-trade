@@ -171,23 +171,6 @@
       "peakPnl": 0
     },
     {
-      "id": "SOL_sM_1787393321148",
-      "symbol": "SOL",
-      "name": "Solana",
-      "coinId": "solana",
-      "rank": 7,
-      "stratId": "sM",
-      "entryPrice": 92.84,
-      "entryTime": 1787393321148,
-      "entryDate": "2026-08-22T10:08:41.148Z",
-      "entrySignal": "Пробой 20d max $88.1200 на +5.4% · Объём x3.5 · RSI=84",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "LTC_sE_1787395008821",
       "symbol": "LTC",
       "name": "Litecoin",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "SOL_sM_1787393321148",
+      "symbol": "SOL",
+      "name": "Solana",
+      "coinId": "solana",
+      "rank": 7,
+      "stratId": "sM",
+      "entryPrice": 92.84,
+      "entryTime": 1787393321148,
+      "entryDate": "2026-08-22T10:08:41.148Z",
+      "entrySignal": "Пробой 20d max $88.1200 на +5.4% · Объём x3.5 · RSI=84",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 97.22,
+      "exitTime": 1787588266629,
+      "exitReason": "RSI=88≥88 — берём прибыль",
+      "pnl": 4.717794054286941,
+      "pnlUsd": 4.717794054286941,
+      "total": 104.71779405428694
+    },
     {
       "id": "PEPE_sE_1787464985904",
       "symbol": "PEPE",
@@ -7829,18 +7835,18 @@
     "KCS_sE": 1787479149580,
     "MORPHO_sM": 1787533016505
   },
-  "scanCount": 2139,
+  "scanCount": 2140,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-24T15:50:10.085Z",
+  "lastScan": "2026-08-24T16:18:23.981Z",
   "lastReport": "2026-08-24T12:36:53.254Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 73,
   "totalStats": {
-    "trades": 320,
-    "wins": 109,
+    "trades": 321,
+    "wins": 110,
     "losses": 211,
-    "totalPnl": -27.42537464281784,
-    "invested": 32000
+    "totalPnl": -22.7075805885309,
+    "invested": 32100
   },
   "byStrategy": {
     "sR": {
@@ -7854,9 +7860,9 @@
       "pnl": 18.642298953397546
     },
     "sM": {
-      "trades": 32,
-      "wins": 14,
-      "pnl": 71.1654960399127
+      "trades": 33,
+      "wins": 15,
+      "pnl": 75.88329009419964
     }
   },
   "byRegime": {
@@ -7935,9 +7941,9 @@
         "pnl": 7.0102467776887805
       },
       "sM": {
-        "trades": 13,
-        "wins": 7,
-        "pnl": 69.41027887310541
+        "trades": 14,
+        "wins": 8,
+        "pnl": 74.12807292739235
       },
       "sE": {
         "trades": 35,
