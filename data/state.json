@@ -322,6 +322,23 @@
       "size": 100,
       "src": "Bybit",
       "peakPnl": 0
+    },
+    {
+      "id": "MORPHO_sM_1787533016505",
+      "symbol": "MORPHO",
+      "name": "Morpho",
+      "coinId": "morpho",
+      "rank": 50,
+      "stratId": "sM",
+      "entryPrice": 2.7646,
+      "entryTime": 1787533016505,
+      "entryDate": "2026-08-24T00:56:56.505Z",
+      "entrySignal": "Пробой 20d max $2.5240 на +9.5% · Объём x1.8 · RSI=73",
+      "strength": 88,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -7809,12 +7826,13 @@
     "SHIB_sM": 1787536937167,
     "AVAX_sM": 1787378232809,
     "TRUMP_sE": 1787451269778,
-    "KCS_sE": 1787479149580
+    "KCS_sE": 1787479149580,
+    "MORPHO_sM": 1787533016505
   },
-  "scanCount": 2117,
+  "scanCount": 2118,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-24T00:01:05.235Z",
-  "lastReport": "2026-08-23T18:20:14.082Z",
+  "lastScan": "2026-08-24T00:56:57.489Z",
+  "lastReport": "2026-08-24T00:56:57.489Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 73,
   "totalStats": {
@@ -7928,5 +7946,5 @@
       }
     }
   },
-  "btcDominance": 59.1
+  "btcDominance": 59.2
 }

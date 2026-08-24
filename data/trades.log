@@ -125360,3 +125360,42 @@
 [2026-08-24 00:01:05 UTC] ✅ Данные: 55 токенов OK, 25 недоступно | Открыто: 0 | Всего: 19
 [2026-08-24 00:01:05 UTC] 
 📊 ИТОГ: WR=34.1% PnL=$-27.43 Trades=320
+[2026-08-24 00:56:33 UTC] ════════════════════════════════════════════════════
+[2026-08-24 00:56:33 UTC] 🤖 Bot v6 | action=scan | report=true
+[2026-08-24 00:56:33 UTC] ════════════════════════════════════════════════════
+[2026-08-24 00:56:33 UTC] 📡 Scan #2118
+[2026-08-24 00:56:33 UTC] 📊 BTC Dom=59.2%
+[2026-08-24 00:56:33 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-08-24 00:56:33 UTC] 🌡 F&G=73 Regime=BULL_TREND Open=19
+[2026-08-24 00:56:34 UTC]   📂 HOLD PAXG/sE PnL=+11.55%
+[2026-08-24 00:56:34 UTC]   📂 HOLD XAUT/sE PnL=+10.63%
+[2026-08-24 00:56:34 UTC]   📂 HOLD TRX/sE PnL=+3.68%
+[2026-08-24 00:56:34 UTC]   📂 HOLD SKY/sM PnL=+15.69%
+[2026-08-24 00:56:34 UTC]   📂 HOLD RAIN/sE PnL=+0.69%
+[2026-08-24 00:56:35 UTC]   📂 HOLD BNB/sM PnL=+3.52%
+[2026-08-24 00:56:35 UTC]   📂 HOLD GRAM/sM PnL=+1.78%
+[2026-08-24 00:56:35 UTC]   📂 HOLD ZEC/sM PnL=+13.13%
+[2026-08-24 00:56:35 UTC]   📂 HOLD HYPE/sM PnL=-0.83%
+[2026-08-24 00:56:35 UTC]   📂 HOLD AVAX/sM PnL=-2.26%
+[2026-08-24 00:56:35 UTC]   📂 HOLD SOL/sM PnL=+2.53%
+[2026-08-24 00:56:36 UTC]   📂 HOLD LTC/sE PnL=+1.74%
+[2026-08-24 00:56:36 UTC]   📂 HOLD XLM/sM PnL=+0.81%
+[2026-08-24 00:56:36 UTC]   📂 HOLD HBAR/sE PnL=+3.51%
+[2026-08-24 00:56:36 UTC]   📂 HOLD NEAR/sE PnL=+11.44%
+[2026-08-24 00:56:36 UTC]   📂 HOLD TAO/sE PnL=+9.04%
+[2026-08-24 00:56:37 UTC]   📂 HOLD FLR/sE PnL=+0.87%
+[2026-08-24 00:56:37 UTC]   📂 HOLD ONDO/sE PnL=+4.46%
+[2026-08-24 00:56:37 UTC]   📂 HOLD KCS/sE PnL=-1.41%
+[2026-08-24 00:56:37 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-08-24 00:56:37 UTC] ✓ CoinGecko: 80 токенов. Проверяю входы...
+[2026-08-24 00:56:42 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-08-24 00:56:44 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-08-24 00:56:45 UTC]   ⏭ XMR: нет данных (monero)
+[2026-08-24 00:56:51 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-08-24 00:56:52 UTC]   ⏭ M: нет данных (memecore)
+[2026-08-24 00:56:56 UTC]   📈 ENTRY MORPHO/sM [BULL_TREND] via OKX: Пробой 20d max $2.5240 на +9.5% · Объём x1.8 · RSI=73 @ $2.7646
+[2026-08-24 00:56:57 UTC] ✅ Данные: 35 токенов OK, 5 недоступно | Открыто: 1 | Всего: 20
+[2026-08-24 00:56:58 UTC] [EMAIL] ✅ → m5827777@gmail.com
+[2026-08-24 00:56:58 UTC] 📧 6h report sent
+[2026-08-24 00:56:58 UTC] 
+📊 ИТОГ: WR=34.1% PnL=$-27.43 Trades=320
