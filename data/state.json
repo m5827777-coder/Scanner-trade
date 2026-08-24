@@ -7852,9 +7852,9 @@
     "KCS_sE": 1787479149580,
     "MORPHO_sM": 1787533016505
   },
-  "scanCount": 2153,
+  "scanCount": 2154,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-24T22:22:51.609Z",
+  "lastScan": "2026-08-24T22:48:09.982Z",
   "lastReport": "2026-08-24T18:31:59.362Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 73,
@@ -7969,5 +7969,5 @@
       }
     }
   },
-  "btcDominance": 59.1
+  "btcDominance": 59
 }
