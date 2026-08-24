@@ -7811,12 +7811,12 @@
     "TRUMP_sE": 1787451269778,
     "KCS_sE": 1787479149580
   },
-  "scanCount": 2116,
+  "scanCount": 2117,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-23T23:50:34.117Z",
+  "lastScan": "2026-08-24T00:01:05.235Z",
   "lastReport": "2026-08-23T18:20:14.082Z",
   "marketRegime": "BULL_TREND",
-  "fearGreed": 66,
+  "fearGreed": 73,
   "totalStats": {
     "trades": 320,
     "wins": 109,
