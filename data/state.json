@@ -322,6 +322,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "RAIN_sM_1787687800795",
+      "symbol": "RAIN",
+      "name": "Rain",
+      "coinId": "rain",
+      "rank": 11,
+      "stratId": "sM",
+      "entryPrice": 0.019434628716877463,
+      "entryTime": 1787687800795,
+      "entryDate": "2026-08-25T19:56:40.795Z",
+      "entrySignal": "Пробой 20d max $0.0152 на +27.8% · Объём x1.9 · RSI=80",
+      "strength": 93,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -7902,11 +7919,12 @@
     "AVAX_sM": 1787378232809,
     "TRUMP_sE": 1787451269778,
     "KCS_sE": 1787479149580,
-    "MORPHO_sM": 1787745401674
+    "MORPHO_sM": 1787745401674,
+    "RAIN_sM": 1787687800795
   },
-  "scanCount": 2191,
+  "scanCount": 2192,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-25T19:32:14.581Z",
+  "lastScan": "2026-08-25T19:56:41.812Z",
   "lastReport": "2026-08-25T18:31:28.922Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 74,
@@ -8021,5 +8039,5 @@
       }
     }
   },
-  "btcDominance": 59.2
+  "btcDominance": 59.1
 }
