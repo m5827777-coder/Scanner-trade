@@ -239,23 +239,6 @@
       "peakPnl": 0
     },
     {
-      "id": "FLR_sE_1787469863140",
-      "symbol": "FLR",
-      "name": "Flare",
-      "coinId": "flare-networks",
-      "rank": 93,
-      "stratId": "sE",
-      "entryPrice": 0.007029,
-      "entryTime": 1787469863140,
-      "entryDate": "2026-08-23T07:24:23.140Z",
-      "entrySignal": "Golden Cross 3д назад · EMA9=0.0066 > EMA21=0.0064 · RSI=66 · Vol x1.0",
-      "strength": 72,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ONDO_sE_1787471593389",
       "symbol": "ONDO",
       "name": "Ondo",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "FLR_sE_1787469863140",
+      "symbol": "FLR",
+      "name": "Flare",
+      "coinId": "flare-networks",
+      "rank": 93,
+      "stratId": "sE",
+      "entryPrice": 0.007029,
+      "entryTime": 1787469863140,
+      "entryDate": "2026-08-23T07:24:23.140Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=0.0066 > EMA21=0.0064 · RSI=66 · Vol x1.0",
+      "strength": 72,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.006584,
+      "exitTime": 1787692331678,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.330914781619009,
+      "pnlUsd": -6.3309147816190094,
+      "total": 93.66908521838099
+    },
     {
       "id": "RAIN_sE_1787676656395",
       "symbol": "RAIN",
@@ -7814,7 +7820,7 @@
     "AVAX_sR": 1780495959104,
     "HBAR_sR": 1778752941540,
     "CC_sE": 1781943500543,
-    "FLR_sE": 1787469863140,
+    "FLR_sE": 1787771531678,
     "XRP_sE": 1784044752405,
     "HYPE_sE": 1787168197411,
     "LINK_sR": 1780510384134,
@@ -7922,18 +7928,18 @@
     "MORPHO_sM": 1787745401674,
     "RAIN_sM": 1787687800795
   },
-  "scanCount": 2194,
+  "scanCount": 2195,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-25T20:50:26.105Z",
+  "lastScan": "2026-08-25T21:12:51.568Z",
   "lastReport": "2026-08-25T18:31:28.922Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 74,
   "totalStats": {
-    "trades": 324,
+    "trades": 325,
     "wins": 112,
-    "losses": 212,
-    "totalPnl": 1.6536967720918927,
-    "invested": 32400
+    "losses": 213,
+    "totalPnl": -4.677218009527117,
+    "invested": 32500
   },
   "byStrategy": {
     "sR": {
@@ -7942,9 +7948,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 176,
+      "trades": 177,
       "wins": 55,
-      "pnl": 50.863664572719614
+      "pnl": 44.532749791100606
     },
     "sM": {
       "trades": 34,
@@ -8033,11 +8039,11 @@
         "pnl": 66.26798466869307
       },
       "sE": {
-        "trades": 37,
+        "trades": 38,
         "wins": 26,
-        "pnl": 310.51306749688274
+        "pnl": 304.1821527152637
       }
     }
   },
-  "btcDominance": 59.1
+  "btcDominance": 59.2
 }
