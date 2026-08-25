@@ -69,23 +69,6 @@
       "peakPnl": 0
     },
     {
-      "id": "RAIN_sE_1787168199204",
-      "symbol": "RAIN",
-      "name": "Rain",
-      "coinId": "rain",
-      "rank": 12,
-      "stratId": "sE",
-      "entryPrice": 0.013910823780458447,
-      "entryTime": 1787168199204,
-      "entryDate": "2026-08-19T19:36:39.204Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.0131 > EMA21=0.0131 · RSI=61 · Vol x1.1",
-      "strength": 82,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "BNB_sM_1787306163073",
       "symbol": "BNB",
       "name": "BNB",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "RAIN_sE_1787168199204",
+      "symbol": "RAIN",
+      "name": "Rain",
+      "coinId": "rain",
+      "rank": 12,
+      "stratId": "sE",
+      "entryPrice": 0.013910823780458447,
+      "entryTime": 1787168199204,
+      "entryDate": "2026-08-19T19:36:39.204Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0131 > EMA21=0.0131 · RSI=61 · Vol x1.1",
+      "strength": 82,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 0.016264124287708407,
+      "exitTime": 1787673993060,
+      "exitReason": "✅ TP +15%",
+      "pnl": 16.917046354622173,
+      "pnlUsd": 16.917046354622173,
+      "total": 116.91704635462217
+    },
     {
       "id": "MORPHO_sM_1787533016505",
       "symbol": "MORPHO",
@@ -7875,18 +7881,18 @@
     "KCS_sE": 1787479149580,
     "MORPHO_sM": 1787745401674
   },
-  "scanCount": 2183,
+  "scanCount": 2184,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-25T15:25:20.340Z",
+  "lastScan": "2026-08-25T16:07:09.637Z",
   "lastReport": "2026-08-25T12:36:27.707Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 74,
   "totalStats": {
-    "trades": 322,
-    "wins": 110,
+    "trades": 323,
+    "wins": 111,
     "losses": 212,
-    "totalPnl": -30.567668847230177,
-    "invested": 32200
+    "totalPnl": -13.650622492608004,
+    "invested": 32300
   },
   "byStrategy": {
     "sR": {
@@ -7895,9 +7901,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 174,
-      "wins": 53,
-      "pnl": 18.642298953397546
+      "trades": 175,
+      "wins": 54,
+      "pnl": 35.559345308019715
     },
     "sM": {
       "trades": 34,
@@ -7986,9 +7992,9 @@
         "pnl": 66.26798466869307
       },
       "sE": {
-        "trades": 35,
-        "wins": 24,
-        "pnl": 278.2917018775607
+        "trades": 36,
+        "wins": 25,
+        "pnl": 295.20874823218287
       }
     }
   },
