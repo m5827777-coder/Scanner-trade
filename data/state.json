@@ -322,6 +322,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "RAIN_sE_1787676656395",
+      "symbol": "RAIN",
+      "name": "Rain",
+      "coinId": "rain",
+      "rank": 13,
+      "stratId": "sE",
+      "entryPrice": 0.016188238488943577,
+      "entryTime": 1787676656395,
+      "entryDate": "2026-08-25T16:50:56.395Z",
+      "entrySignal": "Golden Cross 6д назад · EMA9=0.0144 > EMA21=0.0138 · RSI=70 · Vol x1.5",
+      "strength": 78,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -7818,7 +7835,7 @@
     "BNB_sM": 1787306163073,
     "BNB_sE": 1784631009103,
     "XLM_sM": 1787412376986,
-    "RAIN_sE": 1787168199204,
+    "RAIN_sE": 1787676656395,
     "WLD_sM": 1780648179526,
     "NIGHT_sE": 1783252446162,
     "ONDO_sE": 1787471593389,
@@ -7881,9 +7898,9 @@
     "KCS_sE": 1787479149580,
     "MORPHO_sM": 1787745401674
   },
-  "scanCount": 2184,
+  "scanCount": 2185,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-25T16:07:09.637Z",
+  "lastScan": "2026-08-25T16:50:57.385Z",
   "lastReport": "2026-08-25T12:36:27.707Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 74,
