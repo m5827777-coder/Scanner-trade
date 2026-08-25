@@ -322,7 +322,9 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "RAIN_sE_1787676656395",
       "symbol": "RAIN",
@@ -338,10 +340,14 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "CoinGecko",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 0.018665738190622533,
+      "exitTime": 1787686295030,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.304319264699897,
+      "pnlUsd": 15.304319264699897,
+      "total": 115.3043192646999
+    },
     {
       "id": "RAIN_sE_1787168199204",
       "symbol": "RAIN",
@@ -7898,18 +7904,18 @@
     "KCS_sE": 1787479149580,
     "MORPHO_sM": 1787745401674
   },
-  "scanCount": 2190,
+  "scanCount": 2191,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-25T18:58:42.278Z",
+  "lastScan": "2026-08-25T19:32:14.581Z",
   "lastReport": "2026-08-25T18:31:28.922Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 74,
   "totalStats": {
-    "trades": 323,
-    "wins": 111,
+    "trades": 324,
+    "wins": 112,
     "losses": 212,
-    "totalPnl": -13.650622492608004,
-    "invested": 32300
+    "totalPnl": 1.6536967720918927,
+    "invested": 32400
   },
   "byStrategy": {
     "sR": {
@@ -7918,9 +7924,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 175,
-      "wins": 54,
-      "pnl": 35.559345308019715
+      "trades": 176,
+      "wins": 55,
+      "pnl": 50.863664572719614
     },
     "sM": {
       "trades": 34,
@@ -8009,9 +8015,9 @@
         "pnl": 66.26798466869307
       },
       "sE": {
-        "trades": 36,
-        "wins": 25,
-        "pnl": 295.20874823218287
+        "trades": 37,
+        "wins": 26,
+        "pnl": 310.51306749688274
       }
     }
   },
