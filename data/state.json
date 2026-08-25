@@ -322,6 +322,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ADA_sE_1787668743692",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 19,
+      "stratId": "sE",
+      "entryPrice": 0.2166,
+      "entryTime": 1787668743692,
+      "entryDate": "2026-08-25T14:39:03.692Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=0.2084 > EMA21=0.1970 · RSI=67 · Vol x1.0",
+      "strength": 72,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -7810,7 +7827,7 @@
     "LIT_sM": 1782981286266,
     "SOL_sE": 1786978850455,
     "SKY_sM": 1787153623428,
-    "ADA_sE": 1787456116127,
+    "ADA_sE": 1787668743692,
     "BCH_sE": 1787544167471,
     "LTC_sE": 1787395008821,
     "ETH_sE": 1787153605762,
@@ -7858,9 +7875,9 @@
     "KCS_sE": 1787479149580,
     "MORPHO_sM": 1787745401674
   },
-  "scanCount": 2181,
+  "scanCount": 2182,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-25T13:56:42.870Z",
+  "lastScan": "2026-08-25T14:39:04.865Z",
   "lastReport": "2026-08-25T12:36:27.707Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 74,
@@ -7975,5 +7992,5 @@
       }
     }
   },
-  "btcDominance": 60
+  "btcDominance": 59.2
 }
