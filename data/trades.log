@@ -127706,3 +127706,36 @@
 [2026-08-25 13:03:43 UTC] ✅ Данные: 0 токенов OK, 0 недоступно | Открыто: 0 | Всего: 20
 [2026-08-25 13:03:44 UTC] 
 📊 ИТОГ: WR=34.3% PnL=$-22.71 Trades=321
+[2026-08-25 13:56:36 UTC] ════════════════════════════════════════════════════
+[2026-08-25 13:56:36 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-08-25 13:56:36 UTC] ════════════════════════════════════════════════════
+[2026-08-25 13:56:36 UTC] 📡 Scan #2181
+[2026-08-25 13:56:37 UTC] 📊 BTC Dom=60%
+[2026-08-25 13:56:37 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-08-25 13:56:37 UTC] 🌡 F&G=74 Regime=BULL_TREND Open=20
+[2026-08-25 13:56:37 UTC]   📂 HOLD PAXG/sE PnL=+11.36%
+[2026-08-25 13:56:37 UTC]   📂 HOLD XAUT/sE PnL=+10.55%
+[2026-08-25 13:56:38 UTC]   📂 HOLD TRX/sE PnL=+3.18%
+[2026-08-25 13:56:38 UTC]   📂 HOLD SKY/sM PnL=+15.18%
+[2026-08-25 13:56:38 UTC]   📂 HOLD RAIN/sE PnL=+3.71%
+[2026-08-25 13:56:38 UTC]   📂 HOLD BNB/sM PnL=+1.94%
+[2026-08-25 13:56:39 UTC]   📂 HOLD GRAM/sM PnL=-1.30%
+[2026-08-25 13:56:39 UTC]   📂 HOLD ZEC/sM PnL=+10.93%
+[2026-08-25 13:56:39 UTC]   📂 HOLD HYPE/sM PnL=-3.21%
+[2026-08-25 13:56:39 UTC]   📂 HOLD AVAX/sM PnL=-3.98%
+[2026-08-25 13:56:39 UTC]   📂 HOLD LTC/sE PnL=-0.73%
+[2026-08-25 13:56:40 UTC]   📂 HOLD XLM/sM PnL=-2.72%
+[2026-08-25 13:56:40 UTC]   📂 HOLD HBAR/sE PnL=+4.64%
+[2026-08-25 13:56:40 UTC]   📂 HOLD NEAR/sE PnL=+4.16%
+[2026-08-25 13:56:40 UTC]   📂 HOLD TAO/sE PnL=+6.22%
+[2026-08-25 13:56:40 UTC]   📂 HOLD FLR/sE PnL=-5.14%
+[2026-08-25 13:56:41 UTC]   📂 HOLD ONDO/sE PnL=+3.24%
+[2026-08-25 13:56:41 UTC]   📂 HOLD KCS/sE PnL=-2.24%
+[2026-08-25 13:56:41 UTC]   🔒 SL-cooldown 24ч для MORPHO/sM
+[2026-08-25 13:56:41 UTC]   ❌ CLOSE MORPHO/sM: 🛑 SL -7% PnL=-7.86% held=1д 12ч
+[2026-08-25 13:56:42 UTC]   📂 HOLD INJ/sE PnL=+2.85%
+[2026-08-25 13:56:42 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-08-25 13:56:42 UTC] [CG ERR] CG 503
+[2026-08-25 13:56:42 UTC] ⚠ CoinGecko недоступен
+[2026-08-25 13:56:43 UTC] 
+📊 ИТОГ: WR=34.2% PnL=$-30.57 Trades=322

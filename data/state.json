@@ -307,23 +307,6 @@
       "peakPnl": 0
     },
     {
-      "id": "MORPHO_sM_1787533016505",
-      "symbol": "MORPHO",
-      "name": "Morpho",
-      "coinId": "morpho",
-      "rank": 50,
-      "stratId": "sM",
-      "entryPrice": 2.7646,
-      "entryTime": 1787533016505,
-      "entryDate": "2026-08-24T00:56:56.505Z",
-      "entrySignal": "Пробой 20d max $2.5240 на +9.5% · Объём x1.8 · RSI=73",
-      "strength": 88,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "INJ_sE_1787608699789",
       "symbol": "INJ",
       "name": "Injective",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "MORPHO_sM_1787533016505",
+      "symbol": "MORPHO",
+      "name": "Morpho",
+      "coinId": "morpho",
+      "rank": 50,
+      "stratId": "sM",
+      "entryPrice": 2.7646,
+      "entryTime": 1787533016505,
+      "entryDate": "2026-08-24T00:56:56.505Z",
+      "entrySignal": "Пробой 20d max $2.5240 на +9.5% · Объём x1.8 · RSI=73",
+      "strength": 88,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2.5473,
+      "exitTime": 1787666201674,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.860088258699278,
+      "pnlUsd": -7.860088258699278,
+      "total": 92.13991174130072
+    },
     {
       "id": "SOL_sM_1787393321148",
       "symbol": "SOL",
@@ -7850,20 +7856,20 @@
     "AVAX_sM": 1787378232809,
     "TRUMP_sE": 1787451269778,
     "KCS_sE": 1787479149580,
-    "MORPHO_sM": 1787533016505
+    "MORPHO_sM": 1787745401674
   },
-  "scanCount": 2180,
+  "scanCount": 2181,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-25T13:03:43.554Z",
+  "lastScan": "2026-08-25T13:56:42.870Z",
   "lastReport": "2026-08-25T12:36:27.707Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 74,
   "totalStats": {
-    "trades": 321,
+    "trades": 322,
     "wins": 110,
-    "losses": 211,
-    "totalPnl": -22.7075805885309,
-    "invested": 32100
+    "losses": 212,
+    "totalPnl": -30.567668847230177,
+    "invested": 32200
   },
   "byStrategy": {
     "sR": {
@@ -7877,9 +7883,9 @@
       "pnl": 18.642298953397546
     },
     "sM": {
-      "trades": 33,
+      "trades": 34,
       "wins": 15,
-      "pnl": 75.88329009419964
+      "pnl": 68.02320183550036
     }
   },
   "byRegime": {
@@ -7958,9 +7964,9 @@
         "pnl": 7.0102467776887805
       },
       "sM": {
-        "trades": 14,
+        "trades": 15,
         "wins": 8,
-        "pnl": 74.12807292739235
+        "pnl": 66.26798466869307
       },
       "sE": {
         "trades": 35,
@@ -7969,5 +7975,5 @@
       }
     }
   },
-  "btcDominance": 59.1
+  "btcDominance": 60
 }
