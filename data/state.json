@@ -256,23 +256,6 @@
       "peakPnl": 0
     },
     {
-      "id": "INJ_sE_1787608699789",
-      "symbol": "INJ",
-      "name": "Injective",
-      "coinId": "injective-protocol",
-      "rank": 99,
-      "stratId": "sE",
-      "entryPrice": 5.675,
-      "entryTime": 1787608699789,
-      "entryDate": "2026-08-24T21:58:19.789Z",
-      "entrySignal": "Golden Cross 2д назад · EMA9=5.0468 > EMA21=4.8187 · RSI=70 · Vol x1.0",
-      "strength": 76,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ADA_sE_1787668743692",
       "symbol": "ADA",
       "name": "Cardano",
@@ -305,9 +288,49 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "JUP_sE_1787756415402",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "coinId": "jupiter-exchange-solana",
+      "rank": 87,
+      "stratId": "sE",
+      "entryPrice": 0.2142,
+      "entryTime": 1787756415402,
+      "entryDate": "2026-08-26T15:00:15.402Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=0.2025 > EMA21=0.1932 · RSI=68 · Vol x1.1",
+      "strength": 73,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "Bybit",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "INJ_sE_1787608699789",
+      "symbol": "INJ",
+      "name": "Injective",
+      "coinId": "injective-protocol",
+      "rank": 99,
+      "stratId": "sE",
+      "entryPrice": 5.675,
+      "entryTime": 1787608699789,
+      "entryDate": "2026-08-24T21:58:19.789Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=5.0468 > EMA21=4.8187 · RSI=70 · Vol x1.0",
+      "strength": 76,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 5.326,
+      "exitTime": 1787756368270,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.149779735682824,
+      "pnlUsd": -6.149779735682824,
+      "total": 93.85022026431717
+    },
     {
       "id": "XLM_sM_1787412376985",
       "symbol": "XLM",
@@ -7879,7 +7902,7 @@
     "ZEC_sM": 1787360085121,
     "ICP_sR": 1779986502655,
     "WLD_sE": 1787097974963,
-    "JUP_sE": 1781968157103,
+    "JUP_sE": 1787756415402,
     "MORPHO_sE": 1786968846739,
     "TON_sE": 1780599053641,
     "OKB_sE": 1785071279484,
@@ -7925,7 +7948,7 @@
     "ENA_sE": 1787340825182,
     "SUI_sE": 1787536936203,
     "CRO_sE": 1787491568373,
-    "INJ_sE": 1787608699789,
+    "INJ_sE": 1787835568270,
     "PUMP_sM": 1786067830795,
     "BTC_sE": 1787149522773,
     "SHIB_sE": 1787456118298,
@@ -7957,18 +7980,18 @@
     "MORPHO_sM": 1787745401674,
     "RAIN_sM": 1787791182012
   },
-  "scanCount": 2224,
+  "scanCount": 2225,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-26T14:10:11.411Z",
+  "lastScan": "2026-08-26T15:00:22.923Z",
   "lastReport": "2026-08-26T12:40:10.692Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 65,
   "totalStats": {
-    "trades": 327,
+    "trades": 328,
     "wins": 112,
-    "losses": 215,
-    "totalPnl": -19.201946638061752,
-    "invested": 32700
+    "losses": 216,
+    "totalPnl": -25.351726373744576,
+    "invested": 32800
   },
   "byStrategy": {
     "sR": {
@@ -7977,9 +8000,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 177,
+      "trades": 178,
       "wins": 55,
-      "pnl": 44.532749791100606
+      "pnl": 38.382970055417786
     },
     "sM": {
       "trades": 36,
@@ -8068,9 +8091,9 @@
         "pnl": 51.74325604015844
       },
       "sE": {
-        "trades": 38,
+        "trades": 39,
         "wins": 26,
-        "pnl": 304.1821527152637
+        "pnl": 298.0323729795809
       }
     }
   },
