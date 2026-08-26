@@ -171,23 +171,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XLM_sM_1787412376985",
-      "symbol": "XLM",
-      "name": "Stellar",
-      "coinId": "stellar",
-      "rank": 20,
-      "stratId": "sM",
-      "entryPrice": 0.19483,
-      "entryTime": 1787412376985,
-      "entryDate": "2026-08-22T15:26:16.985Z",
-      "entrySignal": "Пробой 20d max $0.1839 на +5.9% · Объём x6.0 · RSI=72",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "HBAR_sE_1787412380090",
       "symbol": "HBAR",
       "name": "Hedera",
@@ -325,6 +308,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "XLM_sM_1787412376985",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 20,
+      "stratId": "sM",
+      "entryPrice": 0.19483,
+      "entryTime": 1787412376985,
+      "entryDate": "2026-08-22T15:26:16.985Z",
+      "entrySignal": "Пробой 20d max $0.1839 на +5.9% · Объём x6.0 · RSI=72",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.18119,
+      "exitTime": 1787750806789,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.000975209156707,
+      "pnlUsd": -7.000975209156707,
+      "total": 92.9990247908433
+    },
     {
       "id": "RAIN_sM_1787687800795",
       "symbol": "RAIN",
@@ -7886,7 +7892,7 @@
     "ALGO_sE": 1786351436068,
     "BNB_sM": 1787306163073,
     "BNB_sE": 1784631009103,
-    "XLM_sM": 1787412376986,
+    "XLM_sM": 1787830006789,
     "RAIN_sE": 1787715423961,
     "WLD_sM": 1780648179526,
     "NIGHT_sE": 1783252446162,
@@ -7951,18 +7957,18 @@
     "MORPHO_sM": 1787745401674,
     "RAIN_sM": 1787791182012
   },
-  "scanCount": 2222,
+  "scanCount": 2223,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-26T12:40:10.692Z",
+  "lastScan": "2026-08-26T13:27:20.581Z",
   "lastReport": "2026-08-26T12:40:10.692Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 65,
   "totalStats": {
-    "trades": 326,
+    "trades": 327,
     "wins": 112,
-    "losses": 214,
-    "totalPnl": -12.200971428905046,
-    "invested": 32600
+    "losses": 215,
+    "totalPnl": -19.201946638061752,
+    "invested": 32700
   },
   "byStrategy": {
     "sR": {
@@ -7976,9 +7982,9 @@
       "pnl": 44.532749791100606
     },
     "sM": {
-      "trades": 35,
+      "trades": 36,
       "wins": 15,
-      "pnl": 60.49944841612243
+      "pnl": 53.49847320696573
     }
   },
   "byRegime": {
@@ -8057,9 +8063,9 @@
         "pnl": 7.0102467776887805
       },
       "sM": {
-        "trades": 16,
+        "trades": 17,
         "wins": 8,
-        "pnl": 58.74423124931515
+        "pnl": 51.74325604015844
       },
       "sE": {
         "trades": 38,
@@ -8068,5 +8074,5 @@
       }
     }
   },
-  "btcDominance": 59.1
+  "btcDominance": 59.2
 }
