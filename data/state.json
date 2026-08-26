@@ -305,7 +305,9 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "RAIN_sM_1787687800795",
       "symbol": "RAIN",
@@ -321,10 +323,14 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "CoinGecko",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 0.01797241517424799,
+      "exitTime": 1787711982012,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.523753419377929,
+      "pnlUsd": -7.523753419377929,
+      "total": 92.47624658062207
+    },
     {
       "id": "FLR_sE_1787469863140",
       "symbol": "FLR",
@@ -7926,20 +7932,20 @@
     "TRUMP_sE": 1787451269778,
     "KCS_sE": 1787479149580,
     "MORPHO_sM": 1787745401674,
-    "RAIN_sM": 1787687800795
+    "RAIN_sM": 1787791182012
   },
-  "scanCount": 2204,
+  "scanCount": 2205,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-26T01:17:53.532Z",
+  "lastScan": "2026-08-26T02:40:20.351Z",
   "lastReport": "2026-08-26T00:58:20.584Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 65,
   "totalStats": {
-    "trades": 325,
+    "trades": 326,
     "wins": 112,
-    "losses": 213,
-    "totalPnl": -4.677218009527117,
-    "invested": 32500
+    "losses": 214,
+    "totalPnl": -12.200971428905046,
+    "invested": 32600
   },
   "byStrategy": {
     "sR": {
@@ -7953,9 +7959,9 @@
       "pnl": 44.532749791100606
     },
     "sM": {
-      "trades": 34,
+      "trades": 35,
       "wins": 15,
-      "pnl": 68.02320183550036
+      "pnl": 60.49944841612243
     }
   },
   "byRegime": {
@@ -8034,9 +8040,9 @@
         "pnl": 7.0102467776887805
       },
       "sM": {
-        "trades": 15,
+        "trades": 16,
         "wins": 8,
-        "pnl": 66.26798466869307
+        "pnl": 58.74423124931515
       },
       "sE": {
         "trades": 38,
@@ -8045,5 +8051,5 @@
       }
     }
   },
-  "btcDominance": 59.2
+  "btcDominance": 59.3
 }
