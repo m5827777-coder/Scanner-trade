@@ -7980,11 +7980,11 @@
     "MORPHO_sM": 1787745401674,
     "RAIN_sM": 1787791182012
   },
-  "scanCount": 2225,
+  "scanCount": 2226,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-26T15:00:22.923Z",
+  "lastScan": "2026-08-26T16:19:50.772Z",
   "lastReport": "2026-08-26T12:40:10.692Z",
-  "marketRegime": "BULL_TREND",
+  "marketRegime": "BULL",
   "fearGreed": 65,
   "totalStats": {
     "trades": 328,
