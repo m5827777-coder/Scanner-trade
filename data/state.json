@@ -205,23 +205,6 @@
       "peakPnl": 0
     },
     {
-      "id": "TAO_sE_1787469844400",
-      "symbol": "TAO",
-      "name": "Bittensor",
-      "coinId": "bittensor",
-      "rank": 42,
-      "stratId": "sE",
-      "entryPrice": 220.1,
-      "entryTime": 1787469844400,
-      "entryDate": "2026-08-23T07:24:04.400Z",
-      "entrySignal": "Golden Cross 3д назад · EMA9=211.2177 > EMA21=204.4564 · RSI=62 · Vol x1.0",
-      "strength": 72,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ONDO_sE_1787471593389",
       "symbol": "ONDO",
       "name": "Ondo",
@@ -305,9 +288,66 @@
       "size": 100,
       "src": "Bybit",
       "peakPnl": 0
+    },
+    {
+      "id": "TAO_sE_1787841268837",
+      "symbol": "TAO",
+      "name": "Bittensor",
+      "coinId": "bittensor",
+      "rank": 41,
+      "stratId": "sE",
+      "entryPrice": 259.5,
+      "entryTime": 1787841268837,
+      "entryDate": "2026-08-27T14:34:28.837Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=230.3754 > EMA21=216.7770 · RSI=72 · Vol x1.8",
+      "strength": 81,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "ENA_sE_1787841275487",
+      "symbol": "ENA",
+      "name": "Ethena",
+      "coinId": "ethena",
+      "rank": 58,
+      "stratId": "sE",
+      "entryPrice": 0.15483,
+      "entryTime": 1787841275487,
+      "entryDate": "2026-08-27T14:34:35.487Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=0.1394 > EMA21=0.1198 · RSI=69 · Vol x1.4",
+      "strength": 77,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "TAO_sE_1787469844400",
+      "symbol": "TAO",
+      "name": "Bittensor",
+      "coinId": "bittensor",
+      "rank": 42,
+      "stratId": "sE",
+      "entryPrice": 220.1,
+      "entryTime": 1787469844400,
+      "entryDate": "2026-08-23T07:24:04.400Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=211.2177 > EMA21=204.4564 · RSI=62 · Vol x1.0",
+      "strength": 72,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 259.5,
+      "exitTime": 1787841253802,
+      "exitReason": "✅ TP +15%",
+      "pnl": 17.90095411176738,
+      "pnlUsd": 17.90095411176738,
+      "total": 117.90095411176738
+    },
     {
       "id": "INJ_sE_1787608699789",
       "symbol": "INJ",
@@ -7945,7 +7985,7 @@
     "GRAM_sR": 1784307697586,
     "PUMP_sE": 1784080520130,
     "LINK_sE": 1786439600143,
-    "ENA_sE": 1787340825182,
+    "ENA_sE": 1787841275487,
     "SUI_sE": 1787536936203,
     "CRO_sE": 1787491568373,
     "INJ_sE": 1787835568270,
@@ -7958,7 +7998,7 @@
     "PAXG_sE": 1785903554683,
     "XAUT_sE": 1785912340985,
     "USDGO_sE": 1786125487035,
-    "TAO_sE": 1787469844400,
+    "TAO_sE": 1787841268837,
     "OKB_sM": 1787539564478,
     "ETHFI_sE": 1786788688360,
     "DOGE_sE": 1787153609321,
@@ -7980,18 +8020,18 @@
     "MORPHO_sM": 1787745401674,
     "RAIN_sM": 1787791182012
   },
-  "scanCount": 2232,
+  "scanCount": 2233,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-27T06:49:16.185Z",
-  "lastReport": "2026-08-27T06:49:16.185Z",
+  "lastScan": "2026-08-27T14:34:49.292Z",
+  "lastReport": "2026-08-27T14:34:49.291Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 328,
-    "wins": 112,
+    "trades": 329,
+    "wins": 113,
     "losses": 216,
-    "totalPnl": -25.351726373744576,
-    "invested": 32800
+    "totalPnl": -7.450772261977196,
+    "invested": 32900
   },
   "byStrategy": {
     "sR": {
@@ -8000,9 +8040,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 178,
-      "wins": 55,
-      "pnl": 38.382970055417786
+      "trades": 179,
+      "wins": 56,
+      "pnl": 56.28392416718516
     },
     "sM": {
       "trades": 36,
@@ -8091,11 +8131,11 @@
         "pnl": 51.74325604015844
       },
       "sE": {
-        "trades": 39,
-        "wins": 26,
-        "pnl": 298.0323729795809
+        "trades": 40,
+        "wins": 27,
+        "pnl": 315.93332709134825
       }
     }
   },
-  "btcDominance": 59.1
+  "btcDominance": 59.2
 }
