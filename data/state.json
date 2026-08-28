@@ -222,40 +222,6 @@
       "peakPnl": 0
     },
     {
-      "id": "KCS_sE_1787479149580",
-      "symbol": "KCS",
-      "name": "KuCoin",
-      "coinId": "kucoin-shares",
-      "rank": 69,
-      "stratId": "sE",
-      "entryPrice": 7.4,
-      "entryTime": 1787479149580,
-      "entryDate": "2026-08-23T09:59:09.580Z",
-      "entrySignal": "Golden Cross 4д назад · EMA9=7.1971 > EMA21=6.9441 · RSI=62 · Vol x1.4",
-      "strength": 77,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "Bybit",
-      "peakPnl": 0
-    },
-    {
-      "id": "ADA_sE_1787668743692",
-      "symbol": "ADA",
-      "name": "Cardano",
-      "coinId": "cardano",
-      "rank": 19,
-      "stratId": "sE",
-      "entryPrice": 0.2166,
-      "entryTime": 1787668743692,
-      "entryDate": "2026-08-25T14:39:03.692Z",
-      "entrySignal": "Golden Cross 5д назад · EMA9=0.2084 > EMA21=0.1970 · RSI=67 · Vol x1.0",
-      "strength": 72,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "RAIN_sE_1787715423961",
       "symbol": "RAIN",
       "name": "Rain",
@@ -287,23 +253,6 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "Bybit",
-      "peakPnl": 0
-    },
-    {
-      "id": "TAO_sE_1787841268837",
-      "symbol": "TAO",
-      "name": "Bittensor",
-      "coinId": "bittensor",
-      "rank": 41,
-      "stratId": "sE",
-      "entryPrice": 259.5,
-      "entryTime": 1787841268837,
-      "entryDate": "2026-08-27T14:34:28.837Z",
-      "entrySignal": "Golden Cross 7д назад · EMA9=230.3754 > EMA21=216.7770 · RSI=72 · Vol x1.8",
-      "strength": 81,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
       "peakPnl": 0
     },
     {
@@ -339,9 +288,95 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "CC_sR_1787948021566",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 23,
+      "stratId": "sR",
+      "entryPrice": 0.11028,
+      "entryTime": 1787948021566,
+      "entryDate": "2026-08-28T20:13:41.566Z",
+      "entrySignal": "Ротация #23 CC: BTC Dom=59% · Коррекция -12.0% · RSI=50",
+      "strength": 59,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "TAO_sE_1787841268837",
+      "symbol": "TAO",
+      "name": "Bittensor",
+      "coinId": "bittensor",
+      "rank": 41,
+      "stratId": "sE",
+      "entryPrice": 259.5,
+      "entryTime": 1787841268837,
+      "entryDate": "2026-08-27T14:34:28.837Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=230.3754 > EMA21=216.7770 · RSI=72 · Vol x1.8",
+      "strength": 81,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 235.2,
+      "exitTime": 1787948011177,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -9.364161849710987,
+      "pnlUsd": -9.364161849710987,
+      "total": 90.63583815028902
+    },
+    {
+      "id": "ADA_sE_1787668743692",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 19,
+      "stratId": "sE",
+      "entryPrice": 0.2166,
+      "entryTime": 1787668743692,
+      "entryDate": "2026-08-25T14:39:03.692Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=0.2084 > EMA21=0.1970 · RSI=67 · Vol x1.0",
+      "strength": 72,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.2022,
+      "exitTime": 1787948009844,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.648199445983378,
+      "pnlUsd": -6.648199445983377,
+      "total": 93.35180055401662
+    },
+    {
+      "id": "KCS_sE_1787479149580",
+      "symbol": "KCS",
+      "name": "KuCoin",
+      "coinId": "kucoin-shares",
+      "rank": 69,
+      "stratId": "sE",
+      "entryPrice": 7.4,
+      "entryTime": 1787479149580,
+      "entryDate": "2026-08-23T09:59:09.580Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=7.1971 > EMA21=6.9441 · RSI=62 · Vol x1.4",
+      "strength": 77,
+      "regime": "BULL",
+      "size": 100,
+      "src": "Bybit",
+      "peakPnl": 0,
+      "exitPrice": 6.9323004010389075,
+      "exitTime": 1787948008791,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.320264850825579,
+      "pnlUsd": -6.320264850825579,
+      "total": 93.67973514917442
+    },
     {
       "id": "TAO_sE_1787469844400",
       "symbol": "TAO",
@@ -7919,7 +7954,7 @@
     "UNI_sR": 1779554027073,
     "DOT_sR": 1779554029231,
     "AAVE_sR": 1780482653547,
-    "CC_sR": 1780702385233,
+    "CC_sR": 1787948021567,
     "ETC_sR": 1780495960103,
     "ENA_sR": 1780207944941,
     "ALGO_sR": 1779912519969,
@@ -7988,7 +8023,7 @@
     "LIT_sM": 1782981286266,
     "SOL_sE": 1786978850455,
     "SKY_sM": 1787153623428,
-    "ADA_sE": 1787668743692,
+    "ADA_sE": 1788027209844,
     "BCH_sE": 1787544167471,
     "LTC_sE": 1787395008821,
     "ETH_sE": 1787153605762,
@@ -8015,7 +8050,7 @@
     "PAXG_sE": 1785903554683,
     "XAUT_sE": 1785912340985,
     "USDGO_sE": 1786125487035,
-    "TAO_sE": 1787841268837,
+    "TAO_sE": 1788027211177,
     "OKB_sM": 1787539564478,
     "ETHFI_sE": 1786788688360,
     "DOGE_sE": 1787153609321,
@@ -8033,22 +8068,22 @@
     "SHIB_sM": 1787536937167,
     "AVAX_sM": 1787378232809,
     "TRUMP_sE": 1787451269778,
-    "KCS_sE": 1787479149580,
+    "KCS_sE": 1788027208791,
     "MORPHO_sM": 1787745401674,
     "RAIN_sM": 1787791182012
   },
-  "scanCount": 2237,
+  "scanCount": 2238,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-28T08:36:36.158Z",
-  "lastReport": "2026-08-28T08:36:36.158Z",
+  "lastScan": "2026-08-28T20:14:11.372Z",
+  "lastReport": "2026-08-28T20:14:11.372Z",
   "marketRegime": "BULL",
   "fearGreed": 73,
   "totalStats": {
-    "trades": 329,
+    "trades": 332,
     "wins": 113,
-    "losses": 216,
-    "totalPnl": -7.450772261977196,
-    "invested": 32900
+    "losses": 219,
+    "totalPnl": -29.783398408497142,
+    "invested": 33200
   },
   "byStrategy": {
     "sR": {
@@ -8057,9 +8092,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 179,
+      "trades": 182,
       "wins": 56,
-      "pnl": 56.28392416718516
+      "pnl": 33.95129802066521
     },
     "sM": {
       "trades": 36,
@@ -8075,9 +8110,9 @@
         "pnl": -8.612829561825471
       },
       "sE": {
-        "trades": 7,
+        "trades": 10,
         "wins": 0,
-        "pnl": -45.3018515446264
+        "pnl": -67.63447769114634
       },
       "sM": {
         "trades": 1,
@@ -8154,5 +8189,5 @@
       }
     }
   },
-  "btcDominance": 59.2
+  "btcDominance": 59
 }
