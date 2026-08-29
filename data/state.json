@@ -86,23 +86,6 @@
       "peakPnl": 0
     },
     {
-      "id": "GRAM_sM_1787319797191",
-      "symbol": "GRAM",
-      "name": "Gram (prev. Toncoin)",
-      "coinId": "the-open-network",
-      "rank": 25,
-      "stratId": "sM",
-      "entryPrice": 1.462,
-      "entryTime": 1787319797191,
-      "entryDate": "2026-08-21T13:43:17.191Z",
-      "entrySignal": "Пробой 20d max $1.4360 на +1.8% · Объём x3.0 · RSI=58",
-      "strength": 86,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ZEC_sM_1787360085121",
       "symbol": "ZEC",
       "name": "Zcash",
@@ -308,6 +291,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "GRAM_sM_1787319797191",
+      "symbol": "GRAM",
+      "name": "Gram (prev. Toncoin)",
+      "coinId": "the-open-network",
+      "rank": 25,
+      "stratId": "sM",
+      "entryPrice": 1.462,
+      "entryTime": 1787319797191,
+      "entryDate": "2026-08-21T13:43:17.191Z",
+      "entrySignal": "Пробой 20d max $1.4360 на +1.8% · Объём x3.0 · RSI=58",
+      "strength": 86,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.357,
+      "exitTime": 1787971730721,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.181942544459644,
+      "pnlUsd": -7.181942544459644,
+      "total": 92.81805745554036
+    },
     {
       "id": "TAO_sE_1787841268837",
       "symbol": "TAO",
@@ -8058,7 +8064,7 @@
     "SOL_sM": 1787393321148,
     "LINK_sM": 1787234871146,
     "DOGE_sM": 1787302442570,
-    "GRAM_sM": 1787319797191,
+    "GRAM_sM": 1788050930721,
     "GT_sM": 1787344424213,
     "LTC_sM": 1787474196868,
     "SUI_sM": 1787456117335,
@@ -8072,18 +8078,18 @@
     "MORPHO_sM": 1787745401674,
     "RAIN_sM": 1787791182012
   },
-  "scanCount": 2239,
+  "scanCount": 2240,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-28T21:40:02.286Z",
+  "lastScan": "2026-08-29T02:49:28.962Z",
   "lastReport": "2026-08-28T21:40:02.286Z",
   "marketRegime": "BULL",
-  "fearGreed": 73,
+  "fearGreed": 68,
   "totalStats": {
-    "trades": 332,
+    "trades": 333,
     "wins": 113,
-    "losses": 219,
-    "totalPnl": -29.783398408497142,
-    "invested": 33200
+    "losses": 220,
+    "totalPnl": -36.96534095295679,
+    "invested": 33300
   },
   "byStrategy": {
     "sR": {
@@ -8097,9 +8103,9 @@
       "pnl": 33.95129802066521
     },
     "sM": {
-      "trades": 36,
+      "trades": 37,
       "wins": 15,
-      "pnl": 53.49847320696573
+      "pnl": 46.31653066250608
     }
   },
   "byRegime": {
@@ -8115,9 +8121,9 @@
         "pnl": -67.63447769114634
       },
       "sM": {
-        "trades": 1,
+        "trades": 2,
         "wins": 0,
-        "pnl": -7.718780727630278
+        "pnl": -14.900723272089921
       }
     },
     "NEUTRAL": {
