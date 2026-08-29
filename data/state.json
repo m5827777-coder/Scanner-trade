@@ -188,23 +188,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ONDO_sE_1787471593389",
-      "symbol": "ONDO",
-      "name": "Ondo",
-      "coinId": "ondo-finance",
-      "rank": 48,
-      "stratId": "sE",
-      "entryPrice": 0.3584,
-      "entryTime": 1787471593389,
-      "entryDate": "2026-08-23T07:53:13.389Z",
-      "entrySignal": "Golden Cross вчера · EMA9=0.3570 > EMA21=0.3561 · RSI=52 · Vol x1.0",
-      "strength": 66,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "RAIN_sE_1787715423961",
       "symbol": "RAIN",
       "name": "Rain",
@@ -291,6 +274,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ONDO_sE_1787471593389",
+      "symbol": "ONDO",
+      "name": "Ondo",
+      "coinId": "ondo-finance",
+      "rank": 48,
+      "stratId": "sE",
+      "entryPrice": 0.3584,
+      "entryTime": 1787471593389,
+      "entryDate": "2026-08-23T07:53:13.389Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.3570 > EMA21=0.3561 · RSI=52 · Vol x1.0",
+      "strength": 66,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.3513,
+      "exitTime": 1788025899677,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -1.9810267857142843,
+      "pnlUsd": -1.981026785714284,
+      "total": 98.01897321428572
+    },
     {
       "id": "GRAM_sM_1787319797191",
       "symbol": "GRAM",
@@ -8078,18 +8084,18 @@
     "MORPHO_sM": 1787745401674,
     "RAIN_sM": 1787791182012
   },
-  "scanCount": 2244,
+  "scanCount": 2245,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-29T14:35:53.128Z",
+  "lastScan": "2026-08-29T17:52:16.402Z",
   "lastReport": "2026-08-29T12:08:44.362Z",
   "marketRegime": "BULL",
   "fearGreed": 68,
   "totalStats": {
-    "trades": 333,
+    "trades": 334,
     "wins": 113,
-    "losses": 220,
-    "totalPnl": -36.96534095295679,
-    "invested": 33300
+    "losses": 221,
+    "totalPnl": -38.94636773867107,
+    "invested": 33400
   },
   "byStrategy": {
     "sR": {
@@ -8098,9 +8104,9 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 182,
+      "trades": 183,
       "wins": 56,
-      "pnl": 33.95129802066521
+      "pnl": 31.97027123495093
     },
     "sM": {
       "trades": 37,
@@ -8116,9 +8122,9 @@
         "pnl": -8.612829561825471
       },
       "sE": {
-        "trades": 10,
+        "trades": 11,
         "wins": 0,
-        "pnl": -67.63447769114634
+        "pnl": -69.61550447686062
       },
       "sM": {
         "trades": 2,
