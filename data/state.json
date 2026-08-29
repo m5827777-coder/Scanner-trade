@@ -8078,9 +8078,9 @@
     "MORPHO_sM": 1787745401674,
     "RAIN_sM": 1787791182012
   },
-  "scanCount": 2241,
+  "scanCount": 2242,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-29T05:16:07.297Z",
+  "lastScan": "2026-08-29T09:24:46.494Z",
   "lastReport": "2026-08-29T05:16:07.297Z",
   "marketRegime": "BULL",
   "fearGreed": 68,
@@ -8195,5 +8195,5 @@
       }
     }
   },
-  "btcDominance": 59
+  "btcDominance": 59.5
 }
