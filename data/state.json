@@ -271,6 +271,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "UNI_sE_1788102000771",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "coinId": "uniswap",
+      "rank": 29,
+      "stratId": "sE",
+      "entryPrice": 5.191,
+      "entryTime": 1788102000771,
+      "entryDate": "2026-08-30T15:00:00.771Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=4.4682 > EMA21=4.1671 · RSI=73 · Vol x1.5",
+      "strength": 78,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8029,7 +8046,7 @@
     "ATOM_sE": 1787053704198,
     "NEAR_sE": 1787463924108,
     "WBT_sE": 1786991769629,
-    "UNI_sE": 1787456120437,
+    "UNI_sE": 1788102000771,
     "AAVE_sE": 1785647106849,
     "WLFI_sE": 1786888054104,
     "LIT_sM": 1782981286266,
@@ -8084,9 +8101,9 @@
     "MORPHO_sM": 1787745401674,
     "RAIN_sM": 1787791182012
   },
-  "scanCount": 2253,
+  "scanCount": 2254,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-30T11:05:09.172Z",
+  "lastScan": "2026-08-30T15:00:27.614Z",
   "lastReport": "2026-08-30T11:05:09.172Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
