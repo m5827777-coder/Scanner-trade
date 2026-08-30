@@ -8101,10 +8101,10 @@
     "MORPHO_sM": 1787745401674,
     "RAIN_sM": 1787791182012
   },
-  "scanCount": 2254,
+  "scanCount": 2255,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-30T15:00:27.614Z",
-  "lastReport": "2026-08-30T11:05:09.172Z",
+  "lastScan": "2026-08-30T15:54:04.964Z",
+  "lastReport": "2026-08-30T15:54:04.964Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
