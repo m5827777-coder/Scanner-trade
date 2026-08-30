@@ -120,23 +120,6 @@
       "peakPnl": 0
     },
     {
-      "id": "AVAX_sM_1787378232809",
-      "symbol": "AVAX",
-      "name": "Avalanche",
-      "coinId": "avalanche-2",
-      "rank": 32,
-      "stratId": "sM",
-      "entryPrice": 7.697,
-      "entryTime": 1787378232809,
-      "entryDate": "2026-08-22T05:57:12.809Z",
-      "entrySignal": "Пробой 20d max $7.1370 на +7.8% · Объём x2.4 · RSI=74",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "LTC_sE_1787395008821",
       "symbol": "LTC",
       "name": "Litecoin",
@@ -185,23 +168,6 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "RAIN_sE_1787715423961",
-      "symbol": "RAIN",
-      "name": "Rain",
-      "coinId": "rain",
-      "rank": 13,
-      "stratId": "sE",
-      "entryPrice": 0.01792319718597926,
-      "entryTime": 1787715423961,
-      "entryDate": "2026-08-26T03:37:03.961Z",
-      "entrySignal": "Golden Cross 7д назад · EMA9=0.0154 > EMA21=0.0144 · RSI=75 · Vol x1.3",
-      "strength": 76,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "CoinGecko",
       "peakPnl": 0
     },
     {
@@ -291,6 +257,52 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "RAIN_sE_1787715423961",
+      "symbol": "RAIN",
+      "name": "Rain",
+      "coinId": "rain",
+      "rank": 13,
+      "stratId": "sE",
+      "entryPrice": 0.01792319718597926,
+      "entryTime": 1787715423961,
+      "entryDate": "2026-08-26T03:37:03.961Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=0.0154 > EMA21=0.0144 · RSI=75 · Vol x1.3",
+      "strength": 76,
+      "regime": "BULL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 0.016755789148235094,
+      "exitTime": 1788133059153,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.513391699207509,
+      "pnlUsd": -6.513391699207509,
+      "total": 93.4866083007925
+    },
+    {
+      "id": "AVAX_sM_1787378232809",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "coinId": "avalanche-2",
+      "rank": 32,
+      "stratId": "sM",
+      "entryPrice": 7.697,
+      "entryTime": 1787378232809,
+      "entryDate": "2026-08-22T05:57:12.809Z",
+      "entrySignal": "Пробой 20d max $7.1370 на +7.8% · Объём x2.4 · RSI=74",
+      "strength": 95,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 7.137,
+      "exitTime": 1788133057490,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.275561907236592,
+      "pnlUsd": -7.275561907236592,
+      "total": 92.7244380927634
+    },
     {
       "id": "ONDO_sE_1787471593389",
       "symbol": "ONDO",
@@ -8037,7 +8049,7 @@
     "BNB_sM": 1787306163073,
     "BNB_sE": 1784631009103,
     "XLM_sM": 1787830006789,
-    "RAIN_sE": 1787715423961,
+    "RAIN_sE": 1788212259153,
     "WLD_sM": 1780648179526,
     "NIGHT_sE": 1783252446162,
     "ONDO_sE": 1787471593389,
@@ -8095,24 +8107,24 @@
     "HBAR_sM": 1787472517377,
     "ADA_sM": 1787544166486,
     "SHIB_sM": 1787536937167,
-    "AVAX_sM": 1787378232809,
+    "AVAX_sM": 1788212257491,
     "TRUMP_sE": 1787451269778,
     "KCS_sE": 1788027208791,
     "MORPHO_sM": 1787745401674,
     "RAIN_sM": 1787791182012
   },
-  "scanCount": 2258,
+  "scanCount": 2259,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-30T21:24:39.485Z",
+  "lastScan": "2026-08-30T23:38:17.595Z",
   "lastReport": "2026-08-30T20:25:00.447Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
-    "trades": 334,
+    "trades": 336,
     "wins": 113,
-    "losses": 221,
-    "totalPnl": -38.94636773867107,
-    "invested": 33400
+    "losses": 223,
+    "totalPnl": -52.735321345115175,
+    "invested": 33600
   },
   "byStrategy": {
     "sR": {
@@ -8121,14 +8133,14 @@
       "pnl": -117.23316963612793
     },
     "sE": {
-      "trades": 183,
+      "trades": 184,
       "wins": 56,
-      "pnl": 31.97027123495093
+      "pnl": 25.45687953574342
     },
     "sM": {
-      "trades": 37,
+      "trades": 38,
       "wins": 15,
-      "pnl": 46.31653066250608
+      "pnl": 39.04096875526949
     }
   },
   "byRegime": {
@@ -8139,14 +8151,14 @@
         "pnl": -8.612829561825471
       },
       "sE": {
-        "trades": 11,
+        "trades": 12,
         "wins": 0,
-        "pnl": -69.61550447686062
+        "pnl": -76.12889617606812
       },
       "sM": {
-        "trades": 2,
+        "trades": 3,
         "wins": 0,
-        "pnl": -14.900723272089921
+        "pnl": -22.176285179326513
       }
     },
     "NEUTRAL": {
