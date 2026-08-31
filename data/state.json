@@ -222,23 +222,6 @@
       "peakPnl": 0
     },
     {
-      "id": "CC_sR_1787948021566",
-      "symbol": "CC",
-      "name": "Canton",
-      "coinId": "canton-network",
-      "rank": 23,
-      "stratId": "sR",
-      "entryPrice": 0.11028,
-      "entryTime": 1787948021566,
-      "entryDate": "2026-08-28T20:13:41.566Z",
-      "entrySignal": "Ротация #23 CC: BTC Dom=59% · Коррекция -12.0% · RSI=50",
-      "strength": 59,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "UNI_sE_1788102000771",
       "symbol": "UNI",
       "name": "Uniswap",
@@ -274,6 +257,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "CC_sR_1787948021566",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 23,
+      "stratId": "sR",
+      "entryPrice": 0.11028,
+      "entryTime": 1787948021566,
+      "entryDate": "2026-08-28T20:13:41.566Z",
+      "entrySignal": "Ротация #23 CC: BTC Dom=59% · Коррекция -12.0% · RSI=50",
+      "strength": 59,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.12492,
+      "exitTime": 1788209571806,
+      "exitReason": "✅ TP +12%",
+      "pnl": 13.275299238302502,
+      "pnlUsd": 13.275299238302502,
+      "total": 113.2752992383025
+    },
     {
       "id": "RAIN_sE_1787715423961",
       "symbol": "RAIN",
@@ -8131,24 +8137,24 @@
     "RAIN_sM": 1787791182012,
     "XMR_sM": 1788189662271
   },
-  "scanCount": 2264,
+  "scanCount": 2265,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-31T15:21:35.201Z",
-  "lastReport": "2026-08-31T12:27:56.218Z",
+  "lastScan": "2026-08-31T20:53:28.165Z",
+  "lastReport": "2026-08-31T20:53:28.165Z",
   "marketRegime": "BULL",
   "fearGreed": 62,
   "totalStats": {
-    "trades": 336,
-    "wins": 113,
+    "trades": 337,
+    "wins": 114,
     "losses": 223,
-    "totalPnl": -52.735321345115175,
-    "invested": 33600
+    "totalPnl": -39.46002210681267,
+    "invested": 33700
   },
   "byStrategy": {
     "sR": {
-      "trades": 114,
-      "wins": 42,
-      "pnl": -117.23316963612793
+      "trades": 115,
+      "wins": 43,
+      "pnl": -103.95787039782542
     },
     "sE": {
       "trades": 184,
@@ -8164,9 +8170,9 @@
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 9,
-        "wins": 3,
-        "pnl": -8.612829561825471
+        "trades": 10,
+        "wins": 4,
+        "pnl": 4.662469676477031
       },
       "sE": {
         "trades": 12,
