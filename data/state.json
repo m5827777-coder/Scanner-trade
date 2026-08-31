@@ -254,6 +254,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XMR_sM_1788189662271",
+      "symbol": "XMR",
+      "name": "Monero",
+      "coinId": "monero",
+      "rank": 15,
+      "stratId": "sM",
+      "entryPrice": 513.7850021482079,
+      "entryTime": 1788189662271,
+      "entryDate": "2026-08-31T15:21:02.271Z",
+      "entrySignal": "Пробой 20d max $476.6605 на +7.8% · Объём x2.1 · RSI=82",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8111,11 +8128,12 @@
     "TRUMP_sE": 1787451269778,
     "KCS_sE": 1788027208791,
     "MORPHO_sM": 1787745401674,
-    "RAIN_sM": 1787791182012
+    "RAIN_sM": 1787791182012,
+    "XMR_sM": 1788189662271
   },
-  "scanCount": 2263,
+  "scanCount": 2264,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-31T12:27:56.218Z",
+  "lastScan": "2026-08-31T15:21:35.201Z",
   "lastReport": "2026-08-31T12:27:56.218Z",
   "marketRegime": "BULL",
   "fearGreed": 62,
@@ -8230,5 +8248,5 @@
       }
     }
   },
-  "btcDominance": 59.6
+  "btcDominance": 59.2
 }
