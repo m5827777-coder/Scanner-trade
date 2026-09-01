@@ -254,6 +254,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "ARB_sM_1788232160295",
+      "symbol": "ARB",
+      "name": "Arbitrum",
+      "coinId": "arbitrum",
+      "rank": 85,
+      "stratId": "sM",
+      "entryPrice": 0.1126,
+      "entryTime": 1788232160295,
+      "entryDate": "2026-09-01T03:09:20.295Z",
+      "entrySignal": "Пробой 20d max $0.1097 на +2.6% · Объём x4.2 · RSI=73",
+      "strength": 93,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8135,12 +8152,13 @@
     "KCS_sE": 1788027208791,
     "MORPHO_sM": 1787745401674,
     "RAIN_sM": 1787791182012,
-    "XMR_sM": 1788189662271
+    "XMR_sM": 1788189662271,
+    "ARB_sM": 1788232160296
   },
-  "scanCount": 2267,
+  "scanCount": 2268,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-01T00:09:03.162Z",
-  "lastReport": "2026-08-31T22:18:37.761Z",
+  "lastScan": "2026-09-01T03:09:26.586Z",
+  "lastReport": "2026-09-01T03:09:26.586Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
@@ -8254,5 +8272,5 @@
       }
     }
   },
-  "btcDominance": 59.2
+  "btcDominance": 59.1
 }
