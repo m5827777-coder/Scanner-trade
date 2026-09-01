@@ -8137,12 +8137,12 @@
     "RAIN_sM": 1787791182012,
     "XMR_sM": 1788189662271
   },
-  "scanCount": 2266,
+  "scanCount": 2267,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-08-31T22:18:37.761Z",
+  "lastScan": "2026-09-01T00:09:03.162Z",
   "lastReport": "2026-08-31T22:18:37.761Z",
   "marketRegime": "BULL",
-  "fearGreed": 62,
+  "fearGreed": 69,
   "totalStats": {
     "trades": 337,
     "wins": 114,
