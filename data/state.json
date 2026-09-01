@@ -322,6 +322,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "FIL_sE_1788293473879",
+      "symbol": "FIL",
+      "name": "Filecoin",
+      "coinId": "filecoin",
+      "rank": 91,
+      "stratId": "sE",
+      "entryPrice": 0.7884,
+      "entryTime": 1788293473879,
+      "entryDate": "2026-09-01T20:11:13.879Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.7181 > EMA21=0.7131 · RSI=62 · Vol x1.6",
+      "strength": 88,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8178,7 +8195,7 @@
     "OKB_sE": 1785071279484,
     "FET_sE": 1780634934681,
     "ICP_sE": 1786374593092,
-    "FIL_sE": 1784045328079,
+    "FIL_sE": 1788293473879,
     "XLM_sE": 1787491566018,
     "INJ_sM": 1780617639283,
     "HBAR_sE": 1787412380090,
@@ -8253,9 +8270,9 @@
     "ARB_sM": 1788232160296,
     "CRV_sM": 1788272434693
   },
-  "scanCount": 2274,
+  "scanCount": 2275,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-01T17:52:37.173Z",
+  "lastScan": "2026-09-01T20:11:14.879Z",
   "lastReport": "2026-09-01T15:57:20.611Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
@@ -8370,5 +8387,5 @@
       }
     }
   },
-  "btcDominance": 59
+  "btcDominance": 59.1
 }
