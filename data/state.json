@@ -271,6 +271,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "FLR_sE_1788256359437",
+      "symbol": "FLR",
+      "name": "Flare",
+      "coinId": "flare-networks",
+      "rank": 93,
+      "stratId": "sE",
+      "entryPrice": 0.006776,
+      "entryTime": 1788256359437,
+      "entryDate": "2026-09-01T09:52:39.437Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.0067 > EMA21=0.0065 · RSI=54 · Vol x6.2",
+      "strength": 84,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8045,7 +8062,7 @@
     "AVAX_sR": 1780495959104,
     "HBAR_sR": 1778752941540,
     "CC_sE": 1781943500543,
-    "FLR_sE": 1787771531678,
+    "FLR_sE": 1788256359437,
     "XRP_sE": 1784044752405,
     "HYPE_sE": 1787168197411,
     "LINK_sR": 1780510384134,
@@ -8155,10 +8172,10 @@
     "XMR_sM": 1788189662271,
     "ARB_sM": 1788232160296
   },
-  "scanCount": 2269,
+  "scanCount": 2270,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-01T05:01:14.686Z",
-  "lastReport": "2026-09-01T03:09:26.586Z",
+  "lastScan": "2026-09-01T09:52:42.721Z",
+  "lastReport": "2026-09-01T09:52:42.721Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
@@ -8272,5 +8289,5 @@
       }
     }
   },
-  "btcDominance": 59.2
+  "btcDominance": 59.6
 }
