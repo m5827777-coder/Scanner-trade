@@ -288,6 +288,40 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ADA_sR_1788285125116",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 19,
+      "stratId": "sR",
+      "entryPrice": 0.1977,
+      "entryTime": 1788285125116,
+      "entryDate": "2026-09-01T17:52:05.116Z",
+      "entrySignal": "Ротация #19 ADA: BTC Dom=59% · Коррекция -12.0% · RSI=51",
+      "strength": 62,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "XLM_sR_1788285126381",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 20,
+      "stratId": "sR",
+      "entryPrice": 0.17689,
+      "entryTime": 1788285126381,
+      "entryDate": "2026-09-01T17:52:06.381Z",
+      "entrySignal": "Ротация #20 XLM: BTC Dom=59% · Коррекция -11.1% · RSI=49",
+      "strength": 62,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8091,10 +8125,10 @@
   ],
   "cooldowns": {
     "SOL_sR": 1780495956417,
-    "ADA_sR": 1787059284255,
+    "ADA_sR": 1788285125116,
     "HYPE_sR": 1784322736769,
     "BCH_sR": 1785083422109,
-    "XLM_sR": 1784080150194,
+    "XLM_sR": 1788285126381,
     "UNI_sR": 1779554027073,
     "DOT_sR": 1779554029231,
     "AAVE_sR": 1780482653547,
@@ -8219,9 +8253,9 @@
     "ARB_sM": 1788232160296,
     "CRV_sM": 1788272434693
   },
-  "scanCount": 2273,
+  "scanCount": 2274,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-01T15:57:20.611Z",
+  "lastScan": "2026-09-01T17:52:37.173Z",
   "lastReport": "2026-09-01T15:57:20.611Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
@@ -8336,5 +8370,5 @@
       }
     }
   },
-  "btcDominance": 59.1
+  "btcDominance": 59
 }
