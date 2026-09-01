@@ -8155,9 +8155,9 @@
     "XMR_sM": 1788189662271,
     "ARB_sM": 1788232160296
   },
-  "scanCount": 2268,
+  "scanCount": 2269,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-01T03:09:26.586Z",
+  "lastScan": "2026-09-01T05:01:14.686Z",
   "lastReport": "2026-09-01T03:09:26.586Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
@@ -8272,5 +8272,5 @@
       }
     }
   },
-  "btcDominance": 59.1
+  "btcDominance": 59.2
 }
