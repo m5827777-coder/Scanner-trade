@@ -271,6 +271,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "CC_sE_1788278210345",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 22,
+      "stratId": "sE",
+      "entryPrice": 0.11662,
+      "entryTime": 1788278210345,
+      "entryDate": "2026-09-01T15:56:50.345Z",
+      "entrySignal": "Golden Cross 9д назад · EMA9=0.1154 > EMA21=0.1118 · RSI=55 · Vol x1.0",
+      "strength": 67,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8090,7 +8107,7 @@
     "ARB_sR": 1780410212169,
     "AVAX_sR": 1780495959104,
     "HBAR_sR": 1778752941540,
-    "CC_sE": 1781943500543,
+    "CC_sE": 1788278210345,
     "FLR_sE": 1788256359437,
     "XRP_sE": 1784044752405,
     "HYPE_sE": 1787168197411,
@@ -8202,10 +8219,10 @@
     "ARB_sM": 1788232160296,
     "CRV_sM": 1788272434693
   },
-  "scanCount": 2272,
+  "scanCount": 2273,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-01T14:20:36.495Z",
-  "lastReport": "2026-09-01T10:57:50.536Z",
+  "lastScan": "2026-09-01T15:57:20.611Z",
+  "lastReport": "2026-09-01T15:57:20.611Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
