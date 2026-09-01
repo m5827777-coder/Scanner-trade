@@ -35,23 +35,6 @@
       "peakPnl": 0
     },
     {
-      "id": "TRX_sE_1786370640000",
-      "symbol": "TRX",
-      "name": "TRON",
-      "coinId": "tron",
-      "rank": 8,
-      "stratId": "sE",
-      "entryPrice": 0.3311,
-      "entryTime": 1786370640000,
-      "entryDate": "2026-08-10T14:04:00.000Z",
-      "entrySignal": "EMA начало расхождения · EMA9=0.3290 > EMA21=0.3282 · RSI=60 · Vol x4.3",
-      "strength": 74,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SKY_sM_1787153623428",
       "symbol": "SKY",
       "name": "Sky",
@@ -271,9 +254,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "CRV_sM_1788272434693",
+      "symbol": "CRV",
+      "name": "Curve DAO",
+      "coinId": "curve-dao-token",
+      "rank": 98,
+      "stratId": "sM",
+      "entryPrice": 0.3664,
+      "entryTime": 1788272434693,
+      "entryDate": "2026-09-01T14:20:34.693Z",
+      "entrySignal": "Пробой 20d max $0.3539 на +3.5% · Объём x1.9 · RSI=73",
+      "strength": 86,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "TRX_sE_1786370640000",
+      "symbol": "TRX",
+      "name": "TRON",
+      "coinId": "tron",
+      "rank": 8,
+      "stratId": "sE",
+      "entryPrice": 0.3311,
+      "entryTime": 1786370640000,
+      "entryDate": "2026-08-10T14:04:00.000Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.3290 > EMA21=0.3282 · RSI=60 · Vol x4.3",
+      "strength": 74,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.32567,
+      "exitTime": 1788272398958,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -1.6399879190576834,
+      "pnlUsd": -1.6399879190576834,
+      "total": 98.36001208094231
+    },
     {
       "id": "FIGR_HELOC_sE_1787905058703",
       "symbol": "FIGR_HELOC",
@@ -8176,20 +8199,21 @@
     "MORPHO_sM": 1787745401674,
     "RAIN_sM": 1787791182012,
     "XMR_sM": 1788189662271,
-    "ARB_sM": 1788232160296
+    "ARB_sM": 1788232160296,
+    "CRV_sM": 1788272434693
   },
-  "scanCount": 2271,
+  "scanCount": 2272,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-01T10:57:50.536Z",
+  "lastScan": "2026-09-01T14:20:36.495Z",
   "lastReport": "2026-09-01T10:57:50.536Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
-    "trades": 338,
+    "trades": 339,
     "wins": 114,
-    "losses": 224,
-    "totalPnl": -42.81763148384528,
-    "invested": 33800
+    "losses": 225,
+    "totalPnl": -44.457619402902964,
+    "invested": 33900
   },
   "byStrategy": {
     "sR": {
@@ -8198,9 +8222,9 @@
       "pnl": -103.95787039782542
     },
     "sE": {
-      "trades": 185,
+      "trades": 186,
       "wins": 56,
-      "pnl": 22.09927015871081
+      "pnl": 20.459282239653124
     },
     "sM": {
       "trades": 38,
@@ -8216,9 +8240,9 @@
         "pnl": 4.662469676477031
       },
       "sE": {
-        "trades": 13,
+        "trades": 14,
         "wins": 0,
-        "pnl": -79.48650555310074
+        "pnl": -81.12649347215843
       },
       "sM": {
         "trades": 3,
@@ -8295,5 +8319,5 @@
       }
     }
   },
-  "btcDominance": 59.5
+  "btcDominance": 59.1
 }

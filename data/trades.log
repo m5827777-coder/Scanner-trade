@@ -132407,3 +132407,57 @@
 [2026-09-01 10:57:52 UTC] 📧 6h report sent
 [2026-09-01 10:57:52 UTC] 
 📊 ИТОГ: WR=33.7% PnL=$-42.82 Trades=338
+[2026-09-01 14:19:57 UTC] ════════════════════════════════════════════════════
+[2026-09-01 14:19:57 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-09-01 14:19:57 UTC] ════════════════════════════════════════════════════
+[2026-09-01 14:19:57 UTC] 📡 Scan #2272
+[2026-09-01 14:19:58 UTC] 📊 BTC Dom=59.1%
+[2026-09-01 14:19:58 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-01 14:19:58 UTC] 🌡 F&G=69 Regime=BULL Open=16
+[2026-09-01 14:19:58 UTC]   📂 HOLD PAXG/sE PnL=+5.93%
+[2026-09-01 14:19:58 UTC]   📂 HOLD XAUT/sE PnL=+5.10%
+[2026-09-01 14:19:58 UTC]   ❌ CLOSE TRX/sE: 📉 Death Cross EMA9<EMA21 PnL=-1.64% held=22д 0ч
+[2026-09-01 14:19:59 UTC] [TG] Bad Request: can't parse entities: Unsupported start tag "ema21" at byte offset 85
+[2026-09-01 14:20:00 UTC]   📂 HOLD SKY/sM PnL=+21.88%
+[2026-09-01 14:20:00 UTC]   📂 HOLD BNB/sM PnL=+1.21%
+[2026-09-01 14:20:00 UTC]   📂 HOLD ZEC/sM PnL=+16.39%
+[2026-09-01 14:20:00 UTC]   📂 HOLD HYPE/sM PnL=+2.40%
+[2026-09-01 14:20:00 UTC]   📂 HOLD LTC/sE PnL=-2.53%
+[2026-09-01 14:20:00 UTC]   📂 HOLD HBAR/sE PnL=-1.65%
+[2026-09-01 14:20:00 UTC]   📂 HOLD NEAR/sE PnL=+10.84%
+[2026-09-01 14:20:01 UTC]   📂 HOLD JUP/sE PnL=+1.68%
+[2026-09-01 14:20:01 UTC]   📂 HOLD ENA/sE PnL=+3.27%
+[2026-09-01 14:20:01 UTC]   📂 HOLD UNI/sE PnL=+9.71%
+[2026-09-01 14:20:01 UTC]   📂 HOLD XMR/sM PnL=-0.82%
+[2026-09-01 14:20:01 UTC]   📂 HOLD ARB/sM PnL=-2.11%
+[2026-09-01 14:20:01 UTC]   📂 HOLD FLR/sE PnL=+1.52%
+[2026-09-01 14:20:01 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-01 14:20:01 UTC] ✓ CoinGecko: 82 токенов. Проверяю входы...
+[2026-09-01 14:20:09 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-09-01 14:20:14 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-09-01 14:20:16 UTC]   ⏭ M: нет данных (memecore)
+[2026-09-01 14:20:19 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-09-01 14:20:22 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-09-01 14:20:23 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-09-01 14:20:23 UTC]   ⏭ U: нет данных (united-stables)
+[2026-09-01 14:20:24 UTC]   ⏭ USDGO: нет данных (usdgo)
+[2026-09-01 14:20:24 UTC]   ⏭ EURSAFO: нет данных (spiko-amundi-overnight-swap-fund-eur)
+[2026-09-01 14:20:25 UTC]   ⏭ BTW: нет данных (bitway)
+[2026-09-01 14:20:26 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-09-01 14:20:27 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-09-01 14:20:27 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-09-01 14:20:27 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-09-01 14:20:28 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-09-01 14:20:28 UTC]   ⏭ JST: нет данных (just)
+[2026-09-01 14:20:29 UTC]   ⏭ VVV: нет данных (venice-token)
+[2026-09-01 14:20:29 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-09-01 14:20:31 UTC]   ⏭ JAAA: нет данных (janus-henderson-anemoy-aaa-clo-fund)
+[2026-09-01 14:20:31 UTC]   ⏭ GHO: нет данных (gho)
+[2026-09-01 14:20:32 UTC]   ⏭ BDX: нет данных (beldex)
+[2026-09-01 14:20:33 UTC]   ⏭ CAKE: нет данных (pancakeswap-token)
+[2026-09-01 14:20:33 UTC]   ⏭ VET: нет данных (vechain)
+[2026-09-01 14:20:34 UTC]   📈 ENTRY CRV/sM [BULL_TREND] via OKX: Пробой 20d max $0.3539 на +3.5% · Объём x1.9 · RSI=73 @ $0.3664
+[2026-09-01 14:20:36 UTC]   ⏭ XDC: нет данных (xdce-crowd-sale)
+[2026-09-01 14:20:36 UTC] ✅ Данные: 58 токенов OK, 24 недоступно | Открыто: 1 | Всего: 16
+[2026-09-01 14:20:36 UTC] 
+📊 ИТОГ: WR=33.6% PnL=$-44.46 Trades=339
