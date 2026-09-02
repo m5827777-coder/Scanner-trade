@@ -188,23 +188,6 @@
       "peakPnl": 0
     },
     {
-      "id": "UNI_sE_1788102000771",
-      "symbol": "UNI",
-      "name": "Uniswap",
-      "coinId": "uniswap",
-      "rank": 29,
-      "stratId": "sE",
-      "entryPrice": 5.191,
-      "entryTime": 1788102000771,
-      "entryDate": "2026-08-30T15:00:00.771Z",
-      "entrySignal": "Golden Cross 7д назад · EMA9=4.4682 > EMA21=4.1671 · RSI=73 · Vol x1.5",
-      "strength": 78,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "XMR_sM_1788189662271",
       "symbol": "XMR",
       "name": "Monero",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "FIGR_HELOC_sE_1788324916489",
+      "symbol": "FIGR_HELOC",
+      "name": "Figure Heloc",
+      "coinId": "figure-heloc",
+      "rank": 9,
+      "stratId": "sE",
+      "entryPrice": 1.0455530033017368,
+      "entryTime": 1788324916489,
+      "entryDate": "2026-09-02T04:55:16.489Z",
+      "entrySignal": "Golden Cross вчера · EMA9=1.0277 > EMA21=1.0233 · RSI=55 · Vol x1.0",
+      "strength": 76,
+      "regime": "BULL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "UNI_sE_1788102000771",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "coinId": "uniswap",
+      "rank": 29,
+      "stratId": "sE",
+      "entryPrice": 5.191,
+      "entryTime": 1788102000771,
+      "entryDate": "2026-08-30T15:00:00.771Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=4.4682 > EMA21=4.1671 · RSI=73 · Vol x1.5",
+      "strength": 78,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 6.224,
+      "exitTime": 1788324911305,
+      "exitReason": "✅ TP +15%",
+      "pnl": 19.899826623001356,
+      "pnlUsd": 19.899826623001356,
+      "total": 119.89982662300136
+    },
     {
       "id": "TRX_sE_1786370640000",
       "symbol": "TRX",
@@ -8165,7 +8188,7 @@
     "LINK_sR": 1780510384134,
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1780410209384,
-    "FIGR_HELOC_sE": 1787905058703,
+    "FIGR_HELOC_sE": 1788324916490,
     "XMR_sR": 1781845530762,
     "ETH_sR": 1780524593518,
     "LTC_sR": 1779126568920,
@@ -8270,18 +8293,18 @@
     "ARB_sM": 1788232160296,
     "CRV_sM": 1788272434693
   },
-  "scanCount": 2279,
+  "scanCount": 2280,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-02T02:28:10.975Z",
+  "lastScan": "2026-09-02T04:55:17.254Z",
   "lastReport": "2026-09-02T02:28:10.975Z",
   "marketRegime": "BULL",
   "fearGreed": 63,
   "totalStats": {
-    "trades": 339,
-    "wins": 114,
+    "trades": 340,
+    "wins": 115,
     "losses": 225,
-    "totalPnl": -44.457619402902964,
-    "invested": 33900
+    "totalPnl": -24.557792779901607,
+    "invested": 34000
   },
   "byStrategy": {
     "sR": {
@@ -8290,9 +8313,9 @@
       "pnl": -103.95787039782542
     },
     "sE": {
-      "trades": 186,
-      "wins": 56,
-      "pnl": 20.459282239653124
+      "trades": 187,
+      "wins": 57,
+      "pnl": 40.35910886265448
     },
     "sM": {
       "trades": 38,
@@ -8308,9 +8331,9 @@
         "pnl": 4.662469676477031
       },
       "sE": {
-        "trades": 14,
-        "wins": 0,
-        "pnl": -81.12649347215843
+        "trades": 15,
+        "wins": 1,
+        "pnl": -61.22666684915707
       },
       "sM": {
         "trades": 3,

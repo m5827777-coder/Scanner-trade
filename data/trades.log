@@ -132756,3 +132756,36 @@
 [2026-09-02 02:28:12 UTC] 📧 6h report sent
 [2026-09-02 02:28:12 UTC] 
 📊 ИТОГ: WR=33.6% PnL=$-44.46 Trades=339
+[2026-09-02 04:55:08 UTC] ════════════════════════════════════════════════════
+[2026-09-02 04:55:08 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-09-02 04:55:08 UTC] ════════════════════════════════════════════════════
+[2026-09-02 04:55:08 UTC] 📡 Scan #2280
+[2026-09-02 04:55:09 UTC] 📊 BTC Dom=59.1%
+[2026-09-02 04:55:09 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-02 04:55:09 UTC] 🌡 F&G=63 Regime=BULL Open=20
+[2026-09-02 04:55:09 UTC]   📂 HOLD PAXG/sE PnL=+4.46%
+[2026-09-02 04:55:09 UTC]   📂 HOLD XAUT/sE PnL=+3.71%
+[2026-09-02 04:55:10 UTC]   📂 HOLD SKY/sM PnL=+22.39%
+[2026-09-02 04:55:10 UTC]   📂 HOLD BNB/sM PnL=+1.25%
+[2026-09-02 04:55:10 UTC]   📂 HOLD ZEC/sM PnL=+14.00%
+[2026-09-02 04:55:10 UTC]   📂 HOLD HYPE/sM PnL=+1.07%
+[2026-09-02 04:55:10 UTC]   📂 HOLD LTC/sE PnL=-3.19%
+[2026-09-02 04:55:10 UTC]   📂 HOLD HBAR/sE PnL=-2.61%
+[2026-09-02 04:55:10 UTC]   📂 HOLD NEAR/sE PnL=+2.57%
+[2026-09-02 04:55:11 UTC]   📂 HOLD JUP/sE PnL=+0.33%
+[2026-09-02 04:55:11 UTC]   📂 HOLD ENA/sE PnL=+2.39%
+[2026-09-02 04:55:11 UTC]   ✅ CLOSE UNI/sE: ✅ TP +15% PnL=+19.90% held=2д 13ч
+[2026-09-02 04:55:12 UTC]   📂 HOLD XMR/sM PnL=+1.12%
+[2026-09-02 04:55:12 UTC]   📂 HOLD ARB/sM PnL=-0.35%
+[2026-09-02 04:55:12 UTC]   📂 HOLD FLR/sE PnL=-2.88%
+[2026-09-02 04:55:12 UTC]   📂 HOLD CRV/sM PnL=+2.16%
+[2026-09-02 04:55:13 UTC]   📂 HOLD CC/sE PnL=-2.04%
+[2026-09-02 04:55:13 UTC]   📂 HOLD ADA/sR PnL=-0.15%
+[2026-09-02 04:55:13 UTC]   📂 HOLD XLM/sR PnL=-0.74%
+[2026-09-02 04:55:13 UTC]   📂 HOLD FIL/sE PnL=+1.47%
+[2026-09-02 04:55:13 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-02 04:55:13 UTC] ✓ CoinGecko: 81 токенов. Проверяю входы...
+[2026-09-02 04:55:16 UTC]   📈 ENTRY FIGR_HELOC/sE [BULL] via CoinGecko: Golden Cross вчера · EMA9=1.0277 > EMA21=1.0233 · RSI=55 · Vol x1.0 @ $1.0455530033017368
+[2026-09-02 04:55:17 UTC] ✅ Данные: 7 токенов OK, 0 недоступно | Открыто: 1 | Всего: 20
+[2026-09-02 04:55:17 UTC] 
+📊 ИТОГ: WR=33.8% PnL=$-24.56 Trades=340
