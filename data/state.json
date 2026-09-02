@@ -256,23 +256,6 @@
       "peakPnl": 0
     },
     {
-      "id": "CC_sE_1788278210345",
-      "symbol": "CC",
-      "name": "Canton",
-      "coinId": "canton-network",
-      "rank": 22,
-      "stratId": "sE",
-      "entryPrice": 0.11662,
-      "entryTime": 1788278210345,
-      "entryDate": "2026-09-01T15:56:50.345Z",
-      "entrySignal": "Golden Cross 9д назад · EMA9=0.1154 > EMA21=0.1118 · RSI=55 · Vol x1.0",
-      "strength": 67,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ADA_sR_1788285125116",
       "symbol": "ADA",
       "name": "Cardano",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "CC_sE_1788278210345",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 22,
+      "stratId": "sE",
+      "entryPrice": 0.11662,
+      "entryTime": 1788278210345,
+      "entryDate": "2026-09-01T15:56:50.345Z",
+      "entrySignal": "Golden Cross 9д назад · EMA9=0.1154 > EMA21=0.1118 · RSI=55 · Vol x1.0",
+      "strength": 67,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.10952,
+      "exitTime": 1788378662321,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.088149545532494,
+      "pnlUsd": -6.088149545532494,
+      "total": 93.91185045446751
+    },
     {
       "id": "UNI_sE_1788102000771",
       "symbol": "UNI",
@@ -8181,7 +8187,7 @@
     "ARB_sR": 1780410212169,
     "AVAX_sR": 1780495959104,
     "HBAR_sR": 1778752941540,
-    "CC_sE": 1788278210345,
+    "CC_sE": 1788457862321,
     "FLR_sE": 1788256359437,
     "XRP_sE": 1784044752405,
     "HYPE_sE": 1787168197411,
@@ -8293,18 +8299,18 @@
     "ARB_sM": 1788232160296,
     "CRV_sM": 1788272434693
   },
-  "scanCount": 2285,
+  "scanCount": 2286,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-02T17:18:41.477Z",
+  "lastScan": "2026-09-02T19:51:42.150Z",
   "lastReport": "2026-09-02T15:49:21.244Z",
   "marketRegime": "BULL",
   "fearGreed": 63,
   "totalStats": {
-    "trades": 340,
+    "trades": 341,
     "wins": 115,
-    "losses": 225,
-    "totalPnl": -24.557792779901607,
-    "invested": 34000
+    "losses": 226,
+    "totalPnl": -30.645942325434103,
+    "invested": 34100
   },
   "byStrategy": {
     "sR": {
@@ -8313,9 +8319,9 @@
       "pnl": -103.95787039782542
     },
     "sE": {
-      "trades": 187,
+      "trades": 188,
       "wins": 57,
-      "pnl": 40.35910886265448
+      "pnl": 34.270959317121985
     },
     "sM": {
       "trades": 38,
@@ -8331,9 +8337,9 @@
         "pnl": 4.662469676477031
       },
       "sE": {
-        "trades": 15,
+        "trades": 16,
         "wins": 1,
-        "pnl": -61.22666684915707
+        "pnl": -67.31481639468956
       },
       "sM": {
         "trades": 3,
