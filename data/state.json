@@ -8293,9 +8293,9 @@
     "ARB_sM": 1788232160296,
     "CRV_sM": 1788272434693
   },
-  "scanCount": 2282,
+  "scanCount": 2283,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-02T10:25:35.934Z",
+  "lastScan": "2026-09-02T13:37:55.465Z",
   "lastReport": "2026-09-02T10:25:35.934Z",
   "marketRegime": "BULL",
   "fearGreed": 63,
@@ -8410,5 +8410,5 @@
       }
     }
   },
-  "btcDominance": 59.1
+  "btcDominance": 59
 }
