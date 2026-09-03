@@ -322,6 +322,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "DOT_sE_1788431604385",
+      "symbol": "DOT",
+      "name": "Polkadot",
+      "coinId": "polkadot",
+      "rank": 53,
+      "stratId": "sE",
+      "entryPrice": 0.8774,
+      "entryTime": 1788431604385,
+      "entryDate": "2026-09-03T10:33:24.385Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.8584 > EMA21=0.8467 · RSI=55 · Vol x1.1",
+      "strength": 74,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8297,12 +8314,13 @@
     "RAIN_sM": 1787791182012,
     "XMR_sM": 1788189662271,
     "ARB_sM": 1788232160296,
-    "CRV_sM": 1788272434693
+    "CRV_sM": 1788272434693,
+    "DOT_sE": 1788431604385
   },
-  "scanCount": 2292,
+  "scanCount": 2293,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-03T08:17:00.590Z",
-  "lastReport": "2026-09-03T02:35:37.494Z",
+  "lastScan": "2026-09-03T10:33:25.425Z",
+  "lastReport": "2026-09-03T10:33:25.425Z",
   "marketRegime": "BULL",
   "fearGreed": 65,
   "totalStats": {
@@ -8416,5 +8434,5 @@
       }
     }
   },
-  "btcDominance": 59.6
+  "btcDominance": 59.5
 }
