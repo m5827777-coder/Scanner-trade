@@ -8299,12 +8299,12 @@
     "ARB_sM": 1788232160296,
     "CRV_sM": 1788272434693
   },
-  "scanCount": 2289,
+  "scanCount": 2290,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-03T00:00:11.735Z",
-  "lastReport": "2026-09-02T20:25:05.517Z",
+  "lastScan": "2026-09-03T02:35:37.494Z",
+  "lastReport": "2026-09-03T02:35:37.494Z",
   "marketRegime": "BULL",
-  "fearGreed": 63,
+  "fearGreed": 65,
   "totalStats": {
     "trades": 341,
     "wins": 115,
