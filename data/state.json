@@ -188,23 +188,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ARB_sM_1788232160295",
-      "symbol": "ARB",
-      "name": "Arbitrum",
-      "coinId": "arbitrum",
-      "rank": 85,
-      "stratId": "sM",
-      "entryPrice": 0.1126,
-      "entryTime": 1788232160295,
-      "entryDate": "2026-09-01T03:09:20.295Z",
-      "entrySignal": "Пробой 20d max $0.1097 на +2.6% · Объём x4.2 · RSI=73",
-      "strength": 93,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FLR_sE_1788256359437",
       "symbol": "FLR",
       "name": "Flare",
@@ -308,6 +291,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ARB_sM_1788232160295",
+      "symbol": "ARB",
+      "name": "Arbitrum",
+      "coinId": "arbitrum",
+      "rank": 85,
+      "stratId": "sM",
+      "entryPrice": 0.1126,
+      "entryTime": 1788232160295,
+      "entryDate": "2026-09-01T03:09:20.295Z",
+      "entrySignal": "Пробой 20d max $0.1097 на +2.6% · Объём x4.2 · RSI=73",
+      "strength": 93,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.14197,
+      "exitTime": 1788463601763,
+      "exitReason": "✅ TP +25%",
+      "pnl": 26.083481349911196,
+      "pnlUsd": 26.083481349911196,
+      "total": 126.0834813499112
+    },
     {
       "id": "ADA_sR_1788285125116",
       "symbol": "ADA",
@@ -8352,18 +8358,18 @@
     "CRV_sM": 1788272434693,
     "DOT_sE": 1788431604385
   },
-  "scanCount": 2296,
+  "scanCount": 2297,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-03T16:43:00.796Z",
+  "lastScan": "2026-09-03T19:27:21.966Z",
   "lastReport": "2026-09-03T15:39:26.354Z",
   "marketRegime": "BULL",
   "fearGreed": 65,
   "totalStats": {
-    "trades": 344,
-    "wins": 117,
+    "trades": 345,
+    "wins": 118,
     "losses": 227,
-    "totalPnl": 4.497693434735025,
-    "invested": 34400
+    "totalPnl": 30.581174784646223,
+    "invested": 34500
   },
   "byStrategy": {
     "sR": {
@@ -8377,9 +8383,9 @@
       "pnl": 31.045897375862836
     },
     "sM": {
-      "trades": 39,
-      "wins": 16,
-      "pnl": 64.91598916787632
+      "trades": 40,
+      "wins": 17,
+      "pnl": 90.99947051778751
     }
   },
   "byRegime": {
@@ -8395,9 +8401,9 @@
         "pnl": -70.5398783359487
       },
       "sM": {
-        "trades": 4,
-        "wins": 1,
-        "pnl": 3.6987352332803134
+        "trades": 5,
+        "wins": 2,
+        "pnl": 29.78221658319151
       }
     },
     "NEUTRAL": {
