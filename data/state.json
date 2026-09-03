@@ -239,23 +239,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ADA_sR_1788285125116",
-      "symbol": "ADA",
-      "name": "Cardano",
-      "coinId": "cardano",
-      "rank": 19,
-      "stratId": "sR",
-      "entryPrice": 0.1977,
-      "entryTime": 1788285125116,
-      "entryDate": "2026-09-01T17:52:05.116Z",
-      "entrySignal": "Ротация #19 ADA: BTC Dom=59% · Коррекция -12.0% · RSI=51",
-      "strength": 62,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "XLM_sR_1788285126381",
       "symbol": "XLM",
       "name": "Stellar",
@@ -325,6 +308,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ADA_sR_1788285125116",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 19,
+      "stratId": "sR",
+      "entryPrice": 0.1977,
+      "entryTime": 1788285125116,
+      "entryDate": "2026-09-01T17:52:05.116Z",
+      "entrySignal": "Ротация #19 ADA: BTC Dom=59% · Коррекция -12.0% · RSI=51",
+      "strength": 62,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.2224,
+      "exitTime": 1788453739868,
+      "exitReason": "✅ TP +12%",
+      "pnl": 12.493677288821448,
+      "pnlUsd": 12.493677288821448,
+      "total": 112.49367728882144
+    },
     {
       "id": "FIGR_HELOC_sE_1788324916489",
       "symbol": "FIGR_HELOC",
@@ -8346,24 +8352,24 @@
     "CRV_sM": 1788272434693,
     "DOT_sE": 1788431604385
   },
-  "scanCount": 2295,
+  "scanCount": 2296,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-03T15:39:26.354Z",
+  "lastScan": "2026-09-03T16:43:00.796Z",
   "lastReport": "2026-09-03T15:39:26.354Z",
   "marketRegime": "BULL",
   "fearGreed": 65,
   "totalStats": {
-    "trades": 343,
-    "wins": 116,
+    "trades": 344,
+    "wins": 117,
     "losses": 227,
-    "totalPnl": -7.995983854086424,
-    "invested": 34300
+    "totalPnl": 4.497693434735025,
+    "invested": 34400
   },
   "byStrategy": {
     "sR": {
-      "trades": 115,
-      "wins": 43,
-      "pnl": -103.95787039782542
+      "trades": 116,
+      "wins": 44,
+      "pnl": -91.46419310900397
     },
     "sE": {
       "trades": 189,
@@ -8379,9 +8385,9 @@
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 10,
-        "wins": 4,
-        "pnl": 4.662469676477031
+        "trades": 11,
+        "wins": 5,
+        "pnl": 17.15614696529848
       },
       "sE": {
         "trades": 17,
@@ -8463,5 +8469,5 @@
       }
     }
   },
-  "btcDominance": 59.4
+  "btcDominance": 59.3
 }
