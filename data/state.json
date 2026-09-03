@@ -69,23 +69,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ZEC_sM_1787360085121",
-      "symbol": "ZEC",
-      "name": "Zcash",
-      "coinId": "zcash",
-      "rank": 12,
-      "stratId": "sM",
-      "entryPrice": 734.84,
-      "entryTime": 1787360085121,
-      "entryDate": "2026-08-22T00:54:45.121Z",
-      "entrySignal": "Пробой 20d max $580.9800 на +26.5% · Объём x2.0 · RSI=82",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "HYPE_sM_1787371263877",
       "symbol": "HYPE",
       "name": "Hyperliquid",
@@ -307,23 +290,6 @@
       "peakPnl": 0
     },
     {
-      "id": "FIGR_HELOC_sE_1788324916489",
-      "symbol": "FIGR_HELOC",
-      "name": "Figure Heloc",
-      "coinId": "figure-heloc",
-      "rank": 9,
-      "stratId": "sE",
-      "entryPrice": 1.0455530033017368,
-      "entryTime": 1788324916489,
-      "entryDate": "2026-09-02T04:55:16.489Z",
-      "entrySignal": "Golden Cross вчера · EMA9=1.0277 > EMA21=1.0233 · RSI=55 · Vol x1.0",
-      "strength": 76,
-      "regime": "BULL",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "DOT_sE_1788431604385",
       "symbol": "DOT",
       "name": "Polkadot",
@@ -339,9 +305,72 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ALGO_sE_1788449957432",
+      "symbol": "ALGO",
+      "name": "Algorand",
+      "coinId": "algorand",
+      "rank": 80,
+      "stratId": "sE",
+      "entryPrice": 0.09413,
+      "entryTime": 1788449957432,
+      "entryDate": "2026-09-03T15:39:17.432Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.0895 > EMA21=0.0879 · RSI=62 · Vol x1.4",
+      "strength": 77,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "FIGR_HELOC_sE_1788324916489",
+      "symbol": "FIGR_HELOC",
+      "name": "Figure Heloc",
+      "coinId": "figure-heloc",
+      "rank": 9,
+      "stratId": "sE",
+      "entryPrice": 1.0455530033017368,
+      "entryTime": 1788324916489,
+      "entryDate": "2026-09-02T04:55:16.489Z",
+      "entrySignal": "Golden Cross вчера · EMA9=1.0277 > EMA21=1.0233 · RSI=55 · Vol x1.0",
+      "strength": 76,
+      "regime": "BULL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 1.0118332713165605,
+      "exitTime": 1788449926106,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -3.225061941259147,
+      "pnlUsd": -3.2250619412591472,
+      "total": 96.77493805874086
+    },
+    {
+      "id": "ZEC_sM_1787360085121",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 12,
+      "stratId": "sM",
+      "entryPrice": 734.84,
+      "entryTime": 1787360085121,
+      "entryDate": "2026-08-22T00:54:45.121Z",
+      "entrySignal": "Пробой 20d max $580.9800 на +26.5% · Объём x2.0 · RSI=82",
+      "strength": 95,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 924.98,
+      "exitTime": 1788449922039,
+      "exitReason": "✅ TP +25%",
+      "pnl": 25.875020412606826,
+      "pnlUsd": 25.875020412606826,
+      "total": 125.87502041260683
+    },
     {
       "id": "CC_sE_1788278210345",
       "symbol": "CC",
@@ -8245,7 +8274,7 @@
     "XLM_sE": 1787491566018,
     "INJ_sM": 1780617639283,
     "HBAR_sE": 1787412380090,
-    "ALGO_sE": 1786351436068,
+    "ALGO_sE": 1788449957432,
     "BNB_sM": 1787306163073,
     "BNB_sE": 1784631009103,
     "XLM_sM": 1787830006789,
@@ -8317,18 +8346,18 @@
     "CRV_sM": 1788272434693,
     "DOT_sE": 1788431604385
   },
-  "scanCount": 2294,
+  "scanCount": 2295,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-03T12:50:52.779Z",
-  "lastReport": "2026-09-03T10:33:25.425Z",
+  "lastScan": "2026-09-03T15:39:26.354Z",
+  "lastReport": "2026-09-03T15:39:26.354Z",
   "marketRegime": "BULL",
   "fearGreed": 65,
   "totalStats": {
-    "trades": 341,
-    "wins": 115,
-    "losses": 226,
-    "totalPnl": -30.645942325434103,
-    "invested": 34100
+    "trades": 343,
+    "wins": 116,
+    "losses": 227,
+    "totalPnl": -7.995983854086424,
+    "invested": 34300
   },
   "byStrategy": {
     "sR": {
@@ -8337,14 +8366,14 @@
       "pnl": -103.95787039782542
     },
     "sE": {
-      "trades": 188,
+      "trades": 189,
       "wins": 57,
-      "pnl": 34.270959317121985
+      "pnl": 31.045897375862836
     },
     "sM": {
-      "trades": 38,
-      "wins": 15,
-      "pnl": 39.04096875526949
+      "trades": 39,
+      "wins": 16,
+      "pnl": 64.91598916787632
     }
   },
   "byRegime": {
@@ -8355,14 +8384,14 @@
         "pnl": 4.662469676477031
       },
       "sE": {
-        "trades": 16,
+        "trades": 17,
         "wins": 1,
-        "pnl": -67.31481639468956
+        "pnl": -70.5398783359487
       },
       "sM": {
-        "trades": 3,
-        "wins": 0,
-        "pnl": -22.176285179326513
+        "trades": 4,
+        "wins": 1,
+        "pnl": 3.6987352332803134
       }
     },
     "NEUTRAL": {
@@ -8434,5 +8463,5 @@
       }
     }
   },
-  "btcDominance": 59.6
+  "btcDominance": 59.4
 }
