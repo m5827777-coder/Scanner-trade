@@ -133992,3 +133992,35 @@
 [2026-09-04 10:35:10 UTC] 📧 6h report sent
 [2026-09-04 10:35:10 UTC] 
 📊 ИТОГ: WR=34.2% PnL=$30.58 Trades=345
+[2026-09-04 14:30:27 UTC] ════════════════════════════════════════════════════
+[2026-09-04 14:30:27 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-09-04 14:30:27 UTC] ════════════════════════════════════════════════════
+[2026-09-04 14:30:27 UTC] 📡 Scan #2305
+[2026-09-04 14:30:27 UTC] 📊 BTC Dom=59.1%
+[2026-09-04 14:30:27 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-04 14:30:28 UTC] 🌡 F&G=74 Regime=BULL Open=19
+[2026-09-04 14:30:28 UTC]   📂 HOLD PAXG/sE PnL=+7.24%
+[2026-09-04 14:30:28 UTC]   📂 HOLD XAUT/sE PnL=+6.49%
+[2026-09-04 14:30:28 UTC]   📂 HOLD SKY/sM PnL=+14.61%
+[2026-09-04 14:30:28 UTC]   📂 HOLD BNB/sM PnL=+5.26%
+[2026-09-04 14:30:29 UTC]   📂 HOLD HYPE/sM PnL=+3.03%
+[2026-09-04 14:30:29 UTC]   📂 HOLD LTC/sE PnL=-1.43%
+[2026-09-04 14:30:29 UTC]   📂 HOLD HBAR/sE PnL=+1.46%
+[2026-09-04 14:30:29 UTC]   📂 HOLD NEAR/sE PnL=+6.29%
+[2026-09-04 14:30:29 UTC]   📂 HOLD JUP/sE PnL=+0.70%
+[2026-09-04 14:30:30 UTC]   📂 HOLD ENA/sE PnL=+6.39%
+[2026-09-04 14:30:30 UTC]   📂 HOLD XMR/sM PnL=+2.65%
+[2026-09-04 14:30:30 UTC]   📂 HOLD FLR/sE PnL=-0.55%
+[2026-09-04 14:30:30 UTC]   📂 HOLD CRV/sM PnL=-1.64%
+[2026-09-04 14:30:30 UTC]   📂 HOLD XLM/sR PnL=+1.77%
+[2026-09-04 14:30:31 UTC]   📂 HOLD FIL/sE PnL=-5.12%
+[2026-09-04 14:30:31 UTC]   📂 HOLD DOT/sE PnL=-2.62%
+[2026-09-04 14:30:31 UTC]   📂 HOLD ALGO/sE PnL=-3.50%
+[2026-09-04 14:30:31 UTC]   📂 HOLD FIGR_HELOC/sE PnL=+0.02%
+[2026-09-04 14:30:31 UTC]   📂 HOLD DASH/sM PnL=-2.49%
+[2026-09-04 14:30:31 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-04 14:30:32 UTC] ✓ CoinGecko: 82 токенов. Проверяю входы...
+[2026-09-04 14:30:36 UTC]   📈 ENTRY ZEC/sM [BULL_TREND] via OKX: Пробой 20d max $888.5700 на +10.9% · Объём x1.9 · RSI=78 @ $985.75
+[2026-09-04 14:30:37 UTC] ✅ Данные: 9 токенов OK, 0 недоступно | Открыто: 1 | Всего: 20
+[2026-09-04 14:30:37 UTC] 
+📊 ИТОГ: WR=34.2% PnL=$30.58 Trades=345
