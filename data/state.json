@@ -120,23 +120,6 @@
       "peakPnl": 0
     },
     {
-      "id": "NEAR_sE_1787463924108",
-      "symbol": "NEAR",
-      "name": "NEAR Protocol",
-      "coinId": "near",
-      "rank": 39,
-      "stratId": "sE",
-      "entryPrice": 1.827,
-      "entryTime": 1787463924108,
-      "entryDate": "2026-08-23T05:45:24.108Z",
-      "entrySignal": "Golden Cross 2д назад · EMA9=1.7560 > EMA21=1.7241 · RSI=56 · Vol x1.1",
-      "strength": 79,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "JUP_sE_1787756415402",
       "symbol": "JUP",
       "name": "Jupiter",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "NEAR_sE_1787463924108",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 39,
+      "stratId": "sE",
+      "entryPrice": 1.827,
+      "entryTime": 1787463924108,
+      "entryDate": "2026-08-23T05:45:24.108Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=1.7560 > EMA21=1.7241 · RSI=56 · Vol x1.1",
+      "strength": 79,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2.164,
+      "exitTime": 1788551564375,
+      "exitReason": "✅ TP +15%",
+      "pnl": 18.44553913519432,
+      "pnlUsd": 18.44553913519432,
+      "total": 118.44553913519432
+    },
     {
       "id": "ARB_sM_1788232160295",
       "symbol": "ARB",
@@ -8410,18 +8416,18 @@
     "DOT_sE": 1788431604385,
     "DASH_sM": 1788518102262
   },
-  "scanCount": 2307,
+  "scanCount": 2308,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-04T17:43:43.780Z",
+  "lastScan": "2026-09-04T19:53:20.296Z",
   "lastReport": "2026-09-04T15:37:20.043Z",
   "marketRegime": "BULL",
   "fearGreed": 74,
   "totalStats": {
-    "trades": 345,
-    "wins": 118,
+    "trades": 346,
+    "wins": 119,
     "losses": 227,
-    "totalPnl": 30.581174784646223,
-    "invested": 34500
+    "totalPnl": 49.026713919840546,
+    "invested": 34600
   },
   "byStrategy": {
     "sR": {
@@ -8430,9 +8436,9 @@
       "pnl": -91.46419310900397
     },
     "sE": {
-      "trades": 189,
-      "wins": 57,
-      "pnl": 31.045897375862836
+      "trades": 190,
+      "wins": 58,
+      "pnl": 49.49143651105716
     },
     "sM": {
       "trades": 40,
@@ -8448,9 +8454,9 @@
         "pnl": 17.15614696529848
       },
       "sE": {
-        "trades": 17,
-        "wins": 1,
-        "pnl": -70.5398783359487
+        "trades": 18,
+        "wins": 2,
+        "pnl": -52.094339200754376
       },
       "sM": {
         "trades": 5,
