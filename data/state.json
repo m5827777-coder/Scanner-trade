@@ -8375,10 +8375,10 @@
     "CRV_sM": 1788272434693,
     "DOT_sE": 1788431604385
   },
-  "scanCount": 2301,
+  "scanCount": 2302,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-04T01:19:07.840Z",
-  "lastReport": "2026-09-03T20:24:19.536Z",
+  "lastScan": "2026-09-04T02:33:45.845Z",
+  "lastReport": "2026-09-04T02:33:45.845Z",
   "marketRegime": "BULL",
   "fearGreed": 74,
   "totalStats": {
@@ -8492,5 +8492,5 @@
       }
     }
   },
-  "btcDominance": 59.4
+  "btcDominance": 59.3
 }
