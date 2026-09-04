@@ -305,6 +305,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "DASH_sM_1788518102262",
+      "symbol": "DASH",
+      "name": "Dash",
+      "coinId": "dash",
+      "rank": 90,
+      "stratId": "sM",
+      "entryPrice": 51.48,
+      "entryTime": 1788518102262,
+      "entryDate": "2026-09-04T10:35:02.262Z",
+      "entrySignal": "Пробой 20d max $48.5000 на +6.1% · Объём x1.9 · RSI=75",
+      "strength": 90,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8373,12 +8390,13 @@
     "XMR_sM": 1788189662271,
     "ARB_sM": 1788232160296,
     "CRV_sM": 1788272434693,
-    "DOT_sE": 1788431604385
+    "DOT_sE": 1788431604385,
+    "DASH_sM": 1788518102262
   },
-  "scanCount": 2303,
+  "scanCount": 2304,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-04T06:01:38.385Z",
-  "lastReport": "2026-09-04T02:33:45.845Z",
+  "lastScan": "2026-09-04T10:35:08.403Z",
+  "lastReport": "2026-09-04T10:35:08.403Z",
   "marketRegime": "BULL",
   "fearGreed": 74,
   "totalStats": {
@@ -8492,5 +8510,5 @@
       }
     }
   },
-  "btcDominance": 59.3
+  "btcDominance": 59.8
 }
