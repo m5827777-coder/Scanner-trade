@@ -8462,10 +8462,10 @@
     "DOT_sE": 1788431604385,
     "DASH_sM": 1788518102262
   },
-  "scanCount": 2321,
+  "scanCount": 2322,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-05T19:26:14.028Z",
-  "lastReport": "2026-09-05T14:24:56.181Z",
+  "lastScan": "2026-09-05T19:49:42.974Z",
+  "lastReport": "2026-09-05T19:49:42.973Z",
   "marketRegime": "BULL",
   "fearGreed": 73,
   "totalStats": {
@@ -8579,5 +8579,5 @@
       }
     }
   },
-  "btcDominance": 58.9
+  "btcDominance": 58.8
 }
