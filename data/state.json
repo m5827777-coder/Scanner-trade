@@ -290,23 +290,6 @@
       "peakPnl": 0
     },
     {
-      "id": "DASH_sM_1788518102262",
-      "symbol": "DASH",
-      "name": "Dash",
-      "coinId": "dash",
-      "rank": 90,
-      "stratId": "sM",
-      "entryPrice": 51.48,
-      "entryTime": 1788518102262,
-      "entryDate": "2026-09-04T10:35:02.262Z",
-      "entrySignal": "Пробой 20d max $48.5000 на +6.1% · Объём x1.9 · RSI=75",
-      "strength": 90,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ZEC_sM_1788532236248",
       "symbol": "ZEC",
       "name": "Zcash",
@@ -325,6 +308,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "DASH_sM_1788518102262",
+      "symbol": "DASH",
+      "name": "Dash",
+      "coinId": "dash",
+      "rank": 90,
+      "stratId": "sM",
+      "entryPrice": 51.48,
+      "entryTime": 1788518102262,
+      "entryDate": "2026-09-04T10:35:02.262Z",
+      "entrySignal": "Пробой 20d max $48.5000 на +6.1% · Объём x1.9 · RSI=75",
+      "strength": 90,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 65.71,
+      "exitTime": 1788570751908,
+      "exitReason": "✅ TP +25%",
+      "pnl": 27.641802641802638,
+      "pnlUsd": 27.641802641802638,
+      "total": 127.64180264180264
+    },
     {
       "id": "NEAR_sE_1787463924108",
       "symbol": "NEAR",
@@ -8416,18 +8422,18 @@
     "DOT_sE": 1788431604385,
     "DASH_sM": 1788518102262
   },
-  "scanCount": 2311,
+  "scanCount": 2312,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-04T23:27:15.487Z",
+  "lastScan": "2026-09-05T01:13:10.762Z",
   "lastReport": "2026-09-04T20:10:24.008Z",
   "marketRegime": "BULL",
-  "fearGreed": 74,
+  "fearGreed": 73,
   "totalStats": {
-    "trades": 346,
-    "wins": 119,
+    "trades": 347,
+    "wins": 120,
     "losses": 227,
-    "totalPnl": 49.026713919840546,
-    "invested": 34600
+    "totalPnl": 76.66851656164319,
+    "invested": 34700
   },
   "byStrategy": {
     "sR": {
@@ -8441,9 +8447,9 @@
       "pnl": 49.49143651105716
     },
     "sM": {
-      "trades": 40,
-      "wins": 17,
-      "pnl": 90.99947051778751
+      "trades": 41,
+      "wins": 18,
+      "pnl": 118.64127315959016
     }
   },
   "byRegime": {
@@ -8459,9 +8465,9 @@
         "pnl": -52.094339200754376
       },
       "sM": {
-        "trades": 5,
-        "wins": 2,
-        "pnl": 29.78221658319151
+        "trades": 6,
+        "wins": 3,
+        "pnl": 57.42401922499415
       }
     },
     "NEUTRAL": {
