@@ -305,6 +305,40 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "CC_sR_1788600272458",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 24,
+      "stratId": "sR",
+      "entryPrice": 0.1085,
+      "entryTime": 1788600272458,
+      "entryDate": "2026-09-05T09:24:32.458Z",
+      "entrySignal": "Ротация #24 CC: BTC Dom=59% · Коррекция -13.4% · RSI=47",
+      "strength": 62,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "NEAR_sM_1788600277122",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 34,
+      "stratId": "sM",
+      "entryPrice": 2.221,
+      "entryTime": 1788600277122,
+      "entryDate": "2026-09-05T09:24:37.122Z",
+      "entrySignal": "Пробой 20d max $2.1470 на +3.4% · Объём x1.6 · RSI=67",
+      "strength": 80,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8299,7 +8333,7 @@
     "UNI_sR": 1779554027073,
     "DOT_sR": 1779554029231,
     "AAVE_sR": 1780482653547,
-    "CC_sR": 1787948021567,
+    "CC_sR": 1788600272458,
     "ETC_sR": 1780495960103,
     "ENA_sR": 1780207944941,
     "ALGO_sR": 1779912519969,
@@ -8333,7 +8367,7 @@
     "DASH_sE": 1779550477183,
     "SUI_sR": 1779554020771,
     "ASTER_sE": 1781832270812,
-    "NEAR_sM": 1779600959266,
+    "NEAR_sM": 1788600277122,
     "RENDER_sE": 1779861248735,
     "XMR_sE": 1785969350861,
     "ZEC_sM": 1788532236248,
@@ -8422,10 +8456,10 @@
     "DOT_sE": 1788431604385,
     "DASH_sM": 1788518102262
   },
-  "scanCount": 2314,
+  "scanCount": 2315,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-05T05:45:27.545Z",
-  "lastReport": "2026-09-05T02:33:06.779Z",
+  "lastScan": "2026-09-05T09:24:38.289Z",
+  "lastReport": "2026-09-05T09:24:38.289Z",
   "marketRegime": "BULL",
   "fearGreed": 73,
   "totalStats": {
@@ -8539,5 +8573,5 @@
       }
     }
   },
-  "btcDominance": 59.1
+  "btcDominance": 59
 }
