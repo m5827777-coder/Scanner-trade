@@ -8538,9 +8538,9 @@
     "DASH_sM": 1788518102262,
     "JUP_sM": 1788689252046
   },
-  "scanCount": 2336,
+  "scanCount": 2337,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-06T22:06:00.887Z",
+  "lastScan": "2026-09-06T23:48:14.800Z",
   "lastReport": "2026-09-06T19:53:31.322Z",
   "marketRegime": "BULL",
   "fearGreed": 73,
@@ -8655,5 +8655,5 @@
       }
     }
   },
-  "btcDominance": 59.1
+  "btcDominance": 59.2
 }
