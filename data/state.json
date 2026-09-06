@@ -137,23 +137,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ENA_sE_1787841275487",
-      "symbol": "ENA",
-      "name": "Ethena",
-      "coinId": "ethena",
-      "rank": 58,
-      "stratId": "sE",
-      "entryPrice": 0.15483,
-      "entryTime": 1787841275487,
-      "entryDate": "2026-08-27T14:34:35.487Z",
-      "entrySignal": "Golden Cross 7д назад · EMA9=0.1394 > EMA21=0.1198 · RSI=69 · Vol x1.4",
-      "strength": 77,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "XMR_sM_1788189662271",
       "symbol": "XMR",
       "name": "Monero",
@@ -325,6 +308,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ENA_sE_1787841275487",
+      "symbol": "ENA",
+      "name": "Ethena",
+      "coinId": "ethena",
+      "rank": 58,
+      "stratId": "sE",
+      "entryPrice": 0.15483,
+      "entryTime": 1787841275487,
+      "entryDate": "2026-08-27T14:34:35.487Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=0.1394 > EMA21=0.1198 · RSI=69 · Vol x1.4",
+      "strength": 77,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.17877,
+      "exitTime": 1788655792379,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.462119744235626,
+      "pnlUsd": 15.462119744235627,
+      "total": 115.46211974423562
+    },
     {
       "id": "FIGR_HELOC_sE_1788484712591",
       "symbol": "FIGR_HELOC",
@@ -8462,18 +8468,18 @@
     "DOT_sE": 1788431604385,
     "DASH_sM": 1788518102262
   },
-  "scanCount": 2324,
+  "scanCount": 2325,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-05T23:04:31.379Z",
+  "lastScan": "2026-09-06T00:50:29.653Z",
   "lastReport": "2026-09-05T19:49:42.973Z",
   "marketRegime": "BULL",
   "fearGreed": 73,
   "totalStats": {
-    "trades": 348,
-    "wins": 120,
+    "trades": 349,
+    "wins": 121,
     "losses": 228,
-    "totalPnl": 74.00300224179003,
-    "invested": 34800
+    "totalPnl": 89.46512198602565,
+    "invested": 34900
   },
   "byStrategy": {
     "sR": {
@@ -8482,9 +8488,9 @@
       "pnl": -91.46419310900397
     },
     "sE": {
-      "trades": 191,
-      "wins": 58,
-      "pnl": 46.82592219120401
+      "trades": 192,
+      "wins": 59,
+      "pnl": 62.28804193543964
     },
     "sM": {
       "trades": 41,
@@ -8500,9 +8506,9 @@
         "pnl": 17.15614696529848
       },
       "sE": {
-        "trades": 19,
-        "wins": 2,
-        "pnl": -54.75985352060753
+        "trades": 20,
+        "wins": 3,
+        "pnl": -39.2977337763719
       },
       "sM": {
         "trades": 6,
@@ -8579,5 +8585,5 @@
       }
     }
   },
-  "btcDominance": 58.8
+  "btcDominance": 59.3
 }
