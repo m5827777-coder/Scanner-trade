@@ -288,6 +288,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "JUP_sM_1788689252046",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "coinId": "jupiter-exchange-solana",
+      "rank": 81,
+      "stratId": "sM",
+      "entryPrice": 0.2521,
+      "entryTime": 1788689252046,
+      "entryDate": "2026-09-06T10:07:32.046Z",
+      "entrySignal": "Пробой 20d max $0.2459 на +2.5% · Объём x1.5 · RSI=66",
+      "strength": 77,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8472,12 +8489,13 @@
     "ARB_sM": 1788232160296,
     "CRV_sM": 1788272434693,
     "DOT_sE": 1788431604385,
-    "DASH_sM": 1788518102262
+    "DASH_sM": 1788518102262,
+    "JUP_sM": 1788689252046
   },
-  "scanCount": 2328,
+  "scanCount": 2329,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-06T09:23:43.510Z",
-  "lastReport": "2026-09-06T09:23:43.509Z",
+  "lastScan": "2026-09-06T10:07:39.039Z",
+  "lastReport": "2026-09-06T10:07:39.039Z",
   "marketRegime": "BULL",
   "fearGreed": 73,
   "totalStats": {
