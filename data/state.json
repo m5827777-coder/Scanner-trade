@@ -1,40 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "PAXG_sE_1785903554683",
-      "symbol": "PAXG",
-      "name": "PAX Gold",
-      "coinId": "pax-gold",
-      "rank": 43,
-      "stratId": "sE",
-      "entryPrice": 4133,
-      "entryTime": 1785903554683,
-      "entryDate": "2026-08-05T04:19:14.683Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=4073.0124 > EMA21=4066.5172 · RSI=58 · Vol x1.2",
-      "strength": 79,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "XAUT_sE_1785912340985",
-      "symbol": "XAUT",
-      "name": "Tether Gold",
-      "coinId": "tether-gold",
-      "rank": 37,
-      "stratId": "sE",
-      "entryPrice": 4156.5,
-      "entryTime": 1785912340985,
-      "entryDate": "2026-08-05T06:45:40.985Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=4072.5669 > EMA21=4064.7277 · RSI=60 · Vol x1.3",
-      "strength": 83,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SKY_sM_1787153623428",
       "symbol": "SKY",
       "name": "Sky",
@@ -342,6 +308,52 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "XAUT_sE_1785912340985",
+      "symbol": "XAUT",
+      "name": "Tether Gold",
+      "coinId": "tether-gold",
+      "rank": 37,
+      "stratId": "sE",
+      "entryPrice": 4156.5,
+      "entryTime": 1785912340985,
+      "entryDate": "2026-08-05T06:45:40.985Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=4072.5669 > EMA21=4064.7277 · RSI=60 · Vol x1.3",
+      "strength": 83,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 4415.2,
+      "exitTime": 1788717515867,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": 6.223986527126184,
+      "pnlUsd": 6.223986527126184,
+      "total": 106.22398652712619
+    },
+    {
+      "id": "PAXG_sE_1785903554683",
+      "symbol": "PAXG",
+      "name": "PAX Gold",
+      "coinId": "pax-gold",
+      "rank": 43,
+      "stratId": "sE",
+      "entryPrice": 4133,
+      "entryTime": 1785903554683,
+      "entryDate": "2026-08-05T04:19:14.683Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=4073.0124 > EMA21=4066.5172 · RSI=58 · Vol x1.2",
+      "strength": 79,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 4419.5,
+      "exitTime": 1788717514729,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": 6.93201064601984,
+      "pnlUsd": 6.93201064601984,
+      "total": 106.93201064601985
+    },
     {
       "id": "JUP_sE_1787756415402",
       "symbol": "JUP",
@@ -8526,18 +8538,18 @@
     "DASH_sM": 1788518102262,
     "JUP_sM": 1788689252046
   },
-  "scanCount": 2332,
+  "scanCount": 2333,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-06T15:57:07.933Z",
+  "lastScan": "2026-09-06T17:59:17.829Z",
   "lastReport": "2026-09-06T14:46:51.446Z",
   "marketRegime": "BULL",
   "fearGreed": 73,
   "totalStats": {
-    "trades": 350,
-    "wins": 122,
+    "trades": 352,
+    "wins": 124,
     "losses": 228,
-    "totalPnl": 107.15886615035805,
-    "invested": 35000
+    "totalPnl": 120.31486332350408,
+    "invested": 35200
   },
   "byStrategy": {
     "sR": {
@@ -8546,9 +8558,9 @@
       "pnl": -91.46419310900397
     },
     "sE": {
-      "trades": 193,
-      "wins": 60,
-      "pnl": 79.98178609977202
+      "trades": 195,
+      "wins": 62,
+      "pnl": 93.13778327291806
     },
     "sM": {
       "trades": 41,
@@ -8564,9 +8576,9 @@
         "pnl": 17.15614696529848
       },
       "sE": {
-        "trades": 21,
-        "wins": 4,
-        "pnl": -21.603989612039506
+        "trades": 23,
+        "wins": 6,
+        "pnl": -8.447992438893483
       },
       "sM": {
         "trades": 6,
@@ -8643,5 +8655,5 @@
       }
     }
   },
-  "btcDominance": 59.3
+  "btcDominance": 59.2
 }
