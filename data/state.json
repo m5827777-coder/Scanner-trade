@@ -120,23 +120,6 @@
       "peakPnl": 0
     },
     {
-      "id": "JUP_sE_1787756415402",
-      "symbol": "JUP",
-      "name": "Jupiter",
-      "coinId": "jupiter-exchange-solana",
-      "rank": 87,
-      "stratId": "sE",
-      "entryPrice": 0.2142,
-      "entryTime": 1787756415402,
-      "entryDate": "2026-08-26T15:00:15.402Z",
-      "entrySignal": "Golden Cross 5д назад · EMA9=0.2025 > EMA21=0.1932 · RSI=68 · Vol x1.1",
-      "strength": 73,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "Bybit",
-      "peakPnl": 0
-    },
-    {
       "id": "XMR_sM_1788189662271",
       "symbol": "XMR",
       "name": "Monero",
@@ -308,6 +291,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "JUP_sE_1787756415402",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "coinId": "jupiter-exchange-solana",
+      "rank": 87,
+      "stratId": "sE",
+      "entryPrice": 0.2142,
+      "entryTime": 1787756415402,
+      "entryDate": "2026-08-26T15:00:15.402Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=0.2025 > EMA21=0.1932 · RSI=68 · Vol x1.1",
+      "strength": 73,
+      "regime": "BULL",
+      "size": 100,
+      "src": "Bybit",
+      "peakPnl": 0,
+      "exitPrice": 0.2521,
+      "exitTime": 1788686588459,
+      "exitReason": "✅ TP +15%",
+      "pnl": 17.693744164332394,
+      "pnlUsd": 17.693744164332394,
+      "total": 117.6937441643324
+    },
     {
       "id": "ENA_sE_1787841275487",
       "symbol": "ENA",
@@ -8468,18 +8474,18 @@
     "DOT_sE": 1788431604385,
     "DASH_sM": 1788518102262
   },
-  "scanCount": 2327,
+  "scanCount": 2328,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-06T05:09:57.870Z",
-  "lastReport": "2026-09-06T02:29:38.941Z",
+  "lastScan": "2026-09-06T09:23:43.510Z",
+  "lastReport": "2026-09-06T09:23:43.509Z",
   "marketRegime": "BULL",
   "fearGreed": 73,
   "totalStats": {
-    "trades": 349,
-    "wins": 121,
+    "trades": 350,
+    "wins": 122,
     "losses": 228,
-    "totalPnl": 89.46512198602565,
-    "invested": 34900
+    "totalPnl": 107.15886615035805,
+    "invested": 35000
   },
   "byStrategy": {
     "sR": {
@@ -8488,9 +8494,9 @@
       "pnl": -91.46419310900397
     },
     "sE": {
-      "trades": 192,
-      "wins": 59,
-      "pnl": 62.28804193543964
+      "trades": 193,
+      "wins": 60,
+      "pnl": 79.98178609977202
     },
     "sM": {
       "trades": 41,
@@ -8506,9 +8512,9 @@
         "pnl": 17.15614696529848
       },
       "sE": {
-        "trades": 20,
-        "wins": 3,
-        "pnl": -39.2977337763719
+        "trades": 21,
+        "wins": 4,
+        "pnl": -21.603989612039506
       },
       "sM": {
         "trades": 6,
