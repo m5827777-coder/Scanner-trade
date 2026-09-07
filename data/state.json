@@ -8538,12 +8538,12 @@
     "DASH_sM": 1788518102262,
     "JUP_sM": 1788689252046
   },
-  "scanCount": 2337,
+  "scanCount": 2338,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-06T23:48:14.800Z",
+  "lastScan": "2026-09-07T01:19:45.164Z",
   "lastReport": "2026-09-06T19:53:31.322Z",
   "marketRegime": "BULL",
-  "fearGreed": 73,
+  "fearGreed": 71,
   "totalStats": {
     "trades": 352,
     "wins": 124,
