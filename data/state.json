@@ -137,23 +137,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XLM_sR_1788285126381",
-      "symbol": "XLM",
-      "name": "Stellar",
-      "coinId": "stellar",
-      "rank": 20,
-      "stratId": "sR",
-      "entryPrice": 0.17689,
-      "entryTime": 1788285126381,
-      "entryDate": "2026-09-01T17:52:06.381Z",
-      "entrySignal": "Ротация #20 XLM: BTC Dom=59% · Коррекция -11.1% · RSI=49",
-      "strength": 62,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FIL_sE_1788293473879",
       "symbol": "FIL",
       "name": "Filecoin",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XLM_sE_1788780122896",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 19,
+      "stratId": "sE",
+      "entryPrice": 0.19212,
+      "entryTime": 1788780122896,
+      "entryDate": "2026-09-07T11:22:02.896Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.1835 > EMA21=0.1804 · RSI=59 · Vol x1.7",
+      "strength": 80,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "XLM_sR_1788285126381",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 20,
+      "stratId": "sR",
+      "entryPrice": 0.17689,
+      "entryTime": 1788285126381,
+      "entryDate": "2026-09-01T17:52:06.381Z",
+      "entrySignal": "Ротация #20 XLM: BTC Dom=59% · Коррекция -11.1% · RSI=49",
+      "strength": 62,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.19212,
+      "exitTime": 1788780111358,
+      "exitReason": "Возврат к 14d max $0.1956",
+      "pnl": 8.609870541014201,
+      "pnlUsd": 8.609870541014201,
+      "total": 108.6098705410142
+    },
     {
       "id": "XAUT_sE_1785912340985",
       "symbol": "XAUT",
@@ -8495,7 +8518,7 @@
     "FET_sE": 1780634934681,
     "ICP_sE": 1786374593092,
     "FIL_sE": 1788293473879,
-    "XLM_sE": 1787491566018,
+    "XLM_sE": 1788780122896,
     "INJ_sM": 1780617639283,
     "HBAR_sE": 1787412380090,
     "ALGO_sE": 1788449957432,
@@ -8573,24 +8596,24 @@
     "JUP_sM": 1788689252046,
     "TAO_sM": 1788761447877
   },
-  "scanCount": 2340,
+  "scanCount": 2341,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-07T06:10:48.965Z",
-  "lastReport": "2026-09-07T02:27:07.070Z",
+  "lastScan": "2026-09-07T11:22:03.898Z",
+  "lastReport": "2026-09-07T11:22:03.898Z",
   "marketRegime": "BULL",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 352,
-    "wins": 124,
+    "trades": 353,
+    "wins": 125,
     "losses": 228,
-    "totalPnl": 120.31486332350408,
-    "invested": 35200
+    "totalPnl": 128.9247338645183,
+    "invested": 35300
   },
   "byStrategy": {
     "sR": {
-      "trades": 116,
-      "wins": 44,
-      "pnl": -91.46419310900397
+      "trades": 117,
+      "wins": 45,
+      "pnl": -82.85432256798977
     },
     "sE": {
       "trades": 195,
@@ -8606,9 +8629,9 @@
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 11,
-        "wins": 5,
-        "pnl": 17.15614696529848
+        "trades": 12,
+        "wins": 6,
+        "pnl": 25.76601750631268
       },
       "sE": {
         "trades": 23,
@@ -8690,5 +8713,5 @@
       }
     }
   },
-  "btcDominance": 59.2
+  "btcDominance": 59.1
 }
