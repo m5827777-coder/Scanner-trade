@@ -135947,3 +135947,57 @@
 [2026-09-07 17:48:43 UTC] ✅ Данные: 57 токенов OK, 25 недоступно | Открыто: 0 | Всего: 19
 [2026-09-07 17:48:43 UTC] 
 📊 ИТОГ: WR=35.6% PnL=$154.32 Trades=354
+[2026-09-07 20:47:17 UTC] ════════════════════════════════════════════════════
+[2026-09-07 20:47:17 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-09-07 20:47:17 UTC] ════════════════════════════════════════════════════
+[2026-09-07 20:47:17 UTC] 📡 Scan #2345
+[2026-09-07 20:47:17 UTC] 📊 BTC Dom=59.1%
+[2026-09-07 20:47:17 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-07 20:47:18 UTC] 🌡 F&G=71 Regime=BULL Open=19
+[2026-09-07 20:47:18 UTC]   📂 HOLD SKY/sM PnL=+16.32%
+[2026-09-07 20:47:18 UTC]   📂 HOLD BNB/sM PnL=+8.92%
+[2026-09-07 20:47:18 UTC]   📂 HOLD HYPE/sM PnL=+3.83%
+[2026-09-07 20:47:19 UTC]   📂 HOLD LTC/sE PnL=+8.25%
+[2026-09-07 20:47:19 UTC]   📂 HOLD HBAR/sE PnL=+8.54%
+[2026-09-07 20:47:19 UTC]   📂 HOLD XMR/sM PnL=+0.92%
+[2026-09-07 20:47:19 UTC]   📂 HOLD FLR/sE PnL=-2.66%
+[2026-09-07 20:47:20 UTC]   📂 HOLD CRV/sM PnL=+2.43%
+[2026-09-07 20:47:20 UTC]   📂 HOLD FIL/sE PnL=+6.19%
+[2026-09-07 20:47:20 UTC]   📂 HOLD ALGO/sE PnL=+1.80%
+[2026-09-07 20:47:20 UTC]   📂 HOLD ZEC/sM PnL=+17.11%
+[2026-09-07 20:47:20 UTC]   📂 HOLD CC/sR PnL=-3.95%
+[2026-09-07 20:47:21 UTC]   📂 HOLD NEAR/sM PnL=+4.86%
+[2026-09-07 20:47:21 UTC]   📂 HOLD JUP/sM PnL=+0.28%
+[2026-09-07 20:47:21 UTC]   📂 HOLD ONDO/sE PnL=+1.26%
+[2026-09-07 20:47:21 UTC]   📂 HOLD RENDER/sE PnL=+3.51%
+[2026-09-07 20:47:21 UTC]   📂 HOLD LINK/sM PnL=-6.03%
+[2026-09-07 20:47:22 UTC]   📂 HOLD TAO/sM PnL=-2.75%
+[2026-09-07 20:47:22 UTC]   📂 HOLD XLM/sE PnL=+0.45%
+[2026-09-07 20:47:22 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-07 20:47:22 UTC] ✓ CoinGecko: 82 токенов. Проверяю входы...
+[2026-09-07 20:47:28 UTC]   ⏭ XMR: нет данных (monero)
+[2026-09-07 20:47:29 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-09-07 20:47:36 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-09-07 20:47:37 UTC]   ⏭ M: нет данных (memecore)
+[2026-09-07 20:47:39 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-09-07 20:47:45 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-09-07 20:47:46 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-09-07 20:47:46 UTC]   ⏭ USDGO: нет данных (usdgo)
+[2026-09-07 20:47:46 UTC]   ⏭ U: нет данных (united-stables)
+[2026-09-07 20:47:47 UTC]   ⏭ EURSAFO: нет данных (spiko-amundi-overnight-swap-fund-eur)
+[2026-09-07 20:47:47 UTC]   ⏭ BTW: нет данных (bitway)
+[2026-09-07 20:47:50 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-09-07 20:47:50 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-09-07 20:47:50 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-09-07 20:47:51 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-09-07 20:47:51 UTC]   ⏭ VVV: нет данных (venice-token)
+[2026-09-07 20:47:52 UTC]   ⏭ JST: нет данных (just)
+[2026-09-07 20:47:53 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-09-07 20:47:55 UTC]   ⏭ JTRSY: нет данных (janus-henderson-anemoy-treasury-fund)
+[2026-09-07 20:47:55 UTC]   ⏭ CAKE: нет данных (pancakeswap-token)
+[2026-09-07 20:47:55 UTC]   ⏭ JAAA: нет данных (janus-henderson-anemoy-aaa-clo-fund)
+[2026-09-07 20:47:56 UTC]   ⏭ GHO: нет данных (gho)
+[2026-09-07 20:47:57 UTC]   📈 ENTRY INJ/sM [BULL_TREND] via OKX: Пробой 20d max $6.0450 на +2.1% · Объём x1.5 · RSI=66 @ $6.17
+[2026-09-07 20:47:58 UTC] ✅ Данные: 54 токенов OK, 22 недоступно | Открыто: 1 | Всего: 20
+[2026-09-07 20:47:58 UTC] 
+📊 ИТОГ: WR=35.6% PnL=$154.32 Trades=354
