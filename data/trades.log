@@ -135727,3 +135727,39 @@
 [2026-09-07 02:27:09 UTC] 📧 6h report sent
 [2026-09-07 02:27:09 UTC] 
 📊 ИТОГ: WR=35.2% PnL=$120.31 Trades=352
+[2026-09-07 06:10:30 UTC] ════════════════════════════════════════════════════
+[2026-09-07 06:10:30 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-09-07 06:10:30 UTC] ════════════════════════════════════════════════════
+[2026-09-07 06:10:30 UTC] 📡 Scan #2340
+[2026-09-07 06:10:30 UTC] 📊 BTC Dom=59.2%
+[2026-09-07 06:10:30 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-07 06:10:31 UTC] 🌡 F&G=71 Regime=BULL Open=18
+[2026-09-07 06:10:31 UTC]   📂 HOLD SKY/sM PnL=+18.25%
+[2026-09-07 06:10:31 UTC]   📂 HOLD BNB/sM PnL=+10.25%
+[2026-09-07 06:10:31 UTC]   📂 HOLD HYPE/sM PnL=+5.65%
+[2026-09-07 06:10:31 UTC]   📂 HOLD LTC/sE PnL=+7.53%
+[2026-09-07 06:10:31 UTC]   📂 HOLD HBAR/sE PnL=+6.36%
+[2026-09-07 06:10:32 UTC]   📂 HOLD XMR/sM PnL=+4.63%
+[2026-09-07 06:10:32 UTC]   📂 HOLD FLR/sE PnL=-2.60%
+[2026-09-07 06:10:32 UTC]   📂 HOLD CRV/sM PnL=+3.98%
+[2026-09-07 06:10:32 UTC]   📂 HOLD XLM/sR PnL=+8.02%
+[2026-09-07 06:10:32 UTC]   📂 HOLD FIL/sE PnL=+3.03%
+[2026-09-07 06:10:32 UTC]   📂 HOLD DOT/sE PnL=+11.27%
+[2026-09-07 06:10:32 UTC]   📂 HOLD ALGO/sE PnL=+0.51%
+[2026-09-07 06:10:33 UTC]   📂 HOLD ZEC/sM PnL=+23.17%
+[2026-09-07 06:10:33 UTC]   📂 HOLD CC/sR PnL=+1.76%
+[2026-09-07 06:10:33 UTC]   📂 HOLD NEAR/sM PnL=+7.92%
+[2026-09-07 06:10:33 UTC]   📂 HOLD JUP/sM PnL=+0.56%
+[2026-09-07 06:10:33 UTC]   📂 HOLD ONDO/sE PnL=+1.81%
+[2026-09-07 06:10:33 UTC]   📂 HOLD RENDER/sE PnL=+2.05%
+[2026-09-07 06:10:33 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-07 06:10:33 UTC] ✓ CoinGecko: 82 токенов. Проверяю входы...
+[2026-09-07 06:10:38 UTC]   ⏭ XMR: нет данных (monero)
+[2026-09-07 06:10:39 UTC]   📈 ENTRY LINK/sM [BULL_TREND] via OKX: Пробой 20d max $12.6140 на +7.8% · Объём x1.5 · RSI=79 @ $13.6
+[2026-09-07 06:10:40 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-09-07 06:10:46 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-09-07 06:10:47 UTC]   ⏭ M: нет данных (memecore)
+[2026-09-07 06:10:47 UTC]   📈 ENTRY TAO/sM [BULL_TREND] via OKX: Пробой 20d max $261.2000 на +2.9% · Объём x1.6 · RSI=68 @ $268.7
+[2026-09-07 06:10:48 UTC] ✅ Данные: 28 токенов OK, 4 недоступно | Открыто: 2 | Всего: 20
+[2026-09-07 06:10:49 UTC] 
+📊 ИТОГ: WR=35.2% PnL=$120.31 Trades=352
