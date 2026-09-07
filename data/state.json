@@ -154,23 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "DOT_sE_1788431604385",
-      "symbol": "DOT",
-      "name": "Polkadot",
-      "coinId": "polkadot",
-      "rank": 53,
-      "stratId": "sE",
-      "entryPrice": 0.8774,
-      "entryTime": 1788431604385,
-      "entryDate": "2026-09-03T10:33:24.385Z",
-      "entrySignal": "EMA начало расхождения · EMA9=0.8584 > EMA21=0.8467 · RSI=55 · Vol x1.1",
-      "strength": 74,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ALGO_sE_1788449957432",
       "symbol": "ALGO",
       "name": "Algorand",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "DOT_sE_1788431604385",
+      "symbol": "DOT",
+      "name": "Polkadot",
+      "coinId": "polkadot",
+      "rank": 53,
+      "stratId": "sE",
+      "entryPrice": 0.8774,
+      "entryTime": 1788431604385,
+      "entryDate": "2026-09-03T10:33:24.385Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.8584 > EMA21=0.8467 · RSI=55 · Vol x1.1",
+      "strength": 74,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.1002,
+      "exitTime": 1788800673885,
+      "exitReason": "✅ TP +15%",
+      "pnl": 25.393207203100083,
+      "pnlUsd": 25.393207203100083,
+      "total": 125.39320720310008
+    },
     {
       "id": "XLM_sR_1788285126381",
       "symbol": "XLM",
@@ -8596,18 +8602,18 @@
     "JUP_sM": 1788689252046,
     "TAO_sM": 1788761447877
   },
-  "scanCount": 2342,
+  "scanCount": 2343,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-07T12:25:03.762Z",
-  "lastReport": "2026-09-07T11:22:03.898Z",
+  "lastScan": "2026-09-07T17:05:11.802Z",
+  "lastReport": "2026-09-07T17:05:11.802Z",
   "marketRegime": "BULL",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 353,
-    "wins": 125,
+    "trades": 354,
+    "wins": 126,
     "losses": 228,
-    "totalPnl": 128.9247338645183,
-    "invested": 35300
+    "totalPnl": 154.31794106761836,
+    "invested": 35400
   },
   "byStrategy": {
     "sR": {
@@ -8616,9 +8622,9 @@
       "pnl": -82.85432256798977
     },
     "sE": {
-      "trades": 195,
-      "wins": 62,
-      "pnl": 93.13778327291806
+      "trades": 196,
+      "wins": 63,
+      "pnl": 118.53099047601813
     },
     "sM": {
       "trades": 41,
@@ -8634,9 +8640,9 @@
         "pnl": 25.76601750631268
       },
       "sE": {
-        "trades": 23,
-        "wins": 6,
-        "pnl": -8.447992438893483
+        "trades": 24,
+        "wins": 7,
+        "pnl": 16.9452147642066
       },
       "sM": {
         "trades": 6,
