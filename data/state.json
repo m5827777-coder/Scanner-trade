@@ -8619,10 +8619,10 @@
     "JUP_sM": 1788689252046,
     "TAO_sM": 1788761447877
   },
-  "scanCount": 2350,
+  "scanCount": 2351,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-08T05:52:18.935Z",
-  "lastReport": "2026-09-08T02:40:03.319Z",
+  "lastScan": "2026-09-08T10:06:53.558Z",
+  "lastReport": "2026-09-08T10:06:53.558Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
@@ -8736,5 +8736,5 @@
       }
     }
   },
-  "btcDominance": 59
+  "btcDominance": 58.9
 }
