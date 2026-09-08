@@ -136233,3 +136233,38 @@
 [2026-09-08 10:26:54 UTC] 📧 6h report sent
 [2026-09-08 10:26:54 UTC] 
 📊 ИТОГ: WR=35.6% PnL=$154.32 Trades=354
+[2026-09-08 14:28:55 UTC] ════════════════════════════════════════════════════
+[2026-09-08 14:28:55 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-09-08 14:28:55 UTC] ════════════════════════════════════════════════════
+[2026-09-08 14:28:55 UTC] 📡 Scan #2353
+[2026-09-08 14:28:55 UTC] 📊 BTC Dom=58.8%
+[2026-09-08 14:28:55 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-08 14:28:55 UTC] 🌡 F&G=69 Regime=BULL Open=20
+[2026-09-08 14:28:56 UTC]   📂 HOLD SKY/sM PnL=+15.13%
+[2026-09-08 14:28:56 UTC]   📂 HOLD BNB/sM PnL=+10.41%
+[2026-09-08 14:28:56 UTC]   📂 HOLD HYPE/sM PnL=+1.63%
+[2026-09-08 14:28:56 UTC]   📂 HOLD LTC/sE PnL=+7.39%
+[2026-09-08 14:28:57 UTC]   📂 HOLD HBAR/sE PnL=+5.11%
+[2026-09-08 14:28:57 UTC]   📂 HOLD XMR/sM PnL=-2.75%
+[2026-09-08 14:28:57 UTC]   📂 HOLD FLR/sE PnL=-3.85%
+[2026-09-08 14:28:57 UTC]   📂 HOLD CRV/sM PnL=-1.20%
+[2026-09-08 14:28:57 UTC]   📂 HOLD FIL/sE PnL=+8.41%
+[2026-09-08 14:28:58 UTC]   📂 HOLD ALGO/sE PnL=+6.02%
+[2026-09-08 14:28:58 UTC]   📂 HOLD ZEC/sM PnL=+17.96%
+[2026-09-08 14:28:58 UTC]   📂 HOLD CC/sR PnL=-3.69%
+[2026-09-08 14:28:58 UTC]   📂 HOLD NEAR/sM PnL=+4.68%
+[2026-09-08 14:28:58 UTC]   📂 HOLD JUP/sM PnL=-4.68%
+[2026-09-08 14:28:59 UTC]   📂 HOLD ONDO/sE PnL=-1.10%
+[2026-09-08 14:28:59 UTC]   📂 HOLD RENDER/sE PnL=-0.60%
+[2026-09-08 14:28:59 UTC]   🔒 SL-cooldown 24ч для LINK/sM
+[2026-09-08 14:28:59 UTC]   ❌ CLOSE LINK/sM: 🛑 SL -7% PnL=-8.02% held=1д 8ч
+[2026-09-08 14:29:00 UTC]   📂 HOLD TAO/sM PnL=-5.81%
+[2026-09-08 14:29:00 UTC]   📂 HOLD XLM/sE PnL=-1.66%
+[2026-09-08 14:29:00 UTC]   📂 HOLD INJ/sM PnL=+5.28%
+[2026-09-08 14:29:00 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-08 14:29:00 UTC] ✓ CoinGecko: 82 токенов. Проверяю входы...
+[2026-09-08 14:29:07 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-09-08 14:29:14 UTC]   📈 ENTRY CRO/sE [BULL_TREND] via OKX: EMA начало расхождения · EMA9=0.0575 > EMA21=0.0564 · RSI=60 · Vol x3.5 @ $0.06045
+[2026-09-08 14:29:15 UTC] ✅ Данные: 27 токенов OK, 1 недоступно | Открыто: 1 | Всего: 20
+[2026-09-08 14:29:15 UTC] 
+📊 ИТОГ: WR=35.5% PnL=$146.30 Trades=355

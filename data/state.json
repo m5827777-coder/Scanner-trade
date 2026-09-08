@@ -273,23 +273,6 @@
       "peakPnl": 0
     },
     {
-      "id": "LINK_sM_1788761439144",
-      "symbol": "LINK",
-      "name": "Chainlink",
-      "coinId": "chainlink",
-      "rank": 14,
-      "stratId": "sM",
-      "entryPrice": 13.6,
-      "entryTime": 1788761439144,
-      "entryDate": "2026-09-07T06:10:39.144Z",
-      "entrySignal": "Пробой 20d max $12.6140 на +7.8% · Объём x1.5 · RSI=79",
-      "strength": 86,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "TAO_sM_1788761447877",
       "symbol": "TAO",
       "name": "Bittensor",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "CRO_sE_1788877754817",
+      "symbol": "CRO",
+      "name": "Cronos",
+      "coinId": "crypto-com-chain",
+      "rank": 34,
+      "stratId": "sE",
+      "entryPrice": 0.06045,
+      "entryTime": 1788877754817,
+      "entryDate": "2026-09-08T14:29:14.817Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.0575 > EMA21=0.0564 · RSI=60 · Vol x3.5",
+      "strength": 84,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "LINK_sM_1788761439144",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "coinId": "chainlink",
+      "rank": 14,
+      "stratId": "sM",
+      "entryPrice": 13.6,
+      "entryTime": 1788761439144,
+      "entryDate": "2026-09-07T06:10:39.144Z",
+      "entrySignal": "Пробой 20d max $12.6140 на +7.8% · Объём x1.5 · RSI=79",
+      "strength": 86,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 12.509,
+      "exitTime": 1788877739609,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -8.022058823529408,
+      "pnlUsd": -8.022058823529408,
+      "total": 91.9779411764706
+    },
     {
       "id": "DOT_sE_1788431604385",
       "symbol": "DOT",
@@ -8579,7 +8602,7 @@
     "LINK_sE": 1786439600143,
     "ENA_sE": 1787841275487,
     "SUI_sE": 1787536936203,
-    "CRO_sE": 1787491568373,
+    "CRO_sE": 1788877754817,
     "INJ_sE": 1787835568270,
     "PUMP_sM": 1786067830795,
     "BTC_sE": 1787149522773,
@@ -8596,7 +8619,7 @@
     "DOGE_sE": 1787153609321,
     "XRP_sM": 1787307724269,
     "SOL_sM": 1787393321148,
-    "LINK_sM": 1788761439144,
+    "LINK_sM": 1788956939609,
     "DOGE_sM": 1787302442570,
     "GRAM_sM": 1788050930721,
     "GT_sM": 1787344424213,
@@ -8619,18 +8642,18 @@
     "JUP_sM": 1788689252046,
     "TAO_sM": 1788761447877
   },
-  "scanCount": 2352,
+  "scanCount": 2353,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-08T10:26:52.866Z",
+  "lastScan": "2026-09-08T14:29:15.738Z",
   "lastReport": "2026-09-08T10:26:52.866Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
-    "trades": 354,
+    "trades": 355,
     "wins": 126,
-    "losses": 228,
-    "totalPnl": 154.31794106761836,
-    "invested": 35400
+    "losses": 229,
+    "totalPnl": 146.29588224408894,
+    "invested": 35500
   },
   "byStrategy": {
     "sR": {
@@ -8644,9 +8667,9 @@
       "pnl": 118.53099047601813
     },
     "sM": {
-      "trades": 41,
+      "trades": 42,
       "wins": 18,
-      "pnl": 118.64127315959016
+      "pnl": 110.61921433606075
     }
   },
   "byRegime": {
@@ -8662,9 +8685,9 @@
         "pnl": 16.9452147642066
       },
       "sM": {
-        "trades": 6,
+        "trades": 7,
         "wins": 3,
-        "pnl": 57.42401922499415
+        "pnl": 49.40196040146474
       }
     },
     "NEUTRAL": {
@@ -8736,5 +8759,5 @@
       }
     }
   },
-  "btcDominance": 58.9
+  "btcDominance": 58.8
 }
