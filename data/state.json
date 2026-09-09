@@ -8666,10 +8666,10 @@
     "TAO_sM": 1788761447877,
     "DOT_sM": 1788950263097
   },
-  "scanCount": 2364,
+  "scanCount": 2365,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-09T14:48:56.284Z",
-  "lastReport": "2026-09-09T10:37:44.575Z",
+  "lastScan": "2026-09-09T15:46:31.657Z",
+  "lastReport": "2026-09-09T15:46:31.657Z",
   "marketRegime": "BULL",
   "fearGreed": 66,
   "totalStats": {
@@ -8783,5 +8783,5 @@
       }
     }
   },
-  "btcDominance": 58.5
+  "btcDominance": 58.4
 }
