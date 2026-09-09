@@ -188,40 +188,6 @@
       "peakPnl": 0
     },
     {
-      "id": "JUP_sM_1788689252046",
-      "symbol": "JUP",
-      "name": "Jupiter",
-      "coinId": "jupiter-exchange-solana",
-      "rank": 81,
-      "stratId": "sM",
-      "entryPrice": 0.2521,
-      "entryTime": 1788689252046,
-      "entryDate": "2026-09-06T10:07:32.046Z",
-      "entrySignal": "Пробой 20d max $0.2459 на +2.5% · Объём x1.5 · RSI=66",
-      "strength": 77,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "ONDO_sE_1788699415891",
-      "symbol": "ONDO",
-      "name": "Ondo",
-      "coinId": "ondo-finance",
-      "rank": 48,
-      "stratId": "sE",
-      "entryPrice": 0.3802,
-      "entryTime": 1788699415891,
-      "entryDate": "2026-09-06T12:56:55.891Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.3631 > EMA21=0.3613 · RSI=55 · Vol x1.2",
-      "strength": 84,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "RENDER_sE_1788699431094",
       "symbol": "RENDER",
       "name": "Render",
@@ -342,6 +308,52 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ONDO_sE_1788699415891",
+      "symbol": "ONDO",
+      "name": "Ondo",
+      "coinId": "ondo-finance",
+      "rank": 48,
+      "stratId": "sE",
+      "entryPrice": 0.3802,
+      "entryTime": 1788699415891,
+      "entryDate": "2026-09-06T12:56:55.891Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.3631 > EMA21=0.3613 · RSI=55 · Vol x1.2",
+      "strength": 84,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.3572,
+      "exitTime": 1788994048815,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.049447659126766,
+      "pnlUsd": -6.049447659126766,
+      "total": 93.95055234087323
+    },
+    {
+      "id": "JUP_sM_1788689252046",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "coinId": "jupiter-exchange-solana",
+      "rank": 81,
+      "stratId": "sM",
+      "entryPrice": 0.2521,
+      "entryTime": 1788689252046,
+      "entryDate": "2026-09-06T10:07:32.046Z",
+      "entrySignal": "Пробой 20d max $0.2459 на +2.5% · Объём x1.5 · RSI=66",
+      "strength": 77,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.232,
+      "exitTime": 1788994047802,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.973026576755247,
+      "pnlUsd": -7.973026576755248,
+      "total": 92.02697342324475
+    },
     {
       "id": "FLR_sE_1788256359437",
       "symbol": "FLR",
@@ -8620,7 +8632,7 @@
     "RAIN_sE": 1788212259153,
     "WLD_sM": 1780648179526,
     "NIGHT_sE": 1783252446162,
-    "ONDO_sE": 1788699415891,
+    "ONDO_sE": 1789073248815,
     "ZEC_sE": 1787294162681,
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1787053704198,
@@ -8685,23 +8697,23 @@
     "CRV_sM": 1788272434693,
     "DOT_sE": 1788431604385,
     "DASH_sM": 1788518102262,
-    "JUP_sM": 1788689252046,
+    "JUP_sM": 1789073247802,
     "TAO_sM": 1788761447877,
     "DOT_sM": 1788950263097,
     "RAIN_sR": 1788987092382
   },
-  "scanCount": 2368,
+  "scanCount": 2369,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-09T20:51:33.381Z",
+  "lastScan": "2026-09-09T22:48:01.437Z",
   "lastReport": "2026-09-09T20:18:21.423Z",
   "marketRegime": "BULL",
   "fearGreed": 66,
   "totalStats": {
-    "trades": 357,
+    "trades": 359,
     "wins": 127,
-    "losses": 230,
-    "totalPnl": 166.7552185179873,
-    "invested": 35700
+    "losses": 232,
+    "totalPnl": 152.73274428210527,
+    "invested": 35900
   },
   "byStrategy": {
     "sR": {
@@ -8710,14 +8722,14 @@
       "pnl": -82.85432256798977
     },
     "sE": {
-      "trades": 197,
+      "trades": 198,
       "wins": 63,
-      "pnl": 112.89344620211023
+      "pnl": 106.84399854298346
     },
     "sM": {
-      "trades": 43,
+      "trades": 44,
       "wins": 19,
-      "pnl": 136.716094883867
+      "pnl": 128.74306830711174
     }
   },
   "byRegime": {
@@ -8728,14 +8740,14 @@
         "pnl": 25.76601750631268
       },
       "sE": {
-        "trades": 25,
+        "trades": 26,
         "wins": 7,
-        "pnl": 11.307670490298698
+        "pnl": 5.258222831171931
       },
       "sM": {
-        "trades": 8,
+        "trades": 9,
         "wins": 4,
-        "pnl": 75.49884094927098
+        "pnl": 67.52581437251574
       }
     },
     "NEUTRAL": {
