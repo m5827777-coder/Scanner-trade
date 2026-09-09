@@ -103,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "FLR_sE_1788256359437",
-      "symbol": "FLR",
-      "name": "Flare",
-      "coinId": "flare-networks",
-      "rank": 93,
-      "stratId": "sE",
-      "entryPrice": 0.006776,
-      "entryTime": 1788256359437,
-      "entryDate": "2026-09-01T09:52:39.437Z",
-      "entrySignal": "EMA начало расхождения · EMA9=0.0067 > EMA21=0.0065 · RSI=54 · Vol x6.2",
-      "strength": 84,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "CRV_sM_1788272434693",
       "symbol": "CRV",
       "name": "Curve DAO",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "FLR_sE_1788256359437",
+      "symbol": "FLR",
+      "name": "Flare",
+      "coinId": "flare-networks",
+      "rank": 93,
+      "stratId": "sE",
+      "entryPrice": 0.006776,
+      "entryTime": 1788256359437,
+      "entryDate": "2026-09-01T09:52:39.437Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.0067 > EMA21=0.0065 · RSI=54 · Vol x6.2",
+      "strength": 84,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.006394,
+      "exitTime": 1788976900589,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -5.637544273907904,
+      "pnlUsd": -5.637544273907904,
+      "total": 94.3624557260921
+    },
     {
       "id": "ZEC_sM_1788532236248",
       "symbol": "ZEC",
@@ -8666,18 +8672,18 @@
     "TAO_sM": 1788761447877,
     "DOT_sM": 1788950263097
   },
-  "scanCount": 2365,
+  "scanCount": 2366,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-09T15:46:31.657Z",
+  "lastScan": "2026-09-09T18:02:16.294Z",
   "lastReport": "2026-09-09T15:46:31.657Z",
   "marketRegime": "BULL",
   "fearGreed": 66,
   "totalStats": {
-    "trades": 356,
+    "trades": 357,
     "wins": 127,
-    "losses": 229,
-    "totalPnl": 172.3927627918952,
-    "invested": 35600
+    "losses": 230,
+    "totalPnl": 166.7552185179873,
+    "invested": 35700
   },
   "byStrategy": {
     "sR": {
@@ -8686,9 +8692,9 @@
       "pnl": -82.85432256798977
     },
     "sE": {
-      "trades": 196,
+      "trades": 197,
       "wins": 63,
-      "pnl": 118.53099047601813
+      "pnl": 112.89344620211023
     },
     "sM": {
       "trades": 43,
@@ -8704,9 +8710,9 @@
         "pnl": 25.76601750631268
       },
       "sE": {
-        "trades": 24,
+        "trades": 25,
         "wins": 7,
-        "pnl": 16.9452147642066
+        "pnl": 11.307670490298698
       },
       "sM": {
         "trades": 8,
