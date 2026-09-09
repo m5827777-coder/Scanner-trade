@@ -322,6 +322,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "RAIN_sR_1788987092382",
+      "symbol": "RAIN",
+      "name": "Rain",
+      "coinId": "rain",
+      "rank": 13,
+      "stratId": "sR",
+      "entryPrice": 0.015921858940776197,
+      "entryTime": 1788987092382,
+      "entryDate": "2026-09-09T20:51:32.382Z",
+      "entrySignal": "Ротация #13 RAIN: BTC Dom=58.5% · Коррекция -10.1% · RSI=52",
+      "strength": 60,
+      "regime": "BULL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8670,11 +8687,12 @@
     "DASH_sM": 1788518102262,
     "JUP_sM": 1788689252046,
     "TAO_sM": 1788761447877,
-    "DOT_sM": 1788950263097
+    "DOT_sM": 1788950263097,
+    "RAIN_sR": 1788987092382
   },
-  "scanCount": 2367,
+  "scanCount": 2368,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-09T20:18:21.423Z",
+  "lastScan": "2026-09-09T20:51:33.381Z",
   "lastReport": "2026-09-09T20:18:21.423Z",
   "marketRegime": "BULL",
   "fearGreed": 66,
@@ -8789,5 +8807,5 @@
       }
     }
   },
-  "btcDominance": 58.4
+  "btcDominance": 58.5
 }
