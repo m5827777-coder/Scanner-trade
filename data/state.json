@@ -171,23 +171,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ZEC_sM_1788532236248",
-      "symbol": "ZEC",
-      "name": "Zcash",
-      "coinId": "zcash",
-      "rank": 11,
-      "stratId": "sM",
-      "entryPrice": 985.75,
-      "entryTime": 1788532236248,
-      "entryDate": "2026-09-04T14:30:36.248Z",
-      "entrySignal": "Пробой 20d max $888.5700 на +10.9% · Объём x1.9 · RSI=78",
-      "strength": 93,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "CC_sR_1788600272458",
       "symbol": "CC",
       "name": "Canton",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "DOT_sM_1788950263097",
+      "symbol": "DOT",
+      "name": "Polkadot",
+      "coinId": "polkadot",
+      "rank": 46,
+      "stratId": "sM",
+      "entryPrice": 1.1751,
+      "entryTime": 1788950263097,
+      "entryDate": "2026-09-09T10:37:43.097Z",
+      "entrySignal": "Пробой 20d max $1.0898 на +7.8% · Объём x2.3 · RSI=75",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "ZEC_sM_1788532236248",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 11,
+      "stratId": "sM",
+      "entryPrice": 985.75,
+      "entryTime": 1788532236248,
+      "entryDate": "2026-09-04T14:30:36.248Z",
+      "entrySignal": "Пробой 20d max $888.5700 на +10.9% · Объём x1.9 · RSI=78",
+      "strength": 93,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1243,
+      "exitTime": 1788950245684,
+      "exitReason": "✅ TP +25%",
+      "pnl": 26.09688054780624,
+      "pnlUsd": 26.09688054780624,
+      "total": 126.09688054780624
+    },
     {
       "id": "LINK_sM_1788761439144",
       "symbol": "LINK",
@@ -8640,20 +8663,21 @@
     "DOT_sE": 1788431604385,
     "DASH_sM": 1788518102262,
     "JUP_sM": 1788689252046,
-    "TAO_sM": 1788761447877
+    "TAO_sM": 1788761447877,
+    "DOT_sM": 1788950263097
   },
-  "scanCount": 2361,
+  "scanCount": 2362,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-09T05:57:58.966Z",
-  "lastReport": "2026-09-09T02:39:27.857Z",
+  "lastScan": "2026-09-09T10:37:44.575Z",
+  "lastReport": "2026-09-09T10:37:44.575Z",
   "marketRegime": "BULL",
   "fearGreed": 66,
   "totalStats": {
-    "trades": 355,
-    "wins": 126,
+    "trades": 356,
+    "wins": 127,
     "losses": 229,
-    "totalPnl": 146.29588224408894,
-    "invested": 35500
+    "totalPnl": 172.3927627918952,
+    "invested": 35600
   },
   "byStrategy": {
     "sR": {
@@ -8667,9 +8691,9 @@
       "pnl": 118.53099047601813
     },
     "sM": {
-      "trades": 42,
-      "wins": 18,
-      "pnl": 110.61921433606075
+      "trades": 43,
+      "wins": 19,
+      "pnl": 136.716094883867
     }
   },
   "byRegime": {
@@ -8685,9 +8709,9 @@
         "pnl": 16.9452147642066
       },
       "sM": {
-        "trades": 7,
-        "wins": 3,
-        "pnl": 49.40196040146474
+        "trades": 8,
+        "wins": 4,
+        "pnl": 75.49884094927098
       }
     },
     "NEUTRAL": {
@@ -8759,5 +8783,5 @@
       }
     }
   },
-  "btcDominance": 58.4
+  "btcDominance": 59
 }

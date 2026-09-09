@@ -136530,3 +136530,43 @@
 [2026-09-09 05:57:58 UTC] ✅ Данные: 0 токенов OK, 0 недоступно | Открыто: 0 | Всего: 20
 [2026-09-09 05:57:59 UTC] 
 📊 ИТОГ: WR=35.5% PnL=$146.30 Trades=355
+[2026-09-09 10:37:23 UTC] ════════════════════════════════════════════════════
+[2026-09-09 10:37:23 UTC] 🤖 Bot v6 | action=scan | report=true
+[2026-09-09 10:37:23 UTC] ════════════════════════════════════════════════════
+[2026-09-09 10:37:23 UTC] 📡 Scan #2362
+[2026-09-09 10:37:23 UTC] 📊 BTC Dom=59%
+[2026-09-09 10:37:23 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-09 10:37:24 UTC] 🌡 F&G=66 Regime=BULL Open=20
+[2026-09-09 10:37:24 UTC]   📂 HOLD SKY/sM PnL=+9.42%
+[2026-09-09 10:37:24 UTC]   📂 HOLD BNB/sM PnL=+10.45%
+[2026-09-09 10:37:24 UTC]   📂 HOLD HYPE/sM PnL=+4.60%
+[2026-09-09 10:37:24 UTC]   📂 HOLD LTC/sE PnL=+5.74%
+[2026-09-09 10:37:24 UTC]   📂 HOLD HBAR/sE PnL=+3.09%
+[2026-09-09 10:37:24 UTC]   📂 HOLD XMR/sM PnL=-3.33%
+[2026-09-09 10:37:25 UTC]   📂 HOLD FLR/sE PnL=-4.43%
+[2026-09-09 10:37:25 UTC]   📂 HOLD CRV/sM PnL=-1.64%
+[2026-09-09 10:37:25 UTC]   📂 HOLD FIL/sE PnL=+5.37%
+[2026-09-09 10:37:25 UTC]   📂 HOLD ALGO/sE PnL=+3.62%
+[2026-09-09 10:37:25 UTC]   ✅ CLOSE ZEC/sM: ✅ TP +25% PnL=+26.10% held=4д 20ч
+[2026-09-09 10:37:26 UTC]   📂 HOLD CC/sR PnL=-1.36%
+[2026-09-09 10:37:26 UTC]   📂 HOLD NEAR/sM PnL=+13.37%
+[2026-09-09 10:37:27 UTC]   📂 HOLD JUP/sM PnL=-1.47%
+[2026-09-09 10:37:27 UTC]   📂 HOLD ONDO/sE PnL=-1.24%
+[2026-09-09 10:37:27 UTC]   📂 HOLD RENDER/sE PnL=+0.33%
+[2026-09-09 10:37:27 UTC]   📂 HOLD TAO/sM PnL=-3.39%
+[2026-09-09 10:37:27 UTC]   📂 HOLD XLM/sE PnL=-1.89%
+[2026-09-09 10:37:27 UTC]   📂 HOLD INJ/sM PnL=+0.55%
+[2026-09-09 10:37:27 UTC]   📂 HOLD CRO/sE PnL=-0.05%
+[2026-09-09 10:37:27 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-09 10:37:27 UTC] ✓ CoinGecko: 82 токенов. Проверяю входы...
+[2026-09-09 10:37:33 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-09-09 10:37:33 UTC]   ⏭ XMR: нет данных (monero)
+[2026-09-09 10:37:40 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-09-09 10:37:40 UTC]   ⏭ M: нет данных (memecore)
+[2026-09-09 10:37:42 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-09-09 10:37:43 UTC]   📈 ENTRY DOT/sM [BULL_TREND] via OKX: Пробой 20d max $1.0898 на +7.8% · Объём x2.3 · RSI=75 @ $1.1751
+[2026-09-09 10:37:44 UTC] ✅ Данные: 31 токенов OK, 5 недоступно | Открыто: 1 | Всего: 20
+[2026-09-09 10:37:45 UTC] [EMAIL] ✅ → m5827777@gmail.com
+[2026-09-09 10:37:45 UTC] 📧 6h report sent
+[2026-09-09 10:37:45 UTC] 
+📊 ИТОГ: WR=35.7% PnL=$172.39 Trades=356
