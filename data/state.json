@@ -154,40 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "RENDER_sE_1788699431094",
-      "symbol": "RENDER",
-      "name": "Render",
-      "coinId": "render-token",
-      "rank": 86,
-      "stratId": "sE",
-      "entryPrice": 1.511,
-      "entryTime": 1788699431094,
-      "entryDate": "2026-09-06T12:57:11.094Z",
-      "entrySignal": "EMA начало расхождения · EMA9=1.4620 > EMA21=1.4375 · RSI=57 · Vol x1.2",
-      "strength": 75,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "TAO_sM_1788761447877",
-      "symbol": "TAO",
-      "name": "Bittensor",
-      "coinId": "bittensor",
-      "rank": 40,
-      "stratId": "sM",
-      "entryPrice": 268.7,
-      "entryTime": 1788761447877,
-      "entryDate": "2026-09-07T06:10:47.877Z",
-      "entrySignal": "Пробой 20d max $261.2000 на +2.9% · Объём x1.6 · RSI=68",
-      "strength": 79,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "INJ_sM_1788814077154",
       "symbol": "INJ",
       "name": "Injective",
@@ -199,23 +165,6 @@
       "entryDate": "2026-09-07T20:47:57.154Z",
       "entrySignal": "Пробой 20d max $6.0450 на +2.1% · Объём x1.5 · RSI=66",
       "strength": 76,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "DOT_sM_1788950263097",
-      "symbol": "DOT",
-      "name": "Polkadot",
-      "coinId": "polkadot",
-      "rank": 46,
-      "stratId": "sM",
-      "entryPrice": 1.1751,
-      "entryTime": 1788950263097,
-      "entryDate": "2026-09-09T10:37:43.097Z",
-      "entrySignal": "Пробой 20d max $1.0898 на +7.8% · Объём x2.3 · RSI=75",
-      "strength": 95,
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
@@ -237,9 +186,95 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "PI_sE_1789048243520",
+      "symbol": "PI",
+      "name": "Pi Network",
+      "coinId": "pi-network",
+      "rank": 71,
+      "stratId": "sE",
+      "entryPrice": 0.09647,
+      "entryTime": 1789048243520,
+      "entryDate": "2026-09-10T13:50:43.520Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.0951 > EMA21=0.0932 · RSI=60 · Vol x1.1",
+      "strength": 69,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "DOT_sM_1788950263097",
+      "symbol": "DOT",
+      "name": "Polkadot",
+      "coinId": "polkadot",
+      "rank": 46,
+      "stratId": "sM",
+      "entryPrice": 1.1751,
+      "entryTime": 1788950263097,
+      "entryDate": "2026-09-09T10:37:43.097Z",
+      "entrySignal": "Пробой 20d max $1.0898 на +7.8% · Объём x2.3 · RSI=75",
+      "strength": 95,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.087,
+      "exitTime": 1789048219637,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.497234277933798,
+      "pnlUsd": -7.497234277933798,
+      "total": 92.5027657220662
+    },
+    {
+      "id": "TAO_sM_1788761447877",
+      "symbol": "TAO",
+      "name": "Bittensor",
+      "coinId": "bittensor",
+      "rank": 40,
+      "stratId": "sM",
+      "entryPrice": 268.7,
+      "entryTime": 1788761447877,
+      "entryDate": "2026-09-07T06:10:47.877Z",
+      "entrySignal": "Пробой 20d max $261.2000 на +2.9% · Объём x1.6 · RSI=68",
+      "strength": 79,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 242.6,
+      "exitTime": 1789048218747,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -9.71343505768515,
+      "pnlUsd": -9.71343505768515,
+      "total": 90.28656494231485
+    },
+    {
+      "id": "RENDER_sE_1788699431094",
+      "symbol": "RENDER",
+      "name": "Render",
+      "coinId": "render-token",
+      "rank": 86,
+      "stratId": "sE",
+      "entryPrice": 1.511,
+      "entryTime": 1788699431094,
+      "entryDate": "2026-09-06T12:57:11.094Z",
+      "entrySignal": "EMA начало расхождения · EMA9=1.4620 > EMA21=1.4375 · RSI=57 · Vol x1.2",
+      "strength": 75,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.408,
+      "exitTime": 1789048217659,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.816677696889477,
+      "pnlUsd": -6.816677696889477,
+      "total": 93.18332230311053
+    },
     {
       "id": "CRO_sE_1788877754817",
       "symbol": "CRO",
@@ -8634,7 +8669,7 @@
     "SUI_sR": 1779554020771,
     "ASTER_sE": 1781832270812,
     "NEAR_sM": 1788600277122,
-    "RENDER_sE": 1788699431094,
+    "RENDER_sE": 1789127417659,
     "XMR_sE": 1785969350861,
     "ZEC_sM": 1788532236248,
     "ICP_sR": 1779986502655,
@@ -8722,22 +8757,23 @@
     "DOT_sE": 1788431604385,
     "DASH_sM": 1788518102262,
     "JUP_sM": 1789073247802,
-    "TAO_sM": 1788761447877,
-    "DOT_sM": 1788950263097,
-    "RAIN_sR": 1788987092382
+    "TAO_sM": 1789127418747,
+    "DOT_sM": 1789127419637,
+    "RAIN_sR": 1788987092382,
+    "PI_sE": 1789048243520
   },
-  "scanCount": 2374,
+  "scanCount": 2375,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-10T10:25:46.195Z",
+  "lastScan": "2026-09-10T13:50:53.274Z",
   "lastReport": "2026-09-10T10:25:46.195Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
-    "trades": 363,
+    "trades": 366,
     "wins": 127,
-    "losses": 236,
-    "totalPnl": 126.08457745060277,
-    "invested": 36300
+    "losses": 239,
+    "totalPnl": 102.05723041809435,
+    "invested": 36600
   },
   "byStrategy": {
     "sR": {
@@ -8746,14 +8782,14 @@
       "pnl": -89.21376957259807
     },
     "sE": {
-      "trades": 200,
+      "trades": 201,
       "wins": 63,
-      "pnl": 94.6611739125958
+      "pnl": 87.84449621570633
     },
     "sM": {
-      "trades": 45,
+      "trades": 47,
       "wins": 19,
-      "pnl": 120.63717311060519
+      "pnl": 103.42650377498624
     }
   },
   "byRegime": {
@@ -8764,14 +8800,14 @@
         "pnl": 19.40657050170438
       },
       "sE": {
-        "trades": 28,
+        "trades": 29,
         "wins": 7,
-        "pnl": -6.924601799215722
+        "pnl": -13.7412794961052
       },
       "sM": {
-        "trades": 10,
+        "trades": 12,
         "wins": 4,
-        "pnl": 59.41991917600919
+        "pnl": 42.20924984039024
       }
     },
     "NEUTRAL": {
@@ -8843,5 +8879,5 @@
       }
     }
   },
-  "btcDominance": 58.6
+  "btcDominance": 58.5
 }
