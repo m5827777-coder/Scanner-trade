@@ -103,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "CRV_sM_1788272434693",
-      "symbol": "CRV",
-      "name": "Curve DAO",
-      "coinId": "curve-dao-token",
-      "rank": 98,
-      "stratId": "sM",
-      "entryPrice": 0.3664,
-      "entryTime": 1788272434693,
-      "entryDate": "2026-09-01T14:20:34.693Z",
-      "entrySignal": "Пробой 20d max $0.3539 на +3.5% · Объём x1.9 · RSI=73",
-      "strength": 86,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FIL_sE_1788293473879",
       "symbol": "FIL",
       "name": "Filecoin",
@@ -148,23 +131,6 @@
       "entryDate": "2026-09-03T15:39:17.432Z",
       "entrySignal": "EMA начало расхождения · EMA9=0.0895 > EMA21=0.0879 · RSI=62 · Vol x1.4",
       "strength": 77,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "CC_sR_1788600272458",
-      "symbol": "CC",
-      "name": "Canton",
-      "coinId": "canton-network",
-      "rank": 24,
-      "stratId": "sR",
-      "entryPrice": 0.1085,
-      "entryTime": 1788600272458,
-      "entryDate": "2026-09-05T09:24:32.458Z",
-      "entrySignal": "Ротация #24 CC: BTC Dom=59% · Коррекция -13.4% · RSI=47",
-      "strength": 62,
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
@@ -239,23 +205,6 @@
       "peakPnl": 0
     },
     {
-      "id": "CRO_sE_1788877754817",
-      "symbol": "CRO",
-      "name": "Cronos",
-      "coinId": "crypto-com-chain",
-      "rank": 34,
-      "stratId": "sE",
-      "entryPrice": 0.06045,
-      "entryTime": 1788877754817,
-      "entryDate": "2026-09-08T14:29:14.817Z",
-      "entrySignal": "EMA начало расхождения · EMA9=0.0575 > EMA21=0.0564 · RSI=60 · Vol x3.5",
-      "strength": 84,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "DOT_sM_1788950263097",
       "symbol": "DOT",
       "name": "Polkadot",
@@ -291,6 +240,75 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "CRO_sE_1788877754817",
+      "symbol": "CRO",
+      "name": "Cronos",
+      "coinId": "crypto-com-chain",
+      "rank": 34,
+      "stratId": "sE",
+      "entryPrice": 0.06045,
+      "entryTime": 1788877754817,
+      "entryDate": "2026-09-08T14:29:14.817Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.0575 > EMA21=0.0564 · RSI=60 · Vol x3.5",
+      "strength": 84,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.05677,
+      "exitTime": 1789033442560,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.087675765095113,
+      "pnlUsd": -6.087675765095114,
+      "total": 93.91232423490489
+    },
+    {
+      "id": "CC_sR_1788600272458",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 24,
+      "stratId": "sR",
+      "entryPrice": 0.1085,
+      "entryTime": 1788600272458,
+      "entryDate": "2026-09-05T09:24:32.458Z",
+      "entrySignal": "Ротация #24 CC: BTC Dom=59% · Коррекция -13.4% · RSI=47",
+      "strength": 62,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.1016,
+      "exitTime": 1789033441085,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -6.359447004608299,
+      "pnlUsd": -6.359447004608298,
+      "total": 93.6405529953917
+    },
+    {
+      "id": "CRV_sM_1788272434693",
+      "symbol": "CRV",
+      "name": "Curve DAO",
+      "coinId": "curve-dao-token",
+      "rank": 98,
+      "stratId": "sM",
+      "entryPrice": 0.3664,
+      "entryTime": 1788272434693,
+      "entryDate": "2026-09-01T14:20:34.693Z",
+      "entrySignal": "Пробой 20d max $0.3539 на +3.5% · Объём x1.9 · RSI=73",
+      "strength": 86,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.3367,
+      "exitTime": 1789033439643,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -8.105895196506552,
+      "pnlUsd": -8.105895196506552,
+      "total": 91.89410480349345
+    },
     {
       "id": "XLM_sE_1788780122896",
       "symbol": "XLM",
@@ -8581,7 +8599,7 @@
     "UNI_sR": 1779554027073,
     "DOT_sR": 1779554029231,
     "AAVE_sR": 1780482653547,
-    "CC_sR": 1788600272458,
+    "CC_sR": 1789112641085,
     "ETC_sR": 1780495960103,
     "ENA_sR": 1780207944941,
     "ALGO_sR": 1779912519969,
@@ -8666,7 +8684,7 @@
     "LINK_sE": 1786439600143,
     "ENA_sE": 1787841275487,
     "SUI_sE": 1787536936203,
-    "CRO_sE": 1788877754817,
+    "CRO_sE": 1789112642560,
     "INJ_sE": 1787835568270,
     "PUMP_sM": 1786067830795,
     "BTC_sE": 1787149522773,
@@ -8700,7 +8718,7 @@
     "RAIN_sM": 1787791182012,
     "XMR_sM": 1788189662271,
     "ARB_sM": 1788232160296,
-    "CRV_sM": 1788272434693,
+    "CRV_sM": 1789112639643,
     "DOT_sE": 1788431604385,
     "DASH_sM": 1788518102262,
     "JUP_sM": 1789073247802,
@@ -8708,52 +8726,52 @@
     "DOT_sM": 1788950263097,
     "RAIN_sR": 1788987092382
   },
-  "scanCount": 2372,
+  "scanCount": 2373,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-10T05:13:59.034Z",
-  "lastReport": "2026-09-10T02:42:42.567Z",
+  "lastScan": "2026-09-10T09:44:40.958Z",
+  "lastReport": "2026-09-10T09:44:40.958Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
-    "trades": 360,
+    "trades": 363,
     "wins": 127,
-    "losses": 233,
-    "totalPnl": 146.63759541681273,
-    "invested": 36000
+    "losses": 236,
+    "totalPnl": 126.08457745060277,
+    "invested": 36300
   },
   "byStrategy": {
     "sR": {
-      "trades": 117,
+      "trades": 118,
       "wins": 45,
-      "pnl": -82.85432256798977
+      "pnl": -89.21376957259807
     },
     "sE": {
-      "trades": 199,
+      "trades": 200,
       "wins": 63,
-      "pnl": 100.74884967769091
+      "pnl": 94.6611739125958
     },
     "sM": {
-      "trades": 44,
+      "trades": 45,
       "wins": 19,
-      "pnl": 128.74306830711174
+      "pnl": 120.63717311060519
     }
   },
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 12,
+        "trades": 13,
         "wins": 6,
-        "pnl": 25.76601750631268
+        "pnl": 19.40657050170438
       },
       "sE": {
-        "trades": 27,
+        "trades": 28,
         "wins": 7,
-        "pnl": -0.8369260341206077
+        "pnl": -6.924601799215722
       },
       "sM": {
-        "trades": 9,
+        "trades": 10,
         "wins": 4,
-        "pnl": 67.52581437251574
+        "pnl": 59.41991917600919
       }
     },
     "NEUTRAL": {
