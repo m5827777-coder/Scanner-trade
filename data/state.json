@@ -8708,10 +8708,10 @@
     "DOT_sM": 1788950263097,
     "RAIN_sR": 1788987092382
   },
-  "scanCount": 2370,
+  "scanCount": 2371,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-10T00:39:07.571Z",
-  "lastReport": "2026-09-09T20:18:21.423Z",
+  "lastScan": "2026-09-10T02:42:42.567Z",
+  "lastReport": "2026-09-10T02:42:42.567Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
@@ -8825,5 +8825,5 @@
       }
     }
   },
-  "btcDominance": 58.6
+  "btcDominance": 58.5
 }
