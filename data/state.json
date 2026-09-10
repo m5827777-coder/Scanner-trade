@@ -222,23 +222,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XLM_sE_1788780122896",
-      "symbol": "XLM",
-      "name": "Stellar",
-      "coinId": "stellar",
-      "rank": 19,
-      "stratId": "sE",
-      "entryPrice": 0.19212,
-      "entryTime": 1788780122896,
-      "entryDate": "2026-09-07T11:22:02.896Z",
-      "entrySignal": "EMA начало расхождения · EMA9=0.1835 > EMA21=0.1804 · RSI=59 · Vol x1.7",
-      "strength": 80,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "INJ_sM_1788814077154",
       "symbol": "INJ",
       "name": "Injective",
@@ -308,6 +291,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "XLM_sE_1788780122896",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 19,
+      "stratId": "sE",
+      "entryPrice": 0.19212,
+      "entryTime": 1788780122896,
+      "entryDate": "2026-09-07T11:22:02.896Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.1835 > EMA21=0.1804 · RSI=59 · Vol x1.7",
+      "strength": 80,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.18041,
+      "exitTime": 1789000708049,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.095148865292539,
+      "pnlUsd": -6.095148865292539,
+      "total": 93.90485113470746
+    },
     {
       "id": "ONDO_sE_1788699415891",
       "symbol": "ONDO",
@@ -8622,7 +8628,7 @@
     "FET_sE": 1780634934681,
     "ICP_sE": 1786374593092,
     "FIL_sE": 1788293473879,
-    "XLM_sE": 1788780122896,
+    "XLM_sE": 1789079908049,
     "INJ_sM": 1788814077154,
     "HBAR_sE": 1787412380090,
     "ALGO_sE": 1788449957432,
@@ -8702,18 +8708,18 @@
     "DOT_sM": 1788950263097,
     "RAIN_sR": 1788987092382
   },
-  "scanCount": 2369,
+  "scanCount": 2370,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-09T22:48:01.437Z",
+  "lastScan": "2026-09-10T00:39:07.571Z",
   "lastReport": "2026-09-09T20:18:21.423Z",
   "marketRegime": "BULL",
-  "fearGreed": 66,
+  "fearGreed": 69,
   "totalStats": {
-    "trades": 359,
+    "trades": 360,
     "wins": 127,
-    "losses": 232,
-    "totalPnl": 152.73274428210527,
-    "invested": 35900
+    "losses": 233,
+    "totalPnl": 146.63759541681273,
+    "invested": 36000
   },
   "byStrategy": {
     "sR": {
@@ -8722,9 +8728,9 @@
       "pnl": -82.85432256798977
     },
     "sE": {
-      "trades": 198,
+      "trades": 199,
       "wins": 63,
-      "pnl": 106.84399854298346
+      "pnl": 100.74884967769091
     },
     "sM": {
       "trades": 44,
@@ -8740,9 +8746,9 @@
         "pnl": 25.76601750631268
       },
       "sE": {
-        "trades": 26,
+        "trades": 27,
         "wins": 7,
-        "pnl": 5.258222831171931
+        "pnl": -0.8369260341206077
       },
       "sM": {
         "trades": 9,
@@ -8819,5 +8825,5 @@
       }
     }
   },
-  "btcDominance": 58.5
+  "btcDominance": 58.6
 }
