@@ -8780,10 +8780,10 @@
     "PI_sE": 1789048243520,
     "ETHFI_sM": 1789054934976
   },
-  "scanCount": 2378,
+  "scanCount": 2379,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-10T19:46:56.387Z",
-  "lastReport": "2026-09-10T15:42:18.828Z",
+  "lastScan": "2026-09-10T20:20:33.852Z",
+  "lastReport": "2026-09-10T20:20:33.852Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
