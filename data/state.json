@@ -220,6 +220,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ADA_sR_1789083465409",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 19,
+      "stratId": "sR",
+      "entryPrice": 0.2057,
+      "entryTime": 1789083465409,
+      "entryDate": "2026-09-10T23:37:45.409Z",
+      "entrySignal": "Ротация #19 ADA: BTC Dom=58.5% · Коррекция -10.3% · RSI=48",
+      "strength": 62,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8644,7 +8661,7 @@
   ],
   "cooldowns": {
     "SOL_sR": 1780495956417,
-    "ADA_sR": 1788285125116,
+    "ADA_sR": 1789083465409,
     "HYPE_sR": 1784322736769,
     "BCH_sR": 1785083422109,
     "XLM_sR": 1788285126381,
@@ -8780,9 +8797,9 @@
     "PI_sE": 1789048243520,
     "ETHFI_sM": 1789054934976
   },
-  "scanCount": 2380,
+  "scanCount": 2381,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-10T21:56:55.843Z",
+  "lastScan": "2026-09-10T23:38:14.033Z",
   "lastReport": "2026-09-10T20:20:33.852Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
