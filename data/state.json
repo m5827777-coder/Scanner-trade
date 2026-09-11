@@ -205,23 +205,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ETHFI_sM_1789054934976",
-      "symbol": "ETHFI",
-      "name": "Ether.fi",
-      "coinId": "ether-fi",
-      "rank": 94,
-      "stratId": "sM",
-      "entryPrice": 0.6862,
-      "entryTime": 1789054934976,
-      "entryDate": "2026-09-10T15:42:14.976Z",
-      "entrySignal": "Пробой 20d max $0.6568 на +4.5% · Объём x3.2 · RSI=70",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ADA_sR_1789083465409",
       "symbol": "ADA",
       "name": "Cardano",
@@ -240,6 +223,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ETHFI_sM_1789054934976",
+      "symbol": "ETHFI",
+      "name": "Ether.fi",
+      "coinId": "ether-fi",
+      "rank": 94,
+      "stratId": "sM",
+      "entryPrice": 0.6862,
+      "entryTime": 1789054934976,
+      "entryDate": "2026-09-10T15:42:14.976Z",
+      "entrySignal": "Пробой 20d max $0.6568 на +4.5% · Объём x3.2 · RSI=70",
+      "strength": 95,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.6204,
+      "exitTime": 1789126270090,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -9.589041095890423,
+      "pnlUsd": -9.589041095890423,
+      "total": 90.41095890410958
+    },
     {
       "id": "DOT_sM_1788950263097",
       "symbol": "DOT",
@@ -8795,20 +8801,20 @@
     "DOT_sM": 1789127419637,
     "RAIN_sR": 1788987092382,
     "PI_sE": 1789048243520,
-    "ETHFI_sM": 1789054934976
+    "ETHFI_sM": 1789205470090
   },
-  "scanCount": 2385,
+  "scanCount": 2386,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-11T10:28:04.606Z",
+  "lastScan": "2026-09-11T11:31:48.286Z",
   "lastReport": "2026-09-11T10:28:04.605Z",
   "marketRegime": "BULL",
   "fearGreed": 56,
   "totalStats": {
-    "trades": 366,
+    "trades": 367,
     "wins": 127,
-    "losses": 239,
-    "totalPnl": 102.05723041809435,
-    "invested": 36600
+    "losses": 240,
+    "totalPnl": 92.46818932220393,
+    "invested": 36700
   },
   "byStrategy": {
     "sR": {
@@ -8822,9 +8828,9 @@
       "pnl": 87.84449621570633
     },
     "sM": {
-      "trades": 47,
+      "trades": 48,
       "wins": 19,
-      "pnl": 103.42650377498624
+      "pnl": 93.83746267909582
     }
   },
   "byRegime": {
@@ -8840,9 +8846,9 @@
         "pnl": -13.7412794961052
       },
       "sM": {
-        "trades": 12,
+        "trades": 13,
         "wins": 4,
-        "pnl": 42.20924984039024
+        "pnl": 32.62020874449982
       }
     },
     "NEUTRAL": {
