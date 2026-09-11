@@ -220,6 +220,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ETH_sM_1789139355048",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "coinId": "ethereum",
+      "rank": 2,
+      "stratId": "sM",
+      "entryPrice": 2608.66,
+      "entryTime": 1789139355048,
+      "entryDate": "2026-09-11T15:09:15.048Z",
+      "entrySignal": "Пробой 20d max $2566.4600 на +1.6% · Объём x2.0 · RSI=70",
+      "strength": 84,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8801,11 +8818,12 @@
     "DOT_sM": 1789127419637,
     "RAIN_sR": 1788987092382,
     "PI_sE": 1789048243520,
-    "ETHFI_sM": 1789205470090
+    "ETHFI_sM": 1789205470090,
+    "ETH_sM": 1789139355049
   },
-  "scanCount": 2386,
+  "scanCount": 2387,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-11T11:31:48.286Z",
+  "lastScan": "2026-09-11T15:09:53.523Z",
   "lastReport": "2026-09-11T10:28:04.605Z",
   "marketRegime": "BULL",
   "fearGreed": 56,
@@ -8920,5 +8938,5 @@
       }
     }
   },
-  "btcDominance": 58.5
+  "btcDominance": 58.3
 }
