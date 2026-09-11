@@ -154,23 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "INJ_sM_1788814077154",
-      "symbol": "INJ",
-      "name": "Injective",
-      "coinId": "injective-protocol",
-      "rank": 93,
-      "stratId": "sM",
-      "entryPrice": 6.17,
-      "entryTime": 1788814077154,
-      "entryDate": "2026-09-07T20:47:57.154Z",
-      "entrySignal": "Пробой 20d max $6.0450 на +2.1% · Объём x1.5 · RSI=66",
-      "strength": 76,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "RAIN_sR_1788987092382",
       "symbol": "RAIN",
       "name": "Rain",
@@ -257,6 +240,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "INJ_sM_1788814077154",
+      "symbol": "INJ",
+      "name": "Injective",
+      "coinId": "injective-protocol",
+      "rank": 93,
+      "stratId": "sM",
+      "entryPrice": 6.17,
+      "entryTime": 1788814077154,
+      "entryDate": "2026-09-07T20:47:57.154Z",
+      "entrySignal": "Пробой 20d max $6.0450 на +2.1% · Объём x1.5 · RSI=66",
+      "strength": 76,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 5.715,
+      "exitTime": 1789168379152,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.374392220421395,
+      "pnlUsd": -7.374392220421395,
+      "total": 92.6256077795786
+    },
     {
       "id": "ETHFI_sM_1789054934976",
       "symbol": "ETHFI",
@@ -8756,7 +8762,7 @@
     "ICP_sE": 1786374593092,
     "FIL_sE": 1788293473879,
     "XLM_sE": 1789079908049,
-    "INJ_sM": 1788814077154,
+    "INJ_sM": 1789247579153,
     "HBAR_sE": 1787412380090,
     "ALGO_sE": 1788449957432,
     "BNB_sM": 1787306163073,
@@ -8838,18 +8844,18 @@
     "ETHFI_sM": 1789205470090,
     "ETH_sM": 1789139355049
   },
-  "scanCount": 2391,
+  "scanCount": 2392,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-11T21:08:19.680Z",
+  "lastScan": "2026-09-11T23:13:33.319Z",
   "lastReport": "2026-09-11T20:20:48.788Z",
   "marketRegime": "BULL",
   "fearGreed": 56,
   "totalStats": {
-    "trades": 367,
+    "trades": 368,
     "wins": 127,
-    "losses": 240,
-    "totalPnl": 92.46818932220393,
-    "invested": 36700
+    "losses": 241,
+    "totalPnl": 85.09379710178253,
+    "invested": 36800
   },
   "byStrategy": {
     "sR": {
@@ -8863,9 +8869,9 @@
       "pnl": 87.84449621570633
     },
     "sM": {
-      "trades": 48,
+      "trades": 49,
       "wins": 19,
-      "pnl": 93.83746267909582
+      "pnl": 86.46307045867442
     }
   },
   "byRegime": {
@@ -8881,9 +8887,9 @@
         "pnl": -13.7412794961052
       },
       "sM": {
-        "trades": 13,
+        "trades": 14,
         "wins": 4,
-        "pnl": 32.62020874449982
+        "pnl": 25.245816524078425
       }
     },
     "NEUTRAL": {
@@ -8955,5 +8961,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.3
 }
