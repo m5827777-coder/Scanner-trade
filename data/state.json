@@ -8797,12 +8797,12 @@
     "PI_sE": 1789048243520,
     "ETHFI_sM": 1789054934976
   },
-  "scanCount": 2381,
+  "scanCount": 2382,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-10T23:38:14.033Z",
+  "lastScan": "2026-09-11T01:26:49.135Z",
   "lastReport": "2026-09-10T20:20:33.852Z",
   "marketRegime": "BULL",
-  "fearGreed": 69,
+  "fearGreed": 56,
   "totalStats": {
     "trades": 366,
     "wins": 127,
