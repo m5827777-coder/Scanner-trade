@@ -8844,12 +8844,12 @@
     "ETHFI_sM": 1789205470090,
     "ETH_sM": 1789139355049
   },
-  "scanCount": 2392,
+  "scanCount": 2393,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-11T23:13:33.319Z",
+  "lastScan": "2026-09-12T01:07:21.298Z",
   "lastReport": "2026-09-11T20:20:48.788Z",
   "marketRegime": "BULL",
-  "fearGreed": 56,
+  "fearGreed": 63,
   "totalStats": {
     "trades": 368,
     "wins": 127,
