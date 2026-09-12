@@ -154,23 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "RAIN_sR_1788987092382",
-      "symbol": "RAIN",
-      "name": "Rain",
-      "coinId": "rain",
-      "rank": 13,
-      "stratId": "sR",
-      "entryPrice": 0.015921858940776197,
-      "entryTime": 1788987092382,
-      "entryDate": "2026-09-09T20:51:32.382Z",
-      "entrySignal": "Ротация #13 RAIN: BTC Dom=58.5% · Коррекция -10.1% · RSI=52",
-      "strength": 60,
-      "regime": "BULL",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "PI_sE_1789048243520",
       "symbol": "PI",
       "name": "Pi Network",
@@ -240,6 +223,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "RAIN_sR_1788987092382",
+      "symbol": "RAIN",
+      "name": "Rain",
+      "coinId": "rain",
+      "rank": 13,
+      "stratId": "sR",
+      "entryPrice": 0.015921858940776197,
+      "entryTime": 1788987092382,
+      "entryDate": "2026-09-09T20:51:32.382Z",
+      "entrySignal": "Ротация #13 RAIN: BTC Dom=58.5% · Коррекция -10.1% · RSI=52",
+      "strength": 60,
+      "regime": "BULL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 0.01512090878279418,
+      "exitTime": 1789206983512,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.0305065568114475,
+      "pnlUsd": -5.0305065568114475,
+      "total": 94.96949344318855
+    },
     {
       "id": "INJ_sM_1788814077154",
       "symbol": "INJ",
@@ -8839,29 +8845,29 @@
     "JUP_sM": 1789073247802,
     "TAO_sM": 1789127418747,
     "DOT_sM": 1789127419637,
-    "RAIN_sR": 1788987092382,
+    "RAIN_sR": 1789286183512,
     "PI_sE": 1789048243520,
     "ETHFI_sM": 1789205470090,
     "ETH_sM": 1789139355049
   },
-  "scanCount": 2396,
+  "scanCount": 2397,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-12T09:35:04.848Z",
-  "lastReport": "2026-09-12T09:35:04.848Z",
+  "lastScan": "2026-09-12T09:57:01.679Z",
+  "lastReport": "2026-09-12T09:57:01.679Z",
   "marketRegime": "BULL",
   "fearGreed": 63,
   "totalStats": {
-    "trades": 368,
+    "trades": 369,
     "wins": 127,
-    "losses": 241,
-    "totalPnl": 85.09379710178253,
-    "invested": 36800
+    "losses": 242,
+    "totalPnl": 80.06329054497108,
+    "invested": 36900
   },
   "byStrategy": {
     "sR": {
-      "trades": 118,
+      "trades": 119,
       "wins": 45,
-      "pnl": -89.21376957259807
+      "pnl": -94.24427612940951
     },
     "sE": {
       "trades": 201,
@@ -8877,9 +8883,9 @@
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 13,
+        "trades": 14,
         "wins": 6,
-        "pnl": 19.40657050170438
+        "pnl": 14.376063944892932
       },
       "sE": {
         "trades": 29,
