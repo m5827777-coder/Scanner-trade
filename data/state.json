@@ -237,6 +237,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "TRX_sE_1789224666204",
+      "symbol": "TRX",
+      "name": "TRON",
+      "coinId": "tron",
+      "rank": 8,
+      "stratId": "sE",
+      "entryPrice": 0.33985,
+      "entryTime": 1789224666204,
+      "entryDate": "2026-09-12T14:51:06.204Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=0.3367 > EMA21=0.3356 · RSI=57 · Vol x1.1",
+      "strength": 66,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8761,7 +8778,7 @@
     "XRP_sR": 1779499545235,
     "ZEC_sR": 1785460296210,
     "BNB_sR": 1779093283699,
-    "TRX_sE": 1786370640000,
+    "TRX_sE": 1789224666204,
     "WBT_sR": 1779119539183,
     "ONDO_sR": 1779898347287,
     "BTC_sR": 1779202157518,
@@ -8867,10 +8884,10 @@
     "ETHFI_sM": 1789218290327,
     "ETH_sM": 1789139355049
   },
-  "scanCount": 2398,
+  "scanCount": 2399,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-12T13:04:54.672Z",
-  "lastReport": "2026-09-12T09:57:01.679Z",
+  "lastScan": "2026-09-12T14:51:35.952Z",
+  "lastReport": "2026-09-12T14:51:35.952Z",
   "marketRegime": "BULL",
   "fearGreed": 63,
   "totalStats": {
