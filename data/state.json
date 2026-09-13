@@ -205,23 +205,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ETHFI_sM_1789218290327",
-      "symbol": "ETHFI",
-      "name": "Ether.fi",
-      "coinId": "ether-fi",
-      "rank": 90,
-      "stratId": "sM",
-      "entryPrice": 0.7429,
-      "entryTime": 1789218290327,
-      "entryDate": "2026-09-12T13:04:50.327Z",
-      "entrySignal": "Пробой 20d max $0.7153 на +3.9% · Объём x1.9 · RSI=75",
-      "strength": 88,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "TRX_sE_1789224666204",
       "symbol": "TRX",
       "name": "TRON",
@@ -240,6 +223,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ETHFI_sM_1789218290327",
+      "symbol": "ETHFI",
+      "name": "Ether.fi",
+      "coinId": "ether-fi",
+      "rank": 90,
+      "stratId": "sM",
+      "entryPrice": 0.7429,
+      "entryTime": 1789218290327,
+      "entryDate": "2026-09-12T13:04:50.327Z",
+      "entrySignal": "Пробой 20d max $0.7153 на +3.9% · Объём x1.9 · RSI=75",
+      "strength": 88,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.6846,
+      "exitTime": 1789274712898,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.847624175528338,
+      "pnlUsd": -7.847624175528337,
+      "total": 92.15237582447166
+    },
     {
       "id": "FIGR_HELOC_sE_1789151262149",
       "symbol": "FIGR_HELOC",
@@ -8887,21 +8893,21 @@
     "DOT_sM": 1789127419637,
     "RAIN_sR": 1789286183512,
     "PI_sE": 1789048243520,
-    "ETHFI_sM": 1789218290327,
+    "ETHFI_sM": 1789353912899,
     "ETH_sM": 1789139355049
   },
-  "scanCount": 2406,
+  "scanCount": 2407,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-13T02:43:01.380Z",
+  "lastScan": "2026-09-13T04:45:52.154Z",
   "lastReport": "2026-09-13T02:43:01.380Z",
   "marketRegime": "BULL",
   "fearGreed": 61,
   "totalStats": {
-    "trades": 370,
+    "trades": 371,
     "wins": 127,
-    "losses": 243,
-    "totalPnl": 77.05014504167646,
-    "invested": 37000
+    "losses": 244,
+    "totalPnl": 69.20252086614812,
+    "invested": 37100
   },
   "byStrategy": {
     "sR": {
@@ -8915,9 +8921,9 @@
       "pnl": 84.8313507124117
     },
     "sM": {
-      "trades": 49,
+      "trades": 50,
       "wins": 19,
-      "pnl": 86.46307045867442
+      "pnl": 78.61544628314608
     }
   },
   "byRegime": {
@@ -8933,9 +8939,9 @@
         "pnl": -16.754424999399824
       },
       "sM": {
-        "trades": 14,
+        "trades": 15,
         "wins": 4,
-        "pnl": 25.245816524078425
+        "pnl": 17.398192348550086
       }
     },
     "NEUTRAL": {
