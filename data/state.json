@@ -8902,9 +8902,9 @@
     "ETHFI_sM": 1789353912899,
     "ETH_sM": 1789139355049
   },
-  "scanCount": 2415,
+  "scanCount": 2416,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-13T21:31:38.698Z",
+  "lastScan": "2026-09-13T23:24:47.749Z",
   "lastReport": "2026-09-13T20:09:38.684Z",
   "marketRegime": "BULL",
   "fearGreed": 61,
@@ -9019,5 +9019,5 @@
       }
     }
   },
-  "btcDominance": 58.8
+  "btcDominance": 58.9
 }
