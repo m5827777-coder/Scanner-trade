@@ -103,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "FIL_sE_1788293473879",
-      "symbol": "FIL",
-      "name": "Filecoin",
-      "coinId": "filecoin",
-      "rank": 91,
-      "stratId": "sE",
-      "entryPrice": 0.7884,
-      "entryTime": 1788293473879,
-      "entryDate": "2026-09-01T20:11:13.879Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.7181 > EMA21=0.7131 · RSI=62 · Vol x1.6",
-      "strength": 88,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ALGO_sE_1788449957432",
       "symbol": "ALGO",
       "name": "Algorand",
@@ -223,6 +206,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "FIL_sE_1788293473879",
+      "symbol": "FIL",
+      "name": "Filecoin",
+      "coinId": "filecoin",
+      "rank": 91,
+      "stratId": "sE",
+      "entryPrice": 0.7884,
+      "entryTime": 1788293473879,
+      "entryDate": "2026-09-01T20:11:13.879Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.7181 > EMA21=0.7131 · RSI=62 · Vol x1.6",
+      "strength": 88,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.9323,
+      "exitTime": 1789313315696,
+      "exitReason": "✅ TP +15%",
+      "pnl": 18.2521562658549,
+      "pnlUsd": 18.2521562658549,
+      "total": 118.2521562658549
+    },
     {
       "id": "ETHFI_sM_1789218290327",
       "symbol": "ETHFI",
@@ -8896,18 +8902,18 @@
     "ETHFI_sM": 1789353912899,
     "ETH_sM": 1789139355049
   },
-  "scanCount": 2410,
+  "scanCount": 2411,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-13T13:55:16.875Z",
-  "lastReport": "2026-09-13T10:57:55.837Z",
+  "lastScan": "2026-09-13T15:29:16.362Z",
+  "lastReport": "2026-09-13T15:29:16.362Z",
   "marketRegime": "BULL",
   "fearGreed": 61,
   "totalStats": {
-    "trades": 371,
-    "wins": 127,
+    "trades": 372,
+    "wins": 128,
     "losses": 244,
-    "totalPnl": 69.20252086614812,
-    "invested": 37100
+    "totalPnl": 87.45467713200301,
+    "invested": 37200
   },
   "byStrategy": {
     "sR": {
@@ -8916,9 +8922,9 @@
       "pnl": -94.24427612940951
     },
     "sE": {
-      "trades": 202,
-      "wins": 63,
-      "pnl": 84.8313507124117
+      "trades": 203,
+      "wins": 64,
+      "pnl": 103.0835069782666
     },
     "sM": {
       "trades": 50,
@@ -8934,9 +8940,9 @@
         "pnl": 14.376063944892932
       },
       "sE": {
-        "trades": 30,
-        "wins": 7,
-        "pnl": -16.754424999399824
+        "trades": 31,
+        "wins": 8,
+        "pnl": 1.4977312664550766
       },
       "sM": {
         "trades": 15,
