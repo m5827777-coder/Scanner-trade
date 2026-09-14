@@ -237,6 +237,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XLM_sE_1789385508954",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 19,
+      "stratId": "sE",
+      "entryPrice": 0.19102,
+      "entryTime": 1789385508954,
+      "entryDate": "2026-09-14T11:31:48.954Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.1836 > EMA21=0.1816 · RSI=58 · Vol x1.6",
+      "strength": 80,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8853,7 +8870,7 @@
     "FET_sE": 1780634934681,
     "ICP_sE": 1786374593092,
     "FIL_sE": 1788293473879,
-    "XLM_sE": 1789079908049,
+    "XLM_sE": 1789385508954,
     "INJ_sM": 1789247579153,
     "HBAR_sE": 1787412380090,
     "ALGO_sE": 1788449957432,
@@ -8937,10 +8954,10 @@
     "ETH_sM": 1789139355049,
     "FIL_sM": 1789354696539
   },
-  "scanCount": 2419,
+  "scanCount": 2420,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-14T06:23:42.809Z",
-  "lastReport": "2026-09-14T02:58:23.082Z",
+  "lastScan": "2026-09-14T11:32:15.089Z",
+  "lastReport": "2026-09-14T11:32:15.089Z",
   "marketRegime": "BULL",
   "fearGreed": 57,
   "totalStats": {
@@ -9054,5 +9071,5 @@
       }
     }
   },
-  "btcDominance": 58.8
+  "btcDominance": 58.9
 }
