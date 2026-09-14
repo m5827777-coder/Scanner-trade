@@ -203,6 +203,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "RAIN_sR_1789348584433",
+      "symbol": "RAIN",
+      "name": "Rain",
+      "coinId": "rain",
+      "rank": 12,
+      "stratId": "sR",
+      "entryPrice": 0.01516749966981611,
+      "entryTime": 1789348584433,
+      "entryDate": "2026-09-14T01:16:24.433Z",
+      "entrySignal": "Ротация #12 RAIN: BTC Dom=58.9% · Коррекция -11.5% · RSI=45",
+      "strength": 65,
+      "regime": "BULL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8897,17 +8914,17 @@
     "JUP_sM": 1789073247802,
     "TAO_sM": 1789127418747,
     "DOT_sM": 1789127419637,
-    "RAIN_sR": 1789286183512,
+    "RAIN_sR": 1789348584434,
     "PI_sE": 1789048243520,
     "ETHFI_sM": 1789353912899,
     "ETH_sM": 1789139355049
   },
-  "scanCount": 2416,
+  "scanCount": 2417,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-13T23:24:47.749Z",
+  "lastScan": "2026-09-14T01:16:58.317Z",
   "lastReport": "2026-09-13T20:09:38.684Z",
   "marketRegime": "BULL",
-  "fearGreed": 61,
+  "fearGreed": 57,
   "totalStats": {
     "trades": 372,
     "wins": 128,
