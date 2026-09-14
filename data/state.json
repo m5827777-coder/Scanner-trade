@@ -237,6 +237,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XRP_sE_1789420734795",
+      "symbol": "XRP",
+      "name": "XRP",
+      "coinId": "ripple",
+      "rank": 5,
+      "stratId": "sE",
+      "entryPrice": 1.4531,
+      "entryTime": 1789420734795,
+      "entryDate": "2026-09-14T21:18:54.795Z",
+      "entrySignal": "EMA начало расхождения · EMA9=1.3979 > EMA21=1.3707 · RSI=61 · Vol x1.0",
+      "strength": 73,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8840,7 +8857,7 @@
     "HBAR_sR": 1778752941540,
     "CC_sE": 1788457862321,
     "FLR_sE": 1788256359437,
-    "XRP_sE": 1784044752405,
+    "XRP_sE": 1789420734795,
     "HYPE_sE": 1787168197411,
     "LINK_sR": 1780510384134,
     "NEAR_sR": 1778862201360,
@@ -8960,10 +8977,10 @@
     "ETH_sM": 1789139355049,
     "FIL_sM": 1789354696539
   },
-  "scanCount": 2423,
+  "scanCount": 2424,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-14T18:32:14.055Z",
-  "lastReport": "2026-09-14T17:28:12.898Z",
+  "lastScan": "2026-09-14T21:19:31.611Z",
+  "lastReport": "2026-09-14T21:19:31.611Z",
   "marketRegime": "BULL",
   "fearGreed": 57,
   "totalStats": {
@@ -9077,5 +9094,5 @@
       }
     }
   },
-  "btcDominance": 58.6
+  "btcDominance": 58.5
 }
