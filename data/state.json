@@ -220,6 +220,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "FIL_sM_1789354696539",
+      "symbol": "FIL",
+      "name": "Filecoin",
+      "coinId": "filecoin",
+      "rank": 84,
+      "stratId": "sM",
+      "entryPrice": 0.9833,
+      "entryTime": 1789354696539,
+      "entryDate": "2026-09-14T02:58:16.539Z",
+      "entrySignal": "Пробой 20d max $0.8820 на +11.5% · Объём x1.6 · RSI=72",
+      "strength": 84,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8917,12 +8934,13 @@
     "RAIN_sR": 1789348584434,
     "PI_sE": 1789048243520,
     "ETHFI_sM": 1789353912899,
-    "ETH_sM": 1789139355049
+    "ETH_sM": 1789139355049,
+    "FIL_sM": 1789354696539
   },
-  "scanCount": 2417,
+  "scanCount": 2418,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-14T01:16:58.317Z",
-  "lastReport": "2026-09-13T20:09:38.684Z",
+  "lastScan": "2026-09-14T02:58:23.082Z",
+  "lastReport": "2026-09-14T02:58:23.082Z",
   "marketRegime": "BULL",
   "fearGreed": 57,
   "totalStats": {
