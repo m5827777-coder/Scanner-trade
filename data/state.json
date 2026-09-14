@@ -205,23 +205,6 @@
       "peakPnl": 0
     },
     {
-      "id": "RAIN_sR_1789348584433",
-      "symbol": "RAIN",
-      "name": "Rain",
-      "coinId": "rain",
-      "rank": 12,
-      "stratId": "sR",
-      "entryPrice": 0.01516749966981611,
-      "entryTime": 1789348584433,
-      "entryDate": "2026-09-14T01:16:24.433Z",
-      "entrySignal": "Ротация #12 RAIN: BTC Dom=58.9% · Коррекция -11.5% · RSI=45",
-      "strength": 65,
-      "regime": "BULL",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "FIL_sM_1789354696539",
       "symbol": "FIL",
       "name": "Filecoin",
@@ -257,6 +240,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "RAIN_sR_1789348584433",
+      "symbol": "RAIN",
+      "name": "Rain",
+      "coinId": "rain",
+      "rank": 12,
+      "stratId": "sR",
+      "entryPrice": 0.01516749966981611,
+      "entryTime": 1789348584433,
+      "entryDate": "2026-09-14T01:16:24.433Z",
+      "entrySignal": "Ротация #12 RAIN: BTC Dom=58.9% · Коррекция -11.5% · RSI=45",
+      "strength": 65,
+      "regime": "BULL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 0.014379683835720535,
+      "exitTime": 1789406859196,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.194104837617749,
+      "pnlUsd": -5.194104837617749,
+      "total": 94.80589516238226
+    },
     {
       "id": "FIL_sE_1788293473879",
       "symbol": "FIL",
@@ -8948,30 +8954,30 @@
     "JUP_sM": 1789073247802,
     "TAO_sM": 1789127418747,
     "DOT_sM": 1789127419637,
-    "RAIN_sR": 1789348584434,
+    "RAIN_sR": 1789486059196,
     "PI_sE": 1789048243520,
     "ETHFI_sM": 1789353912899,
     "ETH_sM": 1789139355049,
     "FIL_sM": 1789354696539
   },
-  "scanCount": 2421,
+  "scanCount": 2422,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-14T13:03:36.431Z",
-  "lastReport": "2026-09-14T11:32:15.089Z",
+  "lastScan": "2026-09-14T17:28:12.898Z",
+  "lastReport": "2026-09-14T17:28:12.898Z",
   "marketRegime": "BULL",
   "fearGreed": 57,
   "totalStats": {
-    "trades": 372,
+    "trades": 373,
     "wins": 128,
-    "losses": 244,
-    "totalPnl": 87.45467713200301,
-    "invested": 37200
+    "losses": 245,
+    "totalPnl": 82.26057229438527,
+    "invested": 37300
   },
   "byStrategy": {
     "sR": {
-      "trades": 119,
+      "trades": 120,
       "wins": 45,
-      "pnl": -94.24427612940951
+      "pnl": -99.43838096702726
     },
     "sE": {
       "trades": 203,
@@ -8987,9 +8993,9 @@
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 14,
+        "trades": 15,
         "wins": 6,
-        "pnl": 14.376063944892932
+        "pnl": 9.181959107275183
       },
       "sE": {
         "trades": 31,
@@ -9071,5 +9077,5 @@
       }
     }
   },
-  "btcDominance": 58.4
+  "btcDominance": 58.6
 }
