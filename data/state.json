@@ -137,40 +137,6 @@
       "peakPnl": 0
     },
     {
-      "id": "PI_sE_1789048243520",
-      "symbol": "PI",
-      "name": "Pi Network",
-      "coinId": "pi-network",
-      "rank": 71,
-      "stratId": "sE",
-      "entryPrice": 0.09647,
-      "entryTime": 1789048243520,
-      "entryDate": "2026-09-10T13:50:43.520Z",
-      "entrySignal": "EMA начало расхождения · EMA9=0.0951 > EMA21=0.0932 · RSI=60 · Vol x1.1",
-      "strength": 69,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "ADA_sR_1789083465409",
-      "symbol": "ADA",
-      "name": "Cardano",
-      "coinId": "cardano",
-      "rank": 19,
-      "stratId": "sR",
-      "entryPrice": 0.2057,
-      "entryTime": 1789083465409,
-      "entryDate": "2026-09-10T23:37:45.409Z",
-      "entrySignal": "Ротация #19 ADA: BTC Dom=58.5% · Коррекция -10.3% · RSI=48",
-      "strength": 62,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "TRX_sE_1789224666204",
       "symbol": "TRX",
       "name": "TRON",
@@ -206,6 +172,52 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ADA_sR_1789083465409",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 19,
+      "stratId": "sR",
+      "entryPrice": 0.2057,
+      "entryTime": 1789083465409,
+      "entryDate": "2026-09-10T23:37:45.409Z",
+      "entrySignal": "Ротация #19 ADA: BTC Dom=58.5% · Коррекция -10.3% · RSI=48",
+      "strength": 62,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.1952,
+      "exitTime": 1789508152771,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.104521147301887,
+      "pnlUsd": -5.104521147301887,
+      "total": 94.89547885269812
+    },
+    {
+      "id": "PI_sE_1789048243520",
+      "symbol": "PI",
+      "name": "Pi Network",
+      "coinId": "pi-network",
+      "rank": 71,
+      "stratId": "sE",
+      "entryPrice": 0.09647,
+      "entryTime": 1789048243520,
+      "entryDate": "2026-09-10T13:50:43.520Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.0951 > EMA21=0.0932 · RSI=60 · Vol x1.1",
+      "strength": 69,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.08911,
+      "exitTime": 1789508151650,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -7.629314812895206,
+      "pnlUsd": -7.629314812895206,
+      "total": 92.3706851871048
+    },
     {
       "id": "FLR_sE_1789466324547",
       "symbol": "FLR",
@@ -8903,7 +8915,7 @@
   ],
   "cooldowns": {
     "SOL_sR": 1780495956417,
-    "ADA_sR": 1789083465409,
+    "ADA_sR": 1789587352771,
     "HYPE_sR": 1784322736769,
     "BCH_sR": 1785083422109,
     "XLM_sR": 1788285126381,
@@ -9036,34 +9048,34 @@
     "TAO_sM": 1789127418747,
     "DOT_sM": 1789127419637,
     "RAIN_sR": 1789486059196,
-    "PI_sE": 1789048243520,
+    "PI_sE": 1789587351650,
     "ETHFI_sM": 1789353912899,
     "ETH_sM": 1789562303683,
     "FIL_sM": 1789520382481
   },
-  "scanCount": 2434,
+  "scanCount": 2435,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-15T20:46:35.600Z",
+  "lastScan": "2026-09-15T21:36:25.007Z",
   "lastReport": "2026-09-15T20:46:35.600Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
-    "trades": 378,
+    "trades": 380,
     "wins": 128,
-    "losses": 250,
-    "totalPnl": 41.22617884823186,
-    "invested": 37800
+    "losses": 252,
+    "totalPnl": 28.492342888034763,
+    "invested": 38000
   },
   "byStrategy": {
     "sR": {
-      "trades": 120,
+      "trades": 121,
       "wins": 45,
-      "pnl": -99.43838096702726
+      "pnl": -104.54290211432914
     },
     "sE": {
-      "trades": 206,
+      "trades": 207,
       "wins": 64,
-      "pnl": 77.51378725934484
+      "pnl": 69.88447244644964
     },
     "sM": {
       "trades": 52,
@@ -9074,14 +9086,14 @@
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 15,
+        "trades": 16,
         "wins": 6,
-        "pnl": 9.181959107275183
+        "pnl": 4.077437959973296
       },
       "sE": {
-        "trades": 34,
+        "trades": 35,
         "wins": 8,
-        "pnl": -24.071988452466684
+        "pnl": -31.70130326536189
       },
       "sM": {
         "trades": 17,
