@@ -237,6 +237,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "LINK_sR_1789488255161",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "coinId": "chainlink",
+      "rank": 17,
+      "stratId": "sR",
+      "entryPrice": 11.261,
+      "entryTime": 1789488255161,
+      "entryDate": "2026-09-15T16:04:15.161Z",
+      "entrySignal": "Ротация #17 LINK: BTC Dom=58.4% · Коррекция -12.5% · RSI=51",
+      "strength": 63,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8888,7 +8905,7 @@
     "FLR_sE": 1789466324547,
     "XRP_sE": 1789420734795,
     "HYPE_sE": 1787168197411,
-    "LINK_sR": 1780510384134,
+    "LINK_sR": 1789488255161,
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1780410209384,
     "FIGR_HELOC_sE": 1789151262149,
@@ -9006,10 +9023,10 @@
     "ETH_sM": 1789562303683,
     "FIL_sM": 1789520382481
   },
-  "scanCount": 2431,
+  "scanCount": 2432,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-15T14:38:57.037Z",
-  "lastReport": "2026-09-15T10:53:07.084Z",
+  "lastScan": "2026-09-15T16:04:47.463Z",
+  "lastReport": "2026-09-15T16:04:47.463Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
@@ -9123,5 +9140,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.4
 }
