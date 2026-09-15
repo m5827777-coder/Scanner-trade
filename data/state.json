@@ -171,23 +171,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ETH_sM_1789139355048",
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "coinId": "ethereum",
-      "rank": 2,
-      "stratId": "sM",
-      "entryPrice": 2608.66,
-      "entryTime": 1789139355048,
-      "entryDate": "2026-09-11T15:09:15.048Z",
-      "entrySignal": "Пробой 20d max $2566.4600 на +1.6% · Объём x2.0 · RSI=70",
-      "strength": 84,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "TRX_sE_1789224666204",
       "symbol": "TRX",
       "name": "TRON",
@@ -257,6 +240,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ETH_sM_1789139355048",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "coinId": "ethereum",
+      "rank": 2,
+      "stratId": "sM",
+      "entryPrice": 2608.66,
+      "entryTime": 1789139355048,
+      "entryDate": "2026-09-11T15:09:15.048Z",
+      "entrySignal": "Пробой 20d max $2566.4600 на +1.6% · Объём x2.0 · RSI=70",
+      "strength": 84,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2425.17,
+      "exitTime": 1789483103683,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.0338794630193195,
+      "pnlUsd": -7.0338794630193195,
+      "total": 92.96612053698068
+    },
     {
       "id": "FIL_sM_1789354696539",
       "symbol": "FIL",
@@ -8997,21 +9003,21 @@
     "RAIN_sR": 1789486059196,
     "PI_sE": 1789048243520,
     "ETHFI_sM": 1789353912899,
-    "ETH_sM": 1789139355049,
+    "ETH_sM": 1789562303683,
     "FIL_sM": 1789520382481
   },
-  "scanCount": 2430,
+  "scanCount": 2431,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-15T10:53:07.084Z",
+  "lastScan": "2026-09-15T14:38:57.037Z",
   "lastReport": "2026-09-15T10:53:07.084Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
-    "trades": 374,
+    "trades": 375,
     "wins": 128,
-    "losses": 246,
-    "totalPnl": 73.82977803017293,
-    "invested": 37400
+    "losses": 247,
+    "totalPnl": 66.79589856715361,
+    "invested": 37500
   },
   "byStrategy": {
     "sR": {
@@ -9025,9 +9031,9 @@
       "pnl": 103.0835069782666
     },
     "sM": {
-      "trades": 51,
+      "trades": 52,
       "wins": 19,
-      "pnl": 70.18465201893375
+      "pnl": 63.15077255591443
     }
   },
   "byRegime": {
@@ -9043,9 +9049,9 @@
         "pnl": 1.4977312664550766
       },
       "sM": {
-        "trades": 16,
+        "trades": 17,
         "wins": 4,
-        "pnl": 8.967398084337743
+        "pnl": 1.9335186213184237
       }
     },
     "NEUTRAL": {
@@ -9117,5 +9123,5 @@
       }
     }
   },
-  "btcDominance": 58.8
+  "btcDominance": 58.2
 }
