@@ -188,57 +188,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XLM_sE_1789385508954",
-      "symbol": "XLM",
-      "name": "Stellar",
-      "coinId": "stellar",
-      "rank": 19,
-      "stratId": "sE",
-      "entryPrice": 0.19102,
-      "entryTime": 1789385508954,
-      "entryDate": "2026-09-14T11:31:48.954Z",
-      "entrySignal": "EMA начало расхождения · EMA9=0.1836 > EMA21=0.1816 · RSI=58 · Vol x1.6",
-      "strength": 80,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "XRP_sE_1789420734795",
-      "symbol": "XRP",
-      "name": "XRP",
-      "coinId": "ripple",
-      "rank": 5,
-      "stratId": "sE",
-      "entryPrice": 1.4531,
-      "entryTime": 1789420734795,
-      "entryDate": "2026-09-14T21:18:54.795Z",
-      "entrySignal": "EMA начало расхождения · EMA9=1.3979 > EMA21=1.3707 · RSI=61 · Vol x1.0",
-      "strength": 73,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "FLR_sE_1789466324547",
-      "symbol": "FLR",
-      "name": "Flare",
-      "coinId": "flare-networks",
-      "rank": 97,
-      "stratId": "sE",
-      "entryPrice": 0.006641,
-      "entryTime": 1789466324547,
-      "entryDate": "2026-09-15T09:58:44.547Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.0066 > EMA21=0.0066 · RSI=53 · Vol x1.4",
-      "strength": 81,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "LINK_sR_1789488255161",
       "symbol": "LINK",
       "name": "Chainlink",
@@ -257,6 +206,75 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "FLR_sE_1789466324547",
+      "symbol": "FLR",
+      "name": "Flare",
+      "coinId": "flare-networks",
+      "rank": 97,
+      "stratId": "sE",
+      "entryPrice": 0.006641,
+      "entryTime": 1789466324547,
+      "entryDate": "2026-09-15T09:58:44.547Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0066 > EMA21=0.0066 · RSI=53 · Vol x1.4",
+      "strength": 81,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.006272,
+      "exitTime": 1789505162767,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -5.556392109622051,
+      "pnlUsd": -5.556392109622051,
+      "total": 94.44360789037795
+    },
+    {
+      "id": "XRP_sE_1789420734795",
+      "symbol": "XRP",
+      "name": "XRP",
+      "coinId": "ripple",
+      "rank": 5,
+      "stratId": "sE",
+      "entryPrice": 1.4531,
+      "entryTime": 1789420734795,
+      "entryDate": "2026-09-14T21:18:54.795Z",
+      "entrySignal": "EMA начало расхождения · EMA9=1.3979 > EMA21=1.3707 · RSI=61 · Vol x1.0",
+      "strength": 73,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.2805,
+      "exitTime": 1789505162050,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -11.878053815979635,
+      "pnlUsd": -11.878053815979635,
+      "total": 88.12194618402036
+    },
+    {
+      "id": "XLM_sE_1789385508954",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 19,
+      "stratId": "sE",
+      "entryPrice": 0.19102,
+      "entryTime": 1789385508954,
+      "entryDate": "2026-09-14T11:31:48.954Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.1836 > EMA21=0.1816 · RSI=58 · Vol x1.6",
+      "strength": 80,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.17548,
+      "exitTime": 1789505160965,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -8.13527379332007,
+      "pnlUsd": -8.13527379332007,
+      "total": 91.86472620667993
+    },
     {
       "id": "ETH_sM_1789139355048",
       "symbol": "ETH",
@@ -8903,7 +8921,7 @@
     "HBAR_sR": 1778752941540,
     "CC_sE": 1788457862321,
     "FLR_sE": 1789466324547,
-    "XRP_sE": 1789420734795,
+    "XRP_sE": 1789584362050,
     "HYPE_sE": 1787168197411,
     "LINK_sR": 1789488255161,
     "NEAR_sR": 1778862201360,
@@ -8939,7 +8957,7 @@
     "FET_sE": 1780634934681,
     "ICP_sE": 1786374593092,
     "FIL_sE": 1788293473879,
-    "XLM_sE": 1789385508954,
+    "XLM_sE": 1789584360966,
     "INJ_sM": 1789247579153,
     "HBAR_sE": 1787412380090,
     "ALGO_sE": 1788449957432,
@@ -9023,18 +9041,18 @@
     "ETH_sM": 1789562303683,
     "FIL_sM": 1789520382481
   },
-  "scanCount": 2433,
+  "scanCount": 2434,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-15T18:27:42.148Z",
-  "lastReport": "2026-09-15T16:04:47.463Z",
+  "lastScan": "2026-09-15T20:46:35.600Z",
+  "lastReport": "2026-09-15T20:46:35.600Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
-    "trades": 375,
+    "trades": 378,
     "wins": 128,
-    "losses": 247,
-    "totalPnl": 66.79589856715361,
-    "invested": 37500
+    "losses": 250,
+    "totalPnl": 41.22617884823186,
+    "invested": 37800
   },
   "byStrategy": {
     "sR": {
@@ -9043,9 +9061,9 @@
       "pnl": -99.43838096702726
     },
     "sE": {
-      "trades": 203,
+      "trades": 206,
       "wins": 64,
-      "pnl": 103.0835069782666
+      "pnl": 77.51378725934484
     },
     "sM": {
       "trades": 52,
@@ -9061,9 +9079,9 @@
         "pnl": 9.181959107275183
       },
       "sE": {
-        "trades": 31,
+        "trades": 34,
         "wins": 8,
-        "pnl": 1.4977312664550766
+        "pnl": -24.071988452466684
       },
       "sM": {
         "trades": 17,
@@ -9140,5 +9158,5 @@
       }
     }
   },
-  "btcDominance": 58.4
+  "btcDominance": 58.5
 }
