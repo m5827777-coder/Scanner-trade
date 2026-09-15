@@ -9000,10 +9000,10 @@
     "ETH_sM": 1789139355049,
     "FIL_sM": 1789520382481
   },
-  "scanCount": 2429,
+  "scanCount": 2430,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-15T09:58:45.968Z",
-  "lastReport": "2026-09-15T09:58:45.968Z",
+  "lastScan": "2026-09-15T10:53:07.084Z",
+  "lastReport": "2026-09-15T10:53:07.084Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
