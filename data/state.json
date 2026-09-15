@@ -205,23 +205,6 @@
       "peakPnl": 0
     },
     {
-      "id": "FIL_sM_1789354696539",
-      "symbol": "FIL",
-      "name": "Filecoin",
-      "coinId": "filecoin",
-      "rank": 84,
-      "stratId": "sM",
-      "entryPrice": 0.9833,
-      "entryTime": 1789354696539,
-      "entryDate": "2026-09-14T02:58:16.539Z",
-      "entrySignal": "Пробой 20d max $0.8820 на +11.5% · Объём x1.6 · RSI=72",
-      "strength": 84,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "XLM_sE_1789385508954",
       "symbol": "XLM",
       "name": "Stellar",
@@ -257,6 +240,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "FIL_sM_1789354696539",
+      "symbol": "FIL",
+      "name": "Filecoin",
+      "coinId": "filecoin",
+      "rank": 84,
+      "stratId": "sM",
+      "entryPrice": 0.9833,
+      "entryTime": 1789354696539,
+      "entryDate": "2026-09-14T02:58:16.539Z",
+      "entrySignal": "Пробой 20d max $0.8820 на +11.5% · Объём x1.6 · RSI=72",
+      "strength": 84,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.9004,
+      "exitTime": 1789441182481,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -8.430794264212343,
+      "pnlUsd": -8.430794264212343,
+      "total": 91.56920573578766
+    },
     {
       "id": "RAIN_sR_1789348584433",
       "symbol": "RAIN",
@@ -8975,20 +8981,20 @@
     "PI_sE": 1789048243520,
     "ETHFI_sM": 1789353912899,
     "ETH_sM": 1789139355049,
-    "FIL_sM": 1789354696539
+    "FIL_sM": 1789520382481
   },
-  "scanCount": 2426,
+  "scanCount": 2427,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-15T00:19:57.169Z",
-  "lastReport": "2026-09-14T21:19:31.611Z",
+  "lastScan": "2026-09-15T03:00:16.761Z",
+  "lastReport": "2026-09-15T03:00:16.761Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
-    "trades": 373,
+    "trades": 374,
     "wins": 128,
-    "losses": 245,
-    "totalPnl": 82.26057229438527,
-    "invested": 37300
+    "losses": 246,
+    "totalPnl": 73.82977803017293,
+    "invested": 37400
   },
   "byStrategy": {
     "sR": {
@@ -9002,9 +9008,9 @@
       "pnl": 103.0835069782666
     },
     "sM": {
-      "trades": 50,
+      "trades": 51,
       "wins": 19,
-      "pnl": 78.61544628314608
+      "pnl": 70.18465201893375
     }
   },
   "byRegime": {
@@ -9020,9 +9026,9 @@
         "pnl": 1.4977312664550766
       },
       "sM": {
-        "trades": 15,
+        "trades": 16,
         "wins": 4,
-        "pnl": 17.398192348550086
+        "pnl": 8.967398084337743
       }
     },
     "NEUTRAL": {
@@ -9094,5 +9100,5 @@
       }
     }
   },
-  "btcDominance": 58.5
+  "btcDominance": 58.4
 }
