@@ -103,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ALGO_sE_1788449957432",
-      "symbol": "ALGO",
-      "name": "Algorand",
-      "coinId": "algorand",
-      "rank": 80,
-      "stratId": "sE",
-      "entryPrice": 0.09413,
-      "entryTime": 1788449957432,
-      "entryDate": "2026-09-03T15:39:17.432Z",
-      "entrySignal": "EMA начало расхождения · EMA9=0.0895 > EMA21=0.0879 · RSI=62 · Vol x1.4",
-      "strength": 77,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "NEAR_sM_1788600277122",
       "symbol": "NEAR",
       "name": "NEAR Protocol",
@@ -172,6 +155,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ALGO_sE_1788449957432",
+      "symbol": "ALGO",
+      "name": "Algorand",
+      "coinId": "algorand",
+      "rank": 80,
+      "stratId": "sE",
+      "entryPrice": 0.09413,
+      "entryTime": 1788449957432,
+      "entryDate": "2026-09-03T15:39:17.432Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.0895 > EMA21=0.0879 · RSI=62 · Vol x1.4",
+      "strength": 77,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.08815,
+      "exitTime": 1789522692623,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.352916179751407,
+      "pnlUsd": -6.352916179751407,
+      "total": 93.6470838202486
+    },
     {
       "id": "ADA_sR_1789083465409",
       "symbol": "ADA",
@@ -8972,7 +8978,7 @@
     "XLM_sE": 1789584360966,
     "INJ_sM": 1789247579153,
     "HBAR_sE": 1787412380090,
-    "ALGO_sE": 1788449957432,
+    "ALGO_sE": 1789601892623,
     "BNB_sM": 1787306163073,
     "BNB_sE": 1784631009103,
     "XLM_sM": 1787830006789,
@@ -9053,18 +9059,18 @@
     "ETH_sM": 1789562303683,
     "FIL_sM": 1789520382481
   },
-  "scanCount": 2436,
+  "scanCount": 2437,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-15T23:40:23.911Z",
+  "lastScan": "2026-09-16T01:38:49.258Z",
   "lastReport": "2026-09-15T20:46:35.600Z",
   "marketRegime": "BULL",
-  "fearGreed": 69,
+  "fearGreed": 51,
   "totalStats": {
-    "trades": 380,
+    "trades": 381,
     "wins": 128,
-    "losses": 252,
-    "totalPnl": 28.492342888034763,
-    "invested": 38000
+    "losses": 253,
+    "totalPnl": 22.139426708283356,
+    "invested": 38100
   },
   "byStrategy": {
     "sR": {
@@ -9073,9 +9079,9 @@
       "pnl": -104.54290211432914
     },
     "sE": {
-      "trades": 207,
+      "trades": 208,
       "wins": 64,
-      "pnl": 69.88447244644964
+      "pnl": 63.53155626669823
     },
     "sM": {
       "trades": 52,
@@ -9091,9 +9097,9 @@
         "pnl": 4.077437959973296
       },
       "sE": {
-        "trades": 35,
+        "trades": 36,
         "wins": 8,
-        "pnl": -31.70130326536189
+        "pnl": -38.0542194451133
       },
       "sM": {
         "trades": 17,
