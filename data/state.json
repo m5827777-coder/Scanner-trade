@@ -118,6 +118,57 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XRP_sR_1789577117023",
+      "symbol": "XRP",
+      "name": "XRP",
+      "coinId": "ripple",
+      "rank": 5,
+      "stratId": "sR",
+      "entryPrice": 1.2648,
+      "entryTime": 1789577117023,
+      "entryDate": "2026-09-16T16:45:17.023Z",
+      "entrySignal": "Ротация #5 XRP: BTC Dom=58.5% · Коррекция -13.6% · RSI=44",
+      "strength": 73,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "DOGE_sR_1789577120835",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "coinId": "dogecoin",
+      "rank": 12,
+      "stratId": "sR",
+      "entryPrice": 0.07913,
+      "entryTime": 1789577120835,
+      "entryDate": "2026-09-16T16:45:20.835Z",
+      "entrySignal": "Ротация #12 DOGE: BTC Dom=58.5% · Коррекция -12.7% · RSI=43",
+      "strength": 68,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "BCH_sR_1789577125077",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
+      "coinId": "bitcoin-cash",
+      "rank": 24,
+      "stratId": "sR",
+      "entryPrice": 215.7,
+      "entryTime": 1789577125077,
+      "entryDate": "2026-09-16T16:45:25.077Z",
+      "entrySignal": "Ротация #24 BCH: BTC Dom=58.5% · Коррекция -16.9% · RSI=38",
+      "strength": 73,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -8935,7 +8986,7 @@
     "SOL_sR": 1780495956417,
     "ADA_sR": 1789587352771,
     "HYPE_sR": 1784322736769,
-    "BCH_sR": 1785083422109,
+    "BCH_sR": 1789577125077,
     "XLM_sR": 1788285126381,
     "UNI_sR": 1779554027073,
     "DOT_sR": 1779554029231,
@@ -8960,8 +9011,8 @@
     "XMR_sR": 1781845530762,
     "ETH_sR": 1780524593518,
     "LTC_sR": 1779126568920,
-    "DOGE_sR": 1780511998192,
-    "XRP_sR": 1779499545235,
+    "DOGE_sR": 1789577120835,
+    "XRP_sR": 1789577117023,
     "ZEC_sR": 1785460296210,
     "BNB_sR": 1779093283699,
     "TRX_sE": 1789224666204,
@@ -9071,9 +9122,9 @@
     "ETH_sM": 1789562303683,
     "FIL_sM": 1789520382481
   },
-  "scanCount": 2442,
+  "scanCount": 2443,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-16T15:58:02.061Z",
+  "lastScan": "2026-09-16T16:45:25.797Z",
   "lastReport": "2026-09-16T15:58:02.061Z",
   "marketRegime": "BULL",
   "fearGreed": 51,
@@ -9188,5 +9239,5 @@
       }
     }
   },
-  "btcDominance": 58.6
+  "btcDominance": 58.5
 }
