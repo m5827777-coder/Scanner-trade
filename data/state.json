@@ -9122,10 +9122,10 @@
     "ETH_sM": 1789562303683,
     "FIL_sM": 1789520382481
   },
-  "scanCount": 2444,
+  "scanCount": 2445,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-16T19:43:43.976Z",
-  "lastReport": "2026-09-16T15:58:02.061Z",
+  "lastScan": "2026-09-16T20:46:30.131Z",
+  "lastReport": "2026-09-16T20:46:30.131Z",
   "marketRegime": "BULL",
   "fearGreed": 51,
   "totalStats": {
@@ -9239,5 +9239,5 @@
       }
     }
   },
-  "btcDominance": 58.4
+  "btcDominance": 58.5
 }
