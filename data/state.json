@@ -186,6 +186,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ASTER_sE_1789656892144",
+      "symbol": "ASTER",
+      "name": "Aster",
+      "coinId": "aster-2",
+      "rank": 46,
+      "stratId": "sE",
+      "entryPrice": 0.738,
+      "entryTime": 1789656892144,
+      "entryDate": "2026-09-17T14:54:52.144Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.7099 > EMA21=0.7074 · RSI=58 · Vol x1.3",
+      "strength": 84,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -9064,7 +9081,7 @@
     "JUP_sR": 1780075427579,
     "DASH_sE": 1779550477183,
     "SUI_sR": 1779554020771,
-    "ASTER_sE": 1781832270812,
+    "ASTER_sE": 1789656892144,
     "NEAR_sM": 1788600277122,
     "RENDER_sE": 1789127417659,
     "XMR_sE": 1785969350861,
@@ -9162,9 +9179,9 @@
     "ETH_sM": 1789562303683,
     "FIL_sM": 1789520382481
   },
-  "scanCount": 2451,
+  "scanCount": 2452,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-17T10:50:59.685Z",
+  "lastScan": "2026-09-17T14:55:11.909Z",
   "lastReport": "2026-09-17T10:50:59.685Z",
   "marketRegime": "BULL",
   "fearGreed": 50,
@@ -9279,5 +9296,5 @@
       }
     }
   },
-  "btcDominance": 58.3
+  "btcDominance": 58.2
 }
