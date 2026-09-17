@@ -141128,3 +141128,40 @@
 [2026-09-17 10:06:37 UTC] 📧 6h report sent
 [2026-09-17 10:06:37 UTC] 
 📊 ИТОГ: WR=33.6% PnL=$36.87 Trades=384
+[2026-09-17 10:49:27 UTC] ════════════════════════════════════════════════════
+[2026-09-17 10:49:27 UTC] 🤖 Bot v6 | action=scan | report=true
+[2026-09-17 10:49:27 UTC] ════════════════════════════════════════════════════
+[2026-09-17 10:49:27 UTC] 📡 Scan #2451
+[2026-09-17 10:49:28 UTC] 📊 BTC Dom=58.3%
+[2026-09-17 10:49:28 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-17 10:49:29 UTC] 🌡 F&G=50 Regime=BULL Open=11
+[2026-09-17 10:49:29 UTC]   📂 HOLD SKY/sM PnL=-4.03%
+[2026-09-17 10:49:30 UTC]   📂 HOLD BNB/sM PnL=+6.43%
+[2026-09-17 10:49:31 UTC]   📂 HOLD HYPE/sM PnL=-3.00%
+[2026-09-17 10:49:32 UTC]   📂 HOLD LTC/sE PnL=+3.21%
+[2026-09-17 10:49:33 UTC]   📂 HOLD XMR/sM PnL=-3.35%
+[2026-09-17 10:49:34 UTC]   📂 HOLD TRX/sE PnL=-1.46%
+[2026-09-17 10:49:34 UTC]   📂 HOLD XRP/sR PnL=+2.28%
+[2026-09-17 10:49:34 UTC]   📂 HOLD DOGE/sR PnL=+2.01%
+[2026-09-17 10:49:35 UTC]   📂 HOLD BCH/sR PnL=+3.76%
+[2026-09-17 10:49:35 UTC]   📂 HOLD ADA/sR PnL=+2.43%
+[2026-09-17 10:49:36 UTC]   📂 HOLD ZEC/sM PnL=-0.08%
+[2026-09-17 10:49:36 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-17 10:49:37 UTC] ✓ CoinGecko: 82 токенов. Проверяю входы...
+[2026-09-17 10:49:48 UTC]   ⏭ XMR: нет данных (monero)
+[2026-09-17 10:49:49 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-09-17 10:50:10 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-09-17 10:50:13 UTC]   ⏭ M: нет данных (memecore)
+[2026-09-17 10:50:16 UTC]   ⏭ BTW: нет данных (bitway)
+[2026-09-17 10:50:29 UTC]   ⏭ USDGO: нет данных (usdgo)
+[2026-09-17 10:50:29 UTC]   ⏭ U: нет данных (united-stables)
+[2026-09-17 10:50:30 UTC]   ⏭ EURSAFO: нет данных (spiko-amundi-overnight-swap-fund-eur)
+[2026-09-17 10:50:32 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-09-17 10:50:37 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-09-17 10:50:44 UTC]   ⏭ JAAA: нет данных (janus-henderson-anemoy-aaa-clo-fund)
+[2026-09-17 10:50:50 UTC]   ⏭ MCAT: нет данных (marscat-token)
+[2026-09-17 10:50:59 UTC] ✅ Данные: 70 токенов OK, 12 недоступно | Открыто: 0 | Всего: 11
+[2026-09-17 10:51:02 UTC] [EMAIL] ✅ → m5827777@gmail.com
+[2026-09-17 10:51:02 UTC] 📧 6h report sent
+[2026-09-17 10:51:02 UTC] 
+📊 ИТОГ: WR=33.6% PnL=$36.87 Trades=384
