@@ -9196,10 +9196,10 @@
     "ETH_sM": 1789562303683,
     "FIL_sM": 1789520382481
   },
-  "scanCount": 2454,
+  "scanCount": 2455,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-17T18:40:57.709Z",
-  "lastReport": "2026-09-17T16:04:19.589Z",
+  "lastScan": "2026-09-17T20:52:26.753Z",
+  "lastReport": "2026-09-17T20:52:26.753Z",
   "marketRegime": "BULL",
   "fearGreed": 50,
   "totalStats": {
