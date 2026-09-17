@@ -9139,12 +9139,12 @@
     "ETH_sM": 1789562303683,
     "FIL_sM": 1789520382481
   },
-  "scanCount": 2446,
+  "scanCount": 2447,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-16T22:20:57.253Z",
+  "lastScan": "2026-09-17T00:39:22.694Z",
   "lastReport": "2026-09-16T20:46:30.131Z",
   "marketRegime": "BULL",
-  "fearGreed": 51,
+  "fearGreed": 50,
   "totalStats": {
     "trades": 383,
     "wins": 128,
