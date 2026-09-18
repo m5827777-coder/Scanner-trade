@@ -103,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XRP_sR_1789577117023",
-      "symbol": "XRP",
-      "name": "XRP",
-      "coinId": "ripple",
-      "rank": 5,
-      "stratId": "sR",
-      "entryPrice": 1.2648,
-      "entryTime": 1789577117023,
-      "entryDate": "2026-09-16T16:45:17.023Z",
-      "entrySignal": "Ротация #5 XRP: BTC Dom=58.5% · Коррекция -13.6% · RSI=44",
-      "strength": 73,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "DOGE_sR_1789577120835",
       "symbol": "DOGE",
       "name": "Dogecoin",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "XRP_sR_1789577117023",
+      "symbol": "XRP",
+      "name": "XRP",
+      "coinId": "ripple",
+      "rank": 5,
+      "stratId": "sR",
+      "entryPrice": 1.2648,
+      "entryTime": 1789577117023,
+      "entryDate": "2026-09-16T16:45:17.023Z",
+      "entrySignal": "Ротация #5 XRP: BTC Dom=58.5% · Коррекция -13.6% · RSI=44",
+      "strength": 73,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.4071,
+      "exitTime": 1789762621270,
+      "exitReason": "Возврат к 14d max $1.4345",
+      "pnl": 11.250790638836188,
+      "pnlUsd": 11.250790638836188,
+      "total": 111.2507906388362
+    },
     {
       "id": "ADA_sR_1789597226344",
       "symbol": "ADA",
@@ -9362,24 +9368,24 @@
     "FIL_sM": 1789520382481,
     "M_sM": 1789727114583
   },
-  "scanCount": 2465,
+  "scanCount": 2466,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-18T18:22:07.814Z",
-  "lastReport": "2026-09-18T15:39:49.760Z",
+  "lastScan": "2026-09-18T20:17:37.530Z",
+  "lastReport": "2026-09-18T20:17:37.530Z",
   "marketRegime": "BULL",
   "fearGreed": 56,
   "totalStats": {
-    "trades": 386,
-    "wins": 131,
+    "trades": 387,
+    "wins": 132,
     "losses": 255,
-    "totalPnl": 65.19460094880586,
-    "invested": 38600
+    "totalPnl": 76.44539158764205,
+    "invested": 38700
   },
   "byStrategy": {
     "sR": {
-      "trades": 124,
-      "wins": 47,
-      "pnl": -81.41245124707564
+      "trades": 125,
+      "wins": 48,
+      "pnl": -70.16166060823944
     },
     "sE": {
       "trades": 209,
@@ -9395,9 +9401,9 @@
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 19,
-        "wins": 8,
-        "pnl": 27.20788882722679
+        "trades": 20,
+        "wins": 9,
+        "pnl": 38.458679466062975
       },
       "sE": {
         "trades": 37,
