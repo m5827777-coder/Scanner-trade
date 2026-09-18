@@ -141685,3 +141685,40 @@
 [2026-09-18 11:36:45 UTC] ⚠ CoinGecko недоступен
 [2026-09-18 11:36:45 UTC] 
 📊 ИТОГ: WR=33.8% PnL=$51.43 Trades=385
+[2026-09-18 15:06:59 UTC] ════════════════════════════════════════════════════
+[2026-09-18 15:06:59 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-09-18 15:06:59 UTC] ════════════════════════════════════════════════════
+[2026-09-18 15:06:59 UTC] 📡 Scan #2463
+[2026-09-18 15:06:59 UTC] 📊 BTC Dom=58.5%
+[2026-09-18 15:06:59 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-18 15:07:00 UTC] 🌡 F&G=56 Regime=BULL Open=20
+[2026-09-18 15:07:00 UTC]   📂 HOLD SKY/sM PnL=+17.53%
+[2026-09-18 15:07:00 UTC]   📂 HOLD BNB/sM PnL=+11.60%
+[2026-09-18 15:07:00 UTC]   📂 HOLD HYPE/sM PnL=+12.21%
+[2026-09-18 15:07:01 UTC]   📂 HOLD LTC/sE PnL=+9.35%
+[2026-09-18 15:07:01 UTC]   📂 HOLD XMR/sM PnL=+5.06%
+[2026-09-18 15:07:01 UTC]   📂 HOLD TRX/sE PnL=-0.21%
+[2026-09-18 15:07:01 UTC]   📂 HOLD XRP/sR PnL=+9.80%
+[2026-09-18 15:07:02 UTC]   📂 HOLD DOGE/sR PnL=+10.63%
+[2026-09-18 15:07:02 UTC]   ✅ CLOSE ADA/sR: ✅ TP +12% PnL=+13.77% held=1д 16ч
+[2026-09-18 15:07:03 UTC]   📂 HOLD ZEC/sM PnL=+10.07%
+[2026-09-18 15:07:03 UTC]   📂 HOLD ASTER/sE PnL=+2.32%
+[2026-09-18 15:07:03 UTC]   📂 HOLD USDGO/sE PnL=-0.04%
+[2026-09-18 15:07:03 UTC]   📂 HOLD FIGR_HELOC/sE PnL=+0.06%
+[2026-09-18 15:07:04 UTC]   📂 HOLD ONDO/sE PnL=+2.01%
+[2026-09-18 15:07:04 UTC]   📂 HOLD UNI/sM PnL=+1.72%
+[2026-09-18 15:07:04 UTC]   📂 HOLD AVAX/sE PnL=+2.76%
+[2026-09-18 15:07:04 UTC]   📂 HOLD WLD/sE PnL=+1.95%
+[2026-09-18 15:07:04 UTC]   📂 HOLD SOL/sE PnL=+3.23%
+[2026-09-18 15:07:05 UTC]   📂 HOLD HBAR/sE PnL=+0.96%
+[2026-09-18 15:07:05 UTC]   📂 HOLD M/sM PnL=+3.71%
+[2026-09-18 15:07:05 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-18 15:07:05 UTC] ✓ CoinGecko: 82 токенов. Проверяю входы...
+[2026-09-18 15:07:09 UTC]   ⏭ FIGR_HELOC: нет данных (figure-heloc)
+[2026-09-18 15:07:10 UTC]   ⏭ XMR: нет данных (monero)
+[2026-09-18 15:07:10 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-09-18 15:07:11 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-09-18 15:07:11 UTC]   📈 ENTRY ADA/sE [BULL] via OKX: Golden Cross сегодня · EMA9=0.2077 > EMA21=0.2076 · RSI=57 · Vol x1.4 @ $0.2197
+[2026-09-18 15:07:12 UTC] ✅ Данные: 11 токенов OK, 4 недоступно | Открыто: 1 | Всего: 20
+[2026-09-18 15:07:13 UTC] 
+📊 ИТОГ: WR=33.9% PnL=$65.19 Trades=386
