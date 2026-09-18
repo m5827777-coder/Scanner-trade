@@ -9339,9 +9339,9 @@
     "FIL_sM": 1789520382481,
     "M_sM": 1789727114583
   },
-  "scanCount": 2461,
+  "scanCount": 2462,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-18T10:25:15.380Z",
+  "lastScan": "2026-09-18T11:36:45.110Z",
   "lastReport": "2026-09-18T10:25:15.379Z",
   "marketRegime": "BULL",
   "fearGreed": 56,
@@ -9456,5 +9456,5 @@
       }
     }
   },
-  "btcDominance": 58.1
+  "btcDominance": 58.7
 }
