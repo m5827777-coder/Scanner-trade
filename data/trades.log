@@ -141849,3 +141849,35 @@
 [2026-09-18 20:17:39 UTC] 📧 6h report sent
 [2026-09-18 20:17:39 UTC] 
 📊 ИТОГ: WR=34.1% PnL=$76.45 Trades=387
+[2026-09-18 21:00:38 UTC] ════════════════════════════════════════════════════
+[2026-09-18 21:00:38 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-09-18 21:00:38 UTC] ════════════════════════════════════════════════════
+[2026-09-18 21:00:38 UTC] 📡 Scan #2467
+[2026-09-18 21:00:38 UTC] 📊 BTC Dom=58.4%
+[2026-09-18 21:00:38 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-18 21:00:39 UTC] 🌡 F&G=56 Regime=BULL Open=19
+[2026-09-18 21:00:39 UTC]   📂 HOLD SKY/sM PnL=+19.79%
+[2026-09-18 21:00:39 UTC]   📂 HOLD BNB/sM PnL=+12.54%
+[2026-09-18 21:00:39 UTC]   📂 HOLD HYPE/sM PnL=+11.61%
+[2026-09-18 21:00:39 UTC]   📂 HOLD LTC/sE PnL=+12.19%
+[2026-09-18 21:00:40 UTC]   📂 HOLD XMR/sM PnL=+10.00%
+[2026-09-18 21:00:40 UTC]   📂 HOLD TRX/sE PnL=-0.37%
+[2026-09-18 21:00:40 UTC]   📂 HOLD DOGE/sR PnL=+11.70%
+[2026-09-18 21:00:40 UTC]   📂 HOLD ZEC/sM PnL=+12.36%
+[2026-09-18 21:00:40 UTC]   📂 HOLD ASTER/sE PnL=+2.49%
+[2026-09-18 21:00:41 UTC]   ❌ CLOSE USDGO/sE: 📉 Death Cross EMA9<EMA21 PnL=-0.07% held=1д 4ч
+[2026-09-18 21:00:41 UTC] [TG] Bad Request: can't parse entities: Unsupported start tag "ema21" at byte offset 87
+[2026-09-18 21:00:42 UTC]   📂 HOLD FIGR_HELOC/sE PnL=+0.31%
+[2026-09-18 21:00:42 UTC]   📂 HOLD ONDO/sE PnL=+2.55%
+[2026-09-18 21:00:42 UTC]   📂 HOLD UNI/sM PnL=+6.39%
+[2026-09-18 21:00:42 UTC]   📂 HOLD AVAX/sE PnL=+4.34%
+[2026-09-18 21:00:42 UTC]   📂 HOLD WLD/sE PnL=+1.10%
+[2026-09-18 21:00:42 UTC]   📂 HOLD SOL/sE PnL=+6.65%
+[2026-09-18 21:00:43 UTC]   📂 HOLD HBAR/sE PnL=+1.84%
+[2026-09-18 21:00:43 UTC]   📂 HOLD M/sM PnL=+4.03%
+[2026-09-18 21:00:43 UTC]   📂 HOLD ADA/sE PnL=+1.87%
+[2026-09-18 21:00:43 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-18 21:00:43 UTC] [CG ERR] CG 429
+[2026-09-18 21:00:43 UTC] ⚠ CoinGecko недоступен
+[2026-09-18 21:00:43 UTC] 
+📊 ИТОГ: WR=34.0% PnL=$76.38 Trades=388
