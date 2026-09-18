@@ -137,23 +137,6 @@
       "peakPnl": 0
     },
     {
-      "id": "BCH_sR_1789577125077",
-      "symbol": "BCH",
-      "name": "Bitcoin Cash",
-      "coinId": "bitcoin-cash",
-      "rank": 24,
-      "stratId": "sR",
-      "entryPrice": 215.7,
-      "entryTime": 1789577125077,
-      "entryDate": "2026-09-16T16:45:25.077Z",
-      "entrySignal": "Ротация #24 BCH: BTC Dom=58.5% · Коррекция -16.9% · RSI=38",
-      "strength": 73,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ADA_sR_1789597226344",
       "symbol": "ADA",
       "name": "Cardano",
@@ -254,9 +237,83 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "UNI_sM_1789712862379",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "coinId": "uniswap",
+      "rank": 21,
+      "stratId": "sM",
+      "entryPrice": 8.501,
+      "entryTime": 1789712862379,
+      "entryDate": "2026-09-18T06:27:42.379Z",
+      "entrySignal": "Пробой 20d max $7.4840 на +13.6% · Объём x1.7 · RSI=77",
+      "strength": 88,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "AVAX_sE_1789712865823",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "coinId": "avalanche-2",
+      "rank": 30,
+      "stratId": "sE",
+      "entryPrice": 7.9,
+      "entryTime": 1789712865823,
+      "entryDate": "2026-09-18T06:27:45.823Z",
+      "entrySignal": "EMA начало расхождения · EMA9=7.5731 > EMA21=7.4842 · RSI=61 · Vol x1.1",
+      "strength": 73,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "WLD_sE_1789712877003",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 60,
+      "stratId": "sE",
+      "entryPrice": 0.4197,
+      "entryTime": 1789712877003,
+      "entryDate": "2026-09-18T06:27:57.003Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.3940 > EMA21=0.3937 · RSI=56 · Vol x1.3",
+      "strength": 85,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "BCH_sR_1789577125077",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
+      "coinId": "bitcoin-cash",
+      "rank": 24,
+      "stratId": "sR",
+      "entryPrice": 215.7,
+      "entryTime": 1789577125077,
+      "entryDate": "2026-09-16T16:45:25.077Z",
+      "entrySignal": "Ротация #24 BCH: BTC Dom=58.5% · Коррекция -16.9% · RSI=38",
+      "strength": 73,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 247.1,
+      "exitTime": 1789712852758,
+      "exitReason": "✅ TP +12%",
+      "pnl": 14.557255447380623,
+      "pnlUsd": 14.557255447380623,
+      "total": 114.55725544738063
+    },
     {
       "id": "NEAR_sM_1788600277122",
       "symbol": "NEAR",
@@ -9138,7 +9195,7 @@
     "XMR_sE": 1785969350861,
     "ZEC_sM": 1789639565559,
     "ICP_sR": 1779986502655,
-    "WLD_sE": 1787097974963,
+    "WLD_sE": 1789712877003,
     "JUP_sE": 1787756415402,
     "MORPHO_sE": 1786968846739,
     "TON_sE": 1780599053641,
@@ -9172,7 +9229,7 @@
     "BCH_sE": 1787544167471,
     "LTC_sE": 1787395008821,
     "ETH_sE": 1787153605762,
-    "AVAX_sE": 1787456119003,
+    "AVAX_sE": 1789712865823,
     "SKY_sE": 1783587377362,
     "ARB_sE": 1785010780864,
     "LEO_sE": 1783669674148,
@@ -9190,7 +9247,7 @@
     "BTC_sE": 1787149522773,
     "SHIB_sE": 1787456118298,
     "LIT_sE": 1786624845830,
-    "UNI_sM": 1786539330825,
+    "UNI_sM": 1789712862379,
     "BEAT_sE": 1785460927285,
     "PAXG_sE": 1785903554683,
     "XAUT_sE": 1785912340985,
@@ -9230,24 +9287,24 @@
     "ETH_sM": 1789562303683,
     "FIL_sM": 1789520382481
   },
-  "scanCount": 2459,
+  "scanCount": 2460,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-18T02:47:28.182Z",
+  "lastScan": "2026-09-18T06:27:57.949Z",
   "lastReport": "2026-09-18T02:47:28.182Z",
   "marketRegime": "BULL",
   "fearGreed": 56,
   "totalStats": {
-    "trades": 384,
-    "wins": 129,
+    "trades": 385,
+    "wins": 130,
     "losses": 255,
-    "totalPnl": 36.86922955939626,
-    "invested": 38400
+    "totalPnl": 51.426485006776886,
+    "invested": 38500
   },
   "byStrategy": {
     "sR": {
-      "trades": 122,
-      "wins": 45,
-      "pnl": -109.73782263648525
+      "trades": 123,
+      "wins": 46,
+      "pnl": -95.18056718910462
     },
     "sE": {
       "trades": 209,
@@ -9263,9 +9320,9 @@
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 17,
-        "wins": 6,
-        "pnl": -1.1174825621828095
+        "trades": 18,
+        "wins": 7,
+        "pnl": 13.439772885197813
       },
       "sE": {
         "trades": 37,
