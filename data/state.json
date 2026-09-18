@@ -9362,10 +9362,10 @@
     "FIL_sM": 1789520382481,
     "M_sM": 1789727114583
   },
-  "scanCount": 2463,
+  "scanCount": 2464,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-18T15:07:12.869Z",
-  "lastReport": "2026-09-18T10:25:15.379Z",
+  "lastScan": "2026-09-18T15:39:49.760Z",
+  "lastReport": "2026-09-18T15:39:49.760Z",
   "marketRegime": "BULL",
   "fearGreed": 56,
   "totalStats": {
@@ -9479,5 +9479,5 @@
       }
     }
   },
-  "btcDominance": 58.5
+  "btcDominance": 58.6
 }

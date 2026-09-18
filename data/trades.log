@@ -141722,3 +141722,37 @@
 [2026-09-18 15:07:12 UTC] ✅ Данные: 11 токенов OK, 4 недоступно | Открыто: 1 | Всего: 20
 [2026-09-18 15:07:13 UTC] 
 📊 ИТОГ: WR=33.9% PnL=$65.19 Trades=386
+[2026-09-18 15:39:44 UTC] ════════════════════════════════════════════════════
+[2026-09-18 15:39:44 UTC] 🤖 Bot v6 | action=scan | report=true
+[2026-09-18 15:39:44 UTC] ════════════════════════════════════════════════════
+[2026-09-18 15:39:44 UTC] 📡 Scan #2464
+[2026-09-18 15:39:44 UTC] 📊 BTC Dom=58.6%
+[2026-09-18 15:39:44 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-18 15:39:45 UTC] 🌡 F&G=56 Regime=BULL Open=20
+[2026-09-18 15:39:45 UTC]   📂 HOLD SKY/sM PnL=+21.29%
+[2026-09-18 15:39:45 UTC]   📂 HOLD BNB/sM PnL=+11.38%
+[2026-09-18 15:39:45 UTC]   📂 HOLD HYPE/sM PnL=+11.38%
+[2026-09-18 15:39:45 UTC]   📂 HOLD LTC/sE PnL=+9.51%
+[2026-09-18 15:39:46 UTC]   📂 HOLD XMR/sM PnL=+8.68%
+[2026-09-18 15:39:46 UTC]   📂 HOLD TRX/sE PnL=-0.09%
+[2026-09-18 15:39:46 UTC]   📂 HOLD XRP/sR PnL=+9.04%
+[2026-09-18 15:39:46 UTC]   📂 HOLD DOGE/sR PnL=+10.32%
+[2026-09-18 15:39:47 UTC]   📂 HOLD ZEC/sM PnL=+10.42%
+[2026-09-18 15:39:47 UTC]   📂 HOLD ASTER/sE PnL=+2.11%
+[2026-09-18 15:39:47 UTC]   📂 HOLD USDGO/sE PnL=-0.04%
+[2026-09-18 15:39:47 UTC]   📂 HOLD FIGR_HELOC/sE PnL=+0.07%
+[2026-09-18 15:39:48 UTC]   📂 HOLD ONDO/sE PnL=+1.47%
+[2026-09-18 15:39:48 UTC]   📂 HOLD UNI/sM PnL=+2.81%
+[2026-09-18 15:39:48 UTC]   📂 HOLD AVAX/sE PnL=+2.58%
+[2026-09-18 15:39:48 UTC]   📂 HOLD WLD/sE PnL=+1.45%
+[2026-09-18 15:39:48 UTC]   📂 HOLD SOL/sE PnL=+3.84%
+[2026-09-18 15:39:49 UTC]   📂 HOLD HBAR/sE PnL=+0.94%
+[2026-09-18 15:39:49 UTC]   📂 HOLD M/sM PnL=+3.82%
+[2026-09-18 15:39:49 UTC]   📂 HOLD ADA/sE PnL=-0.41%
+[2026-09-18 15:39:49 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-18 15:39:49 UTC] [CG ERR] CG 429
+[2026-09-18 15:39:49 UTC] ⚠ CoinGecko недоступен
+[2026-09-18 15:39:51 UTC] [EMAIL] ✅ → m5827777@gmail.com
+[2026-09-18 15:39:51 UTC] 📧 6h report sent
+[2026-09-18 15:39:51 UTC] 
+📊 ИТОГ: WR=33.9% PnL=$65.19 Trades=386
