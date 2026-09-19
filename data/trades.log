@@ -142135,3 +142135,37 @@
 [2026-09-19 10:09:36 UTC] 📧 6h report sent
 [2026-09-19 10:09:36 UTC] 
 📊 ИТОГ: WR=34.0% PnL=$76.38 Trades=388
+[2026-09-19 13:27:12 UTC] ════════════════════════════════════════════════════
+[2026-09-19 13:27:12 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-09-19 13:27:12 UTC] ════════════════════════════════════════════════════
+[2026-09-19 13:27:12 UTC] 📡 Scan #2474
+[2026-09-19 13:27:20 UTC] 📊 BTC Dom=60%
+[2026-09-19 13:27:20 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-19 13:27:21 UTC] 🌡 F&G=71 Regime=BULL Open=20
+[2026-09-19 13:27:21 UTC]   📂 HOLD SKY/sM PnL=+17.80%
+[2026-09-19 13:27:21 UTC]   📂 HOLD BNB/sM PnL=+13.37%
+[2026-09-19 13:27:21 UTC]   📂 HOLD HYPE/sM PnL=+12.29%
+[2026-09-19 13:27:21 UTC]   📂 HOLD LTC/sE PnL=+13.37%
+[2026-09-19 13:27:21 UTC]   📂 HOLD XMR/sM PnL=+12.53%
+[2026-09-19 13:27:21 UTC]   📂 HOLD TRX/sE PnL=-0.55%
+[2026-09-19 13:27:21 UTC]   ✅ CLOSE DOGE/sR: ✅ TP +12% PnL=+12.33% held=2д 20ч
+[2026-09-19 13:27:23 UTC]   📂 HOLD ZEC/sM PnL=+14.71%
+[2026-09-19 13:27:23 UTC]   📂 HOLD ASTER/sE PnL=+3.63%
+[2026-09-19 13:27:23 UTC]   📂 HOLD FIGR_HELOC/sE PnL=+0.25%
+[2026-09-19 13:27:23 UTC]   📂 HOLD ONDO/sE PnL=+8.55%
+[2026-09-19 13:27:23 UTC]   📂 HOLD UNI/sM PnL=+6.28%
+[2026-09-19 13:27:23 UTC]   ✅ CLOSE AVAX/sE: ✅ TP +15% PnL=+16.61% held=1д 6ч
+[2026-09-19 13:27:24 UTC]   📂 HOLD WLD/sE PnL=+2.07%
+[2026-09-19 13:27:24 UTC]   📂 HOLD SOL/sE PnL=+4.68%
+[2026-09-19 13:27:24 UTC]   📂 HOLD HBAR/sE PnL=+4.19%
+[2026-09-19 13:27:35 UTC]   📂 HOLD ADA/sE PnL=+3.32%
+[2026-09-19 13:27:35 UTC]   📂 HOLD PEPE/sE PnL=+0.26%
+[2026-09-19 13:27:35 UTC]   📂 HOLD MORPHO/sE PnL=-0.46%
+[2026-09-19 13:27:35 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-19 13:27:35 UTC] ✓ CoinGecko: 82 токенов. Проверяю входы...
+[2026-09-19 13:27:36 UTC]   📈 ENTRY XRP/sE [BULL] via OKX: Golden Cross вчера · EMA9=1.3738 > EMA21=1.3617 · RSI=59 · Vol x1.1 @ $1.4385
+[2026-09-19 13:27:39 UTC]   ⏭ FIGR_HELOC: нет данных (figure-heloc)
+[2026-09-19 13:27:39 UTC]   📈 ENTRY DOGE/sE [BULL] via OKX: Golden Cross сегодня · EMA9=0.0850 > EMA21=0.0845 · RSI=59 · Vol x1.0 @ $0.08883
+[2026-09-19 13:27:40 UTC] ✅ Данные: 9 токенов OK, 1 недоступно | Открыто: 2 | Всего: 20
+[2026-09-19 13:27:40 UTC] 
+📊 ИТОГ: WR=34.4% PnL=$105.32 Trades=390

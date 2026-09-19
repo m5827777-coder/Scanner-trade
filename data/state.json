@@ -103,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "DOGE_sR_1789577120835",
-      "symbol": "DOGE",
-      "name": "Dogecoin",
-      "coinId": "dogecoin",
-      "rank": 12,
-      "stratId": "sR",
-      "entryPrice": 0.07913,
-      "entryTime": 1789577120835,
-      "entryDate": "2026-09-16T16:45:20.835Z",
-      "entrySignal": "Ротация #12 DOGE: BTC Dom=58.5% · Коррекция -12.7% · RSI=43",
-      "strength": 68,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ZEC_sM_1789639565559",
       "symbol": "ZEC",
       "name": "Zcash",
@@ -200,23 +183,6 @@
       "entrySignal": "Пробой 20d max $7.4840 на +13.6% · Объём x1.7 · RSI=77",
       "strength": 88,
       "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "AVAX_sE_1789712865823",
-      "symbol": "AVAX",
-      "name": "Avalanche",
-      "coinId": "avalanche-2",
-      "rank": 30,
-      "stratId": "sE",
-      "entryPrice": 7.9,
-      "entryTime": 1789712865823,
-      "entryDate": "2026-09-18T06:27:45.823Z",
-      "entrySignal": "EMA начало расхождения · EMA9=7.5731 > EMA21=7.4842 · RSI=61 · Vol x1.1",
-      "strength": 73,
-      "regime": "BULL",
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
@@ -339,9 +305,89 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XRP_sE_1789824456808",
+      "symbol": "XRP",
+      "name": "XRP",
+      "coinId": "ripple",
+      "rank": 5,
+      "stratId": "sE",
+      "entryPrice": 1.4385,
+      "entryTime": 1789824456808,
+      "entryDate": "2026-09-19T13:27:36.808Z",
+      "entrySignal": "Golden Cross вчера · EMA9=1.3738 > EMA21=1.3617 · RSI=59 · Vol x1.1",
+      "strength": 78,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "DOGE_sE_1789824459967",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "coinId": "dogecoin",
+      "rank": 12,
+      "stratId": "sE",
+      "entryPrice": 0.08883,
+      "entryTime": 1789824459967,
+      "entryDate": "2026-09-19T13:27:39.967Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0850 > EMA21=0.0845 · RSI=59 · Vol x1.0",
+      "strength": 80,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "AVAX_sE_1789712865823",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "coinId": "avalanche-2",
+      "rank": 30,
+      "stratId": "sE",
+      "entryPrice": 7.9,
+      "entryTime": 1789712865823,
+      "entryDate": "2026-09-18T06:27:45.823Z",
+      "entrySignal": "EMA начало расхождения · EMA9=7.5731 > EMA21=7.4842 · RSI=61 · Vol x1.1",
+      "strength": 73,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 9.212,
+      "exitTime": 1789824443886,
+      "exitReason": "✅ TP +15%",
+      "pnl": 16.607594936708853,
+      "pnlUsd": 16.607594936708853,
+      "total": 116.60759493670885
+    },
+    {
+      "id": "DOGE_sR_1789577120835",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "coinId": "dogecoin",
+      "rank": 12,
+      "stratId": "sR",
+      "entryPrice": 0.07913,
+      "entryTime": 1789577120835,
+      "entryDate": "2026-09-16T16:45:20.835Z",
+      "entrySignal": "Ротация #12 DOGE: BTC Dom=58.5% · Коррекция -12.7% · RSI=43",
+      "strength": 68,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.08889,
+      "exitTime": 1789824441993,
+      "exitReason": "✅ TP +12%",
+      "pnl": 12.334133704031329,
+      "pnlUsd": 12.334133704031329,
+      "total": 112.33413370403133
+    },
     {
       "id": "USDGO_sE_1789661044289",
       "symbol": "USDGO",
@@ -9287,7 +9333,7 @@
     "HBAR_sR": 1778752941540,
     "CC_sE": 1788457862321,
     "FLR_sE": 1789466324547,
-    "XRP_sE": 1789584362050,
+    "XRP_sE": 1789824456808,
     "HYPE_sE": 1787168197411,
     "LINK_sR": 1789653444404,
     "NEAR_sR": 1778862201360,
@@ -9375,7 +9421,7 @@
     "TAO_sE": 1788027211177,
     "OKB_sM": 1787539564478,
     "ETHFI_sE": 1786788688360,
-    "DOGE_sE": 1787153609321,
+    "DOGE_sE": 1789824459967,
     "XRP_sM": 1787307724269,
     "SOL_sM": 1787393321148,
     "LINK_sM": 1788956939609,
@@ -9408,29 +9454,29 @@
     "FIL_sM": 1789520382481,
     "M_sM": 1789727114583
   },
-  "scanCount": 2473,
+  "scanCount": 2474,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-19T10:09:34.207Z",
+  "lastScan": "2026-09-19T13:27:40.754Z",
   "lastReport": "2026-09-19T10:09:34.207Z",
   "marketRegime": "BULL",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 388,
-    "wins": 132,
+    "trades": 390,
+    "wins": 134,
     "losses": 256,
-    "totalPnl": 76.37966868411458,
-    "invested": 38800
+    "totalPnl": 105.32139732485476,
+    "invested": 39000
   },
   "byStrategy": {
     "sR": {
-      "trades": 125,
-      "wins": 48,
-      "pnl": -70.16166060823944
+      "trades": 126,
+      "wins": 49,
+      "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 210,
-      "wins": 64,
-      "pnl": 58.04161481838485
+      "trades": 211,
+      "wins": 65,
+      "pnl": 74.64920975509371
     },
     "sM": {
       "trades": 53,
@@ -9441,14 +9487,14 @@
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 20,
-        "wins": 9,
-        "pnl": 38.458679466062975
+        "trades": 21,
+        "wins": 10,
+        "pnl": 50.792813170094306
       },
       "sE": {
-        "trades": 38,
-        "wins": 8,
-        "pnl": -43.54416089342668
+        "trades": 39,
+        "wins": 9,
+        "pnl": -26.936565956717825
       },
       "sM": {
         "trades": 18,
@@ -9525,5 +9571,5 @@
       }
     }
   },
-  "btcDominance": 58.3
+  "btcDominance": 60
 }
