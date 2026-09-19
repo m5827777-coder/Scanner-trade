@@ -305,6 +305,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "PEPE_sE_1789780104980",
+      "symbol": "PEPE",
+      "name": "Pepe",
+      "coinId": "pepe",
+      "rank": 57,
+      "stratId": "sE",
+      "entryPrice": 0.00000381,
+      "entryTime": 1789780104980,
+      "entryDate": "2026-09-19T01:08:24.980Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.0000 > EMA21=0.0000 · RSI=61 · Vol x1.1",
+      "strength": 77,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -9321,7 +9338,7 @@
     "LEO_sE": 1783669674148,
     "ICP_sM": 1784300180465,
     "POL_sE": 1787457765203,
-    "PEPE_sE": 1787464985904,
+    "PEPE_sE": 1789780104980,
     "GRAM_sR": 1784307697586,
     "PUMP_sE": 1784080520130,
     "LINK_sE": 1786439600143,
@@ -9374,12 +9391,12 @@
     "FIL_sM": 1789520382481,
     "M_sM": 1789727114583
   },
-  "scanCount": 2468,
+  "scanCount": 2469,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-18T23:09:39.289Z",
+  "lastScan": "2026-09-19T01:08:41.264Z",
   "lastReport": "2026-09-18T20:17:37.530Z",
   "marketRegime": "BULL",
-  "fearGreed": 56,
+  "fearGreed": 71,
   "totalStats": {
     "trades": 388,
     "wins": 132,
@@ -9491,5 +9508,5 @@
       }
     }
   },
-  "btcDominance": 58.4
+  "btcDominance": 58.5
 }
