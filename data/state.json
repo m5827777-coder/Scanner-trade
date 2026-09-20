@@ -222,23 +222,6 @@
       "peakPnl": 0
     },
     {
-      "id": "M_sM_1789727114583",
-      "symbol": "M",
-      "name": "MemeCore",
-      "coinId": "memecore",
-      "rank": 36,
-      "stratId": "sM",
-      "entryPrice": 1.2838624967566201,
-      "entryTime": 1789727114583,
-      "entryDate": "2026-09-18T10:25:14.583Z",
-      "entrySignal": "Пробой 20d max $1.2417 на +3.4% · Объём x1.7 · RSI=64",
-      "strength": 80,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "ADA_sE_1789744031907",
       "symbol": "ADA",
       "name": "Cardano",
@@ -322,9 +305,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ENA_sE_1789881720948",
+      "symbol": "ENA",
+      "name": "Ethena",
+      "coinId": "ethena",
+      "rank": 48,
+      "stratId": "sE",
+      "entryPrice": 0.19546,
+      "entryTime": 1789881720948,
+      "entryDate": "2026-09-20T05:22:00.948Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=0.1681 > EMA21=0.1575 · RSI=70 · Vol x1.2",
+      "strength": 74,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "M_sM_1789727114583",
+      "symbol": "M",
+      "name": "MemeCore",
+      "coinId": "memecore",
+      "rank": 36,
+      "stratId": "sM",
+      "entryPrice": 1.2838624967566201,
+      "entryTime": 1789727114583,
+      "entryDate": "2026-09-18T10:25:14.583Z",
+      "entrySignal": "Пробой 20d max $1.2417 на +3.4% · Объём x1.7 · RSI=64",
+      "strength": 80,
+      "regime": "BULL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 1.7456303257643593,
+      "exitTime": 1789881701857,
+      "exitReason": "✅ TP +25%",
+      "pnl": 35.967078263777324,
+      "pnlUsd": 35.967078263777324,
+      "total": 135.96707826377732
+    },
     {
       "id": "MORPHO_sE_1789785939202",
       "symbol": "MORPHO",
@@ -9434,7 +9457,7 @@
     "GRAM_sR": 1784307697586,
     "PUMP_sE": 1784080520130,
     "LINK_sE": 1786439600143,
-    "ENA_sE": 1787841275487,
+    "ENA_sE": 1789881720948,
     "SUI_sE": 1787536936203,
     "CRO_sE": 1789112642560,
     "INJ_sE": 1787835568270,
@@ -9483,18 +9506,18 @@
     "FIL_sM": 1789520382481,
     "M_sM": 1789727114583
   },
-  "scanCount": 2482,
+  "scanCount": 2483,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-20T02:58:10.460Z",
+  "lastScan": "2026-09-20T05:22:21.115Z",
   "lastReport": "2026-09-20T02:58:10.460Z",
   "marketRegime": "BULL",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 392,
-    "wins": 134,
+    "trades": 393,
+    "wins": 135,
     "losses": 258,
-    "totalPnl": 95.7679704947163,
-    "invested": 39200
+    "totalPnl": 131.73504875849363,
+    "invested": 39300
   },
   "byStrategy": {
     "sR": {
@@ -9508,9 +9531,9 @@
       "pnl": 65.09578292495524
     },
     "sM": {
-      "trades": 53,
-      "wins": 20,
-      "pnl": 88.49971447396935
+      "trades": 54,
+      "wins": 21,
+      "pnl": 124.46679273774667
     }
   },
   "byRegime": {
@@ -9526,9 +9549,9 @@
         "pnl": -36.489992786856284
       },
       "sM": {
-        "trades": 18,
-        "wins": 5,
-        "pnl": 27.282460539373343
+        "trades": 19,
+        "wins": 6,
+        "pnl": 63.24953880315067
       }
     },
     "NEUTRAL": {
@@ -9600,5 +9623,5 @@
       }
     }
   },
-  "btcDominance": 58.9
+  "btcDominance": 59
 }
