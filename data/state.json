@@ -273,23 +273,6 @@
       "peakPnl": 0
     },
     {
-      "id": "MORPHO_sE_1789785939202",
-      "symbol": "MORPHO",
-      "name": "Morpho",
-      "coinId": "morpho",
-      "rank": 51,
-      "stratId": "sE",
-      "entryPrice": 2.7388,
-      "entryTime": 1789785939202,
-      "entryDate": "2026-09-19T02:45:39.202Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=2.3619 > EMA21=2.3523 · RSI=66 · Vol x1.6",
-      "strength": 87,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "XRP_sE_1789824456808",
       "symbol": "XRP",
       "name": "XRP",
@@ -322,9 +305,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "AVAX_sM_1789873064784",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "coinId": "avalanche-2",
+      "rank": 28,
+      "stratId": "sM",
+      "entryPrice": 9.541,
+      "entryTime": 1789873064784,
+      "entryDate": "2026-09-20T02:57:44.784Z",
+      "entrySignal": "Пробой 20d max $8.2000 на +16.4% · Объём x3.0 · RSI=78",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "MORPHO_sE_1789785939202",
+      "symbol": "MORPHO",
+      "name": "Morpho",
+      "coinId": "morpho",
+      "rank": 51,
+      "stratId": "sE",
+      "entryPrice": 2.7388,
+      "entryTime": 1789785939202,
+      "entryDate": "2026-09-19T02:45:39.202Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=2.3619 > EMA21=2.3523 · RSI=66 · Vol x1.6",
+      "strength": 87,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 2.5454,
+      "exitTime": 1789873054153,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -7.061486782532497,
+      "pnlUsd": -7.061486782532497,
+      "total": 92.9385132174675
+    },
     {
       "id": "FIGR_HELOC_sE_1789695030449",
       "symbol": "FIGR_HELOC",
@@ -9369,7 +9392,7 @@
     "ICP_sR": 1779986502655,
     "WLD_sE": 1789712877003,
     "JUP_sE": 1787756415402,
-    "MORPHO_sE": 1789785939202,
+    "MORPHO_sE": 1789952254153,
     "TON_sE": 1780599053641,
     "OKB_sE": 1785071279484,
     "FET_sE": 1780634934681,
@@ -9440,7 +9463,7 @@
     "HBAR_sM": 1787472517377,
     "ADA_sM": 1787544166486,
     "SHIB_sM": 1787536937167,
-    "AVAX_sM": 1788212257491,
+    "AVAX_sM": 1789873064784,
     "TRUMP_sE": 1787451269778,
     "KCS_sE": 1788027208791,
     "MORPHO_sM": 1787745401674,
@@ -9460,18 +9483,18 @@
     "FIL_sM": 1789520382481,
     "M_sM": 1789727114583
   },
-  "scanCount": 2481,
+  "scanCount": 2482,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-20T00:37:19.351Z",
-  "lastReport": "2026-09-19T19:55:55.653Z",
+  "lastScan": "2026-09-20T02:58:10.460Z",
+  "lastReport": "2026-09-20T02:58:10.460Z",
   "marketRegime": "BULL",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 391,
+    "trades": 392,
     "wins": 134,
-    "losses": 257,
-    "totalPnl": 102.82945727724879,
-    "invested": 39100
+    "losses": 258,
+    "totalPnl": 95.7679704947163,
+    "invested": 39200
   },
   "byStrategy": {
     "sR": {
@@ -9480,9 +9503,9 @@
       "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 212,
+      "trades": 213,
       "wins": 65,
-      "pnl": 72.15726970748774
+      "pnl": 65.09578292495524
     },
     "sM": {
       "trades": 53,
@@ -9498,9 +9521,9 @@
         "pnl": 50.792813170094306
       },
       "sE": {
-        "trades": 40,
+        "trades": 41,
         "wins": 9,
-        "pnl": -29.428506004323786
+        "pnl": -36.489992786856284
       },
       "sM": {
         "trades": 18,
