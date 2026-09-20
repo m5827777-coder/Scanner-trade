@@ -322,6 +322,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "RENDER_sE_1789931960550",
+      "symbol": "RENDER",
+      "name": "Render",
+      "coinId": "render-token",
+      "rank": 85,
+      "stratId": "sE",
+      "entryPrice": 1.652,
+      "entryTime": 1789931960550,
+      "entryDate": "2026-09-20T19:19:20.550Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=1.5129 > EMA21=1.4690 · RSI=67 · Vol x1.3",
+      "strength": 80,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -9432,7 +9449,7 @@
     "SUI_sR": 1779554020771,
     "ASTER_sE": 1789656892144,
     "NEAR_sM": 1788600277122,
-    "RENDER_sE": 1789127417659,
+    "RENDER_sE": 1789931960550,
     "XMR_sE": 1785969350861,
     "ZEC_sM": 1789639565559,
     "ICP_sR": 1779986502655,
@@ -9529,9 +9546,9 @@
     "FIL_sM": 1789520382481,
     "M_sM": 1789727114583
   },
-  "scanCount": 2488,
+  "scanCount": 2489,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-20T17:01:09.918Z",
+  "lastScan": "2026-09-20T19:19:21.589Z",
   "lastReport": "2026-09-20T15:16:30.334Z",
   "marketRegime": "BULL",
   "fearGreed": 71,
