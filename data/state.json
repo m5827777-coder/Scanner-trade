@@ -322,6 +322,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "SUI_sE_1789897983429",
+      "symbol": "SUI",
+      "name": "Sui",
+      "coinId": "sui",
+      "rank": 32,
+      "stratId": "sE",
+      "entryPrice": 0.8237,
+      "entryTime": 1789897983429,
+      "entryDate": "2026-09-20T09:53:03.429Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.7754 > EMA21=0.7614 · RSI=60 · Vol x1.0",
+      "strength": 76,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -9458,7 +9475,7 @@
     "PUMP_sE": 1784080520130,
     "LINK_sE": 1786439600143,
     "ENA_sE": 1789881720948,
-    "SUI_sE": 1787536936203,
+    "SUI_sE": 1789897983429,
     "CRO_sE": 1789112642560,
     "INJ_sE": 1787835568270,
     "PUMP_sM": 1786067830795,
@@ -9506,10 +9523,10 @@
     "FIL_sM": 1789520382481,
     "M_sM": 1789727114583
   },
-  "scanCount": 2483,
+  "scanCount": 2484,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-20T05:22:21.115Z",
-  "lastReport": "2026-09-20T02:58:10.460Z",
+  "lastScan": "2026-09-20T09:53:04.775Z",
+  "lastReport": "2026-09-20T09:53:04.775Z",
   "marketRegime": "BULL",
   "fearGreed": 71,
   "totalStats": {
@@ -9623,5 +9640,5 @@
       }
     }
   },
-  "btcDominance": 59
+  "btcDominance": 58.9
 }
