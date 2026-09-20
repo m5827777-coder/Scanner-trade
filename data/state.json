@@ -52,23 +52,6 @@
       "peakPnl": 0
     },
     {
-      "id": "LTC_sE_1787395008821",
-      "symbol": "LTC",
-      "name": "Litecoin",
-      "coinId": "litecoin",
-      "rank": 26,
-      "stratId": "sE",
-      "entryPrice": 51.02,
-      "entryTime": 1787395008821,
-      "entryDate": "2026-08-22T10:36:48.821Z",
-      "entrySignal": "Golden Cross 2д назад · EMA9=47.6059 > EMA21=46.3746 · RSI=71 · Vol x4.9",
-      "strength": 88,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "XMR_sM_1788189662271",
       "symbol": "XMR",
       "name": "Monero",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "LTC_sE_1787395008821",
+      "symbol": "LTC",
+      "name": "Litecoin",
+      "coinId": "litecoin",
+      "rank": 26,
+      "stratId": "sE",
+      "entryPrice": 51.02,
+      "entryTime": 1787395008821,
+      "entryDate": "2026-08-22T10:36:48.821Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=47.6059 > EMA21=46.3746 · RSI=71 · Vol x4.9",
+      "strength": 88,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 59.07,
+      "exitTime": 1789923633744,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.778126225009794,
+      "pnlUsd": 15.778126225009794,
+      "total": 115.7781262250098
+    },
     {
       "id": "M_sM_1789727114583",
       "symbol": "M",
@@ -9523,18 +9529,18 @@
     "FIL_sM": 1789520382481,
     "M_sM": 1789727114583
   },
-  "scanCount": 2487,
+  "scanCount": 2488,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-20T15:16:30.334Z",
+  "lastScan": "2026-09-20T17:01:09.918Z",
   "lastReport": "2026-09-20T15:16:30.334Z",
   "marketRegime": "BULL",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 393,
-    "wins": 135,
+    "trades": 394,
+    "wins": 136,
     "losses": 258,
-    "totalPnl": 131.73504875849363,
-    "invested": 39300
+    "totalPnl": 147.51317498350343,
+    "invested": 39400
   },
   "byStrategy": {
     "sR": {
@@ -9543,9 +9549,9 @@
       "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 213,
-      "wins": 65,
-      "pnl": 65.09578292495524
+      "trades": 214,
+      "wins": 66,
+      "pnl": 80.87390914996504
     },
     "sM": {
       "trades": 54,
@@ -9561,9 +9567,9 @@
         "pnl": 50.792813170094306
       },
       "sE": {
-        "trades": 41,
-        "wins": 9,
-        "pnl": -36.489992786856284
+        "trades": 42,
+        "wins": 10,
+        "pnl": -20.71186656184649
       },
       "sM": {
         "trades": 19,
@@ -9640,5 +9646,5 @@
       }
     }
   },
-  "btcDominance": 58.9
+  "btcDominance": 58.8
 }
