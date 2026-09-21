@@ -9663,9 +9663,9 @@
     "BTC_sM": 1789996600720,
     "WBT_sM": 1790026511231
   },
-  "scanCount": 2500,
+  "scanCount": 2501,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-21T21:35:12.296Z",
+  "lastScan": "2026-09-21T22:15:40.292Z",
   "lastReport": "2026-09-21T21:35:12.296Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 70,
@@ -9780,5 +9780,5 @@
       }
     }
   },
-  "btcDominance": 59
+  "btcDominance": 58.9
 }
