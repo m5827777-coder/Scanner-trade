@@ -120,23 +120,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ONDO_sE_1789699628273",
-      "symbol": "ONDO",
-      "name": "Ondo",
-      "coinId": "ondo-finance",
-      "rank": 52,
-      "stratId": "sE",
-      "entryPrice": 0.3883,
-      "entryTime": 1789699628273,
-      "entryDate": "2026-09-18T02:47:08.273Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.3606 > EMA21=0.3591 · RSI=59 · Vol x1.0",
-      "strength": 81,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "UNI_sM_1789712862379",
       "symbol": "UNI",
       "name": "Uniswap",
@@ -182,23 +165,6 @@
       "entryDate": "2026-09-18T10:25:01.689Z",
       "entrySignal": "EMA начало расхождения · EMA9=101.8256 > EMA21=100.2400 · RSI=63 · Vol x1.1",
       "strength": 73,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "HBAR_sE_1789727111768",
-      "symbol": "HBAR",
-      "name": "Hedera",
-      "coinId": "hedera-hashgraph",
-      "rank": 31,
-      "stratId": "sE",
-      "entryPrice": 0.07805,
-      "entryTime": 1789727111768,
-      "entryDate": "2026-09-18T10:25:11.768Z",
-      "entrySignal": "Golden Cross вчера · EMA9=0.0764 > EMA21=0.0762 · RSI=55 · Vol x1.1",
-      "strength": 79,
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
@@ -339,9 +305,89 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XLM_sM_1789991140697",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 20,
+      "stratId": "sM",
+      "entryPrice": 0.21196,
+      "entryTime": 1789991140697,
+      "entryDate": "2026-09-21T11:45:40.697Z",
+      "entrySignal": "Пробой 20d max $0.2042 на +3.8% · Объём x1.5 · RSI=65",
+      "strength": 79,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "NEAR_sM_1789991142330",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 22,
+      "stratId": "sM",
+      "entryPrice": 4.173,
+      "entryTime": 1789991142330,
+      "entryDate": "2026-09-21T11:45:42.330Z",
+      "entrySignal": "Пробой 20d max $3.9170 на +6.5% · Объём x1.8 · RSI=83",
+      "strength": 93,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "HBAR_sE_1789727111768",
+      "symbol": "HBAR",
+      "name": "Hedera",
+      "coinId": "hedera-hashgraph",
+      "rank": 31,
+      "stratId": "sE",
+      "entryPrice": 0.07805,
+      "entryTime": 1789727111768,
+      "entryDate": "2026-09-18T10:25:11.768Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.0764 > EMA21=0.0762 · RSI=55 · Vol x1.1",
+      "strength": 79,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.09083,
+      "exitTime": 1789991131251,
+      "exitReason": "✅ TP +15%",
+      "pnl": 16.374119154388215,
+      "pnlUsd": 16.374119154388215,
+      "total": 116.37411915438821
+    },
+    {
+      "id": "ONDO_sE_1789699628273",
+      "symbol": "ONDO",
+      "name": "Ondo",
+      "coinId": "ondo-finance",
+      "rank": 52,
+      "stratId": "sE",
+      "entryPrice": 0.3883,
+      "entryTime": 1789699628273,
+      "entryDate": "2026-09-18T02:47:08.273Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.3606 > EMA21=0.3591 · RSI=59 · Vol x1.0",
+      "strength": 81,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.4525,
+      "exitTime": 1789991129732,
+      "exitReason": "✅ TP +15%",
+      "pnl": 16.533608035024475,
+      "pnlUsd": 16.533608035024475,
+      "total": 116.53360803502447
+    },
     {
       "id": "SUI_sE_1789897983429",
       "symbol": "SUI",
@@ -9471,7 +9517,7 @@
     "DASH_sE": 1779550477183,
     "SUI_sR": 1779554020771,
     "ASTER_sE": 1789656892144,
-    "NEAR_sM": 1788600277122,
+    "NEAR_sM": 1789991142330,
     "RENDER_sE": 1789931960550,
     "XMR_sE": 1785969350861,
     "ZEC_sM": 1789639565559,
@@ -9490,7 +9536,7 @@
     "ALGO_sE": 1789601892623,
     "BNB_sM": 1787306163073,
     "BNB_sE": 1784631009103,
-    "XLM_sM": 1787830006789,
+    "XLM_sM": 1789991140697,
     "RAIN_sE": 1788212259153,
     "WLD_sM": 1780648179526,
     "NIGHT_sE": 1783252446162,
@@ -9569,18 +9615,18 @@
     "FIL_sM": 1789520382481,
     "M_sM": 1789727114583
   },
-  "scanCount": 2495,
+  "scanCount": 2496,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-21T06:35:22.574Z",
-  "lastReport": "2026-09-21T02:54:56.672Z",
+  "lastScan": "2026-09-21T11:45:43.098Z",
+  "lastReport": "2026-09-21T11:45:43.098Z",
   "marketRegime": "BULL",
   "fearGreed": 70,
   "totalStats": {
-    "trades": 395,
-    "wins": 137,
+    "trades": 397,
+    "wins": 139,
     "losses": 258,
-    "totalPnl": 164.63105770779626,
-    "invested": 39500
+    "totalPnl": 197.53878489720896,
+    "invested": 39700
   },
   "byStrategy": {
     "sR": {
@@ -9589,9 +9635,9 @@
       "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 215,
-      "wins": 67,
-      "pnl": 97.99179187425787
+      "trades": 217,
+      "wins": 69,
+      "pnl": 130.89951906367057
     },
     "sM": {
       "trades": 54,
@@ -9607,9 +9653,9 @@
         "pnl": 50.792813170094306
       },
       "sE": {
-        "trades": 43,
-        "wins": 11,
-        "pnl": -3.5939838375536652
+        "trades": 45,
+        "wins": 13,
+        "pnl": 29.313743351859024
       },
       "sM": {
         "trades": 19,
@@ -9686,5 +9732,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 59.1
 }
