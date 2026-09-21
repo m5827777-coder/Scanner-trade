@@ -188,23 +188,6 @@
       "peakPnl": 0
     },
     {
-      "id": "PEPE_sE_1789780104980",
-      "symbol": "PEPE",
-      "name": "Pepe",
-      "coinId": "pepe",
-      "rank": 57,
-      "stratId": "sE",
-      "entryPrice": 0.00000381,
-      "entryTime": 1789780104980,
-      "entryDate": "2026-09-19T01:08:24.980Z",
-      "entrySignal": "Golden Cross вчера · EMA9=0.0000 > EMA21=0.0000 · RSI=61 · Vol x1.1",
-      "strength": 77,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "XRP_sE_1789824456808",
       "symbol": "XRP",
       "name": "XRP",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "PEPE_sE_1789780104980",
+      "symbol": "PEPE",
+      "name": "Pepe",
+      "coinId": "pepe",
+      "rank": 57,
+      "stratId": "sE",
+      "entryPrice": 0.00000381,
+      "entryTime": 1789780104980,
+      "entryDate": "2026-09-19T01:08:24.980Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.0000 > EMA21=0.0000 · RSI=61 · Vol x1.1",
+      "strength": 77,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.000004964,
+      "exitTime": 1790012484331,
+      "exitReason": "✅ TP +15%",
+      "pnl": 30.28871391076116,
+      "pnlUsd": 30.28871391076116,
+      "total": 130.28871391076115
+    },
     {
       "id": "ENA_sE_1789881720948",
       "symbol": "ENA",
@@ -9639,18 +9645,18 @@
     "M_sM": 1789727114583,
     "BTC_sM": 1789996600720
   },
-  "scanCount": 2497,
+  "scanCount": 2498,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-21T13:16:41.441Z",
-  "lastReport": "2026-09-21T11:45:43.098Z",
+  "lastScan": "2026-09-21T17:42:05.369Z",
+  "lastReport": "2026-09-21T17:42:05.369Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 70,
   "totalStats": {
-    "trades": 398,
-    "wins": 140,
+    "trades": 399,
+    "wins": 141,
     "losses": 258,
-    "totalPnl": 212.82068400700123,
-    "invested": 39800
+    "totalPnl": 243.1093979177624,
+    "invested": 39900
   },
   "byStrategy": {
     "sR": {
@@ -9659,9 +9665,9 @@
       "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 218,
-      "wins": 70,
-      "pnl": 146.18141817346284
+      "trades": 219,
+      "wins": 71,
+      "pnl": 176.47013208422402
     },
     "sM": {
       "trades": 54,
@@ -9750,11 +9756,11 @@
         "pnl": 51.74325604015844
       },
       "sE": {
-        "trades": 41,
-        "wins": 28,
-        "pnl": 331.2152262011405
+        "trades": 42,
+        "wins": 29,
+        "pnl": 361.50394011190167
       }
     }
   },
-  "btcDominance": 58.8
+  "btcDominance": 58.9
 }
