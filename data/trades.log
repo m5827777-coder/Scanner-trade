@@ -143052,3 +143052,38 @@
 [2026-09-21 02:54:58 UTC] 📧 6h report sent
 [2026-09-21 02:54:58 UTC] 
 📊 ИТОГ: WR=34.5% PnL=$147.51 Trades=394
+[2026-09-21 06:35:06 UTC] ════════════════════════════════════════════════════
+[2026-09-21 06:35:06 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-09-21 06:35:06 UTC] ════════════════════════════════════════════════════
+[2026-09-21 06:35:06 UTC] 📡 Scan #2495
+[2026-09-21 06:35:06 UTC] 📊 BTC Dom=58.2%
+[2026-09-21 06:35:06 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-21 06:35:06 UTC] 🌡 F&G=70 Regime=BULL Open=20
+[2026-09-21 06:35:07 UTC]   📂 HOLD SKY/sM PnL=+20.37%
+[2026-09-21 06:35:07 UTC]   📂 HOLD BNB/sM PnL=+14.02%
+[2026-09-21 06:35:07 UTC]   📂 HOLD HYPE/sM PnL=+14.78%
+[2026-09-21 06:35:07 UTC]   📂 HOLD XMR/sM PnL=+18.13%
+[2026-09-21 06:35:07 UTC]   📂 HOLD TRX/sE PnL=+1.00%
+[2026-09-21 06:35:07 UTC]   📂 HOLD ZEC/sM PnL=+12.87%
+[2026-09-21 06:35:08 UTC]   📂 HOLD ASTER/sE PnL=+0.37%
+[2026-09-21 06:35:08 UTC]   📂 HOLD ONDO/sE PnL=+12.26%
+[2026-09-21 06:35:08 UTC]   📂 HOLD UNI/sM PnL=+2.20%
+[2026-09-21 06:35:08 UTC]   📂 HOLD WLD/sE PnL=+7.22%
+[2026-09-21 06:35:08 UTC]   📂 HOLD SOL/sE PnL=+5.46%
+[2026-09-21 06:35:08 UTC]   📂 HOLD HBAR/sE PnL=+12.29%
+[2026-09-21 06:35:09 UTC]   📂 HOLD ADA/sE PnL=+6.51%
+[2026-09-21 06:35:09 UTC]   📂 HOLD PEPE/sE PnL=+6.04%
+[2026-09-21 06:35:09 UTC]   📂 HOLD XRP/sE PnL=-0.09%
+[2026-09-21 06:35:09 UTC]   📂 HOLD DOGE/sE PnL=+0.36%
+[2026-09-21 06:35:09 UTC]   📂 HOLD AVAX/sM PnL=+17.47%
+[2026-09-21 06:35:09 UTC]   📂 HOLD ENA/sE PnL=+10.99%
+[2026-09-21 06:35:10 UTC]   ✅ CLOSE SUI/sE: ✅ TP +15% PnL=+17.12% held=20ч 42м
+[2026-09-21 06:35:11 UTC]   📂 HOLD RENDER/sE PnL=+5.87%
+[2026-09-21 06:35:11 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-21 06:35:11 UTC] ✓ CoinGecko: 82 токенов. Проверяю входы...
+[2026-09-21 06:35:16 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-09-21 06:35:16 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-09-21 06:35:21 UTC]   📈 ENTRY SUI/sE [BULL_TREND] via OKX: Golden Cross 2д назад · EMA9=0.8168 > EMA21=0.7817 · RSI=73 · Vol x1.4 @ $0.9649
+[2026-09-21 06:35:22 UTC] ✅ Данные: 22 токенов OK, 2 недоступно | Открыто: 1 | Всего: 20
+[2026-09-21 06:35:23 UTC] 
+📊 ИТОГ: WR=34.7% PnL=$164.63 Trades=395

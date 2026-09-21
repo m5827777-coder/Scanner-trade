@@ -307,23 +307,6 @@
       "peakPnl": 0
     },
     {
-      "id": "SUI_sE_1789897983429",
-      "symbol": "SUI",
-      "name": "Sui",
-      "coinId": "sui",
-      "rank": 32,
-      "stratId": "sE",
-      "entryPrice": 0.8237,
-      "entryTime": 1789897983429,
-      "entryDate": "2026-09-20T09:53:03.429Z",
-      "entrySignal": "Golden Cross вчера · EMA9=0.7754 > EMA21=0.7614 · RSI=60 · Vol x1.0",
-      "strength": 76,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "RENDER_sE_1789931960550",
       "symbol": "RENDER",
       "name": "Render",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "SUI_sE_1789972521637",
+      "symbol": "SUI",
+      "name": "Sui",
+      "coinId": "sui",
+      "rank": 30,
+      "stratId": "sE",
+      "entryPrice": 0.9649,
+      "entryTime": 1789972521637,
+      "entryDate": "2026-09-21T06:35:21.637Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=0.8168 > EMA21=0.7817 · RSI=73 · Vol x1.4",
+      "strength": 81,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "SUI_sE_1789897983429",
+      "symbol": "SUI",
+      "name": "Sui",
+      "coinId": "sui",
+      "rank": 32,
+      "stratId": "sE",
+      "entryPrice": 0.8237,
+      "entryTime": 1789897983429,
+      "entryDate": "2026-09-20T09:53:03.429Z",
+      "entrySignal": "Golden Cross вчера · EMA9=0.7754 > EMA21=0.7614 · RSI=60 · Vol x1.0",
+      "strength": 76,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.9647,
+      "exitTime": 1789972510100,
+      "exitReason": "✅ TP +15%",
+      "pnl": 17.117882724292826,
+      "pnlUsd": 17.117882724292826,
+      "total": 117.11788272429283
+    },
     {
       "id": "LTC_sE_1787395008821",
       "symbol": "LTC",
@@ -9498,7 +9521,7 @@
     "PUMP_sE": 1784080520130,
     "LINK_sE": 1786439600143,
     "ENA_sE": 1789881720948,
-    "SUI_sE": 1789897983429,
+    "SUI_sE": 1789972521637,
     "CRO_sE": 1789112642560,
     "INJ_sE": 1787835568270,
     "PUMP_sM": 1786067830795,
@@ -9546,18 +9569,18 @@
     "FIL_sM": 1789520382481,
     "M_sM": 1789727114583
   },
-  "scanCount": 2494,
+  "scanCount": 2495,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-21T02:54:56.672Z",
+  "lastScan": "2026-09-21T06:35:22.574Z",
   "lastReport": "2026-09-21T02:54:56.672Z",
   "marketRegime": "BULL",
   "fearGreed": 70,
   "totalStats": {
-    "trades": 394,
-    "wins": 136,
+    "trades": 395,
+    "wins": 137,
     "losses": 258,
-    "totalPnl": 147.51317498350343,
-    "invested": 39400
+    "totalPnl": 164.63105770779626,
+    "invested": 39500
   },
   "byStrategy": {
     "sR": {
@@ -9566,9 +9589,9 @@
       "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 214,
-      "wins": 66,
-      "pnl": 80.87390914996504
+      "trades": 215,
+      "wins": 67,
+      "pnl": 97.99179187425787
     },
     "sM": {
       "trades": 54,
@@ -9584,9 +9607,9 @@
         "pnl": 50.792813170094306
       },
       "sE": {
-        "trades": 42,
-        "wins": 10,
-        "pnl": -20.71186656184649
+        "trades": 43,
+        "wins": 11,
+        "pnl": -3.5939838375536652
       },
       "sM": {
         "trades": 19,
@@ -9663,5 +9686,5 @@
       }
     }
   },
-  "btcDominance": 58.1
+  "btcDominance": 58.2
 }
