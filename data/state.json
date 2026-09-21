@@ -322,6 +322,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "WBT_sM_1790026511231",
+      "symbol": "WBT",
+      "name": "WhiteBIT Coin",
+      "coinId": "whitebit",
+      "rank": 14,
+      "stratId": "sM",
+      "entryPrice": 87.27790806196693,
+      "entryTime": 1790026511231,
+      "entryDate": "2026-09-21T21:35:11.231Z",
+      "entrySignal": "Пробой 20d max $83.8534 на +4.1% · Объём x2.1 · RSI=78",
+      "strength": 93,
+      "regime": "BULL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -9643,12 +9660,13 @@
     "ETH_sM": 1789562303683,
     "FIL_sM": 1789520382481,
     "M_sM": 1789727114583,
-    "BTC_sM": 1789996600720
+    "BTC_sM": 1789996600720,
+    "WBT_sM": 1790026511231
   },
-  "scanCount": 2499,
+  "scanCount": 2500,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-21T18:45:23.549Z",
-  "lastReport": "2026-09-21T17:42:05.369Z",
+  "lastScan": "2026-09-21T21:35:12.296Z",
+  "lastReport": "2026-09-21T21:35:12.296Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 70,
   "totalStats": {
@@ -9762,5 +9780,5 @@
       }
     }
   },
-  "btcDominance": 58.9
+  "btcDominance": 59
 }
