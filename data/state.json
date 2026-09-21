@@ -256,23 +256,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ENA_sE_1789881720948",
-      "symbol": "ENA",
-      "name": "Ethena",
-      "coinId": "ethena",
-      "rank": 48,
-      "stratId": "sE",
-      "entryPrice": 0.19546,
-      "entryTime": 1789881720948,
-      "entryDate": "2026-09-20T05:22:00.948Z",
-      "entrySignal": "Golden Cross 3д назад · EMA9=0.1681 > EMA21=0.1575 · RSI=70 · Vol x1.2",
-      "strength": 74,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "RENDER_sE_1789931960550",
       "symbol": "RENDER",
       "name": "Render",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "BTC_sM_1789996600720",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "coinId": "bitcoin",
+      "rank": 1,
+      "stratId": "sM",
+      "entryPrice": 85131,
+      "entryTime": 1789996600720,
+      "entryDate": "2026-09-21T13:16:40.720Z",
+      "entrySignal": "Пробой 20d max $82285.0000 на +3.5% · Объём x1.6 · RSI=72",
+      "strength": 83,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "ENA_sE_1789881720948",
+      "symbol": "ENA",
+      "name": "Ethena",
+      "coinId": "ethena",
+      "rank": 48,
+      "stratId": "sE",
+      "entryPrice": 0.19546,
+      "entryTime": 1789881720948,
+      "entryDate": "2026-09-20T05:22:00.948Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=0.1681 > EMA21=0.1575 · RSI=70 · Vol x1.2",
+      "strength": 74,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.22533,
+      "exitTime": 1789996598972,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.281899109792288,
+      "pnlUsd": 15.281899109792288,
+      "total": 115.28189910979229
+    },
     {
       "id": "HBAR_sE_1789727111768",
       "symbol": "HBAR",
@@ -9613,20 +9636,21 @@
     "ETHFI_sM": 1789353912899,
     "ETH_sM": 1789562303683,
     "FIL_sM": 1789520382481,
-    "M_sM": 1789727114583
+    "M_sM": 1789727114583,
+    "BTC_sM": 1789996600720
   },
-  "scanCount": 2496,
+  "scanCount": 2497,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-21T11:45:43.098Z",
+  "lastScan": "2026-09-21T13:16:41.441Z",
   "lastReport": "2026-09-21T11:45:43.098Z",
-  "marketRegime": "BULL",
+  "marketRegime": "BULL_TREND",
   "fearGreed": 70,
   "totalStats": {
-    "trades": 397,
-    "wins": 139,
+    "trades": 398,
+    "wins": 140,
     "losses": 258,
-    "totalPnl": 197.53878489720896,
-    "invested": 39700
+    "totalPnl": 212.82068400700123,
+    "invested": 39800
   },
   "byStrategy": {
     "sR": {
@@ -9635,9 +9659,9 @@
       "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 217,
-      "wins": 69,
-      "pnl": 130.89951906367057
+      "trades": 218,
+      "wins": 70,
+      "pnl": 146.18141817346284
     },
     "sM": {
       "trades": 54,
@@ -9726,11 +9750,11 @@
         "pnl": 51.74325604015844
       },
       "sE": {
-        "trades": 40,
-        "wins": 27,
-        "pnl": 315.93332709134825
+        "trades": 41,
+        "wins": 28,
+        "pnl": 331.2152262011405
       }
     }
   },
-  "btcDominance": 59.1
+  "btcDominance": 58.8
 }
