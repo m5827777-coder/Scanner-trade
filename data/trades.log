@@ -143772,3 +143772,39 @@
 [2026-09-23 02:55:47 UTC] 📧 6h report sent
 [2026-09-23 02:55:47 UTC] 
 📊 ИТОГ: WR=35.7% PnL=$284.50 Trades=401
+[2026-09-23 06:45:49 UTC] ════════════════════════════════════════════════════
+[2026-09-23 06:45:49 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-09-23 06:45:49 UTC] ════════════════════════════════════════════════════
+[2026-09-23 06:45:49 UTC] 📡 Scan #2515
+[2026-09-23 06:45:49 UTC] 📊 BTC Dom=58.7%
+[2026-09-23 06:45:49 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-23 06:45:50 UTC] 🌡 F&G=71 Regime=BULL_TREND Open=20
+[2026-09-23 06:45:50 UTC]   📂 HOLD SKY/sM PnL=+23.74%
+[2026-09-23 06:45:50 UTC]   📂 HOLD BNB/sM PnL=+16.73%
+[2026-09-23 06:45:50 UTC]   📂 HOLD HYPE/sM PnL=+18.49%
+[2026-09-23 06:45:50 UTC]   📂 HOLD XMR/sM PnL=+11.18%
+[2026-09-23 06:45:50 UTC]   📂 HOLD TRX/sE PnL=+1.25%
+[2026-09-23 06:45:51 UTC]   📂 HOLD ZEC/sM PnL=+20.68%
+[2026-09-23 06:45:51 UTC]   📂 HOLD ASTER/sE PnL=-0.50%
+[2026-09-23 06:45:51 UTC]   📂 HOLD WLD/sE PnL=+10.29%
+[2026-09-23 06:45:51 UTC]   📂 HOLD SOL/sE PnL=+11.99%
+[2026-09-23 06:45:51 UTC]   📂 HOLD XRP/sE PnL=+13.72%
+[2026-09-23 06:45:51 UTC]   ✅ CLOSE DOGE/sE: ✅ TP +15% PnL=+15.75% held=3д 17ч
+[2026-09-23 06:45:52 UTC]   📂 HOLD AVAX/sM PnL=+17.26%
+[2026-09-23 06:45:52 UTC]   📂 HOLD RENDER/sE PnL=+13.32%
+[2026-09-23 06:45:53 UTC]   📂 HOLD SUI/sE PnL=+7.06%
+[2026-09-23 06:45:53 UTC]   📂 HOLD XLM/sM PnL=+4.97%
+[2026-09-23 06:45:53 UTC]   📂 HOLD NEAR/sM PnL=+7.84%
+[2026-09-23 06:45:53 UTC]   📂 HOLD BTC/sM PnL=+1.67%
+[2026-09-23 06:45:53 UTC]   📂 HOLD WBT/sM PnL=-0.38%
+[2026-09-23 06:45:54 UTC]   📂 HOLD FIGR_HELOC/sE PnL=-0.08%
+[2026-09-23 06:45:54 UTC]   📂 HOLD BCH/sE PnL=+3.84%
+[2026-09-23 06:45:54 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-23 06:45:54 UTC] ✓ CoinGecko: 82 токенов. Проверяю входы...
+[2026-09-23 06:45:57 UTC]   ⏭ FIGR_HELOC: нет данных (figure-heloc)
+[2026-09-23 06:45:58 UTC]   ⏭ XMR: нет данных (monero)
+[2026-09-23 06:45:59 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-09-23 06:46:00 UTC]   📈 ENTRY ADA/sE [BULL_TREND] via OKX: Golden Cross 5д назад · EMA9=0.2334 > EMA21=0.2210 · RSI=72 · Vol x1.1 @ $0.26
+[2026-09-23 06:46:01 UTC] ✅ Данные: 11 токенов OK, 3 недоступно | Открыто: 1 | Всего: 20
+[2026-09-23 06:46:01 UTC] 
+📊 ИТОГ: WR=35.8% PnL=$300.25 Trades=402

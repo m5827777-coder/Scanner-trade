@@ -171,23 +171,6 @@
       "peakPnl": 0
     },
     {
-      "id": "DOGE_sE_1789824459967",
-      "symbol": "DOGE",
-      "name": "Dogecoin",
-      "coinId": "dogecoin",
-      "rank": 12,
-      "stratId": "sE",
-      "entryPrice": 0.08883,
-      "entryTime": 1789824459967,
-      "entryDate": "2026-09-19T13:27:39.967Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.0850 > EMA21=0.0845 · RSI=59 · Vol x1.0",
-      "strength": 80,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "AVAX_sM_1789873064784",
       "symbol": "AVAX",
       "name": "Avalanche",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ADA_sE_1790145960188",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 16,
+      "stratId": "sE",
+      "entryPrice": 0.26,
+      "entryTime": 1790145960188,
+      "entryDate": "2026-09-23T06:46:00.188Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=0.2334 > EMA21=0.2210 · RSI=72 · Vol x1.1",
+      "strength": 73,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "DOGE_sE_1789824459967",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "coinId": "dogecoin",
+      "rank": 12,
+      "stratId": "sE",
+      "entryPrice": 0.08883,
+      "entryTime": 1789824459967,
+      "entryDate": "2026-09-19T13:27:39.967Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0850 > EMA21=0.0845 · RSI=59 · Vol x1.0",
+      "strength": 80,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.10282,
+      "exitTime": 1790145951851,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.749183834290204,
+      "pnlUsd": 15.749183834290204,
+      "total": 115.7491838342902
+    },
     {
       "id": "UNI_sM_1789712862379",
       "symbol": "UNI",
@@ -9644,7 +9667,7 @@
     "LIT_sM": 1782981286266,
     "SOL_sE": 1789727101689,
     "SKY_sM": 1787153623428,
-    "ADA_sE": 1789744031907,
+    "ADA_sE": 1790145960188,
     "BCH_sE": 1790132144124,
     "LTC_sE": 1787395008821,
     "ETH_sE": 1787153605762,
@@ -9709,18 +9732,18 @@
     "BTC_sM": 1789996600720,
     "WBT_sM": 1790026511231
   },
-  "scanCount": 2514,
+  "scanCount": 2515,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-23T02:55:45.183Z",
+  "lastScan": "2026-09-23T06:46:01.133Z",
   "lastReport": "2026-09-23T02:55:45.183Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 401,
-    "wins": 143,
+    "trades": 402,
+    "wins": 144,
     "losses": 258,
-    "totalPnl": 284.49858466743234,
-    "invested": 40100
+    "totalPnl": 300.24776850172253,
+    "invested": 40200
   },
   "byStrategy": {
     "sR": {
@@ -9729,9 +9752,9 @@
       "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 220,
-      "wins": 72,
-      "pnl": 192.67404651299051
+      "trades": 221,
+      "wins": 73,
+      "pnl": 208.4232303472807
     },
     "sM": {
       "trades": 55,
@@ -9820,9 +9843,9 @@
         "pnl": 76.92852836106186
       },
       "sE": {
-        "trades": 43,
-        "wins": 30,
-        "pnl": 377.70785454066817
+        "trades": 44,
+        "wins": 31,
+        "pnl": 393.45703837495836
       }
     }
   },
