@@ -9686,12 +9686,12 @@
     "BTC_sM": 1789996600720,
     "WBT_sM": 1790026511231
   },
-  "scanCount": 2512,
+  "scanCount": 2513,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-22T23:45:16.987Z",
+  "lastScan": "2026-09-23T01:49:04.958Z",
   "lastReport": "2026-09-22T20:46:06.489Z",
   "marketRegime": "BULL_TREND",
-  "fearGreed": 78,
+  "fearGreed": 71,
   "totalStats": {
     "trades": 400,
     "wins": 142,
