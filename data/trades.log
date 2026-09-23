@@ -143874,3 +143874,44 @@
 [2026-09-23 12:15:52 UTC] ✅ Данные: 0 токенов OK, 0 недоступно | Открыто: 0 | Всего: 20
 [2026-09-23 12:15:52 UTC] 
 📊 ИТОГ: WR=35.8% PnL=$300.25 Trades=402
+[2026-09-23 15:56:58 UTC] ════════════════════════════════════════════════════
+[2026-09-23 15:56:58 UTC] 🤖 Bot v6 | action=scan | report=true
+[2026-09-23 15:56:58 UTC] ════════════════════════════════════════════════════
+[2026-09-23 15:56:58 UTC] 📡 Scan #2518
+[2026-09-23 15:56:58 UTC] 📊 BTC Dom=58.8%
+[2026-09-23 15:56:58 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-23 15:56:58 UTC] 🌡 F&G=71 Regime=BULL_TREND Open=20
+[2026-09-23 15:56:58 UTC]   📂 HOLD SKY/sM PnL=+23.86%
+[2026-09-23 15:56:59 UTC]   📂 HOLD BNB/sM PnL=+12.21%
+[2026-09-23 15:56:59 UTC]   📂 HOLD HYPE/sM PnL=+13.13%
+[2026-09-23 15:56:59 UTC]   📂 HOLD XMR/sM PnL=+6.87%
+[2026-09-23 15:56:59 UTC]   📂 HOLD TRX/sE PnL=-0.11%
+[2026-09-23 15:56:59 UTC]   📂 HOLD ZEC/sM PnL=+16.71%
+[2026-09-23 15:57:00 UTC]   🔒 SL-cooldown 24ч для ASTER/sE
+[2026-09-23 15:57:00 UTC]   ❌ CLOSE ASTER/sE: 🛑 SL -6% PnL=-6.96% held=6д 1ч
+[2026-09-23 15:57:01 UTC]   📂 HOLD WLD/sE PnL=-1.07%
+[2026-09-23 15:57:01 UTC]   📂 HOLD SOL/sE PnL=+7.12%
+[2026-09-23 15:57:01 UTC]   📂 HOLD XRP/sE PnL=+4.91%
+[2026-09-23 15:57:01 UTC]   📂 HOLD AVAX/sM PnL=+8.33%
+[2026-09-23 15:57:01 UTC]   📂 HOLD RENDER/sE PnL=+3.63%
+[2026-09-23 15:57:01 UTC]   📂 HOLD SUI/sE PnL=-0.47%
+[2026-09-23 15:57:02 UTC]   📂 HOLD XLM/sM PnL=-4.32%
+[2026-09-23 15:57:02 UTC]   📂 HOLD NEAR/sM PnL=+3.71%
+[2026-09-23 15:57:02 UTC]   📂 HOLD BTC/sM PnL=-1.23%
+[2026-09-23 15:57:02 UTC]   📂 HOLD WBT/sM PnL=-3.25%
+[2026-09-23 15:57:03 UTC]   📂 HOLD FIGR_HELOC/sE PnL=-0.12%
+[2026-09-23 15:57:03 UTC]   📂 HOLD BCH/sE PnL=+0.29%
+[2026-09-23 15:57:03 UTC]   🔒 SL-cooldown 24ч для ADA/sE
+[2026-09-23 15:57:03 UTC]   ❌ CLOSE ADA/sE: 🛑 SL -6% PnL=-8.54% held=9ч 11м
+[2026-09-23 15:57:03 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-23 15:57:03 UTC] ✓ CoinGecko: 82 токенов. Проверяю входы...
+[2026-09-23 15:57:08 UTC]   📈 ENTRY DOGE/sE [BULL_TREND] via OKX: Golden Cross 5д назад · EMA9=0.0907 > EMA21=0.0876 · RSI=59 · Vol x1.7 @ $0.09286
+[2026-09-23 15:57:09 UTC]   ⏭ XMR: нет данных (monero)
+[2026-09-23 15:57:10 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-09-23 15:57:11 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-09-23 15:57:15 UTC]   📈 ENTRY GRAM/sE [BULL] via OKX: Golden Cross 2д назад · EMA9=1.3942 > EMA21=1.3826 · RSI=54 · Vol x1.8 @ $1.406
+[2026-09-23 15:57:16 UTC] ✅ Данные: 21 токенов OK, 3 недоступно | Открыто: 2 | Всего: 20
+[2026-09-23 15:57:19 UTC] [EMAIL] ✅ → m5827777@gmail.com
+[2026-09-23 15:57:19 UTC] 📧 6h report sent
+[2026-09-23 15:57:19 UTC] 
+📊 ИТОГ: WR=35.6% PnL=$284.74 Trades=404

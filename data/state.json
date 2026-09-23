@@ -103,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ASTER_sE_1789656892144",
-      "symbol": "ASTER",
-      "name": "Aster",
-      "coinId": "aster-2",
-      "rank": 46,
-      "stratId": "sE",
-      "entryPrice": 0.738,
-      "entryTime": 1789656892144,
-      "entryDate": "2026-09-17T14:54:52.144Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.7099 > EMA21=0.7074 · RSI=58 · Vol x1.3",
-      "strength": 84,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "WLD_sE_1789712877003",
       "symbol": "WLD",
       "name": "Worldcoin",
@@ -324,6 +307,42 @@
       "peakPnl": 0
     },
     {
+      "id": "DOGE_sE_1790179028563",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "coinId": "dogecoin",
+      "rank": 12,
+      "stratId": "sE",
+      "entryPrice": 0.09286,
+      "entryTime": 1790179028563,
+      "entryDate": "2026-09-23T15:57:08.563Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=0.0907 > EMA21=0.0876 · RSI=59 · Vol x1.7",
+      "strength": 81,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "GRAM_sE_1790179035699",
+      "symbol": "GRAM",
+      "name": "Gram (prev. Toncoin)",
+      "coinId": "the-open-network",
+      "rank": 30,
+      "stratId": "sE",
+      "entryPrice": 1.406,
+      "entryTime": 1790179035699,
+      "entryDate": "2026-09-23T15:57:15.699Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=1.3942 > EMA21=1.3826 · RSI=54 · Vol x1.8",
+      "strength": 79,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    }
+  ],
+  "closedTrades": [
+    {
       "id": "ADA_sE_1790145960188",
       "symbol": "ADA",
       "name": "Cardano",
@@ -338,10 +357,37 @@
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 0.2378,
+      "exitTime": 1790179023426,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -8.538461538461538,
+      "pnlUsd": -8.538461538461538,
+      "total": 91.46153846153847
+    },
+    {
+      "id": "ASTER_sE_1789656892144",
+      "symbol": "ASTER",
+      "name": "Aster",
+      "coinId": "aster-2",
+      "rank": 46,
+      "stratId": "sE",
+      "entryPrice": 0.738,
+      "entryTime": 1789656892144,
+      "entryDate": "2026-09-17T14:54:52.144Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.7099 > EMA21=0.7074 · RSI=58 · Vol x1.3",
+      "strength": 84,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.6866,
+      "exitTime": 1790179020109,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.964769647696476,
+      "pnlUsd": -6.964769647696476,
+      "total": 93.03523035230353
+    },
     {
       "id": "DOGE_sE_1789824459967",
       "symbol": "DOGE",
@@ -9631,7 +9677,7 @@
     "JUP_sR": 1780075427579,
     "DASH_sE": 1779550477183,
     "SUI_sR": 1779554020771,
-    "ASTER_sE": 1789656892144,
+    "ASTER_sE": 1790258220109,
     "NEAR_sM": 1789991142330,
     "RENDER_sE": 1789931960550,
     "XMR_sE": 1785969350861,
@@ -9667,7 +9713,7 @@
     "LIT_sM": 1782981286266,
     "SOL_sE": 1789727101689,
     "SKY_sM": 1787153623428,
-    "ADA_sE": 1790145960188,
+    "ADA_sE": 1790258223426,
     "BCH_sE": 1790132144124,
     "LTC_sE": 1787395008821,
     "ETH_sE": 1787153605762,
@@ -9697,7 +9743,7 @@
     "TAO_sE": 1788027211177,
     "OKB_sM": 1787539564478,
     "ETHFI_sE": 1786788688360,
-    "DOGE_sE": 1789824459967,
+    "DOGE_sE": 1790179028563,
     "XRP_sM": 1787307724269,
     "SOL_sM": 1787393321148,
     "LINK_sM": 1788956939609,
@@ -9730,20 +9776,21 @@
     "FIL_sM": 1789520382481,
     "M_sM": 1789727114583,
     "BTC_sM": 1789996600720,
-    "WBT_sM": 1790026511231
+    "WBT_sM": 1790026511231,
+    "GRAM_sE": 1790179035699
   },
-  "scanCount": 2517,
+  "scanCount": 2518,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-23T12:15:52.255Z",
-  "lastReport": "2026-09-23T10:37:38.423Z",
+  "lastScan": "2026-09-23T15:57:16.654Z",
+  "lastReport": "2026-09-23T15:57:16.654Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 402,
+    "trades": 404,
     "wins": 144,
-    "losses": 258,
-    "totalPnl": 300.24776850172253,
-    "invested": 40200
+    "losses": 260,
+    "totalPnl": 284.7445373155645,
+    "invested": 40400
   },
   "byStrategy": {
     "sR": {
@@ -9752,9 +9799,9 @@
       "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 221,
+      "trades": 223,
       "wins": 73,
-      "pnl": 208.4232303472807
+      "pnl": 192.9199991611227
     },
     "sM": {
       "trades": 55,
@@ -9843,11 +9890,11 @@
         "pnl": 76.92852836106186
       },
       "sE": {
-        "trades": 44,
+        "trades": 46,
         "wins": 31,
-        "pnl": 393.45703837495836
+        "pnl": 377.95380718880034
       }
     }
   },
-  "btcDominance": 58.7
+  "btcDominance": 58.8
 }
