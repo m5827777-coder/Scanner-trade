@@ -1,23 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "SKY_sM_1787153623428",
-      "symbol": "SKY",
-      "name": "Sky",
-      "coinId": "sky",
-      "rank": 55,
-      "stratId": "sM",
-      "entryPrice": 0.05881,
-      "entryTime": 1787153623428,
-      "entryDate": "2026-08-19T15:33:43.428Z",
-      "entrySignal": "Пробой 20d max $0.0587 на +0.2% · Объём x3.0 · RSI=62",
-      "strength": 84,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "BNB_sM_1787306163073",
       "symbol": "BNB",
       "name": "BNB",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "LTC_sM_1790265241399",
+      "symbol": "LTC",
+      "name": "Litecoin",
+      "coinId": "litecoin",
+      "rank": 24,
+      "stratId": "sM",
+      "entryPrice": 74.07,
+      "entryTime": 1790265241399,
+      "entryDate": "2026-09-24T15:54:01.399Z",
+      "entrySignal": "Пробой 20d max $63.8500 на +16.0% · Объём x5.8 · RSI=78",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "SKY_sM_1787153623428",
+      "symbol": "SKY",
+      "name": "Sky",
+      "coinId": "sky",
+      "rank": 55,
+      "stratId": "sM",
+      "entryPrice": 0.05881,
+      "entryTime": 1787153623428,
+      "entryDate": "2026-08-19T15:33:43.428Z",
+      "entrySignal": "Пробой 20d max $0.0587 на +0.2% · Объём x3.0 · RSI=62",
+      "strength": 84,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.07397,
+      "exitTime": 1790265229690,
+      "exitReason": "✅ TP +25%",
+      "pnl": 25.777928923652425,
+      "pnlUsd": 25.777928923652425,
+      "total": 125.77792892365242
+    },
     {
       "id": "ADA_sE_1790145960188",
       "symbol": "ADA",
@@ -9750,7 +9773,7 @@
     "DOGE_sM": 1787302442570,
     "GRAM_sM": 1788050930721,
     "GT_sM": 1787344424213,
-    "LTC_sM": 1787474196868,
+    "LTC_sM": 1790265241399,
     "SUI_sM": 1787456117335,
     "HYPE_sM": 1787371263877,
     "HBAR_sM": 1787472517377,
@@ -9779,18 +9802,18 @@
     "WBT_sM": 1790026511231,
     "GRAM_sE": 1790179035699
   },
-  "scanCount": 2527,
+  "scanCount": 2528,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-24T11:36:23.540Z",
+  "lastScan": "2026-09-24T15:54:02.517Z",
   "lastReport": "2026-09-24T10:57:22.162Z",
   "marketRegime": "BULL_TREND",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 404,
-    "wins": 144,
+    "trades": 405,
+    "wins": 145,
     "losses": 260,
-    "totalPnl": 284.7445373155645,
-    "invested": 40400
+    "totalPnl": 310.52246623921695,
+    "invested": 40500
   },
   "byStrategy": {
     "sR": {
@@ -9804,9 +9827,9 @@
       "pnl": 192.9199991611227
     },
     "sM": {
-      "trades": 55,
-      "wins": 22,
-      "pnl": 149.6520650586501
+      "trades": 56,
+      "wins": 23,
+      "pnl": 175.4299939823025
     }
   },
   "byRegime": {
@@ -9885,9 +9908,9 @@
         "pnl": 7.0102467776887805
       },
       "sM": {
-        "trades": 18,
-        "wins": 9,
-        "pnl": 76.92852836106186
+        "trades": 19,
+        "wins": 10,
+        "pnl": 102.70645728471429
       },
       "sE": {
         "trades": 46,
@@ -9896,5 +9919,5 @@
       }
     }
   },
-  "btcDominance": 59.2
+  "btcDominance": 58.6
 }
