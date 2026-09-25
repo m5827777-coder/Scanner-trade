@@ -154,23 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "SUI_sE_1789972521637",
-      "symbol": "SUI",
-      "name": "Sui",
-      "coinId": "sui",
-      "rank": 30,
-      "stratId": "sE",
-      "entryPrice": 0.9649,
-      "entryTime": 1789972521637,
-      "entryDate": "2026-09-21T06:35:21.637Z",
-      "entrySignal": "Golden Cross 2д назад · EMA9=0.8168 > EMA21=0.7817 · RSI=73 · Vol x1.4",
-      "strength": 81,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "XLM_sM_1789991140697",
       "symbol": "XLM",
       "name": "Stellar",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "CC_sE_1790349759538",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 25,
+      "stratId": "sE",
+      "entryPrice": 0.1265,
+      "entryTime": 1790349759538,
+      "entryDate": "2026-09-25T15:22:39.538Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=0.1122 > EMA21=0.1084 · RSI=66 · Vol x1.5",
+      "strength": 78,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "SUI_sE_1789972521637",
+      "symbol": "SUI",
+      "name": "Sui",
+      "coinId": "sui",
+      "rank": 30,
+      "stratId": "sE",
+      "entryPrice": 0.9649,
+      "entryTime": 1789972521637,
+      "entryDate": "2026-09-21T06:35:21.637Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=0.8168 > EMA21=0.7817 · RSI=73 · Vol x1.4",
+      "strength": 81,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.1148,
+      "exitTime": 1790349747753,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.535288630946214,
+      "pnlUsd": 15.535288630946214,
+      "total": 115.53528863094621
+    },
     {
       "id": "RENDER_sE_1789931960550",
       "symbol": "RENDER",
@@ -9699,7 +9722,7 @@
     "ARB_sR": 1780410212169,
     "AVAX_sR": 1780495959104,
     "HBAR_sR": 1778752941540,
-    "CC_sE": 1788457862321,
+    "CC_sE": 1790349759539,
     "FLR_sE": 1789466324547,
     "XRP_sE": 1789824456808,
     "HYPE_sE": 1787168197411,
@@ -9825,18 +9848,18 @@
     "WBT_sM": 1790026511231,
     "GRAM_sE": 1790179035699
   },
-  "scanCount": 2537,
+  "scanCount": 2538,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-25T10:58:38.731Z",
+  "lastScan": "2026-09-25T15:22:40.585Z",
   "lastReport": "2026-09-25T10:58:38.731Z",
   "marketRegime": "BULL",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 406,
-    "wins": 146,
+    "trades": 407,
+    "wins": 147,
     "losses": 260,
-    "totalPnl": 329.0454686605245,
-    "invested": 40600
+    "totalPnl": 344.5807572914707,
+    "invested": 40700
   },
   "byStrategy": {
     "sR": {
@@ -9845,9 +9868,9 @@
       "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 224,
-      "wins": 74,
-      "pnl": 211.4430015824302
+      "trades": 225,
+      "wins": 75,
+      "pnl": 226.97829021337643
     },
     "sM": {
       "trades": 56,
@@ -9863,9 +9886,9 @@
         "pnl": 50.792813170094306
       },
       "sE": {
-        "trades": 46,
-        "wins": 14,
-        "pnl": 47.836745773166534
+        "trades": 47,
+        "wins": 15,
+        "pnl": 63.372034404112746
       },
       "sM": {
         "trades": 19,
@@ -9942,5 +9965,5 @@
       }
     }
   },
-  "btcDominance": 58.9
+  "btcDominance": 58.2
 }
