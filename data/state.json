@@ -9871,9 +9871,9 @@
     "WBT_sM": 1790026511231,
     "GRAM_sE": 1790179035699
   },
-  "scanCount": 2550,
+  "scanCount": 2551,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-26T17:52:55.711Z",
+  "lastScan": "2026-09-26T20:13:25.359Z",
   "lastReport": "2026-09-26T15:34:47.801Z",
   "marketRegime": "BULL",
   "fearGreed": 74,
@@ -9988,5 +9988,5 @@
       }
     }
   },
-  "btcDominance": 58.2
+  "btcDominance": 58.3
 }
