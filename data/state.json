@@ -52,23 +52,6 @@
       "peakPnl": 0
     },
     {
-      "id": "TRX_sE_1789224666204",
-      "symbol": "TRX",
-      "name": "TRON",
-      "coinId": "tron",
-      "rank": 8,
-      "stratId": "sE",
-      "entryPrice": 0.33985,
-      "entryTime": 1789224666204,
-      "entryDate": "2026-09-12T14:51:06.204Z",
-      "entrySignal": "Golden Cross 4д назад · EMA9=0.3367 > EMA21=0.3356 · RSI=57 · Vol x1.1",
-      "strength": 66,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ZEC_sM_1789639565559",
       "symbol": "ZEC",
       "name": "Zcash",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "TRX_sE_1789224666204",
+      "symbol": "TRX",
+      "name": "TRON",
+      "coinId": "tron",
+      "rank": 8,
+      "stratId": "sE",
+      "entryPrice": 0.33985,
+      "entryTime": 1789224666204,
+      "entryDate": "2026-09-12T14:51:06.204Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=0.3367 > EMA21=0.3356 · RSI=57 · Vol x1.1",
+      "strength": 66,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.33399,
+      "exitTime": 1790463045749,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -1.724290127997639,
+      "pnlUsd": -1.724290127997639,
+      "total": 98.27570987200237
+    },
     {
       "id": "WLD_sE_1789712877003",
       "symbol": "WLD",
@@ -9871,18 +9877,18 @@
     "WBT_sM": 1790026511231,
     "GRAM_sE": 1790179035699
   },
-  "scanCount": 2552,
+  "scanCount": 2553,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-26T20:32:52.341Z",
+  "lastScan": "2026-09-26T22:51:20.080Z",
   "lastReport": "2026-09-26T20:32:52.341Z",
   "marketRegime": "BULL",
   "fearGreed": 74,
   "totalStats": {
-    "trades": 408,
+    "trades": 409,
     "wins": 148,
-    "losses": 260,
-    "totalPnl": 362.78423596671496,
-    "invested": 40800
+    "losses": 261,
+    "totalPnl": 361.05994583871734,
+    "invested": 40900
   },
   "byStrategy": {
     "sR": {
@@ -9891,9 +9897,9 @@
       "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 226,
+      "trades": 227,
       "wins": 76,
-      "pnl": 245.18176888862064
+      "pnl": 243.457478760623
     },
     "sM": {
       "trades": 56,
@@ -9909,9 +9915,9 @@
         "pnl": 50.792813170094306
       },
       "sE": {
-        "trades": 48,
+        "trades": 49,
         "wins": 16,
-        "pnl": 81.57551307935697
+        "pnl": 79.85122295135933
       },
       "sM": {
         "trades": 19,
