@@ -86,23 +86,6 @@
       "peakPnl": 0
     },
     {
-      "id": "WLD_sE_1789712877003",
-      "symbol": "WLD",
-      "name": "Worldcoin",
-      "coinId": "worldcoin-wld",
-      "rank": 60,
-      "stratId": "sE",
-      "entryPrice": 0.4197,
-      "entryTime": 1789712877003,
-      "entryDate": "2026-09-18T06:27:57.003Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.3940 > EMA21=0.3937 · RSI=56 · Vol x1.3",
-      "strength": 85,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SOL_sE_1789727101689",
       "symbol": "SOL",
       "name": "Solana",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "WLD_sE_1789712877003",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 60,
+      "stratId": "sE",
+      "entryPrice": 0.4197,
+      "entryTime": 1789712877003,
+      "entryDate": "2026-09-18T06:27:57.003Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.3940 > EMA21=0.3937 · RSI=56 · Vol x1.3",
+      "strength": 85,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.4961,
+      "exitTime": 1790383648402,
+      "exitReason": "✅ TP +15%",
+      "pnl": 18.203478675244213,
+      "pnlUsd": 18.203478675244213,
+      "total": 118.20347867524421
+    },
     {
       "id": "SUI_sE_1789972521637",
       "symbol": "SUI",
@@ -9848,18 +9854,18 @@
     "WBT_sM": 1790026511231,
     "GRAM_sE": 1790179035699
   },
-  "scanCount": 2542,
+  "scanCount": 2543,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-25T22:30:19.648Z",
+  "lastScan": "2026-09-26T00:48:07.302Z",
   "lastReport": "2026-09-25T21:00:18.395Z",
   "marketRegime": "BULL",
-  "fearGreed": 71,
+  "fearGreed": 74,
   "totalStats": {
-    "trades": 407,
-    "wins": 147,
+    "trades": 408,
+    "wins": 148,
     "losses": 260,
-    "totalPnl": 344.5807572914707,
-    "invested": 40700
+    "totalPnl": 362.78423596671496,
+    "invested": 40800
   },
   "byStrategy": {
     "sR": {
@@ -9868,9 +9874,9 @@
       "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 225,
-      "wins": 75,
-      "pnl": 226.97829021337643
+      "trades": 226,
+      "wins": 76,
+      "pnl": 245.18176888862064
     },
     "sM": {
       "trades": 56,
@@ -9886,9 +9892,9 @@
         "pnl": 50.792813170094306
       },
       "sE": {
-        "trades": 47,
-        "wins": 15,
-        "pnl": 63.372034404112746
+        "trades": 48,
+        "wins": 16,
+        "pnl": 81.57551307935697
       },
       "sM": {
         "trades": 19,
