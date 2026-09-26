@@ -145002,3 +145002,43 @@
 [2026-09-26 10:40:05 UTC] 📧 6h report sent
 [2026-09-26 10:40:05 UTC] 
 📊 ИТОГ: WR=36.3% PnL=$362.78 Trades=408
+[2026-09-26 14:27:20 UTC] ════════════════════════════════════════════════════
+[2026-09-26 14:27:20 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-09-26 14:27:20 UTC] ════════════════════════════════════════════════════
+[2026-09-26 14:27:20 UTC] 📡 Scan #2548
+[2026-09-26 14:27:21 UTC] 📊 BTC Dom=58.2%
+[2026-09-26 14:27:21 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-26 14:27:21 UTC] 🌡 F&G=74 Regime=BULL Open=19
+[2026-09-26 14:27:22 UTC]   📂 HOLD BNB/sM PnL=+13.83%
+[2026-09-26 14:27:22 UTC]   📂 HOLD HYPE/sM PnL=+12.25%
+[2026-09-26 14:27:22 UTC]   📂 HOLD XMR/sM PnL=+7.16%
+[2026-09-26 14:27:22 UTC]   📂 HOLD TRX/sE PnL=-1.07%
+[2026-09-26 14:27:22 UTC]   📂 HOLD ZEC/sM PnL=+15.20%
+[2026-09-26 14:27:23 UTC]   📂 HOLD SOL/sE PnL=+13.59%
+[2026-09-26 14:27:23 UTC]   📂 HOLD XRP/sE PnL=+7.29%
+[2026-09-26 14:27:23 UTC]   📂 HOLD AVAX/sM PnL=+13.80%
+[2026-09-26 14:27:23 UTC]   📂 HOLD XLM/sM PnL=+2.72%
+[2026-09-26 14:27:23 UTC]   📂 HOLD NEAR/sM PnL=+15.89%
+[2026-09-26 14:27:24 UTC]   📂 HOLD BTC/sM PnL=-1.35%
+[2026-09-26 14:27:24 UTC]   📂 HOLD WBT/sM PnL=-4.01%
+[2026-09-26 14:27:24 UTC]   📂 HOLD FIGR_HELOC/sE PnL=-0.58%
+[2026-09-26 14:27:24 UTC]   📂 HOLD BCH/sE PnL=-2.43%
+[2026-09-26 14:27:25 UTC]   📂 HOLD DOGE/sE PnL=+4.78%
+[2026-09-26 14:27:25 UTC]   📂 HOLD GRAM/sE PnL=+4.48%
+[2026-09-26 14:27:25 UTC]   📂 HOLD LTC/sM PnL=-2.42%
+[2026-09-26 14:27:25 UTC]   📂 HOLD LINK/sE PnL=+3.54%
+[2026-09-26 14:27:25 UTC]   📂 HOLD CC/sE PnL=+8.96%
+[2026-09-26 14:27:25 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-26 14:27:25 UTC] ✓ CoinGecko: 82 токенов. Проверяю входы...
+[2026-09-26 14:27:29 UTC]   ⏭ FIGR_HELOC: нет данных (figure-heloc)
+[2026-09-26 14:27:31 UTC]   ⏭ XMR: нет данных (monero)
+[2026-09-26 14:27:31 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-09-26 14:27:32 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-09-26 14:27:40 UTC]   ⏭ M: нет данных (memecore)
+[2026-09-26 14:27:42 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-09-26 14:27:43 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-09-26 14:27:43 UTC]   ⏭ BTW: нет данных (bitway)
+[2026-09-26 14:27:44 UTC]   📈 ENTRY PUMP/sE [BULL] via OKX: Golden Cross 5д назад · EMA9=0.0041 > EMA21=0.0041 · RSI=59 · Vol x1.1 @ $0.004427
+[2026-09-26 14:27:45 UTC] ✅ Данные: 32 токенов OK, 8 недоступно | Открыто: 1 | Всего: 20
+[2026-09-26 14:27:45 UTC] 
+📊 ИТОГ: WR=36.3% PnL=$362.78 Trades=408
