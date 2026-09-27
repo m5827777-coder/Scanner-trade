@@ -9877,12 +9877,12 @@
     "WBT_sM": 1790026511231,
     "GRAM_sE": 1790179035699
   },
-  "scanCount": 2553,
+  "scanCount": 2554,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-26T22:51:20.080Z",
+  "lastScan": "2026-09-27T00:58:43.836Z",
   "lastReport": "2026-09-26T20:32:52.341Z",
   "marketRegime": "BULL",
-  "fearGreed": 74,
+  "fearGreed": 70,
   "totalStats": {
     "trades": 409,
     "wins": 148,
