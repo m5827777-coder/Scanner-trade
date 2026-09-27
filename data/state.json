@@ -137,23 +137,6 @@
       "peakPnl": 0
     },
     {
-      "id": "NEAR_sM_1789991142330",
-      "symbol": "NEAR",
-      "name": "NEAR Protocol",
-      "coinId": "near",
-      "rank": 22,
-      "stratId": "sM",
-      "entryPrice": 4.173,
-      "entryTime": 1789991142330,
-      "entryDate": "2026-09-21T11:45:42.330Z",
-      "entrySignal": "Пробой 20d max $3.9170 на +6.5% · Объём x1.8 · RSI=83",
-      "strength": 93,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "BTC_sM_1789996600720",
       "symbol": "BTC",
       "name": "Bitcoin",
@@ -325,6 +308,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "NEAR_sM_1789991142330",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "coinId": "near",
+      "rank": 22,
+      "stratId": "sM",
+      "entryPrice": 4.173,
+      "entryTime": 1789991142330,
+      "entryDate": "2026-09-21T11:45:42.330Z",
+      "entrySignal": "Пробой 20d max $3.9170 на +6.5% · Объём x1.8 · RSI=83",
+      "strength": 93,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 5.373,
+      "exitTime": 1790489752381,
+      "exitReason": "✅ TP +25%",
+      "pnl": 28.756290438533433,
+      "pnlUsd": 28.756290438533433,
+      "total": 128.75629043853343
+    },
     {
       "id": "TRX_sE_1789224666204",
       "symbol": "TRX",
@@ -9877,18 +9883,18 @@
     "WBT_sM": 1790026511231,
     "GRAM_sE": 1790179035699
   },
-  "scanCount": 2555,
+  "scanCount": 2556,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-27T03:12:59.081Z",
+  "lastScan": "2026-09-27T06:16:32.220Z",
   "lastReport": "2026-09-27T03:12:59.081Z",
   "marketRegime": "BULL",
   "fearGreed": 70,
   "totalStats": {
-    "trades": 409,
-    "wins": 148,
+    "trades": 410,
+    "wins": 149,
     "losses": 261,
-    "totalPnl": 361.05994583871734,
-    "invested": 40900
+    "totalPnl": 389.81623627725077,
+    "invested": 41000
   },
   "byStrategy": {
     "sR": {
@@ -9902,9 +9908,9 @@
       "pnl": 243.457478760623
     },
     "sM": {
-      "trades": 56,
-      "wins": 23,
-      "pnl": 175.4299939823025
+      "trades": 57,
+      "wins": 24,
+      "pnl": 204.18628442083593
     }
   },
   "byRegime": {
@@ -9920,9 +9926,9 @@
         "pnl": 79.85122295135933
       },
       "sM": {
-        "trades": 19,
-        "wins": 6,
-        "pnl": 63.24953880315067
+        "trades": 20,
+        "wins": 7,
+        "pnl": 92.0058292416841
       }
     },
     "NEUTRAL": {
