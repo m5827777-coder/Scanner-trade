@@ -256,23 +256,6 @@
       "peakPnl": 0
     },
     {
-      "id": "PUMP_sE_1790432864524",
-      "symbol": "PUMP",
-      "name": "Pump.fun",
-      "coinId": "pump-fun",
-      "rank": 51,
-      "stratId": "sE",
-      "entryPrice": 0.004427,
-      "entryTime": 1790432864524,
-      "entryDate": "2026-09-26T14:27:44.524Z",
-      "entrySignal": "Golden Cross 5д назад · EMA9=0.0041 > EMA21=0.0041 · RSI=59 · Vol x1.1",
-      "strength": 74,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "GRAM_sE_1790507620323",
       "symbol": "GRAM",
       "name": "Gram (prev. Toncoin)",
@@ -325,6 +308,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "PUMP_sE_1790432864524",
+      "symbol": "PUMP",
+      "name": "Pump.fun",
+      "coinId": "pump-fun",
+      "rank": 51,
+      "stratId": "sE",
+      "entryPrice": 0.004427,
+      "entryTime": 1790432864524,
+      "entryDate": "2026-09-26T14:27:44.524Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=0.0041 > EMA21=0.0041 · RSI=59 · Vol x1.1",
+      "strength": 74,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.005124,
+      "exitTime": 1790557815306,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.74429636322565,
+      "pnlUsd": 15.74429636322565,
+      "total": 115.74429636322566
+    },
     {
       "id": "GRAM_sE_1790179035699",
       "symbol": "GRAM",
@@ -9947,18 +9953,18 @@
     "GRAM_sE": 1790507620323,
     "PYTH_sM": 1790507645412
   },
-  "scanCount": 2563,
+  "scanCount": 2564,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-27T22:41:20.121Z",
+  "lastScan": "2026-09-28T01:10:48.297Z",
   "lastReport": "2026-09-27T20:43:39.230Z",
   "marketRegime": "BULL",
-  "fearGreed": 70,
+  "fearGreed": 74,
   "totalStats": {
-    "trades": 412,
-    "wins": 151,
+    "trades": 413,
+    "wins": 152,
     "losses": 261,
-    "totalPnl": 422.03068985836626,
-    "invested": 41200
+    "totalPnl": 437.7749862215919,
+    "invested": 41300
   },
   "byStrategy": {
     "sR": {
@@ -9967,9 +9973,9 @@
       "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 229,
-      "wins": 78,
-      "pnl": 275.67193234173845
+      "trades": 230,
+      "wins": 79,
+      "pnl": 291.4162287049641
     },
     "sM": {
       "trades": 57,
@@ -9985,9 +9991,9 @@
         "pnl": 50.792813170094306
       },
       "sE": {
-        "trades": 51,
-        "wins": 18,
-        "pnl": 112.06567653247481
+        "trades": 52,
+        "wins": 19,
+        "pnl": 127.80997289570047
       },
       "sM": {
         "trades": 20,
@@ -10064,5 +10070,5 @@
       }
     }
   },
-  "btcDominance": 58.8
+  "btcDominance": 58.7
 }
