@@ -305,6 +305,40 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "HBAR_sM_1790599263019",
+      "symbol": "HBAR",
+      "name": "Hedera",
+      "coinId": "hedera-hashgraph",
+      "rank": 25,
+      "stratId": "sM",
+      "entryPrice": 0.12089,
+      "entryTime": 1790599263019,
+      "entryDate": "2026-09-28T12:41:03.019Z",
+      "entrySignal": "Пробой 20d max $0.1013 на +19.3% · Объём x5.8 · RSI=79",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "ALGO_sM_1790599281731",
+      "symbol": "ALGO",
+      "name": "Algorand",
+      "coinId": "algorand",
+      "rank": 74,
+      "stratId": "sM",
+      "entryPrice": 0.12977,
+      "entryTime": 1790599281731,
+      "entryDate": "2026-09-28T12:41:21.731Z",
+      "entrySignal": "Пробой 20d max $0.1225 на +5.9% · Объём x3.1 · RSI=70",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -9972,7 +10006,7 @@
     "LTC_sM": 1790265241399,
     "SUI_sM": 1787456117335,
     "HYPE_sM": 1787371263877,
-    "HBAR_sM": 1787472517377,
+    "HBAR_sM": 1790599263019,
     "ADA_sM": 1787544166486,
     "SHIB_sM": 1787536937167,
     "AVAX_sM": 1789873064784,
@@ -9997,12 +10031,13 @@
     "BTC_sM": 1789996600720,
     "WBT_sM": 1790026511231,
     "GRAM_sE": 1790507620323,
-    "PYTH_sM": 1790507645412
+    "PYTH_sM": 1790507645412,
+    "ALGO_sM": 1790599281731
   },
-  "scanCount": 2566,
+  "scanCount": 2567,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-28T06:49:16.884Z",
-  "lastReport": "2026-09-28T03:09:41.782Z",
+  "lastScan": "2026-09-28T12:41:22.760Z",
+  "lastReport": "2026-09-28T12:41:22.760Z",
   "marketRegime": "BULL",
   "fearGreed": 74,
   "totalStats": {
@@ -10116,5 +10151,5 @@
       }
     }
   },
-  "btcDominance": 58.7
+  "btcDominance": 58.6
 }
