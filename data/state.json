@@ -171,23 +171,6 @@
       "peakPnl": 0
     },
     {
-      "id": "BCH_sE_1790132144124",
-      "symbol": "BCH",
-      "name": "Bitcoin Cash",
-      "coinId": "bitcoin-cash",
-      "rank": 21,
-      "stratId": "sE",
-      "entryPrice": 341.4,
-      "entryTime": 1790132144124,
-      "entryDate": "2026-09-23T02:55:44.124Z",
-      "entrySignal": "Golden Cross 3д назад · EMA9=277.8114 > EMA21=258.5365 · RSI=78 · Vol x2.1",
-      "strength": 84,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "DOGE_sE_1790179028563",
       "symbol": "DOGE",
       "name": "Dogecoin",
@@ -273,23 +256,6 @@
       "peakPnl": 0
     },
     {
-      "id": "WLD_sM_1790507628294",
-      "symbol": "WLD",
-      "name": "Worldcoin",
-      "coinId": "worldcoin-wld",
-      "rank": 52,
-      "stratId": "sM",
-      "entryPrice": 0.5679,
-      "entryTime": 1790507628294,
-      "entryDate": "2026-09-27T11:13:48.294Z",
-      "entrySignal": "Пробой 20d max $0.5059 на +12.3% · Объём x1.6 · RSI=73",
-      "strength": 85,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "PYTH_sM_1790507645412",
       "symbol": "PYTH",
       "name": "Pyth Network",
@@ -308,6 +274,52 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "WLD_sM_1790507628294",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 52,
+      "stratId": "sM",
+      "entryPrice": 0.5679,
+      "entryTime": 1790507628294,
+      "entryDate": "2026-09-27T11:13:48.294Z",
+      "entrySignal": "Пробой 20d max $0.5059 на +12.3% · Объём x1.6 · RSI=73",
+      "strength": 85,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.5276,
+      "exitTime": 1790564947775,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.096319774608206,
+      "pnlUsd": -7.096319774608206,
+      "total": 92.9036802253918
+    },
+    {
+      "id": "BCH_sE_1790132144124",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
+      "coinId": "bitcoin-cash",
+      "rank": 21,
+      "stratId": "sE",
+      "entryPrice": 341.4,
+      "entryTime": 1790132144124,
+      "entryDate": "2026-09-23T02:55:44.124Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=277.8114 > EMA21=258.5365 · RSI=78 · Vol x2.1",
+      "strength": 84,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 315.4,
+      "exitTime": 1790564946022,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -7.615700058582309,
+      "pnlUsd": -7.615700058582309,
+      "total": 92.3842999414177
+    },
     {
       "id": "PUMP_sE_1790432864524",
       "symbol": "PUMP",
@@ -9872,7 +9884,7 @@
     "BNB_sE": 1784631009103,
     "XLM_sM": 1789991140697,
     "RAIN_sE": 1788212259153,
-    "WLD_sM": 1790507628294,
+    "WLD_sM": 1790644147775,
     "NIGHT_sE": 1783252446162,
     "ONDO_sE": 1789699628274,
     "ZEC_sE": 1787294162681,
@@ -9887,7 +9899,7 @@
     "SOL_sE": 1789727101689,
     "SKY_sM": 1787153623428,
     "ADA_sE": 1790258223426,
-    "BCH_sE": 1790132144124,
+    "BCH_sE": 1790644146022,
     "LTC_sE": 1787395008821,
     "ETH_sE": 1787153605762,
     "AVAX_sE": 1789712865823,
@@ -9953,18 +9965,18 @@
     "GRAM_sE": 1790507620323,
     "PYTH_sM": 1790507645412
   },
-  "scanCount": 2564,
+  "scanCount": 2565,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-28T01:10:48.297Z",
-  "lastReport": "2026-09-27T20:43:39.230Z",
+  "lastScan": "2026-09-28T03:09:41.782Z",
+  "lastReport": "2026-09-28T03:09:41.782Z",
   "marketRegime": "BULL",
   "fearGreed": 74,
   "totalStats": {
-    "trades": 413,
+    "trades": 415,
     "wins": 152,
-    "losses": 261,
-    "totalPnl": 437.7749862215919,
-    "invested": 41300
+    "losses": 263,
+    "totalPnl": 423.0629663884014,
+    "invested": 41500
   },
   "byStrategy": {
     "sR": {
@@ -9973,14 +9985,14 @@
       "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 230,
+      "trades": 231,
       "wins": 79,
-      "pnl": 291.4162287049641
+      "pnl": 283.8005286463818
     },
     "sM": {
-      "trades": 57,
+      "trades": 58,
       "wins": 24,
-      "pnl": 204.18628442083593
+      "pnl": 197.0899646462277
     }
   },
   "byRegime": {
@@ -9991,14 +10003,14 @@
         "pnl": 50.792813170094306
       },
       "sE": {
-        "trades": 52,
+        "trades": 53,
         "wins": 19,
-        "pnl": 127.80997289570047
+        "pnl": 120.19427283711816
       },
       "sM": {
-        "trades": 20,
+        "trades": 21,
         "wins": 7,
-        "pnl": 92.0058292416841
+        "pnl": 84.90950946707589
       }
     },
     "NEUTRAL": {
