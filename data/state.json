@@ -256,23 +256,6 @@
       "peakPnl": 0
     },
     {
-      "id": "PYTH_sM_1790507645412",
-      "symbol": "PYTH",
-      "name": "Pyth Network",
-      "coinId": "pyth-network",
-      "rank": 98,
-      "stratId": "sM",
-      "entryPrice": 0.0872,
-      "entryTime": 1790507645412,
-      "entryDate": "2026-09-27T11:14:05.412Z",
-      "entrySignal": "Пробой 20d max $0.0744 на +17.2% · Объём x1.7 · RSI=80",
-      "strength": 90,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "PUMP_sE_1790578138743",
       "symbol": "PUMP",
       "name": "Pump.fun",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "PYTH_sM_1790507645412",
+      "symbol": "PYTH",
+      "name": "Pyth Network",
+      "coinId": "pyth-network",
+      "rank": 98,
+      "stratId": "sM",
+      "entryPrice": 0.0872,
+      "entryTime": 1790507645412,
+      "entryDate": "2026-09-27T11:14:05.412Z",
+      "entrySignal": "Пробой 20d max $0.0744 на +17.2% · Объём x1.7 · RSI=80",
+      "strength": 90,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.08003,
+      "exitTime": 1790606020517,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -8.222477064220177,
+      "pnlUsd": -8.222477064220177,
+      "total": 91.77752293577983
+    },
     {
       "id": "WLD_sM_1790507628294",
       "symbol": "WLD",
@@ -10031,21 +10037,21 @@
     "BTC_sM": 1789996600720,
     "WBT_sM": 1790026511231,
     "GRAM_sE": 1790507620323,
-    "PYTH_sM": 1790507645412,
+    "PYTH_sM": 1790685220517,
     "ALGO_sM": 1790599281731
   },
-  "scanCount": 2567,
+  "scanCount": 2568,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-28T12:41:22.760Z",
+  "lastScan": "2026-09-28T14:34:20.603Z",
   "lastReport": "2026-09-28T12:41:22.760Z",
   "marketRegime": "BULL",
   "fearGreed": 74,
   "totalStats": {
-    "trades": 415,
+    "trades": 416,
     "wins": 152,
-    "losses": 263,
-    "totalPnl": 423.0629663884014,
-    "invested": 41500
+    "losses": 264,
+    "totalPnl": 414.8404893241812,
+    "invested": 41600
   },
   "byStrategy": {
     "sR": {
@@ -10059,9 +10065,9 @@
       "pnl": 283.8005286463818
     },
     "sM": {
-      "trades": 58,
+      "trades": 59,
       "wins": 24,
-      "pnl": 197.0899646462277
+      "pnl": 188.86748758200753
     }
   },
   "byRegime": {
@@ -10077,9 +10083,9 @@
         "pnl": 120.19427283711816
       },
       "sM": {
-        "trades": 21,
+        "trades": 22,
         "wins": 7,
-        "pnl": 84.90950946707589
+        "pnl": 76.68703240285572
       }
     },
     "NEUTRAL": {
@@ -10151,5 +10157,5 @@
       }
     }
   },
-  "btcDominance": 58.6
+  "btcDominance": 58.2
 }
