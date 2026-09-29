@@ -10040,12 +10040,12 @@
     "PYTH_sM": 1790685220517,
     "ALGO_sM": 1790599281731
   },
-  "scanCount": 2570,
+  "scanCount": 2571,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-28T22:52:13.626Z",
+  "lastScan": "2026-09-29T00:34:29.759Z",
   "lastReport": "2026-09-28T22:52:13.626Z",
   "marketRegime": "BULL",
-  "fearGreed": 74,
+  "fearGreed": 73,
   "totalStats": {
     "trades": 416,
     "wins": 152,
