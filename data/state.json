@@ -222,23 +222,6 @@
       "peakPnl": 0
     },
     {
-      "id": "PUMP_sE_1790578138743",
-      "symbol": "PUMP",
-      "name": "Pump.fun",
-      "coinId": "pump-fun",
-      "rank": 47,
-      "stratId": "sE",
-      "entryPrice": 0.004987,
-      "entryTime": 1790578138743,
-      "entryDate": "2026-09-28T06:48:58.743Z",
-      "entrySignal": "Golden Cross 3д назад · EMA9=0.0044 > EMA21=0.0043 · RSI=64 · Vol x1.3",
-      "strength": 75,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "SKY_sM_1790578142362",
       "symbol": "SKY",
       "name": "Sky",
@@ -291,6 +274,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "PUMP_sE_1790578138743",
+      "symbol": "PUMP",
+      "name": "Pump.fun",
+      "coinId": "pump-fun",
+      "rank": 47,
+      "stratId": "sE",
+      "entryPrice": 0.004987,
+      "entryTime": 1790578138743,
+      "entryDate": "2026-09-28T06:48:58.743Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=0.0044 > EMA21=0.0043 · RSI=64 · Vol x1.3",
+      "strength": 75,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.005767,
+      "exitTime": 1790685784326,
+      "exitReason": "✅ TP +15%",
+      "pnl": 15.640665730900347,
+      "pnlUsd": 15.640665730900345,
+      "total": 115.64066573090034
+    },
     {
       "id": "FIGR_HELOC_sE_1790120716065",
       "symbol": "FIGR_HELOC",
@@ -10052,18 +10058,18 @@
     "PYTH_sM": 1790685220517,
     "ALGO_sM": 1790599281731
   },
-  "scanCount": 2574,
+  "scanCount": 2575,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-29T11:58:32.594Z",
+  "lastScan": "2026-09-29T12:43:05.772Z",
   "lastReport": "2026-09-29T11:58:32.594Z",
   "marketRegime": "BULL",
   "fearGreed": 73,
   "totalStats": {
-    "trades": 418,
-    "wins": 152,
+    "trades": 419,
+    "wins": 153,
     "losses": 266,
-    "totalPnl": 403.94866309603674,
-    "invested": 41800
+    "totalPnl": 419.5893288269371,
+    "invested": 41900
   },
   "byStrategy": {
     "sR": {
@@ -10072,9 +10078,9 @@
       "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 232,
-      "wins": 79,
-      "pnl": 281.1441553681496
+      "trades": 233,
+      "wins": 80,
+      "pnl": 296.78482109904996
     },
     "sM": {
       "trades": 60,
@@ -10090,9 +10096,9 @@
         "pnl": 50.792813170094306
       },
       "sE": {
-        "trades": 54,
-        "wins": 19,
-        "pnl": 117.53789955888598
+        "trades": 55,
+        "wins": 20,
+        "pnl": 133.17856528978632
       },
       "sM": {
         "trades": 23,
@@ -10169,5 +10175,5 @@
       }
     }
   },
-  "btcDominance": 58.8
+  "btcDominance": 58.2
 }
