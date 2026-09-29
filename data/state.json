@@ -188,23 +188,6 @@
       "peakPnl": 0
     },
     {
-      "id": "LTC_sM_1790265241399",
-      "symbol": "LTC",
-      "name": "Litecoin",
-      "coinId": "litecoin",
-      "rank": 24,
-      "stratId": "sM",
-      "entryPrice": 74.07,
-      "entryTime": 1790265241399,
-      "entryDate": "2026-09-24T15:54:01.399Z",
-      "entrySignal": "Пробой 20d max $63.8500 на +16.0% · Объём x5.8 · RSI=78",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "LINK_sE_1790331958089",
       "symbol": "LINK",
       "name": "Chainlink",
@@ -325,6 +308,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "LTC_sM_1790265241399",
+      "symbol": "LTC",
+      "name": "Litecoin",
+      "coinId": "litecoin",
+      "rank": 24,
+      "stratId": "sM",
+      "entryPrice": 74.07,
+      "entryTime": 1790265241399,
+      "entryDate": "2026-09-24T15:54:01.399Z",
+      "entrySignal": "Пробой 20d max $63.8500 на +16.0% · Объём x5.8 · RSI=78",
+      "strength": 95,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 67.97,
+      "exitTime": 1790653652386,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -8.235452949912238,
+      "pnlUsd": -8.235452949912238,
+      "total": 91.76454705008776
+    },
     {
       "id": "PYTH_sM_1790507645412",
       "symbol": "PYTH",
@@ -10009,7 +10015,7 @@
     "DOGE_sM": 1787302442570,
     "GRAM_sM": 1788050930721,
     "GT_sM": 1787344424213,
-    "LTC_sM": 1790265241399,
+    "LTC_sM": 1790732852386,
     "SUI_sM": 1787456117335,
     "HYPE_sM": 1787371263877,
     "HBAR_sM": 1790599263019,
@@ -10040,18 +10046,18 @@
     "PYTH_sM": 1790685220517,
     "ALGO_sM": 1790599281731
   },
-  "scanCount": 2571,
+  "scanCount": 2572,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-29T00:34:29.759Z",
-  "lastReport": "2026-09-28T22:52:13.626Z",
+  "lastScan": "2026-09-29T03:47:35.537Z",
+  "lastReport": "2026-09-29T03:47:35.537Z",
   "marketRegime": "BULL",
   "fearGreed": 73,
   "totalStats": {
-    "trades": 416,
+    "trades": 417,
     "wins": 152,
-    "losses": 264,
-    "totalPnl": 414.8404893241812,
-    "invested": 41600
+    "losses": 265,
+    "totalPnl": 406.60503637426893,
+    "invested": 41700
   },
   "byStrategy": {
     "sR": {
@@ -10065,9 +10071,9 @@
       "pnl": 283.8005286463818
     },
     "sM": {
-      "trades": 59,
+      "trades": 60,
       "wins": 24,
-      "pnl": 188.86748758200753
+      "pnl": 180.6320346320953
     }
   },
   "byRegime": {
@@ -10083,9 +10089,9 @@
         "pnl": 120.19427283711816
       },
       "sM": {
-        "trades": 22,
+        "trades": 23,
         "wins": 7,
-        "pnl": 76.68703240285572
+        "pnl": 68.45157945294348
       }
     },
     "NEUTRAL": {
