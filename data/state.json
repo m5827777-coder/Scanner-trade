@@ -288,6 +288,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "STX_sM_1790807093204",
+      "symbol": "STX",
+      "name": "Stacks",
+      "coinId": "blockstack",
+      "rank": 97,
+      "stratId": "sM",
+      "entryPrice": 0.3737,
+      "entryTime": 1790807093204,
+      "entryDate": "2026-09-30T22:24:53.204Z",
+      "entrySignal": "Пробой 20d max $0.3598 на +3.9% · Объём x1.6 · RSI=68",
+      "strength": 82,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -10119,11 +10136,12 @@
     "WBT_sM": 1790026511231,
     "GRAM_sE": 1790783538486,
     "PYTH_sM": 1790685220517,
-    "ALGO_sM": 1790599281731
+    "ALGO_sM": 1790599281731,
+    "STX_sM": 1790807093204
   },
-  "scanCount": 2587,
+  "scanCount": 2588,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-30T21:47:03.006Z",
+  "lastScan": "2026-09-30T22:24:55.484Z",
   "lastReport": "2026-09-30T21:47:03.006Z",
   "marketRegime": "BULL",
   "fearGreed": 71,
