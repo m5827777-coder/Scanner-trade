@@ -146493,3 +146493,29 @@
 [2026-09-29 22:18:57 UTC] ⚠ CoinGecko недоступен
 [2026-09-29 22:18:57 UTC] 
 📊 ИТОГ: WR=36.3% PnL=$396.67 Trades=421
+[2026-09-30 01:20:07 UTC] ════════════════════════════════════════════════════
+[2026-09-30 01:20:07 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-09-30 01:20:07 UTC] ════════════════════════════════════════════════════
+[2026-09-30 01:20:07 UTC] 📡 Scan #2580
+[2026-09-30 01:20:08 UTC] 📊 BTC Dom=58.3%
+[2026-09-30 01:20:08 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-09-30 01:20:08 UTC] 🌡 F&G=71 Regime=BULL Open=14
+[2026-09-30 01:20:08 UTC]   📂 HOLD BNB/sM PnL=+12.04%
+[2026-09-30 01:20:09 UTC]   📂 HOLD HYPE/sM PnL=+5.08%
+[2026-09-30 01:20:09 UTC]   📂 HOLD XMR/sM PnL=+5.75%
+[2026-09-30 01:20:09 UTC]   📂 HOLD ZEC/sM PnL=+6.32%
+[2026-09-30 01:20:09 UTC]   📂 HOLD XRP/sE PnL=+3.96%
+[2026-09-30 01:20:10 UTC]   📂 HOLD AVAX/sM PnL=+19.57%
+[2026-09-30 01:20:10 UTC]   📂 HOLD XLM/sM PnL=+4.56%
+[2026-09-30 01:20:10 UTC]   📂 HOLD BTC/sM PnL=-2.03%
+[2026-09-30 01:20:10 UTC]   📂 HOLD WBT/sM PnL=-4.53%
+[2026-09-30 01:20:10 UTC]   📂 HOLD DOGE/sE PnL=+1.20%
+[2026-09-30 01:20:11 UTC]   📂 HOLD LINK/sE PnL=+3.90%
+[2026-09-30 01:20:11 UTC]   📂 HOLD CC/sE PnL=-1.08%
+[2026-09-30 01:20:11 UTC]   📂 HOLD SKY/sM PnL=+2.20%
+[2026-09-30 01:20:11 UTC]   📂 HOLD ALGO/sM PnL=-2.39%
+[2026-09-30 01:20:11 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-09-30 01:20:11 UTC] [CG ERR] CG 403
+[2026-09-30 01:20:11 UTC] ⚠ CoinGecko недоступен
+[2026-09-30 01:20:11 UTC] 
+📊 ИТОГ: WR=36.3% PnL=$396.67 Trades=421
