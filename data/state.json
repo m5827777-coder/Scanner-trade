@@ -10121,10 +10121,10 @@
     "PYTH_sM": 1790685220517,
     "ALGO_sM": 1790599281731
   },
-  "scanCount": 2584,
+  "scanCount": 2585,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-09-30T13:04:22.602Z",
-  "lastReport": "2026-09-30T11:47:23.940Z",
+  "lastScan": "2026-09-30T17:27:38.221Z",
+  "lastReport": "2026-09-30T17:27:38.221Z",
   "marketRegime": "BULL",
   "fearGreed": 71,
   "totalStats": {
@@ -10238,5 +10238,5 @@
       }
     }
   },
-  "btcDominance": 58.5
+  "btcDominance": 58.4
 }
