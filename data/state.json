@@ -10139,10 +10139,10 @@
     "ALGO_sM": 1790599281731,
     "STX_sM": 1790807093204
   },
-  "scanCount": 2589,
+  "scanCount": 2590,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-01T01:22:40.258Z",
-  "lastReport": "2026-09-30T21:47:03.006Z",
+  "lastScan": "2026-10-01T03:41:40.868Z",
+  "lastReport": "2026-10-01T03:41:40.868Z",
   "marketRegime": "BULL",
   "fearGreed": 74,
   "totalStats": {
@@ -10256,5 +10256,5 @@
       }
     }
   },
-  "btcDominance": 58.3
+  "btcDominance": 58.2
 }
