@@ -147647,3 +147647,41 @@
 [2026-10-02 11:45:20 UTC] 📧 6h report sent
 [2026-10-02 11:45:20 UTC] 
 📊 ИТОГ: WR=36.3% PnL=$396.67 Trades=421
+[2026-10-02 14:59:10 UTC] ════════════════════════════════════════════════════
+[2026-10-02 14:59:10 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-10-02 14:59:10 UTC] ════════════════════════════════════════════════════
+[2026-10-02 14:59:10 UTC] 📡 Scan #2601
+[2026-10-02 14:59:10 UTC] 📊 BTC Dom=58.8%
+[2026-10-02 14:59:10 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-10-02 14:59:11 UTC] 🌡 F&G=72 Regime=BULL Open=18
+[2026-10-02 14:59:11 UTC]   📂 HOLD BNB/sM PnL=+14.13%
+[2026-10-02 14:59:11 UTC]   📂 HOLD HYPE/sM PnL=+9.35%
+[2026-10-02 14:59:11 UTC]   📂 HOLD XMR/sM PnL=+5.64%
+[2026-10-02 14:59:11 UTC]   📂 HOLD ZEC/sM PnL=+2.58%
+[2026-10-02 14:59:11 UTC]   📂 HOLD XRP/sE PnL=+5.17%
+[2026-10-02 14:59:12 UTC]   📂 HOLD AVAX/sM PnL=+16.08%
+[2026-10-02 14:59:12 UTC]   📂 HOLD XLM/sM PnL=+4.64%
+[2026-10-02 14:59:12 UTC]   📂 HOLD BTC/sM PnL=+0.64%
+[2026-10-02 14:59:12 UTC]   📂 HOLD WBT/sM PnL=-2.28%
+[2026-10-02 14:59:12 UTC]   📂 HOLD DOGE/sE PnL=+2.81%
+[2026-10-02 14:59:12 UTC]   📂 HOLD LINK/sE PnL=+2.29%
+[2026-10-02 14:59:12 UTC]   📂 HOLD CC/sE PnL=-2.50%
+[2026-10-02 14:59:13 UTC]   📂 HOLD SKY/sM PnL=+14.11%
+[2026-10-02 14:59:13 UTC]   📂 HOLD ALGO/sM PnL=-0.46%
+[2026-10-02 14:59:13 UTC]   📂 HOLD FIGR_HELOC/sE PnL=-1.77%
+[2026-10-02 14:59:13 UTC]   📂 HOLD ASTER/sE PnL=-3.19%
+[2026-10-02 14:59:13 UTC]   📂 HOLD FLR/sE PnL=-1.44%
+[2026-10-02 14:59:13 UTC]   📂 HOLD STX/sM PnL=-2.33%
+[2026-10-02 14:59:13 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-10-02 14:59:13 UTC] ✓ CoinGecko: 83 токенов. Проверяю входы...
+[2026-10-02 14:59:14 UTC]   📈 ENTRY ETH/sE [BULL] via OKX: EMA начало расхождения · EMA9=2680.2407 > EMA21=2633.5294 · RSI=61 · Vol x1.2 @ $2710.01
+[2026-10-02 14:59:17 UTC]   ⏭ FIGR_HELOC: нет данных (figure-heloc)
+[2026-10-02 14:59:19 UTC]   ⏭ XMR: нет данных (monero)
+[2026-10-02 14:59:19 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-10-02 14:59:20 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-10-02 14:59:25 UTC]   ⏭ BTW: нет данных (bitway)
+[2026-10-02 14:59:25 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-10-02 14:59:27 UTC]   📈 ENTRY AAVE/sM [BULL_TREND] via OKX: Пробой 20d max $176.2700 на +3.8% · Объём x1.6 · RSI=70 @ $183
+[2026-10-02 14:59:29 UTC] ✅ Данные: 27 токенов OK, 6 недоступно | Открыто: 2 | Всего: 20
+[2026-10-02 14:59:29 UTC] 
+📊 ИТОГ: WR=36.3% PnL=$396.67 Trades=421
