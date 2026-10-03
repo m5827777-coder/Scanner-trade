@@ -305,6 +305,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ZRO_sM_1791025117665",
+      "symbol": "ZRO",
+      "name": "LayerZero",
+      "coinId": "layerzero",
+      "rank": 97,
+      "stratId": "sM",
+      "entryPrice": 1.975,
+      "entryTime": 1791025117665,
+      "entryDate": "2026-10-03T10:58:37.665Z",
+      "entrySignal": "Пробой 20d max $1.8869 на +4.7% · Объём x1.6 · RSI=80",
+      "strength": 88,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -10184,12 +10201,13 @@
     "PYTH_sM": 1790685220517,
     "ALGO_sM": 1790599281731,
     "STX_sM": 1790807093204,
-    "AAVE_sM": 1790953167849
+    "AAVE_sM": 1790953167849,
+    "ZRO_sM": 1791025117665
   },
-  "scanCount": 2608,
+  "scanCount": 2609,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-03T07:58:39.381Z",
-  "lastReport": "2026-10-03T03:25:47.002Z",
+  "lastScan": "2026-10-03T10:58:40.067Z",
+  "lastReport": "2026-10-03T10:58:40.067Z",
   "marketRegime": "BULL",
   "fearGreed": 67,
   "totalStats": {
@@ -10303,5 +10321,5 @@
       }
     }
   },
-  "btcDominance": 58.7
+  "btcDominance": 59.2
 }
