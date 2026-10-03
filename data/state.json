@@ -10186,12 +10186,12 @@
     "STX_sM": 1790807093204,
     "AAVE_sM": 1790953167849
   },
-  "scanCount": 2605,
+  "scanCount": 2606,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-02T23:18:01.728Z",
+  "lastScan": "2026-10-03T02:03:57.533Z",
   "lastReport": "2026-10-02T21:43:44.849Z",
   "marketRegime": "BULL",
-  "fearGreed": 72,
+  "fearGreed": 67,
   "totalStats": {
     "trades": 423,
     "wins": 153,
@@ -10303,5 +10303,5 @@
       }
     }
   },
-  "btcDominance": 58.8
+  "btcDominance": 58.7
 }
