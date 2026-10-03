@@ -32,6 +32,12 @@ const CFG = {
   maxPerScan:       _gp.maxPerScan      || 8,
   trailingActivate: _gp.trailingActivate|| 5,
   trailingStep:     _gp.trailingStep    || 2,
+  breakevenAt:      _gp.breakevenAt     ?? 8,    // после пика +N% стоп переносится в безубыток
+  breakevenLock:    _gp.breakevenLock   ?? 0.5,  // выходим, если откатили до +N%
+  maxHoldDays:      _gp.maxHoldDays     ?? 14,   // тайм-стоп: держим не дольше N дней...
+  timeStopMinPnl:   _gp.timeStopMinPnl  ?? 5,    // ...если позиция не дала +N%
+  noDataSkipHours:  _gp.noDataSkipHours ?? 24,   // токены без свечей не перепроверяем N часов
+  excludeSymbols:   new Set((_gp.excludeSymbols||[]).map(s=>s.toUpperCase())),
   tgToken:   process.env.TG_TOKEN   || '',
   tgChat:    process.env.TG_CHAT_ID || '',
   emailTo:   process.env.EMAIL_TO   || '',
@@ -45,7 +51,7 @@ const CFG = {
   },
 };
 
-const STRAT_IDS = ['sE','sM','sR'];  // EMA Cross, Momentum Breakout, Altcoin Rotation
+const STRAT_IDS = _gp.strategies || ['sE','sM','sR'];  // EMA Cross, Momentum Breakout, Altcoin Rotation
 const ROOT       = path.join(__dirname, '..');
 const STATE_FILE = path.join(ROOT, 'data', 'state.json');
 const DASH_FILE  = path.join(ROOT, 'dashboard', 'index.html');
@@ -180,7 +186,7 @@ th{padding:6px 8px;font-size:8px;color:#5a7f9a;text-transform:uppercase;letter-s
 .badge{display:inline-block;padding:2px 8px;font-size:8px;font-weight:700}
 footer{margin-top:14px;padding-top:10px;border-top:1px solid #253545;text-align:center;font-size:8px;color:#5a7f9a}</style></head><body>
 <div class="hd"><div><h1>🤖 AUTO <span>TRADING</span> BOT</h1>
-<div style="font-size:9px;color:#5a7f9a;margin-top:3px">GitHub Actions · $${CFG.positionSize}/сделка · 3 стратегии · EMA Cross · Breakout · Rotation</div></div>
+<div style="font-size:9px;color:#5a7f9a;margin-top:3px">GitHub Actions · $${CFG.positionSize}/сделка · ${STRAT_IDS.map(id=>STRATEGIES[id]?.name||id).join(" · ")}</div></div>
 <div style="text-align:right;font-size:9px">
 <div style="color:#5a7f9a">Обновлено: <span style="color:#00ffaa">${st.lastScan?new Date(st.lastScan).toLocaleString('ru-RU',{timeZone:'UTC',hour12:false})+' UTC':'—'}</span></div>
 <div style="color:#5a7f9a;margin-top:3px">Сканов: <b>${st.scanCount}</b></div>
@@ -306,7 +312,7 @@ function checkEntryEx(stratId, bars, params){
 async function main(){
   fs.mkdirSync(path.dirname(LOG_FILE),{recursive:true});
   log('═'.repeat(52));
-  log(`🤖 Bot v6 | action=${CFG.action} | report=${CFG.isReport}`);
+  log(`🤖 Bot v8 | action=${CFG.action} | report=${CFG.isReport}`);
   log('═'.repeat(52));
 
   const state=loadState();
@@ -321,7 +327,7 @@ async function main(){
       const{bars}=await fetchKlines(pos.symbol,null,3);
       const price=bars?bars[bars.length-1].close:pos.entryPrice;
       const pP=(price-pos.entryPrice)/pos.entryPrice*100;const pU=CFG.positionSize*pP/100;const held=Date.now()-pos.entryTime;
-      const c={...pos,exitPrice:price,exitTime:Date.now(),exitReason:'🛑 Закрытие',pnl:pP,pnlUsd:pU,total:CFG.positionSize+pU,regime:state.marketRegime};
+      const c={...pos,exitPrice:price,exitTime:Date.now(),exitReason:'🛑 Закрытие',pnl:pP,pnlUsd:pU,total:CFG.positionSize+pU,exitRegime:state.marketRegime};
       state.closedTrades.unshift(c);updStats(state,c);
       await tg(msgExit(pos,price,'🛑 Закрытие',pP,pU,held));await new Promise(r=>setTimeout(r,300));
     }
@@ -373,50 +379,78 @@ async function main(){
 
   // EXITS
   const toClose=[];
+  const closePos=async(pos,price,reason)=>{
+    const pnl=(price-pos.entryPrice)/pos.entryPrice*100;
+    const pU=CFG.positionSize*pnl/100;const held=Date.now()-pos.entryTime;
+    // regime остаётся режимом токена на входе, режим BTC на выходе пишем отдельно
+    const c={...pos,exitPrice:price,exitTime:Date.now(),exitReason:reason,pnl,pnlUsd:pU,total:CFG.positionSize+pU,exitRegime:state.marketRegime};
+    state.closedTrades.unshift(c);updStats(state,c);toClose.push(pos.id);
+    // При SL-выходе ставим штрафной cooldown 24ч (не дать войти снова сразу же)
+    if(reason.includes('SL')){
+      state.cooldowns[`${pos.symbol}_${pos.stratId}`]=Date.now()+24*3600000-CFG.cooldownMin*60000;
+      log(`  🔒 SL-cooldown 24ч для ${pos.symbol}/${pos.stratId}`);
+    }
+    log(`  ${pnl>=0?'✅':'❌'} CLOSE ${pos.symbol}/${pos.stratId}: ${reason} PnL=${pct(pnl)} held=${durFmt(held)}`);
+    await tg(msgExit(pos,price,reason,pnl,pU,held));
+    await new Promise(r=>setTimeout(r,400));
+  };
+
   for(const pos of state.openPositions){
-    const{bars}=await fetchKlines(pos.symbol,pos.coinId,40);
+    const{bars,src}=await fetchKlines(pos.symbol,pos.coinId,40);
     if(!bars||!bars.length)continue;
     const price=bars[bars.length-1].close;
     const s=STRATEGIES[pos.stratId];if(!s)continue;
     const pnlNow=(price-pos.entryPrice)/pos.entryPrice*100;
+    const sp=s.getParams((CFG._stratParams||{})[pos.stratId]||{});
 
-    // TRAILING STOP: если позиция достигла порога — защищаем прибыль
-    const trActivate = CFG.trailingActivate || 5;
-    const trStep     = CFG.trailingStep     || 2;
-    if (pnlNow >= trActivate) {
-      const peak     = pos.peakPnl || pnlNow;
-      const newPeak  = Math.max(peak, pnlNow);
-      pos.peakPnl    = newPeak;  // сохраняем пик
-      const trailSL  = newPeak - trStep;
-      if (pnlNow <= trailSL && trailSL > 0) {
-        // Цена откатила на trStep% от пика
-        const pU = CFG.positionSize*pnlNow/100;
-        const c  = {...pos,exitPrice:price,exitTime:Date.now(),exitReason:`📉 Trailing stop: пик +${newPeak.toFixed(1)}% → откат до +${pnlNow.toFixed(1)}%`,pnl:pnlNow,pnlUsd:pU,total:CFG.positionSize+pU,regime:state.marketRegime};
-        state.closedTrades.unshift(c);updStats(state,c);toClose.push(pos.id);
-        log(`  📉 TRAIL STOP ${pos.symbol}/${pos.stratId}: peak=+${newPeak.toFixed(1)}% → now=+${pnlNow.toFixed(1)}% held=${durFmt(Date.now()-pos.entryTime)}`);
-        await tg(msgExit(pos,price,`📉 Trailing stop (пик +${newPeak.toFixed(1)}%)`,pnlNow,pU,Date.now()-pos.entryTime));
-        await new Promise(r=>setTimeout(r,400));
-        continue;
-      }
+    // Свечи после дня входа: их high/low точно были уже после покупки.
+    // У CoinGecko high/low ненастоящие (close ±1%), там берём close.
+    // Берём только свечи с прошлой проверки, чтобы не закрывать задним числом по старой истории.
+    const entryDay=new Date(pos.entryTime).toISOString().slice(0,10);
+    const today=new Date().toISOString().slice(0,10);
+    const fromDay=pos.lastCheckDay||today;
+    pos.lastCheckDay=today;
+    const after=bars.filter(b=>b.date>entryDay&&b.date>=fromDay);
+    const realHL=src!=='CoinGecko';
+    const hiOf=b=>realHL?b.high:b.close, loOf=b=>realHL?b.low:b.close;
+
+    // Пик PnL обновляем на каждом скане — от него работают трейлинг sM и безубыток
+    const hiPnl=after.reduce((m,b)=>Math.max(m,(hiOf(b)-pos.entryPrice)/pos.entryPrice*100),pnlNow);
+    pos.peakPnl=Math.max(pos.peakPnl||0,hiPnl);
+
+    // SL/TP как стоп- и лимит-заявки: если между сканами цена коснулась уровня — выходим по уровню
+    // (или по open, если свеча открылась гэпом за уровнем). SL проверяем первым — консервативно.
+    const slPx=pos.entryPrice*(1+sp.sl/100), tpPx=pos.entryPrice*(1+sp.tp/100);
+    let hit=null;
+    for(const b of after){
+      if(loOf(b)<=slPx){hit={px:Math.min(slPx,b.open),reason:`🛑 SL ${sp.sl}%`};break;}
+      if(hiOf(b)>=tpPx){hit={px:Math.max(tpPx,b.open),reason:`✅ TP +${sp.tp}%`};break;}
+    }
+    if(hit){await closePos(pos,hit.px,hit.reason);continue;}
+
+    // TRAILING STOP (общий): если позиция достигла порога — защищаем прибыль
+    if (pnlNow >= CFG.trailingActivate && pnlNow <= pos.peakPnl - CFG.trailingStep && pos.peakPnl - CFG.trailingStep > 0) {
+      await closePos(pos,price,`📉 Trailing stop: пик +${pos.peakPnl.toFixed(1)}% → откат до +${pnlNow.toFixed(1)}%`);
+      continue;
+    }
+
+    // Безубыток: позиция была в +breakevenAt%, но откатила почти к цене входа
+    if (pos.peakPnl >= CFG.breakevenAt && pnlNow <= CFG.breakevenLock) {
+      await closePos(pos,price,`🔒 Безубыток: пик +${pos.peakPnl.toFixed(1)}% → ${pct(pnlNow)}`);
+      continue;
     }
 
     const ex=s.checkExit(pos,bars,price,(CFG._stratParams||CFG.params));
-    if(ex.signal){
-      const pU=CFG.positionSize*ex.pnl/100;const held=Date.now()-pos.entryTime;
-      const c={...pos,exitPrice:price,exitTime:Date.now(),exitReason:ex.reason,pnl:ex.pnl,pnlUsd:pU,total:CFG.positionSize+pU,regime:state.marketRegime};
-      state.closedTrades.unshift(c);updStats(state,c);toClose.push(pos.id);
-      // При SL-выходе ставим штрафной cooldown 24ч (не дать войти снова сразу же)
-      if(ex.reason?.includes('SL')||ex.reason?.includes('🛑')){
-        const slPenalty=24*60*60*1000; // 24 часа в мс
-        state.cooldowns[`${pos.symbol}_${pos.stratId}`]=Date.now()+slPenalty-CFG.cooldownMin*60000;
-        log(`  🔒 SL-cooldown 24ч для ${pos.symbol}/${pos.stratId}`);
-      }
-      log(`  ${ex.pnl>=0?'✅':'❌'} CLOSE ${pos.symbol}/${pos.stratId}: ${ex.reason} PnL=${pct(ex.pnl)} held=${durFmt(held)}`);
-      await tg(msgExit(pos,price,ex.reason,ex.pnl,pU,held));
-      await new Promise(r=>setTimeout(r,400));
-    }else{
-      log(`  📂 HOLD ${pos.symbol}/${pos.stratId} PnL=${pct(ex.pnl)}`);
+    if(ex.signal){await closePos(pos,price,ex.reason);continue;}
+
+    // Тайм-стоп: позиция долго не растёт и занимает слот
+    const heldDays=(Date.now()-pos.entryTime)/86400000;
+    if (heldDays >= CFG.maxHoldDays && pnlNow < CFG.timeStopMinPnl) {
+      await closePos(pos,price,`⏳ Тайм-стоп ${Math.floor(heldDays)}д, PnL ${pct(pnlNow)}`);
+      continue;
     }
+
+    log(`  📂 HOLD ${pos.symbol}/${pos.stratId} PnL=${pct(ex.pnl)} peak=${pct(pos.peakPnl)}`);
   }
   state.openPositions=state.openPositions.filter(p=>!toClose.includes(p.id));
 
@@ -435,11 +469,15 @@ async function main(){
     for(const cg of cgData){
       if(state.openPositions.length>=CFG.maxOpenPos||opened>=maxNewThisScan)break;
       const sym=cg.symbol.toUpperCase();
+      if(CFG.excludeSymbols.has(sym))continue;
+      state.noData=state.noData||{};
+      if(Date.now()-(state.noData[sym]||0)<CFG.noDataSkipHours*3600000){dataFail++;continue;}
 
       const{bars,src}=await fetchKlines(sym,cg.id,40);
       if(!bars||bars.length<25){
         dataFail++;
-        log(`  ⏭ ${sym}: нет данных (${cg.id})`);
+        state.noData[sym]=Date.now();
+        log(`  ⏭ ${sym}: нет данных (${cg.id}), пропускаю ${CFG.noDataSkipHours}ч`);
         await new Promise(r=>setTimeout(r,150));
         continue;
       }
@@ -467,6 +505,7 @@ async function main(){
           entryTime:Date.now(),entryDate:new Date().toISOString(),
           entrySignal:entry.detail,strength:entry.strength||50,
           regime:tr,size:CFG.positionSize,src,peakPnl:0,
+          lastCheckDay:new Date().toISOString().slice(0,10),
         };
         state.openPositions.push(pos);
         markEnter(state,sym,sid);
