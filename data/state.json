@@ -322,6 +322,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ADA_sM_1791190447547",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 16,
+      "stratId": "sM",
+      "entryPrice": 0.2717,
+      "entryTime": 1791190447547,
+      "entryDate": "2026-10-05T08:54:07.547Z",
+      "entrySignal": "Пробой 20d max $0.2654 на +2.4% · Объём x1.6 · RSI=67",
+      "strength": 77,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -10174,7 +10191,7 @@
     "SUI_sM": 1787456117335,
     "HYPE_sM": 1787371263877,
     "HBAR_sM": 1790783539582,
-    "ADA_sM": 1787544166486,
+    "ADA_sM": 1791190447547,
     "SHIB_sM": 1787536937167,
     "AVAX_sM": 1789873064784,
     "TRUMP_sE": 1787451269778,
@@ -10204,9 +10221,9 @@
     "AAVE_sM": 1790953167849,
     "ZRO_sM": 1791025117665
   },
-  "scanCount": 2627,
+  "scanCount": 2628,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-05T03:38:14.310Z",
+  "lastScan": "2026-10-05T08:54:08.608Z",
   "lastReport": "2026-10-05T03:38:14.310Z",
   "marketRegime": "BULL",
   "fearGreed": 70,
