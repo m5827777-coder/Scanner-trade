@@ -10204,12 +10204,12 @@
     "AAVE_sM": 1790953167849,
     "ZRO_sM": 1791025117665
   },
-  "scanCount": 2625,
+  "scanCount": 2626,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-04T23:23:20.392Z",
+  "lastScan": "2026-10-05T02:08:19.382Z",
   "lastReport": "2026-10-04T20:47:04.536Z",
   "marketRegime": "BULL",
-  "fearGreed": 65,
+  "fearGreed": 70,
   "totalStats": {
     "trades": 423,
     "wins": 153,
@@ -10321,5 +10321,5 @@
       }
     }
   },
-  "btcDominance": 59.3
+  "btcDominance": 59.4
 }
