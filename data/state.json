@@ -10221,10 +10221,10 @@
     "AAVE_sM": 1790953167849,
     "ZRO_sM": 1791025117665
   },
-  "scanCount": 2630,
+  "scanCount": 2631,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-05T17:31:00.075Z",
-  "lastReport": "2026-10-05T13:21:40.293Z",
+  "lastScan": "2026-10-05T23:18:56.789Z",
+  "lastReport": "2026-10-05T23:18:56.789Z",
   "marketRegime": "BULL",
   "fearGreed": 70,
   "totalStats": {
