@@ -222,23 +222,6 @@
       "peakPnl": 0
     },
     {
-      "id": "FLR_sE_1790768842502",
-      "symbol": "FLR",
-      "name": "Flare",
-      "coinId": "flare-networks",
-      "rank": 99,
-      "stratId": "sE",
-      "entryPrice": 0.00748,
-      "entryTime": 1790768842502,
-      "entryDate": "2026-09-30T11:47:22.502Z",
-      "entrySignal": "Golden Cross 8д назад · EMA9=0.0072 > EMA21=0.0070 · RSI=62 · Vol x1.2",
-      "strength": 75,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "STX_sM_1790807093204",
       "symbol": "STX",
       "name": "Stacks",
@@ -339,9 +322,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "RAY_sM_1791380767179",
+      "symbol": "RAY",
+      "name": "Raydium",
+      "coinId": "raydium",
+      "rank": 99,
+      "stratId": "sM",
+      "entryPrice": 2.5238,
+      "entryTime": 1791380767179,
+      "entryDate": "2026-10-07T13:46:07.179Z",
+      "entrySignal": "Пробой 20d max $2.3613 на +6.9% · Объём x3.0 · RSI=71",
+      "strength": 95,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "FLR_sE_1790768842502",
+      "symbol": "FLR",
+      "name": "Flare",
+      "coinId": "flare-networks",
+      "rank": 99,
+      "stratId": "sE",
+      "entryPrice": 0.00748,
+      "entryTime": 1790768842502,
+      "entryDate": "2026-09-30T11:47:22.502Z",
+      "entrySignal": "Golden Cross 8д назад · EMA9=0.0072 > EMA21=0.0070 · RSI=62 · Vol x1.2",
+      "strength": 75,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.00702,
+      "exitTime": 1791380727643,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.149732620320849,
+      "pnlUsd": -6.149732620320849,
+      "total": 93.85026737967915
+    },
     {
       "id": "ALGO_sM_1790599281731",
       "symbol": "ALGO",
@@ -10114,7 +10137,7 @@
     "AVAX_sR": 1780495959104,
     "HBAR_sR": 1778752941540,
     "CC_sE": 1791049653512,
-    "FLR_sE": 1790768842502,
+    "FLR_sE": 1791459927643,
     "XRP_sE": 1789824456808,
     "HYPE_sE": 1787168197411,
     "LINK_sR": 1789653444404,
@@ -10242,20 +10265,21 @@
     "ALGO_sM": 1791424294772,
     "STX_sM": 1790807093204,
     "AAVE_sM": 1790953167849,
-    "ZRO_sM": 1791025117665
+    "ZRO_sM": 1791025117665,
+    "RAY_sM": 1791380767179
   },
-  "scanCount": 2643,
+  "scanCount": 2644,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-07T12:29:55.376Z",
+  "lastScan": "2026-10-07T13:46:08.193Z",
   "lastReport": "2026-10-07T12:29:55.376Z",
   "marketRegime": "BULL",
   "fearGreed": 71,
   "totalStats": {
-    "trades": 424,
+    "trades": 425,
     "wins": 153,
-    "losses": 271,
-    "totalPnl": 375.66208550624856,
-    "invested": 42400
+    "losses": 272,
+    "totalPnl": 369.5123528859277,
+    "invested": 42500
   },
   "byStrategy": {
     "sR": {
@@ -10264,9 +10288,9 @@
       "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 236,
+      "trades": 237,
       "wins": 80,
-      "pnl": 274.7481426650355
+      "pnl": 268.5984100447147
     },
     "sM": {
       "trades": 62,
@@ -10282,9 +10306,9 @@
         "pnl": 50.792813170094306
       },
       "sE": {
-        "trades": 58,
+        "trades": 59,
         "wins": 20,
-        "pnl": 111.14188685577189
+        "pnl": 104.99215423545104
       },
       "sM": {
         "trades": 25,
@@ -10361,5 +10385,5 @@
       }
     }
   },
-  "btcDominance": 59.3
+  "btcDominance": 58.8
 }
