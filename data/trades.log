@@ -149824,3 +149824,37 @@
 [2026-10-07 19:33:10 UTC] 📧 6h report sent
 [2026-10-07 19:33:10 UTC] 
 📊 ИТОГ: WR=36.0% PnL=$369.51 Trades=425
+[2026-10-07 22:32:34 UTC] ════════════════════════════════════════════════════
+[2026-10-07 22:32:34 UTC] 🤖 Bot v6 | action=scan | report=true
+[2026-10-07 22:32:34 UTC] ════════════════════════════════════════════════════
+[2026-10-07 22:32:34 UTC] 📡 Scan #2646
+[2026-10-07 22:32:34 UTC] 📊 BTC Dom=58.8%
+[2026-10-07 22:32:34 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-10-07 22:32:35 UTC] 🌡 F&G=71 Regime=BULL Open=20
+[2026-10-07 22:32:35 UTC]   📂 HOLD BNB/sM PnL=+13.47%
+[2026-10-07 22:32:35 UTC]   📂 HOLD HYPE/sM PnL=+7.07%
+[2026-10-07 22:32:35 UTC]   📂 HOLD XMR/sM PnL=+7.04%
+[2026-10-07 22:32:36 UTC]   📂 HOLD ZEC/sM PnL=-0.73%
+[2026-10-07 22:32:36 UTC]   📂 HOLD XRP/sE PnL=-1.31%
+[2026-10-07 22:32:36 UTC]   📂 HOLD AVAX/sM PnL=+15.98%
+[2026-10-07 22:32:36 UTC]   📂 HOLD XLM/sM PnL=-5.58%
+[2026-10-07 22:32:36 UTC]   📂 HOLD BTC/sM PnL=-2.13%
+[2026-10-07 22:32:37 UTC]   📂 HOLD WBT/sM PnL=-5.05%
+[2026-10-07 22:32:37 UTC]   📂 HOLD DOGE/sE PnL=-4.36%
+[2026-10-07 22:32:37 UTC]   📂 HOLD LINK/sE PnL=-4.31%
+[2026-10-07 22:32:37 UTC]   📂 HOLD SKY/sM PnL=-1.29%
+[2026-10-07 22:32:38 UTC]   📂 HOLD FIGR_HELOC/sE PnL=-1.32%
+[2026-10-07 22:32:38 UTC]   📂 HOLD STX/sM PnL=-0.94%
+[2026-10-07 22:32:38 UTC]   📂 HOLD ETH/sE PnL=-5.12%
+[2026-10-07 22:32:38 UTC]   📂 HOLD AAVE/sM PnL=-5.49%
+[2026-10-07 22:32:38 UTC]   📂 HOLD ZRO/sM PnL=+12.77%
+[2026-10-07 22:32:39 UTC]   📂 HOLD ADA/sM PnL=-6.18%
+[2026-10-07 22:32:39 UTC]   📂 HOLD OKB/sM PnL=-2.23%
+[2026-10-07 22:32:39 UTC]   📂 HOLD RAY/sM PnL=-0.88%
+[2026-10-07 22:32:39 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-10-07 22:32:39 UTC] ✓ CoinGecko: 83 токенов. Проверяю входы...
+[2026-10-07 22:32:39 UTC] ✅ Данные: 0 токенов OK, 0 недоступно | Открыто: 0 | Всего: 20
+[2026-10-07 22:32:44 UTC] [EMAIL] ✅ → m5827777@gmail.com
+[2026-10-07 22:32:44 UTC] 📧 6h report sent
+[2026-10-07 22:32:44 UTC] 
+📊 ИТОГ: WR=36.0% PnL=$369.51 Trades=425
