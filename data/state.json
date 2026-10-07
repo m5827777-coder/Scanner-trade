@@ -322,6 +322,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "OKB_sM_1791354632896",
+      "symbol": "OKB",
+      "name": "OKB",
+      "coinId": "okb",
+      "rank": 43,
+      "stratId": "sM",
+      "entryPrice": 134.21,
+      "entryTime": 1791354632896,
+      "entryDate": "2026-10-07T06:30:32.896Z",
+      "entrySignal": "Пробой 20d max $128.5000 на +4.4% · Объём x1.7 · RSI=70",
+      "strength": 85,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -10184,7 +10201,7 @@
     "XAUT_sE": 1785912340985,
     "USDGO_sE": 1789661044289,
     "TAO_sE": 1788027211177,
-    "OKB_sM": 1787539564478,
+    "OKB_sM": 1791354632896,
     "ETHFI_sE": 1786788688360,
     "DOGE_sE": 1790179028563,
     "XRP_sM": 1787307724269,
@@ -10227,9 +10244,9 @@
     "AAVE_sM": 1790953167849,
     "ZRO_sM": 1791025117665
   },
-  "scanCount": 2641,
+  "scanCount": 2642,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-07T03:52:15.000Z",
+  "lastScan": "2026-10-07T06:30:34.019Z",
   "lastReport": "2026-10-07T03:52:15.000Z",
   "marketRegime": "BULL",
   "fearGreed": 71,
@@ -10344,5 +10361,5 @@
       }
     }
   },
-  "btcDominance": 58.8
+  "btcDominance": 58.7
 }
