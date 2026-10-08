@@ -2,8 +2,9 @@ name: 🤖 Trading Bot
 
 on:
   schedule:
-    - cron: '*/5 * * * *'      # каждые 5 минут
-    - cron: '0 */6 * * *'      # каждые 6 часов — email отчёт
+    # Каждые 30 минут: ~1 мин на запуск ≈ 1500 мин/мес, влезает в бесплатные 2000 мин для приватного репо.
+    # 6-часовой email-отчёт отправляется из обычного скана (проверка lastReport), отдельный cron не нужен.
+    - cron: '7,37 * * * *'
   workflow_dispatch:
     inputs:
       action:
@@ -12,6 +13,11 @@ on:
         default: 'scan'
         type: choice
         options: [scan, report, close_all, reset_state]
+
+# Не запускать два скана одновременно: оба пишут state.json и пушат в main
+concurrency:
+  group: trading-bot
+  cancel-in-progress: false
 
 jobs:
   bot:
@@ -40,7 +46,6 @@ jobs:
           GMAIL_USER:     ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASS: ${{ secrets.GMAIL_APP_PASS }}
           ACTION:         ${{ github.event.inputs.action || 'scan' }}
-          IS_REPORT_RUN:  ${{ github.event.schedule == '0 */6 * * *' && 'true' || 'false' }}
         run: cd bot && node index.js
 
       - name: Save state
