@@ -69,23 +69,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XLM_sM_1789991140697",
-      "symbol": "XLM",
-      "name": "Stellar",
-      "coinId": "stellar",
-      "rank": 20,
-      "stratId": "sM",
-      "entryPrice": 0.21196,
-      "entryTime": 1789991140697,
-      "entryDate": "2026-09-21T11:45:40.697Z",
-      "entrySignal": "Пробой 20d max $0.2042 на +3.8% · Объём x1.5 · RSI=65",
-      "strength": 79,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "BTC_sM_1789996600720",
       "symbol": "BTC",
       "name": "Bitcoin",
@@ -97,40 +80,6 @@
       "entryDate": "2026-09-21T13:16:40.720Z",
       "entrySignal": "Пробой 20d max $82285.0000 на +3.5% · Объём x1.6 · RSI=72",
       "strength": 83,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "WBT_sM_1790026511231",
-      "symbol": "WBT",
-      "name": "WhiteBIT Coin",
-      "coinId": "whitebit",
-      "rank": 14,
-      "stratId": "sM",
-      "entryPrice": 87.27790806196693,
-      "entryTime": 1790026511231,
-      "entryDate": "2026-09-21T21:35:11.231Z",
-      "entrySignal": "Пробой 20d max $83.8534 на +4.1% · Объём x2.1 · RSI=78",
-      "strength": 93,
-      "regime": "BULL",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
-      "id": "SKY_sM_1790578142362",
-      "symbol": "SKY",
-      "name": "Sky",
-      "coinId": "sky",
-      "rank": 55,
-      "stratId": "sM",
-      "entryPrice": 0.08051,
-      "entryTime": 1790578142362,
-      "entryDate": "2026-09-28T06:49:02.362Z",
-      "entrySignal": "Пробой 20d max $0.0800 на +0.7% · Объём x1.9 · RSI=65",
-      "strength": 78,
       "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
@@ -186,6 +135,31 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    }
+  ],
+  "closedTrades": [
+    {
+      "id": "ATOM_sE_1791463194353",
+      "symbol": "ATOM",
+      "name": "Cosmos Hub",
+      "coinId": "cosmos",
+      "rank": 81,
+      "stratId": "sE",
+      "entryPrice": 1.819,
+      "entryTime": 1791463194353,
+      "entryDate": "2026-10-08T12:39:54.353Z",
+      "entrySignal": "EMA начало расхождения · EMA9=1.7601 > EMA21=1.7357 · RSI=59 · Vol x1.4",
+      "strength": 77,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.672,
+      "exitTime": 1791480045393,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -8.081363386476086,
+      "pnlUsd": -8.081363386476086,
+      "total": 91.91863661352392
     },
     {
       "id": "RAY_sM_1791380767179",
@@ -199,30 +173,86 @@
       "entryDate": "2026-10-07T13:46:07.179Z",
       "entrySignal": "Пробой 20d max $2.3613 на +6.9% · Объём x3.0 · RSI=71",
       "strength": 95,
-      "regime": "BULL_TREND",
+      "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 0,
+      "exitPrice": 2.257,
+      "exitTime": 1791480044646,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -10.571360646643946,
+      "pnlUsd": -10.571360646643946,
+      "total": 89.42863935335606
     },
     {
-      "id": "ATOM_sE_1791463194353",
-      "symbol": "ATOM",
-      "name": "Cosmos Hub",
-      "coinId": "cosmos",
-      "rank": 81,
-      "stratId": "sE",
-      "entryPrice": 1.819,
-      "entryTime": 1791463194353,
-      "entryDate": "2026-10-08T12:39:54.353Z",
-      "entrySignal": "EMA начало расхождения · EMA9=1.7601 > EMA21=1.7357 · RSI=59 · Vol x1.4",
-      "strength": 77,
-      "regime": "BULL",
+      "id": "SKY_sM_1790578142362",
+      "symbol": "SKY",
+      "name": "Sky",
+      "coinId": "sky",
+      "rank": 55,
+      "stratId": "sM",
+      "entryPrice": 0.08051,
+      "entryTime": 1790578142362,
+      "entryDate": "2026-09-28T06:49:02.362Z",
+      "entrySignal": "Пробой 20d max $0.0800 на +0.7% · Объём x1.9 · RSI=65",
+      "strength": 78,
+      "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 0.07468,
+      "exitTime": 1791480043117,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.241336479940383,
+      "pnlUsd": -7.241336479940383,
+      "total": 92.75866352005961
+    },
+    {
+      "id": "WBT_sM_1790026511231",
+      "symbol": "WBT",
+      "name": "WhiteBIT Coin",
+      "coinId": "whitebit",
+      "rank": 14,
+      "stratId": "sM",
+      "entryPrice": 87.27790806196693,
+      "entryTime": 1790026511231,
+      "entryDate": "2026-09-21T21:35:11.231Z",
+      "entrySignal": "Пробой 20d max $83.8534 на +4.1% · Объём x2.1 · RSI=78",
+      "strength": 93,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 79.48671741575308,
+      "exitTime": 1791480042373,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -8.9268760207705,
+      "pnlUsd": -8.9268760207705,
+      "total": 91.0731239792295
+    },
+    {
+      "id": "XLM_sM_1789991140697",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coinId": "stellar",
+      "rank": 20,
+      "stratId": "sM",
+      "entryPrice": 0.21196,
+      "entryTime": 1789991140697,
+      "entryDate": "2026-09-21T11:45:40.697Z",
+      "entrySignal": "Пробой 20d max $0.2042 на +3.8% · Объём x1.5 · RSI=65",
+      "strength": 79,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.18702,
+      "exitTime": 1791480040985,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -11.766371013398762,
+      "pnlUsd": -11.76637101339876,
+      "total": 88.23362898660125
+    },
     {
       "id": "OKB_sM_1791354632896",
       "symbol": "OKB",
@@ -10245,14 +10275,14 @@
     "ALGO_sE": 1789601892623,
     "BNB_sM": 1787306163073,
     "BNB_sE": 1784631009103,
-    "XLM_sM": 1789991140697,
+    "XLM_sM": 1791559240985,
     "RAIN_sE": 1788212259153,
     "WLD_sM": 1790644147775,
     "NIGHT_sE": 1783252446162,
     "ONDO_sE": 1789699628274,
     "ZEC_sE": 1787294162681,
     "TRUMP_sM": 1781481460279,
-    "ATOM_sE": 1791463194353,
+    "ATOM_sE": 1791559245393,
     "NEAR_sE": 1787463924108,
     "WBT_sE": 1786991769629,
     "UNI_sE": 1788102000771,
@@ -10260,7 +10290,7 @@
     "WLFI_sE": 1786888054104,
     "LIT_sM": 1782981286266,
     "SOL_sE": 1789727101689,
-    "SKY_sM": 1790578142362,
+    "SKY_sM": 1791559243117,
     "ADA_sE": 1790258223426,
     "BCH_sE": 1790644146022,
     "LTC_sE": 1787395008821,
@@ -10324,27 +10354,27 @@
     "FIL_sM": 1789520382481,
     "M_sM": 1789727114583,
     "BTC_sM": 1789996600720,
-    "WBT_sM": 1790026511231,
+    "WBT_sM": 1791559242373,
     "GRAM_sE": 1790783538486,
     "PYTH_sM": 1790685220517,
     "ALGO_sM": 1791424294772,
     "STX_sM": 1790807093204,
     "AAVE_sM": 1791542365986,
     "ZRO_sM": 1791025117665,
-    "RAY_sM": 1791380767179
+    "RAY_sM": 1791559244647
   },
-  "scanCount": 2651,
+  "scanCount": 2652,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-08T12:40:01.970Z",
+  "lastScan": "2026-10-08T17:21:22.348Z",
   "lastReport": "2026-10-08T12:40:01.970Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 64,
   "totalStats": {
-    "trades": 433,
+    "trades": 438,
     "wins": 153,
-    "losses": 280,
-    "totalPnl": 315.29768165684584,
-    "invested": 43300
+    "losses": 285,
+    "totalPnl": 268.7103741096161,
+    "invested": 43800
   },
   "byStrategy": {
     "sR": {
@@ -10353,14 +10383,14 @@
       "pnl": -57.82752690420811
     },
     "sE": {
-      "trades": 241,
+      "trades": 242,
       "wins": 80,
-      "pnl": 245.70152789080777
+      "pnl": 237.62016450433168
     },
     "sM": {
-      "trades": 66,
+      "trades": 70,
       "wins": 24,
-      "pnl": 127.42368067024621
+      "pnl": 88.91773650949261
     }
   },
   "byRegime": {
@@ -10388,14 +10418,14 @@
         "pnl": 51.22534845220693
       },
       "sE": {
-        "trades": 72,
+        "trades": 73,
         "wins": 17,
-        "pnl": -54.378470543293545
+        "pnl": -62.45983392976963
       },
       "sM": {
-        "trades": 11,
+        "trades": 15,
         "wins": 3,
-        "pnl": -4.978297055396826
+        "pnl": -43.484241216150416
       }
     },
     "BEAR": {
@@ -10450,5 +10480,5 @@
       }
     }
   },
-  "btcDominance": 58.8
+  "btcDominance": 59.2
 }
