@@ -10397,10 +10397,10 @@
     "ZRO_sM": 1791025117665,
     "RAY_sM": 1791559244647
   },
-  "scanCount": 2653,
+  "scanCount": 2654,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-08T22:12:20.854Z",
-  "lastReport": "2026-10-08T22:12:20.854Z",
+  "lastScan": "2026-10-08T22:45:51.564Z",
+  "lastReport": "2026-10-08T22:45:51.563Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 64,
   "totalStats": {
@@ -10514,5 +10514,5 @@
       }
     }
   },
-  "btcDominance": 59
+  "btcDominance": 59.1
 }
