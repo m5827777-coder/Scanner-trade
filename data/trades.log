@@ -150014,3 +150014,70 @@
 [2026-10-08 10:03:07 UTC] ✅ Данные: 58 токенов OK, 25 недоступно | Открыто: 0 | Всего: 19
 [2026-10-08 10:03:07 UTC] 
 📊 ИТОГ: WR=35.9% PnL=$361.19 Trades=426
+[2026-10-08 12:39:20 UTC] ════════════════════════════════════════════════════
+[2026-10-08 12:39:20 UTC] 🤖 Bot v6 | action=scan | report=true
+[2026-10-08 12:39:20 UTC] ════════════════════════════════════════════════════
+[2026-10-08 12:39:20 UTC] 📡 Scan #2651
+[2026-10-08 12:39:20 UTC] 📊 BTC Dom=58.8%
+[2026-10-08 12:39:20 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-10-08 12:39:20 UTC] 🌡 F&G=64 Regime=NEUTRAL Open=19
+[2026-10-08 12:39:20 UTC]   📂 HOLD BNB/sM PnL=+11.87%
+[2026-10-08 12:39:21 UTC]   📂 HOLD HYPE/sM PnL=+3.75%
+[2026-10-08 12:39:21 UTC]   📂 HOLD XMR/sM PnL=+6.99%
+[2026-10-08 12:39:21 UTC]   ❌ CLOSE XRP/sE: 📉 Death Cross EMA9<EMA21 PnL=-3.04% held=18д 23ч
+[2026-10-08 12:39:22 UTC] [TG] Bad Request: can't parse entities: Unsupported start tag "ema21" at byte offset 82
+[2026-10-08 12:39:22 UTC]   📂 HOLD AVAX/sM PnL=+11.32%
+[2026-10-08 12:39:22 UTC]   📂 HOLD XLM/sM PnL=-6.69%
+[2026-10-08 12:39:22 UTC]   📂 HOLD BTC/sM PnL=-3.23%
+[2026-10-08 12:39:23 UTC]   📂 HOLD WBT/sM PnL=-6.28%
+[2026-10-08 12:39:23 UTC]   🔒 SL-cooldown 24ч для DOGE/sE
+[2026-10-08 12:39:23 UTC]   ❌ CLOSE DOGE/sE: 🛑 SL -6% PnL=-6.43% held=14д 20ч
+[2026-10-08 12:39:24 UTC]   🔒 SL-cooldown 24ч для LINK/sE
+[2026-10-08 12:39:24 UTC]   ❌ CLOSE LINK/sE: 🛑 SL -6% PnL=-6.98% held=13д 2ч
+[2026-10-08 12:39:24 UTC]   📂 HOLD SKY/sM PnL=-2.06%
+[2026-10-08 12:39:24 UTC]   📂 HOLD FIGR_HELOC/sE PnL=-1.16%
+[2026-10-08 12:39:25 UTC]   📂 HOLD STX/sM PnL=+1.93%
+[2026-10-08 12:39:25 UTC]   🔒 SL-cooldown 24ч для ETH/sE
+[2026-10-08 12:39:25 UTC]   ❌ CLOSE ETH/sE: 🛑 SL -6% PnL=-6.45% held=5д 21ч
+[2026-10-08 12:39:25 UTC]   🔒 SL-cooldown 24ч для AAVE/sM
+[2026-10-08 12:39:25 UTC]   ❌ CLOSE AAVE/sM: 🛑 SL -7% PnL=-7.10% held=5д 21ч
+[2026-10-08 12:39:26 UTC]   📂 HOLD ZRO/sM PnL=+1.91%
+[2026-10-08 12:39:26 UTC]   🔒 SL-cooldown 24ч для ADA/sM
+[2026-10-08 12:39:26 UTC]   ❌ CLOSE ADA/sM: 🛑 SL -7% PnL=-8.39% held=3д 3ч
+[2026-10-08 12:39:27 UTC]   🔒 SL-cooldown 24ч для OKB/sM
+[2026-10-08 12:39:27 UTC]   ❌ CLOSE OKB/sM: 🛑 SL -7% PnL=-7.50% held=1д 6ч
+[2026-10-08 12:39:28 UTC]   📂 HOLD RAY/sM PnL=-4.30%
+[2026-10-08 12:39:28 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-10-08 12:39:28 UTC] ✓ CoinGecko: 83 токенов. Проверяю входы...
+[2026-10-08 12:39:31 UTC]   ⏭ FIGR_HELOC: нет данных (figure-heloc)
+[2026-10-08 12:39:32 UTC]   ⏭ XMR: нет данных (monero)
+[2026-10-08 12:39:32 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-10-08 12:39:34 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-10-08 12:39:39 UTC]   ⏭ BTW: нет данных (bitway)
+[2026-10-08 12:39:39 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-10-08 12:39:43 UTC]   ⏭ M: нет данных (memecore)
+[2026-10-08 12:39:44 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-10-08 12:39:45 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-10-08 12:39:48 UTC]   ⏭ EURSAFO: нет данных (spiko-amundi-overnight-swap-fund-eur)
+[2026-10-08 12:39:49 UTC]   ⏭ U: нет данных (united-stables)
+[2026-10-08 12:39:49 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-10-08 12:39:49 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-10-08 12:39:50 UTC]   ⏭ USDGO: нет данных (usdgo)
+[2026-10-08 12:39:51 UTC]   ⏭ JST: нет данных (just)
+[2026-10-08 12:39:52 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-10-08 12:39:52 UTC]   ⏭ VVV: нет данных (venice-token)
+[2026-10-08 12:39:52 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-10-08 12:39:53 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-10-08 12:39:54 UTC]   📈 ENTRY ATOM/sE [BULL] via OKX: EMA начало расхождения · EMA9=1.7601 > EMA21=1.7357 · RSI=59 · Vol x1.4 @ $1.819
+[2026-10-08 12:39:56 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-10-08 12:39:57 UTC]   ⏭ AERO: нет данных (aerodrome-finance)
+[2026-10-08 12:39:58 UTC]   ⏭ OUSD: нет данных (open-usd)
+[2026-10-08 12:39:59 UTC]   ⏭ CAKE: нет данных (pancakeswap-token)
+[2026-10-08 12:39:59 UTC]   ⏭ GHO: нет данных (gho)
+[2026-10-08 12:40:01 UTC]   ⏭ VET: нет данных (vechain)
+[2026-10-08 12:40:01 UTC]   ⏭ AKE: нет данных (akedo)
+[2026-10-08 12:40:01 UTC] ✅ Данные: 57 токенов OK, 26 недоступно | Открыто: 1 | Всего: 13
+[2026-10-08 12:40:03 UTC] [EMAIL] ✅ → m5827777@gmail.com
+[2026-10-08 12:40:03 UTC] 📧 6h report sent
+[2026-10-08 12:40:03 UTC] 
+📊 ИТОГ: WR=35.3% PnL=$315.30 Trades=433
