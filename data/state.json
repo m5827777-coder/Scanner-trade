@@ -52,23 +52,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ZEC_sM_1789639565559",
-      "symbol": "ZEC",
-      "name": "Zcash",
-      "coinId": "zcash",
-      "rank": 10,
-      "stratId": "sM",
-      "entryPrice": 1337.39,
-      "entryTime": 1789639565559,
-      "entryDate": "2026-09-17T10:06:05.559Z",
-      "entrySignal": "Пробой 20d max $1298.0000 на +3.0% · Объём x1.6 · RSI=75",
-      "strength": 82,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "XRP_sE_1789824456808",
       "symbol": "XRP",
       "name": "XRP",
@@ -342,6 +325,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ZEC_sM_1789639565559",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 10,
+      "stratId": "sM",
+      "entryPrice": 1337.39,
+      "entryTime": 1789639565559,
+      "entryDate": "2026-09-17T10:06:05.559Z",
+      "entrySignal": "Пробой 20d max $1298.0000 на +3.0% · Объём x1.6 · RSI=75",
+      "strength": 82,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1226.13,
+      "exitTime": 1791453746022,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -8.319188867869507,
+      "pnlUsd": -8.319188867869507,
+      "total": 91.68081113213049
+    },
     {
       "id": "FLR_sE_1790768842502",
       "symbol": "FLR",
@@ -10164,7 +10170,7 @@
     "NEAR_sM": 1789991142330,
     "RENDER_sE": 1789931960550,
     "XMR_sE": 1785969350861,
-    "ZEC_sM": 1789639565559,
+    "ZEC_sM": 1791532946022,
     "ICP_sR": 1779986502655,
     "WLD_sE": 1789712877003,
     "JUP_sE": 1787756415402,
@@ -10268,18 +10274,18 @@
     "ZRO_sM": 1791025117665,
     "RAY_sM": 1791380767179
   },
-  "scanCount": 2649,
+  "scanCount": 2650,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-08T04:05:04.938Z",
+  "lastScan": "2026-10-08T10:03:07.648Z",
   "lastReport": "2026-10-08T04:05:04.938Z",
   "marketRegime": "BULL",
   "fearGreed": 64,
   "totalStats": {
-    "trades": 425,
+    "trades": 426,
     "wins": 153,
-    "losses": 272,
-    "totalPnl": 369.5123528859277,
-    "invested": 42500
+    "losses": 273,
+    "totalPnl": 361.1931640180582,
+    "invested": 42600
   },
   "byStrategy": {
     "sR": {
@@ -10293,9 +10299,9 @@
       "pnl": 268.5984100447147
     },
     "sM": {
-      "trades": 62,
+      "trades": 63,
       "wins": 24,
-      "pnl": 158.74146974542117
+      "pnl": 150.42228087755166
     }
   },
   "byRegime": {
@@ -10311,9 +10317,9 @@
         "pnl": 104.99215423545104
       },
       "sM": {
-        "trades": 25,
+        "trades": 26,
         "wins": 7,
-        "pnl": 46.56101456626935
+        "pnl": 38.24182569839984
       }
     },
     "NEUTRAL": {
@@ -10385,5 +10391,5 @@
       }
     }
   },
-  "btcDominance": 58.7
+  "btcDominance": 59.3
 }
