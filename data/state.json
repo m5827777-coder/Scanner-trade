@@ -135,6 +135,40 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ADA_sR_1791497507091",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 17,
+      "stratId": "sR",
+      "entryPrice": 0.2347,
+      "entryTime": 1791497507091,
+      "entryDate": "2026-10-08T22:11:47.091Z",
+      "entrySignal": "Ротация #17 ADA: BTC Dom=59% · Коррекция -13.6% · RSI=49",
+      "strength": 65,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "CC_sR_1791497511267",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 25,
+      "stratId": "sR",
+      "entryPrice": 0.1183,
+      "entryTime": 1791497511267,
+      "entryDate": "2026-10-08T22:11:51.267Z",
+      "entrySignal": "Ротация #25 CC: BTC Dom=59% · Коррекция -13.9% · RSI=49",
+      "strength": 62,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -10215,14 +10249,14 @@
   ],
   "cooldowns": {
     "SOL_sR": 1780495956417,
-    "ADA_sR": 1789597226344,
+    "ADA_sR": 1791497507091,
     "HYPE_sR": 1784322736769,
     "BCH_sR": 1789577125077,
     "XLM_sR": 1788285126381,
     "UNI_sR": 1779554027073,
     "DOT_sR": 1779554029231,
     "AAVE_sR": 1780482653547,
-    "CC_sR": 1789112641085,
+    "CC_sR": 1791497511267,
     "ETC_sR": 1780495960103,
     "ENA_sR": 1780207944941,
     "ALGO_sR": 1779912519969,
@@ -10363,10 +10397,10 @@
     "ZRO_sM": 1791025117665,
     "RAY_sM": 1791559244647
   },
-  "scanCount": 2652,
+  "scanCount": 2653,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-08T17:21:22.348Z",
-  "lastReport": "2026-10-08T12:40:01.970Z",
+  "lastScan": "2026-10-08T22:12:20.854Z",
+  "lastReport": "2026-10-08T22:12:20.854Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 64,
   "totalStats": {
@@ -10480,5 +10514,5 @@
       }
     }
   },
-  "btcDominance": 59.2
+  "btcDominance": 59
 }
