@@ -10421,9 +10421,9 @@
     "RAY_sM": 1791559244647,
     "ATOM_sM": 1791536185548
   },
-  "scanCount": 2666,
+  "scanCount": 2667,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-10T11:46:09.828Z",
+  "lastScan": "2026-10-10T16:17:05.121Z",
   "lastReport": "2026-10-10T11:46:09.828Z",
   "marketRegime": "BULL",
   "fearGreed": 64,
@@ -10538,5 +10538,5 @@
       }
     }
   },
-  "btcDominance": 59.6
+  "btcDominance": 59.1
 }
