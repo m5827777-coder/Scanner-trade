@@ -169,6 +169,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "APT_sM_1791731087748",
+      "symbol": "APT",
+      "name": "Aptos",
+      "coinId": "aptos",
+      "rank": 91,
+      "stratId": "sM",
+      "entryPrice": 0.9193,
+      "entryTime": 1791731087748,
+      "entryDate": "2026-10-11T15:04:47.748Z",
+      "entrySignal": "Пробой 20d max $0.8894 на +3.4% · Объём x1.9 · RSI=66",
+      "strength": 84,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -10419,11 +10436,12 @@
     "AAVE_sM": 1791542365986,
     "ZRO_sM": 1791025117665,
     "RAY_sM": 1791559244647,
-    "ATOM_sM": 1791536185548
+    "ATOM_sM": 1791536185548,
+    "APT_sM": 1791731087748
   },
-  "scanCount": 2675,
+  "scanCount": 2676,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-11T11:58:38.666Z",
+  "lastScan": "2026-10-11T15:04:55.353Z",
   "lastReport": "2026-10-11T11:58:38.666Z",
   "marketRegime": "BULL",
   "fearGreed": 61,
