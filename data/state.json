@@ -10421,12 +10421,12 @@
     "RAY_sM": 1791559244647,
     "ATOM_sM": 1791536185548
   },
-  "scanCount": 2671,
+  "scanCount": 2672,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-10T23:29:36.823Z",
+  "lastScan": "2026-10-11T02:04:38.718Z",
   "lastReport": "2026-10-10T21:01:57.397Z",
   "marketRegime": "BULL",
-  "fearGreed": 64,
+  "fearGreed": 61,
   "totalStats": {
     "trades": 439,
     "wins": 153,
