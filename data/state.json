@@ -137,23 +137,6 @@
       "peakPnl": 0
     },
     {
-      "id": "CC_sR_1791497511267",
-      "symbol": "CC",
-      "name": "Canton",
-      "coinId": "canton-network",
-      "rank": 25,
-      "stratId": "sR",
-      "entryPrice": 0.1183,
-      "entryTime": 1791497511267,
-      "entryDate": "2026-10-08T22:11:51.267Z",
-      "entrySignal": "Ротация #25 CC: BTC Dom=59% · Коррекция -13.9% · RSI=49",
-      "strength": 62,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ATOM_sM_1791536185548",
       "symbol": "ATOM",
       "name": "Cosmos Hub",
@@ -189,6 +172,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "CC_sR_1791497511267",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 25,
+      "stratId": "sR",
+      "entryPrice": 0.1183,
+      "entryTime": 1791497511267,
+      "entryDate": "2026-10-08T22:11:51.267Z",
+      "entrySignal": "Ротация #25 CC: BTC Dom=59% · Коррекция -13.9% · RSI=49",
+      "strength": 62,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.12701,
+      "exitTime": 1791746873983,
+      "exitReason": "Возврат к 14d max $0.1295",
+      "pnl": 7.36263736263737,
+      "pnlUsd": 7.362637362637369,
+      "total": 107.36263736263737
+    },
     {
       "id": "FIGR_HELOC_sE_1790739360029",
       "symbol": "FIGR_HELOC",
@@ -10439,24 +10445,24 @@
     "ATOM_sM": 1791536185548,
     "APT_sM": 1791731087748
   },
-  "scanCount": 2677,
+  "scanCount": 2678,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-11T17:29:23.873Z",
+  "lastScan": "2026-10-11T19:28:28.781Z",
   "lastReport": "2026-10-11T17:29:23.873Z",
   "marketRegime": "BULL",
   "fearGreed": 61,
   "totalStats": {
-    "trades": 439,
-    "wins": 153,
+    "trades": 440,
+    "wins": 154,
     "losses": 286,
-    "totalPnl": 266.08373182739,
-    "invested": 43900
+    "totalPnl": 273.4463691900274,
+    "invested": 44000
   },
   "byStrategy": {
     "sR": {
-      "trades": 126,
-      "wins": 49,
-      "pnl": -57.82752690420811
+      "trades": 127,
+      "wins": 50,
+      "pnl": -50.46488954157074
     },
     "sE": {
       "trades": 243,
@@ -10472,9 +10478,9 @@
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 21,
-        "wins": 10,
-        "pnl": 50.792813170094306
+        "trades": 22,
+        "wins": 11,
+        "pnl": 58.15545053273168
       },
       "sE": {
         "trades": 60,

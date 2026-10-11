@@ -151296,3 +151296,49 @@
 [2026-10-11 17:29:26 UTC] 📧 6h report sent
 [2026-10-11 17:29:26 UTC] 
 📊 ИТОГ: WR=34.9% PnL=$266.08 Trades=439
+[2026-10-11 19:27:51 UTC] ════════════════════════════════════════════════════
+[2026-10-11 19:27:51 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-10-11 19:27:51 UTC] ════════════════════════════════════════════════════
+[2026-10-11 19:27:51 UTC] 📡 Scan #2678
+[2026-10-11 19:27:52 UTC] 📊 BTC Dom=59.6%
+[2026-10-11 19:27:52 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-10-11 19:27:52 UTC] 🌡 F&G=61 Regime=BULL Open=11
+[2026-10-11 19:27:52 UTC]   📂 HOLD BNB/sM PnL=+10.87%
+[2026-10-11 19:27:52 UTC]   📂 HOLD HYPE/sM PnL=+5.31%
+[2026-10-11 19:27:53 UTC]   📂 HOLD XMR/sM PnL=+5.57%
+[2026-10-11 19:27:53 UTC]   📂 HOLD AVAX/sM PnL=+13.76%
+[2026-10-11 19:27:53 UTC]   📂 HOLD BTC/sM PnL=-1.70%
+[2026-10-11 19:27:53 UTC]   📂 HOLD STX/sM PnL=+7.01%
+[2026-10-11 19:27:53 UTC]   📂 HOLD ZRO/sM PnL=+5.34%
+[2026-10-11 19:27:53 UTC]   📂 HOLD ADA/sR PnL=+7.93%
+[2026-10-11 19:27:53 UTC]   ✅ CLOSE CC/sR: Возврат к 14d max $0.1295 PnL=+7.36% held=2д 21ч
+[2026-10-11 19:27:55 UTC]   📂 HOLD ATOM/sM PnL=-1.18%
+[2026-10-11 19:27:55 UTC]   📂 HOLD APT/sM PnL=-0.53%
+[2026-10-11 19:27:55 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-10-11 19:27:55 UTC] ✓ CoinGecko: 83 токенов. Проверяю входы...
+[2026-10-11 19:28:00 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-10-11 19:28:02 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-10-11 19:28:05 UTC]   ⏭ BTW: нет данных (bitway)
+[2026-10-11 19:28:07 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-10-11 19:28:11 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-10-11 19:28:12 UTC]   ⏭ M: нет данных (memecore)
+[2026-10-11 19:28:13 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-10-11 19:28:16 UTC]   ⏭ EURSAFO: нет данных (spiko-amundi-overnight-swap-fund-eur)
+[2026-10-11 19:28:16 UTC]   ⏭ U: нет данных (united-stables)
+[2026-10-11 19:28:16 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-10-11 19:28:16 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-10-11 19:28:18 UTC]   ⏭ USDGO: нет данных (usdgo)
+[2026-10-11 19:28:19 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-10-11 19:28:19 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-10-11 19:28:20 UTC]   ⏭ JST: нет данных (just)
+[2026-10-11 19:28:21 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-10-11 19:28:22 UTC]   ⏭ AERO: нет данных (aerodrome-finance)
+[2026-10-11 19:28:24 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-10-11 19:28:25 UTC]   ⏭ CAKE: нет данных (pancakeswap-token)
+[2026-10-11 19:28:26 UTC]   ⏭ OUSD: нет данных (open-usd)
+[2026-10-11 19:28:28 UTC]   ⏭ XDC: нет данных (xdce-crowd-sale)
+[2026-10-11 19:28:28 UTC]   ⏭ GHO: нет данных (gho)
+[2026-10-11 19:28:28 UTC]   ⏭ VET: нет данных (vechain)
+[2026-10-11 19:28:28 UTC] ✅ Данные: 60 токенов OK, 23 недоступно | Открыто: 0 | Всего: 10
+[2026-10-11 19:28:28 UTC] 
+📊 ИТОГ: WR=35.0% PnL=$273.45 Trades=440
