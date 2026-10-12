@@ -169,6 +169,40 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "CC_sE_1791796596977",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 24,
+      "stratId": "sE",
+      "entryPrice": 0.12615,
+      "entryTime": 1791796596977,
+      "entryDate": "2026-10-12T09:16:36.977Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.1233 > EMA21=0.1210 · RSI=55 · Vol x1.3",
+      "strength": 77,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    },
+    {
+      "id": "FIL_sM_1791796615861",
+      "symbol": "FIL",
+      "name": "Filecoin",
+      "coinId": "filecoin",
+      "rank": 80,
+      "stratId": "sM",
+      "entryPrice": 1.2498,
+      "entryTime": 1791796615861,
+      "entryDate": "2026-10-12T09:16:55.861Z",
+      "entrySignal": "Пробой 20d max $1.2286 на +1.7% · Объём x1.5 · RSI=64",
+      "strength": 74,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -10311,7 +10345,7 @@
     "ARB_sR": 1780410212169,
     "AVAX_sR": 1780495959104,
     "HBAR_sR": 1778752941540,
-    "CC_sE": 1791049653512,
+    "CC_sE": 1791796596977,
     "FLR_sE": 1791459927643,
     "XRP_sE": 1789824456808,
     "HYPE_sE": 1787168197411,
@@ -10431,7 +10465,7 @@
     "PI_sE": 1789587351650,
     "ETHFI_sM": 1789353912899,
     "ETH_sM": 1789562303683,
-    "FIL_sM": 1789520382481,
+    "FIL_sM": 1791796615861,
     "M_sM": 1789727114583,
     "BTC_sM": 1789996600720,
     "WBT_sM": 1791559242373,
@@ -10445,9 +10479,9 @@
     "ATOM_sM": 1791536185548,
     "APT_sM": 1791731087748
   },
-  "scanCount": 2682,
+  "scanCount": 2683,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-12T03:54:23.183Z",
+  "lastScan": "2026-10-12T09:17:03.662Z",
   "lastReport": "2026-10-12T03:54:23.183Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
@@ -10562,5 +10596,5 @@
       }
     }
   },
-  "btcDominance": 59.7
+  "btcDominance": 59.5
 }
