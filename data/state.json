@@ -154,23 +154,6 @@
       "peakPnl": 0
     },
     {
-      "id": "APT_sM_1791731087748",
-      "symbol": "APT",
-      "name": "Aptos",
-      "coinId": "aptos",
-      "rank": 91,
-      "stratId": "sM",
-      "entryPrice": 0.9193,
-      "entryTime": 1791731087748,
-      "entryDate": "2026-10-11T15:04:47.748Z",
-      "entrySignal": "Пробой 20d max $0.8894 на +3.4% · Объём x1.9 · RSI=66",
-      "strength": 84,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "CC_sE_1791796596977",
       "symbol": "CC",
       "name": "Canton",
@@ -183,23 +166,6 @@
       "entrySignal": "EMA начало расхождения · EMA9=0.1233 > EMA21=0.1210 · RSI=55 · Vol x1.3",
       "strength": 77,
       "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "FIL_sM_1791796615861",
-      "symbol": "FIL",
-      "name": "Filecoin",
-      "coinId": "filecoin",
-      "rank": 80,
-      "stratId": "sM",
-      "entryPrice": 1.2498,
-      "entryTime": 1791796615861,
-      "entryDate": "2026-10-12T09:16:55.861Z",
-      "entrySignal": "Пробой 20d max $1.2286 на +1.7% · Объём x1.5 · RSI=64",
-      "strength": 74,
-      "regime": "BULL_TREND",
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
@@ -240,6 +206,52 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "FIL_sM_1791796615861",
+      "symbol": "FIL",
+      "name": "Filecoin",
+      "coinId": "filecoin",
+      "rank": 80,
+      "stratId": "sM",
+      "entryPrice": 1.2498,
+      "entryTime": 1791796615861,
+      "entryDate": "2026-10-12T09:16:55.861Z",
+      "entrySignal": "Пробой 20d max $1.2286 на +1.7% · Объём x1.5 · RSI=64",
+      "strength": 74,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.1391,
+      "exitTime": 1791831992922,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -8.857417186749881,
+      "pnlUsd": -8.857417186749881,
+      "total": 91.14258281325012
+    },
+    {
+      "id": "APT_sM_1791731087748",
+      "symbol": "APT",
+      "name": "Aptos",
+      "coinId": "aptos",
+      "rank": 91,
+      "stratId": "sM",
+      "entryPrice": 0.9193,
+      "entryTime": 1791731087748,
+      "entryDate": "2026-10-11T15:04:47.748Z",
+      "entrySignal": "Пробой 20d max $0.8894 на +3.4% · Объём x1.9 · RSI=66",
+      "strength": 84,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.8314,
+      "exitTime": 1791831988588,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -9.561622974001956,
+      "pnlUsd": -9.561622974001956,
+      "total": 90.43837702599805
+    },
     {
       "id": "CC_sR_1791497511267",
       "symbol": "CC",
@@ -10499,7 +10511,7 @@
     "PI_sE": 1789587351650,
     "ETHFI_sM": 1789353912899,
     "ETH_sM": 1789562303683,
-    "FIL_sM": 1791796615861,
+    "FIL_sM": 1791911192922,
     "M_sM": 1789727114583,
     "BTC_sM": 1789996600720,
     "WBT_sM": 1791559242373,
@@ -10511,20 +10523,20 @@
     "ZRO_sM": 1791025117665,
     "RAY_sM": 1791559244647,
     "ATOM_sM": 1791536185548,
-    "APT_sM": 1791731087748
+    "APT_sM": 1791911188588
   },
-  "scanCount": 2684,
+  "scanCount": 2685,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-12T14:11:50.783Z",
+  "lastScan": "2026-10-12T19:07:10.846Z",
   "lastReport": "2026-10-12T14:11:50.783Z",
   "marketRegime": "BULL",
   "fearGreed": 69,
   "totalStats": {
-    "trades": 440,
+    "trades": 442,
     "wins": 154,
-    "losses": 286,
-    "totalPnl": 273.4463691900274,
-    "invested": 44000
+    "losses": 288,
+    "totalPnl": 255.02732902927553,
+    "invested": 44200
   },
   "byStrategy": {
     "sR": {
@@ -10538,9 +10550,9 @@
       "pnl": 234.99352222210555
     },
     "sM": {
-      "trades": 70,
+      "trades": 72,
       "wins": 24,
-      "pnl": 88.91773650949261
+      "pnl": 70.49869634874078
     }
   },
   "byRegime": {
@@ -10556,9 +10568,9 @@
         "pnl": 102.36551195322491
       },
       "sM": {
-        "trades": 26,
+        "trades": 28,
         "wins": 7,
-        "pnl": 38.24182569839984
+        "pnl": 19.822785537648006
       }
     },
     "NEUTRAL": {
@@ -10630,5 +10642,5 @@
       }
     }
   },
-  "btcDominance": 59
+  "btcDominance": 59.1
 }
