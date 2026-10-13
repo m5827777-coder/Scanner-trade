@@ -137,23 +137,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ATOM_sM_1791536185548",
-      "symbol": "ATOM",
-      "name": "Cosmos Hub",
-      "coinId": "cosmos",
-      "rank": 79,
-      "stratId": "sM",
-      "entryPrice": 1.954,
-      "entryTime": 1791536185548,
-      "entryDate": "2026-10-09T08:56:25.548Z",
-      "entrySignal": "Пробой 20d max $1.9260 на +1.5% · Объём x2.4 · RSI=66",
-      "strength": 87,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "CC_sE_1791796596977",
       "symbol": "CC",
       "name": "Canton",
@@ -189,6 +172,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ATOM_sM_1791536185548",
+      "symbol": "ATOM",
+      "name": "Cosmos Hub",
+      "coinId": "cosmos",
+      "rank": 79,
+      "stratId": "sM",
+      "entryPrice": 1.954,
+      "entryTime": 1791536185548,
+      "entryDate": "2026-10-09T08:56:25.548Z",
+      "entrySignal": "Пробой 20d max $1.9260 на +1.5% · Объём x2.4 · RSI=66",
+      "strength": 87,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.804,
+      "exitTime": 1791854198846,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.676560900716474,
+      "pnlUsd": -7.676560900716474,
+      "total": 92.32343909928352
+    },
     {
       "id": "ZEC_sR_1791814275091",
       "symbol": "ZEC",
@@ -10528,21 +10534,21 @@
     "AAVE_sM": 1791542365986,
     "ZRO_sM": 1791025117665,
     "RAY_sM": 1791559244647,
-    "ATOM_sM": 1791536185548,
+    "ATOM_sM": 1791933398847,
     "APT_sM": 1791911188588
   },
-  "scanCount": 2686,
+  "scanCount": 2687,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-13T00:03:18.646Z",
+  "lastScan": "2026-10-13T01:17:16.459Z",
   "lastReport": "2026-10-13T00:03:18.646Z",
   "marketRegime": "BULL",
   "fearGreed": 57,
   "totalStats": {
-    "trades": 443,
+    "trades": 444,
     "wins": 154,
-    "losses": 289,
-    "totalPnl": 245.05320674740153,
-    "invested": 44300
+    "losses": 290,
+    "totalPnl": 237.37664584668505,
+    "invested": 44400
   },
   "byStrategy": {
     "sR": {
@@ -10556,9 +10562,9 @@
       "pnl": 234.99352222210555
     },
     "sM": {
-      "trades": 72,
+      "trades": 73,
       "wins": 24,
-      "pnl": 70.49869634874078
+      "pnl": 62.822135448024305
     }
   },
   "byRegime": {
@@ -10574,9 +10580,9 @@
         "pnl": 102.36551195322491
       },
       "sM": {
-        "trades": 28,
+        "trades": 29,
         "wins": 7,
-        "pnl": 19.822785537648006
+        "pnl": 12.146224636931532
       }
     },
     "NEUTRAL": {
@@ -10648,5 +10654,5 @@
       }
     }
   },
-  "btcDominance": 59.3
+  "btcDominance": 59.4
 }
