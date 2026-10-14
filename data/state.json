@@ -135,7 +135,9 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "LINK_sR_1791814277298",
       "symbol": "LINK",
@@ -151,10 +153,14 @@
       "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 12.451,
+      "exitTime": 1791994861675,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.688532040599905,
+      "pnlUsd": -5.688532040599905,
+      "total": 94.31146795940009
+    },
     {
       "id": "CC_sE_1791796596977",
       "symbol": "CC",
@@ -10413,7 +10419,7 @@
     "FLR_sE": 1791459927643,
     "XRP_sE": 1789824456808,
     "HYPE_sE": 1787168197411,
-    "LINK_sR": 1791814277298,
+    "LINK_sR": 1792074061675,
     "NEAR_sR": 1778862201360,
     "ATOM_sR": 1780410209384,
     "FIGR_HELOC_sE": 1790739360029,
@@ -10543,24 +10549,24 @@
     "ATOM_sM": 1791933398847,
     "APT_sM": 1791911188588
   },
-  "scanCount": 2698,
+  "scanCount": 2699,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-14T13:19:13.291Z",
-  "lastReport": "2026-10-14T11:01:27.231Z",
+  "lastScan": "2026-10-14T16:21:36.193Z",
+  "lastReport": "2026-10-14T16:21:36.193Z",
   "marketRegime": "BULL",
   "fearGreed": 62,
   "totalStats": {
-    "trades": 445,
+    "trades": 446,
     "wins": 154,
-    "losses": 291,
-    "totalPnl": 230.42460462591612,
-    "invested": 44500
+    "losses": 292,
+    "totalPnl": 224.7360725853162,
+    "invested": 44600
   },
   "byStrategy": {
     "sR": {
-      "trades": 128,
+      "trades": 129,
       "wins": 50,
-      "pnl": -60.439011823444744
+      "pnl": -66.12754386404465
     },
     "sE": {
       "trades": 244,
@@ -10576,9 +10582,9 @@
   "byRegime": {
     "BULL": {
       "sR": {
-        "trades": 23,
+        "trades": 24,
         "wins": 11,
-        "pnl": 48.181328250857675
+        "pnl": 42.49279621025777
       },
       "sE": {
         "trades": 61,
