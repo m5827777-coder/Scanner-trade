@@ -137,23 +137,6 @@
       "peakPnl": 0
     },
     {
-      "id": "CC_sE_1791796596977",
-      "symbol": "CC",
-      "name": "Canton",
-      "coinId": "canton-network",
-      "rank": 24,
-      "stratId": "sE",
-      "entryPrice": 0.12615,
-      "entryTime": 1791796596977,
-      "entryDate": "2026-10-12T09:16:36.977Z",
-      "entrySignal": "EMA начало расхождения · EMA9=0.1233 > EMA21=0.1210 · RSI=55 · Vol x1.3",
-      "strength": 77,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "LINK_sR_1791814277298",
       "symbol": "LINK",
       "name": "Chainlink",
@@ -172,6 +155,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "CC_sE_1791796596977",
+      "symbol": "CC",
+      "name": "Canton",
+      "coinId": "canton-network",
+      "rank": 24,
+      "stratId": "sE",
+      "entryPrice": 0.12615,
+      "entryTime": 1791796596977,
+      "entryDate": "2026-10-12T09:16:36.977Z",
+      "entrySignal": "EMA начало расхождения · EMA9=0.1233 > EMA21=0.1210 · RSI=55 · Vol x1.3",
+      "strength": 77,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.11738,
+      "exitTime": 1791983914959,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.952041220768936,
+      "pnlUsd": -6.952041220768936,
+      "total": 93.04795877923107
+    },
     {
       "id": "ATOM_sM_1791536185548",
       "symbol": "ATOM",
@@ -10403,7 +10409,7 @@
     "ARB_sR": 1780410212169,
     "AVAX_sR": 1780495959104,
     "HBAR_sR": 1778752941540,
-    "CC_sE": 1791796596977,
+    "CC_sE": 1792063114959,
     "FLR_sE": 1791459927643,
     "XRP_sE": 1789824456808,
     "HYPE_sE": 1787168197411,
@@ -10537,18 +10543,18 @@
     "ATOM_sM": 1791933398847,
     "APT_sM": 1791911188588
   },
-  "scanCount": 2697,
+  "scanCount": 2698,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-14T11:01:27.231Z",
+  "lastScan": "2026-10-14T13:19:13.291Z",
   "lastReport": "2026-10-14T11:01:27.231Z",
   "marketRegime": "BULL",
   "fearGreed": 62,
   "totalStats": {
-    "trades": 444,
+    "trades": 445,
     "wins": 154,
-    "losses": 290,
-    "totalPnl": 237.37664584668505,
-    "invested": 44400
+    "losses": 291,
+    "totalPnl": 230.42460462591612,
+    "invested": 44500
   },
   "byStrategy": {
     "sR": {
@@ -10557,9 +10563,9 @@
       "pnl": -60.439011823444744
     },
     "sE": {
-      "trades": 243,
+      "trades": 244,
       "wins": 80,
-      "pnl": 234.99352222210555
+      "pnl": 228.04148100133662
     },
     "sM": {
       "trades": 73,
@@ -10575,9 +10581,9 @@
         "pnl": 48.181328250857675
       },
       "sE": {
-        "trades": 60,
+        "trades": 61,
         "wins": 20,
-        "pnl": 102.36551195322491
+        "pnl": 95.41347073245598
       },
       "sM": {
         "trades": 29,
@@ -10654,5 +10660,5 @@
       }
     }
   },
-  "btcDominance": 59.8
+  "btcDominance": 59.3
 }
