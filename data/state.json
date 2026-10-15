@@ -10566,12 +10566,12 @@
     "ATOM_sM": 1791933398847,
     "APT_sM": 1791911188588
   },
-  "scanCount": 2702,
+  "scanCount": 2703,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-14T21:34:07.157Z",
+  "lastScan": "2026-10-15T00:03:12.632Z",
   "lastReport": "2026-10-14T21:13:22.265Z",
   "marketRegime": "BULL",
-  "fearGreed": 62,
+  "fearGreed": 53,
   "totalStats": {
     "trades": 446,
     "wins": 154,
