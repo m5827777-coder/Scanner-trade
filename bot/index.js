@@ -95,8 +95,21 @@ async function tg(text, chatId){
 
 // Файл для хранения последнего обработанного update_id
 const TG_OFFSET_FILE=path.join(ROOT,'data','tg_offset.json');
-function loadTgOffset(){try{if(fs.existsSync(TG_OFFSET_FILE))return JSON.parse(fs.readFileSync(TG_OFFSET_FILE,'utf8')).offset||0;}catch{}return 0;}
-function saveTgOffset(offset){try{fs.writeFileSync(TG_OFFSET_FILE,JSON.stringify({offset}));}catch{}}
+function loadTgOffset(){
+  try{
+    if(fs.existsSync(TG_OFFSET_FILE)){
+      const v=JSON.parse(fs.readFileSync(TG_OFFSET_FILE,'utf8')).offset;
+      if(v&&v>0)return v;
+    }
+  }catch{}
+  return 0; // 0 = Telegram вернёт все непрочитанные апдейты
+}
+function saveTgOffset(offset){
+  try{
+    fs.mkdirSync(path.dirname(TG_OFFSET_FILE),{recursive:true});
+    fs.writeFileSync(TG_OFFSET_FILE,JSON.stringify({offset,updatedAt:new Date().toISOString()}));
+  }catch(e){log('[OFFSET SAVE ERR] '+e.message);}
+}
 
 // Получить текущую цену позиции (быстро, только последняя свеча)
 async function getCurrentPrice(sym, coinId){
@@ -165,55 +178,90 @@ async function buildPositionsMsg(state){
   return lines.join('\n');
 }
 
+// Нормализовать команду: убрать @BotName суффикс, привести к нижнему регистру
+function parseCmd(text){
+  return(text||'').trim().toLowerCase().replace(/@\S+$/,'').trim();
+}
+
 // Опросить Telegram на наличие команд и обработать их
 async function pollTgCommands(state){
-  if(!CFG.tgToken)return;
+  if(!CFG.tgToken){log('[TG POLL] Нет TG_TOKEN, пропуск');return;}
   try{
     const offset=loadTgOffset();
-    const r=await fetch(`https://api.telegram.org/bot${CFG.tgToken}/getUpdates?offset=${offset+1}&limit=20&timeout=0`,{signal:AbortSignal.timeout(8000)});
-    if(!r.ok)return;
+    // offset=0 → вернёт все непрочитанные; offset>0 → только новее этого id
+    const url=`https://api.telegram.org/bot${CFG.tgToken}/getUpdates?limit=20&timeout=0`+(offset>0?`&offset=${offset+1}`:'');
+    log(`[TG POLL] getUpdates offset=${offset}`);
+    const r=await fetch(url,{signal:AbortSignal.timeout(10000)});
+    if(!r.ok){log(`[TG POLL] HTTP ${r.status}`);return;}
     const d=await r.json();
-    if(!d.ok||!d.result?.length)return;
+    if(!d.ok){log('[TG POLL] not ok: '+JSON.stringify(d));return;}
+    if(!d.result?.length){log('[TG POLL] нет новых апдейтов');return;}
 
+    log(`[TG POLL] получено апдейтов: ${d.result.length}`);
     let maxOffset=offset;
     for(const upd of d.result){
       if(upd.update_id>maxOffset)maxOffset=upd.update_id;
       const msg=upd.message||upd.channel_post;
-      if(!msg)continue;
-      const text=(msg.text||'').trim().toLowerCase();
+      if(!msg?.text)continue;
+
+      const cmd=parseCmd(msg.text);
       const chatId=String(msg.chat?.id);
+      const fromId=String(msg.from?.id||'');
 
-      // Проверка авторизации — отвечаем только в разрешённый чат или от владельца
-      const allowed=!CFG.tgChat||chatId===String(CFG.tgChat);
-      if(!allowed)continue;
+      // Авторизация: принимаем если:
+      // 1. TG_CHAT_ID не задан (режим отладки)
+      // 2. chatId совпадает с настроенным (личный чат или группа)
+      // 3. fromId совпадает с настроенным (владелец написал из любого чата)
+      // Нормализуем: убираем пробелы, сравниваем как числа чтобы избежать -100 vs -100
+      const cfgChat=String(CFG.tgChat||'').trim();
+      const chatIdStr=chatId.trim();
+      const fromIdStr=fromId.trim();
+      // Числовое сравнение для надёжности (убирает разницу форматов строк)
+      const cfgNum=cfgChat?Number(cfgChat):null;
+      const chatNum=Number(chatIdStr);
+      const fromNum=Number(fromIdStr);
+      const allowed=!cfgChat||(cfgNum&&(chatNum===cfgNum||fromNum===cfgNum));
+      log(`[TG CMD] от chatId=${chatIdStr}(${chatNum}) fromId=${fromIdStr}(${fromNum}) cfg=${cfgChat}(${cfgNum}) cmd="${cmd}" allowed=${allowed}`);
+      if(!allowed){log(`[TG CMD] ⛔ не авторизован`);continue;}
 
-      log(`[TG CMD] от ${chatId}: "${text}"`);
-
-      if(text==='/positions'||text==='/trades'||text==='/p'||text==='позиции'){
+      if(cmd==='/positions'||cmd==='/trades'||cmd==='/p'||cmd==='позиции'){
+        log('[TG CMD] → buildPositionsMsg');
         await tg('⏳ Запрашиваю актуальные цены...',chatId);
-        const posMsg=await buildPositionsMsg(state);
-        await tg(posMsg,chatId);
-      } else if(text==='/status'||text==='/stat'){
+        try{
+          const posMsg=await buildPositionsMsg(state);
+          await tg(posMsg,chatId);
+        }catch(e){
+          log('[TG CMD POSITIONS ERR] '+e.message);
+          await tg('❌ Ошибка при получении позиций: '+e.message,chatId);
+        }
+      } else if(cmd==='/status'||cmd==='/stat'||cmd==='/s'){
         const ts=state.totalStats;const wr=ts.trades?(ts.wins/ts.trades*100).toFixed(1):'0';
         await tg([
           `📊 <b>Статус бота</b>`,
-          `Сканов: ${state.scanCount} · Режим: ${state.marketRegime} · F&G: ${state.fearGreed}`,
+          `Сканов: ${state.scanCount} · Режим: ${state.marketRegime} · F&amp;G: ${state.fearGreed}`,
           `Открытых: <b>${state.openPositions.length}</b> · Закрытых: ${state.closedTrades.length}`,
           `WR: ${wr}% · PnL: ${ts.totalPnl>=0?'+':''}$${ts.totalPnl.toFixed(2)}`,
           `<i>${new Date(state.lastScan||Date.now()).toLocaleString('ru-RU',{timeZone:'UTC',hour12:false})} UTC</i>`
         ].join('\n'),chatId);
-      } else if(text==='/help'||text==='помощь'){
+      } else if(cmd==='/help'||cmd==='помощь'||cmd==='/start'){
         await tg([
           `🤖 <b>Команды бота</b>`,``,
-          `/positions — все открытые сделки с P&L`,
-          `/p — то же самое (короткая форма)`,
-          `/status — общая статистика`,
+          `/positions — все открытые сделки с P&amp;L`,
+          `/p — короткая форма /positions`,
+          `/status — общая статистика бота`,
           `/help — эта справка`,
+          ``,
+          `<i>Бот проверяет команды каждые 5 минут при скане</i>`
         ].join('\n'),chatId);
+      } else {
+        log(`[TG CMD] неизвестная команда: "${cmd}"`);
       }
     }
-    if(maxOffset>offset)saveTgOffset(maxOffset);
-  }catch(e){log('[TG POLL ERR] '+e.message);}
+    if(maxOffset>offset){
+      saveTgOffset(maxOffset);
+      log(`[TG POLL] offset сохранён: ${maxOffset}`);
+    }
+  }catch(e){log('[TG POLL ERR] '+e.message+'\n'+e.stack);}
 }
 
 const msgEntry=(tok,sid,entry,regime,src)=>{
