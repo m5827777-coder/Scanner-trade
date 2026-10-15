@@ -152727,3 +152727,27 @@
 [2026-10-15 13:32:43 UTC] ⚠ CoinGecko недоступен
 [2026-10-15 13:32:43 UTC] 
 📊 ИТОГ: WR=34.4% PnL=$211.42 Trades=448
+[2026-10-15 13:35:16 UTC] ════════════════════════════════════════════════════
+[2026-10-15 13:35:16 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-10-15 13:35:16 UTC] ════════════════════════════════════════════════════
+[2026-10-15 13:35:16 UTC] 📡 Scan #2709
+[2026-10-15 13:35:16 UTC] [TG POLL] getUpdates offset=933266560
+[2026-10-15 13:35:17 UTC] [TG POLL] получено апдейтов: 1
+[2026-10-15 13:35:17 UTC] [TG CMD] от chatId=73400175(73400175) fromId=73400175(73400175) cfg=73400175(73400175) cmd="/p" allowed=OPEN
+[2026-10-15 13:35:17 UTC] [TG CMD] → buildPositionsMsg
+[2026-10-15 13:35:20 UTC] [TG POLL] offset сохранён: 933266561
+[2026-10-15 13:35:24 UTC] 📊 BTC Dom=59.4%
+[2026-10-15 13:35:24 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-10-15 13:35:25 UTC] 🌡 F&G=53 Regime=NEUTRAL Open=7
+[2026-10-15 13:35:25 UTC]   📂 HOLD BNB/sM PnL=+5.58%
+[2026-10-15 13:35:25 UTC]   📂 HOLD HYPE/sM PnL=-5.09%
+[2026-10-15 13:35:25 UTC]   📂 HOLD XMR/sM PnL=+3.86%
+[2026-10-15 13:35:25 UTC]   📂 HOLD AVAX/sM PnL=-0.27%
+[2026-10-15 13:35:26 UTC]   📂 HOLD BTC/sM PnL=-5.63%
+[2026-10-15 13:35:26 UTC]   📂 HOLD STX/sM PnL=+4.87%
+[2026-10-15 13:35:26 UTC]   📂 HOLD FIGR_HELOC/sE PnL=+0.20%
+[2026-10-15 13:35:26 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-10-15 13:35:26 UTC] [CG ERR] CG 429
+[2026-10-15 13:35:26 UTC] ⚠ CoinGecko недоступен
+[2026-10-15 13:35:26 UTC] 
+📊 ИТОГ: WR=34.4% PnL=$211.42 Trades=448
