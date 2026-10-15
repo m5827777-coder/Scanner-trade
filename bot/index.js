@@ -242,12 +242,62 @@ async function pollTgCommands(state){
           `WR: ${wr}% · PnL: ${ts.totalPnl>=0?'+':''}$${ts.totalPnl.toFixed(2)}`,
           `<i>${new Date(state.lastScan||Date.now()).toLocaleString('ru-RU',{timeZone:'UTC',hour12:false})} UTC</i>`
         ].join('\n'),chatId);
+      } else if(cmd.startsWith('/close ')||cmd.startsWith('/закрыть ')){
+        // /close BTC  или  /close all
+        const arg=cmd.split(/\s+/)[1]?.toUpperCase();
+        if(!arg){await tg('❌ Укажи символ: /close BTC или /close ALL',chatId);}
+        else if(arg==='ALL'){
+          if(!state.openPositions.length){await tg('📂 Нет открытых позиций',chatId);}
+          else{
+            await tg(`⏳ Закрываю все ${state.openPositions.length} позиций...`,chatId);
+            let closed=0;
+            for(const pos of [...state.openPositions]){
+              const{price:curPrice}=await getCurrentPrice(pos.symbol,pos.coinId);
+              const price=curPrice||pos.entryPrice;
+              const pP=(price-pos.entryPrice)/pos.entryPrice*100;
+              const pU=CFG.positionSize*pP/100;
+              const held=Date.now()-pos.entryTime;
+              const c={...pos,exitPrice:price,exitTime:Date.now(),exitReason:'🙋 Ручное закрытие',pnl:pP,pnlUsd:pU,total:CFG.positionSize+pU,regime:state.marketRegime};
+              state.closedTrades.unshift(c);updStats(state,c);
+              state.openPositions=state.openPositions.filter(p=>p.symbol!==pos.symbol);
+              await tg(msgExit(pos,price,'🙋 Ручное закрытие',pP,pU,held),chatId);
+              closed++;await new Promise(r=>setTimeout(r,300));
+            }
+            saveState(state);
+            fs.mkdirSync(path.dirname(DASH_FILE),{recursive:true});
+            fs.writeFileSync(DASH_FILE,buildDash(state));
+            log(`[TG CMD] закрыто вручную: ${closed} позиций`);
+          }
+        } else {
+          const pos=state.openPositions.find(p=>p.symbol.toUpperCase()===arg||p.symbol.toUpperCase()===arg+'USDT');
+          if(!pos){
+            const list=state.openPositions.map(p=>p.symbol).join(', ')||'пусто';
+            await tg(`❌ Позиция <b>${arg}</b> не найдена.\nОткрытые: ${list}`,chatId);
+          } else {
+            await tg(`⏳ Закрываю <b>${pos.symbol}</b>...`,chatId);
+            const{price:curPrice,src}=await getCurrentPrice(pos.symbol,pos.coinId);
+            const price=curPrice||pos.entryPrice;
+            const pP=(price-pos.entryPrice)/pos.entryPrice*100;
+            const pU=CFG.positionSize*pP/100;
+            const held=Date.now()-pos.entryTime;
+            const c={...pos,exitPrice:price,exitTime:Date.now(),exitReason:'🙋 Ручное закрытие',pnl:pP,pnlUsd:pU,total:CFG.positionSize+pU,regime:state.marketRegime};
+            state.closedTrades.unshift(c);updStats(state,c);
+            state.openPositions=state.openPositions.filter(p=>p.symbol!==pos.symbol);
+            saveState(state);
+            fs.mkdirSync(path.dirname(DASH_FILE),{recursive:true});
+            fs.writeFileSync(DASH_FILE,buildDash(state));
+            await tg(msgExit(pos,price,'🙋 Ручное закрытие',pP,pU,held),chatId);
+            log(`[TG CMD] закрыто вручную: ${pos.symbol} @ ${price} (${src}) pnl=${pP.toFixed(2)}%`);
+          }
+        }
       } else if(cmd==='/help'||cmd==='помощь'||cmd==='/start'){
         await tg([
           `🤖 <b>Команды бота</b>`,``,
           `/positions — все открытые сделки с P&amp;L`,
           `/p — короткая форма /positions`,
           `/status — общая статистика бота`,
+          `/close BTC — закрыть позицию по символу`,
+          `/close ALL — закрыть все позиции`,
           `/help — эта справка`,
           ``,
           `<i>Бот проверяет команды каждые 5 минут при скане</i>`
