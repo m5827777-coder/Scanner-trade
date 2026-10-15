@@ -81,15 +81,139 @@ function updStats(st,t){
 }
 
 // ── TELEGRAM ──────────────────────────────────────────────
-async function tg(text){
-  if(!CFG.tgToken||!CFG.tgChat)return;
+async function tg(text, chatId){
+  if(!CFG.tgToken||(!CFG.tgChat&&!chatId))return;
+  const cid=chatId||CFG.tgChat;
   try{
     const r=await fetch(`https://api.telegram.org/bot${CFG.tgToken}/sendMessage`,{
       method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({chat_id:CFG.tgChat,text,parse_mode:'HTML'})
+      body:JSON.stringify({chat_id:cid,text,parse_mode:'HTML'})
     });
     const d=await r.json();if(!d.ok)log('[TG] '+d.description);
   }catch(e){log('[TG ERR] '+e.message);}
+}
+
+// Файл для хранения последнего обработанного update_id
+const TG_OFFSET_FILE=path.join(ROOT,'data','tg_offset.json');
+function loadTgOffset(){try{if(fs.existsSync(TG_OFFSET_FILE))return JSON.parse(fs.readFileSync(TG_OFFSET_FILE,'utf8')).offset||0;}catch{}return 0;}
+function saveTgOffset(offset){try{fs.writeFileSync(TG_OFFSET_FILE,JSON.stringify({offset}));}catch{}}
+
+// Получить текущую цену позиции (быстро, только последняя свеча)
+async function getCurrentPrice(sym, coinId){
+  try{
+    const r=await fetch(`https://api.bybit.com/v5/market/tickers?category=spot&symbol=${sym}USDT`,{signal:AbortSignal.timeout(5000)});
+    if(r.ok){const d=await r.json();const p=parseFloat(d?.result?.list?.[0]?.lastPrice);if(p>0)return{price:p,src:'Bybit'};}
+  }catch{}
+  try{
+    const r=await fetch(`https://www.okx.com/api/v5/market/ticker?instId=${sym}-USDT`,{signal:AbortSignal.timeout(5000)});
+    if(r.ok){const d=await r.json();const p=parseFloat(d?.data?.[0]?.last);if(p>0)return{price:p,src:'OKX'};}
+  }catch{}
+  if(coinId){
+    try{
+      const r=await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${coinId}&vs_currencies=usd`,{signal:AbortSignal.timeout(8000)});
+      if(r.ok){const d=await r.json();const p=d?.[coinId]?.usd;if(p>0)return{price:p,src:'CoinGecko'};}
+    }catch{}
+  }
+  return{price:null,src:null};
+}
+
+// Сформировать сообщение с открытыми позициями (с актуальными ценами)
+async function buildPositionsMsg(state){
+  const positions=state.openPositions;
+  if(!positions||!positions.length)return'📂 <b>Нет открытых позиций</b>';
+
+  const lines=[`📂 <b>ОТКРЫТЫЕ ПОЗИЦИИ (${positions.length})</b>`,``];
+  let totalPnlUsd=0;
+
+  for(const pos of positions){
+    const {price,src}=await getCurrentPrice(pos.symbol,pos.coinId);
+    const now=Date.now();
+    const held=durFmt(now-pos.entryTime);
+    const entryDt=new Date(pos.entryTime).toLocaleString('ru-RU',{timeZone:'UTC',hour12:false,day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
+    const s=STRATEGIES[pos.stratId];
+
+    if(price){
+      const pnlPct=(price-pos.entryPrice)/pos.entryPrice*100;
+      const pnlUsd=pos.size*pnlPct/100;
+      totalPnlUsd+=pnlUsd;
+      const sign=pnlPct>=0?'📈':'📉';
+      const col=pnlPct>=0?'🟢':'🔴';
+      lines.push(
+        `${sign} <b>${pos.symbol}</b> · ${s?.name||pos.stratId}`,
+        `  🕐 Открыта: ${entryDt} UTC (${held})`,
+        `  💵 Вход: $${fp(pos.entryPrice)} → Сейчас: $${fp(price)} <i>[${src}]</i>`,
+        `  ${col} PnL: <b>${pnlPct>=0?'+':''}${pnlPct.toFixed(2)}% / ${pnlUsd>=0?'+':''}$${pnlUsd.toFixed(2)}</b>`,
+        `  📊 Режим: ${pos.regime||'—'} · TP:+${s?.tp||'?'}% SL:${s?.sl||'?'}%`,
+        ``
+      );
+    }else{
+      const pnlPct=pos.peakPnl||0;
+      lines.push(
+        `⏳ <b>${pos.symbol}</b> · ${s?.name||pos.stratId}`,
+        `  🕐 Открыта: ${entryDt} UTC (${held})`,
+        `  💵 Вход: $${fp(pos.entryPrice)} · Цена: <i>недоступна</i>`,
+        `  📊 Режим: ${pos.regime||'—'}`,
+        ``
+      );
+    }
+    await new Promise(r=>setTimeout(r,200));
+  }
+
+  const sign=totalPnlUsd>=0?'🟢':'🔴';
+  lines.push(`${sign} <b>Суммарный PnL: ${totalPnlUsd>=0?'+':''}$${totalPnlUsd.toFixed(2)}</b>`);
+  lines.push(`\n<i>Обновлено: ${new Date().toLocaleString('ru-RU',{timeZone:'UTC',hour12:false})} UTC</i>`);
+  return lines.join('\n');
+}
+
+// Опросить Telegram на наличие команд и обработать их
+async function pollTgCommands(state){
+  if(!CFG.tgToken)return;
+  try{
+    const offset=loadTgOffset();
+    const r=await fetch(`https://api.telegram.org/bot${CFG.tgToken}/getUpdates?offset=${offset+1}&limit=20&timeout=0`,{signal:AbortSignal.timeout(8000)});
+    if(!r.ok)return;
+    const d=await r.json();
+    if(!d.ok||!d.result?.length)return;
+
+    let maxOffset=offset;
+    for(const upd of d.result){
+      if(upd.update_id>maxOffset)maxOffset=upd.update_id;
+      const msg=upd.message||upd.channel_post;
+      if(!msg)continue;
+      const text=(msg.text||'').trim().toLowerCase();
+      const chatId=String(msg.chat?.id);
+
+      // Проверка авторизации — отвечаем только в разрешённый чат или от владельца
+      const allowed=!CFG.tgChat||chatId===String(CFG.tgChat);
+      if(!allowed)continue;
+
+      log(`[TG CMD] от ${chatId}: "${text}"`);
+
+      if(text==='/positions'||text==='/trades'||text==='/p'||text==='позиции'){
+        await tg('⏳ Запрашиваю актуальные цены...',chatId);
+        const posMsg=await buildPositionsMsg(state);
+        await tg(posMsg,chatId);
+      } else if(text==='/status'||text==='/stat'){
+        const ts=state.totalStats;const wr=ts.trades?(ts.wins/ts.trades*100).toFixed(1):'0';
+        await tg([
+          `📊 <b>Статус бота</b>`,
+          `Сканов: ${state.scanCount} · Режим: ${state.marketRegime} · F&G: ${state.fearGreed}`,
+          `Открытых: <b>${state.openPositions.length}</b> · Закрытых: ${state.closedTrades.length}`,
+          `WR: ${wr}% · PnL: ${ts.totalPnl>=0?'+':''}$${ts.totalPnl.toFixed(2)}`,
+          `<i>${new Date(state.lastScan||Date.now()).toLocaleString('ru-RU',{timeZone:'UTC',hour12:false})} UTC</i>`
+        ].join('\n'),chatId);
+      } else if(text==='/help'||text==='помощь'){
+        await tg([
+          `🤖 <b>Команды бота</b>`,``,
+          `/positions — все открытые сделки с P&L`,
+          `/p — то же самое (короткая форма)`,
+          `/status — общая статистика`,
+          `/help — эта справка`,
+        ].join('\n'),chatId);
+      }
+    }
+    if(maxOffset>offset)saveTgOffset(maxOffset);
+  }catch(e){log('[TG POLL ERR] '+e.message);}
 }
 
 const msgEntry=(tok,sid,entry,regime,src)=>{
@@ -312,6 +436,14 @@ async function main(){
   const state=loadState();
   if(!state.startedAt)state.startedAt=new Date().toISOString();
 
+  if(CFG.action==='positions'){
+    // Ручная отправка открытых позиций в TG (можно триггерить из GitHub Actions вручную)
+    const posMsg=await buildPositionsMsg(state);
+    log('📤 Отправляю позиции в Telegram...');
+    await tg(posMsg);
+    return;
+  }
+
   if(CFG.action==='reset_state'){
     const f=emptyState();fs.writeFileSync(STATE_FILE,JSON.stringify(f,null,2));
     log('✅ Reset');fs.mkdirSync(path.dirname(DASH_FILE),{recursive:true});fs.writeFileSync(DASH_FILE,buildDash(f));return;
@@ -343,6 +475,9 @@ async function main(){
   if(state.scanCount===1){
     await tg(`🤖 <b>Trading Bot v6 запущен!</b>\n\n📊 Данные: Bybit + OKX + CoinGecko\n💰 $${CFG.positionSize}/сделка · 3 стратегии\nRSI≤${CFG.params.rsiThr} · EMA тренд · BB<${CFG.params.bbWidth}%\n\n<i>${utc()}</i>`);
   }
+
+  // Проверяем входящие команды Telegram (/positions, /status, /help)
+  await pollTgCommands(state);
 
   const fg=await fetchFG();state.fearGreed=fg;
   const btcDom=await fetchBTCDom();state.btcDominance=btcDom;
