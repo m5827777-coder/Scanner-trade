@@ -144,6 +144,7 @@ async function buildPositionsMsg(state){
     const held=durFmt(now-pos.entryTime);
     const entryDt=new Date(pos.entryTime).toLocaleString('ru-RU',{timeZone:'UTC',hour12:false,day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
     const s=STRATEGIES[pos.stratId];
+    const sp=s?.getParams?.({})||{};
 
     if(price){
       const pnlPct=(price-pos.entryPrice)/pos.entryPrice*100;
@@ -156,16 +157,15 @@ async function buildPositionsMsg(state){
         `  🕐 Открыта: ${entryDt} UTC (${held})`,
         `  💵 Вход: $${fp(pos.entryPrice)} → Сейчас: $${fp(price)} <i>[${src}]</i>`,
         `  ${col} PnL: <b>${pnlPct>=0?'+':''}${pnlPct.toFixed(2)}% / ${pnlUsd>=0?'+':''}$${pnlUsd.toFixed(2)}</b>`,
-        `  📊 Режим: ${pos.regime||'—'} · TP:+${s?.tp||'?'}% SL:${s?.sl||'?'}%`,
+        `  🎯 TP:+${sp.tp??'?'}% · SL:${sp.sl??'?'}% · Режим: ${pos.regime||'—'}`,
         ``
       );
     }else{
-      const pnlPct=pos.peakPnl||0;
       lines.push(
         `⏳ <b>${pos.symbol}</b> · ${s?.name||pos.stratId}`,
         `  🕐 Открыта: ${entryDt} UTC (${held})`,
         `  💵 Вход: $${fp(pos.entryPrice)} · Цена: <i>недоступна</i>`,
-        `  📊 Режим: ${pos.regime||'—'}`,
+        `  🎯 TP:+${sp.tp??'?'}% · SL:${sp.sl??'?'}% · Режим: ${pos.regime||'—'}`,
         ``
       );
     }
