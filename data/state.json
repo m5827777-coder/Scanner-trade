@@ -10578,11 +10578,11 @@
     "ATOM_sM": 1791933398847,
     "APT_sM": 1791911188588
   },
-  "scanCount": 2705,
+  "scanCount": 2706,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-15T04:23:57.855Z",
-  "lastReport": "2026-10-15T02:50:19.708Z",
-  "marketRegime": "NEUTRAL",
+  "lastScan": "2026-10-15T09:14:43.777Z",
+  "lastReport": "2026-10-15T09:14:43.777Z",
+  "marketRegime": "BULL",
   "fearGreed": 53,
   "totalStats": {
     "trades": 448,
@@ -10695,5 +10695,5 @@
       }
     }
   },
-  "btcDominance": 59.5
+  "btcDominance": 60
 }
