@@ -120,23 +120,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ADA_sR_1791497507091",
-      "symbol": "ADA",
-      "name": "Cardano",
-      "coinId": "cardano",
-      "rank": 17,
-      "stratId": "sR",
-      "entryPrice": 0.2347,
-      "entryTime": 1791497507091,
-      "entryDate": "2026-10-08T22:11:47.091Z",
-      "entrySignal": "Ротация #17 ADA: BTC Dom=59% · Коррекция -13.6% · RSI=49",
-      "strength": 65,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FIGR_HELOC_sE_1792000970999",
       "symbol": "FIGR_HELOC",
       "name": "Figure Heloc",
@@ -155,6 +138,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ADA_sR_1791497507091",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "coinId": "cardano",
+      "rank": 17,
+      "stratId": "sR",
+      "entryPrice": 0.2347,
+      "entryTime": 1791497507091,
+      "entryDate": "2026-10-08T22:11:47.091Z",
+      "entrySignal": "Ротация #17 ADA: BTC Dom=59% · Коррекция -13.6% · RSI=49",
+      "strength": 65,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.2223,
+      "exitTime": 1792032580139,
+      "exitReason": "🛑 SL -5%",
+      "pnl": -5.283340434597356,
+      "pnlUsd": -5.283340434597356,
+      "total": 94.71665956540264
+    },
     {
       "id": "LINK_sR_1791814277298",
       "symbol": "LINK",
@@ -10416,7 +10422,7 @@
   ],
   "cooldowns": {
     "SOL_sR": 1780495956417,
-    "ADA_sR": 1791497507091,
+    "ADA_sR": 1792111780139,
     "HYPE_sR": 1784322736769,
     "BCH_sR": 1789577125077,
     "XLM_sR": 1788285126381,
@@ -10566,24 +10572,24 @@
     "ATOM_sM": 1791933398847,
     "APT_sM": 1791911188588
   },
-  "scanCount": 2703,
+  "scanCount": 2704,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-15T00:03:12.632Z",
-  "lastReport": "2026-10-14T21:13:22.265Z",
-  "marketRegime": "BULL",
+  "lastScan": "2026-10-15T02:50:19.708Z",
+  "lastReport": "2026-10-15T02:50:19.708Z",
+  "marketRegime": "NEUTRAL",
   "fearGreed": 53,
   "totalStats": {
-    "trades": 446,
+    "trades": 447,
     "wins": 154,
-    "losses": 292,
-    "totalPnl": 224.7360725853162,
-    "invested": 44600
+    "losses": 293,
+    "totalPnl": 219.45273215071884,
+    "invested": 44700
   },
   "byStrategy": {
     "sR": {
-      "trades": 129,
+      "trades": 130,
       "wins": 50,
-      "pnl": -66.12754386404465
+      "pnl": -71.410884298642
     },
     "sE": {
       "trades": 244,
@@ -10616,9 +10622,9 @@
     },
     "NEUTRAL": {
       "sR": {
-        "trades": 53,
+        "trades": 54,
         "wins": 30,
-        "pnl": 51.22534845220693
+        "pnl": 45.942008017609574
       },
       "sE": {
         "trades": 73,
@@ -10683,5 +10689,5 @@
       }
     }
   },
-  "btcDominance": 59.3
+  "btcDominance": 59.5
 }
