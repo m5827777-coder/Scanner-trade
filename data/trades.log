@@ -152698,3 +152698,32 @@
 [2026-10-15 10:44:24 UTC] 📧 6h report sent
 [2026-10-15 10:44:24 UTC] 
 📊 ИТОГ: WR=34.4% PnL=$211.42 Trades=448
+[2026-10-15 13:32:37 UTC] ════════════════════════════════════════════════════
+[2026-10-15 13:32:37 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-10-15 13:32:37 UTC] ════════════════════════════════════════════════════
+[2026-10-15 13:32:37 UTC] 📡 Scan #2708
+[2026-10-15 13:32:37 UTC] [TG POLL] getUpdates offset=0
+[2026-10-15 13:32:38 UTC] [TG POLL] получено апдейтов: 5
+[2026-10-15 13:32:38 UTC] [TG CMD] от chatId=73400175(73400175) fromId=73400175(73400175) cfg=73400175(73400175) cmd="positions" allowed=OPEN
+[2026-10-15 13:32:38 UTC] [TG CMD] неизвестная команда: "positions"
+[2026-10-15 13:32:38 UTC] [TG CMD] от chatId=73400175(73400175) fromId=73400175(73400175) cfg=73400175(73400175) cmd="/positions" allowed=OPEN
+[2026-10-15 13:32:38 UTC] [TG CMD] → buildPositionsMsg
+[2026-10-15 13:32:41 UTC] [TG CMD] от chatId=73400175(73400175) fromId=73400175(73400175) cfg=73400175(73400175) cmd="/help" allowed=OPEN
+[2026-10-15 13:32:41 UTC] [TG CMD] от chatId=73400175(73400175) fromId=73400175(73400175) cfg=73400175(73400175) cmd="/help" allowed=OPEN
+[2026-10-15 13:32:41 UTC] [TG CMD] от chatId=73400175(73400175) fromId=73400175(73400175) cfg=73400175(73400175) cmd="/help" allowed=OPEN
+[2026-10-15 13:32:41 UTC] [TG POLL] offset сохранён: 933266560
+[2026-10-15 13:32:42 UTC] 📊 BTC Dom=59.4%
+[2026-10-15 13:32:42 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-10-15 13:32:42 UTC] 🌡 F&G=53 Regime=NEUTRAL Open=7
+[2026-10-15 13:32:42 UTC]   📂 HOLD BNB/sM PnL=+5.62%
+[2026-10-15 13:32:42 UTC]   📂 HOLD HYPE/sM PnL=-4.73%
+[2026-10-15 13:32:42 UTC]   📂 HOLD XMR/sM PnL=+3.72%
+[2026-10-15 13:32:43 UTC]   📂 HOLD AVAX/sM PnL=-0.08%
+[2026-10-15 13:32:43 UTC]   📂 HOLD BTC/sM PnL=-5.58%
+[2026-10-15 13:32:43 UTC]   📂 HOLD STX/sM PnL=+5.16%
+[2026-10-15 13:32:43 UTC]   📂 HOLD FIGR_HELOC/sE PnL=+0.20%
+[2026-10-15 13:32:43 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-10-15 13:32:43 UTC] [CG ERR] CG 429
+[2026-10-15 13:32:43 UTC] ⚠ CoinGecko недоступен
+[2026-10-15 13:32:43 UTC] 
+📊 ИТОГ: WR=34.4% PnL=$211.42 Trades=448
