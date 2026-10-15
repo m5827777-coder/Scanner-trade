@@ -103,23 +103,6 @@
       "peakPnl": 0
     },
     {
-      "id": "ZRO_sM_1791025117665",
-      "symbol": "ZRO",
-      "name": "LayerZero",
-      "coinId": "layerzero",
-      "rank": 97,
-      "stratId": "sM",
-      "entryPrice": 1.975,
-      "entryTime": 1791025117665,
-      "entryDate": "2026-10-03T10:58:37.665Z",
-      "entrySignal": "Пробой 20d max $1.8869 на +4.7% · Объём x1.6 · RSI=80",
-      "strength": 88,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FIGR_HELOC_sE_1792000970999",
       "symbol": "FIGR_HELOC",
       "name": "Figure Heloc",
@@ -138,6 +121,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "ZRO_sM_1791025117665",
+      "symbol": "ZRO",
+      "name": "LayerZero",
+      "coinId": "layerzero",
+      "rank": 97,
+      "stratId": "sM",
+      "entryPrice": 1.975,
+      "entryTime": 1791025117665,
+      "entryDate": "2026-10-03T10:58:37.665Z",
+      "entrySignal": "Пробой 20d max $1.8869 на +4.7% · Объём x1.6 · RSI=80",
+      "strength": 88,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1.8164,
+      "exitTime": 1792038203017,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -8.030379746835447,
+      "pnlUsd": -8.030379746835447,
+      "total": 91.96962025316455
+    },
     {
       "id": "ADA_sR_1791497507091",
       "symbol": "ADA",
@@ -10567,23 +10573,23 @@
     "ALGO_sM": 1791424294772,
     "STX_sM": 1790807093204,
     "AAVE_sM": 1791542365986,
-    "ZRO_sM": 1791025117665,
+    "ZRO_sM": 1792117403017,
     "RAY_sM": 1791559244647,
     "ATOM_sM": 1791933398847,
     "APT_sM": 1791911188588
   },
-  "scanCount": 2704,
+  "scanCount": 2705,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-15T02:50:19.708Z",
+  "lastScan": "2026-10-15T04:23:57.855Z",
   "lastReport": "2026-10-15T02:50:19.708Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 53,
   "totalStats": {
-    "trades": 447,
+    "trades": 448,
     "wins": 154,
-    "losses": 293,
-    "totalPnl": 219.45273215071884,
-    "invested": 44700
+    "losses": 294,
+    "totalPnl": 211.4223524038834,
+    "invested": 44800
   },
   "byStrategy": {
     "sR": {
@@ -10597,9 +10603,9 @@
       "pnl": 228.04148100133662
     },
     "sM": {
-      "trades": 73,
+      "trades": 74,
       "wins": 24,
-      "pnl": 62.822135448024305
+      "pnl": 54.79175570118886
     }
   },
   "byRegime": {
@@ -10632,9 +10638,9 @@
         "pnl": -62.45983392976963
       },
       "sM": {
-        "trades": 15,
+        "trades": 16,
         "wins": 3,
-        "pnl": -43.484241216150416
+        "pnl": -51.51462096298586
       }
     },
     "BEAR": {
