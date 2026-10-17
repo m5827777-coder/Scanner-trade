@@ -10595,10 +10595,10 @@
     "ATOM_sM": 1791933398847,
     "APT_sM": 1791911188588
   },
-  "scanCount": 2729,
+  "scanCount": 2730,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-17T07:49:26.906Z",
-  "lastReport": "2026-10-17T02:38:44.063Z",
+  "lastScan": "2026-10-17T10:01:48.147Z",
+  "lastReport": "2026-10-17T10:01:48.147Z",
   "marketRegime": "BULL",
   "fearGreed": 55,
   "totalStats": {
