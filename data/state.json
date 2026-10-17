@@ -118,7 +118,9 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "INJ_sM_1792131670258",
       "symbol": "INJ",
@@ -131,13 +133,17 @@
       "entryDate": "2026-10-16T06:21:10.258Z",
       "entrySignal": "Пробой 20d max $8.6850 на +6.3% · Объём x1.7 · RSI=69",
       "strength": 85,
-      "regime": "BULL_TREND",
+      "regime": "BULL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 8.585,
+      "exitTime": 1792247206449,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.0082322357018905,
+      "pnlUsd": -7.0082322357018905,
+      "total": 92.9917677642981
+    },
     {
       "id": "ZRO_sM_1791025117665",
       "symbol": "ZRO",
@@ -10500,7 +10506,7 @@
     "ICP_sE": 1786374593092,
     "FIL_sE": 1788293473879,
     "XLM_sE": 1789584360966,
-    "INJ_sM": 1792131670258,
+    "INJ_sM": 1792326406449,
     "HBAR_sE": 1789727111768,
     "ALGO_sE": 1789601892623,
     "BNB_sM": 1787306163073,
@@ -10595,18 +10601,18 @@
     "ATOM_sM": 1791933398847,
     "APT_sM": 1791911188588
   },
-  "scanCount": 2731,
+  "scanCount": 2732,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-17T11:46:41.248Z",
+  "lastScan": "2026-10-17T14:27:20.501Z",
   "lastReport": "2026-10-17T10:01:48.147Z",
   "marketRegime": "BULL",
   "fearGreed": 55,
   "totalStats": {
-    "trades": 448,
+    "trades": 449,
     "wins": 154,
-    "losses": 294,
-    "totalPnl": 211.4223524038834,
-    "invested": 44800
+    "losses": 295,
+    "totalPnl": 204.4141201681815,
+    "invested": 44900
   },
   "byStrategy": {
     "sR": {
@@ -10620,9 +10626,9 @@
       "pnl": 228.04148100133662
     },
     "sM": {
-      "trades": 74,
+      "trades": 75,
       "wins": 24,
-      "pnl": 54.79175570118886
+      "pnl": 47.78352346548697
     }
   },
   "byRegime": {
@@ -10638,9 +10644,9 @@
         "pnl": 95.41347073245598
       },
       "sM": {
-        "trades": 29,
+        "trades": 30,
         "wins": 7,
-        "pnl": 12.146224636931532
+        "pnl": 5.137992401229641
       }
     },
     "NEUTRAL": {
@@ -10712,5 +10718,5 @@
       }
     }
   },
-  "btcDominance": 59.3
+  "btcDominance": 59.4
 }
