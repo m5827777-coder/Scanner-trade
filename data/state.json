@@ -86,23 +86,6 @@
       "peakPnl": 0
     },
     {
-      "id": "STX_sM_1790807093204",
-      "symbol": "STX",
-      "name": "Stacks",
-      "coinId": "blockstack",
-      "rank": 97,
-      "stratId": "sM",
-      "entryPrice": 0.3737,
-      "entryTime": 1790807093204,
-      "entryDate": "2026-09-30T22:24:53.204Z",
-      "entrySignal": "Пробой 20d max $0.3598 на +3.9% · Объём x1.6 · RSI=68",
-      "strength": 82,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "FIGR_HELOC_sE_1792000970999",
       "symbol": "FIGR_HELOC",
       "name": "Figure Heloc",
@@ -121,6 +104,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "STX_sM_1790807093204",
+      "symbol": "STX",
+      "name": "Stacks",
+      "coinId": "blockstack",
+      "rank": 97,
+      "stratId": "sM",
+      "entryPrice": 0.3737,
+      "entryTime": 1790807093204,
+      "entryDate": "2026-09-30T22:24:53.204Z",
+      "entrySignal": "Пробой 20d max $0.3598 на +3.9% · Объём x1.6 · RSI=68",
+      "strength": 82,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.3441,
+      "exitTime": 1792359497426,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.920792079207911,
+      "pnlUsd": -7.920792079207911,
+      "total": 92.07920792079209
+    },
     {
       "id": "INJ_sM_1792131670258",
       "symbol": "INJ",
@@ -10594,25 +10600,25 @@
     "GRAM_sE": 1790783538486,
     "PYTH_sM": 1790685220517,
     "ALGO_sM": 1791424294772,
-    "STX_sM": 1790807093204,
+    "STX_sM": 1792438697426,
     "AAVE_sM": 1791542365986,
     "ZRO_sM": 1792117403017,
     "RAY_sM": 1791559244647,
     "ATOM_sM": 1791933398847,
     "APT_sM": 1791911188588
   },
-  "scanCount": 2748,
+  "scanCount": 2749,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-18T19:58:36.670Z",
+  "lastScan": "2026-10-18T21:38:55.252Z",
   "lastReport": "2026-10-18T19:58:36.670Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 53,
   "totalStats": {
-    "trades": 449,
+    "trades": 450,
     "wins": 154,
-    "losses": 295,
-    "totalPnl": 204.4141201681815,
-    "invested": 44900
+    "losses": 296,
+    "totalPnl": 196.4933280889736,
+    "invested": 45000
   },
   "byStrategy": {
     "sR": {
@@ -10626,9 +10632,9 @@
       "pnl": 228.04148100133662
     },
     "sM": {
-      "trades": 75,
+      "trades": 76,
       "wins": 24,
-      "pnl": 47.78352346548697
+      "pnl": 39.86273138627906
     }
   },
   "byRegime": {
@@ -10661,9 +10667,9 @@
         "pnl": -62.45983392976963
       },
       "sM": {
-        "trades": 16,
+        "trades": 17,
         "wins": 3,
-        "pnl": -51.51462096298586
+        "pnl": -59.43541304219377
       }
     },
     "BEAR": {
@@ -10718,5 +10724,5 @@
       }
     }
   },
-  "btcDominance": 60.3
+  "btcDominance": 60.2
 }
