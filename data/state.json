@@ -118,6 +118,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "WLFI_sE_1792584722604",
+      "symbol": "WLFI",
+      "name": "World Liberty Financial",
+      "coinId": "world-liberty-financial",
+      "rank": 58,
+      "stratId": "sE",
+      "entryPrice": 0.0564,
+      "entryTime": 1792584722604,
+      "entryDate": "2026-10-21T12:12:02.604Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=0.0560 > EMA21=0.0562 · RSI=50 · Vol x1.1",
+      "strength": 66,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -10569,7 +10586,7 @@
     "WBT_sE": 1786991769629,
     "UNI_sE": 1788102000771,
     "AAVE_sE": 1785647106849,
-    "WLFI_sE": 1786888054104,
+    "WLFI_sE": 1792584722604,
     "LIT_sM": 1782981286266,
     "SOL_sE": 1789727101689,
     "SKY_sM": 1791559243117,
@@ -10647,9 +10664,9 @@
     "ATOM_sM": 1791933398847,
     "APT_sM": 1791911188588
   },
-  "scanCount": 2772,
+  "scanCount": 2773,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-21T11:01:44.478Z",
+  "lastScan": "2026-10-21T12:12:18.197Z",
   "lastReport": "2026-10-21T11:01:44.478Z",
   "marketRegime": "BULL",
   "fearGreed": 63,
