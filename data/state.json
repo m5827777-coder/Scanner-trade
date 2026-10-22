@@ -10705,9 +10705,9 @@
     "APT_sM": 1791911188588,
     "VVV_sE": 1792666798166
   },
-  "scanCount": 2781,
+  "scanCount": 2782,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-22T11:00:12.964Z",
+  "lastScan": "2026-10-22T12:21:23.532Z",
   "lastReport": "2026-10-22T11:00:12.964Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 68,
@@ -10822,5 +10822,5 @@
       }
     }
   },
-  "btcDominance": 60
+  "btcDominance": 59.5
 }
