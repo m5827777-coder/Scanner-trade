@@ -35,23 +35,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XMR_sM_1788189662271",
-      "symbol": "XMR",
-      "name": "Monero",
-      "coinId": "monero",
-      "rank": 15,
-      "stratId": "sM",
-      "entryPrice": 513.7850021482079,
-      "entryTime": 1788189662271,
-      "entryDate": "2026-08-31T15:21:02.271Z",
-      "entrySignal": "Пробой 20d max $476.6605 на +7.8% · Объём x2.1 · RSI=82",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "AVAX_sM_1789873064784",
       "symbol": "AVAX",
       "name": "Avalanche",
@@ -135,9 +118,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "XMR_sE_1792651053144",
+      "symbol": "XMR",
+      "name": "Monero",
+      "coinId": "monero",
+      "rank": 13,
+      "stratId": "sE",
+      "entryPrice": 649.2425240524452,
+      "entryTime": 1792651053144,
+      "entryDate": "2026-10-22T06:37:33.144Z",
+      "entrySignal": "Golden Cross 6д назад · EMA9=597.2858 > EMA21=573.5607 · RSI=74 · Vol x1.9",
+      "strength": 83,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "XMR_sM_1788189662271",
+      "symbol": "XMR",
+      "name": "Monero",
+      "coinId": "monero",
+      "rank": 15,
+      "stratId": "sM",
+      "entryPrice": 513.7850021482079,
+      "entryTime": 1788189662271,
+      "entryDate": "2026-08-31T15:21:02.271Z",
+      "entrySignal": "Пробой 20d max $476.6605 на +7.8% · Объём x2.1 · RSI=82",
+      "strength": 95,
+      "regime": "BULL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 649.2425240524452,
+      "exitTime": 1792651047391,
+      "exitReason": "✅ TP +25%",
+      "pnl": 26.36463138041597,
+      "pnlUsd": 26.36463138041597,
+      "total": 126.36463138041597
+    },
     {
       "id": "FIGR_HELOC_sE_1792000970999",
       "symbol": "FIGR_HELOC",
@@ -10557,7 +10580,7 @@
     "ASTER_sE": 1791049655173,
     "NEAR_sM": 1789991142330,
     "RENDER_sE": 1789931960550,
-    "XMR_sE": 1785969350861,
+    "XMR_sE": 1792651053144,
     "ZEC_sM": 1791532946022,
     "ICP_sR": 1779986502655,
     "WLD_sE": 1792493342981,
@@ -10664,18 +10687,18 @@
     "ATOM_sM": 1791933398847,
     "APT_sM": 1791911188588
   },
-  "scanCount": 2779,
+  "scanCount": 2780,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-22T01:46:53.265Z",
-  "lastReport": "2026-10-21T21:08:03.924Z",
+  "lastScan": "2026-10-22T06:38:02.988Z",
+  "lastReport": "2026-10-22T06:38:02.988Z",
   "marketRegime": "BULL",
   "fearGreed": 68,
   "totalStats": {
-    "trades": 451,
-    "wins": 154,
+    "trades": 452,
+    "wins": 155,
     "losses": 297,
-    "totalPnl": 195.4779687850589,
-    "invested": 45100
+    "totalPnl": 221.84260016547486,
+    "invested": 45200
   },
   "byStrategy": {
     "sR": {
@@ -10689,9 +10712,9 @@
       "pnl": 227.0261216974219
     },
     "sM": {
-      "trades": 76,
-      "wins": 24,
-      "pnl": 39.86273138627906
+      "trades": 77,
+      "wins": 25,
+      "pnl": 66.22736276669502
     }
   },
   "byRegime": {
@@ -10707,9 +10730,9 @@
         "pnl": 95.41347073245598
       },
       "sM": {
-        "trades": 30,
-        "wins": 7,
-        "pnl": 5.137992401229641
+        "trades": 31,
+        "wins": 8,
+        "pnl": 31.502623781645614
       }
     },
     "NEUTRAL": {
@@ -10781,5 +10804,5 @@
       }
     }
   },
-  "btcDominance": 59.7
+  "btcDominance": 59.5
 }
