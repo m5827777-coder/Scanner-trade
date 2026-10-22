@@ -152,6 +152,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "LEO_sE_1792701370004",
+      "symbol": "LEO",
+      "name": "LEO Token",
+      "coinId": "leo-token",
+      "rank": 17,
+      "stratId": "sE",
+      "entryPrice": 9.027,
+      "entryTime": 1792701370004,
+      "entryDate": "2026-10-22T20:36:10.004Z",
+      "entrySignal": "Golden Cross 8д назад · EMA9=9.0224 > EMA21=8.9958 · RSI=54 · Vol x1.2",
+      "strength": 61,
+      "regime": "BULL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -10637,7 +10654,7 @@
     "AVAX_sE": 1789712865823,
     "SKY_sE": 1783587377362,
     "ARB_sE": 1785010780864,
-    "LEO_sE": 1783669674148,
+    "LEO_sE": 1792701370004,
     "ICP_sM": 1784300180465,
     "POL_sE": 1787457765203,
     "PEPE_sE": 1792418384663,
@@ -10705,9 +10722,9 @@
     "APT_sM": 1791911188588,
     "VVV_sE": 1792666798166
   },
-  "scanCount": 2784,
+  "scanCount": 2785,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-22T17:20:11.437Z",
+  "lastScan": "2026-10-22T20:36:44.627Z",
   "lastReport": "2026-10-22T16:28:53.385Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 68,
