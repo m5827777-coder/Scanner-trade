@@ -120,23 +120,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XMR_sE_1792651053144",
-      "symbol": "XMR",
-      "name": "Monero",
-      "coinId": "monero",
-      "rank": 13,
-      "stratId": "sE",
-      "entryPrice": 649.2425240524452,
-      "entryTime": 1792651053144,
-      "entryDate": "2026-10-22T06:37:33.144Z",
-      "entrySignal": "Golden Cross 6д назад · EMA9=597.2858 > EMA21=573.5607 · RSI=74 · Vol x1.9",
-      "strength": 83,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "VVV_sE_1792666798166",
       "symbol": "VVV",
       "name": "Venice Token",
@@ -172,6 +155,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "XMR_sE_1792651053144",
+      "symbol": "XMR",
+      "name": "Monero",
+      "coinId": "monero",
+      "rank": 13,
+      "stratId": "sE",
+      "entryPrice": 649.2425240524452,
+      "entryTime": 1792651053144,
+      "entryDate": "2026-10-22T06:37:33.144Z",
+      "entrySignal": "Golden Cross 6д назад · EMA9=597.2858 > EMA21=573.5607 · RSI=74 · Vol x1.9",
+      "strength": 83,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 592.8118108956704,
+      "exitTime": 1792703191606,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -8.69177711967252,
+      "pnlUsd": -8.69177711967252,
+      "total": 91.30822288032748
+    },
     {
       "id": "XMR_sM_1788189662271",
       "symbol": "XMR",
@@ -10614,7 +10620,7 @@
     "ASTER_sE": 1791049655173,
     "NEAR_sM": 1789991142330,
     "RENDER_sE": 1789931960550,
-    "XMR_sE": 1792651053144,
+    "XMR_sE": 1792782391606,
     "ZEC_sM": 1791532946022,
     "ICP_sR": 1779986502655,
     "WLD_sE": 1792493342981,
@@ -10722,18 +10728,18 @@
     "APT_sM": 1791911188588,
     "VVV_sE": 1792666798166
   },
-  "scanCount": 2785,
+  "scanCount": 2786,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-22T20:36:44.627Z",
-  "lastReport": "2026-10-22T16:28:53.385Z",
+  "lastScan": "2026-10-22T21:07:07.703Z",
+  "lastReport": "2026-10-22T21:07:07.703Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 68,
   "totalStats": {
-    "trades": 452,
+    "trades": 453,
     "wins": 155,
-    "losses": 297,
-    "totalPnl": 221.84260016547486,
-    "invested": 45200
+    "losses": 298,
+    "totalPnl": 213.15082304580235,
+    "invested": 45300
   },
   "byStrategy": {
     "sR": {
@@ -10742,9 +10748,9 @@
       "pnl": -71.410884298642
     },
     "sE": {
-      "trades": 245,
+      "trades": 246,
       "wins": 80,
-      "pnl": 227.0261216974219
+      "pnl": 218.3343445777494
     },
     "sM": {
       "trades": 77,
@@ -10777,9 +10783,9 @@
         "pnl": 45.942008017609574
       },
       "sE": {
-        "trades": 74,
+        "trades": 75,
         "wins": 17,
-        "pnl": -63.47519323368435
+        "pnl": -72.16697035335687
       },
       "sM": {
         "trades": 17,
