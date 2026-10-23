@@ -69,23 +69,6 @@
       "peakPnl": 0
     },
     {
-      "id": "WLD_sE_1792493342981",
-      "symbol": "WLD",
-      "name": "Worldcoin",
-      "coinId": "worldcoin-wld",
-      "rank": 49,
-      "stratId": "sE",
-      "entryPrice": 0.5349,
-      "entryTime": 1792493342981,
-      "entryDate": "2026-10-20T10:49:02.981Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.5112 > EMA21=0.5087 · RSI=55 · Vol x1.2",
-      "strength": 84,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "WLFI_sE_1792584722604",
       "symbol": "WLFI",
       "name": "World Liberty Financial",
@@ -121,6 +104,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "WLD_sE_1792493342981",
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "coinId": "worldcoin-wld",
+      "rank": 49,
+      "stratId": "sE",
+      "entryPrice": 0.5349,
+      "entryTime": 1792493342981,
+      "entryDate": "2026-10-20T10:49:02.981Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.5112 > EMA21=0.5087 · RSI=55 · Vol x1.2",
+      "strength": 84,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.4792,
+      "exitTime": 1792796704162,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -10.413161338567962,
+      "pnlUsd": -10.413161338567962,
+      "total": 89.58683866143204
+    },
     {
       "id": "PEPE_sE_1792752811186",
       "symbol": "PEPE",
@@ -10658,7 +10664,7 @@
     "XMR_sE": 1792782391606,
     "ZEC_sM": 1791532946022,
     "ICP_sR": 1779986502655,
-    "WLD_sE": 1792493342981,
+    "WLD_sE": 1792875904162,
     "JUP_sE": 1787756415402,
     "MORPHO_sE": 1789952254153,
     "TON_sE": 1780599053641,
@@ -10763,18 +10769,18 @@
     "APT_sM": 1791911188588,
     "VVV_sE": 1792865236788
   },
-  "scanCount": 2796,
+  "scanCount": 2797,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-23T20:53:55.887Z",
+  "lastScan": "2026-10-23T23:05:45.344Z",
   "lastReport": "2026-10-23T20:53:55.887Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 50,
   "totalStats": {
-    "trades": 456,
+    "trades": 457,
     "wins": 156,
-    "losses": 300,
-    "totalPnl": 221.026852716082,
-    "invested": 45600
+    "losses": 301,
+    "totalPnl": 210.61369137751404,
+    "invested": 45700
   },
   "byStrategy": {
     "sR": {
@@ -10783,9 +10789,9 @@
       "pnl": -71.410884298642
     },
     "sE": {
-      "trades": 249,
+      "trades": 250,
       "wins": 81,
-      "pnl": 226.21037424802907
+      "pnl": 215.7972129094611
     },
     "sM": {
       "trades": 77,
@@ -10818,9 +10824,9 @@
         "pnl": 45.942008017609574
       },
       "sE": {
-        "trades": 78,
+        "trades": 79,
         "wins": 18,
-        "pnl": -64.2909406830772
+        "pnl": -74.70410202164516
       },
       "sM": {
         "trades": 17,
