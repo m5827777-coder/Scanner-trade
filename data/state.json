@@ -69,23 +69,6 @@
       "peakPnl": 0
     },
     {
-      "id": "PEPE_sE_1792418384663",
-      "symbol": "PEPE",
-      "name": "Pepe",
-      "coinId": "pepe",
-      "rank": 58,
-      "stratId": "sE",
-      "entryPrice": 0.000004098,
-      "entryTime": 1792418384663,
-      "entryDate": "2026-10-19T13:59:44.663Z",
-      "entrySignal": "Golden Cross 4д назад · EMA9=0.0000 > EMA21=0.0000 · RSI=53 · Vol x1.2",
-      "strength": 74,
-      "regime": "BULL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "WLD_sE_1792493342981",
       "symbol": "WLD",
       "name": "Worldcoin",
@@ -152,9 +135,49 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "PEPE_sE_1792752811186",
+      "symbol": "PEPE",
+      "name": "Pepe",
+      "coinId": "pepe",
+      "rank": 50,
+      "stratId": "sE",
+      "entryPrice": 0.000004952,
+      "entryTime": 1792752811186,
+      "entryDate": "2026-10-23T10:53:31.186Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=0.0000 > EMA21=0.0000 · RSI=66 · Vol x1.6",
+      "strength": 80,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
+    {
+      "id": "PEPE_sE_1792418384663",
+      "symbol": "PEPE",
+      "name": "Pepe",
+      "coinId": "pepe",
+      "rank": 58,
+      "stratId": "sE",
+      "entryPrice": 0.000004098,
+      "entryTime": 1792418384663,
+      "entryDate": "2026-10-19T13:59:44.663Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=0.0000 > EMA21=0.0000 · RSI=53 · Vol x1.2",
+      "strength": 74,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.000004955,
+      "exitTime": 1792752793639,
+      "exitReason": "✅ TP +15%",
+      "pnl": 20.912640312347474,
+      "pnlUsd": 20.912640312347477,
+      "total": 120.91264031234748
+    },
     {
       "id": "XMR_sE_1792651053144",
       "symbol": "XMR",
@@ -10663,7 +10686,7 @@
     "LEO_sE": 1792701370004,
     "ICP_sM": 1784300180465,
     "POL_sE": 1787457765203,
-    "PEPE_sE": 1792418384663,
+    "PEPE_sE": 1792752811186,
     "GRAM_sR": 1784307697586,
     "PUMP_sE": 1790578138743,
     "LINK_sE": 1791542364023,
@@ -10728,18 +10751,18 @@
     "APT_sM": 1791911188588,
     "VVV_sE": 1792666798166
   },
-  "scanCount": 2790,
+  "scanCount": 2791,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-23T06:35:49.665Z",
-  "lastReport": "2026-10-23T03:00:53.440Z",
+  "lastScan": "2026-10-23T10:53:49.822Z",
+  "lastReport": "2026-10-23T10:53:49.821Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 50,
   "totalStats": {
-    "trades": 453,
-    "wins": 155,
+    "trades": 454,
+    "wins": 156,
     "losses": 298,
-    "totalPnl": 213.15082304580235,
-    "invested": 45300
+    "totalPnl": 234.06346335814982,
+    "invested": 45400
   },
   "byStrategy": {
     "sR": {
@@ -10748,9 +10771,9 @@
       "pnl": -71.410884298642
     },
     "sE": {
-      "trades": 246,
-      "wins": 80,
-      "pnl": 218.3343445777494
+      "trades": 247,
+      "wins": 81,
+      "pnl": 239.24698489009688
     },
     "sM": {
       "trades": 77,
@@ -10783,9 +10806,9 @@
         "pnl": 45.942008017609574
       },
       "sE": {
-        "trades": 75,
-        "wins": 17,
-        "pnl": -72.16697035335687
+        "trades": 76,
+        "wins": 18,
+        "pnl": -51.254330041009396
       },
       "sM": {
         "trades": 17,
@@ -10845,5 +10868,5 @@
       }
     }
   },
-  "btcDominance": 59.4
+  "btcDominance": 60
 }
