@@ -118,7 +118,9 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "PEPE_sE_1792752811186",
       "symbol": "PEPE",
@@ -131,13 +133,17 @@
       "entryDate": "2026-10-23T10:53:31.186Z",
       "entrySignal": "Golden Cross 3д назад · EMA9=0.0000 > EMA21=0.0000 · RSI=66 · Vol x1.6",
       "strength": 80,
-      "regime": "BULL_TREND",
+      "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 0.000004654,
+      "exitTime": 1792788790911,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.017770597738295,
+      "pnlUsd": -6.017770597738295,
+      "total": 93.98222940226171
+    },
     {
       "id": "VVV_sE_1792666798166",
       "symbol": "VVV",
@@ -10692,7 +10698,7 @@
     "LEO_sE": 1792701370004,
     "ICP_sM": 1784300180465,
     "POL_sE": 1787457765203,
-    "PEPE_sE": 1792752811186,
+    "PEPE_sE": 1792867990912,
     "GRAM_sR": 1784307697586,
     "PUMP_sE": 1790578138743,
     "LINK_sE": 1791542364023,
@@ -10757,18 +10763,18 @@
     "APT_sM": 1791911188588,
     "VVV_sE": 1792865236788
   },
-  "scanCount": 2795,
+  "scanCount": 2796,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-23T20:07:58.856Z",
-  "lastReport": "2026-10-23T16:18:04.517Z",
+  "lastScan": "2026-10-23T20:53:55.887Z",
+  "lastReport": "2026-10-23T20:53:55.887Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 50,
   "totalStats": {
-    "trades": 455,
+    "trades": 456,
     "wins": 156,
-    "losses": 299,
-    "totalPnl": 227.0446233138203,
-    "invested": 45500
+    "losses": 300,
+    "totalPnl": 221.026852716082,
+    "invested": 45600
   },
   "byStrategy": {
     "sR": {
@@ -10777,9 +10783,9 @@
       "pnl": -71.410884298642
     },
     "sE": {
-      "trades": 248,
+      "trades": 249,
       "wins": 81,
-      "pnl": 232.22814484576736
+      "pnl": 226.21037424802907
     },
     "sM": {
       "trades": 77,
@@ -10812,9 +10818,9 @@
         "pnl": 45.942008017609574
       },
       "sE": {
-        "trades": 77,
+        "trades": 78,
         "wins": 18,
-        "pnl": -58.273170085338904
+        "pnl": -64.2909406830772
       },
       "sM": {
         "trades": 17,
@@ -10874,5 +10880,5 @@
       }
     }
   },
-  "btcDominance": 59.4
+  "btcDominance": 59.5
 }
