@@ -50,6 +50,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "PEPE_sE_1792885779910",
+      "symbol": "PEPE",
+      "name": "Pepe",
+      "coinId": "pepe",
+      "rank": 51,
+      "stratId": "sE",
+      "entryPrice": 0.000004513,
+      "entryTime": 1792885779910,
+      "entryDate": "2026-10-24T23:49:39.910Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=0.0000 > EMA21=0.0000 · RSI=59 · Vol x1.1",
+      "strength": 74,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "Bybit",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -10722,7 +10739,7 @@
     "LEO_sE": 1792701370004,
     "ICP_sM": 1784300180465,
     "POL_sE": 1787457765203,
-    "PEPE_sE": 1792867990912,
+    "PEPE_sE": 1792885779911,
     "GRAM_sR": 1784307697586,
     "PUMP_sE": 1790578138743,
     "LINK_sE": 1791542364023,
@@ -10787,9 +10804,9 @@
     "APT_sM": 1791911188588,
     "VVV_sE": 1792865236788
   },
-  "scanCount": 2808,
+  "scanCount": 2809,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-24T21:54:12.957Z",
+  "lastScan": "2026-10-24T23:50:05.733Z",
   "lastReport": "2026-10-24T20:05:22.294Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 51,
