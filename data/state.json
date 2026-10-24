@@ -18,40 +18,6 @@
       "peakPnl": 0
     },
     {
-      "id": "HYPE_sM_1787371263877",
-      "symbol": "HYPE",
-      "name": "Hyperliquid",
-      "coinId": "hyperliquid",
-      "rank": 10,
-      "stratId": "sM",
-      "entryPrice": 82.202,
-      "entryTime": 1787371263877,
-      "entryDate": "2026-08-22T04:01:03.877Z",
-      "entrySignal": "Пробой 20d max $74.5490 на +10.3% · Объём x1.7 · RSI=82",
-      "strength": 90,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "AVAX_sM_1789873064784",
-      "symbol": "AVAX",
-      "name": "Avalanche",
-      "coinId": "avalanche-2",
-      "rank": 28,
-      "stratId": "sM",
-      "entryPrice": 9.541,
-      "entryTime": 1789873064784,
-      "entryDate": "2026-09-20T02:57:44.784Z",
-      "entrySignal": "Пробой 20d max $8.2000 на +16.4% · Объём x3.0 · RSI=78",
-      "strength": 95,
-      "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "BTC_sM_1789996600720",
       "symbol": "BTC",
       "name": "Bitcoin",
@@ -64,23 +30,6 @@
       "entrySignal": "Пробой 20d max $82285.0000 на +3.5% · Объём x1.6 · RSI=72",
       "strength": 83,
       "regime": "BULL_TREND",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
-      "id": "WLFI_sE_1792584722604",
-      "symbol": "WLFI",
-      "name": "World Liberty Financial",
-      "coinId": "world-liberty-financial",
-      "rank": 58,
-      "stratId": "sE",
-      "entryPrice": 0.0564,
-      "entryTime": 1792584722604,
-      "entryDate": "2026-10-21T12:12:02.604Z",
-      "entrySignal": "Golden Cross 7д назад · EMA9=0.0560 > EMA21=0.0562 · RSI=50 · Vol x1.1",
-      "strength": 66,
-      "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
@@ -104,6 +53,75 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "WLFI_sE_1792584722604",
+      "symbol": "WLFI",
+      "name": "World Liberty Financial",
+      "coinId": "world-liberty-financial",
+      "rank": 58,
+      "stratId": "sE",
+      "entryPrice": 0.0564,
+      "entryTime": 1792584722604,
+      "entryDate": "2026-10-21T12:12:02.604Z",
+      "entrySignal": "Golden Cross 7д назад · EMA9=0.0560 > EMA21=0.0562 · RSI=50 · Vol x1.1",
+      "strength": 66,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.05301,
+      "exitTime": 1792836440384,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.010638297872335,
+      "pnlUsd": -6.010638297872336,
+      "total": 93.98936170212767
+    },
+    {
+      "id": "AVAX_sM_1789873064784",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "coinId": "avalanche-2",
+      "rank": 28,
+      "stratId": "sM",
+      "entryPrice": 9.541,
+      "entryTime": 1789873064784,
+      "entryDate": "2026-09-20T02:57:44.784Z",
+      "entrySignal": "Пробой 20d max $8.2000 на +16.4% · Объём x3.0 · RSI=78",
+      "strength": 95,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 8.865,
+      "exitTime": 1792836439454,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.085211193795201,
+      "pnlUsd": -7.0852111937952005,
+      "total": 92.9147888062048
+    },
+    {
+      "id": "HYPE_sM_1787371263877",
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "coinId": "hyperliquid",
+      "rank": 10,
+      "stratId": "sM",
+      "entryPrice": 82.202,
+      "entryTime": 1787371263877,
+      "entryDate": "2026-08-22T04:01:03.877Z",
+      "entrySignal": "Пробой 20d max $74.5490 на +10.3% · Объём x1.7 · RSI=82",
+      "strength": 90,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 75.307,
+      "exitTime": 1792836438685,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -8.387873774360717,
+      "pnlUsd": -8.387873774360717,
+      "total": 91.61212622563929
+    },
     {
       "id": "WLD_sE_1792493342981",
       "symbol": "WLD",
@@ -10690,7 +10708,7 @@
     "WBT_sE": 1786991769629,
     "UNI_sE": 1788102000771,
     "AAVE_sE": 1785647106849,
-    "WLFI_sE": 1792584722604,
+    "WLFI_sE": 1792915640384,
     "LIT_sM": 1782981286266,
     "SOL_sE": 1789727101689,
     "SKY_sM": 1791559243117,
@@ -10733,11 +10751,11 @@
     "GT_sM": 1787344424213,
     "LTC_sM": 1790732852386,
     "SUI_sM": 1787456117335,
-    "HYPE_sM": 1787371263877,
+    "HYPE_sM": 1792915638685,
     "HBAR_sM": 1790783539582,
     "ADA_sM": 1791542366826,
     "SHIB_sM": 1787536937167,
-    "AVAX_sM": 1789873064784,
+    "AVAX_sM": 1792915639455,
     "TRUMP_sE": 1787451269778,
     "KCS_sE": 1788027208791,
     "MORPHO_sM": 1787745401674,
@@ -10769,18 +10787,18 @@
     "APT_sM": 1791911188588,
     "VVV_sE": 1792865236788
   },
-  "scanCount": 2800,
+  "scanCount": 2801,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-24T06:19:02.594Z",
-  "lastReport": "2026-10-24T02:57:42.211Z",
+  "lastScan": "2026-10-24T10:07:59.730Z",
+  "lastReport": "2026-10-24T10:07:59.730Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 51,
   "totalStats": {
-    "trades": 457,
+    "trades": 460,
     "wins": 156,
-    "losses": 301,
-    "totalPnl": 210.61369137751404,
-    "invested": 45700
+    "losses": 304,
+    "totalPnl": 189.1299681114858,
+    "invested": 46000
   },
   "byStrategy": {
     "sR": {
@@ -10789,14 +10807,14 @@
       "pnl": -71.410884298642
     },
     "sE": {
-      "trades": 250,
+      "trades": 251,
       "wins": 81,
-      "pnl": 215.7972129094611
+      "pnl": 209.78657461158878
     },
     "sM": {
-      "trades": 77,
+      "trades": 79,
       "wins": 25,
-      "pnl": 66.22736276669502
+      "pnl": 50.75427779853911
     }
   },
   "byRegime": {
@@ -10824,14 +10842,14 @@
         "pnl": 45.942008017609574
       },
       "sE": {
-        "trades": 79,
+        "trades": 80,
         "wins": 18,
-        "pnl": -74.70410202164516
+        "pnl": -80.71474031951749
       },
       "sM": {
-        "trades": 17,
+        "trades": 19,
         "wins": 3,
-        "pnl": -59.43541304219377
+        "pnl": -74.90849801034969
       }
     },
     "BEAR": {
@@ -10886,5 +10904,5 @@
       }
     }
   },
-  "btcDominance": 59.5
+  "btcDominance": 60.1
 }
