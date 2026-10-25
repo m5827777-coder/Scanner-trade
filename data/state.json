@@ -10804,12 +10804,12 @@
     "APT_sM": 1791911188588,
     "VVV_sE": 1792865236788
   },
-  "scanCount": 2809,
+  "scanCount": 2810,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-24T23:50:05.733Z",
+  "lastScan": "2026-10-25T01:46:02.775Z",
   "lastReport": "2026-10-24T20:05:22.294Z",
   "marketRegime": "NEUTRAL",
-  "fearGreed": 51,
+  "fearGreed": 54,
   "totalStats": {
     "trades": 460,
     "wins": 156,
