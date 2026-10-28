@@ -10873,9 +10873,9 @@
     "VVV_sE": 1792865236788,
     "XDC_sE": 1793056622810
   },
-  "scanCount": 2841,
+  "scanCount": 2842,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-28T11:58:57.466Z",
+  "lastScan": "2026-10-28T14:16:15.924Z",
   "lastReport": "2026-10-28T11:58:57.466Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 51,
@@ -10990,5 +10990,5 @@
       }
     }
   },
-  "btcDominance": 60
+  "btcDominance": 59.5
 }
