@@ -159201,3 +159201,35 @@
 [2026-10-29 12:08:45 UTC] 📧 6h report sent
 [2026-10-29 12:08:45 UTC] 
 📊 ИТОГ: WR=33.8% PnL=$182.49 Trades=461
+[2026-10-29 15:41:44 UTC] ════════════════════════════════════════════════════
+[2026-10-29 15:41:44 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-10-29 15:41:44 UTC] ════════════════════════════════════════════════════
+[2026-10-29 15:41:44 UTC] 📡 Scan #2850
+[2026-10-29 15:41:44 UTC] [TG POLL] getUpdates offset=933266562
+[2026-10-29 15:41:44 UTC] [TG POLL] нет новых апдейтов
+[2026-10-29 15:41:44 UTC] 📊 BTC Dom=59.6%
+[2026-10-29 15:41:44 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-10-29 15:41:45 UTC] 🌡 F&G=51 Regime=NEUTRAL Open=7
+[2026-10-29 15:41:45 UTC]   📂 HOLD BNB/sM PnL=+10.63%
+[2026-10-29 15:41:45 UTC]   📂 HOLD BTC/sM PnL=-4.16%
+[2026-10-29 15:41:46 UTC]   📂 HOLD LEO/sE PnL=+4.54%
+[2026-10-29 15:41:46 UTC]   ✅ CLOSE PEPE/sE: ✅ TP +15% PnL=+16.23% held=4д 15ч
+[2026-10-29 15:41:47 UTC]   📂 HOLD FIGR_HELOC/sE PnL=-0.70%
+[2026-10-29 15:41:47 UTC]   📂 HOLD KCS/sE PnL=+1.28%
+[2026-10-29 15:41:47 UTC]   📂 HOLD XDC/sE PnL=-1.22%
+[2026-10-29 15:41:47 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-10-29 15:41:47 UTC] ✓ CoinGecko: 85 токенов. Проверяю входы...
+[2026-10-29 15:41:51 UTC]   ⏭ FIGR_HELOC: нет данных (figure-heloc)
+[2026-10-29 15:41:51 UTC]   📈 ENTRY ZEC/sE [BULL_TREND] via OKX: Golden Cross сегодня · EMA9=1259.4197 > EMA21=1254.0267 · RSI=56 · Vol x1.0 @ $1341.91
+[2026-10-29 15:41:52 UTC]   📈 ENTRY HYPE/sM [BULL_TREND] via OKX: Пробой 20d max $89.0940 на +5.3% · Объём x4.2 · RSI=67 @ $93.8
+[2026-10-29 15:41:53 UTC]   ⏭ XMR: нет данных (monero)
+[2026-10-29 15:41:54 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-10-29 15:41:58 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-10-29 15:42:02 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-10-29 15:42:04 UTC]   ⏭ M: нет данных (memecore)
+[2026-10-29 15:42:04 UTC]   ⏭ BTW: нет данных (bitway)
+[2026-10-29 15:42:05 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-10-29 15:42:05 UTC]   📈 ENTRY PEPE/sM [BULL_TREND] via OKX: Пробой 20d max $0.0000 на +3.6% · Объём x2.4 · RSI=66 @ $0.0000052939
+[2026-10-29 15:42:06 UTC] ✅ Данные: 29 токенов OK, 8 недоступно | Открыто: 3 | Всего: 9
+[2026-10-29 15:42:06 UTC] 
+📊 ИТОГ: WR=34.0% PnL=$198.72 Trades=462
