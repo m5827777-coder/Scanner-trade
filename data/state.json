@@ -118,7 +118,9 @@
       "size": 100,
       "src": "Bybit",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "BCH_sE_1793172424996",
       "symbol": "BCH",
@@ -131,13 +133,17 @@
       "entryDate": "2026-10-28T07:27:04.996Z",
       "entrySignal": "Golden Cross сегодня · EMA9=283.5027 > EMA21=283.4624 · RSI=59 · Vol x2.0",
       "strength": 92,
-      "regime": "BULL",
+      "regime": "NEUTRAL",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 277.9,
+      "exitTime": 1793246283061,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.635309927767513,
+      "pnlUsd": -6.635309927767513,
+      "total": 93.36469007223249
+    },
     {
       "id": "WLFI_sE_1792584722604",
       "symbol": "WLFI",
@@ -10798,7 +10804,7 @@
     "SOL_sE": 1789727101689,
     "SKY_sM": 1791559243117,
     "ADA_sE": 1790258223426,
-    "BCH_sE": 1793172424996,
+    "BCH_sE": 1793325483061,
     "LTC_sE": 1787395008821,
     "ETH_sE": 1791542365236,
     "AVAX_sE": 1789712865823,
@@ -10873,18 +10879,18 @@
     "VVV_sE": 1792865236788,
     "XDC_sE": 1793056622810
   },
-  "scanCount": 2846,
+  "scanCount": 2847,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-29T02:40:36.101Z",
-  "lastReport": "2026-10-29T02:40:36.101Z",
+  "lastScan": "2026-10-29T03:58:41.286Z",
+  "lastReport": "2026-10-29T03:58:41.286Z",
   "marketRegime": "NEUTRAL",
   "fearGreed": 51,
   "totalStats": {
-    "trades": 460,
+    "trades": 461,
     "wins": 156,
-    "losses": 304,
-    "totalPnl": 189.1299681114858,
-    "invested": 46000
+    "losses": 305,
+    "totalPnl": 182.4946581837183,
+    "invested": 46100
   },
   "byStrategy": {
     "sR": {
@@ -10893,9 +10899,9 @@
       "pnl": -71.410884298642
     },
     "sE": {
-      "trades": 251,
+      "trades": 252,
       "wins": 81,
-      "pnl": 209.78657461158878
+      "pnl": 203.15126468382127
     },
     "sM": {
       "trades": 79,
@@ -10928,9 +10934,9 @@
         "pnl": 45.942008017609574
       },
       "sE": {
-        "trades": 80,
+        "trades": 81,
         "wins": 18,
-        "pnl": -80.71474031951749
+        "pnl": -87.350050247285
       },
       "sM": {
         "trades": 19,
