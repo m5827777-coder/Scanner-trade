@@ -69,23 +69,6 @@
       "peakPnl": 0
     },
     {
-      "id": "XDC_sE_1793056622810",
-      "symbol": "XDC",
-      "name": "XDC Network",
-      "coinId": "xdce-crowd-sale",
-      "rank": 93,
-      "stratId": "sE",
-      "entryPrice": 0.03365,
-      "entryTime": 1793056622810,
-      "entryDate": "2026-10-26T23:17:02.810Z",
-      "entrySignal": "Golden Cross сегодня · EMA9=0.0332 > EMA21=0.0331 · RSI=54 · Vol x2.3",
-      "strength": 90,
-      "regime": "BULL",
-      "size": 100,
-      "src": "Bybit",
-      "peakPnl": 0
-    },
-    {
       "id": "HYPE_sM_1793288512335",
       "symbol": "HYPE",
       "name": "Hyperliquid",
@@ -121,6 +104,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "XDC_sE_1793056622810",
+      "symbol": "XDC",
+      "name": "XDC Network",
+      "coinId": "xdce-crowd-sale",
+      "rank": 93,
+      "stratId": "sE",
+      "entryPrice": 0.03365,
+      "entryTime": 1793056622810,
+      "entryDate": "2026-10-26T23:17:02.810Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0332 > EMA21=0.0331 · RSI=54 · Vol x2.3",
+      "strength": 90,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "Bybit",
+      "peakPnl": 0,
+      "exitPrice": 0.03122035633937868,
+      "exitTime": 1793332758301,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -7.220337773020269,
+      "pnlUsd": -7.220337773020269,
+      "total": 92.77966222697972
+    },
     {
       "id": "PEPE_sM_1793288525898",
       "symbol": "PEPE",
@@ -10969,22 +10975,22 @@
     "ATOM_sM": 1791933398847,
     "APT_sM": 1791911188588,
     "VVV_sE": 1792865236788,
-    "XDC_sE": 1793056622810,
+    "XDC_sE": 1793411958301,
     "PEPE_sM": 1793391610773,
     "TRX_sM": 1793312414013
   },
-  "scanCount": 2853,
+  "scanCount": 2854,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-30T00:16:34.859Z",
-  "lastReport": "2026-10-29T22:20:49.949Z",
+  "lastScan": "2026-10-30T03:59:57.132Z",
+  "lastReport": "2026-10-30T03:59:57.132Z",
   "marketRegime": "BEAR",
   "fearGreed": 30,
   "totalStats": {
-    "trades": 465,
+    "trades": 466,
     "wins": 157,
-    "losses": 308,
-    "totalPnl": 171.7181801463777,
-    "invested": 46500
+    "losses": 309,
+    "totalPnl": 164.49784237335743,
+    "invested": 46600
   },
   "byStrategy": {
     "sR": {
@@ -10993,9 +10999,9 @@
       "pnl": -71.410884298642
     },
     "sE": {
-      "trades": 254,
+      "trades": 255,
       "wins": 82,
-      "pnl": 212.9011322470272
+      "pnl": 205.68079447400692
     },
     "sM": {
       "trades": 81,
@@ -11050,9 +11056,9 @@
         "pnl": -39.01416685894951
       },
       "sE": {
-        "trades": 54,
+        "trades": 55,
         "wins": 12,
-        "pnl": -105.64021205821588
+        "pnl": -112.86054983123614
       }
     },
     "BEAR_TREND": {
@@ -11090,5 +11096,5 @@
       }
     }
   },
-  "btcDominance": 59.4
+  "btcDominance": 59.3
 }
