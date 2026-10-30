@@ -159625,3 +159625,52 @@
 [2026-10-30 17:15:09 UTC] ✅ Данные: 58 токенов OK, 26 недоступно | Открыто: 0 | Всего: 6
 [2026-10-30 17:15:09 UTC] 
 📊 ИТОГ: WR=33.6% PnL=$156.17 Trades=467
+[2026-10-30 17:53:04 UTC] ════════════════════════════════════════════════════
+[2026-10-30 17:53:04 UTC] 🤖 Bot v6 | action=scan | report=true
+[2026-10-30 17:53:04 UTC] ════════════════════════════════════════════════════
+[2026-10-30 17:53:04 UTC] 📡 Scan #2859
+[2026-10-30 17:53:04 UTC] [TG POLL] getUpdates offset=933266562
+[2026-10-30 17:53:04 UTC] [TG POLL] нет новых апдейтов
+[2026-10-30 17:53:05 UTC] 📊 BTC Dom=59.2%
+[2026-10-30 17:53:05 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-10-30 17:53:05 UTC] 🌡 F&G=30 Regime=BEAR Open=6
+[2026-10-30 17:53:05 UTC]   📂 HOLD BNB/sM PnL=+3.26%
+[2026-10-30 17:53:06 UTC]   📂 HOLD LEO/sE PnL=+4.52%
+[2026-10-30 17:53:06 UTC]   ❌ CLOSE FIGR_HELOC/sE: 📉 Death Cross EMA9<EMA21 PnL=-1.55% held=3д 19ч
+[2026-10-30 17:53:06 UTC] [TG] Bad Request: can't parse entities: Unsupported start tag "ema21" at byte offset 92
+[2026-10-30 17:53:07 UTC]   📂 HOLD KCS/sE PnL=-4.93%
+[2026-10-30 17:53:07 UTC]   📂 HOLD HYPE/sM PnL=-2.94%
+[2026-10-30 17:53:07 UTC]   📂 HOLD TRX/sE PnL=-0.89%
+[2026-10-30 17:53:07 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-10-30 17:53:07 UTC] ✓ CoinGecko: 84 токенов. Проверяю входы...
+[2026-10-30 17:53:12 UTC]   ⏭ XMR: нет данных (monero)
+[2026-10-30 17:53:12 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-10-30 17:53:15 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-10-30 17:53:19 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-10-30 17:53:21 UTC]   ⏭ M: нет данных (memecore)
+[2026-10-30 17:53:22 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-10-30 17:53:24 UTC]   ⏭ EURSAFO: нет данных (spiko-amundi-overnight-swap-fund-eur)
+[2026-10-30 17:53:24 UTC]   ⏭ BTW: нет данных (bitway)
+[2026-10-30 17:53:26 UTC]   ⏭ U: нет данных (united-stables)
+[2026-10-30 17:53:27 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-10-30 17:53:28 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-10-30 17:53:29 UTC]   ⏭ USDGO: нет данных (usdgo)
+[2026-10-30 17:53:29 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-10-30 17:53:31 UTC]   ⏭ JST: нет данных (just)
+[2026-10-30 17:53:31 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-10-30 17:53:32 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-10-30 17:53:32 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-10-30 17:53:33 UTC]   ⏭ OUSD: нет данных (open-usd)
+[2026-10-30 17:53:35 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-10-30 17:53:37 UTC]   ⏭ GHO: нет данных (gho)
+[2026-10-30 17:53:38 UTC]   ⏭ CAKE: нет данных (pancakeswap-token)
+[2026-10-30 17:53:38 UTC]   ⏭ XDC: нет данных (xdce-crowd-sale)
+[2026-10-30 17:53:40 UTC]   ⏭ PEARL: нет данных (pearl-2)
+[2026-10-30 17:53:40 UTC]   ⏭ JAAA: нет данных (janus-henderson-anemoy-aaa-clo-fund)
+[2026-10-30 17:53:40 UTC]   ⏭ BDX: нет данных (beldex)
+[2026-10-30 17:53:41 UTC]   ⏭ 币安人生: нет данных (bianrensheng)
+[2026-10-30 17:53:41 UTC] ✅ Данные: 58 токенов OK, 26 недоступно | Открыто: 0 | Всего: 5
+[2026-10-30 17:53:42 UTC] [EMAIL] ✅ → m5827777@gmail.com
+[2026-10-30 17:53:43 UTC] 📧 6h report sent
+[2026-10-30 17:53:43 UTC] 
+📊 ИТОГ: WR=33.5% PnL=$154.63 Trades=468
