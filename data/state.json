@@ -86,6 +86,25 @@
       "peakPnl": 0
     },
     {
+      "id": "TRX_sE_1793339647227",
+      "symbol": "TRX",
+      "name": "TRON",
+      "coinId": "tron",
+      "rank": 8,
+      "stratId": "sE",
+      "entryPrice": 0.34227,
+      "entryTime": 1793339647227,
+      "entryDate": "2026-10-30T05:54:07.227Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.3329 > EMA21=0.3327 · RSI=65 · Vol x9.5",
+      "strength": 92,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    }
+  ],
+  "closedTrades": [
+    {
       "id": "TRX_sM_1793312414013",
       "symbol": "TRX",
       "name": "TRON",
@@ -97,13 +116,17 @@
       "entryDate": "2026-10-29T22:20:14.013Z",
       "entrySignal": "Пробой 20d max $0.3373 на +10.7% · Объём x5.9 · RSI=82",
       "strength": 95,
-      "regime": "BULL_TREND",
+      "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 0.34223,
+      "exitTime": 1793339643948,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -8.323064559335666,
+      "pnlUsd": -8.323064559335666,
+      "total": 91.67693544066434
+    },
     {
       "id": "XDC_sE_1793056622810",
       "symbol": "XDC",
@@ -10856,7 +10879,7 @@
     "XRP_sR": 1789577117023,
     "ZEC_sR": 1791928964363,
     "BNB_sR": 1779093283699,
-    "TRX_sE": 1789224666204,
+    "TRX_sE": 1793339647227,
     "WBT_sR": 1779119539183,
     "ONDO_sR": 1779898347287,
     "BTC_sR": 1779202157518,
@@ -10977,20 +11000,20 @@
     "VVV_sE": 1792865236788,
     "XDC_sE": 1793411958301,
     "PEPE_sM": 1793391610773,
-    "TRX_sM": 1793312414013
+    "TRX_sM": 1793418843948
   },
-  "scanCount": 2854,
+  "scanCount": 2855,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-30T03:59:57.132Z",
+  "lastScan": "2026-10-30T05:54:43.383Z",
   "lastReport": "2026-10-30T03:59:57.132Z",
   "marketRegime": "BEAR",
   "fearGreed": 30,
   "totalStats": {
-    "trades": 466,
+    "trades": 467,
     "wins": 157,
-    "losses": 309,
-    "totalPnl": 164.49784237335743,
-    "invested": 46600
+    "losses": 310,
+    "totalPnl": 156.17477781402175,
+    "invested": 46700
   },
   "byStrategy": {
     "sR": {
@@ -11004,9 +11027,9 @@
       "pnl": 205.68079447400692
     },
     "sM": {
-      "trades": 81,
+      "trades": 82,
       "wins": 25,
-      "pnl": 30.227932197992622
+      "pnl": 21.904867638656956
     }
   },
   "byRegime": {
@@ -11051,9 +11074,9 @@
         "pnl": -114.82673964839331
       },
       "sM": {
-        "trades": 9,
+        "trades": 10,
         "wins": 3,
-        "pnl": -39.01416685894951
+        "pnl": -47.33723141828517
       },
       "sE": {
         "trades": 55,
@@ -11096,5 +11119,5 @@
       }
     }
   },
-  "btcDominance": 59.3
+  "btcDominance": 59.4
 }
