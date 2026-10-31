@@ -67,7 +67,9 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "TRX_sE_1793339647227",
       "symbol": "TRX",
@@ -80,13 +82,17 @@
       "entryDate": "2026-10-30T05:54:07.227Z",
       "entrySignal": "Golden Cross сегодня · EMA9=0.3329 > EMA21=0.3327 · RSI=65 · Vol x9.5",
       "strength": 92,
-      "regime": "NEUTRAL",
+      "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 0.32909,
+      "exitTime": 1793428874438,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -3.8507610950419333,
+      "pnlUsd": -3.8507610950419333,
+      "total": 96.14923890495807
+    },
     {
       "id": "FIGR_HELOC_sE_1793052706605",
       "symbol": "FIGR_HELOC",
@@ -11008,18 +11014,18 @@
     "PEPE_sM": 1793391610773,
     "TRX_sM": 1793418843948
   },
-  "scanCount": 2863,
+  "scanCount": 2864,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-10-31T03:44:48.981Z",
+  "lastScan": "2026-10-31T06:41:52.523Z",
   "lastReport": "2026-10-31T03:44:48.981Z",
   "marketRegime": "BEAR",
   "fearGreed": 30,
   "totalStats": {
-    "trades": 468,
+    "trades": 469,
     "wins": 157,
-    "losses": 311,
-    "totalPnl": 154.62731659537832,
-    "invested": 46800
+    "losses": 312,
+    "totalPnl": 150.77655550033637,
+    "invested": 46900
   },
   "byStrategy": {
     "sR": {
@@ -11028,9 +11034,9 @@
       "pnl": -71.410884298642
     },
     "sE": {
-      "trades": 256,
+      "trades": 257,
       "wins": 82,
-      "pnl": 204.13333325536348
+      "pnl": 200.28257216032154
     },
     "sM": {
       "trades": 82,
@@ -11085,9 +11091,9 @@
         "pnl": -47.33723141828517
       },
       "sE": {
-        "trades": 56,
+        "trades": 57,
         "wins": 12,
-        "pnl": -114.40801104987958
+        "pnl": -118.25877214492151
       }
     },
     "BEAR_TREND": {
