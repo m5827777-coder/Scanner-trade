@@ -50,7 +50,9 @@
       "size": 100,
       "src": "Bybit",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "HYPE_sM_1793288512335",
       "symbol": "HYPE",
@@ -63,13 +65,17 @@
       "entryDate": "2026-10-29T15:41:52.335Z",
       "entrySignal": "Пробой 20d max $89.0940 на +5.3% · Объём x4.2 · RSI=67",
       "strength": 95,
-      "regime": "BULL_TREND",
+      "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 87.143,
+      "exitTime": 1793565406485,
+      "exitReason": "🛑 SL -7%",
+      "pnl": -7.097014925373131,
+      "pnlUsd": -7.09701492537313,
+      "total": 92.90298507462687
+    },
     {
       "id": "TRX_sE_1793339647227",
       "symbol": "TRX",
@@ -10975,7 +10981,7 @@
     "GT_sM": 1787344424213,
     "LTC_sM": 1790732852386,
     "SUI_sM": 1787456117335,
-    "HYPE_sM": 1793288512335,
+    "HYPE_sM": 1793644606485,
     "HBAR_sM": 1790783539582,
     "ADA_sM": 1791542366826,
     "SHIB_sM": 1787536937167,
@@ -11014,18 +11020,18 @@
     "PEPE_sM": 1793391610773,
     "TRX_sM": 1793418843948
   },
-  "scanCount": 2876,
+  "scanCount": 2877,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-01T16:21:41.123Z",
-  "lastReport": "2026-11-01T12:31:41.130Z",
+  "lastScan": "2026-11-01T20:37:24.191Z",
+  "lastReport": "2026-11-01T20:37:24.191Z",
   "marketRegime": "BEAR",
   "fearGreed": 34,
   "totalStats": {
-    "trades": 469,
+    "trades": 470,
     "wins": 157,
-    "losses": 312,
-    "totalPnl": 150.77655550033637,
-    "invested": 46900
+    "losses": 313,
+    "totalPnl": 143.67954057496326,
+    "invested": 47000
   },
   "byStrategy": {
     "sR": {
@@ -11039,9 +11045,9 @@
       "pnl": 200.28257216032154
     },
     "sM": {
-      "trades": 82,
+      "trades": 83,
       "wins": 25,
-      "pnl": 21.904867638656956
+      "pnl": 14.807852713283825
     }
   },
   "byRegime": {
@@ -11086,9 +11092,9 @@
         "pnl": -114.82673964839331
       },
       "sM": {
-        "trades": 10,
+        "trades": 11,
         "wins": 3,
-        "pnl": -47.33723141828517
+        "pnl": -54.4342463436583
       },
       "sE": {
         "trades": 57,
@@ -11131,5 +11137,5 @@
       }
     }
   },
-  "btcDominance": 59.9
+  "btcDominance": 60
 }
