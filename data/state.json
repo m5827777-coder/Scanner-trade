@@ -50,6 +50,23 @@
       "size": 100,
       "src": "Bybit",
       "peakPnl": 0
+    },
+    {
+      "id": "XMR_sE_1793629942944",
+      "symbol": "XMR",
+      "name": "Monero",
+      "coinId": "monero",
+      "rank": 13,
+      "stratId": "sE",
+      "entryPrice": 604.0117738640529,
+      "entryTime": 1793629942944,
+      "entryDate": "2026-11-02T14:32:22.944Z",
+      "entrySignal": "EMA начало расхождения · EMA9=598.4624 > EMA21=588.8479 · RSI=57 · Vol x1.1",
+      "strength": 66,
+      "regime": "BULL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -10909,7 +10926,7 @@
     "ASTER_sE": 1791049655173,
     "NEAR_sM": 1789991142330,
     "RENDER_sE": 1789931960550,
-    "XMR_sE": 1792782391606,
+    "XMR_sE": 1793629942944,
     "ZEC_sM": 1791532946022,
     "ICP_sR": 1779986502655,
     "WLD_sE": 1792875904162,
@@ -11020,10 +11037,10 @@
     "PEPE_sM": 1793391610773,
     "TRX_sM": 1793418843948
   },
-  "scanCount": 2882,
+  "scanCount": 2883,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-02T10:03:48.537Z",
-  "lastReport": "2026-11-02T10:03:48.537Z",
+  "lastScan": "2026-11-02T14:32:56.056Z",
+  "lastReport": "2026-11-02T14:32:56.056Z",
   "marketRegime": "BEAR",
   "fearGreed": 37,
   "totalStats": {
@@ -11137,5 +11154,5 @@
       }
     }
   },
-  "btcDominance": 60
+  "btcDominance": 59.3
 }
