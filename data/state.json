@@ -101,6 +101,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "ZEC_sE_1793799566204",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 10,
+      "stratId": "sE",
+      "entryPrice": 1288.27,
+      "entryTime": 1793799566204,
+      "entryDate": "2026-11-04T13:39:26.204Z",
+      "entrySignal": "Golden Cross 6д назад · EMA9=1254.4600 > EMA21=1254.9026 · RSI=50 · Vol x1.1",
+      "strength": 76,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -10982,7 +10999,7 @@
     "WLD_sM": 1790644147775,
     "NIGHT_sE": 1793759258647,
     "ONDO_sE": 1789699628274,
-    "ZEC_sE": 1793391609849,
+    "ZEC_sE": 1793799566204,
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1791559245393,
     "NEAR_sE": 1787463924108,
@@ -11071,10 +11088,10 @@
     "PEPE_sM": 1793391610773,
     "TRX_sM": 1793418843948
   },
-  "scanCount": 2894,
+  "scanCount": 2895,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-04T09:37:31.564Z",
-  "lastReport": "2026-11-04T04:30:24.664Z",
+  "lastScan": "2026-11-04T13:39:57.703Z",
+  "lastReport": "2026-11-04T13:39:57.703Z",
   "marketRegime": "BEAR",
   "fearGreed": 34,
   "totalStats": {
@@ -11188,5 +11205,5 @@
       }
     }
   },
-  "btcDominance": 60
+  "btcDominance": 59.4
 }
