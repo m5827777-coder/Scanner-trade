@@ -86,23 +86,6 @@
       "peakPnl": 0
     },
     {
-      "id": "NIGHT_sE_1793759258647",
-      "symbol": "NIGHT",
-      "name": "Midnight",
-      "coinId": "midnight-3",
-      "rank": 89,
-      "stratId": "sE",
-      "entryPrice": 0.041311,
-      "entryTime": 1793759258647,
-      "entryDate": "2026-11-04T02:27:38.647Z",
-      "entrySignal": "Golden Cross 3д назад · EMA9=0.0409 > EMA21=0.0405 · RSI=56 · Vol x1.2",
-      "strength": 68,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    },
-    {
       "id": "ZEC_sE_1793799566204",
       "symbol": "ZEC",
       "name": "Zcash",
@@ -121,6 +104,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "NIGHT_sE_1793759258647",
+      "symbol": "NIGHT",
+      "name": "Midnight",
+      "coinId": "midnight-3",
+      "rank": 89,
+      "stratId": "sE",
+      "entryPrice": 0.041311,
+      "entryTime": 1793759258647,
+      "entryDate": "2026-11-04T02:27:38.647Z",
+      "entrySignal": "Golden Cross 3д назад · EMA9=0.0409 > EMA21=0.0405 · RSI=56 · Vol x1.2",
+      "strength": 68,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 0.038772,
+      "exitTime": 1793900756749,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.146062791992446,
+      "pnlUsd": -6.146062791992446,
+      "total": 93.85393720800755
+    },
     {
       "id": "HYPE_sM_1793288512335",
       "symbol": "HYPE",
@@ -10997,7 +11003,7 @@
     "XLM_sM": 1791559240985,
     "RAIN_sE": 1788212259153,
     "WLD_sM": 1790644147775,
-    "NIGHT_sE": 1793759258647,
+    "NIGHT_sE": 1793979956749,
     "ONDO_sE": 1789699628274,
     "ZEC_sE": 1793799566204,
     "TRUMP_sM": 1781481460279,
@@ -11088,18 +11094,18 @@
     "PEPE_sM": 1793391610773,
     "TRX_sM": 1793418843948
   },
-  "scanCount": 2902,
+  "scanCount": 2903,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-05T13:52:24.542Z",
+  "lastScan": "2026-11-05T17:46:37.568Z",
   "lastReport": "2026-11-05T13:52:24.542Z",
-  "marketRegime": "NEUTRAL",
+  "marketRegime": "BEAR",
   "fearGreed": 50,
   "totalStats": {
-    "trades": 470,
+    "trades": 471,
     "wins": 157,
-    "losses": 313,
-    "totalPnl": 143.67954057496326,
-    "invested": 47000
+    "losses": 314,
+    "totalPnl": 137.5334777829708,
+    "invested": 47100
   },
   "byStrategy": {
     "sR": {
@@ -11108,9 +11114,9 @@
       "pnl": -71.410884298642
     },
     "sE": {
-      "trades": 257,
+      "trades": 258,
       "wins": 82,
-      "pnl": 200.28257216032154
+      "pnl": 194.1365093683291
     },
     "sM": {
       "trades": 83,
@@ -11165,9 +11171,9 @@
         "pnl": -54.4342463436583
       },
       "sE": {
-        "trades": 57,
+        "trades": 58,
         "wins": 12,
-        "pnl": -118.25877214492151
+        "pnl": -124.40483493691396
       }
     },
     "BEAR_TREND": {
@@ -11205,5 +11211,5 @@
       }
     }
   },
-  "btcDominance": 59.5
+  "btcDominance": 59.2
 }
