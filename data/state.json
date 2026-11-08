@@ -11094,12 +11094,12 @@
     "PEPE_sM": 1793391610773,
     "TRX_sM": 1793418843948
   },
-  "scanCount": 2920,
+  "scanCount": 2921,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-07T22:47:07.714Z",
+  "lastScan": "2026-11-08T01:52:55.073Z",
   "lastReport": "2026-11-07T21:20:44.013Z",
   "marketRegime": "BEAR",
-  "fearGreed": 25,
+  "fearGreed": 28,
   "totalStats": {
     "trades": 471,
     "wins": 157,
