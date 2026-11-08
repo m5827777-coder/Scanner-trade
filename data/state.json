@@ -67,6 +67,31 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    }
+  ],
+  "closedTrades": [
+    {
+      "id": "ZEC_sE_1793799566204",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "coinId": "zcash",
+      "rank": 10,
+      "stratId": "sE",
+      "entryPrice": 1288.27,
+      "entryTime": 1793799566204,
+      "entryDate": "2026-11-04T13:39:26.204Z",
+      "entrySignal": "Golden Cross 6д назад · EMA9=1254.4600 > EMA21=1254.9026 · RSI=50 · Vol x1.1",
+      "strength": 76,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0,
+      "exitPrice": 1205.67,
+      "exitTime": 1794178764195,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.411699410837783,
+      "pnlUsd": -6.411699410837783,
+      "total": 93.58830058916222
     },
     {
       "id": "ASTER_sE_1793712526959",
@@ -80,30 +105,17 @@
       "entryDate": "2026-11-03T13:28:46.959Z",
       "entrySignal": "Golden Cross 5д назад · EMA9=0.7010 > EMA21=0.7042 · RSI=49 · Vol x2.6",
       "strength": 74,
-      "regime": "NEUTRAL",
+      "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
+      "peakPnl": 0,
+      "exitPrice": 0.6496,
+      "exitTime": 1794178763440,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -7.543410190720189,
+      "pnlUsd": -7.543410190720189,
+      "total": 92.4565898092798
     },
-    {
-      "id": "ZEC_sE_1793799566204",
-      "symbol": "ZEC",
-      "name": "Zcash",
-      "coinId": "zcash",
-      "rank": 10,
-      "stratId": "sE",
-      "entryPrice": 1288.27,
-      "entryTime": 1793799566204,
-      "entryDate": "2026-11-04T13:39:26.204Z",
-      "entrySignal": "Golden Cross 6д назад · EMA9=1254.4600 > EMA21=1254.9026 · RSI=50 · Vol x1.1",
-      "strength": 76,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
     {
       "id": "NIGHT_sE_1793759258647",
       "symbol": "NIGHT",
@@ -10980,7 +10992,7 @@
     "JUP_sR": 1780075427579,
     "DASH_sE": 1779550477183,
     "SUI_sR": 1779554020771,
-    "ASTER_sE": 1793712526960,
+    "ASTER_sE": 1794257963440,
     "NEAR_sM": 1789991142330,
     "RENDER_sE": 1789931960550,
     "XMR_sE": 1793629942944,
@@ -11005,7 +11017,7 @@
     "WLD_sM": 1790644147775,
     "NIGHT_sE": 1793979956749,
     "ONDO_sE": 1789699628274,
-    "ZEC_sE": 1793799566204,
+    "ZEC_sE": 1794257964196,
     "TRUMP_sM": 1781481460279,
     "ATOM_sE": 1791559245393,
     "NEAR_sE": 1787463924108,
@@ -11094,18 +11106,18 @@
     "PEPE_sM": 1793391610773,
     "TRX_sM": 1793418843948
   },
-  "scanCount": 2927,
+  "scanCount": 2928,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-08T21:35:08.132Z",
+  "lastScan": "2026-11-08T23:00:03.518Z",
   "lastReport": "2026-11-08T21:35:08.132Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
-    "trades": 471,
+    "trades": 473,
     "wins": 157,
-    "losses": 314,
-    "totalPnl": 137.5334777829708,
-    "invested": 47100
+    "losses": 316,
+    "totalPnl": 123.57836818141284,
+    "invested": 47300
   },
   "byStrategy": {
     "sR": {
@@ -11114,9 +11126,9 @@
       "pnl": -71.410884298642
     },
     "sE": {
-      "trades": 258,
+      "trades": 260,
       "wins": 82,
-      "pnl": 194.1365093683291
+      "pnl": 180.18139976677114
     },
     "sM": {
       "trades": 83,
@@ -11171,9 +11183,9 @@
         "pnl": -54.4342463436583
       },
       "sE": {
-        "trades": 58,
+        "trades": 60,
         "wins": 12,
-        "pnl": -124.40483493691396
+        "pnl": -138.35994453847192
       }
     },
     "BEAR_TREND": {
@@ -11211,5 +11223,5 @@
       }
     }
   },
-  "btcDominance": 60
+  "btcDominance": 60.1
 }
