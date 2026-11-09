@@ -35,23 +35,6 @@
       "peakPnl": 0
     },
     {
-      "id": "KCS_sE_1793056611021",
-      "symbol": "KCS",
-      "name": "KuCoin",
-      "coinId": "kucoin-shares",
-      "rank": 73,
-      "stratId": "sE",
-      "entryPrice": 7.395,
-      "entryTime": 1793056611021,
-      "entryDate": "2026-10-26T23:16:51.021Z",
-      "entrySignal": "Golden Cross 5д назад · EMA9=7.3703 > EMA21=7.4059 · RSI=51 · Vol x2.0",
-      "strength": 74,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "Bybit",
-      "peakPnl": 0
-    },
-    {
       "id": "XMR_sE_1793629942944",
       "symbol": "XMR",
       "name": "Monero",
@@ -70,6 +53,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "KCS_sE_1793056611021",
+      "symbol": "KCS",
+      "name": "KuCoin",
+      "coinId": "kucoin-shares",
+      "rank": 73,
+      "stratId": "sE",
+      "entryPrice": 7.395,
+      "entryTime": 1793056611021,
+      "entryDate": "2026-10-26T23:16:51.021Z",
+      "entrySignal": "Golden Cross 5д назад · EMA9=7.3703 > EMA21=7.4059 · RSI=51 · Vol x2.0",
+      "strength": 74,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "Bybit",
+      "peakPnl": 0,
+      "exitPrice": 6.910897011709037,
+      "exitTime": 1794197493904,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -6.546355487369343,
+      "pnlUsd": -6.546355487369343,
+      "total": 93.45364451263066
+    },
     {
       "id": "ZEC_sE_1793799566204",
       "symbol": "ZEC",
@@ -11073,7 +11079,7 @@
     "SHIB_sM": 1787536937167,
     "AVAX_sM": 1792915639455,
     "TRUMP_sE": 1787451269778,
-    "KCS_sE": 1793056611021,
+    "KCS_sE": 1794276693904,
     "MORPHO_sM": 1787745401674,
     "RAIN_sM": 1787791182012,
     "XMR_sM": 1788189662271,
@@ -11106,18 +11112,18 @@
     "PEPE_sM": 1793391610773,
     "TRX_sM": 1793418843948
   },
-  "scanCount": 2929,
+  "scanCount": 2930,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-09T02:27:53.746Z",
-  "lastReport": "2026-11-08T21:35:08.132Z",
+  "lastScan": "2026-11-09T04:12:11.949Z",
+  "lastReport": "2026-11-09T04:12:11.949Z",
   "marketRegime": "BEAR",
   "fearGreed": 29,
   "totalStats": {
-    "trades": 473,
+    "trades": 474,
     "wins": 157,
-    "losses": 316,
-    "totalPnl": 123.57836818141284,
-    "invested": 47300
+    "losses": 317,
+    "totalPnl": 117.0320126940435,
+    "invested": 47400
   },
   "byStrategy": {
     "sR": {
@@ -11126,9 +11132,9 @@
       "pnl": -71.410884298642
     },
     "sE": {
-      "trades": 260,
+      "trades": 261,
       "wins": 82,
-      "pnl": 180.18139976677114
+      "pnl": 173.6350442794018
     },
     "sM": {
       "trades": 83,
@@ -11183,9 +11189,9 @@
         "pnl": -54.4342463436583
       },
       "sE": {
-        "trades": 60,
+        "trades": 61,
         "wins": 12,
-        "pnl": -138.35994453847192
+        "pnl": -144.90630002584126
       }
     },
     "BEAR_TREND": {
@@ -11223,5 +11229,5 @@
       }
     }
   },
-  "btcDominance": 60.2
+  "btcDominance": 60.1
 }
