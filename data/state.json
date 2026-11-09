@@ -11112,9 +11112,9 @@
     "PEPE_sM": 1793391610773,
     "TRX_sM": 1793418843948
   },
-  "scanCount": 2930,
+  "scanCount": 2931,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-09T04:12:11.949Z",
+  "lastScan": "2026-11-09T10:03:24.392Z",
   "lastReport": "2026-11-09T04:12:11.949Z",
   "marketRegime": "BEAR",
   "fearGreed": 29,
@@ -11229,5 +11229,5 @@
       }
     }
   },
-  "btcDominance": 60.1
+  "btcDominance": 60.2
 }
