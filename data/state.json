@@ -33,7 +33,9 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "XMR_sE_1793629942944",
       "symbol": "XMR",
@@ -46,13 +48,17 @@
       "entryDate": "2026-11-02T14:32:22.944Z",
       "entrySignal": "EMA начало расхождения · EMA9=598.4624 > EMA21=588.8479 · RSI=57 · Vol x1.1",
       "strength": 66,
-      "regime": "BULL",
+      "regime": "BEAR",
       "size": 100,
       "src": "CoinGecko",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 543.9665451136993,
+      "exitTime": 1794306801518,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -9.941069255359936,
+      "pnlUsd": -9.941069255359936,
+      "total": 90.05893074464007
+    },
     {
       "id": "KCS_sE_1793056611021",
       "symbol": "KCS",
@@ -11001,7 +11007,7 @@
     "ASTER_sE": 1794257963440,
     "NEAR_sM": 1789991142330,
     "RENDER_sE": 1789931960550,
-    "XMR_sE": 1793629942944,
+    "XMR_sE": 1794386001519,
     "ZEC_sM": 1791532946022,
     "ICP_sR": 1779986502655,
     "WLD_sE": 1792875904162,
@@ -11112,18 +11118,18 @@
     "PEPE_sM": 1793391610773,
     "TRX_sM": 1793418843948
   },
-  "scanCount": 2935,
+  "scanCount": 2936,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-10T02:54:39.043Z",
-  "lastReport": "2026-11-10T01:04:47.697Z",
+  "lastScan": "2026-11-10T10:33:59.388Z",
+  "lastReport": "2026-11-10T10:33:59.388Z",
   "marketRegime": "BEAR",
   "fearGreed": 32,
   "totalStats": {
-    "trades": 474,
+    "trades": 475,
     "wins": 157,
-    "losses": 317,
-    "totalPnl": 117.0320126940435,
-    "invested": 47400
+    "losses": 318,
+    "totalPnl": 107.09094343868357,
+    "invested": 47500
   },
   "byStrategy": {
     "sR": {
@@ -11132,9 +11138,9 @@
       "pnl": -71.410884298642
     },
     "sE": {
-      "trades": 261,
+      "trades": 262,
       "wins": 82,
-      "pnl": 173.6350442794018
+      "pnl": 163.69397502404186
     },
     "sM": {
       "trades": 83,
@@ -11189,9 +11195,9 @@
         "pnl": -54.4342463436583
       },
       "sE": {
-        "trades": 61,
+        "trades": 62,
         "wins": 12,
-        "pnl": -144.90630002584126
+        "pnl": -154.8473692812012
       }
     },
     "BEAR_TREND": {
@@ -11229,5 +11235,5 @@
       }
     }
   },
-  "btcDominance": 59.7
+  "btcDominance": 60.3
 }
