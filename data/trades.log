@@ -162983,3 +162983,47 @@ FetchError: request to https://api.telegram.org/bot8534041604:AAHDJsogF5XE1KrHY1
 [2026-11-09 20:38:43 UTC] ✅ Данные: 59 токенов OK, 25 недоступно | Открыто: 0 | Всего: 3
 [2026-11-09 20:38:43 UTC] 
 📊 ИТОГ: WR=33.1% PnL=$117.03 Trades=474
+[2026-11-10 01:04:06 UTC] ════════════════════════════════════════════════════
+[2026-11-10 01:04:06 UTC] 🤖 Bot v6 | action=scan | report=true
+[2026-11-10 01:04:06 UTC] ════════════════════════════════════════════════════
+[2026-11-10 01:04:06 UTC] 📡 Scan #2934
+[2026-11-10 01:04:06 UTC] [TG POLL] getUpdates offset=933266562
+[2026-11-10 01:04:07 UTC] [TG POLL] нет новых апдейтов
+[2026-11-10 01:04:07 UTC] 📊 BTC Dom=59.7%
+[2026-11-10 01:04:07 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-11-10 01:04:08 UTC] 🌡 F&G=32 Regime=BEAR Open=3
+[2026-11-10 01:04:08 UTC]   📂 HOLD BNB/sM PnL=+1.80%
+[2026-11-10 01:04:08 UTC]   📂 HOLD LEO/sE PnL=+3.51%
+[2026-11-10 01:04:08 UTC]   📂 HOLD XMR/sE PnL=-3.53%
+[2026-11-10 01:04:08 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-11-10 01:04:08 UTC] ✓ CoinGecko: 84 токенов. Проверяю входы...
+[2026-11-10 01:04:14 UTC]   ⏭ WBT: нет данных (whitebit)
+[2026-11-10 01:04:21 UTC]   ⏭ RAIN: нет данных (rain)
+[2026-11-10 01:04:22 UTC]   ⏭ QNT: нет данных (quant-network)
+[2026-11-10 01:04:26 UTC]   ⏭ EURSAFO: нет данных (spiko-amundi-overnight-swap-fund-eur)
+[2026-11-10 01:04:27 UTC]   ⏭ M: нет данных (memecore)
+[2026-11-10 01:04:28 UTC]   ⏭ BUIDL: нет данных (blackrock-usd-institutional-digital-liquidity-fund)
+[2026-11-10 01:04:29 UTC]   ⏭ U: нет данных (united-stables)
+[2026-11-10 01:04:29 UTC]   ⏭ BTW: нет данных (bitway)
+[2026-11-10 01:04:30 UTC]   ⏭ MNT: нет данных (mantle)
+[2026-11-10 01:04:32 UTC]   ⏭ HTX: нет данных (htx-dao)
+[2026-11-10 01:04:33 UTC]   ⏭ BGB: нет данных (bitget-token)
+[2026-11-10 01:04:34 UTC]   ⏭ JST: нет данных (just)
+[2026-11-10 01:04:35 UTC]   ⏭ USDGO: нет данных (usdgo)
+[2026-11-10 01:04:36 UTC]   ⏭ GT: нет данных (gatechain-token)
+[2026-11-10 01:04:36 UTC]   ⏭ KCS: нет данных (kucoin-shares)
+[2026-11-10 01:04:37 UTC]   ⏭ OUSD: нет данных (open-usd)
+[2026-11-10 01:04:39 UTC]   ⏭ KAS: нет данных (kaspa)
+[2026-11-10 01:04:41 UTC]   ⏭ NEXO: нет данных (nexo)
+[2026-11-10 01:04:42 UTC]   ⏭ CAKE: нет данных (pancakeswap-token)
+[2026-11-10 01:04:42 UTC]   ⏭ GHO: нет данных (gho)
+[2026-11-10 01:04:45 UTC]   ⏭ PEARL: нет данных (pearl-2)
+[2026-11-10 01:04:46 UTC]   ⏭ XDC: нет данных (xdce-crowd-sale)
+[2026-11-10 01:04:46 UTC]   ⏭ JAAA: нет данных (janus-henderson-anemoy-aaa-clo-fund)
+[2026-11-10 01:04:47 UTC]   ⏭ BDX: нет данных (beldex)
+[2026-11-10 01:04:47 UTC]   ⏭ PIEVERSE: нет данных (pieverse)
+[2026-11-10 01:04:47 UTC] ✅ Данные: 59 токенов OK, 25 недоступно | Открыто: 0 | Всего: 3
+[2026-11-10 01:04:48 UTC] [EMAIL] ✅ → m5827777@gmail.com
+[2026-11-10 01:04:49 UTC] 📧 6h report sent
+[2026-11-10 01:04:49 UTC] 
+📊 ИТОГ: WR=33.1% PnL=$117.03 Trades=474
