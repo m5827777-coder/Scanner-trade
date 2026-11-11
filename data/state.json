@@ -50,6 +50,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "NIGHT_sE_1794403548403",
+      "symbol": "NIGHT",
+      "name": "Midnight",
+      "coinId": "midnight-3",
+      "rank": 85,
+      "stratId": "sE",
+      "entryPrice": 0.044496,
+      "entryTime": 1794403548403,
+      "entryDate": "2026-11-11T13:25:48.403Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.0414 > EMA21=0.0413 · RSI=56 · Vol x1.1",
+      "strength": 82,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -11044,7 +11061,7 @@
     "XLM_sM": 1791559240985,
     "RAIN_sE": 1788212259153,
     "WLD_sM": 1790644147775,
-    "NIGHT_sE": 1793979956749,
+    "NIGHT_sE": 1794403548404,
     "ONDO_sE": 1789699628274,
     "ZEC_sE": 1794257964196,
     "TRUMP_sM": 1781481460279,
@@ -11135,11 +11152,11 @@
     "PEPE_sM": 1793391610773,
     "TRX_sM": 1793418843948
   },
-  "scanCount": 2943,
+  "scanCount": 2944,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-11T09:53:55.237Z",
-  "lastReport": "2026-11-11T04:16:00.409Z",
-  "marketRegime": "BEAR_TREND",
+  "lastScan": "2026-11-11T13:25:54.208Z",
+  "lastReport": "2026-11-11T13:25:54.208Z",
+  "marketRegime": "BEAR",
   "fearGreed": 29,
   "totalStats": {
     "trades": 475,
@@ -11252,5 +11269,5 @@
       }
     }
   },
-  "btcDominance": 60.4
+  "btcDominance": 59.8
 }
