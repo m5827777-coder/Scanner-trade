@@ -67,6 +67,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "U_sE_1794462955291",
+      "symbol": "U",
+      "name": "United Stables",
+      "coinId": "united-stables",
+      "rank": 54,
+      "stratId": "sE",
+      "entryPrice": 0.9993733585633048,
+      "entryTime": 1794462955291,
+      "entryDate": "2026-11-12T05:55:55.291Z",
+      "entrySignal": "Golden Cross 4д назад · EMA9=0.9993 > EMA21=0.9992 · RSI=53 · Vol x1.0",
+      "strength": 59,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -11150,12 +11167,13 @@
     "VVV_sE": 1792865236788,
     "XDC_sE": 1793411958301,
     "PEPE_sM": 1793391610773,
-    "TRX_sM": 1793418843948
+    "TRX_sM": 1793418843948,
+    "U_sE": 1794462955291
   },
-  "scanCount": 2948,
+  "scanCount": 2949,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-12T04:09:51.112Z",
-  "lastReport": "2026-11-11T23:57:34.258Z",
+  "lastScan": "2026-11-12T05:56:12.536Z",
+  "lastReport": "2026-11-12T05:56:12.536Z",
   "marketRegime": "BEAR",
   "fearGreed": 28,
   "totalStats": {
