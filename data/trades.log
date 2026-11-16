@@ -164936,3 +164936,19 @@ FetchError: request to https://api.telegram.org/bot8534041604:AAHDJsogF5XE1KrHY1
 [2026-11-16 04:23:41 UTC] 📧 6h report sent
 [2026-11-16 04:23:41 UTC] 
 📊 ИТОГ: WR=32.8% PnL=$88.88 Trades=478
+[2026-11-16 07:55:58 UTC] ════════════════════════════════════════════════════
+[2026-11-16 07:55:58 UTC] 🤖 Bot v6 | action=scan | report=false
+[2026-11-16 07:55:58 UTC] ════════════════════════════════════════════════════
+[2026-11-16 07:55:58 UTC] 📡 Scan #2978
+[2026-11-16 07:55:58 UTC] [TG POLL] getUpdates offset=933266562
+[2026-11-16 07:55:58 UTC] [TG POLL] нет новых апдейтов
+[2026-11-16 07:55:58 UTC] 📊 BTC Dom=59.4%
+[2026-11-16 07:55:58 UTC] [PARAMS] Перечитаны из /home/runner/work/Scanner-trade/Scanner-trade/bot/params.json
+[2026-11-16 07:55:59 UTC] 🌡 F&G=10 Regime=BEAR_TREND Open=4
+[2026-11-16 07:55:59 UTC]   📂 HOLD LEO/sE PnL=+1.42%
+[2026-11-16 07:55:59 UTC]   📂 HOLD NIGHT/sE PnL=-0.83%
+[2026-11-16 07:55:59 UTC] 🔎 Загружаю топ-100 с CoinGecko...
+[2026-11-16 07:55:59 UTC] [CG ERR] CG 429
+[2026-11-16 07:55:59 UTC] ⚠ CoinGecko недоступен
+[2026-11-16 07:56:00 UTC] 
+📊 ИТОГ: WR=32.8% PnL=$88.88 Trades=478
