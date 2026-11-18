@@ -33,7 +33,9 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
-    },
+    }
+  ],
+  "closedTrades": [
     {
       "id": "FIGR_HELOC_sE_1794620855153",
       "symbol": "FIGR_HELOC",
@@ -46,13 +48,17 @@
       "entryDate": "2026-11-14T01:47:35.153Z",
       "entrySignal": "Golden Cross 4д назад · EMA9=1.0299 > EMA21=1.0306 · RSI=53 · Vol x1.5",
       "strength": 78,
-      "regime": "NEUTRAL",
+      "regime": "BEAR_TREND",
       "size": 100,
       "src": "CoinGecko",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 1.0090721000171137,
+      "exitTime": 1794961397741,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -3.5844340135915322,
+      "pnlUsd": -3.584434013591532,
+      "total": 96.41556598640847
+    },
     {
       "id": "LEO_sE_1792701370004",
       "symbol": "LEO",
@@ -11228,18 +11234,18 @@
     "TRX_sM": 1793418843948,
     "U_sE": 1794462955291
   },
-  "scanCount": 2985,
+  "scanCount": 2986,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-17T18:27:41.144Z",
-  "lastReport": "2026-11-17T15:23:31.359Z",
+  "lastScan": "2026-11-18T00:23:51.015Z",
+  "lastReport": "2026-11-18T00:23:51.015Z",
   "marketRegime": "BEAR_TREND",
-  "fearGreed": 12,
+  "fearGreed": 11,
   "totalStats": {
-    "trades": 479,
+    "trades": 480,
     "wins": 158,
-    "losses": 321,
-    "totalPnl": 90.66809916883673,
-    "invested": 47900
+    "losses": 322,
+    "totalPnl": 87.0836651552452,
+    "invested": 48000
   },
   "byStrategy": {
     "sR": {
@@ -11248,9 +11254,9 @@
       "pnl": -71.410884298642
     },
     "sE": {
-      "trades": 265,
+      "trades": 266,
       "wins": 83,
-      "pnl": 154.50022380484285
+      "pnl": 150.9157897912513
     },
     "sM": {
       "trades": 84,
@@ -11317,9 +11323,9 @@
         "pnl": -52.029195655804884
       },
       "sE": {
-        "trades": 13,
+        "trades": 14,
         "wins": 1,
-        "pnl": -89.92753880072986
+        "pnl": -93.5119728143214
       },
       "sM": {
         "trades": 4,
@@ -11345,5 +11351,5 @@
       }
     }
   },
-  "btcDominance": 58.3
+  "btcDominance": 58.4
 }
