@@ -11234,12 +11234,12 @@
     "TRX_sM": 1793418843948,
     "U_sE": 1794462955291
   },
-  "scanCount": 2992,
+  "scanCount": 2993,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-18T23:48:46.469Z",
+  "lastScan": "2026-11-19T04:23:57.845Z",
   "lastReport": "2026-11-18T23:48:46.469Z",
   "marketRegime": "BEAR_TREND",
-  "fearGreed": 11,
+  "fearGreed": 10,
   "totalStats": {
     "trades": 480,
     "wins": 158,
