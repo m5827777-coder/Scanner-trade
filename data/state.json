@@ -33,6 +33,23 @@
       "size": 100,
       "src": "CoinGecko",
       "peakPnl": 0
+    },
+    {
+      "id": "LEO_sE_1795095290996",
+      "symbol": "LEO",
+      "name": "LEO Token",
+      "coinId": "leo-token",
+      "rank": 14,
+      "stratId": "sE",
+      "entryPrice": 9.339,
+      "entryTime": 1795095290996,
+      "entryDate": "2026-11-19T13:34:50.996Z",
+      "entrySignal": "EMA начало расхождения · EMA9=9.2811 > EMA21=9.2608 · RSI=61 · Vol x1.4",
+      "strength": 67,
+      "regime": "NEUTRAL",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -11162,7 +11179,7 @@
     "AVAX_sE": 1789712865823,
     "SKY_sE": 1783587377362,
     "ARB_sE": 1785010780864,
-    "LEO_sE": 1792701370004,
+    "LEO_sE": 1795095290997,
     "ICP_sM": 1784300180465,
     "POL_sE": 1787457765203,
     "PEPE_sE": 1792885779911,
@@ -11234,10 +11251,10 @@
     "TRX_sM": 1793418843948,
     "U_sE": 1794462955291
   },
-  "scanCount": 2994,
+  "scanCount": 2995,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-19T05:35:14.210Z",
-  "lastReport": "2026-11-19T05:35:14.210Z",
+  "lastScan": "2026-11-19T13:35:22.851Z",
+  "lastReport": "2026-11-19T13:35:22.851Z",
   "marketRegime": "BEAR_TREND",
   "fearGreed": 10,
   "totalStats": {
