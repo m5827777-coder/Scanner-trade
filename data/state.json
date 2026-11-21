@@ -1,5 +1,6 @@
 {
-  "openPositions": [
+  "openPositions": [],
+  "closedTrades": [
     {
       "id": "NIGHT_sE_1794403548403",
       "symbol": "NIGHT",
@@ -12,13 +13,17 @@
       "entryDate": "2026-11-11T13:25:48.403Z",
       "entrySignal": "Golden Cross сегодня · EMA9=0.0414 > EMA21=0.0413 · RSI=56 · Vol x1.1",
       "strength": 82,
-      "regime": "NEUTRAL",
+      "regime": "BEAR_TREND",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 0.040331,
+      "exitTime": 1795238106709,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -9.360391945343407,
+      "pnlUsd": -9.360391945343407,
+      "total": 90.63960805465659
+    },
     {
       "id": "U_sE_1794462955291",
       "symbol": "U",
@@ -11171,7 +11176,7 @@
     "XLM_sM": 1791559240985,
     "RAIN_sE": 1788212259153,
     "WLD_sM": 1790644147775,
-    "NIGHT_sE": 1794403548404,
+    "NIGHT_sE": 1795317306709,
     "ONDO_sE": 1789699628274,
     "ZEC_sE": 1794257964196,
     "TRUMP_sM": 1781481460279,
@@ -11263,18 +11268,18 @@
     "TRX_sM": 1793418843948,
     "U_sE": 1794462955291
   },
-  "scanCount": 3004,
+  "scanCount": 3005,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-21T00:15:25.156Z",
-  "lastReport": "2026-11-20T23:35:17.109Z",
+  "lastScan": "2026-11-21T05:15:41.412Z",
+  "lastReport": "2026-11-21T05:15:41.412Z",
   "marketRegime": "BEAR_TREND",
   "fearGreed": 12,
   "totalStats": {
-    "trades": 482,
+    "trades": 483,
     "wins": 158,
-    "losses": 324,
-    "totalPnl": 85.22761104417036,
-    "invested": 48200
+    "losses": 325,
+    "totalPnl": 75.86721909882695,
+    "invested": 48300
   },
   "byStrategy": {
     "sR": {
@@ -11283,9 +11288,9 @@
       "pnl": -71.410884298642
     },
     "sE": {
-      "trades": 268,
+      "trades": 269,
       "wins": 83,
-      "pnl": 149.05973568017646
+      "pnl": 139.69934373483306
     },
     "sM": {
       "trades": 84,
@@ -11352,9 +11357,9 @@
         "pnl": -52.029195655804884
       },
       "sE": {
-        "trades": 16,
+        "trades": 17,
         "wins": 1,
-        "pnl": -95.36802692539624
+        "pnl": -104.72841887073965
       },
       "sM": {
         "trades": 4,
@@ -11380,5 +11385,5 @@
       }
     }
   },
-  "btcDominance": 57.8
+  "btcDominance": 57.3
 }
