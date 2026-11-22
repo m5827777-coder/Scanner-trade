@@ -1,5 +1,23 @@
 {
-  "openPositions": [],
+  "openPositions": [
+    {
+      "id": "VVV_sE_1795361747393",
+      "symbol": "VVV",
+      "name": "Venice Token",
+      "coinId": "venice-token",
+      "rank": 60,
+      "stratId": "sE",
+      "entryPrice": 25.56,
+      "entryTime": 1795361747393,
+      "entryDate": "2026-11-22T15:35:47.393Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=21.9772 > EMA21=21.5873 · RSI=61 · Vol x1.0",
+      "strength": 80,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    }
+  ],
   "closedTrades": [
     {
       "id": "NIGHT_sE_1794403548403",
@@ -11262,15 +11280,15 @@
     "RAY_sM": 1791559244647,
     "ATOM_sM": 1791933398847,
     "APT_sM": 1791911188588,
-    "VVV_sE": 1792865236788,
+    "VVV_sE": 1795361747393,
     "XDC_sE": 1793411958301,
     "PEPE_sM": 1793391610773,
     "TRX_sM": 1793418843948,
     "U_sE": 1794462955291
   },
-  "scanCount": 3014,
+  "scanCount": 3015,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-22T13:55:54.321Z",
+  "lastScan": "2026-11-22T15:36:03.275Z",
   "lastReport": "2026-11-22T13:55:54.321Z",
   "marketRegime": "BEAR",
   "fearGreed": 11,
