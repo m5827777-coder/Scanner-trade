@@ -11303,9 +11303,9 @@
     "TRX_sM": 1793418843948,
     "U_sE": 1794462955291
   },
-  "scanCount": 3030,
+  "scanCount": 3031,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-25T16:40:22.266Z",
+  "lastScan": "2026-11-25T19:14:36.927Z",
   "lastReport": "2026-11-25T16:40:22.266Z",
   "marketRegime": "BEAR",
   "fearGreed": 13,
@@ -11420,5 +11420,5 @@
       }
     }
   },
-  "btcDominance": 57.7
+  "btcDominance": 57.8
 }
