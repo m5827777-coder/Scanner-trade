@@ -18,6 +18,25 @@
       "peakPnl": 0
     },
     {
+      "id": "VVV_sM_1795690319475",
+      "symbol": "VVV",
+      "name": "Venice Token",
+      "coinId": "venice-token",
+      "rank": 56,
+      "stratId": "sM",
+      "entryPrice": 27.42,
+      "entryTime": 1795690319475,
+      "entryDate": "2026-11-26T10:51:59.475Z",
+      "entrySignal": "Пробой 20d max $27.0600 на +1.3% · Объём x3.3 · RSI=64",
+      "strength": 87,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "OKX",
+      "peakPnl": 0
+    }
+  ],
+  "closedTrades": [
+    {
       "id": "VVV_sE_1795656455356",
       "symbol": "VVV",
       "name": "Venice Token",
@@ -29,13 +48,17 @@
       "entryDate": "2026-11-26T01:27:35.356Z",
       "entrySignal": "Golden Cross 4д назад · EMA9=24.7740 > EMA21=23.1103 · RSI=69 · Vol x2.0",
       "strength": 84,
-      "regime": "BULL_TREND",
+      "regime": "BEAR",
       "size": 100,
       "src": "OKX",
-      "peakPnl": 0
-    }
-  ],
-  "closedTrades": [
+      "peakPnl": 0,
+      "exitPrice": 27.42,
+      "exitTime": 1795690298697,
+      "exitReason": "🛑 SL -6%",
+      "pnl": -8.873379860418739,
+      "pnlUsd": -8.873379860418739,
+      "total": 91.12662013958126
+    },
     {
       "id": "VVV_sE_1795361747393",
       "symbol": "VVV",
@@ -11320,24 +11343,25 @@
     "RAY_sM": 1791559244647,
     "ATOM_sM": 1791933398847,
     "APT_sM": 1791911188588,
-    "VVV_sE": 1795656455356,
+    "VVV_sE": 1795769498697,
     "XDC_sE": 1793411958301,
     "PEPE_sM": 1793391610773,
     "TRX_sM": 1793418843948,
-    "U_sE": 1794462955291
+    "U_sE": 1794462955291,
+    "VVV_sM": 1795690319475
   },
-  "scanCount": 3033,
+  "scanCount": 3034,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-26T02:12:52.444Z",
-  "lastReport": "2026-11-26T01:27:54.990Z",
+  "lastScan": "2026-11-26T10:52:17.180Z",
+  "lastReport": "2026-11-26T10:52:17.180Z",
   "marketRegime": "BEAR",
   "fearGreed": 11,
   "totalStats": {
-    "trades": 484,
+    "trades": 485,
     "wins": 159,
-    "losses": 325,
-    "totalPnl": 93.86408920837312,
-    "invested": 48400
+    "losses": 326,
+    "totalPnl": 84.99070934795438,
+    "invested": 48500
   },
   "byStrategy": {
     "sR": {
@@ -11346,9 +11370,9 @@
       "pnl": -71.410884298642
     },
     "sE": {
-      "trades": 270,
+      "trades": 271,
       "wins": 84,
-      "pnl": 157.69621384437923
+      "pnl": 148.8228339839605
     },
     "sM": {
       "trades": 84,
@@ -11403,9 +11427,9 @@
         "pnl": -54.4342463436583
       },
       "sE": {
-        "trades": 64,
+        "trades": 65,
         "wins": 13,
-        "pnl": -139.8190518611348
+        "pnl": -148.69243172155353
       }
     },
     "BEAR_TREND": {
@@ -11443,5 +11467,5 @@
       }
     }
   },
-  "btcDominance": 57.9
+  "btcDominance": 58.7
 }
