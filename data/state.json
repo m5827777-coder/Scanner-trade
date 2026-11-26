@@ -11350,9 +11350,9 @@
     "U_sE": 1794462955291,
     "VVV_sM": 1795690319475
   },
-  "scanCount": 3035,
+  "scanCount": 3036,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-26T16:14:13.640Z",
+  "lastScan": "2026-11-26T19:52:56.756Z",
   "lastReport": "2026-11-26T16:14:13.640Z",
   "marketRegime": "BEAR",
   "fearGreed": 11,
@@ -11467,5 +11467,5 @@
       }
     }
   },
-  "btcDominance": 58
+  "btcDominance": 57.9
 }
