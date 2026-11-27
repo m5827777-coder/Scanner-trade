@@ -144,12 +144,19 @@ const STRATEGIES = {
         rsiMax:       p.rsiMax     ?? 85,
         volMin:       p.volMin     ?? 1.0,  // объём >= среднего
         rsiExitAt:    p.rsiExitAt  ?? 88,
+        btcRegimes:   p.btcRegimes ?? null, // режимы BTC, в которых разрешён вход (null = любые)
       };
     },
 
     checkEntry(bars, params = {}) {
       const p = this.getParams(params.sE || params);
       if (!bars || bars.length < 30) return null;
+
+      // 0. Только при бычьем BTC — в NEUTRAL/BEAR EMA Cross исторически убыточна
+      const globalRegime = params._globalRegime || '';
+      if (p.btcRegimes && globalRegime && !p.btcRegimes.includes(globalRegime)) {
+        return { signal: false, extra: `BTC режим ${globalRegime} — EMA Cross выключена` };
+      }
 
       const closes = bars.map(b => b.close);
       const vols   = bars.map(b => b.volume);
@@ -304,12 +311,18 @@ const STRATEGIES = {
         volMin:       p.volMin      ?? 1.5, // объём >= 150% от среднего
         rsiExitAt:    p.rsiExitAt   ?? 90,
         trailingPct:  p.trailingPct ?? 6,   // trailing stop от пика
+        maxRank:      p.maxRank     ?? 999, // только топ-N по капитализации
       };
     },
 
     checkEntry(bars, params = {}) {
       const p = this.getParams(params.sM || params);
       if (!bars || bars.length < p.lookback + 5) return null;
+
+      const rank = params._rank ?? 999;
+      if (rank > p.maxRank) {
+        return { signal: false, extra: `Rank #${rank} > ${p.maxRank} — пробои вне топа слабее` };
+      }
 
       const closes = bars.map(b => b.close);
       const highs  = bars.map(b => b.high);

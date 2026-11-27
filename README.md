@@ -1,6 +1,6 @@
 # 🤖 Autonomous Paper Trading Bot
 
-Работает через **GitHub Actions** — без компьютера, 24/7, каждые 15 минут.
+Работает через **GitHub Actions** — без компьютера, 24/7, каждые 30 минут.
 
 ---
 
@@ -9,7 +9,7 @@
 ### 1. Создать репозиторий на GitHub
 Новый репо → загрузить все файлы из этого архива.
 
-### 2. Добавить один Secret для email (Settings → Secrets → Actions)
+### 2. Добавить секреты для email (Settings → Secrets → Actions)
 
 | Secret | Значение |
 |--------|----------|
@@ -30,14 +30,19 @@ Actions → "🤖 Trading Bot" → "Run workflow" → action: `scan`
 
 ---
 
-## Что уже настроено (не нужно менять)
+## Секреты (Settings → Secrets → Actions)
 
-- **Telegram Token:** `8656633074:AAF_wY9b4iENW6HJ0HvZE2Ir-YHmmdCl16Y`
-- **Telegram Chat ID:** `73400175`
-- **Email:** `m5827777@gmail.com`
+| Secret | Значение |
+|--------|----------|
+| `TG_TOKEN` | токен Telegram-бота от @BotFather |
+| `TG_CHAT_ID` | chat ID, куда слать сигналы |
+| `EMAIL_TO` | адрес для 6-часового отчёта |
+| `GMAIL_USER`, `GMAIL_APP_PASS` | отправитель отчёта |
+
+Токены и ID храните только в секретах, не в файлах репозитория.
+
 - **Размер позиции:** $100/сделка (paper trading)
-- **Мин. удержание:** 0 (торгует мгновенно)
-- **Cooldown:** 60 минут per токен+стратегия
+- **Cooldown:** 120 минут per токен+стратегия, 24 часа после стоп-лосса
 
 ---
 
@@ -45,8 +50,10 @@ Actions → "🤖 Trading Bot" → "Run workflow" → action: `scan`
 
 | Когда | Что делает |
 |-------|-----------|
-| Каждые 15 мин | Сканирует 40 токенов, входит/выходит |
-| Каждые 6 часов | Отправляет email отчёт на m5827777@gmail.com |
+| Каждые 30 мин | Сканирует топ-100 CoinGecko, входит/выходит |
+| Раз в 6 часов | Отправляет email отчёт (из обычного скана) |
+
+GitHub может запускать cron реже, чем указано. SL/TP проверяются по high/low дневной свечи с прошлого скана, поэтому редкие запуски не дают проскальзывания стопов.
 
 ---
 
@@ -61,17 +68,19 @@ Actions → "🤖 Trading Bot" → "Run workflow" → action: `scan`
 
 ---
 
-## 7 Стратегий
+## Стратегии (v8)
 
-| # | Стратегия | TP | SL | Лучший режим |
-|---|-----------|----|----|-------------|
-| S1 | RSI Bounce | +20% | -8% | BULL_TREND, RANGE |
-| S3 | Buyback Dip | +18% | -10% | BULL_TREND, BULL |
-| S5 | Volume Spike | +15% | -8% | BULL_TREND, BULL |
-| S6 | Funding Contrarian | +25% | -6% | BULL, BULL_TREND |
-| S7 | EMA Cross 9/21 | +30% | -8% | BULL_TREND, BULL |
-| S8 | MACD Divergence | +35% | -9% | BULL, RANGE |
-| S9 | BB Squeeze | +22% | -7% | RANGE, BULL |
+Активные стратегии задаются в `bot/params.json` → `global.strategies`.
+
+| ID | Стратегия | TP | SL | Фильтры |
+|----|-----------|----|----|---------|
+| sE | EMA Cross 9/21 | +15% | -6% | BTC в BULL / BULL_TREND, RSI 55–75 |
+| sM | Momentum Breakout (пробой 20d max) | +25% | -7% | топ-20 по капитализации, трейлинг 6% от пика |
+| sR | Altcoin Rotation (выключена) | +12% | -5% | BTC Dom ≤ 59% |
+
+Общие выходы для всех позиций:
+- безубыток: после пика +8% выходим, если цена откатила до +0.5%;
+- тайм-стоп: через 14 дней, если позиция не дала +5%.
 
 ---
 
