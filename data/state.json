@@ -11350,12 +11350,12 @@
     "U_sE": 1794462955291,
     "VVV_sM": 1795690319475
   },
-  "scanCount": 3036,
+  "scanCount": 3037,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-26T19:52:56.756Z",
-  "lastReport": "2026-11-26T16:14:13.640Z",
+  "lastScan": "2026-11-27T01:25:03.105Z",
+  "lastReport": "2026-11-27T01:25:03.105Z",
   "marketRegime": "BEAR",
-  "fearGreed": 11,
+  "fearGreed": 12,
   "totalStats": {
     "trades": 485,
     "wins": 159,
