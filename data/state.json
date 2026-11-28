@@ -16,6 +16,23 @@
       "size": 100,
       "src": "OKX",
       "peakPnl": 0
+    },
+    {
+      "id": "BTW_sE_1795862345689",
+      "symbol": "BTW",
+      "name": "Bitway",
+      "coinId": "bitway",
+      "rank": 37,
+      "stratId": "sE",
+      "entryPrice": 1.4544315166744712,
+      "entryTime": 1795862345689,
+      "entryDate": "2026-11-28T10:39:05.689Z",
+      "entrySignal": "Golden Cross сегодня · EMA9=0.9889 > EMA21=0.9419 · RSI=64 · Vol x2.8",
+      "strength": 92,
+      "regime": "BULL_TREND",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0
     }
   ],
   "closedTrades": [
@@ -11354,12 +11371,13 @@
     "PEPE_sM": 1793391610773,
     "TRX_sM": 1793418843948,
     "U_sE": 1794462955291,
-    "VVV_sM": 1795690319475
+    "VVV_sM": 1795690319475,
+    "BTW_sE": 1795862345690
   },
-  "scanCount": 3043,
+  "scanCount": 3044,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-28T02:23:52.601Z",
-  "lastReport": "2026-11-28T00:58:19.147Z",
+  "lastScan": "2026-11-28T10:39:29.858Z",
+  "lastReport": "2026-11-28T10:39:29.858Z",
   "marketRegime": "BEAR",
   "fearGreed": 10,
   "totalStats": {
@@ -11473,5 +11491,5 @@
       }
     }
   },
-  "btcDominance": 57.8
+  "btcDominance": 57.7
 }
