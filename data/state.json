@@ -1,23 +1,6 @@
 {
   "openPositions": [
     {
-      "id": "FIGR_HELOC_sE_1795567460838",
-      "symbol": "FIGR_HELOC",
-      "name": "Figure Heloc",
-      "coinId": "figure-heloc",
-      "rank": 9,
-      "stratId": "sE",
-      "entryPrice": 1.042428853387984,
-      "entryTime": 1795567460838,
-      "entryDate": "2026-11-25T00:44:20.838Z",
-      "entrySignal": "Golden Cross 2д назад · EMA9=1.0349 > EMA21=1.0327 · RSI=52 · Vol x5.0",
-      "strength": 81,
-      "regime": "NEUTRAL",
-      "size": 100,
-      "src": "CoinGecko",
-      "peakPnl": 0
-    },
-    {
       "id": "VVV_sM_1795690319475",
       "symbol": "VVV",
       "name": "Venice Token",
@@ -36,6 +19,29 @@
     }
   ],
   "closedTrades": [
+    {
+      "id": "FIGR_HELOC_sE_1795567460838",
+      "symbol": "FIGR_HELOC",
+      "name": "Figure Heloc",
+      "coinId": "figure-heloc",
+      "rank": 9,
+      "stratId": "sE",
+      "entryPrice": 1.042428853387984,
+      "entryTime": 1795567460838,
+      "entryDate": "2026-11-25T00:44:20.838Z",
+      "entrySignal": "Golden Cross 2д назад · EMA9=1.0349 > EMA21=1.0327 · RSI=52 · Vol x5.0",
+      "strength": 81,
+      "regime": "BEAR",
+      "size": 100,
+      "src": "CoinGecko",
+      "peakPnl": 0,
+      "exitPrice": 1.0052937966003161,
+      "exitTime": 1795827466683,
+      "exitReason": "📉 Death Cross EMA9<EMA21",
+      "pnl": -3.562358876289319,
+      "pnlUsd": -3.562358876289319,
+      "total": 96.43764112371068
+    },
     {
       "id": "VVV_sE_1795656455356",
       "symbol": "VVV",
@@ -11350,18 +11356,18 @@
     "U_sE": 1794462955291,
     "VVV_sM": 1795690319475
   },
-  "scanCount": 3041,
+  "scanCount": 3042,
   "startedAt": "2026-05-13T20:50:15.486Z",
-  "lastScan": "2026-11-27T19:55:37.127Z",
-  "lastReport": "2026-11-27T15:59:10.132Z",
+  "lastScan": "2026-11-28T00:58:19.147Z",
+  "lastReport": "2026-11-28T00:58:19.147Z",
   "marketRegime": "BEAR",
-  "fearGreed": 12,
+  "fearGreed": 10,
   "totalStats": {
-    "trades": 485,
+    "trades": 486,
     "wins": 159,
-    "losses": 326,
-    "totalPnl": 84.99070934795438,
-    "invested": 48500
+    "losses": 327,
+    "totalPnl": 81.42835047166506,
+    "invested": 48600
   },
   "byStrategy": {
     "sR": {
@@ -11370,9 +11376,9 @@
       "pnl": -71.410884298642
     },
     "sE": {
-      "trades": 271,
+      "trades": 272,
       "wins": 84,
-      "pnl": 148.8228339839605
+      "pnl": 145.26047510767117
     },
     "sM": {
       "trades": 84,
@@ -11427,9 +11433,9 @@
         "pnl": -54.4342463436583
       },
       "sE": {
-        "trades": 65,
+        "trades": 66,
         "wins": 13,
-        "pnl": -148.69243172155353
+        "pnl": -152.25479059784286
       }
     },
     "BEAR_TREND": {
@@ -11467,5 +11473,5 @@
       }
     }
   },
-  "btcDominance": 57.7
+  "btcDominance": 57.8
 }
